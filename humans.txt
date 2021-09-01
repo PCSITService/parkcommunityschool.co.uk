@@ -1,0 +1,12 @@
+/* TEAM */
+Developer: Steven Smith
+Twitter: @LivingDead1989
+Location: Hampshire, England
+
+/* THANKS */
+Name: Phillip Warren
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: ZURB Foundation, Modernizr, JQuery, PHP5, Font Awesome
+Software: Atom, Sublime Text 3
