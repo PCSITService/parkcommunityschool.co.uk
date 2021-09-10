@@ -39,10 +39,18 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+      <li>
+        <h4>Cafe / Mobile Coffee Assistant (Tea Rooms at The Coach House)</h4>  
+        <p><em>Closing Date: Open date</em></p>
 
-     
-        <hr>
-         <li>
+        <span class="subheader">
+        <a href="assets/recruitment/cafe.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+
+      <hr>
+
+      <li>
         <h4>Chef De Partie</h4>  
         <p><em>Closing Date: Friday 1st October 2021</em></p>
 
