@@ -40,21 +40,14 @@
         </span>
       </li>-->
 
-       <li>
-        <h4>Position - Theatre Technician</h4>  
-        <p><em>Closing Date: Friday, 30th August 2021 </em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/theatre.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
+     
         <hr>
          <li>
-        <h4>Position - Lorry Driver</h4>  
-        <p><em>Closing Date: Friday, 30th August 2021 </em></p>
+        <h4>Chef De Partie</h4>  
+        <p><em>Closing Date: Friday 1st October 2021</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/lorry-driver.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/chefdepartie.pdf" target="_blank">Position Details</a>
         </span>
       </li>
        
