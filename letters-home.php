@@ -25,6 +25,11 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
+                 <li>
+                    <ul class="circle">September 2021<hr>
+                        <li><a href="/assets/letters/2021-09/year-7-trips-22-23-sept.pdf" target="_blank">Year 7 Trips 22nd & 23 September</a></li>
+                    </ul>
+                <li>
                 <li>
                     <ul class="circle">August 2021<hr>
                         <li><a href="/assets/letters/2021-08/GCSE-2021-results.pdf" target="_blank">GCSE Results Information</a></li>
