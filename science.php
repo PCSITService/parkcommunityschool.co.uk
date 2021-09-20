@@ -56,6 +56,7 @@
             <br>
             <div class="text-center">
                 <a role="button" target="_blank" href="assets/curriculum/science/curriculum_map.pdf" class="button">Curriculum Map</a>
+                <a role="button" target="_blank" href="assets/curriculum/science/science-handbook.pdf" class="button">Handbook</a>
             </div>
             
             <h3>Subject Content</h3>
