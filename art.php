@@ -67,6 +67,8 @@
                         <a role="button" target="_blank" href="assets/curriculum/art/year-11-art-design.pdf" class="button">Year 11</a>
                         <a role="button" target="_blank" href="assets/curriculum/art/art-design-assessment-policy.pdf" class="button">Assesment Policy</a>
                         <a role="button" target="_blank" href="assets/curriculum/art/learning-journey.pdf" class="button">Learning Journey</a>
+                        <a role="button" target="_blank" href="assets/curriculum/art/art-handbook.pdf" class="button">Handbook</a>
+                        <a role="button" target="_blank" href="assets/curriculum/art/curriculum-overview.pdf" class="button">Curriculum Overview</a>
                     </div>
             <br>
         </div>
