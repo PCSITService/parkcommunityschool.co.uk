@@ -36,20 +36,26 @@
             <p>SMSC is at the heart of life at Park. It requires students to think about the kind of people they aspire to be, the kind of futures they aspire to build for themselves and the kind of world they aspire to create.</p>
 
             <h3>Aims</h3>
-           <p>To prepare students positively for life in modern Britain and promote the fundamental British values of democracy, the rule of law, individual liberty and mutual respect for and tolerance of those with different faiths and beliefs and for those without faith. Enabling students to develop their self-knowledge, self-esteem and self-confidence and ability to make good choices. While also encouraging students to accept responsibility for their behaviour, show initiative, and to understand how they can contribute positively to the lives of those living and working locally and to society at large.</p>
+           <p>To prepare students positively for life in modern Britain, through the promotion of British values, diversity, equality and tolerance of those with different faiths, beliefs and life choices. We also aim to enable students to develop their self knowledge, self esteem and self confidence while giving them the ability to make good life choices and also encouraging them to accept responsibility for their behaviour, it’s consequences, and how they can contribute to the wider world. The programme also covers the 65 elements of the statutory RSE curriculum to ensure pupils are fully prepared to positively manage their relationship choices both within and beyond their time in school.</p>
 
             <h3>Areas of Study</h3>
-            <p>Our approach to SMSC is divided into 5 main areas of study:</p>
+            <p>Our approach to SMSC is divided into 3 main areas of study:</p>
             <ul>
-                <li>Britishness and Culture [including Citizenship], </li>
-                <li>Careers and Enterprise [including Information, Advice and Guidance], - <a href="assets/curriculum/smsc/overview_ceiag.pdf">Overview of CEIAG per year</a></li>
-                <li>Health and Well-being, </li>
-                <li>Relationships and Sex Education, - <a href="assets/curriculum/smsc/learning_journey_rse.pdf">The Learning Journey</a></li>
-                <li>Religious Studies</li>
+                <li>Body and Mind - Which includes: Wellbeing, health, self care, mental health, the dangers of drugs and alcohol, keeping yourself safe</li>
+                <li>Relationships - Which includes: Sexual and non sexual relationships, coping with those relationships, consent, coercion, sexual health</li>
+                <li>Being a global citizen - Careers, British values, cultural awareness, racism, homophobia, e safety</li>
             </ul>
+            <ul>
+            <li>Religious Studies - which is taught in discrete lessons</li>
+            </ul>
+
             <p>These areas are underpinned by our work as a Rights Respecting School – In a Rights Respecting School the students have an opportunity to learn about the United Nations Convention on the Rights of the Child through House assemblies and student-led groups. As a Rights Respecting School we not only teach our students about children’s rights but we also model rights and respect in all our relationships between staff, staff and students, and between students.</p>
 
             <p><strong>‘More Than just a school;’ An expansive curriculum</strong></p>
+
+            <div class="text-center">
+                        <img src="assets/curriculum/science/expansive-curriculum-overview.jpg" alt="Expansive Curriculum">
+                    </div>
 
 
             <p><strong>Assemblies</strong> – At Park Community school we have weekly school, year and House assemblies where students gather together for a common purpose. A wide variety of areas are covered which are closely matched in content to different areas of the curriculum. There are common termly themes throughout the year which are underpinned by specific local, British or worldwide celebration and awareness days. This means that there is a coherence to the delivery of SMSC across the school as a community.</p>
@@ -111,6 +117,9 @@
 
             <h4>SMSC Implementation Map</h4>
             <p><a href="assets/curriculum/smsc.pdf">Our SMSC curriculum - 2019/20</a>.</p>
+
+            <h4>SMSC Half Termly Planning</h4>
+            <p><a href="assets/curriculum/half-termly-planning.pdf">Half Termly Planning Grids</a>.</p>
             <p>SMSC explores many issues that are of interest to parents. Helpful sources of support for parents can be found at the following links:</p>
             <ul>
                 <li><a target="_blank" href="//hampshirecamhs.nhs.uk">https://hampshirecamhs.nhs.uk/</a></li>
