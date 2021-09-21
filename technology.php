@@ -57,6 +57,7 @@
                         <a role="button" target="_blank" href="assets/curriculum/technology/y9_hospitality_catering_curriculum.pdf" class="button">Year Year 9 Hospitality & Catering</a>
                         <a role="button" target="_blank" href="assets/curriculum/technology/y10_art_design_3d_design_curriculum.pdf" class="button">Year 10 Art/3D Design</a>
                         <a role="button" target="_blank" href="assets/curriculum/technology/y10_hospitality_catering_curriculum.pdf" class="button">Year 10 Hospitality & Catering</a>
+                        <a role="button" target="_blank" href="assets/curriculum/technology/dt-handbook.pdf" class="button">Handbook</a>
             </div>
 
 			<h3>Year 7 Design and Technology transition curriculum </h3>
