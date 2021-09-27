@@ -27,6 +27,9 @@
         <p>Any forms that you may require can be found below, please feel free to download and complete these forms, making sure to sign and date before handing into Park Community School Reception.</p>
         <br>
             <ul class="small-block-grid-1">
+                <li><a href="assets/forms/covid-consent-form.pdf" target="_blank">COVID Consent Form</a></li>
+                <li><a href="assets/forms/covid-guide.pdf" target="_blank">COVID Guide</a></li>
+                <li><a href="assets/forms/covid-checlist.pdf" target="_blank">COVID Checklist</a></li>
                 <li><a href="assets/forms/combined_consent.doc" target="_blank">Consent Form for Images, Biometrics, Internet Access and School Trips</a></li>
                 <li><a href="assets/forms/consent_withdraw.pdf" target="_blank">Consent Withdraw Form</a></li>
                 <li><a href="assets/forms/consent_form_guests.doc" target="_blank">Educational Visit Information and Consent Form Guests</a></li>
