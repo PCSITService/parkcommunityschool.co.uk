@@ -76,6 +76,15 @@
         <a href="assets/recruitment/wsg.pdf" target="_blank">Position Details</a>
         </span>
       </li>
+
+      <li>
+        <h4>Teacher of PE (Maternity Cover)</h4>  
+        <p><em>Closing Date: Friday 11th October 2021</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/pe-maternity.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
        
       
 			 			 

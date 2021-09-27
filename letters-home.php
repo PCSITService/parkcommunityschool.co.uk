@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                  <li>
                     <ul class="circle">September 2021<hr>
+                        <li><a href="/assets/letters/2021-09/c5-detention.pdf" target="_blank">C5 Detentions</a></li>
                         <li><a href="/assets/letters/2021-09/year7-homework.pdf" target="_blank">Year 7 Homework</a></li>
                         <li><a href="/assets/letters/2021-09/newsletter-17-09.pdf" target="_blank">Newsletter - 17th September 2021</a></li>
                         <li><a href="/assets/letters/2021-09/year-7-trips-22-23-sept.pdf" target="_blank">Year 7 Trips 22nd & 23 September</a></li>
