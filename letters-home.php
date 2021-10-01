@@ -25,14 +25,10 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
-                <li>
-                    <ul class="circle">October 2021<hr>
-                        <li><a href="/assets/letters/2021-10/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
-                    </ul>
-                <li>
                  <li>
                     <ul class="circle">September 2021<hr>
-                        <li><a href="/assets/letters/2021-09/parent-leaflet.pdf" target="_blank">COVID Leaflet</a></li>
+                        <li><a href="/assets/letters/2021-09/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
+                        <li><a href="/assets/letters/2021-09/parent-leaflet.pdf" target="_blank">COVID-19 Vaccination Programme - Parent Guide</a></li>
                         <li><a href="/assets/letters/2021-09/c5-detentions.pdf" target="_blank">C5 Detentions</a></li>
                         <li><a href="/assets/letters/2021-09/year7-homework.pdf" target="_blank">Year 7 Homework</a></li>
                         <li><a href="/assets/letters/2021-09/newsletter-17-09.pdf" target="_blank">Newsletter - 17th September 2021</a></li>
