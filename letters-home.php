@@ -27,7 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">October 2021<hr>
-                        <li><a href="/assets/letters/2021-09/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
+                        <li><a href="/assets/letters/2021-10/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
                     </ul>
                 <li>
                  <li>
