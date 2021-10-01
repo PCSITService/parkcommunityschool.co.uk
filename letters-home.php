@@ -25,6 +25,11 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
+                <li>
+                    <ul class="circle">October 2021<hr>
+                        <li><a href="/assets/letters/2021-09/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
+                    </ul>
+                <li>
                  <li>
                     <ul class="circle">September 2021<hr>
                         <li><a href="/assets/letters/2021-09/parent-leaflet.pdf" target="_blank">COVID Leaflet</a></li>
