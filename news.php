@@ -33,7 +33,7 @@
         <br>
         <div id="park-post" class="medium-12 columns">
             <h3>News Articles</h3>
-            <p>Below are some intresting News Articles</p>
+            <p>Below are some interesting News Articles</p>
 
             <div class="flex-video widescreen border-radius-5">
                     <iframe src="https://player.vimeo.com/video/515253878" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
