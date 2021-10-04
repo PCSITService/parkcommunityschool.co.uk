@@ -51,15 +51,6 @@
       <hr>
 
       <li>
-        <h4>Chef De Partie</h4>  
-        <p><em>Closing Date: Friday 1st October 2021</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/chefdepartie.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-
-      <li>
         <h4>Cover Supervisor</h4>  
         <p><em>Closing Date: Friday 11th October 2021</em></p>
 
