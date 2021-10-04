@@ -66,7 +66,7 @@
     </div>
 </header>
 
-<!-- NOTIFICATION -->
+<!-- NOTIFICATION
 <section class="page-notification">
   <div class="row">
     <div class="columns">
@@ -74,7 +74,7 @@
     </div>
   </div>
 </section>
-<!-- END NOTIFICATION -->
+END NOTIFICATION -->
 
 
 <!-- BUTTONS -->
