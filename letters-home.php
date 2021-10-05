@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">October 2021<hr>
+                        <li><a href="/assets/letters/2021-10/parent-surgery.pdf" target="_blank">Parent Surgery</a></li>
                         <li><a href="/assets/letters/2021-10/newsletter-01-10.pdf" target="_blank">Newsletter - 1st October 2021</a></li>
                     </ul>
                  <li>
