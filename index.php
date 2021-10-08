@@ -66,15 +66,15 @@
     </div>
 </header>
 
-<!-- NOTIFICATION
+NOTIFICATION
 <section class="page-notification">
   <div class="row">
     <div class="columns">
-        <p><a href="#" style="color: #474747; text-decoration: underline;">Open Evening, Wednesday 29th September 18:00-20:00</a></p> 
+        <p><a href="https://parkc.schoolcloud.co.uk/" style="color: #474747; text-decoration: underline;">Year 7 and 11 Parents Evening, Thursday, 14th October</a></p> 
     </div>
   </div>
 </section>
-END NOTIFICATION -->
+END NOTIFICATION
 
 
 <!-- BUTTONS -->
