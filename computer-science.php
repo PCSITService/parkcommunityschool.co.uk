@@ -29,59 +29,55 @@
             <div class="row">
                 <div class="large-12 columns">
                 	<h3>Intent</h3>
-                    <p>Computing sits at the cornerstone of the modern world, affecting the way we communicate and work as it encompasses Digital Literacy, IT and Computer Science. With this in mind our curriculum offers a pathway for our students to explore the use of applications and the creation of software to solve complex real-world problems through the use of algorithmic thinking, which consists of abstraction, decomposition and pattern recognition. Our focus is to develop confident independent learners who can apply thinking and reasoning skills developed in computing and other iStem subjects across the curriculum.</p>
-                    <p>We aim to develop competent students who are able to express themselves using a variety of applications and problem-solving techniques which allows them to tackle challenging problems related to business and the communication of data. To achieve this, students must master a number of applications including the ability to decompose a problem into smaller more manageable tasks through the use of abstraction to clarify the important details contained in a specification brief. In order to master these skills students are exposed to familiar and unfamiliar contexts which require the application of critical thinking skills to simplify computable problems. Due to the crossover between Maths and Computer Science students will be encouraged to make use of mathematical formulae when they develop software solutions as well as the use of algebra to develop and test programming concepts.</p>
+                    <p>Computing sits at the cornerstone of the modern world, affecting the way we communicate and work as it encompasses Digital Literacy, IT and Computer Science. Our curriculum offers a pathway for our students to explore the use of applications and the creation of software to solve complex real-world problems using algorithmic thinking, which consists of abstraction, decomposition, and pattern recognition. Our focus is to develop confident independent learners who can apply thinking and reasoning skills developed in computing and other iStem subjects across the curriculum.</p>
+                    <p>We aim to develop competent students who can express themselves using a variety of applications and problem-solving techniques which allows them to tackle challenging problems related to business and the communication of data. To achieve this, students must master several applications including the ability to decompose a problem into smaller more manageable tasks using abstraction to clarify the important details contained in a specification brief. To master these skills students are exposed to familiar and unfamiliar contexts which require the application of critical thinking skills to simplify computable problems. Due to the crossover between Maths and Computer Science students will be encouraged to make use of mathematical formulae when they develop software solutions as well as the use of algebra to develop and test programming concepts.</p>
 
 					<h3>Implementation</h3>
+
+					<div class="text-center">
+                        <img src="images/computer-science/cs-progression-map.jpg" alt="Computer Science Progression Map">
+                    </div>
+
 					<h4>Year 7</h4>
-					<p>n year 7 students will develop their skills and knowledge of a range of software which will allow them to be creative and prepare them for further study.</p>
+					<p>In year 7 students will develop their skills and knowledge of a range of software which will allow them to be creative and prepare them for further study.</p>
 					<p>The curriculum includes opportunities to:</p>
 						<ul>
-							<li>Explore e-safety and gain an understanding of measure to protect personal data</li>
-							<li>Experience cloud technologies used in the work place such as Microsoft Office and OneDrive</li>
-							<li>Investigate computer systems and learn how the hardware functions</li>
-							<li>Develop their knowledge of HTML the language behind the world wide web</li>
-							<li>Acquire problem solving skills through programming challenges</li>
-							<li>Learn how to handle technology purposefully and respectfully</li>
+							<li>Understanding the rules of the computer lab and how to Collaborate online respectfully</li>
+							<li>The History of Networks and the Internet</li>
+							<li>Using Media Software to create a Blog</li>
+							<li>Introduction to Scratch Programming </li>
+							<li>Using Scratch to solve a real-world problem </li>
+							<li>Model Data using Excel </li>
 						</ul>
 					<br>
-					<div class="text-center">
-						<a role="button" target="_blank" href="assets/curriculum/computer-science/yr7-roadmap.pdf" class="button">Year 7 Curriculum Road Map</a>
-					</div>
-					<br>
-
+					
 					<h4>Year 8</h4>
 					<p>Through Year 8 students will deepen their knowledge and proficiency of computing by:</p>
 						<ul>
-							<li>Learning to challenge and investigate what is shared online</li>
-							<li>Understand the need for copyright</li>
-							<li>Begin to appreciate binary, the language at the heart of computers which builds on their hardware knowledge</li>
-							<li>Engage in creative problem-solving using flow diagrams and Python programming</li>
-							<li>Extend their knowledge of HTML and methods of managing online content</li>
+							<li>Designing Vector Graphics using Media Software</li>
+							<li>Develop a strong understandings of Computing Systems </li>
+							<li>Create a Webpage using HTML CSS and JavaScript</li>
+							<li>The developments of Computers: from Clat to Silicon</li>
+							<li>Developing Mobile Apps using specialist software</li>
+							<li>Introduction to Python Programming</li>
 						</ul>
 					<br>
-					<div class="text-center">
-						<a role="button" target="_blank" href="assets/curriculum/computer-science/yr8-roadmap.pdf" class="button">Year 8 Curriculum Road Map</a>
-					</div>
-					<br>
-
+					
 					<h4>Year 9</h4>
 					<p>The areas of study for this year builds on prior learning in years 7 & 8 and constructs the foundations for further study at GCSE through:</p>
 						<ul>
-							<li>Enhancing problem solving strategies through challenging programming projects</li>
-							<li>Investigating the history of computing and the impact of technology on society</li>
-							<li>Exploring how computer networks allow for communication and collaboration</li>
-							<li>Deepen the skills and knowledge required to communicate via HTML and JavaScript, which many businesses state is a skill they want in employees</li>
-							<li>Games design through project based learning and application of critical thinking whilst assessing the needs of users</li>
+							<li>Developing a mini project using Python</li>
+							<li>Creating 3D animations using industry standard software </li>
+							<li>Using data to investigate real world problems, identifying trends and patterns</li>
+							<li>Discover the binary digits that lie beneath Audio and Visual</li>
+							<li>Developing an understanding of Cyber Threats and how to protect networks</li>
+							<li>Building your own Physical Computing Project using BBC Micro:Bit</li>
 						</ul>
-					<br>
-					<div class="text-center">
-						<a role="button" target="_blank" href="assets/curriculum/computer-science/yr9-roadmap.pdf" class="button">Year 9 Curriculum Road Map</a>
-					</div>
+					
 					<br>
 
-					<h3>GCSE Computer Science</h3>
-					<p>Computer Science is a highly creative subject that calls on learners to be inventive. To help us develop this engaging, modern qualification, we talked to companies like Microsoft, Google and Cisco; organisations like Computing at School (CAS) and also teachers and other academics.</p>
+					<h3>GCSE</h3>
+					<p>Computer Science is a highly creative subject that calls on learners to be inventive. To help us develop this engaging, modern qualification, we talked to companies like Microsoft, Google, and Cisco; organisations like Computing at School (CAS) and teachers and other academics.</p>
 
 					<p>At GCSE our students will follow the OCR Specification which explores a range of concepts which aims to equip and prepare candidates to complete programming projects with an awareness of the technologies that support their creation. This is achieved through two strands, Computer Systems and Computational Thinking.</p>
 
@@ -107,7 +103,7 @@
 						</ul>
 
 
-					<h3>What will a student gain from this course? </h3>
+					<h3>Key Skills Gained on this Course</h3>
 						<ul>
 							<li>Valuable thinking and programming skills that are extremely attractive in the modern workplace</li>
 							<li>A deep understanding of problem solving and experience in creating logical and efficient solutions</li>
@@ -117,25 +113,12 @@
 
 
 
-					<h3>What could your child do next?</h3>
-					<p>Our GCSE (9-1) Computer Science is effective preparation for a range of qualifications including:</p>
-						<ul>
-							<li>AS Level Computer Science.</li>
-							<li>A Level Computer Science.</li>
-							<li>Cambridge Technicals – IT Level 3 or Digital Media Level 3 </li>
-						</ul>
-					<p>(these are OCR vocational qualifications that offer an alternative to A levels for students aged 16+).</p>
-					<p>It also provides a good grounding for other subject areas that require problem solving and analytical skills.</p>
-
-
-
-					<h3>What Careers could a GCSE in Computer Science lead to?</h3>
-					<p>There are many different careers that our qualifications could help students move towards.</p>
-					<p>Here are some examples of sample career paths:</p>
+					<h3>Where to Next?</h3>
+					<p>There are many Different careers that our qualifications could help students move towards. Below are some examples of possible career paths:</p>
 						<ul>
 							<li>Data Analyst</li>
 							<li>Games Developer</li>
-							<li>Networks Manager</li>
+							<li>Network Manager</li>
 							<li>Software Architect</li>
 							<li>Robotics Engineer</li>
 							<li>Multimedia Programmer</li>
@@ -143,14 +126,26 @@
 							<li>Forensic Computing</li>
 							<li>Animator</li>
 							<li>Web Design</li>
-							<li>App development</li>
+							<li>App Development</li>
 							<li>Nanotechnologist</li>
 						</ul>
 						<br>
-						<div class="text-center">
-							<a role="button" target="_blank" href="assets/curriculum/computer-science/gcse-roadmap.pdf" class="button">GCSE Curriculum Road Map</a>
-						</div>
-						<br>
+
+					<h3>College Links</h3>
+					<p>
+						<ul>
+							<li><a target="_blank" href="https://www.hsdc.ac.uk/courses/computer-science/">https://www.hsdc.ac.uk/courses/computer-science/</a></li>
+							<li><a target="_blank" href="https://www.portsmouth-college.ac.uk/courses/computer-science/">https://www.portsmouth-college.ac.uk/courses/computer-science/</a></li>
+							<li><a target="_blank" href="https://www.highbury.ac.uk/computing-it/">https://www.highbury.ac.uk/computing-it/</a></li>
+							
+						</ul>
+					</p>
+					<h3>Careers in Computing Technology: </h3>
+					<p>
+						<ul>
+							<li><a target="_blank" href="https://nationalcareers.service.gov.uk/job-categories/computing-technology-and-digital">https://nationalcareers.service.gov.uk/job-categories/computing-technology-and-digital</a></li>
+						</ul>
+					</p>
 
 					<h3>Parents can help their children by:</h3>
 						<ul>
@@ -165,14 +160,7 @@
 
 						<br>
 
-					<h3>Revision</h3>	
-					<div class="row">
-        				<div class="medium-push-4 medium-8 columns">
-        					<h4>For online resources try the following:</h4>
-            				<p>OCR Mooc – which is free to access once an account has been created <a target="_blank" href="https://cambridgegcsecomputing.org">here</a></p>
-            			</div>
-        				<div class="small-10 small-centered medium-uncentered medium-pull-8 medium-4 columns"><img src="assets/curriculum/computer-science/cs-revision.jpg" alt="Revision Books"></div>
-    					</div>	
+					
 
 						<br><br>
                 </div>
