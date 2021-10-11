@@ -160,6 +160,21 @@
 
 						<br>
 
+					<h3>Exciting Opportunities</h3>
+						<p>Our extra-curricular activities include:</p>
+							<div class="text-center">
+		                        <img src="images/computer-science/vex.jpg" alt="Vex IQ">
+		                    </div>
+	                    <p>Robotics and digital innovation workshop – Hands-on, minds on! VEX IQ is a programmable, snap-together, robotics system. Watch code come alive on a physical robot and learn key STEM skills that easily transition into the real world. Classroom STEM concepts are put to the test as students learn lifelong skills in teamwork, leadership, communications, and more.</p>
+	                    <div class="text-center">
+		                        <img src="images/computer-science/rp.jpg" alt="Rasberry Pi Foundation">
+		                    </div>
+		                <p>Raspberry PI competition – innovate to make the world a more sustainable place. The prize for each category is £1,000 per winning team. Entries will be evaluated on their creativity and originality.</p>
+
+		                 <div class="text-center">
+		                        <img src="images/computer-science/amazon.jpg" alt="Amazon">
+		                    </div>
+		                <p>AWS Get IT competition for girls – Be inspired, Be creative, think BIG. A chance to take part in an exciting competition where girls lead and develop on app ideas..</p>
 					
 
 						<br><br>
