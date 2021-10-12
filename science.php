@@ -119,27 +119,38 @@
                         <h4>Year 10</h4>
                             <ul>
                                 <li><a href="assets/curriculum/science/year_10_big_picture.pdf">Big Picture</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b5_homeostasis_and_response.pdf">B5 Homeostasis and response</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b6_Inheritance_variation_and_evolution.pdf">B6 Inheritance, Variation and Evolution</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b7_ecology.pdf">B7 Ecology</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c1_atomic_structure_and_periodic_table.pdf">C1 Atomic structure and periodic table</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c2_structure_and_bonding.pdf">C2 Structure and Bonding</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c3_quantitative_chemistry.pdf">C3 Quantitative chemistry</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c4_chemical_changes.pdf">C4 Chemical changes</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c5_energy_changes.pdf">C5 Energy changes</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b1.pdf">B1 Cell Biology</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b2.pdf">B2 Organisation</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b3.pdf">B3: Infection and Response</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b4.pdf">B4 Bioenergetics</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c1.pdf">C1 Atomic Structure & the Periodic Table</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c2.pdf">C2 Bonding, structure and the properties of matter</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c3.pdf">C3 Quantitative chemistry</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c4.pdf">C4 Chemical changes</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c5.pdf">C5 Energy changes</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b5.pdf">B5 Homeostasis and response</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b6.pdf">B6 Inheritance, Variation and Evolution</a></li>
+                                <li><a href="assets/curriculum/science/ks4/b7.pdf">B7 Ecology</a></li>
                             </ul>
                         <hr>
                         
                         <h4>Year 11</h4>
                             <ul>
                                 <li><a href="assets/curriculum/science/year_11_big_picture.pdf">Big Picture</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b5_homeostasis_and_response.pdf">B5 Homeostasis and response</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b6_Inheritance_variation_and_evolution.pdf">B6 Inheritance, Variation and Evolution</a></li>
-                                <li><a href="assets/curriculum/science/ks4/b7_ecology.pdf">B7 Ecology</a></li>
-                                <li><a href="assets/curriculum/science/ks4/p5_forces.pdf">P5 Forces</a></li>
-                                <li><a href="assets/curriculum/science/ks4/p6_waves.pdf">P6 Waves</a></li>
-                                <li><a href="assets/curriculum/science/ks4/p7_magnets.pdf">P7 Magnets</a></li>
-                                <li><a href="assets/curriculum/science/ks4/c10_using_resources.pdf">C10 Using resources</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c5.pdf">C5 Energy Changes</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c6.pdf">C6 The rate and extent of chemical change</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c7.pdf">C7 Organic Chemistry</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c8.pdf">C8 Chemical Analysis</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c9.pdf">C9 Chemistry of the Atmosphere</a></li>
+                                <li><a href="assets/curriculum/science/ks4/c10.pdf">C10 Using Resources</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p1.pdf">P1 Energy</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p2.pdf">P2 Electricity</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p3.pdf">P3 Particle Model of Matter</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p4.pdf">P4 Atomic Structure</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p5.pdf">P5 Forces</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p6.pdf">P6 Waves</a></li>
+                                <li><a href="assets/curriculum/science/ks4/p7.pdf">P7 Magnetism & Electromagnetism
+</a></li>
                             </ul>
                     </div>
                 </li>
