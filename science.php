@@ -70,23 +70,24 @@
                         <h4>Year 7</h4>
                             <ul>
                                 <li><a href="assets/curriculum/science/ks3/7-1_identity.pdf">Identity</a></li>
-                                <li><a href="assets/curriculum/science/ks3/7-2_organisms.pdf">Organisms</a></li>
-                                <li><a href="assets/curriculum/science/ks3/7-3_forces_1.pdf">Forces 1</a></li>
-                                <li><a href="assets/curriculum/science/ks3/7-4_reactions_1.pdf">Reactions 1</a></li>
+                                <li><a href="assets/curriculum/science/ks3/7-2_reactions.pdf">Reactions</a></li>
+                                <li><a href="assets/curriculum/science/ks3/7-3_organisms_1.pdf">Organisms</a></li>
+                                <li><a href="assets/curriculum/science/ks3/7-4_forces_1.pdf">Forces 1</a></li>
                                 <li><a href="assets/curriculum/science/ks3/7-5_particles.pdf">Particles</a></li>
-                                <li><a href="assets/curriculum/science/ks3/7-6_electricity.pdf">Electricity</a></li>
+                                <li><a href="assets/curriculum/science/ks3/7_space.pdf">Space</a></li>
                             </ul>
                         <hr>
 
                         <h4>Year 8</h4>
                             <ul>
                                 <li><a href="assets/curriculum/science/ks3/8-1_body_systems.pdf">Body Systems</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-2_sound.pdf">Sound</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-3_light.pdf">Light</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-4_magnets.pdf">Magnets</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-5_reactions_2.pdf">Reactions 2</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-6_speed.pdf">Speed</a></li>
-                                <li><a href="assets/curriculum/science/ks3/8-7_pressure.pdf">Pressure</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-2_particles.pdf">Particles</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-3_electricity.pdf">Electricity</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-4_reactions_2.pdf">Reactions 2</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-5_light.pdf">Light</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-6_magnets.pdf">Magnets</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-7_speed.pdf">Speed</a></li>
+                                <li><a href="assets/curriculum/science/ks3/8-8_pressure.pdf">Pressure</a></li>
                             </ul>
                         <hr>
 
@@ -94,10 +95,10 @@
                             <ul>
                                 <li><a href="assets/curriculum/science/ks3/9-1_photosynthesis_respiration.pdf">Photosynthesis &amp; Respiration</a></li>
                                 <li><a href="assets/curriculum/science/ks3/9-2_earth.pdf">Earth</a></li>
-                                <li><a href="assets/curriculum/science/ks3/9-3_energy.pdf">Energy</a></li>
-                                <li><a href="assets/curriculum/science/ks3/9-4_static.pdf">Static</a></li>
+                                <li><a href="assets/curriculum/science/ks3/9-3_reactions_3.pdf">Reactions 3</a></li>
+                                <li><a href="assets/curriculum/science/ks3/9-4_energy.pdf">Energy</a></li>
                                 <li><a href="assets/curriculum/science/ks3/9-5_forces_2.pdf">Forces 2</a></li>
-                                <li><a href="assets/curriculum/science/ks3/9-6_reactions_3.pdf">Reactions 3</a></li>
+                                <li><a href="assets/curriculum/science/ks3/9-6_static.pdf">Static Electricity</a></li>
                             </ul>
                     </div>
                 </li>
