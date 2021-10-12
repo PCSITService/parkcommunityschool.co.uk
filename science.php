@@ -34,28 +34,28 @@
             <h3>Intent</h3>
             <p>Science has something to offer every student, suiting all abilities and all aspirations. Our aim is to develop worldly citizens through boosting cultural capital.</p>
             <p>During KS3 in science, we promote awe and wonder. We want our students to be curious about the world around them and be confident to ask questions and investigate a range of possibilities.</p>
-            <p>Our curriculum is designed to build upon the learning in KS2 and enable students to develop the necessary skills when working as a scientist. Vocabulary is very important in science and we develop the amount of science specific words learnt by students and ensure these are practised both orally and in written work.</p>
+            <p>Our curriculum is designed to build upon the learning in KS2 and enable students to develop the necessary skills when working as a scientist. Vocabulary is very important in science and we develop the amount of science specific words learnt by students and ensure these are practised by orally and in written work.</p>
             <p>Once at KS4, we build upon the key skills and knowledge learnt in KS3 and continue to master these and apply to a range of contexts.</p>         
 
             <h3>Implementation</h3>
-            <p>We actively promote literacy and cultural capital through the reading of articles to allow students to understand the world around them.</p>
-            <p>In KS3, we currently complete fortnightly awe and wonder specific lessons-based space; these are designed to allow exploration of students own ideas and questions.</p>
+            <p>We fully promote literacy and use fortnightly news articles on current issues/stories to promote cultural capital in KS3 and to allow students to understand the world around them. In KS3, we currently complete termly awe and wonder specific lessons; these are designed to allow exploration of students own questions.</p>
             <p>We have a centralised SOW designed to ensure NC covered with appropriate levels of challenge. Includes working scientifically skills to be covered and assessed.</p>
-            <p>For KS4, we have a centralised SOW designed to ensure AQA specification is covered from grades 1-9.</p> 
-            <p>We improve and master the working scientifically skills built upon from KS3, while covering the required practical elements of the course.</p>
+            <p>For KS4, we have a centralised SOW designed to ensure AQA specification is covered from grades 1-9.</p>
+            <p>We improve and master the working scientifically skills built upon from KS3, while covering the required practical elements of the course.</p> 
             <p>Clear focus on expanding scientific vocabulary to ensure fluency in both written and verbal answers.</p>
-            <p>Fully embedded maths skills that are required, with clear links with maths methods and vocabulary used.</p>         
+            <p>Fully embedded maths skills that are required, with clear links with maths methods and vocabulary used.</p>
                      
             <br>
 
             <h3>Impact</h3>
-            <p>Our focus by the end of KS3, is for all students to have acquired the necessary scientific skills and knowledge to ensure they are ‘GCSE ready’.</p> 
-            <p>Students leave KS3 with high aspirations having had a positive experience of science. They are able to achieve age related expectations (ARE) or above and are fully prepared for their GCSE.</p> 
+            <p>During KS3, we want students who ready for KS4 with necessary skills and knowledge to build upon and are ‘GCSE ready’.</p> 
+            <p>Students have high aspirations and enjoyment of science when leaving KS3 and students are able to achieve age related expectations (ARE) or above and are fully prepared for their GCSE.</p> 
             <p>Once in KS4, our aim is to increase the number of students going onto study a science subject at higher education.</p>                   
 
             <br>
             <div class="text-center">
-                <a role="button" target="_blank" href="assets/curriculum/science/curriculum_map.pdf" class="button">Curriculum Map</a>
+                <a role="button" target="_blank" href="assets/curriculum/science/curriculum_map_KS3.pdf" class="button">Curriculum Map KS3</a>
+                <a role="button" target="_blank" href="assets/curriculum/science/curriculum_map_KS4.pdf" class="button">Curriculum Map KS4</a>
                 <a role="button" target="_blank" href="assets/curriculum/science/science-handbook.pdf" class="button">Handbook</a>
             </div>
             
@@ -117,6 +117,7 @@
 
                         <h4>Year 10</h4>
                             <ul>
+                                <li><a href="assets/curriculum/science/year_10_big_picture.pdf">Big Picture</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b5_homeostasis_and_response.pdf">B5 Homeostasis and response</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b6_Inheritance_variation_and_evolution.pdf">B6 Inheritance, Variation and Evolution</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b7_ecology.pdf">B7 Ecology</a></li>
@@ -130,6 +131,7 @@
                         
                         <h4>Year 11</h4>
                             <ul>
+                                <li><a href="assets/curriculum/science/year_11_big_picture.pdf">Big Picture</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b5_homeostasis_and_response.pdf">B5 Homeostasis and response</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b6_Inheritance_variation_and_evolution.pdf">B6 Inheritance, Variation and Evolution</a></li>
                                 <li><a href="assets/curriculum/science/ks4/b7_ecology.pdf">B7 Ecology</a></li>
