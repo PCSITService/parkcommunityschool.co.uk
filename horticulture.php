@@ -33,7 +33,7 @@
         <br>
 
         <div class="text-right"><a href="/garden.php" class="button round alert">Horticulture Garden</a></div>
-            <p>Horticulture at Park Community School prepares students to engage with a rapidly developing Horticultural industry, where students can learn theory based knowledge about plant families, soil types, plant foods and pollinators (relevant to the wider Horticultural industry), current industry practice in propagation, whilst developing practical and creative design skills, to a certified standard.</p>
+            <p>Horticulture at Park Community School prepares students to engage with a rapidly developing Horticultural industry, where students can learn theory-based knowledge about plant families, soil types, plant foods and pollinators (relevant to the wider Horticultural industry), current industry practice in propagation, whilst developing practical and creative design skills, to a certified standard.</p>
 
             <h3>Intent</h3>
             <p>Our aim is to offer a rich, challenging, varied curriculum that ensures all students will have the opportunity to produce excellent work by pushing their own boundaries and exploring their creativity through real-life opportunities that foster skills develop, confidence, independence and resilience.</p>
@@ -45,10 +45,10 @@
             <p>The knowledge and skills that students develop through their learning in horticulture is designed to open pathways to a wide range of career opportunities, both in the locality and elsewhere. These pathways can lead to careers as varied as Horticultural consultant, turf manager, landscape designer, Landscape gardener, Vegetable farmer, Plant scientist, Market gardener, Specialist gardener, forestry worker, and florist. They can also lead to related fields such as scientific research, and food processing.</p>
 
             <h3>Exam Board</h3>
-            <p>Royal Horticultural Society City & Guilds.</p>
+            <p>City & Guilds.</p>
 
             <h3>Type of Qualification</h3>
-            <p>City & Guilds Level 1 & 2 Award in Practical Horticulture (or GCSE)</p>
+            <p>City & Guilds Level 1 & 2 Award in Practical Horticulture</p>
             
             <h3>Areas of Study</h3>
             <ul class="circle">
