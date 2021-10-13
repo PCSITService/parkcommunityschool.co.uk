@@ -94,7 +94,7 @@
         <br><br>
 
                     <div class="text-center">
-                        <a role="button" target="_blank" href="/smsc.php" class="button">SMSC</a>
+                        <a role="button" target="_blank" href="/smsc.php" class="button">SPIRITUAL, MORAL, SOCIAL AND CULTURAL (SMSC)</a>
                     </div>
 
             <h5 class="subheader text-capitalize text-center"><small>Can't see what you're looking for please ask at <a href="/contact.php">the school reception</a>.</small></h5>
