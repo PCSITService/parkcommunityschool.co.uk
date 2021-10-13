@@ -26,72 +26,70 @@
         <div class="medium-12 columns">
         <p>Our assembly programme means students have an assembly most days in year groups, key stage groups, or in our cross year families. In the assemblies we pick up on religious, political, cultural, moral and practical themes.</p>
 
-        <br><br>
             <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2">
                 <li>
-                    <ul class="circle">2020-2021
-                      <li><a href="//vimeo.com/showcase/7029024" target="_blank">Virtual assemblies <small>(Vimeo)</small></a></li>
+                    <ul class="circle">2021-2022
+
+                    <h4>Autumn 1</h4>
+                      <li><a href="assets/assemblies/2021-autumn/body-and-mind2.pdf" target="_blank">Body and Mind</a></li>
                     </ul>
                 </li>
-            	<li>
-                    <ul class="circle">Spring 2020
-                      <li><a href="assets/assemblies/2020-spring/smsc2.pdf" target="_blank">Assembly Overview <small>SMSC2</small></a></li>
-                      <li><a href="assets/assemblies/2020-spring/smsc1.pdf" target="_blank">Assembly Overview <small>SMSC1</small></a></li>
-                    </ul>
-                </li>
-            	<li>
-                    <ul class="circle">Autumn 2019
-                      <li><a href="assets/assemblies/2019-autumn/smsc1.pdf" target="_blank">Assembly Overview <small>SMSC1</small></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="circle">Summer 2019
-                      <li><a href="assets/assemblies/2019-summer/smsc1.pdf" target="_blank">Aspiration - preparing to deal with the virtual world <small>SMSC1</small></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="circle">Spring 2019
-                      <li><a href="assets/assemblies/2019-spring/smsc2.pdf" target="_blank">Inspiration and Aspirations <small>SMSC2</small></a></li>
-                      <li><a href="assets/assemblies/2019-spring/smsc1.pdf" target="_blank">Inspiration and Aspirations <small>SMSC1</small></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="circle">Autumn 2018
-                      <li><a href="assets/assemblies/2018-autumn/smsc1.pdf" target="_blank">Working Hard and Independence <small>SMSC1</small></a></li>
-                      <li><a href="assets/assemblies/2018-autumn/smsc2.pdf" target="_blank">Respect <small>SMSC2</small></a></li>
-                    </ul>
-                </li>
-            	<li>
-                    <ul class="circle">Summer 2018
-                      <li><a href="assets/assemblies/2018-summer/smsc1.pdf" target="_blank">My Future <small>SMSC1</small></a></li>
-                      <li><a href="assets/assemblies/2018-summer/smsc2.pdf" target="_blank">Preparing for Success <small>SMSC2</small></a></li>
-                    </ul>
-                </li>
-                <li>
-					<ul class="circle">Spring 2018
-					  <li><a href="assets/assemblies/2018-spring/smsc1.pdf" target="_blank">Doing the Right Thing <small>SMSC1</small></a></li>
-                      <li><a href="assets/assemblies/2018-spring/smsc2.pdf" target="_blank">Staying Safe <small>SMSC2</small></a></li>
-					</ul>
-				</li>
-            	<li>
-					<ul class="circle">Autumn 2017
-					  <li><a href="assets/assemblies/2017-autumn/smsc1.pdf" target="_blank">New Beginnings &amp; Good Choices <small>SMSC1</small></a></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="circle">Summer 2017
-                        <li><a href="assets/assemblies/2017-summer/smsc1.pdf" target="_blank">Mistakes, Tenacity, Resilience and Confidence <small>SMSC1</small></a></li>
-					   <li><a href="assets/assemblies/2017-summer/smsc2.pdf" target="_blank">Industrious, Tenacity, Resilient and Confident <small>SMSC2</small></a></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="circle">Spring 2017
-					  <li><a href="assets/assemblies/2017-spring/smsc1.pdf" target="_blank">SMSC-1</a></li>
-					  <li><a href="assets/assemblies/2017-spring/smsc2.pdf" target="_blank">SMSC-2</a></li>
-					</ul>
-				</li>
 
             </ul>
+
+
+        <h3>Assembly Archive</h3>
+
+            <ul class="accordion" data-accordion role="tablist">
+                <li class="accordion-navigation">
+                    <a href="#panel1d" role="tab" id="panel1d-heading" aria-controls="panel1d">2020 - 2021</a>
+                    <div id="panel1d" class="content" role="tabpanel" aria-labelledby="panel1d-heading">
+                        <p><li><a href="//vimeo.com/showcase/7029024" target="_blank">Virtual assemblies <small>(Vimeo)</small></a></li></p>
+                        
+                    </div>
+                </li>
+
+                <li class="accordion-navigation">
+                    <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">2017 - 2020</a>
+                    <div id="panel2d" class="content" role="tabpanel" aria-labelledby="panel2d-heading">
+                       
+                        <h4>2020</h4>
+                            <ul>
+                                <li><a href="assets/assemblies/2020-spring/smsc2.pdf" target="_blank">Assembly Overview <small>SMSC2</small></a></li>
+                                <li><a href="assets/assemblies/2020-spring/smsc1.pdf" target="_blank">Assembly Overview <small>SMSC1</small></a></li>
+                            </ul>
+                        <hr>
+                        <h4>2019</h4>
+                            <ul>
+                                <li><a href="assets/assemblies/2019-autumn/smsc1.pdf" target="_blank">Assembly Overview <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2019-summer/smsc1.pdf" target="_blank">Aspiration - preparing to deal with the virtual world <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2019-spring/smsc2.pdf" target="_blank">Inspiration and Aspirations <small>SMSC2</small></a></li>
+                                <li><a href="assets/assemblies/2019-spring/smsc1.pdf" target="_blank">Inspiration and Aspirations <small>SMSC1</small></a></li>
+                            </ul>
+                        <hr>
+                        <h4>2018</h4>
+                            <ul>
+                                <li><a href="assets/assemblies/2018-autumn/smsc1.pdf" target="_blank">Working Hard and Independence <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2018-autumn/smsc2.pdf" target="_blank">Respect <small>SMSC2</small></a></li>
+                                <li><a href="assets/assemblies/2018-summer/smsc1.pdf" target="_blank">My Future <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2018-summer/smsc2.pdf" target="_blank">Preparing for Success <small>SMSC2</small></a></li>
+                                <li><a href="assets/assemblies/2018-spring/smsc1.pdf" target="_blank">Doing the Right Thing <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2018-spring/smsc2.pdf" target="_blank">Staying Safe <small>SMSC2</small></a></li>
+                            </ul>
+                        <hr>
+                        <h4>2017</h4>
+                            <ul>
+                                <li><a href="assets/assemblies/2017-autumn/smsc1.pdf" target="_blank">New Beginnings &amp; Good Choices <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2017-summer/smsc1.pdf" target="_blank">Mistakes, Tenacity, Resilience and Confidence <small>SMSC1</small></a></li>
+                                <li><a href="assets/assemblies/2017-summer/smsc2.pdf" target="_blank">Industrious, Tenacity, Resilient and Confident <small>SMSC2</small></a></li>
+                                <li><a href="assets/assemblies/2017-spring/smsc1.pdf" target="_blank">SMSC-1</a></li>
+                                <li><a href="assets/assemblies/2017-spring/smsc2.pdf" target="_blank">SMSC-2</a></li>
+                            </ul>
+                            
+                    </div>
+                </li>
+            </ul>
+        <br><br>
 
             <br><br>
 
