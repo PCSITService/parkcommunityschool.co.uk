@@ -47,54 +47,44 @@
 			<table>
 				<thead>
 				  <tr>
-				    <th>Year</th>
 				    <th>Unit</th>
 				    <th>Topics and Notes</th>
 				  </tr>
 				</thead>
 				<tbody>
 				  <tr>
-				    <td>9</td>
 				    <td>Memory</td>
 				    <td>This unit explores the processes and structures of our memory.  We<br>will explore different models for how our memory works alongside case<br>studies of individuals with abnormal memories.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Perception<br></td>
 				    <td>Through this unit you will explore how it is that we perceive the<br>world the way that we do.  We will look at how the brain allows us to<br>see a stable consistent world, the role of nature and nurture in<br>perception, optical illusions and how other factors such as our<br>emotional state can affect our perception of the world.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Development</td>
 				    <td>This unit looks at how humans develop and learn.  We will explore<br>early brain development, followed by investigating theories of<br>cognitive development and how learning can affect this development. <br>This unit is about how our mental abilities develop and the role<br>education plays in this.</td>
 				  </tr>
 				  <tr>
-				    <td>10</td>
 				    <td>Research Methods</td>
 				    <td>This unit is about how psychologists plan, carry out and evaluate<br>their research.  It includes elements of the use of data, research<br>types and methodology and ethical issues relating to psychological<br>research.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Social Influence</td>
 				    <td>Social Influence looks at how individuals interact with others, and<br>how others can alter our behaviour and responses.  Topics range from<br>conformity and obedience, to prosocial and antisocial behaviour in<br>crowds.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Language Thought and Communication</td>
 				    <td>This unit looks at the ways in which human beings communicate.  We<br>will explore the relationship between language and thought, how human<br>communication is different from animal communication and the types<br>and influence of non-verbal communication.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Brain and Neuropsychology</td>
 				    <td>Brain and Neuropsychology introduces the structure and functions of<br>the brain and nervous system.  It then moves on to explore how<br>developments in technology, particularly modern scanning techniques,<br>are advancing our understanding of psychology.</td>
 				  </tr>
 				  <tr>
-				    <td>11</td>
 				    <td>Psychological Problems<br></td>
 				    <td>This unit offers an introduction to mental health, including its<br>characteristics and the challenges posed by mental health issues to<br>society today.  This is followed by an exploration of two specific<br>examples of common mental health issues in the U.K; depression and<br>addiction.</td>
 				  </tr>
 				  <tr>
-				    <td></td>
 				    <td>Revision</td>
 				    <td></td>
 				  </tr>
