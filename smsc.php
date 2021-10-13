@@ -111,13 +111,41 @@
             
             <p><strong>Careers [Information, Advice and Guidance]</strong> –Students learn about the world of work and the range of opportunities open to them after their time at Park. We work very closely with local employers through our career related sessions with EBP. We offer careers fairs, speakers, college taster days and university residentials including Oxford/Cambridge and mock interviews with local employers. All students can have a 1:1 personal careers appointment with our trained independent impartial careers advisor. All students also undertake  two weeks work experience during year 10.</p>
             
-            <p><strong>Religious studies</strong> – The purpose of Religious Studies lessons (RS) is to support students in developing their own coherent patterns of values and principles, and to support their spiritual, moral, social, and cultural development. Our focus is on the development of personal patterns of values in the light of contemporary ethical and social issues facing society.</p>
+            <p><strong>Religious studies</strong> ‘To explore what it means to exist as a human being in today’s world’</p>
             
-            <p>The agreed syllabus which provides the legal framework for Religious Education states that “we have to understand how and why people live differently from each other and respect their right to do so. Living Difference identifies that respecting difference requires us to engage with difference confidently. We need to identify how and why we have different beliefs, attitudes and practices from other people. By doing this, we can gain respect from others. Accepting difference does not imply agreement; nor does it imply that all difference is acceptable. It is important that students make reasoned and informed judgements about difference and that these are based on beliefs and values that they sincerely hold, and that they can express and defend in reasoned debate. Teachers have a responsibility for helping students to develop their beliefs and values, in relation to those values that society prizes. As a result, the agreed syllabus places particular importance upon the spiritual, moral, social and cultural development of students."</p>
-            
-            <p>Agreed Syllabus, ‘Living Difference’, for Hampshire, Portsmouth and Southampton</p>
-            
-            <p>The purpose of RS at Park is therefore to promote students’ spiritual, moral, social and cultural development through an awareness and appreciation of diversity and difference of beliefs and values, cultures and societies within the UK and the wider world. As part of this students are offered the chance to respond and in so doing develop their own sense of self and place in the local, national and global community. In key stage 4 RS will lead to a ½ GCSE qualification.</p>
+                <ol>
+                    <li>To allow students to consider the ‘big questions’, ethical philosophical and spiritual, for themselves and so develop their own sense of purpose, meaning and place in the world.  To allow them space to respond as unique individuals to the plurality within the classroom and society in relation to these questions</li> 
+                    <li>To develop acceptance of difference and diversity and an awareness of the form our society takes and so leave as effective participants in a plural democracy</li> 
+                    <li>To leave Park with a qualification in R.E demonstrating secure knowledge and understanding of the issues and worldviews studied</li> 
+                </ol>
+
+
+                <p>RE “…entails teachers bringing children and young people first to attend to their own experience and that of others, to engage intellectually with material that is new and to discern with others what is valuable with regard to living a religious life or one informed by a non-religious or other perspective...” (Living Difference III, The Agreed Syllabus for Hampshire, Portsmouth, Southampton and the Isle of Wight 2016)</p>
+
+                <p>At Park Community School, we aim to help students to develop a curiosity regarding the world around them, to attend to issues important in exploring what it means to exist as a human being in the world today. R.E offers students the opportunity to explore questions of meaning for them as individuals, and to develop a greater sense of personal identity and purpose, a greater sense of their place in the world and what that world should be like.</p>    
+
+                <p>Park Community School encourages students to value themselves and others, respecting different religions, cultures and attitudes. RE is not about promotion of a particular view but about challenging assumptions and exploration of life’s questions in relation to, and in collaboration with, others.</p> 
+
+                <p>“Religious education in Hampshire, Portsmouth, Southampton and the Isle of Wight intends to play an educative part in the lives of children and young people as they come to speak, think and act in the world.”</p> 
+
+                <p><em>(Living Difference III, The Agreed Syllabus for Hampshire, Portsmouth, Southampton and the Isle of Wight 2016)</em></p>
+
+                <p>Students are encouraged to reflect on a range of individual, school, local, national and world issues in order to develop a vision for their future and the future of others. It is our hope that our students recognise the importance of their own creativity in improving the quality of life not only for themselves but also for future generations.</p>
+
+                <p>Additionally, RE allows the development of rigorous, critical and analytical thinking and argumentation in the evaluation of particular concepts and ways of experiencing the world. Therefore, we aim to foster students’ ability to reason, to avoid making assumptions or taking information at face value.</p>  
+
+                <p>The school provides Religious Education for all students in accordance with the agreed Hampshire syllabus called ‘<a href="//www.hants.gov.uk/educationandlearning/hias/curriculum-support/living-difference-re-syllabus">Living Difference III</a>’. This gives students the opportunity to explore a range of religious traditions, cultures and worldviews alongside developing their own in response to these. While a variety of perspectives will be investigated including secular traditions such as Humanism, the curriculum is mainly Christian based. This is to reflect the national and local character of religious belief, and to acknowledge the role that this religious tradition has had in underpinning the development of British values, laws and attitudes.</p> 
+
+                <p>The way in which such worldviews are explored acknowledges that such questions can be answered in a number of qualitatively different ways. These include subscription to a set of propositional beliefs, to follow certain practices and traditions, and to have a particular way of existing or being in the world.</p>
+
+                <p><strong>Additional Aims:</strong></p>
+
+                <ul>
+                    <li>Developing a broader cultural capital</li>
+                    <li>The promotion of SMSC</li>
+                    <li>The promotion of British values in line with government requirements</li>
+                    <li>Developing resilience to radicalisation and extremism in accordance with the ‘Prevent Duty’ 2015</li>
+                </ul>
 
             <h4>SMSC Implementation Map</h4>
             <p><a href="assets/curriculum/smsc.pdf">Our SMSC curriculum - 2021/22</a>.</p>
