@@ -59,6 +59,10 @@
 
 
             <p><strong>Assemblies</strong> – At Park Community school we have weekly school, year and House assemblies where students gather together for a common purpose. A wide variety of areas are covered which are closely matched in content to different areas of the curriculum. There are common termly themes throughout the year which are underpinned by specific local, British or worldwide celebration and awareness days. This means that there is a coherence to the delivery of SMSC across the school as a community.</p>
+
+            <div class="text-center">
+                        <a role="button" target="_blank" href="/assemblies.php" class="button">ASSEMBLIES</a>
+                    </div>
             
             <p><strong>Butterfly Broadcasts</strong> – This is a broadcast, which lasts around 4 minutes, shown during the week in a Personal Development slot. It covers the local, national and international news of the day. It is an important feature of the week as it allows students to consider current affairs; broadening their knowledge of the world around them.</p>
             
