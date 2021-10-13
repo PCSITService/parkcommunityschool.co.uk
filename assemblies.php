@@ -28,12 +28,10 @@
 
             <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2">
                 <li>
-                    <ul class="circle">
-
                     <h4>2021-2022</h4>
-                    <h3>Autumn 1</h3>
-                      <li><a href="assets/assemblies/2021-autumn/body-and-mind.pdf" target="_blank">Body and Mind</a></li>
-                    </ul>
+                    <h5>Autumn 1</h5>
+                      <a href="assets/assemblies/2021-autumn/body-and-mind.pdf" target="_blank">Body and Mind</a>
+                    
                 </li>
             </ul>
 
@@ -51,7 +49,7 @@
                 </li>
 
                 <li class="accordion-navigation">
-                    <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">2020 - 2017</a>
+                    <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">2020-2017</a>
                     <div id="panel2d" class="content" role="tabpanel" aria-labelledby="panel2d-heading">
                         
                         <h4>2020</h4>
@@ -95,8 +93,9 @@
 
         <br><br>
 
-            <br><br>
-
+                    <div class="text-center">
+                        <a role="button" target="_blank" href="/smsc.php" class="button">SMSC</a>
+                    </div>
 
             <h5 class="subheader text-capitalize text-center"><small>Can't see what you're looking for please ask at <a href="/contact.php">the school reception</a>.</small></h5>
 
