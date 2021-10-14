@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">October 2021<hr>
+                        <li><a href="/assets/letters/2021-10/coronavirus-update.pdf" target="_blank">Coronavirus Update</a></li>
                         <li><a href="/assets/letters/2021-10/year-11-parents-evening-virtual.pdf" target="_blank">Year 11 Parents Evening Update (Virtual)</a></li>
                         <li><a href="/assets/letters/2021-10/year-7-parents-evening-virtual.pdf" target="_blank">Year 7 Parents Evening Upadte (Virtual)</a></li>
                         <li><a href="/assets/letters/2021-10/parents-evening-year-11.pdf" target="_blank">Year 11 Parents Evening</a></li>
