@@ -26,6 +26,10 @@
         <div class="medium-12 columns">
         <p>Our assembly programme means students have an assembly most days in year groups, key stage groups, or in our cross year families. In the assemblies we pick up on religious, political, cultural, moral and practical themes.</p>
 
+        <div class="text-center">
+                        <a role="button" target="_blank" href="/smsc.php" class="button">SPIRITUAL, MORAL, SOCIAL AND CULTURAL (SMSC)</a>
+                    </div>
+
             <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2">
                 <li>
                     <h4>2021-2022</h4>
@@ -93,10 +97,7 @@
 
         <br><br>
 
-                    <div class="text-center">
-                        <a role="button" target="_blank" href="/smsc.php" class="button">SPIRITUAL, MORAL, SOCIAL AND CULTURAL (SMSC)</a>
-                    </div>
-
+                   
             <h5 class="subheader text-capitalize text-center"><small>Can't see what you're looking for please ask at <a href="/contact.php">the school reception</a>.</small></h5>
 
             <br>
