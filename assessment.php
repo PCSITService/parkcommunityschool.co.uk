@@ -22,7 +22,7 @@
                 <br>
                 <div class="columns">
                     
-                    <h2>Assessment and Reporting 2020-2021</h2>
+                    <h2>Assessment and Reporting 2021-2022</h2>
                     <p>At Park Community School we assess your child regularly in lessons to allow us to monitor their progress in relation to what we would expect them to achieve. We then adjust our lesson planning or implement interventions to ensure they are making suitable progress.</p>
                     <br>
                     <h3>There will be two Student Review Days per year</h3>
