@@ -48,8 +48,6 @@
         </span>
       </li>
 
-        <hr> 
-
       <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>
