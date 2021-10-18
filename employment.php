@@ -50,15 +50,6 @@
 
         <hr> 
 
-      <li>
-        <h4>Teaching Assistant</h4>  
-        <p><em>Closing Date: Monday 18th October 2021</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/t-a.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-       
       <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>
