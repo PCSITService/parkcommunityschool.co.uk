@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">October 2021<hr>
+                        <li><a href="/assets/letters/2021-10/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
                         <li><a href="/assets/letters/2021-10/newsletter-01-15.pdf" target="_blank">Newsletter - 15th October 2021</a></li>
                         <li><a href="/assets/letters/2021-10/hoodies.pdf" target="_blank">PE and Performing Arts Uniform Policy</a></li>
                         <li><a href="/assets/letters/2021-10/coronavirus-update.pdf" target="_blank">Coronavirus Update</a></li>
