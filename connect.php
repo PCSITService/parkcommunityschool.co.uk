@@ -53,11 +53,11 @@
         <div class="medium-12 columns">
         <p>Our review document is below with further details.</p>
         <br>
-        <div class="text-center">
+            <div class="text-center">
                         <a role="button" target="_blank" href="assets/connect/connect4summer.pdf" class="button">Connect4Summer Review</a>
-                    </div>  
+            </div>  
 
-    </div>
+        </div>
     </div>
 
 

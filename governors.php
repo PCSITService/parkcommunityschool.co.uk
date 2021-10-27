@@ -60,7 +60,7 @@
                           <p>Category: CO-OPTED</p>
                           <p>Committee Membership:</p>
                             <ul class="circle">
-                                <li>Chair of Full Governing Body (FGB).</li>
+                                <li>Co-Chair of Full Governing Body (FGB).</li>
                                 <li>Member of Admin Committee.</li>
                                 <li>Member of Performance Committee.</li>
                             </ul>
@@ -82,7 +82,7 @@
                           <p>Category: CO-OPTED</p>
                           <p>Committee Membership:</p>
                             <ul class="circle">
-                            	<li>Vice Chair of Governors.</li>
+                            	<li>Co-Chair of Full Governing Body (FGB).</li>
                             	<li>Chair of the Administration Committee.</li>
                                 <li>Health and Safety Governor.</li>
                                 <li>Member of Admin Committee.</li>
@@ -225,6 +225,7 @@
                                 <p>Category: Local Authority Govenor</p>
                                 <p>Committee Membership: </p>
                                   <ul class="circle">
+                                      <li>Vice Chair of Governors.</li>
                                       <li>Member of Performance Committee.</li>
                                   </ul>
                                <p>
