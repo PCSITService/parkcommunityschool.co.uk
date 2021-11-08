@@ -47,6 +47,8 @@
                 <li><a href="" target="_blank">ECT Induction</a></li>
                 <li><a href="/assets/statutory/financial-benchmarking.pdf" target="_blank">Financial Benchmarking</a></li>
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
+                <li><a href="/summer-school.php" target="_blank">Summer School</a></li>
+
 
                 
                 
