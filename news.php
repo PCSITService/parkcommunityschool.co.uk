@@ -40,6 +40,7 @@
             </div>
                            
                   <ul class="circle">
+                    <li><a href="/summer-school.php" target="_blank">Summer School 2021</a></li>
                     <li><a href="https://www.portsmouth.co.uk/news/people/park-community-school-in-havant-sees-almost-100-per-cent-attendance-as-pupils-return-3158621" target="_blank">Park Community School in Havant sees almost 100 per cent attendance as pupils return</a></li>
                     <li><a href="https://www.portsmouth.co.uk/education/coronavirus-hampshire-schools-unveil-new-measures-keep-children-covid-safe-2966694" target="_blank">Coronavirus: Hampshire schools unveil new measures to keep children Covid safe</a></li>
                     <li><a href="https://www.portsmouth.co.uk/education/park-community-school-leigh-park-celebrates-fantastic-gcse-results-pupils-tough-out-rubbish-year-2948478" target="_blank">Park Community School in Leigh Park celebrates 'fantastic' GCSE results as pupils tough out 'rubbish' year</a></li>
@@ -54,7 +55,7 @@
                   </ul>
             <hr>   
 
-            <h3>Park Post</h3>
+ <!--           <h3>Park Post</h3>
             <p>Park Post is our magazine, celebrating all that is great about Park Community School!</p>
             <p>Park Post is available in downloadable PDF format.</p>
 
@@ -82,7 +83,7 @@
                
 
             </ul>
-            <p>For older issues of Park Post visit our <a href="/park-archive.php">Archive</a>.</p>
+            <p>For older issues of Park Post visit our <a href="/park-archive.php">Archive</a>.</p> -->
 
         </div>
     </div><br>
