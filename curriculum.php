@@ -32,7 +32,7 @@
                 <iframe src="https://www.youtube-nocookie.com/embed/Z4nN1xSDCdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <h3>Curriculum Overview 2020-2021</h2>
+            <h3>Curriculum Overview 2021-2022</h2>
             <p>At Park we provide a broad curriculum which allows students to find what they love to do. Our curriculum is designed to promote attainment, build resilience and increase autonomy. We are known for our inclusive approach and others describe us as ‘much more than just a school’.</p>
             <ul class="circle">We do this through:
                 <li>A broad and traditional curriculum which leads to a wide range of GCSEs and other qualifications</li>
