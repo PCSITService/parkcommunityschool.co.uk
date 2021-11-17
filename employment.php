@@ -53,7 +53,7 @@
         <p><em>Closing Date: Tuesday 30th November 2021</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/t-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
 
