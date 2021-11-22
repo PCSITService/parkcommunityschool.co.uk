@@ -37,7 +37,7 @@
                     <div class="columns">
                         <a class="small button radius alert" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park Booklet</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="small button radius alert" href="#" data-reveal-id="exam-information">EXAM Information</a>
+                        <a class="small button radius alert" href="assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter</a>
                     </div>
                 </div>
 
