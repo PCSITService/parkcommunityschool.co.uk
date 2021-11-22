@@ -49,7 +49,7 @@
                     <p>Years 7 - 11 – from years 7 to 11 we follow a single programme of study leading to a GCSE in mathematics.</p>
                     <p>Years 7 - 9 - our key stage 3 curriculum is designed to equip students with the mathematical knowledge and skill to successfully embark on their GCSE course in Year 10. It covers the full mathematical spectrum of Number, Ratio, Algebra, Geometry, Statistics and Probability required for their GCSE. We help the students achieve mastery in the use of this knowledge by emphasising the importance of using mathematical reasoning when solving problems in many different contexts.
                     </p>
-                    <p>Years 10 - 11 - our key stage 4 curriculum continues to build towards GCSE mathematics. The syllabus we follow is Edexcel with students either following the foundation or higher specification.</p>
+                    <p>Years 10 - 11 - our key stage 4 curriculum continues to build towards GCSE mathematics. The syllabus we follow is AQA for students studying foundation level and Edexcel for students studying higher level.</p>
                     <p>We also offer GCSE statistics as an additional GCSE qualification to those pupils who wish to pursue it.</p>
 
                     <div class="text-center">
