@@ -229,7 +229,7 @@
     	<div class="columns">
     		<h3>Coronavirus Catch-up Premium (2020-2021)</h3>
 
-			<p>The final allocation of £30,580 of the total funding for academic year 2021/2022 which amounted to £73,400 was recieved in the summer term. This funding was used to help students secure and close gaps in their literacy and numeracy through small group intervention, 1 to 1 intervention, the reading plus programme and in class support.</p>
+			<p>The final allocation of £30,580 of the total funding for academic year 2021/2022 which amounted to £73,400 was received in the summer term. This funding was used to help students secure and close gaps in their literacy and numeracy through small group intervention, 1 to 1 intervention, the reading plus programme and in class support.</p>
 
 			<p>This money was used for:</p>
 
@@ -246,11 +246,11 @@
 
 			<h3>Recovery Premium (2021-2022)</h3>
 
-            <p>During the academic year 2021/2022, £71,268 will be recieved as a one-off recovery premium to support education recovery as a result of the COVID pandemic. The school will continue with the interventions put in place using the coronavirus catch-up premium funding.</p>
+            <p>During the academic year 2021/2022, £71,268 will be received as a one-off recovery premium to support education recovery as a result of the COVID pandemic. The school will continue with the interventions put in place using the coronavirus catch-up premium funding.</p>
 
             <h3>School Led Tutoring (2021-2022)</h3>
 
-            <p>The school has been allocated £59,738 for the academic year 2021/2022 to sorce tutoring in either small group arrangements or 1 to 1 tuition via the national tutoring programme.</p>
+            <p>The school has been allocated £59,738 for the academic year 2021/2022 to source tutoring in either small group arrangements or 1 to 1 tuition via the National Tutoring Programme.</p>
 
     	</div>
     </div>
