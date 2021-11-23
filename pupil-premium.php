@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" >
     <head>
 
-        <title>Park Community School | Pupil Premium and Catch-up Funding</title>
+        <title>Park Community School | Pupil Premium and Coronavirus Recovery Premium</title>
         <?php include("includes/head.html") ?>
     </head>
 <body class="page-school">
@@ -13,7 +13,7 @@
 <header class="header-school">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>Pupil Premium and Catch-up Funding</h1>
+            <h1>Pupil Premium and Coronavirus Recovery Premium</h1>
             <p class="text-capitalize">How we put the money to good use</p>
         </div>
     </div>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="columns">
-          <p>For 2021/2022 the school has received the following amounts:</p>
+          <p>For 2021/2022 the school has received the following amounts to date:</p>
               <table>
                 <tr>
                   <td>Pupil Premium</td>
@@ -58,8 +58,8 @@
               </table>
 
           <p>Grant Allocation:</p>
-          <p>In 2019/2020 the school received £434,635 for Pupil Premium (PP) and £17,965 for Looked After Children (LAC). </p>
-          <p>The school spent £560,622 providing additional support for PP students. The pupil Premium is grant funding and is in addition to the school’s Delegated Budget. The school chooses to invest additional funding from its delegated budget to support pupil Premium funding.</p>
+          <p>In 2020/2021 the school received £456,304 for Pupil Premium (PP).</p>
+          <p>The school spent £641,567 providing additional support for PP students. The pupil Premium is grant funding and is in addition to the school’s delegated budget. The school chooses to invest additional funding from its delegated budget to support pupil Premium funding.</p>
           <p>The Pupil Premium is allocated by calculating the number of students who are on Free School Meals (FSM) or have had FSM in the last six years. Students who have been in care continuously for more than six months or have a parent in the Armed Services also lead to some additional funding for the school.</p>
         </div>
     </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="row">
         <div class="medium-8 medium-push-4 columns">
-          <p>In 2019 the gap in achievement between non-PP and PP students in GCSEs was -0.39 for Progress 8 (PP-1.09, non-PP -0.69</p>
+          <p>In 2019 the gap in achievement between non-PP and PP students in GCSEs was -0.39 for Progress 8 (PP-1.09, non-PP -0.69)</p>
           <p>In 2019/20 1:1 reading intervention with 69 students has seen 81% of students making double ratio gains, with a further 6% making progress but below the double ratio gains. Year 7 in the group made on average 28 months progress, Year 8 22 months and year 11 26 months. 70 % of the 60 students who made progress have now made enough progress that they have moved in to the correct chronological age reading bracket.</p>
           <p>Main barriers to educational achievement faced by eligible students could include:</p>
                 <ul class="circle">
@@ -227,26 +227,30 @@
     </div>
     <div class="row">
     	<div class="columns">
-    		<h3>Catch-up Funding for Year 7 - 2019/2020</h3>
+    		<h3>Coronavirus Catch-up Premium (2020-2021)</h3>
 
-			<p><strong>In 2019 - 2020 we received £19,989, which is used to help these students secure and close gaps in their literacy and numeracy through small group intervention, 1 to 1 intervention, the Reading Plus programme and in class support.</strong></p>
+			<p>The final allocation of £30,580 of the total funding for academic year 2021/2022 which amounted to £73,400 was recieved in the summer term. This funding was used to help students secure and close gaps in their literacy and numeracy through small group intervention, 1 to 1 intervention, the reading plus programme and in class support.</p>
 
 			<p>This money was used for:</p>
 
 			<ul>
-				<li>One to one reading, spelling and literacy intervention for 49 Year 7 students</li> 
+				<li>One to one reading, spelling and literacy intervention for 49 students</li> 
 				<li>Additional classroom support for one class (18 students).</li> 
 				<li>Reading Plus programme brought in for use with the year group.</li>
-        <li>In total more than 150 students benefitted from this intervention, 49 from 1 to 1 intervention. The impact of this support was measured through: student and parent feedback, Year 7 progress data, reading and spelling data.</li>
+        <li>In total more than 150 students benefitted from this intervention, 49 from 1 to 1 intervention. The impact of this support was measured through: student and parent feedback, progress data, reading and spelling data.</li>
 			</ul>
 
 			<p>All students receiving intervention demonstrated improvement in their reading, language or spelling skills with the average gain at or above double ratio. Spelling and reading data collections demonstrated that this progress was maintained after the intervention therefore demonstrating the mastery of key skills enabling them to continue to make progress.</p>
 
 			<p>Parent and student feedback demonstrated positive increases regarding confidence and perception of ability alongside willingness to engage in additional learning outside of the classroom.</p>
 
-			<h3>Coronavirus Catch-up Premium (2020-2021)</h3>
+			<h3>Recovery Premium (2021-2022)</h3>
 
-      <p><strong>The allocation of £70,960 will be received in three tranches and will be used to deliver small group and 1 to 1 tuition.</strong></p>
+            <p>During the academic year 2021/2022, £71,268 will be recieved as a one-off recovery premium to support education recovery as a result of the COVID pandemic. The school will continue with the interventions put in place using the coronavirus catch-up premium funding.</p>
+
+            <h3>School Led Tutoring (2021-2022)</h3>
+
+            <p>The school has been allocated £59,738 for the academic year 2021/2022 to sorce tutoring in either small group arrangements or 1 to 1 tuition via the national tutoring programme.</p>
 
     	</div>
     </div>
