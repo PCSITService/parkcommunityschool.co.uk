@@ -99,7 +99,7 @@
                             <li>English Language and English Literature, Maths</li>
                             <li>Science</li>
                             <li>Core PE and Religious Education</li>
-                            <li>4 subjects from the following: Art, Computer Science, Construction, Dance, Drama, Graphics, Horticulture, Food and Nutrition, Geography, History, Music, Photography, PE,  Resistant Materials, RS, Spanish</li>
+                            <li>3 subjects from the following: Art, Computer Science, Construction, Dance, Drama, Graphics, Horticulture, Food and Nutrition, Geography, History, Music, Photography, PE,  Resistant Materials, RS, Spanish</li>
                             <li>SMSC: including mentoring and personal development.</li>
                         </ul>
                     </div>
@@ -112,7 +112,7 @@
                             <li>English Language and English Literature, Maths</li>
                             <li>Science</li>
                             <li>Core PE and Religious Education</li>
-                            <li>2 subjects from the following: Art, Dance, Food and Nutrition, Geography, History, Music, Photography, PE, Resistant Materials, Spanish</li>
+                            <li>3 subjects from the following: Art, Dance, Food and Nutrition, Geography, History, Music, Photography, PE, Resistant Materials, Spanish</li>
                             <li>SMSC: including mentoring and personal development.</li>
                         </ul>
                     </div>
