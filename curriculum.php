@@ -82,7 +82,7 @@
                     <div id="panel3d" class="content" role="tabpanel" aria-labelledby="panel3d-heading">
                         <ul>
                             <li>Core Subjects: English, Maths and Science</li>
-                            <li>Cultural: Geography, History, Religious Education, Spanish, French</li>
+                            <li>Cultural: Geography, History, Religious Education, Spanish</li>
                             <li>The Arts: Art, Dance, Drama, Music</li>
                             <li>Design and Technology: Food and Design Technology</li>
                             <li>Much More Than...: Students go to visit our small holding, learn about and apply constuction skills in our <a href="../apex-centre.php" target="_blank">Apex Centre</a> and develop catering skills in our school <a href="../catering.php" target="_blank">kitchen.</a></li>
@@ -97,9 +97,9 @@
                     <div id="panel4d" class="content" role="tabpanel" aria-labelledby="panel4d-heading">
                         <ul>
                             <li>English Language and English Literature, Maths</li>
-                            <li>Science</li>
+                            <li>CombinedScience, Triple Science</li>
                             <li>Core PE and Religious Education</li>
-                            <li>3 subjects from the following: Art, Computer Science, Construction, Dance, Drama, Graphics, Horticulture, Food and Nutrition, Geography, History, Music, Photography, PE,  Resistant Materials, RS, Spanish</li>
+                            <li>3 subjects from the following: Art, Computer Science, Construction, Dance, Drama, Graphics, Horticulture, Food and Nutrition, Geography, History, Music, Photography, PE,  Resistant Materials, RS, Spanish, Statistics</li>
                             <li>SMSC: including mentoring and personal development.</li>
                         </ul>
                     </div>
@@ -112,7 +112,7 @@
                             <li>English Language and English Literature, Maths</li>
                             <li>Science</li>
                             <li>Core PE and Religious Education</li>
-                            <li>3 subjects from the following: Art, Dance, Food and Nutrition, Geography, History, Music, Photography, PE, Resistant Materials, Spanish</li>
+                            <li>3 subjects from the following: Art, Dance, Food and Nutrition, Geography, History, Music, Photography, PE, Resistant Materials, Spanish, Psychology, Statistics</li>
                             <li>SMSC: including mentoring and personal development.</li>
                         </ul>
                     </div>
