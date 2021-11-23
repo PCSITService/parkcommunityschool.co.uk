@@ -80,7 +80,7 @@
               <li>Each paper is 1 hour and 30 minutes long.</li>
             </ul>
 
-            <p><strong>Note:</strong> The new GCSE syllabus is far more demanding than in previous years. To help you understand some of the changes to mathematics please see the <a href="//qualifications.pearson.com/en/home.html" target="_blank">Edexcel website</a> and ‘<a href="//qualifications.pearson.com/content/dam/pdf/GCSE/mathematics/2015/misc/T772%20GCSE%20Maths%20Guide%20(web%20-%20final).pdf" target="_blank">The guide to Edexcel GCSE Mathematics (9-1)</a>’
+            <p><strong>Note:</strong> The new GCSE syllabus is far more demanding than in previous years. To help you understand some of the changes to mathematics please see the <a href="//qualifications.pearson.com/en/home.html" target="_blank">Edexcel website,</a> <a href="//www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300" target="_blank">AQA website</a> and ‘<a href="//qualifications.pearson.com/content/dam/pdf/GCSE/mathematics/2015/misc/T772%20GCSE%20Maths%20Guide%20(web%20-%20final).pdf" target="_blank">The guide to Edexcel GCSE Mathematics (9-1)</a>’
 
             <br>
         </div>
