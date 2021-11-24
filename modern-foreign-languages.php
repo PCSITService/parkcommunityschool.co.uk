@@ -60,15 +60,12 @@
             
             <br>
             <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year7-mfl.pdf" class="button">Year 7 Overview</a>  
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year8-mfl.pdf" class="button">Year 8 Overview</a> 
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year9-mfl.pdf" class="button">Year 9 Overview</a>  
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year10-mfl.pdf" class="button">Year 10 Overview</a>                      
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year11-mfl.pdf" class="button">Year 11 Overview</a>                      
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year7-homework.pdf" class="button">Year 7 Term 1 Homework</a> 
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year8-homework.pdf" class="button">Year 8 Term 1 Homework</a>
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year9-homework.pdf" class="button">Year 9 Term 1 Homework</a>
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/year7-8-reading-project.pdf" class="button">Year 7 and 8 Term 1 Reading Project</a> 
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/year7-mfl.pdf" class="button">Year 7 Learning Journey</a>  
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/year8-mfl.pdf" class="button">Year 8 Learning Journey</a> 
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/year9-mfl.pdf" class="button">Year 9 Learning Journey</a>  
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/year10-mfl.pdf" class="button">Year 10 Learning Journey</a>                      
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/year11-mfl.pdf" class="button">Year 11 Learning Journey</a>                      
+                      
             </div>
             <br>
             <div class="text-center">
@@ -81,12 +78,11 @@
         <h4>Additional opportunities:</h4>
         <ul>
             <li>Language Ambassadors (all years).</li>
-            <li>Students teaching Spanish in Primary Schools (all years).</li>
-            <li>Linguists of the Half-Term (all years).</li>
-            <li>Homework Club (Year 7, 8 and 9) - tbc.</li>
+            <li>Linguists of the Term (all years).</li>
+            <li>Homework Club (Year 7, 8 and 9).</li>
             <li>Christmas activities  (all years).</li>
             <li>Reward/Revision college & university trips (all years).</li>
-            <li>Period 6 sessions (GCSE) - tbc.</li>
+            <li>Period 6 sessions (GCSE).</li>
             <li>MFL assemblies (whole school).</li>
             <li>Portsmouth College programme (GCSE).</li>
         </ul>
