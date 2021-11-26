@@ -66,14 +66,6 @@
         </span>
       </li>
 
-        <h4>Science Teacher</h4>  
-        <p><em>Closing Date: Tuesday 30th November 2021</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/science-teacher.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-
       <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>
