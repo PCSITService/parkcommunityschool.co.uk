@@ -48,8 +48,8 @@
             <br>
 
             <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/geography/ks3_curriculum_map.pdf" class="button">Key Stage 3 - Curriculum Map</a>
-                        <a role="button" target="_blank" href="assets/curriculum/geography/ks4_curriculum_map.pdf" class="button">Key Stage 4 - Curriculum Map</a>
+                        <a role="button" target="_blank" href="assets/curriculum/geography/ks3_curriculum_map.pdf" class="button">Key Stage 3 - Learning Journey</a>
+                        <a role="button" target="_blank" href="assets/curriculum/geography/ks4_curriculum_map.pdf" class="button">Key Stage 4 - Learning Journey</a>
                     </div>
         </div>
 
