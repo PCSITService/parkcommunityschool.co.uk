@@ -24,7 +24,7 @@
     <div class="row">
         <br>
         <div class="medium-12 columns">
-        <p>Our assembly programme means students have an assembly most days in year groups, key stage groups, or in our cross year families. In the assemblies we pick up on religious, political, cultural, moral and practical themes.</p>
+        <p>Our assembly programme means students have an assembly most days in year groups, key stage groups, or in our cross year houses. In the assemblies we pick up on religious, political, cultural, moral and practical themes.</p>
 
         <div class="text-center">
                         <a role="button" target="_blank" href="/smsc.php" class="button">SPIRITUAL, MORAL, SOCIAL AND CULTURAL (SMSC)</a>

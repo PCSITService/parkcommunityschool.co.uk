@@ -14,7 +14,7 @@
     <div class="row">
         <div class="medium-8 large-8 columns">
             <h1>Curriculum</h1>
-            <p class="text-capitalize">Our Programmes of Study</p>
+            <p class="text-capitalize">Our ambitious curriculum Intent</p>
         </div>
     </div>
 </header>
@@ -28,9 +28,9 @@
         <div class="large-9 columns">
         <br>
             <h3>Teaching and Learning at Park</h3>
-            <div class="flex-video widescreen border-radius-5">
-                <iframe src="https://www.youtube-nocookie.com/embed/Z4nN1xSDCdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <div class="columns small-8 small-push-2">
+                    <img src="assets/curriculum/great-learners.png">
+                </div>
 
             <h3>Curriculum Overview 2021-2022</h2>
             <p>At Park we provide a broad curriculum which allows students to find what they love to do. Our curriculum is designed to promote attainment, build resilience and increase autonomy. We are known for our inclusive approach and others describe us as ‘much more than just a school’.</p>
@@ -61,6 +61,10 @@
                         </ul>
                     </div>
                 </li>
+
+                <div class="columns small-8 small-push-2">
+                    <img src="assets/curriculum/curriculum.jpg">
+                </div>
 
                 <li class="accordion-navigation">
                     <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">Year 8</a>
