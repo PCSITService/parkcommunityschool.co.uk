@@ -63,6 +63,9 @@
             <div class="text-center">
                         <a role="button" target="_blank" href="/assemblies.php" class="button">ASSEMBLIES</a>
                     </div>
+            <div class="text-center">
+                        <a role="button" target="_blank" href="/religious-education.php" class="button">RE Curriculum</a>
+                    </div>
             
             <p><strong>Butterfly Broadcasts</strong> – This is a broadcast, which lasts around 4 minutes, shown during the week in a Personal Development slot. It covers the local, national and international news of the day. It is an important feature of the week as it allows students to consider current affairs; broadening their knowledge of the world around them.</p>
             
