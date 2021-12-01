@@ -53,7 +53,7 @@
                     <p>We also offer GCSE statistics as an additional GCSE qualification to those pupils who wish to pursue it.</p>
 
                     <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/maths/learning-journey.pdf" class="button">Learning Journey 7</a>
+                        <a role="button" target="_blank" href="assets/curriculum/maths/learning-journey.pdf" class="button">Learning Journey</a>
                         <a role="button" target="_blank" href="assets/curriculum/maths/curriculum-map.pdf" class="button">Curriculm Roadmap</a>
                     </div>
 
