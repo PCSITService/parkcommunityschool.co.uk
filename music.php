@@ -40,7 +40,7 @@
             Homework is set every 2 weeks via Multiple Choice Questioning (MCQ) which concludes in a written evaluation in conjunction with practical peer assessment which encourages students to remember and retain key vocabulary and performance skills this ties in with other elements of the curriculum as In KS3 music work is largely practical, we ask pupils to practice anything they are currently working on in lessons. Students are also welcomed to use the music facilities before and after school to rehearse.</p>
             <p>Once in KS4 students then begin studying for the RSL Level 2 Certificate in performance for Music Practitioners which consists of three units; Instrumental Study, Music Knowledge and Live Performance where they will be offered a professional environment to further explore their chosen instrument(s) and taught the vital skills needed to become successful performers. Students also can widen their understanding and knowledge in music theory and history during the Musical Knowledge Unit and work together as a team for their Live Performance unit where they get the exciting opportunity to organise their own live performance with a theme and expectations provided directly from RSL.</p>
 
-            h3>Impact</h3><p><strong>Building Dreams</strong>
+            <h3>Impact</h3><p><strong>Building Dreams</strong>
 
             <div class="text-center">
                     <img src="assets/curriculum/music/impact.png">
