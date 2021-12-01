@@ -46,7 +46,7 @@
 
             <p>Homework is set every 2 weeks via Multiple Choice Questioning (MCQ).</p>
 
-            <h3>Impact</h3>
+            <h3>Impact</h3><p><strong>Building Dreams</strong>
 
             <div class="text-center">
                     <img src="assets/curriculum/dance/impact.png">
