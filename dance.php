@@ -32,18 +32,29 @@
         <div class="large-12 columns">
         <br>
             <h3>Intent</h3>
-            <p>Within the dance department we aim to ensure that every child has the opportunity to explore their creativity, expressive skills and evaluative skills. Students are encouraged to work within small groups as a way of building their problem solving skills, confidence, communication, empathy, self discipline and resilience.</p>
-            <p>Dance at Park helps students develop technical and expressive skills as well as a knowledge and understanding of Dance through performance, choreography and appreciation. It allows students to actively and physically demonstrate their abilities through exciting and engaging schemes of work which cover different styles and cultures that prepare students for studying RSL Dance.</p>
+            <p><strong>Lighting Fires</strong> The Performing Arts intention is to ignite the flame of curiosity and passion within in the hearts and minds of the students at park. We thrive to deliver and develop key live skills and to nurture passionate, imaginative, and creative individuals, preparing them for further education and future careers. The performing arts curriculum prepares students to become independent and creative through the delivery of a diverse range of schemes of work which allows students to develop an understanding of different styles and practitioners. Furthermore, the performing arts curriculum promotes a sense of self-worth and encourages a growth in confidence, resilience, and autonomy.</p>
                         
             <h3>Implementation</h3>
-            <p>The KS3 curriculum enables students to build up a good repertoire of basic skills that students need to master before they go into KS4. Students learn a range of different choreographic devices and performance skills that build their self-confidence and team work skills that are fundamental to their learning. Students have the opportunity to learn different styles of Dance and are encouraged to self assess and evaluate the work of others. Examples of units are Thriller, Bollywood, Hip hop, Site Sensitive and Shadows which include looking at a wide range of dance styles.</p>
+            <p><strong>Releasing Potential</strong> The KS3 curriculum enables students to build up a good repertoire of basic skills that students need to master before they go into KS4. Students learn a range of different choreographic devices and performance skills that build their self-confidence and teamwork skills that are fundamental to their learning. Students have the opportunity to learn different styles of Dance and are encouraged to self-assess and evaluate the work of others. Examples of units are Thriller, Bollywood, Hip hop, Swan Song, Stimulus and Dance with a prop which all include looking at a wide range of dance styles.</p>
             <p>Once in KS4 students then begin studying for the RSL Level 2 Certificate in Creative and Performing Arts (Dance) which consists of two units; Ensemble and Live Performance.</p>
 
-            <p><strong>Performance</strong> Students look at physical fitness and effectiveness as a performer through safe practice, technique classes, rehearsal and performance. They are encouraged to work together to create and perform pieces which challenge students and enable them to achieve their full potential.</p>
+            <p><strong>Performance</strong> Students look at physical fitness and effectiveness as a performer through safe practice, technique classes, rehearsal, and performance. They are encouraged to work together to create and perform pieces which challenge students and enable them to achieve their full potential.</p>
 
-            <p><strong>Choreography</strong> Students explore ideas based around a variety of stimuli through creating, improvising, developing and selecting movements appropriate to a theme or stimulus. Throughout the course they create a group piece of choreography as well as a solo, both of which are based on stimuli from professional dance works.</p>
+            <p><strong>Choreography</strong> Students explore ideas based around a variety of stimuli through creating, improvising, developing, and selecting movements appropriate to a theme or stimulus. Throughout the course they create a group piece of choreography as well as a solo, both of which are based on stimuli from professional dance works.</p>
 
-            <p><strong>Analysis</strong> Students develop their evaluative  skills through describing and analysing their practical work. They will keep a weekly journal where they will evaluate strengths, areas for improvement and set personal targets. </p>
+            <p><strong>Analysis</strong> Students develop their evaluative skills through describing and analysing their practical work. They will keep a weekly journal where they will evaluate strengths, areas for improvement and set personal targets.</p>
+
+            <p>Homework is set every 2 weeks via Multiple Choice Questioning (MCQ).</p>
+
+            <h3>Impact</h3>
+
+            <div class="text-center">
+                    <img src="assets/curriculum/dance/impact.png">
+                </div>
+
+            <div class="text-center">
+                    <img src="assets/curriculum/pa.png">
+                </div>
 
             <br>
         </div>
