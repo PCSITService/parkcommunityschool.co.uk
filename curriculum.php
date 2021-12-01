@@ -28,7 +28,7 @@
         <div class="large-9 columns">
         <br>
             <h3>Teaching and Learning at Park</h3>
-            <div class="columns small-8 small-push-2">
+            <div class="text-center">
                     <img src="assets/curriculum/great-learners.png">
                 </div>
 
@@ -44,6 +44,11 @@
                 <li>SMSC at Park promotes British Values through a comprehensive programme of assemblies, personal development and Challenge Days</li>
                 <li>Engaging Park students in our story and developing a sense of pride in this community</li>
             </ul>
+
+             <div class="text-center">
+                    <img src="assets/curriculum/curriculum.jpg">
+                </div>
+
             <h4>Overview of the curriculum</h4>
             <ul class="accordion" data-accordion role="tablist">
 
@@ -62,9 +67,7 @@
                     </div>
                 </li>
 
-                <div class="columns small-8 small-push-2">
-                    <img src="assets/curriculum/curriculum.jpg">
-                </div>
+                
 
                 <li class="accordion-navigation">
                     <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">Year 8</a>
