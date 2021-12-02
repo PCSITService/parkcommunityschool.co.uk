@@ -42,10 +42,10 @@
 
         <h4>Additional opportunities:</h4>
         <ul>
-            <li>English Ambassador Programme – students meet weekly and develop their love of English through a book club, shared creative writing and discussions about literature.</li>
+            <li>English Ambassadors – students visit local primary schools and read with younger students, explore their love of reading and writing, and take part in debating competitions. This opportunity is continuously developing in response to student voice and we are excited to hear ideas from students about how we can explore our love of English further!</li>
             <li>Debate Club – students participate in interschool debate competitions across the county and potentially further afield.</li>
             <li>Journalism – students have the opportunity within lessons and as part of extra-curricular programmes to prepare articles and written pieces to be published in ‘Park Post’.</li>
-            <li>Amphitheatre Performances – students are encouraged to celebrate their work as part of live readings during the school amphitheatre slot as well as using this as a forum to develop their spoken language skills</li>
+            <li>Assembly Performances – students are encouraged to celebrate their work as part of live readings during the school assembly slot as well as using this as a forum to develop their spoken language skills</li>
             <li>Creative writing competitions</li>
             <li>Storyteller visits</li>
             <li>Theatre trips</li>
@@ -61,8 +61,8 @@
         <p>Students leave Park Community School able to read, write and communicate well.</p>
 
         <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/english/curriculum-overview-ks3.pdf" class="button">KS3 Curriculum Journey</a>
-                        <a role="button" target="_blank" href="assets/curriculum/english/curriculum-overview-ks4.pdf" class="button">KS4 Curriculum Journey</a>
+                        <a role="button" target="_blank" href="assets/curriculum/english/lj-ks3.pdf" class="button">KS3 Learning Journey</a>
+                        <a role="button" target="_blank" href="assets/curriculum/english/lj-ks4.pdf" class="button">KS4 Learning Journey</a>
         </div>
 
         <h3>What do students study at Park Community School?</h3>
