@@ -34,7 +34,7 @@
             <li>High quality teaching which develops independence</li>
           </ol>
 
-          <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced the Education Endowment Foundation. Park Community School participated in the ‘Improving Outcomes for Disadvantaged Learners’ project with Hampshire and Rosendale Research during 2017-18, and is currently taking part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
+          <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced the Education Endowment Foundation. Park Community School participated in the ‘Improving Outcomes for Disadvantaged Learners’ project with Hampshire and Rosendale Research during 2017-18, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
         </div>
         <div class="small-10 small-centered medium-uncentered medium-5 columns">
           <br><img src="images/pupil-premium/pupil-premium-01.jpg" alt="Park Community School students enjoy school life." />
@@ -73,7 +73,7 @@
     <div class="row">
         <div class="medium-8 medium-push-4 columns">
           <p>In 2019 the gap in achievement between non-PP and PP students in GCSEs was -0.39 for Progress 8 (PP-1.09, non-PP -0.69)</p>
-          <p>In 2019/20 1:1 reading intervention with 69 students has seen 81% of students making double ratio gains, with a further 6% making progress but below the double ratio gains. Year 7 in the group made on average 28 months progress, Year 8 22 months and year 11 26 months. 70 % of the 60 students who made progress have now made enough progress that they have moved in to the correct chronological age reading bracket.</p>
+          <p>In 2020-21 1:1 reading intervention with 38 students improved either reading comprehension or decoding age for all students, with 70% improving both. An average improvement was evidenced of at least double ratio gains.</p>
           <p>Main barriers to educational achievement faced by eligible students could include:</p>
                 <ul class="circle">
                    <li>Low aspiration</li>
