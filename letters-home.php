@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" >
     <head>
 
-        <title>Park Community School | Letters Home</title>
+        <title>Park Community School | Letters Home and Newsletters</title>
         <?php include("includes/head.html") ?>
     </head>
 <body class="page-parent">
@@ -13,7 +13,7 @@
 <header class="header-parent">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>Letters Home</h1>
+            <h1>Letters Home and Newsletters</h1>
             <p class="text-capitalize">What we send home</p>
         </div>
     </div>
