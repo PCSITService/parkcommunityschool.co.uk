@@ -37,7 +37,7 @@
                     <div class="columns">
                         <a class="small button radius alert" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park Booklet</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="small button radius alert" href="assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
                 </div>
 
@@ -225,6 +225,37 @@ END NOTIFICATION -->
 
               <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
+
+            <!-- Newsletters -->
+            <div id="newsletter" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h2 id="modalTitle">Newsletters</h2>
+
+                <div class="medium-12 columns">
+            <ul class="small-block-grid-1">
+                <li>
+                    <ul class="circle">Newsletters<hr>
+                        <li><a href="/assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter - 19th November 2021</a></li>
+                        <li><a href="/assets/letters/2021-11/newsletter-05-11.pdf" target="_blank">Newsletter - 5th November 2021</a></li>
+                        <li><a href="/assets/letters/2021-10/newsletter-01-15.pdf" target="_blank">Newsletter - 15th October 2021</a></li>
+                        <li><a href="/assets/letters/2021-10/newsletter-01-10.pdf" target="_blank">Newsletter - 1st October 2021</a></li>
+                        <li><a href="/assets/letters/2021-09/newsletter-17-09.pdf" target="_blank">Newsletter - 17th September 2021</a></li>
+                        <li><a href="/assets/letters/2021-07/newsletter-2021-07-23.pdf" target="_blank">Newsletter - 23rd July 2021</a></li>
+                        <li><a href="/assets/letters/2021-07/newsletter-2021-07-02.pdf" target="_blank">Newsletter - 2nd July 2021</a></li>
+                        <li><a href="/assets/letters/2021-06/newsletter-18-06.pdf" target="_blank">Newsletter 18th June</a></li>
+                        <li><a href="/assets/letters/2021-05/newsletter-28-05.pdf" target="_blank">Newsletter 28th May</a></li>
+                        <li><a href="/assets/letters/2021-05/newsletter-14-05.pdf" target="_blank">Newsletter 14th May</a></li>
+                        <li><a href="/assets/letters/2021-04/newsletter-30-04.pdf" target="_blank">Newsletter 30th April</a></li>
+                        <li><a href="/assets/letters/2021-04/newsletter-1-04.pdf" target="_blank">Newsletter 1st April</a></li>
+                        <li><a href="/assets/letters/2021-03/newsletter-19-03.pdf" target="_blank">Newsletter 19th March</a></li>
+                        <li><a href="/assets/letters/2021-03/newsletter-5-03.pdf" target="_blank">Newsletter 5th March</a></li>
+                        <li><a href="/assets/letters/2021-02/newsletter-12-02.pdf" target="_blank">Newsletter 12th February</a></li>
+                        <li><a href="/assets/letters/2021-01/newsletter-29-01.pdf" target="_blank">Newsletter 29th January</a></li>
+                        <li><a href="/assets/letters/2021-01/newsletter-15-01.pdf" target="_blank">Newsletter 15th January</a></li>
+                    </ul>
+                <li>
+            </ul>
+            
+        </div>
 
             
             <!-- virtual-sports -->
