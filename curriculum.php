@@ -14,7 +14,7 @@
     <div class="row">
         <div class="medium-8 large-8 columns">
             <h1>Curriculum</h1>
-            <p class="text-capitalize">Our ambitious curriculum Intent</p>
+            <p class="text-capitalize">Our ambitious curriculum</p>
         </div>
     </div>
 </header>
@@ -32,7 +32,7 @@
                     <img src="assets/curriculum/great-learners.png">
                 </div>
 
-            <h3>Our ambitious curriculum Intent 2021-2022</h2>
+            <h3>Our Ambitious Curriculum</h2>
             <p>At Park we provide a broad curriculum which allows students to find what they love to do. Our curriculum is designed to promote attainment, build resilience and increase autonomy. We are known for our inclusive approach and others describe us as ‘much more than just a school’.</p>
             <ul class="circle">We do this through:
                 <li>A broad and traditional curriculum which leads to a wide range of GCSEs and other qualifications</li>
@@ -45,11 +45,16 @@
                 <li>Engaging Park students in our story and developing a sense of pride in this community</li>
             </ul>
 
-             <div class="text-center">
-                    <img src="assets/curriculum/curriculum.jpg">
-                </div>
+            <p>We aim to help students find what they love and therefore our curriculum focusses on developing depth of understanding, sequencing of learning to allow revisiting of concepts and application of knowledge at regular opportunities.</p>
+            <p>All students study a broad and balanced curriculum. At Key Stage 3 (years 7,8 and 9) this includes our Much More Than Just A School (MMTJAS) experiences including Enterprise at our print unit, Media making in our Media Suite, Construction at our Construction Skills Centre, Catering in the school restaurant and work at our small holding. At Key Stage 4, students study between 9-11 subjects for which they take formal qualifications.</p>
+            <p>Our curriculum is designed to fit with our school context. It begins in year 7 with a focus on Identity across all subjects wherein core knowledge and concepts are introduced, developed and explored and linked to students’ own experiences and local context initially, and ultimately one’s role as an individual in society.</p>
+            <p>When planning curriculum, subject leaders use the National Curriculum, GCSE syllabi and subject specific research to develop curriculums that match our curriculum vision.</p>
 
-            <h4>Our ambitious curriculum Intent</h4>
+             <!--<div class="text-center">
+                    <img src="assets/curriculum/curriculum.jpg">
+                </div>-->
+
+            <h4>Which subject do students study?</h4>
             <ul class="accordion" data-accordion role="tablist">
 
                 <li class="accordion-navigation">
