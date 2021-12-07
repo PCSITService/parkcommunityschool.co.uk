@@ -43,14 +43,16 @@
 
             <p>At GCSE we follow the AQA GCSE specification which can be found online <a target="_blank" href="https://filestore.aqa.org.uk/resources/geography/specifications/AQA-8035-SP-2016.PDF">here</a></p>
 
-            <h3>Impact</h3>
-            <p>The impact of our geography curriculum at Park is to equip our students with lifelong geographical skills and knowledge. As the future generation responsible for our planet, we want our students to understand the world and the people in it, enhanced by an understanding of both physical and human geography that makes places unique. Students will also be equipped to progress onto GCSE Geography and Further Education within geography. The key stage 3 students learning is assessed against the age-related expectation bands based on the 2014 National Curriculum statements for geography.</p>
-            <br>
-
             <div class="text-center">
                         <a role="button" target="_blank" href="assets/curriculum/geography/ks3_curriculum_map.pdf" class="button">Key Stage 3 - Learning Journey</a>
                         <a role="button" target="_blank" href="assets/curriculum/geography/ks4_curriculum_map.pdf" class="button">Key Stage 4 - Learning Journey</a>
                     </div>
+
+            <h3>Impact</h3>
+            <p>The impact of our geography curriculum at Park is to equip our students with lifelong geographical skills and knowledge. As the future generation responsible for our planet, we want our students to understand the world and the people in it, enhanced by an understanding of both physical and human geography that makes places unique. Students will also be equipped to progress onto GCSE Geography and Further Education within geography. The key stage 3 students learning is assessed against the age-related expectation bands based on the 2014 National Curriculum statements for geography.</p>
+            <br>
+
+            
         </div>
 
     </div>

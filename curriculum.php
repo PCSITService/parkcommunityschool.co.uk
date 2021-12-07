@@ -50,9 +50,9 @@
             <p>Our curriculum is designed to fit with our school context. It begins in year 7 with a focus on Identity across all subjects wherein core knowledge and concepts are introduced, developed and explored and linked to students’ own experiences and local context initially, and ultimately one’s role as an individual in society.</p>
             <p>When planning curriculum, subject leaders use the National Curriculum, GCSE syllabi and subject specific research to develop curriculums that match our curriculum vision.</p>
 
-             <!--<div class="text-center">
-                    <img src="assets/curriculum/curriculum.jpg">
-                </div>-->
+            <div class="text-center">
+                        <a role="button" target="_blank" href="assets/curriculum/curriculum.jpg" class="button">Curriculum Intent Review and Delivery</a>
+                    </div>
 
             <h4>Which subject do students study?</h4>
             <ul class="accordion" data-accordion role="tablist">
