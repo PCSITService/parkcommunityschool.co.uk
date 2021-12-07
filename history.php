@@ -49,14 +49,16 @@
                 <li>Paper 3: Weimar and Nazi Germany, 1918-1939</li>
             </ul>
 
+            <div class="text-center">
+                        <a role="button" target="_blank" href="assets/curriculum/history/ks3_l_j.pdf" class="button">Key Stage 3 - Learning Journey</a>
+                        <a role="button" target="_blank" href="assets/curriculum/history/ks4_l_j.pdf" class="button">Key Stage 4 - Learning Journey</a>
+        </div>
+
         <h3>Impact</h3>
             <p>Students leave GCSE History having gained a deeper understanding into British and world history, increasing their cultural capital. Further to this, their opportunity to explore the significant events and people that have shaped our historical identity and the world around us today, will help students to understand current affairs and be more politically engaged.</p>
             <p>Students develop critical thinking and evaluative skills that will equip them necessary life skills. Those that choose to take History at GCSE will also gain a qualification to reflect their achievement and progress.</p>
 
-        <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/history/ks3_l_j.pdf" class="button">Key Stage 3 - Learning Journey</a>
-                        <a role="button" target="_blank" href="assets/curriculum/history/ks4_l_j.pdf" class="button">Key Stage 4 - Learning Journey</a>
-        </div>
+        
 
         <br>
         </div>
