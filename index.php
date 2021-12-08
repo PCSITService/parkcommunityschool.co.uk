@@ -234,6 +234,7 @@ END NOTIFICATION -->
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2021-12/newsletter-06-12.pdf" target="_blank">Newsletter - 6th December 2021</a></li>
                         <li><a href="/assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter - 19th November 2021</a></li>
                         <li><a href="/assets/letters/2021-11/newsletter-05-11.pdf" target="_blank">Newsletter - 5th November 2021</a></li>
                         <li><a href="/assets/letters/2021-10/newsletter-01-15.pdf" target="_blank">Newsletter - 15th October 2021</a></li>
