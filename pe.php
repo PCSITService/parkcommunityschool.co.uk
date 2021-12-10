@@ -45,22 +45,10 @@
                 <a href="/assets/curriculum/pe/ks-4-learning-journey.pdf" target="_blank" class="button">Key Stage 4 Learning Journey</a>
             </div>
 
-        <h3>Additional Opportunities</h3>
-            <ul>
-                <li>Sports ambassador programme allowing students to develop their ability to coach and support students within our school, local junior schools and area competitions.</li>
-                <li>Invitations to a wide variety of after school clubs and events.</li>
-                <li>Representative opportunities in all area sport.</li>
-                <li>Selection opportunities to represent the district and county in various sports.</li>
-                <li>Sports development programme through a selection process run by two high level sports performers.</li>
-                <li>Involvement in the Duke of Edenborough Award.</li>
-                <li>Sports captains for inter family sport and Parks Festival of Sport (Sports Day).</li>
-                <li>Race at our Place for Cancer Research.</li>
-                <li>Off-site opportunities with the department through OAA orienteering and Cross Country.</li>
-            </ul>
-
         <h3>Impact</h3>
             <p>All students will study sport at Park and within this they will develop a clear understanding of where to go next with assignments is shared within all lessons (pass criteria to merit and merit to distinction etc). Promoting accountability through strict deadlines and the sharing of each student's assignment completions, grade and actions to achieve projection (or higher). The department develop independence through structured stuck resources and models used within lessons and available to students through a shared platform.</p>
             <p>Through our structured curriculum and precise delivery of theory content examination outcomes have seen superb improvements over recent years with students becoming highly confident in unit content and assignment application.</p>
+            <p>2021 = 98.7% Pass - distinction* <em>(11 distinction*, 47 distinctions, 68 merits, 60 pass)</em></p>
             <p>2020 = 98.7% Pass - distinction* <em>(4 distinction*, 36 distinctions, 49 merits, 74 pass)</em></p> 
             <p>2019 = 100% Pass – distinction* <em>(66 distinction*, 23 distinctions, 36 merits, 19 pass)<em></p>
             <p>2018 = 100% Pass-distinction* <em>(63 distinction*, 17 distinctions, 54 merits, 20 pass)<em></p> 
@@ -344,6 +332,31 @@
             </div>
           </li>
         </ul>
+
+        <br>
+          <h3>Additional Opportunities</h3>
+            <ul>
+                <li>Sports ambassador programme allowing students to develop their ability to coach and support students within our school, local junior schools and area competitions.</li>
+                <li>Invitations to a wide variety of after school clubs and events.</li>
+                <li>Representative opportunities in all area sport.</li>
+                <li>Selection opportunities to represent the district and county in various sports.</li>
+                <li>Sports development programme through a selection process run by two high level sports performers.</li>
+                <li>Involvement in the Duke of Edenborough Award.</li>
+                <li>Sports captains for inter family sport and Parks Festival of Sport (Sports Day).</li>
+                <li>Race at our Place for Cancer Research.</li>
+                <li>Off-site opportunities with the department through OAA orienteering and Cross Country.</li>
+            </ul>
+
+        <h3>Extra Curricular Sporting Opportunities</h3>
+            <div class="text-center">
+                    <img src="assets/curriculum/pe/pe-after-school clubs.jpg">
+                </div>
+        <br>
+        <h3>PE Department handbook</h3>
+        <p>Please click the PE handbook to view department guidance:</p>
+            <div class="text-center">
+                    <a href="assets/curriculum/pe/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/pe/handbook.jpg" width=150" height="70">
+                </div>
 
         <br>
 
