@@ -27,7 +27,18 @@
             <h3>What is a community pantry?</h3>
             <p>A pantry is 'get more for less', it is to help family budgets go further.</p>
             <p>Our community has been receiving food from Foodbank PO9 and the Munch fridge in the Dickinson Centre for several years. A Community Food Pantry is the next step for families enabling them to make a choice of the food that they can have in return for a weekly subscription of £5.</p>
-            <p>We are extremely grateful to Havant Borough Council and the Guinness Partnership who recognised the idea as an alternative way of helping the community. Once the promise of funding had been made finding a venue was a little trickier. PCS have a good relationship with The Swallow Pub who always support our charity initiatives and we approached them to be the venue for the Munch Pantry and they have truly welcomed us. Unusual venue maybe but it is a venue known by most, on a bus route and with parking. As we have enough space we will be able to invite visitors to meet members of the community for example Citizens Advice Bureau, staff to help prepare a CV and many more.</p>
+            <p>We are extremely grateful to Havant Borough Council and the Guinness Partnership who recognised the idea as an alterative way of helping the community. Once the promise of funding had been made we sought premises. We were fortunate that the landlady of The Swallow Pub, who was always supportive of our charity initiatives, gave over one side of the pub to house the pantry. We were made truly welcome and we moved into the pub November 2020 and by 2021 over 400 members a month were regularly using the Munch Pantry.</p>
+            <p>In December 2021 The Swallow Pub has been sold and the landlady has retired. We will always be eternally grateful for all the help and commitment she gave to getting this started. From this one pantry, we have been able to use the model and through funding from HCC Connect4Communities, there are another 15 pantries established in Hampshire.</p>
+            <p>The Munch Community Food Pantry has moved to</p>
+            <p>The Dickinson Centre<br>
+               Park Community School<br>
+               Middle Park Way<br>
+               Havant<br>
+               PO9 4BU<br>
+           </p>
+
+           <p>Munch Community Food Pantry continues to operate in the same way. Opening hours are Monday – Friday 11am – 2.30pm and everyone is welcome.</p>
+
 
             <div class="text-center">
                 <a class="button radius success" href="assets/pantry/flyer.pdf">Pantry Flyer <small>(PDF)</small></a>
