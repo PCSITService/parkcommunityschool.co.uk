@@ -359,13 +359,13 @@
                 <li>
                     <div class="menu-box"><a href="assets/curriculum/pe/sporting-future.pdf" target="_blank"> 
                             <img src="assets/curriculum/pe/sporting-future.jpg" alt="Sporting Future">
-                            <p>Sporting Future</p>
+                            <p>Sporting Future - Jobs in the Sports Industry</p>
                         </a></div>
                 </li>
                 <li>
                     <div class="menu-box"><a href="assets/curriculum/pe/where-next.pdf" target="_blank">
                             <img src="assets/curriculum/pe/where-next.jpg" alt="Where Next">
-                            <p>Where Next</p>
+                            <p>Where Next - Studying Sport at College and University</p>
                         </a></div>
                 </li>
                 
