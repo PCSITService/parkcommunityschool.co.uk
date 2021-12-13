@@ -352,13 +352,6 @@
                     <img src="assets/curriculum/pe/pe-after-school clubs.jpg">
                 </div>
         <br>
-        <h3>PE Department handbook</h3>
-        <p>Please click the PE handbook to view department guidance:</p>
-            <div class="text-center">
-                    <a href="assets/curriculum/pe/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/pe/handbook.jpg" width=150" height="70">
-                </div>
-
-        <br>
 
         <h3>After Park PE - what's next?</h3>
 
@@ -379,6 +372,16 @@
               </ul>
 
         <br>
+        
+        <h3>PE Department handbook</h3>
+        <p>Please click the PE handbook to view department guidance:</p>
+            <div class="text-center">
+                    <a href="assets/curriculum/pe/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/pe/handbook.jpg" width=150" height="70">
+                </div>
+
+        <br>
+
+        
 
         <h3>BTEC Specifications</h3>
             <p>The link provided to view the specifications for BTEC Sport:</p>
