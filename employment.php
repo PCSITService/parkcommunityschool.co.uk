@@ -39,17 +39,17 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-      <li>
+      <!--<li>
         <h4>Cafe / Mobile Coffee Assistant (Tea Rooms at The Coach House)</h4>  
         <p><em>Closing Date: Open date</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/cafe.pdf" target="_blank">Position Details</a>
         </span>
-      </li>
+      </li>-->
 
        
-      <!--<br><span class="subheader">Please check back later.</span></ul>-->
+      <br><span class="subheader">Please check back later.</span></ul>
           
 	      </ul>
 	      <hr>
