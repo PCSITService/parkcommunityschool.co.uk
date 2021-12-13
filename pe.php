@@ -362,6 +362,23 @@
 
         <h3>After Park PE - what's next?</h3>
 
+        <ul class="text-center medium-block-grid-2 small-block-grid-1">
+                <li>
+                    <div class="menu-box"><a href="assets/curriculum/pe/sporting-future.pdf" target="_blank"> 
+                            <img src="assets/curriculum/pe/sporting-future.jpg" alt="Sporting Future">
+                            <p>Sporting Future</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div class="menu-box"><a href="assets/curriculum/pe/where-next.pdf" target="_blank">
+                            <img src="assets/curriculum/pe/where-next.jpg" alt="Where Next">
+                            <p>Where Next</p>
+                        </a></div>
+                </li>
+                
+              </ul>
+
+        <br>
 
         <h3>BTEC Specifications</h3>
             <p>The link provided to view the specifications for BTEC Sport:</p>
