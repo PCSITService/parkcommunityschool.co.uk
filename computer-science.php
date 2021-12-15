@@ -160,6 +160,14 @@
 
 						<br>
 
+						<h3>PE Department handbook</h3>
+					        <p>Please click the Computer Science handbook to view department guidance:</p>
+					            <div class="text-center">
+					                    <a href="assets/curriculum/computer-science/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/computer-science/handbook.jpg" width=150 height="70">
+					            </div>
+
+        <br>
+
 					<h3>Exciting Opportunities</h3>
 						<p>Our extra-curricular activities include:</p>
 							<div class="text-center">
