@@ -71,7 +71,16 @@
             <div class="text-center">
                     <img src="assets/curriculum/pa.png">
                 </div>
-		<br><br>
+		<br>
+
+		    <h3>Performing Arts Department handbook</h3>
+        <p>Please click the Performing Arts handbook to view department guidance:</p>
+            <div class="text-center">
+                    <a href="assets/curriculum/pa/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/pa/handbook.jpg" width=150" height="70">
+                </div>
+
+        <br>
+        <br>
         </div>
     </div>
 </section>
