@@ -71,7 +71,6 @@
             <div class="text-center">
                         <a role="button" target="_blank" href="assets/curriculum/mfl/aqa-gcse-resources.pdf" class="button">AQA GCSE Resources</a>
                         <a role="button" target="_blank" href="assets/curriculum/mfl/competencies.pdf" class="button">Competencies</a>
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/curriculum-map.pdf" class="button">Curriculum Map</a>
                         <a role="button" target="_blank" href="assets/curriculum/mfl/language-lesson.pdf" class="button">Language Lesson</a> 
             </div>
 
