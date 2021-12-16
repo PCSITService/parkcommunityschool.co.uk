@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                  <li>
                     <ul class="circle">December 2021<hr>
+                        <li><a href="/assets/letters/2021-12/vaccinations-2022.pdf" target="_blank">Vaccinations, January 2022</a></li>
                         <li><a href="/assets/letters/2021-12/end-of-term-letter.pdf" target="_blank">End of Term Letter</a></li>
                         <li><a href="/assets/letters/2021-12/newsletter-06-12.pdf" target="_blank">Newsletter - 6th December 2021</a></li>
                     </ul>
