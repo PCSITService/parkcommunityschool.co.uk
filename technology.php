@@ -60,51 +60,67 @@
                         <a role="button" target="_blank" href="assets/curriculum/technology/y10_apex.pdf" class="button">Year 10/11 APEX Construction Skills</a>
             </div>
 
-			<h3>Year 7 Design and Technology transition curriculum </h3>
+            <ul class="accordion" data-accordion role="tablist">
 
-			<p>Year 7 Design and Technology at Park is designed to enable our students to make a successful transition from Key Stage 2. Students will study three main areas. Design and Technology where students are learning the design process and health and safety legislation whilst using new equipment. They will also study Food and Catering including health and hygiene basics and cooking skills. A Graphics and designing skills curriculum where student will look at precision what drawing and product analysis whilst some will be developing their understanding of Horticulture.</p> 
+                <li class="accordion-navigation">
+                    <a href="#panel1d" role="tab" id="panel1d-heading" aria-controls="panel1d">Year 7 Design and Technology transition curriculum</a>
+                    <div id="panel1d" class="content" role="tabpanel" aria-labelledby="panel1d-heading">
+                     <p>Year 7 Design and Technology at Park is designed to enable our students to make a successful transition from Key Stage 2. Students will study three main areas. Design and Technology where students are learning the design process and health and safety legislation whilst using new equipment. They will also study Food and Catering including health and hygiene basics and cooking skills. A Graphics and designing skills curriculum where student will look at precision what drawing and product analysis whilst some will be developing their understanding of Horticulture.</p>  
+                    </div>
+                </li>
 
-			<h3>Year 8 Design and Technology curriculum</h3>
+                
 
-			<p>Year 8 Design and Technology students’students’ study Design and Technology, Hospitality and Catering and Graphics. This is a skills-based year where students will design ad create a few products as well as learn new cooking skills. The aim of this year is to allow students to practice skills whilst trying to refine their work to improve its quality. There is a larger emphasis on the theoretical work to ensure that students are fully prepared for GCSE but we are fully supportive of teaching practical skills for life.</p>
+                <li class="accordion-navigation">
+                    <a href="#panel2d" role="tab" id="panel2d-heading" aria-controls="panel2d">Year 8 Design and Technology curriculum</a>
+                    <div id="panel2d" class="content" role="tabpanel" aria-labelledby="panel2d-heading">
+                        <p>Year 8 Design and Technology students’students’ study Design and Technology, Hospitality and Catering and Graphics. This is a skills-based year where students will design ad create a few products as well as learn new cooking skills. The aim of this year is to allow students to practice skills whilst trying to refine their work to improve its quality. There is a larger emphasis on the theoretical work to ensure that students are fully prepared for GCSE but we are fully supportive of teaching practical skills for life.</p>
+                    </div>
+                </li>
 
-			<h3>Year 9 Design and Technology curriculum</h3>
+                <li class="accordion-navigation">
+                    <a href="#panel3d" role="tab" id="panel3d-heading" aria-controls="panel3d">Year 9 Design and Technology curriculum</a>
+                    <div id="panel3d" class="content" role="tabpanel" aria-labelledby="panel3d-heading">
+                        <p>Year 9 Design and Technology students’ students’ study Design and Technology, Graphics and  Hospitality and Catering. This is another skills-based year but where students try to master the skills learnt in year 7 and 8. This will also be an opportunity to learn new higher-level skills to prepare them for their GCSE years. The main aim of this year is to allow students to have time to practise and really refine their skills to develop their final outcomes and appreciate the need for a quality product. There is a larger emphasis on three areas for DT. They are Research – Analyse – Respond. This will support their practises in GCSE Art and Design. Students learning construction will learn skills for life as well as preparing them for Level 2 Construction in Multi-trades. Dishes cooked in Catering will be presented to a higher standard to ensure that all health and hygiene rules apply in more complex dishes. This preparation will allow students to succeed in their vocational qualification in Hospitality and Catering.</p> 
+                    </div>
+                </li>
 
-			<p>Year 9 Design and Technology students’ students’ study Design and Technology, Graphics and  Hospitality and Catering. This is another skills-based year but where students try to master the skills learnt in year 7 and 8. This will also be an opportunity to learn new higher-level skills to prepare them for their GCSE years. The main aim of this year is to allow students to have time to practise and really refine their skills to develop their final outcomes and appreciate the need for a quality product. There is a larger emphasis on three areas for DT. They are Research – Analyse – Respond. This will support their practises in GCSE Art and Design. Students learning construction will learn skills for life as well as preparing them for Level 2 Construction in Multi-trades. Dishes cooked in Catering will be presented to a higher standard to ensure that all health and hygiene rules apply in more complex dishes. This preparation will allow students to succeed in their vocational qualification in Hospitality and Catering.</p> 
+                <li class="accordion-navigation">
+                    <a href="#panel4d" role="tab" id="panel4d-heading" aria-controls="panel4d">GCSE Art and Design; 3D Design Modules</a>
+                    <div id="panel4d" class="content" role="tabpanel" aria-labelledby="panel4d-heading">
+                        <p>Three-dimensional design is defined here as the design, prototyping and modelling or making of primarily functional and aesthetic products, objects, and environments, drawing upon intellectual, creative and practical skills. Students are taught many different skills to prepare them for the 3 modules that they must complete to pass this course.</p>
 
-			<h3>GCSE Art and Design; 3D Design Modules</h3>
+							<p>Module 1, A mini project showing their designing skills and developing them.</p>
+							<p>Module 2, A design and make project of the student’s choice.</p>
+							<p>Module 3, A design and make project that is stipulated externally with a 10hour making exam.</p>
+							<p>Within the context of three-dimensional design, students must demonstrate the ability to: use three-dimensional techniques and processes, appropriate to students’ personal intentions, for example:</p>
 
-			<p>Three-dimensional design is defined here as the design, prototyping and modelling or making of primarily functional and aesthetic products, objects, and environments, drawing upon intellectual, creative and practical skills. Students are taught many different skills to prepare them for the 3 modules that they must complete to pass this course.</p>
+							<ul>
+								<li>model making</li>
+								<li>constructing</li>
+								<li>surface treatment</li>
+								<li>assembling</li>
+								<li>modelling</li>
+							</ul>
 
-			<p>Module 1, A mini project showing their designing skills and developing them.</p>
-			<p>Module 2, A design and make project of the student’s choice.</p>
-			<p>Module 3, A design and make project that is stipulated externally with a 10hour making exam.</p>
-			<p>Within the context of three-dimensional design, students must demonstrate the ability to: use three-dimensional techniques and processes, appropriate to students’ personal intentions, for example:</p>
+							<p>use media and materials, as appropriate to students’ personal intentions, for example:</p>
 
-			<ul>
-				<li>model making</li>
-				<li>constructing</li>
-				<li>surface treatment</li>
-				<li>assembling</li>
-				<li>modelling</li>
-			</ul>
+							<ul>
+								<li>drawing materials</li>
+								<li>clay</li>
+								<li>wood</li>
+								<li>metal</li>
+								<li>plaster</li>
+								<li>plastic</li>
+								<li>found materials</li>
+							</ul>
+                    </div>
+                </li>
 
-			<p>use media and materials, as appropriate to students’ personal intentions, for example:</p>
-
-			<ul>
-				<li>drawing materials</li>
-				<li>clay</li>
-				<li>wood</li>
-				<li>metal</li>
-				<li>plaster</li>
-				<li>plastic</li>
-				<li>found materials</li>
-			</ul>
-
-
-			<h3>Year 10/11 – GCSE Art and Design; 3D Design</h3>
-
-			<p><a href="www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206">The examination board specification</a></p>
+                <li class="accordion-navigation">
+                    <a href="#panel5d" role="tab" id="panel5d-heading" aria-controls="panel5d">Year 10/11 – GCSE Art and Design; 3D Design</a>
+                    <div id="panel5d" class="content" role="tabpanel" aria-labelledby="panel5d-heading">
+                      <p><a href="www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206">The examination board specification</a></p>
 
 			<h4>Areas of study</h4>
 
@@ -137,11 +153,15 @@
 
 			<p>figurative and non-figurative forms of representation, stylisation, simplification, exaggeration, the relationship between form and surface embellishment, constructional considerations and imaginative interpretation</p>
 
-			<p>visual and tactile elements such as: colour, line, form, tone, texture, space, proportion, decoration, scale, structure, shape and pattern.</p>
+			<p>visual and tactile elements such as: colour, line, form, tone, texture, space, proportion, decoration, scale, structure, shape and pattern.</p>  
+                    </div>
+                </li>
 
-			<h4>GCSE Art and Design; Graphic Communication Modules</h4>
 
-			<p>Graphic communication is defined here as the process of designing primarily visual material to convey information, ideas, meaning and emotions in response to a given or self-defined brief. Students are taught many different skills to prepare them for the 3 modules that they must complete to pass this course.</p>
+            <li class="accordion-navigation">
+                    <a href="#panel6d" role="tab" id="panel6d-heading" aria-controls="panel6d">GCSE Art and Design; Graphic Communication Modules</a>
+                    <div id="panel6d" class="content" role="tabpanel" aria-labelledby="panel6d-heading">
+                     <p>Graphic communication is defined here as the process of designing primarily visual material to convey information, ideas, meaning and emotions in response to a given or self-defined brief. Students are taught many different skills to prepare them for the 3 modules that they must complete to pass this course.</p>
 
 			<p>Module 1, A mini project showing their designing skills and developing them.</p>
 			<p>Module 2, A design and make project of the student’s choice.</p>
@@ -168,9 +188,14 @@
 				<li>mixed media</li>
 			</ul>
 
-			<h3>Year 10/11 – Art and Design; Graphic Communication</h3>
+                    </div>
+                </li>
 
-			<p><a href="//www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206">The examination board specification</a></p>
+
+            <li class="accordion-navigation">
+                    <a href="#panel7d" role="tab" id="panel7d-heading" aria-controls="panel7d">Year 10/11 – Art and Design; Graphic Communication</a>
+                    <div id="panel7d" class="content" role="tabpanel" aria-labelledby="panel7d-heading">
+                     <p><a href="//www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206">The examination board specification</a></p>
 
 			<p>In Module 2 and Module 3 students are required to work in one or more area(s) of graphic communication, such as those listed below:</p>
 
@@ -227,10 +252,14 @@
 				<li>mixed media.</li>
 			</ul>
 
+                    </div>
+                </li>
 
-			<h3>WJEC (EDUQAS) Hospitality and Catering Spec A</h3>
 
-			<p><a href="//www.eduqas.co.uk/qualifications/hospitality-and-catering/">The examination board specification</a></p>
+            <li class="accordion-navigation">
+                    <a href="#panel8d" role="tab" id="panel8d-heading" aria-controls="panel8d">WJEC (EDUQAS) Hospitality and Catering Spec A</a>
+                    <div id="panel8d" class="content" role="tabpanel" aria-labelledby="panel8d-heading">
+                     <p><a href="//www.eduqas.co.uk/qualifications/hospitality-and-catering/">The examination board specification</a></p>
 
 			<p>The hospitality and catering sector includes all businesses that provide food, beverages, and/or accommodation services. This includes restaurants, hotels, pubs and bars. It also includes airlines, tourist attractions, hospitals and sports venues; businesses where hospitality and catering is not their primary service but is increasingly important to their success. According to the British Hospitality Association, hospitality and catering is Britain’s fourth largest industry and accounts for around 10% of the total workforce. Since 2010, over 25% of all new jobs have been within the hospitality and catering sector with the majority of new roles falling within the 18-24 age group, according to a report by People 1P. This is a reason why we feel very strongly about offering these skills for life to our students to give them the best chance when they leave Park.</p> 
 
@@ -250,103 +279,141 @@
 				<li>They will also develop the skills needed to plan and cost meals.</li>
 			</ul>
 
+                    </div>
+                </li>
 
-			<h3>Year 10/11 WJEC (EDUQAS) Hospitality and Catering Spec A</h3>
+            <li class="accordion-navigation">
+                    <a href="#panel9d" role="tab" id="panel9d-heading" aria-controls="panel9d">WJEC (EDUQAS) Hospitality and Catering Spec A</a>
+                    <div id="panel9d" class="content" role="tabpanel" aria-labelledby="panel9d-heading">
+                     <p><a href="//www.eduqas.co.uk/qualifications/hospitality-and-catering/">The examination board specification</a></p>
 
-			<p><a href="//www.eduqas.co.uk/qualifications/hospitality-and-catering/">The examination board specification</a></p>
+						<p>Students in year 10/11 Hospitality and Catering will be completing their Controlled Assessment work from Sept until December. This includes a 9 hour Internal Assessment that is worth 60% of the overall grade. The criteria for this part of the course is below.</p>
 
-			<p>Students in year 10/11 Hospitality and Catering will be completing their Controlled Assessment work from Sept until December. This includes a 9 hour Internal Assessment that is worth 60% of the overall grade. The criteria for this part of the course is below.</p>
+						<p><strong>LO1 AC 1.1 MERIT</strong></p>
+						<p>Describe the functions of nutrients in the human body.</p>
+						<p><strong>LO1 AC 1.2 DISTINCTION</strong></p>
+						<p>Compare the needs of specific groups.</p>
+						<p><strong>LO1 AC 1.3 MERIT</strong></p>
+						<p>Explain the characteristics of unsatisfactory nutritional intake.</p>
+						<p><strong>LO1 AC 1.4 PASS</strong></p>
+						<p>Explain How Cooking Methods Impact On Nutritional Value Of Food</p>
+						<p><strong>LO2 AC 2.1 MERIT</strong></p>
+						<p>Explain Factors To Consider When Proposing Dishes For A Menu</p>
+						<p><strong>LO2 AC 2.2 PASS</strong></p>
+						<p>Explain How Dishes On A Menu Address Environmental Issues</p>
+						<p><strong>LO2 AC 2.3 MERIT</strong></p>
+						<p>Explain How Menu Dishes Meet Customer Needs</p>
+						<p><strong>LO2 AC 2.4 DISTINCTION</strong></p>
+						<p>Plan production of dishes for a menu.</p>
+						<p><strong>LO3 AC 3.1 DISTINCTION</strong></p>
+						<p>Use Techniques In Preparation Of Commodities</p>
+						<p><strong>LO3 AC 3.2 MERIT</strong></p>
+						<p>Assure Quality Of Commodities To Be Used In Food Preparation</p>
+						<p><strong>LO3 AC 3.3 DISTINCTION</strong></p>
+						<p>Use Techniques In Cooking Of Commodities</p>
+						<p><strong>LO3 AC 3.4 DISTINCTION</strong></p>
+						<p>Complete Dishes Using Presentation Techniques</p>
+						<p><strong>LO3 AC 3.5  MERIT</strong></p>
+						<p>Use Food Safety Practises</p>
 
-			<p><strong>LO1 AC 1.1 MERIT</strong></p>
-			<p>Describe the functions of nutrients in the human body.</p>
-			<p><strong>LO1 AC 1.2 DISTINCTION</strong></p>
-			<p>Compare the needs of specific groups.</p>
-			<p><strong>LO1 AC 1.3 MERIT</strong></p>
-			<p>Explain the characteristics of unsatisfactory nutritional intake.</p>
-			<p><strong>LO1 AC 1.4 PASS</strong></p>
-			<p>Explain How Cooking Methods Impact On Nutritional Value Of Food</p>
-			<p><strong>LO2 AC 2.1 MERIT</strong></p>
-			<p>Explain Factors To Consider When Proposing Dishes For A Menu</p>
-			<p><strong>LO2 AC 2.2 PASS</strong></p>
-			<p>Explain How Dishes On A Menu Address Environmental Issues</p>
-			<p><strong>LO2 AC 2.3 MERIT</strong></p>
-			<p>Explain How Menu Dishes Meet Customer Needs</p>
-			<p><strong>LO2 AC 2.4 DISTINCTION</strong></p>
-			<p>Plan production of dishes for a menu.</p>
-			<p><strong>LO3 AC 3.1 DISTINCTION</strong></p>
-			<p>Use Techniques In Preparation Of Commodities</p>
-			<p><strong>LO3 AC 3.2 MERIT</strong></p>
-			<p>Assure Quality Of Commodities To Be Used In Food Preparation</p>
-			<p><strong>LO3 AC 3.3 DISTINCTION</strong></p>
-			<p>Use Techniques In Cooking Of Commodities</p>
-			<p><strong>LO3 AC 3.4 DISTINCTION</strong></p>
-			<p>Complete Dishes Using Presentation Techniques</p>
-			<p><strong>LO3 AC 3.5  MERIT</strong></p>
-			<p>Use Food Safety Practises</p>
+						<p>From January until June students will be completing revision topics in preparation for the External Assessment that is worth 40% of the overall grade. The criteria for this part of the course is below:</p>
 
-			<p>From January until June students will be completing revision topics in preparation for the External Assessment that is worth 40% of the overall grade. The criteria for this part of the course is below:</p>
-
-			<ul>
-				<li>LO1 Hospitality and catering industry</li>
-				<li>LO1 Requirements</li>
-				<li>LO1 Working conditions</li>
-				<li>LO1 Factors</li>
-				<li>LO2 Operation</li>
-				<li>LO2 Customer</li>
-				<li>LO2 Requirements</li>
-				<li>LO3 Responsibilities</li>
-				<li>LO3 Risks</li>
-				<li>LO3 Control measures</li>
-				<li>LO4 Causes</li>
-				<li>LO4 EHO</li>
-				<li>LO4 Legislation</li>
-				<li>LO4 Food poisoning</li>
-				<li>LO4 Symptons</li>
-				<li>LO4 Food induced ill health</li>
-				<li>LO5 Hospitality and catering provision</li>
-			</ul>
+						<ul>
+							<li>LO1 Hospitality and catering industry</li>
+							<li>LO1 Requirements</li>
+							<li>LO1 Working conditions</li>
+							<li>LO1 Factors</li>
+							<li>LO2 Operation</li>
+							<li>LO2 Customer</li>
+							<li>LO2 Requirements</li>
+							<li>LO3 Responsibilities</li>
+							<li>LO3 Risks</li>
+							<li>LO3 Control measures</li>
+							<li>LO4 Causes</li>
+							<li>LO4 EHO</li>
+							<li>LO4 Legislation</li>
+							<li>LO4 Food poisoning</li>
+							<li>LO4 Symptons</li>
+							<li>LO4 Food induced ill health</li>
+							<li>LO5 Hospitality and catering provision</li>
+						</ul>
 
 
-			<h3>APEX – Laser Level 2 Certificate for Learning, Employability and Progression in Multi-trades</h3>
+			
+                    </div>
+                </li>
 
-			<p>Main topics students study:</p>
+<li class="accordion-navigation">
+                    <a href="#panel10d" role="tab" id="panel10d-heading" aria-controls="panel10d">APEX – Laser Level 2 Certificate for Learning, Employability and Progression in Multi-trades</a>
+                    <div id="panel10d" class="content" role="tabpanel" aria-labelledby="panel10d-heading">
+							                     <p><a href="//www.eduqas.co.uk/qualifications/hospitality-and-catering/">The examination board specification</a></p>
+							<p>Main topics students study:</p>
 
-			<p>To achieve the LASER Level 2 Certificate for Learning, Employability and Progression the learner must achieve a minimum of 25 credits. The credits may be taken from any combination of units but a minimum of 20 credits must be at Level 2.</p>
-			<p>Here at Park community school we also offer the above course with specific credits awarded in different construction skills. These skills are delivered at our APEX construction skills centre in Leigh Park, Havant. This course is offered to students at Park Community School and it is also offered to other secondary schools in the local area.</p>
+										<p>To achieve the LASER Level 2 Certificate for Learning, Employability and Progression the learner must achieve a minimum of 25 credits. The credits may be taken from any combination of units but a minimum of 20 credits must be at Level 2.</p>
+										<p>Here at Park community school we also offer the above course with specific credits awarded in different construction skills. These skills are delivered at our APEX construction skills centre in Leigh Park, Havant. This course is offered to students at Park Community School and it is also offered to other secondary schools in the local area.</p>
 
-			<p>Level 1 Skills list include;</p>
+										<p>Level 1 Skills list include;</p>
 
-			<ul>
-				<li>Introduction to a training course</li>
-				<li>Health and Safety</li>
-				<li>Measure Distance Length</li>
-				<li>Brickwork</li>
-				<li>Carpentry and Joinery</li>
-				<li>Carpentry Hand Skills</li>
-				<li>Painting and Decorating skills</li>
-				<li>Plastering</li>
-				<li>Wallpapering</li>
-			</ul>
+										<ul>
+											<li>Introduction to a training course</li>
+											<li>Health and Safety</li>
+											<li>Measure Distance Length</li>
+											<li>Brickwork</li>
+											<li>Carpentry and Joinery</li>
+											<li>Carpentry Hand Skills</li>
+											<li>Painting and Decorating skills</li>
+											<li>Plastering</li>
+											<li>Wallpapering</li>
+										</ul>
 
-			<p>Level 2 Skills list include;</p>
+										<p>Level 2 Skills list include;</p>
 
-			<ul>
-				<li>Health and Safety in construction</li>
-				<li>Brickwork</li>
-				<li>Carpentry and Joinery</li>
-				<li>Carpentry Hand Skills</li>
-				<li>Timber in Construction</li>
-				<li>Painting and Decorating skills</li>
-				<li>Plastering and Wallpapering</li>
-				<li>Finance</li>
-			</ul>
+										<ul>
+											<li>Health and Safety in construction</li>
+											<li>Brickwork</li>
+											<li>Carpentry and Joinery</li>
+											<li>Carpentry Hand Skills</li>
+											<li>Timber in Construction</li>
+											<li>Painting and Decorating skills</li>
+											<li>Plastering and Wallpapering</li>
+											<li>Finance</li>
+										</ul>
 
-			<p>For more information please contact Daniel Payne, Head of Design and Technology and oversight of APEX centre at <a href="/contact.php">Park Community School</a>.</p>
+										<p>For more information please contact Daniel Payne, Head of Design and Technology and oversight of APEX centre at <a href="/contact.php">Park Community School</a>.</p>
+			
+                    </div>
+                </li>
+            </ul>
+
+
+			
 
 			<h3>Impact</h3>
             <p>Our pupils having completed our curriculum are more prepared for life past Park Community School because the problem-solving skills they have learnt are enabling them to be more creative and approach problems with an ‘out of the box’ solution. Our students are independent, organised, and can use machinery confidently. They will have used a small selection of industry standard equipment; this will give them the confidence when working in their future. Our curriculum is progressive and broad enabling our students to have a good knowledge of a variety different specialisms like, Construction, Hospitality and Catering, Design and Model Making, therefore giving our students a range of career paths. Our students leave with a broader cultural capital as in addition to our curriculum we offer a diverse range of extracurricular activities and competitions. We believe that our curriculum gives our students the ‘Practical Skills For Life’ that they need to be successful in their future.</p>
 
-                <h3>Technology Department handbook</h3>
+            <p>If you are interested in a career in Design and Technology, please look at these websites or alternatively log into the student portal Design and Technology careers page</p>
+
+            <div class="text-center">
+                        <a role="button" target="_blank" href="https://pcshantssch.sharepoint.com/sites/dt/SitePages/Careers-in-Design-and-Technology.aspx" class="button">Technology Intranet</a>
+                        <a role="button" target="_blank" href="https://www.indeed.com/career-advice/finding-a-job/careers-in-design-and-technology" class="button">INDEED</a>
+                        <a role="button" target="_blank" href="https://www.bbc.co.uk/bitesize/tags/zn7h8xs/jobs-that-use-design-and-technology/1" class="button">BBC Bitesize</a>
+            </div>
+
+            <h3>Additional opportunities:</h3>
+
+            	<ul>
+					<li>STEM Ambassadors (all years)</li>
+					<li>Cooking Club (Year 7, 8 and 9)</li>
+					<li>Rotary Young Chef competitions</li>
+					<li>Homework Club (Year 7, 8 and 9)</li>
+					<li>APEX Construction skills taster sessions (all years)</li>
+					<li>Period 6 sessions (GCSE)</li>
+					<li>Greenpower STEM Racing club. (all years)</li>
+				</ul>
+
+
+
+            <h3>Technology Department handbook</h3>
         <p>Please click the Technology handbook to view department guidance:</p>
             <div class="text-center">
                     <a href="assets/curriculum/technology/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/technology/handbook.jpg" width=150" height="70">
