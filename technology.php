@@ -346,6 +346,13 @@
 			<h3>Impact</h3>
             <p>Our pupils having completed our curriculum are more prepared for life past Park Community School because the problem-solving skills they have learnt are enabling them to be more creative and approach problems with an ‘out of the box’ solution. Our students are independent, organised, and can use machinery confidently. They will have used a small selection of industry standard equipment; this will give them the confidence when working in their future. Our curriculum is progressive and broad enabling our students to have a good knowledge of a variety different specialisms like, Construction, Hospitality and Catering, Design and Model Making, therefore giving our students a range of career paths. Our students leave with a broader cultural capital as in addition to our curriculum we offer a diverse range of extracurricular activities and competitions. We believe that our curriculum gives our students the ‘Practical Skills For Life’ that they need to be successful in their future.</p>
 
+                <h3>Technology Department handbook</h3>
+        <p>Please click the Technology handbook to view department guidance:</p>
+            <div class="text-center">
+                    <a href="assets/curriculum/technology/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/technology/handbook.jpg" width=150" height="70">
+                </div>
+
+        <br>
 
 
 
