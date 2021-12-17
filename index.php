@@ -35,9 +35,10 @@
 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius alert" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park Booklet</a>
-                        <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="small button radius warning" href="#" data-reveal-id="newsletter">Newsletters</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="exam-information">Exams</a>
+                        <a class="small button radius success" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
+                        <a class="small button radius warning" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
+                        <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
                 </div>
 
@@ -100,12 +101,13 @@ END NOTIFICATION -->
             <div id="exam-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">EXAM Information</h2>
 
-                <h4>Year 11 2021</h4>
-
-                    <p>Congratulations on your results. You have worked hard and deserve every success. We cannot wait to hear about your next steps.</p>
-
-                <a class="expand button radius success" href="assets/appeals-guidance.pdf" target="_blank">JCQ Appeals Guidance</a>
-                                
+                <p>Here are some useful documents for Year 11 exams in 2022</p>
+                    <ul>
+                    <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
+                    <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
+                    <li><a href="assets/exam/mock-timetable.pdf" target="_blank">Mock Exam Timetable</a></li>
+                    <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
+                </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
 
