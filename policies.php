@@ -58,6 +58,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/anti-bullying.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Anti-Bullying</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/policies/attendance.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Attendance</p>

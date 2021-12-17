@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" >
     <head>
 
-        <title>Park Community School | Timetabling</title>
+        <title>Park Community School | Calendar & School Day</title>
         <?php include("includes/head.html") ?>
     </head>
 <body class="page-school">
@@ -13,7 +13,7 @@
 <header class="header-school">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>Timetabling</h1>
+            <h1>Calendar & School Day</h1>
             <p class="text-capitalize">Right Place, Right Time</p>
         </div>
     </div>
