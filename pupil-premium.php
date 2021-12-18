@@ -73,6 +73,8 @@
     <div class="row">
         <div class="medium-8 medium-push-4 columns">
           <p>In 2019 the gap in achievement between non-PP and PP students in GCSEs was -0.39 for Progress 8 (PP-1.09, non-PP -0.69)</p>
+          <p>In 2020, the gap between students attaining The Basics at 4+ was 20 % (non PP: 48%  and PP: 28% ).  The gap for Basics at 5+ was 7 %  ( Non P:14% PP:7% )</p>
+          <p>In 2021, the gap between students attaining The Basics at 4+ was 3 % (non PP: 58%  and PP: 53% ).   =The gap for Basics at 5+ was 18%  ( Non PP: 30%  PP:12% )</p>
           <p>In 2020-21 1:1 reading intervention with 38 students improved either reading comprehension or decoding age for all students, with 70% improving both. An average improvement was evidenced of at least double ratio gains.</p>
           <p>Main barriers to educational achievement faced by eligible students could include:</p>
                 <ul class="circle">
@@ -128,7 +130,6 @@
                 <h4>Curriculum experiences at school farm and printing unit<br><small>addressing student low aspiration and gaps in learning</small></h4>
                 <hr>
                 <ul class="circle">
-                  <li>Numeracy programmes</li>
                   <li>Period 6</li>
                   <li>Literacy programmes</li>
                   <li>Interventions to support learning</li>
@@ -140,11 +141,11 @@
               </li>
 
               <li>
-                <h4>Inclusion (could be used) <br><small>addressing vulnerability arising from mental health and trauma within the families together with a lack of trust in, or significant dependence on, outside agencies</small></h4>
+                <h4>Inclusion <br><small>addressing vulnerability arising from mental health and trauma within the families together with a lack of trust in, or significant dependence on, outside agencies</small></h4>
                 <hr>
                 <ul class="circle">
                     <li>Home Liaison team; fortnightly referral meeting to follow up targeted PP students</li>
-                    <li>Referral meeting attended by Key Stage leaders, Lead WSG behavior, Lead WSG pastoral, SENCO, Deputy Headteacher pastoral, Medical officer. Focus:</li>
+                    <li>Referral meeting attended by Heads of House, Welfare, support and guidance leads, SENCO, Deputy Headteacher. Focus:</li>
                     <li>Nurture programmes</li>
                     <li>Individual programmes</li>
                     <li>Medical & Emotional support</li>
@@ -193,7 +194,7 @@
           <br>
           <li><strong>Academic progress and attainment data</strong> – <em>monitored by HODs, HOYs, mentors and Year 11 intervention team</em></li>
           <br>
-          <li><strong>Reduction in number of behaviour points</strong> – <em>analysed and followed up by HOYs weekly</em></li>
+          <li><strong>Overall attitude to learning scores (OATL)</strong> – <em>analysed and followed up by Heads of House and tutors</em></li>
         </ul>
       </div>
       <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-5 large-4 columns">
