@@ -212,7 +212,6 @@
       <div class="large-12 columns">
         <h4>Pupil Premium Strategy Documents</h4>
         <p>
-        <li><a href="/assets/pupilpremium/disad-v-non-disad.pdf" target="_blank">Summary of Data comparing Disadvantaged and Non-Disadvantaged students</a></li>
         <li><a href="/assets/pupilpremium/pupil_premium_strategy_document.pdf" target="_blank">Pupil Premium Strategy Document</a></li>
         </p>
           
