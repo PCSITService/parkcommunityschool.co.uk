@@ -33,8 +33,7 @@
                     <p>We also hold additional evenings for parents on specific topics such as how to support your child to achieve success in their examination courses. These evenings usually include a combination of presentations and master-classes.</p>
                     <br>
                     <h3>We will report home to parents three times a year.</h3>
-                    <p>Once a year there will be a full written report which gives an overview from each subject teacher including: a) what has been studied b) how well your son/daughter is doing and c) what they need to do to make further progress.</p>
-                    <p>Each other reporting session will be a data report which will include the following information:</p>
+                    
                     <ul>
                         <li><strong>School projection:</strong> For years 10 to 11 this is what we expect your child to achieve. For GCSEs this is a grade 9-1. BTECs and other vocational course are graded using Pass, Merit, Distinction and Distinction*. For years 7, 8 and 9 we report whether students are Working Towards [WT] age related expectations, are at Age Related Expectations [ARE] or are working At Greater Depth [AGD].</li>
                         <li><strong>Teacher Projection:</strong> For years 10 to 11 this is the teacher’s professional judgement of what your child is likely to achieve. They have assumed that your child will continue to work as they are at present. It is based on a combination of information, including mock exams, class work and coursework where appropriate. For GCSEs this is a grade 9-1. BTECs and other vocational course are graded using Pass, Merit, Distinction and Distinction*. For years 7, 8 and 9 we report whether students are Working Towards [WT] age related expectations, are at Age Related Expectations [ARE] or are working At Greater Depth [AGD].</li>
