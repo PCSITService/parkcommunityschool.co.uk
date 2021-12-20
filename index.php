@@ -67,15 +67,15 @@
     </div>
 </header>
 
-<!-- NOTIFICATION
+<!--NOTIFICATION -->
 <section class="page-notification">
   <div class="row">
     <div class="columns">
-        <p><a href="https://parkc.schoolcloud.co.uk/" style="color: #474747; text-decoration: underline;">Year 7 and 11 Parents Evening, Thursday, 14th October</a></p> 
+        <p><a href="https://vimeo.com/658515057" target="_blank" style="color: #474747; text-decoration: underline;">Welcome to Park (Full Video)</a></p> 
     </div>
   </div>
 </section>
-END NOTIFICATION -->
+<!--END NOTIFICATION -->
 
 
 <!-- BUTTONS -->
