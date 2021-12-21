@@ -36,7 +36,7 @@
 			<br><br>
 		</div>
 	</div>
-</section>			
+</section>	
 
 <section class="grey-bg">
     <div class="row">
@@ -53,6 +53,42 @@
 			</div>
 			<br>
 			<p>Visit the <a href="//connect4.org.uk/" target="_blank">Connect4 website</a> for more information.</p>
+			<br><br>
+		</div>
+	</div>
+</section>
+
+<section>
+    <div class="row">
+    	<div class="small-centered large-1 column text-center hr-logo white-bg"></div>
+    </div>
+	<div class="row">
+		<div class="columns">
+			<h2>Connect4Christmas 2021</h2>
+			<p>Please take the time to view our Connect4Christmas Activity Book</p>
+          
+			<div class="text-center">
+                <a href="/assets/connect4summer/connect-christmas.pdf" target="_blank" class="button success radius">Activity Book</a>
+            </div>	
+			<br><br>
+		</div>
+	</div>
+</section>		
+
+<section class="grey-bg">
+    <div class="row">
+    	<div class="small-centered large-1 column text-center hr-logo white-bg"></div>
+    </div>
+	<div class="row">
+		<div class="columns">
+			<h2>Connect4Summer 2021 - Review</h2>
+			<p>Connect4Summer has been successful for its third year, and we are extremely proud of the joy and happiness we have managed to bring to families while helping with mental health issues raised by COVID-19.</p>
+			<p>We have been able to bring a 20-day programme to venues around Hampshire, Portsmouth, Southampton and Isle of Wight while maintaining government guidelines.</p>
+			<p>Please take the time to view our Connect4Summer 2021 review, and we'd like to thank all the 420+ employed to make this fantastic event possible once again.</p>
+          
+			<div class="text-center">
+                <a href="/assets/connect4summer/connect4summer2021_review.pdf" target="_blank" class="button success radius">View the Full Review</a>
+            </div>	
 			<br><br>
 		</div>
 	</div>
