@@ -25,6 +25,12 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
+                <li>
+                    <ul class="circle">January 2022<hr>
+                        <li><a href="/assets/letters/2022-01/general-letter-6.pdf" target="_blank">6th Janauary 2022 – General Letter</a></li>
+                    </ul>
+                <li>
+
                  <li>
                     <ul class="circle">December 2021<hr>
                         <li><a href="/assets/letters/2021-12/newsletter-17-12.pdf" target="_blank">Newsletter - 17th December 2021</a></li>
