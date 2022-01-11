@@ -39,15 +39,7 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-      <li>
-        <h4>IT Manager</h4>  
-        <p><em>Closing Date: 10th January 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/it-manager.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-
+      
       <br><span class="subheader">Please check back later.</span></ul>
           
 	      </ul>
