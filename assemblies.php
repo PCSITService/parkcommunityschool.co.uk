@@ -37,7 +37,7 @@
                       <a href="assets/assemblies/2021-autumn/body-and-mind.pdf" target="_blank">Body and Mind</a>
 
                     <h5>Autumn 2</h5>
-                      <a href="assets/assemblies/2021-autumn/being-a-global-citizen.pdf" target="_blank">Being a Global Citizen</a>
+                      <a href="assets/assemblies/2021-autumn/being-a-global-citizen.pdf" target="_blank">Relationships</a>
 
                     <h5>Spring 1</h5>
                       <a href="assets/assemblies/2022-spring/global-citizen.pdf" target="_blank">Being a Global Citizen</a>
