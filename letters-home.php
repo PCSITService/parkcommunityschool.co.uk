@@ -30,7 +30,7 @@
                         <li><a href="/assets/letters/2022-01/newsletter-14-01.pdf" target="_blank">Newsletter - 14th January 2021</a></li>
                         <li><a href="/assets/letters/2022-01/saliva-testing.pdf" target="_blank">COVID-19 Saliva Testing </a></li>
                         <li><a href="/assets/letters/2022-01/saliva-privacy-notice.pdf" target="_blank">Saliva Testing Privacy Notice</a></li>
-                        <li><a href="/assets/letters/2022-01/general-letter-6.pdf" target="_blank">6th Janauary 2022 – General Letter</a></li>
+                        <li><a href="/assets/letters/2022-01/general-letter-6.pdf" target="_blank">6th January 2022 – General Letter</a></li>
                     </ul>
                 <li>
 
