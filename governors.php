@@ -84,7 +84,6 @@
                             <ul class="circle">
                             	<li>Co-Chair of Full Governing Body (FGB).</li>
                             	<li>Chair of the Administration Committee.</li>
-                                <li>Health and Safety Governor.</li>
                                 <li>Member of Admin Committee.</li>
                             </ul>
                           <p>
@@ -156,6 +155,7 @@
                           <p>Committee Membership:</p>
                             <ul class="circle">
                                 <li>Member of Administration Committee.</li>
+                                <li>Health and Safety Governor.</li>
                             </ul>
                          <p>
                             <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
@@ -259,7 +259,7 @@
 
             <div class="medium-4 columns text-center  team-member-container">
                       <a href="#" data-reveal-id="Governor-nmcmullan">
-                        <img src="images/governors/person.jpg" alt="Governor Profile Image" class="team-member">
+                        <img src="images/governors/n-mcmullan.jpg" alt="Governor Profile Image" class="team-member">
                       <p>Mrs N McMullan</p>
                       Governor Details</a>
                               <div id="Governor-nmcmullan" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -268,7 +268,7 @@
                                 <p>Category: Parent Governor</p>
                                 <p>Committee Membership:</p>
                                   <ul class="circle">
-                                      <li>TBA</li>
+                                      <li>Member of Administration Committee</li>
                                   </ul>
                                <p>
                             <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
