@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">January 2022<hr>
+                        <li><a href="/assets/letters/2022-01/mask-wearing.pdf" target="_blank">Mask Wearing Update</a></li>
                         <li><a href="/assets/letters/2022-01/newsletter-14-01.pdf" target="_blank">Newsletter - 14th January 2022</a></li>
                         <li><a href="/assets/letters/2022-01/saliva-testing.pdf" target="_blank">COVID-19 Saliva Testing </a></li>
                         <li><a href="/assets/letters/2022-01/saliva-privacy-notice.pdf" target="_blank">Saliva Testing Privacy Notice</a></li>
