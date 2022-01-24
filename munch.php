@@ -35,8 +35,8 @@
     <div class="row">
 
         <div class="columns">
-            <p><strong>MUNCH is back for the Summer Holidays!</strong> <small>| We cannot wait to welcome you back!</small></p>
-            <p>MUNCH will be running from <strong>26th July through to 27th August 2021</strong>, from <strong>12:00 to 13:00</strong>.</p>
+            <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday - Friday 12-1pm</small></p>
+            <p>MUNCH is back <strong>every Thursaday tea time, 5-6pm</strong>.</p>
             <div class="columns text-center">
                 <a href="assets/munch/munch_summer_2021.pdf" target="_blank" class="button success radius">Munch Summer Holiday 2021 Flyer</a>
             </div>
@@ -99,7 +99,8 @@
                 </div>
             </div>
             <br>
-            <p>Virtually Hampshire Education Awards took place on Monday. Proud to receive the Community Impact Award. This recognised Connect4Summer 2019 which provided free family holiday activities, childcare and meals. It was a fantastic team effort working in partnership with Romsey Community School and Department for Education Holiday Activities Fund Team.</p>
+            <p>This recognised the Munch Community Food programme and Connect4Summer programme which provided free family holiday activities, childcare and meals.</p>
+            <p>New Years Honours 2022 Susan Parish, Business and Community Manager, Park Community School awarded an MBE for services to Education.</p>
         </div>
         <br><br>
     </div>
