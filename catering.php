@@ -21,13 +21,14 @@
             <div class="row">
                 <br>
                 <div class="medium-8 columns">
-                    <h3>Our Chef <small>- Steven Cross</small></h3>
-                    <p>Cooking has always been our Head Chef’s passion and from a very young age Steven Cross cooked at home with his mother, who is also a chef.  After leaving school he went straight to South Downs College where he studied catering for four years.</p>
-                    <p>Steven relished his time studying at college. He was rewarded with work placements in Buckingham Palace and Windsor Castle, where he worked alongside some very talented chefs.</p>
-                    <p>On leaving college Steven focused on gaining experience at the highest level and worked within AA rosetted establishments and Michelin star restaurants. Although extremely hard work, Steven loved the challenge.  Steven worked in such places as 36 On The Quay in Emsworth and JSW in Petersfield.</p>
-                    <p>On joining Park Community School, Steven’s focus was to redefine school meals and ensure all our students got a healthy well balanced meal throughout the school day. Steven worked tirelessly to set up Park Catering Services and he is proud to say that good food for all has successfully been embedded within the school’s ethos.</p>
-                    <p>Steven runs the school farm growing a large percentage of our own fruit and vegetables which are used within the school kitchens.  We have also reared more than 80 pigs on the farm, the meat from which has been used for school lunches.  Steven has been instrumental in forging links with local food producers to increase our organic produce usage.</p>
-                    <p>Looking to the future, Steven is now developing Park Catering Services to help our students and community to understand how to grow their own food, food processes and benefits of a healthy nutritious diet.</p>
+                    <h3>Our Chef <small>- Alex Moody</small></h3>
+                    <p>Cooking has always been our Head Chef’s passion and from a very young age Alex Moody cooked at home with his parents. After leaving school he studied catering at South Downs College for two years and went on to an apprenticeship at a local hotel. Alex has spent the last seven years at Park working with Steve Cross, LACA School Chef of the Year. Alex won the South East LACA competition in 2021</p>
+                    <p>At Park Community School, Alex and the school’s multi-award winning catering team, continue to redefine school food to ensure all our students receive a healthy well-balanced meal during the school day. Alex is developing and nurturing the talents within the catering team, whose members are rightly proud of the good food that has successfully been embedded into the life of the school and its community.</p>
+                    <p>Alex and the team introduce the students to cuisines from around the world by, for instance, encouraging them to taste Korean kimchi, Middle Eastern tagines, and Japanese inspired sushi. Three days a week students work in the kitchen alongside our chefs and catering team as part of our Much More Than Just A School curriculum</p>
+                    <p>The catering team work closely with the market garden team helping them to grow our own fruit and vegetables which are used within the school kitchens. We have reared over 200 pigs on our small holding; the meat is used in school lunches, meals within the community and at external events. Through the Market Garden they learn about Farm to Fork ethos and all that it entails.</p>
+                    <p>The catering team played an important role in establishing the Munch Food programme in 2017. Munch provides everyone who comes with a hot two course meal every school holiday and on Thursday evenings. The school also opens on Christmas Day and, in 2021, 140 people across the age-range enjoyed a three course Christmas Lunch, with entertainment and a splendid visit by Father Christmas despite the challenges of Covid.</p>
+                    <p>To further meet the needs of our community the catering team produce nutritious ready meals which are available for collection seven days a week from the Munch emergency freezer in our Dickinson Centre.</p>
+                    <p>To encourage healthy eating beyond school, the team provides cookery lessons for families, where family members come together, cook a meal, eat some of it with us and have plenty remaining to take home.</p>
 
                     <br>
 
@@ -77,18 +78,10 @@
                     <ul class="circle">
                         <li>Pulled Pork</li>
                         <li>Park Porkies Sausages</li>
-                        <li>Charcuterie range – Salami, Chorizo, Coppa, Lomo, Air cured Ham and Pancetta</li>
                     </ul>
-
-                    
-
-                    <h4>Park Bakery </h4>
-                    <p>The school kitchen team are highly skilled and have now started a daily bakery which offer students and staff the opportunity to buy fresh bread daily we sell a wide range of products from Focaccia, Sour Dough and White Loafs to Scones and Cakes.</p>
-                    
-                    
                     
                     <h4>Park Eggs</h4>
-                    <p>We now have a wide variety of bird on the school site and sell there eggs to the staff, students and public we currently sell – Hen, Duck and Quail Eggs.</p>
+                    <p>We Currently have 29 chickens on site whose eggs are available to purchase by staff, students and the public</p>
                 </div>
 
                 <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-4 columns">
@@ -108,6 +101,7 @@
                     <ul class="circle">
                         <li><a href="//www.tuppennybarn.co.uk/" target="_blank">Tuppenny Barn</a> - Fruit and Vegetables.</li>
                         <li><a href="//www.treagustbutchers.co.uk/" target="_blank">Treagust Butchers</a> - Meat Products.</li>
+                        <li><a href="//northney.farm/" target="_blank">Northney Farm</a> -  Daily Supplier.</li>
                     </ul>
                 </div>
                 <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-4 columns"><img src="images/schoolmeals/organic-standards.jpg" alt="Park Community School using local and organic produce in their school menu."></div>
@@ -153,6 +147,13 @@
             
             <div class="row">
                 <div class="medium-push-4 medium-8 columns">
+                    <h4>LACA Award 2021</h4>
+                    <p>Park Community School we are very proud to say that Alex Moody our Head chef has won the 2019 LACA School Chef of the Year Regional final.</p>
+                    <p>Alex competed in the regional heats seeing off the shortlisted contestants from schools all over the south east region.</p>
+                    <p>Entrants have 90 minutes to prepare, cook and serve an imaginative, school compliant two course menu including a minimum of one different Quorn product in the main course and a dessert with a 50% fruit content, suitable for serving to 11 year old pupils, primary year 6 or secondary year 7.</p>
+
+                    <hr>
+
                     <h4>LACA Award 2019</h4>
                     <p>Park Community School we are very proud to say that Steven Cross our Head chef has won the 2019 LACA School Chef of the Year.</p>
                     <p>Steven progressed through Regional and National finals seeing off thousands of other school caterers and be crown overall champion.</p>
@@ -165,8 +166,10 @@
                     <p>Every year the LACA Awards for Excellence acknowledge individuals and teams of people who continue to make a real difference in education catering. Good management, strong performances and high achievements deserve to be recognised at any time. Acknowledgement of effort is particularly important to not only reward but sustain motivation.</p>
                 </div>
                 <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-8 medium-offset-0 medium-4 columns">
+                    <img src="images/schoolmeals/laca_2021.png" alt="LACA - Much More than just a School">
+                    <br><br><br><br>
                     <img src="images/schoolmeals/laca_2019.png" alt="LACA - Much More than just a School">
-                    <br><br>
+                    <br><br><br><br><br><br>
                     <img src="images/schoolmeals/laca_awards.jpg" alt="LACA - Much More than just a School">
                 </div>
             </div>
@@ -446,18 +449,22 @@
             <?php include ("includes/backtotop.html") ?>
         </section>
 
-
         <section>
             <div class="row">
                 <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
             </div>
             <div class="row">
-                <div class="columns">
-                    
+                <div class="medium-8 columns">
+                    <h4>Magic Breakfast</h4>
+                    <p>Park Community School is proud to be in partnership with Magic Breakfast, providing healthy breakfasts to our pupils so that they are settled and ready to learn. Magic Breakfast provides Park Community with nutritious breakfast food to ensure children start their school day in the best possible way. Breakfast gives children the energy needed for the busy school morning, enabling them to focus on their lessons. Here at Park Community we are  committed to ensuring no child is too hungry to learn.</p>
                 </div>
+                <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-4 columns"><img src="images/schoolmeals/schoolmeals-04.jpg" alt="Kitchen Staff serving healthy school meals"></div>
             </div><br>
             <?php include ("includes/backtotop.html") ?>
         </section>
+
+
+        
         
 
 
