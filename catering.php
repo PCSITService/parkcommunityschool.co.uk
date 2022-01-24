@@ -29,6 +29,7 @@
                     <p>The catering team played an important role in establishing the Munch Food programme in 2017. Munch provides everyone who comes with a hot two course meal every school holiday and on Thursday evenings. The school also opens on Christmas Day and, in 2021, 140 people across the age-range enjoyed a three course Christmas Lunch, with entertainment and a splendid visit by Father Christmas despite the challenges of Covid.</p>
                     <p>To further meet the needs of our community the catering team produce nutritious ready meals which are available for collection seven days a week from the Munch emergency freezer in our Dickinson Centre.</p>
                     <p>To encourage healthy eating beyond school, the team provides cookery lessons for families, where family members come together, cook a meal, eat some of it with us and have plenty remaining to take home.</p>
+                    <p>In 2019, Park Community School was one of nine successful organisations selected by the Department for Education (DfE) to run holiday activities.  As part of this, we produced a range of menus for daily meals; this was subsequently used by the DfE as good practice and formed the basis of the recently announced Holiday Activity Programme (HAF) which now runs across every local authority in England.</p>
 
                     <br>
 
