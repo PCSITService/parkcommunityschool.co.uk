@@ -38,7 +38,7 @@
             <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday - Friday 12-1pm</small></p>
             <p>MUNCH is back <strong>every Thursaday tea time, 5-6pm</strong>.</p>
             <div class="columns text-center">
-                <a href="assets/munch/munch_summer_2021.pdf" target="_blank" class="button success radius">Munch Summer Holiday 2021 Flyer</a>
+                <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Munch 2022 Flyer</a>
             </div>
             <br>
             <hr>
