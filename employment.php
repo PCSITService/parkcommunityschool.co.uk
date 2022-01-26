@@ -30,6 +30,12 @@
         <hr>
 	      <ul class="no-bullet">
 
+          <h4>Finance Officer</h4>  
+            <p><em>Closing Date: 7th February 2022</em></p>
+
+            <span class="subheader">
+            <a href="assets/recruitment/finance-officer.pdf" target="_blank">Position Details</a>
+            </span>
 
       <!--<li>
         <h4>Position</h4>  
@@ -40,7 +46,7 @@
         </span>
       </li>-->
       
-      <br><span class="subheader">Please check back later.</span></ul>
+     <!-- <br><span class="subheader">Please check back later.</span></ul> -->
           
 	      </ul>
 	      <hr>
