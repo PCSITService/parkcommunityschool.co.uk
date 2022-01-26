@@ -34,33 +34,13 @@
         <div class="medium-12 columns">
 	       <div class="event-container">
 
-            <div class="event-wrap feature-event">
-              <div class="date-wrap">
-                <p class="event-date">22nd July</p>
-                <p class="event-time">13:30-14:45</p>
-              </div>
-              <h2 class="event-title">Race at Our Place</h2>
-              <p class="event-subheader">Raising money for Cancer Research</p>
-              <p class="event-description">Come cheer on staff and students as they walk, jog and run in a round trip from Park Community School to Staunton Country Park and back.</p>
-              <div class="link-wrap">
-                <a href="assets/events/race_at_our_place_2021.pdf" target="_blank" class="button success radius">Read More...</a>
-              </div>
-              <div class="bottom-wrap">
-                <div class="location-wrap"><a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a></div>
-                <div class="cost-wrap">Free</div>
-              </div>
-            </div>
-
             <div class="event-wrap">
-              <div class="date-wrap">
-                <p class="event-date">26th July - 27th August</p>
-                <p class="event-time">12:00-13:00</p>
-              </div>
+              
               <h2 class="event-title">MUNCH</h2>
-              <p class="event-subheader">Back for the Summer Holidays</p>
+              <p class="event-subheader">School Holidays 12-1pm, Thursday 5-6pm</p>
               <p class="event-description">MUNCH was a holiday hunger scheme, which aimed to provide children with a Free Meal, since its begining MUNCH has become much more, providing a safe environment for families to meet, combat loneliness and fun activities for all.</p>
               <div class="link-wrap">
-                <a href="assets/events/munch_summer_2021.pdf" target="_blank" class="button success radius">Read More...</a>
+                <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Read More...</a>
               </div>
               <div class="bottom-wrap">
                 <div class="location-wrap"><a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a></div>

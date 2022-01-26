@@ -72,6 +72,9 @@
                 <li>
                     <img src="images/pantry/fareshare.png" alt="fareshare">
                 </li>
+                <li>
+                    <img src="images/pantry/c4c.png" alt="connect4communities">
+                </li>
             </ul>
         </div>
     </div>
@@ -86,7 +89,7 @@
         <br>
         <div class="medium-12 columns">
           <h3>How to find us</h3>
-          <p>The Swallow Pub, 500 Dunsbury Way, Havant, PO9 5BL</p>
+          <p>Dickinson Centre, Park Community School, Middle Park Way, Havant, PO9 4BU</p>
 
           <!-- Show Reel Video -->
           <div class="flex-video widescreen border-radius-5">

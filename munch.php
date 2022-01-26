@@ -192,6 +192,15 @@
         <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
     </div>
     <div class="row">
+        <div class="small-12 medium-4 columns">
+            <h4>2020-2021</h4>
+            <hr>
+                <ul class="bullet">
+                    <li>Closed due to COVID-19</li>
+                </ul>
+            <hr>
+
+        </div>
     	<div class="small-12 medium-4 columns">
             <h4>2019-2020</h4>
             <hr>
