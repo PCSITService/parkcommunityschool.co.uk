@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">January 2022<hr>
+                        <li><a href="/assets/letters/2022-01/newsletter-28-01.pdf" target="_blank">Newsletter - 28th January 2022</a></li>
                         <li><a href="/assets/letters/2022-01/mask-wearing-27-jan.pdf" target="_blank">Mask Wearing Update 27th January</a></li>
                         <li><a href="/assets/letters/2022-01/mask-wearing.pdf" target="_blank">Mask Wearing Update</a></li>
                         <li><a href="/assets/letters/2022-01/newsletter-14-01.pdf" target="_blank">Newsletter - 14th January 2022</a></li>
