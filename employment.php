@@ -30,6 +30,16 @@
         <hr>
 	      <ul class="no-bullet">
 
+          <h4>IT Manager</h4>  
+            <p></p>
+
+            <span class="subheader">
+            <a href="assets/recruitment/it-manager.pdf" target="_blank">Position Details</a>
+            </span>
+
+            <br>
+<hr>
+
           <h4>Finance Officer</h4>  
             <p><em>Closing Date: 7th February 2022</em></p>
 
