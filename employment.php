@@ -37,9 +37,11 @@
             <a href="assets/recruitment/finance-officer.pdf" target="_blank">Position Details</a>
             </span>
 
+            <br>
+<hr>
             <li>
         <h4>Receptionist/Administrator</h4>  
-        <p><em>Closing Date: th February 2022</em></p>
+        <p><em>Closing Date: 7th February 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/receptionist.pdf" target="_blank">Position Details</a>
