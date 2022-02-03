@@ -26,6 +26,10 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
                 <li>
+                    <ul class="circle">February 2022<hr>
+                        <li><a href="/assets/letters/2022-02/photography-trip.pdf" target="_blank">Year 11 Photography Trip</a></li>
+                    </ul>
+                <li>
                     <ul class="circle">January 2022<hr>
                         <li><a href="/assets/letters/2022-01/rse-sessions.pdf" target="_blank">Relationship & Sex Education (RSE) Lesson</a></li>
                         <li><a href="/assets/letters/2022-01/newsletter-28-01.pdf" target="_blank">Newsletter - 28th January 2022</a></li>
