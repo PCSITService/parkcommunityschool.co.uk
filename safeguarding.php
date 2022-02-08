@@ -44,7 +44,6 @@
 <section class="grey-bg">
     <div class="row">
         <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-        <br>
         <h3>Designated Safeguarding Leads:</h3>
             <div class="medium-4 columns text-center team-member-container">
                 <img src="images/dsl/s-bannard.jpg" alt="Lead DSL" class="team-member">
