@@ -19,31 +19,8 @@
     </div>
 </header>
 <!-- CONTENT -->
- <section>
+<section>
     <div class="row">
-        
-    </div>
-    <div class="row">
-      <div class="columns">
-        <div class="row">
-          <div class="medium-6 columns">
-            <h5>Safeguarding Links:</h5>
-
-                <a href="assets/safegaurding/visitor.pdf" target="_blank" class="button radius success">Visitor Leaflet</a>
-                <a href="https://www.safe4me.co.uk/parents/" target="_blank" class="button radius success">Safe4me</a>
-                <a href="/parent-advice.php" target="_blank" class="button radius success">Parent Advice</a>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <br><br><br>
-</section>
-
-
-<section class="grey-bg">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
         <h3>Designated Safeguarding Leads:</h3>
             <div class="medium-4 columns text-center team-member-container">
                 <img src="images/dsl/s-bannard.jpg" alt="Lead DSL" class="team-member">
@@ -65,7 +42,7 @@
     </div>
     <br><br>
 </section>
-    <section>
+    <section class="grey-bg">
     <div class="row">
         <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
     </div>
@@ -105,6 +82,26 @@
       </div>
     </div>
     <br><br>
+</section>
+<section>
+    <div class="row">
+        
+    </div>
+    <div class="row">
+      <div class="columns">
+        <div class="row">
+          <div class="medium-6 columns">
+            <h5>Safeguarding Links:</h5>
+
+                <a href="assets/safegaurding/visitor.pdf" target="_blank" class="button radius success">Visitor Leaflet</a>
+                <a href="https://www.safe4me.co.uk/parents/" target="_blank" class="button radius success">Safe4me</a>
+                <a href="/parent-advice.php" target="_blank" class="button radius success">Parent Advice</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
 </section>
 
 
