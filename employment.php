@@ -40,25 +40,6 @@
             <br>
 <hr>
 
-          <h4>Finance Officer</h4>  
-            <p><em>Closing Date: 7th February 2022</em></p>
-
-            <span class="subheader">
-            <a href="assets/recruitment/finance-officer.pdf" target="_blank">Position Details</a>
-            </span>
-
-            <br>
-<hr>
-          <li>
-        <h4>Receptionist/Administrator</h4>  
-        <p><em>Closing Date: 7th February 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/receptionist.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-            <br>
-<hr>
 <h4>IT Technician (Apprenticeship)</h4>  
             <p><em>Closing Date: 11th February 2022</em></p>
 
