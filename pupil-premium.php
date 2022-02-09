@@ -149,7 +149,7 @@
                 <hr>
                 <ul class="circle">
                     <li>Home Liaison team; fortnightly referral meeting to follow up targeted PP students</li>
-                    <li>Referral meeting attended by Heads of House, Welfare, support and guidance leads, SENCO, Deputy Headteacher. Focus:</li>
+                    <li>Referral meeting attended by Heads of House, Welfare, support and guidance leads, SENCO, Deputy Head of School. Focus:</li>
                     <li>Nurture programmes</li>
                     <li>Individual programmes</li>
                     <li>Medical & Emotional support</li>
@@ -172,6 +172,7 @@
                     <li>Attendance groups</li>
                     <li>1:1 Support and intervention</li>
                     <li>Dedicated Attendance team</li>
+                    <li>Include provision and parent drop ins and surgeries</li>
                 </ul>
               </li>
           </ul>

@@ -26,6 +26,22 @@
             <h3>Parent Advice Flyers</h3>
 
             <ul class="text-center small-block-grid-1 medium-block-grid-3">
+
+                <li class="">
+                    <a href="assets/parent-advice/parent-surgery.jpg" target="_blank">
+                        <img class="small-6 medium-10 border-grey-radius" src="assets/parent-advice/parent-surgery.jpg" alt="">
+                        <p>Parent Surgery</p>
+                    </a>
+                </li>
+
+                <li class="">
+                    <a href="assets/parent-advice/drop-in.jpg" target="_blank">
+                        <img class="small-6 medium-10 border-grey-radius" src="assets/parent-advice/drop-in.jpg" alt="">
+                        <p>Parent Drop In</p>
+                    </a>
+                </li>
+
+
                 
                 <li class="">
                     <a href="assets/parent-advice/parent-advice-1.jpg" target="_blank">

@@ -26,7 +26,7 @@
                     <p>At Park Community School we assess your child regularly in lessons to allow us to monitor their progress in relation to what we would expect them to achieve. We then adjust our lesson planning or implement interventions to ensure they are making suitable progress.</p>
                     <br>
                     <h3>There will be two Student Review Days per year</h3>
-                    <p>The Student Review Days take place on the first day of the academic year and just before the February half-term holiday. These are opportunities to meet to discuss your child’s targets with his/her mentor. It is also an opportunity to discuss how, together, we can better support his/her progress.</p>
+                    <p>The Student Review Days take place on the first day of the academic year and just before the February half-term holiday. These are opportunities to meet to discuss your child’s targets with his/her tutor. It is also an opportunity to discuss how, together, we can better support his/her progress.</p>
                     <br>
                     <h3>There will be one traditional Parents’ Evening per year.</h3>
                     <p>The traditional Parents’ Evening is your opportunity to discuss your child’s progress with their subject teachers.</p>
