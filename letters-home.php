@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">February 2022<hr>
+                        <li><a href="/assets/letters/2022-02/newsletter-11-02.pdf" target="_blank">Newsletter - 11th February 2022</a></li>
                         <li><a href="/assets/letters/2022-02/review-day.pdf" target="_blank">Student Review Day</a></li>
                         <li><a href="/assets/letters/2022-02/photography-trip.pdf" target="_blank">Year 11 Photography Trip</a></li>
                     </ul>
