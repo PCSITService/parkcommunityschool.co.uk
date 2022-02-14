@@ -38,16 +38,6 @@
             </span>
 
             <br>
-<hr>
-
-<h4>IT Technician (Apprenticeship)</h4>  
-            <p><em>Closing Date: 11th February 2022</em></p>
-
-            <span class="subheader">
-            <a href="assets/recruitment/it-tech.pdf" target="_blank">Position Details</a>
-            </span>
-
-
 
       <!--<li>
         <h4>Position</h4>  
