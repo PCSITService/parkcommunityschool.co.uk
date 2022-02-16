@@ -41,6 +41,9 @@
 
                     <h5>Spring 1</h5>
                       <a href="assets/assemblies/2022-spring/global-citizen.pdf" target="_blank">Being a Global Citizen</a>
+
+                    <h5>Spring 2</h5>
+                      <a href="assets/assemblies/2022-spring/body-mind.pdf" target="_blank">Body and Mind</a>
                     
                 </li>
             </ul>
