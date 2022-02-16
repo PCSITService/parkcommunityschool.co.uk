@@ -160,7 +160,7 @@
 
 						<br>
 
-						<h3>PE Department handbook</h3>
+						<h3>Department handbook</h3>
 					        <p>Please click the Computer Science handbook to view department guidance:</p>
 					            <div class="text-center">
 					                    <a href="assets/curriculum/computer-science/handbook.pdf" target="_blank"><img alt="Handbook" src="assets/curriculum/computer-science/handbook.jpg" width=150 height="70">
