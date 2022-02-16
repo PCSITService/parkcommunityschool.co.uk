@@ -136,7 +136,7 @@
             </ul>
             <br>
 
-            <p><a href="/assets/curriculum/options_booklet.pdf" target="_blank">Booklet - GCSE Courses (2021-2023)</a></p>
+            <!--<p><a href="/assets/curriculum/options_booklet.pdf" target="_blank">Booklet - GCSE Courses (2021-2023)</a></p>-->
             <br>
         </div>
 
