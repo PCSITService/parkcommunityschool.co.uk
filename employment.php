@@ -30,16 +30,7 @@
         <hr>
 	      <ul class="no-bullet">
 
-          <h4>IT Manager</h4>  
-            <p></p>
-
-            <span class="subheader">
-            <a href="assets/recruitment/it-manager.pdf" target="_blank">Position Details</a>
-            </span>
-
-            <br>
-
-      <!--<li>
+        <!--<li>
         <h4>Position</h4>  
         <p><em>Closing Date: </em></p>
 
@@ -48,7 +39,7 @@
         </span>
       </li>-->
       
-     <!-- <br><span class="subheader">Please check back later.</span></ul> -->
+        <br><span class="subheader">Please check back later.</span></ul>
           
 	      </ul>
 	      <hr>
