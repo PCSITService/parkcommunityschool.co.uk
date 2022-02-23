@@ -74,7 +74,7 @@
 
                 <p><strong>The Cycle of Enquiry</strong></p>
 
-                <p>The KS3 curriculum follows a two-year course taught using the ‘Cycle of Enquiry’. Learning is driven by conceptual analysis and so each worldview explored will be taught around a selection of important concepts within this tradition.  KS4 follows this pedagogy where appropriate in line with the content required for examination.</p>
+                <p>The KS3 curriculum follows a three-year course taught using the ‘Cycle of Enquiry’. Learning is driven by conceptual analysis and so each worldview explored will be taught around a selection of important concepts within this tradition.  KS4 follows this pedagogy where appropriate in line with the content required for examination.</p>
 
             <h3>Content</h3>
 
