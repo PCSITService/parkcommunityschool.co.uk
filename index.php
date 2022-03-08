@@ -89,7 +89,7 @@ END NOTIFICATION -->
                 <h2 id="modalTitle">Year 6 Transition Information</h2>
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
-                <p>Please email <a href="mailto:2022transition@pcs.hants.sch.uk?subject=Year 6 Transition">Year 6 Transition</a> if you have any questions.</p>
+                <p>Please email <a href="mailto:2022transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
 
                 <a class="expand button radius success" href="https://forms.office.com/r/5SMgXBsH8p" target="_blank">Acceptance Form</a>
 
