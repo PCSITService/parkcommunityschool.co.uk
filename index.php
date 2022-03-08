@@ -27,17 +27,17 @@
 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius alert" href="#" data-reveal-id="covid-information">COVID Information</a>
-                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Student Remote Learning</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 Transition 2022</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a>
                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>   
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius warning" href="#" data-reveal-id="exam-information">Year 11 Exam Information</a>
+                        <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams</a>
                         <a class="small button radius success" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
-                        <a class="small button radius warning" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
+                        <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
                 </div>
@@ -84,15 +84,15 @@ END NOTIFICATION -->
         <div class="columns">
             <br>
 
-            <!-- COVID Information -->
-            <div id="covid-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">COVID Information</h2>
+            <!-- Transition -->
+            <div id="transition" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h2 id="modalTitle">Year 6 Transition Information</h2>
 
-                <a class="expand button radius success" href="https://forms.office.com/r/TFewraG_pe">Student COVID Consent Form</a>
+                <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
+                <p>Please email <a href="mailto:2022transition@pcs.hants.sch.uk?subject=Year 6 Transition">Year 6 Transition</a> if you have any questions.</p>
 
-                <div class="flex-video widescreen border-radius-5">
-                    <iframe src="https://player.vimeo.com/video/518104113?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=cd8f714afe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
+                <a class="expand button radius success" href="https://forms.office.com/r/5SMgXBsH8p" target="_blank">Acceptance Form</a>
+
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
