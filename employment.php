@@ -39,8 +39,16 @@
         </span>
       </li>-->
       <li>
+        <h4>Cafe Manager</h4>  
+        <p><em>Closing Date: 29th March 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/cafe-manager.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+      <li>
         <h4>Cafe Assistant</h4>  
-        <p><em>Closing Date: Open</em></p>
+        <p><em>Closing Date: 29th March 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/cafe-assistant.pdf" target="_blank">Position Details</a>
