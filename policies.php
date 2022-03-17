@@ -243,6 +243,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/safeguarding-adults.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Safeguarding Adults</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/statutory/send-policy.pdf" target="_blank">
                     <div class="policy-container">
                         <p>SEND Policy</p>
