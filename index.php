@@ -107,6 +107,7 @@ END NOTIFICATION -->
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
                     <li><a href="assets/exam/mock-timetable.pdf" target="_blank">Mock Exam Timetable</a></li>
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
+                    <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
