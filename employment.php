@@ -38,44 +38,29 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+
       <li>
-        <h4>Cafe Manager - Southsea</h4>  
-        <p><em>Closing Date: 29th March 2022</em></p>
+        <h4>Site Assistant</h4>
+        <p><em>Closing Date: 11th April 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/cafe-manager.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/site-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
       <hr>
+
       <li>
-        <h4>Cafe Assistant - Southsea</h4>  
-        <p><em>Closing Date: 29th March 2022</em></p>
+        <h4>Cafe Assistant - Casual (Southsea)</h4>  
+        <p><em>Closing Date: Open</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/cafe-assistant.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/cafe-assistant-southsea-casual.pdf" target="_blank">Position Details</a>
         </span>
       </li>
       <hr>
+      
       <li>
-        <h4>Kitchen Porter</h4>  
-        <p><em>Closing Date: 29th March 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/kitchen-porter.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
-      <li>
-        <h4>Community Assistant</h4>  
-        <p><em>Closing Date: 29th March 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/community-assistant.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
-      <li>
-        <h4>Cafe Assistant - Casual</h4>  
+        <h4>Cafe Assistant - Casual (Staunton Country Park)</h4>  
         <p><em>Closing Date: Open</em></p>
 
         <span class="subheader">

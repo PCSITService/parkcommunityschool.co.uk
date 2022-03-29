@@ -27,6 +27,8 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">March 2022<hr>
+                        <li><a href="/assets/letters/2022-03/year-11-homerun-parent-letter.pdf" target="_blank">Year 11 Homerun Letter</a></li>
+                        <li><a href="/assets/letters/2022-03/year-9-options-evening-31-march-2022.pdf" target="_blank">Year 9 Options Evening - 31 March 2022</a></li>
                         <li><a href="/assets/letters/2022-03/race-at-our-place.pdf" target="_blank">Race at our place</a></li>
                         <li><a href="/assets/letters/2022-03/newsletter-11-03.pdf" target="_blank">Newsletter - 11th March 2022</a></li>
                         <li><a href="/assets/letters/2022-03/ofsted-letter.pdf" target="_blank">Ofsted Letter</a></li>
