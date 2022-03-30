@@ -67,15 +67,15 @@
     </div>
 </header>
 
-<!--NOTIFICATION
+<!-- NOTIFICATION -->
 <section class="page-notification">
   <div class="row">
     <div class="columns">
-        <p>We are welcoming Ofsted to Park on Wednesday 2nd March and Thursday 3rd March 2022. <a href="/assets/letters/2022-03/ofsted-letter.pdf" target="_blank" style="color: #474747; text-decoration: underline;">Letter for Parents</a></p> 
+        <p>The full version of Welcome to Park can be found <a href="https://vimeo.com/658515057" target="_blank" style="color: #474747; text-decoration: underline;">here</a></p> 
     </div>
   </div>
 </section>
-END NOTIFICATION -->
+<!-- END NOTIFICATION -->
 
 
 <!-- BUTTONS -->
