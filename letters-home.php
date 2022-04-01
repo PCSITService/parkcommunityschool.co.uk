@@ -26,6 +26,10 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
                 <li>
+                    <ul class="circle">April 2022<hr>
+                        <li><a href="/assets/letters/2022-04/newsletter-01-04.pdf" target="_blank">Newsletter - 1st April 2022</a></li>
+                    </ul>
+                <li>
                     <ul class="circle">March 2022<hr>
                         <li><a href="/assets/letters/2022-03/disney-2022.pdf" target="_blank">Year 8 DisneyLand Paris Trip</a></li>
                         <li><a href="/assets/letters/2022-03/year-11-homerun-parent-letter.pdf" target="_blank">Year 11 Homerun Letter</a></li>

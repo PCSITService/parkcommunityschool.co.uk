@@ -1,13 +1,13 @@
-//Rewrite to www
+# Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^parkcommunityschool.co.uk[nc]
 RewriteRule ^(.*)$ http://www.parkcommunityschool.co.uk/$1 [r=301,nc]
-//Rewrite remove extension
+# Rewrite remove extension
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-//Block bad bots
+# Block bad bots
 RewriteEngine On 
 RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
@@ -87,14 +87,14 @@ RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Zeus
 RewriteRule ^.* - [F,L]
 
-//Change default directory page
+# Change default directory page
 DirectoryIndex index.php
 
-//Prevent viewing of .htaccess file
+# Prevent viewing of .htaccess file
 <Files .htaccess>
 order allow,deny
 deny from all
 </Files>
 
-//Prevent directory listings
+# Prevent directory listings
 Options All -Indexes
