@@ -39,34 +39,19 @@
         </span>
       </li>-->
 
-      <li>
-        <h4>Site Assistant</h4>
-        <p><em>Closing Date: 11th April 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/site-assistant.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
+     
 
       <li>
-        <h4>Cafe Assistant - Casual (Southsea)</h4>  
-        <p><em>Closing Date: Open</em></p>
+        <h4>Teacher of Music</h4>  
+        <p><em>Closing Date: 28-04-2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/cafe-assistant-southsea-casual.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/teacher-of-music-2022.pdf" target="_blank">Position Details</a>
         </span>
       </li>
       <hr>
       
-      <li>
-        <h4>Cafe Assistant - Casual (Staunton Country Park)</h4>  
-        <p><em>Closing Date: Open</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/cafe-assistant-casual.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
+      
       
       
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
