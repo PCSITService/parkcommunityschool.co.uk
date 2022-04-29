@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                     <ul class="circle">April 2022<hr>
+                        <li><a href="/assets/letters/2022-04/newsletter-29-04.pdf" target="_blank">Newsletter - 29th April 2022</a></li>
                         <li><a href="/assets/letters/2022-04/summer-term-key-dates.pdf" target="_blank">Summer Term and Key Dates</a></li>
                         <li><a href="/assets/letters/2022-04/newsletter-01-04.pdf" target="_blank">Newsletter - 1st April 2022</a></li>
                     </ul>
