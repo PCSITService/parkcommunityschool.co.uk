@@ -41,18 +41,9 @@
 
      
 
+          
       <li>
-        <h4>Teacher of Music</h4>  
-        <p><em>Closing Date: Thursday 28th April 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher-of-music-2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
-      
-      <li>
-        <h4>Site Assitant</h4>  
+        <h4>Site Assistant</h4>  
         <p><em>Closing Date: Friday 6th May 2022</em></p>
 
         <span class="subheader">
