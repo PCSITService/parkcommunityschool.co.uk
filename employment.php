@@ -41,7 +41,16 @@
 
      
 
-          
+      <li>
+        <h4>Exam Invigilator</h4>  
+        <p><em>Closing Date: Friday 6th May 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/exam-invigilator-2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+      <hr>
+
       <li>
         <h4>Site Assistant</h4>  
         <p><em>Closing Date: Friday 6th May 2022</em></p>
