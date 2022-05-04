@@ -103,7 +103,7 @@
 
                 <p>Here are some useful documents for Year 11 exams in 2022</p>
                     <ul>
-                    <li><a href="assets/exam/2022-exam-handbook.pdf" target="_blank">Parent Information</a></li>    
+                    <li><a href="assets/exam/2022-exam-handbook.pdf" target="_blank">2022 Exam Handbook</a></li>    
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
                     <li><a href="assets/exam/mock-timetable.pdf" target="_blank">Mock Exam Timetable</a></li>
