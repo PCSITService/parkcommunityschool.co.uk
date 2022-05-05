@@ -39,7 +39,16 @@
         </span>
       </li>-->
 
-     
+     <li>
+        <h4>Cafe Assistant - Southsea</h4>  
+        <p><em>Closing Date: Open</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/cafe-assistant-southsea.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+      <hr>
+
 
       <li>
         <h4>Exam Invigilator</h4>  
