@@ -39,6 +39,19 @@
         </span>
       </li>-->
 
+
+      <li>
+        <h4>Teacher of Design & Technology</h4>  
+        <p><em>Closing Date: Monday 23rd May 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/design_and_technology_sept_2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+
+      <hr>
+
+
      <li>
         <h4>Cafe Assistant - Southsea</h4>  
         <p><em>Closing Date: Open</em></p>
@@ -47,29 +60,7 @@
         <a href="assets/recruitment/cafe-assistant-southsea.pdf" target="_blank">Position Details</a>
         </span>
       </li>
-      <hr>
-
-
-      <li>
-        <h4>Exam Invigilator</h4>  
-        <p><em>Closing Date: Friday 6th May 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/exam-invigilator-2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
-
-      <li>
-        <h4>Site Assistant</h4>  
-        <p><em>Closing Date: Friday 6th May 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/site-assistant-april2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      <hr>
-      
+  
       
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
