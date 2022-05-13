@@ -39,6 +39,16 @@
         </span>
       </li>-->
 
+      <li>
+        <h4>Head of House (with a preference for a qualified teacher specialising in Maths, Science or Design Technology)</h4>  
+        <p><em>Closing Date: Monday 23rd May 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/hoh-teacher-of-maths-sci-d-t-sept-2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+
+      <hr>
 
       <li>
         <h4>Teacher of Design & Technology</h4>  
@@ -50,7 +60,6 @@
       </li>
 
       <hr>
-
 
      <li>
         <h4>Cafe Assistant - Southsea</h4>  
