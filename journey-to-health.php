@@ -14,15 +14,15 @@
     <div class="row">
         <div class="medium-8 large-8 columns">
             <h1>Journey to Health</h1>
-<!--             <p class="text-capitalize">Journey to Health</p> -->
+            <p class="text-capitalize"></p>
         </div>
     </div>
 </header>
 
 <!-- CONTENT -->
-<!-- INTRO -->
 <section>
     <div class="row">
+        <br>
         <div class="columns">
             <br>
             <p>As a school we always welcome the opportunity to work with partners to benefit the students, families, and wider community.</p>
@@ -34,9 +34,40 @@
             <p>Everyone involved are proud of the ladies’ achievements and it shows how a small amount of funding with everyone working to one goal what can be achieved.</p>
         </div>
     </div>
-    
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710816344?h=bbfe4b300a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Journey to Health"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <br><br><br>
+</section>
 
+<section class="grey-bg">
+    <div class="row">
+        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
+    </div>
+    <div class="row">
+        <br>
+        <div class="medium-12 columns">
+          <div class="flex-video widescreen border-radius-5">
+            <iframe src="https://player.vimeo.com/video/710816344?h=bbfe4b300a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" width="1280" height="720" allowfullscreen frameborder="0"></iframe>
+          </div>
+        </div>
+    </div>
+    <br><br><br>
+</section>
+
+<section>
+    <div class="row">
+        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
+    </div>
+    <div class="row">
+        <div class="columns">
+            <ul class="small-block-grid-2 medium-block-grid-6">
+              <li><img src="images/journey-to-health/park_community_school.jpg" alt=""></li>
+              <li><img src="images/journey-to-health/energise_me.png" alt=""></li>
+              <li><img src="images/journey-to-health/hwpcn.png" alt=""></li>
+              <li><img src="images/journey-to-health/nhs.png" alt=""></li>
+              <li><img src="images/journey-to-health/the_national_lottery.png" alt=""></li>
+              <li><img src="images/journey-to-health/sport_england.png" alt=""></li>
+            </ul>
+        </div>
+    </div><br><br>
 </section>
 
 <!-- FOOTER -->
@@ -47,16 +78,5 @@
         <script src="js/vendor/libraries.min.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
         <script src="js/app.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-              $('.homepage-slider').slick({
-                autoplay: true,
-                dots: true,
-                fade: true
-              });
-            });
-        </script>
     </body>
 </html>
