@@ -349,7 +349,7 @@
 
         <h3>Extra Curricular Sporting Opportunities</h3>
             <div class="text-center">
-                    <img src="assets/curriculum/pe/pe-after-school-clubs-ht5.jpg">
+                    <img src="assets/curriculum/pe/pe-after-school-clubs-ht6.jpg">
                 </div>
         <br>
 
