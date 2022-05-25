@@ -39,7 +39,14 @@
         </span>
       </li>-->
 
-      
+        <li>
+        <h4>Community Skills Instructor / Technology Teacher</h4>  
+        <p><em>Closing Date: Open</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/construction-skills-vacancy-2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
 
      <li>
         <h4>Cafe Assistant - Southsea</h4>  
