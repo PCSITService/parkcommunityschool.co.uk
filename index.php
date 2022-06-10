@@ -19,7 +19,7 @@
             <br><br>
         </div>
         <div class="medium-7 columns">
-			<p><em>&#8220;<!-- The headteacher’s vision is to create ‘more than just a school’  -->by providing all pupils with a range of additional opportunities to raise their aspirations and ensure they are very well prepared for adult life.<!--  This is realised through a curriculum which balances academic and vocational qualifications with activities that promote pupils’ social, moral, spiritual and cultural development. Staff are committed to this vision and provide a wide range of opportunities and support for pupils. This combination develops pupils’ well-being as well as promoting their academic achievement and prepares them well for life in modern Britain. -->&#8221; - </em>Ofsted January 2017</p>
+			<p><em>&#8220;<!-- The headteacher’s vision is to create ‘more than just a school’  -->The school lives up to its motto of being ‘much more than just a school’. Pupils benefit from an exceptional range of opportunities.<!--  This is realised through a curriculum which balances academic and vocational qualifications with activities that promote pupils’ social, moral, spiritual and cultural development. Staff are committed to this vision and provide a wide range of opportunities and support for pupils. This combination develops pupils’ well-being as well as promoting their academic achievement and prepares them well for life in modern Britain. -->&#8221; - </em>Ofsted 2022</p>
             
             <div class="small-text-center large-text-right">
                 <a class="expand small button radius success" href="#" data-reveal-id="HeadsWelcome">Headteacher's Welcome</a>
@@ -27,12 +27,22 @@
 
                 <div class="row">
                     <div class="columns">
+                        <a class="small button radius ofsted" style="background-color:MediumSeaGreen; color:white" href="/ofsted-reports.php">Ofsted Reports 2022</a>
+<!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 Transition 2022</a>
+<!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
+<!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>    -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="columns">
+
                         <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a>
                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>   
                     </div>
                 </div>
-
+                
                 <div class="row">
                     <div class="columns">
                         <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams</a>
@@ -84,6 +94,20 @@
         <div class="columns">
             <br>
 
+            <!-- Ofsted Report -->
+<!-- 
+            <div id="ofsted-reports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h2 id="modalTitle">Ofsted Reports 2022</h2>
+
+                <p>Here are the Ofsted Reports for 2022</p>
+                    <ul>
+                    <li><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank">Ofsted Report 2-3 March 2022</a></li> 
+                    <li><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank">Ofsted Report 5 May 2022</a></li>
+                </ul>
+                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            </div>
+ -->
+            
             <!-- Transition -->
             <div id="transition" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Year 6 Transition Information</h2>
@@ -96,7 +120,7 @@
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
-
+            
             <!-- EXAM Information -->
             <div id="exam-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">EXAM Information</h2>
@@ -238,6 +262,7 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2022-05/newsletter-05-25.pdf" target="_blank">Newsletter - 25th May 2022</a></li>
                         <li><a href="/assets/letters/2022-05/newsletter-13-05.pdf" target="_blank">Newsletter - 13th May 2022</a></li>
                         <li><a href="/assets/letters/2022-04/newsletter-01-04.pdf" target="_blank">Newsletter - 1st April 2022</a></li>
                         <li><a href="/assets/letters/2022-03/newsletter-11-03.pdf" target="_blank">Newsletter - 11th March 2022</a></li>
@@ -334,6 +359,18 @@
                                     <iframe src="https://player.vimeo.com/video/586682273?h=4a3243e43b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                                 </div>
                             </div>
+<!-- 
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+		                            <p>Ofsted said in 2022:</p>
+		                            <ul>
+		                              <li>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</li>
+		                              <li>Pupils are reading regularly in school and for pleasure.</li>
+		                              <li>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</li>
+		                            </ul>
+                                </div>
+		                    </div>
+ -->
 		                </div>
 		            </div>
 		        </div>   

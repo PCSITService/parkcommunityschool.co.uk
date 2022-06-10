@@ -38,8 +38,10 @@
                 <li><a href="/assets/statutory/equality-statement.pdf" target="_blank">Equality Statement</a></li>
                 <li><a href="/assets/statutory/ks4-results.pdf" target="_blank">Key Stage 4 Results</a></li>
                 <li><a href="/assets/statutory/leaver-destinations.pdf" target="_blank">Leaver Destinations</a></li>
-                <li><a href="/assets/statutory/ofsted-report-2017.pdf" target="_blank">Ofsted Report</a></li>
+                <li><a href="/ofsted-reports.php">Ofsted Reports 2022</a></li>
+<!--                 <li><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank">Ofsted Report 2-3 March 2022</a></li> -->
                 <li><a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank">Performance Tables</a></li>
+<!--                 <li><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank">Ofsted Report 5 May 2022</a></li> -->
                 <li><a href="/pupil-premium.php">Pupil Premium and Catch-up Funding</a></li>
                 <li><a href="/assets/statutory/send-information-report.pdf" target="_blank">SEND Information Report</a></li>
                 <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>
