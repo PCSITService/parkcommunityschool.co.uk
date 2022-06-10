@@ -359,18 +359,16 @@
                                     <iframe src="https://player.vimeo.com/video/586682273?h=4a3243e43b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                                 </div>
                             </div>
-<!-- 
 		                    <div>
 		                        <div class="flex-video widescreen border-radius-5">
 		                            <p>Ofsted said in 2022:</p>
-		                            <ul>
-		                              <li>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</li>
-		                              <li>Pupils are reading regularly in school and for pleasure.</li>
-		                              <li>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</li>
-		                            </ul>
+		                            <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
+		                            <p>Pupils are reading regularly in school and for pleasure.</p>
+		                            <p>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
+		                     
                                 </div>
 		                    </div>
- -->
+
 		                </div>
 		            </div>
 		        </div>   
