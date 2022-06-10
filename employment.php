@@ -39,6 +39,27 @@
         </span>
       </li>-->
 
+     <li>
+        <li>
+        <h4>Teaching Assistant</h4>  
+        <p><em>Closing Date: Monday, 20 June 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+
+    <hr>
+     <li>
+        <h4>Cafe Assistant - Southsea</h4>  
+        <p><em>Closing Date: Open</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/cafe-assistant-southsea.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+      
+    <hr>      
         <li>
         <h4>Community Skills Instructor / Technology Teacher</h4>  
         <p><em>Closing Date: Open</em></p>
@@ -48,7 +69,8 @@
         </span>
       </li>
 
-     <li>
+    <hr>
+      <li>
         <h4>Cafe Assistant - Southsea</h4>  
         <p><em>Closing Date: Open</em></p>
 

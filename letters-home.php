@@ -26,6 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">June 2022<hr>
+                        <li><a href="/assets/letters/2022-06/june-2022-ofsted-reports.pdf" target="_blank">Ofsted Reports 2022</a></li>
+                    </ul>
+                </li>
+                <li>
                     <ul class="circle">May 2022<hr>
                         <li><a href="/assets/letters/2022-05/newsletter-05-25.pdf" target="_blank">Newsletter - 25th May 2022</a></li>
                         <li><a href="/assets/letters/2022-05/costoflivingparentsletter.pdf" target="_blank">Cost of Living Letter</a></li>
@@ -33,13 +38,14 @@
                         <li><a href="/assets/letters/2022-05/newsletter-13-05.pdf" target="_blank">Newsletter - 13th May 2022</a></li>
                         <li><a href="/assets/letters/2022-05/year-11-exam-briefing-letter-2022.pdf" target="_blank">Year 11 Pre-exam Subject Briefing 2022</a></li>
                     </ul>
-                    </ul>
+                </li>
                 <li>
                     <ul class="circle">April 2022<hr>
                         <li><a href="/assets/letters/2022-04/newsletter-29-04.pdf" target="_blank">Newsletter - 29th April 2022</a></li>
                         <li><a href="/assets/letters/2022-04/summer-term-key-dates.pdf" target="_blank">Summer Term and Key Dates</a></li>
                         <li><a href="/assets/letters/2022-04/newsletter-01-04.pdf" target="_blank">Newsletter - 1st April 2022</a></li>
                     </ul>
+                </li>
                 <li>
                     <ul class="circle">March 2022<hr>
                         <li><a href="/assets/letters/2022-03/disney-2022.pdf" target="_blank">Year 8 DisneyLand Paris Trip</a></li>
@@ -50,12 +56,14 @@
                         <li><a href="/assets/letters/2022-03/ofsted-letter.pdf" target="_blank">Ofsted Letter</a></li>
                         <li><a href="/assets/letters/2022-03/school-inspection-guide.pdf" target="_blank">School Inspection Guide</a></li>
                     </ul>
+                </li>
                 <li>
                     <ul class="circle">February 2022<hr>
                         <li><a href="/assets/letters/2022-02/newsletter-11-02.pdf" target="_blank">Newsletter - 11th February 2022</a></li>
                         <li><a href="/assets/letters/2022-02/review-day.pdf" target="_blank">Student Review Day</a></li>
                         <li><a href="/assets/letters/2022-02/photography-trip.pdf" target="_blank">Year 11 Photography Trip</a></li>
                     </ul>
+                </li>
                 <li>
                     <ul class="circle">January 2022<hr>
                         <li><a href="/assets/letters/2022-01/rse-sessions.pdf" target="_blank">Relationship & Sex Education (RSE) Lesson</a></li>
@@ -67,9 +75,8 @@
                         <li><a href="/assets/letters/2022-01/saliva-privacy-notice.pdf" target="_blank">Saliva Testing Privacy Notice</a></li>
                         <li><a href="/assets/letters/2022-01/general-letter-6.pdf" target="_blank">6th January 2022 – General Letter</a></li>
                     </ul>
+                </li>
                 <li>
-
-                 <li>
                     <ul class="circle">December 2021<hr>
                         <li><a href="/assets/letters/2021-12/newsletter-17-12.pdf" target="_blank">Newsletter - 17th December 2021</a></li>
                         <li><a href="/assets/letters/2021-12/connect4communities.pdf" target="_blank">Connect4communities</a></li>
@@ -77,7 +84,7 @@
                         <li><a href="/assets/letters/2021-12/end-of-term-letter.pdf" target="_blank">End of Term Letter</a></li>
                         <li><a href="/assets/letters/2021-12/newsletter-06-12.pdf" target="_blank">Newsletter - 6th December 2021</a></li>
                     </ul>
-
+                </li>
                 <li>
                     <ul class="circle">November 2021<hr>
                         <li><a href="/assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter - 19th November 2021</a></li>
@@ -85,7 +92,8 @@
                         <li><a href="/assets/letters/2021-11/yr10-mock-timetable.pdf" target="_blank">Year 10 Mock Timetable</a></li>
                         <li><a href="/assets/letters/2021-11/newsletter-05-11.pdf" target="_blank">Newsletter - 5th November 2021</a></li>
                     </ul>
-                 <li>
+                </li>
+                <li>
                     <ul class="circle">October 2021<hr>
                         <li><a href="/assets/letters/2021-10/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
                         <li><a href="/assets/letters/2021-10/newsletter-01-15.pdf" target="_blank">Newsletter - 15th October 2021</a></li>
@@ -100,7 +108,8 @@
                         <li><a href="/assets/letters/2021-10/parent-surgery.pdf" target="_blank">Parent Surgery</a></li>
                         <li><a href="/assets/letters/2021-10/newsletter-01-10.pdf" target="_blank">Newsletter - 1st October 2021</a></li>
                     </ul>
-                 <li>
+                </li>
+                <li>
                     <ul class="circle">September 2021<hr>
                         <li><a href="/assets/letters/2021-09/student-vaccinations.pdf" target="_blank">Student Vaccinations</a></li>
                         <li><a href="/assets/letters/2021-09/parent-leaflet.pdf" target="_blank">COVID-19 Vaccination Programme - Parent Guide</a></li>
@@ -109,7 +118,7 @@
                         <li><a href="/assets/letters/2021-09/newsletter-17-09.pdf" target="_blank">Newsletter - 17th September 2021</a></li>
                         <li><a href="/assets/letters/2021-09/year-7-trips-22-23-sept.pdf" target="_blank">Year 7 Trips 22nd & 23 September</a></li>
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">August 2021<hr>
                         <li><a href="/assets/letters/2021-08/GCSE-2021-results.pdf" target="_blank">GCSE Results Information</a></li>
@@ -117,7 +126,7 @@
                         <li><a href="/assets/letters/2021-08/year-8-11-start.pdf" target="_blank">Year 8-11 return September 2021</a></li>
                         <li><a href="/assets/letters/2021-08/gcse-results.pdf" target="_blank">GCSE Results</a></li>
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">July 2021<hr>
                         <li><a href="/assets/letters/2021-07/munch.pdf" target="_blank">MUNCH and Connect 4 Families</a></li>
@@ -132,6 +141,7 @@
                         <li><a href="/assets/letters/2021-07/challenge-day.pdf" target="_blank">Challenge Day</a></li>
                         <li><a href="/assets/letters/2021-07/newsletter-2021-07-02.pdf" target="_blank">Newsletter - 2nd July 2021</a></li>
                     </ul>
+                </li>
                 <li>
                  <li>
                     <ul class="circle">June 2021<hr>
@@ -140,14 +150,14 @@
                         <li><a href="/assets/letters/2021-06/newsletter-18-06.pdf" target="_blank">Newsletter 18th June</a></li>
                         <li><a href="/assets/letters/2021-06/inset-day.pdf" target="_blank">INSET Day</a></li>
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">May 2021<hr>
                         <li><a href="/assets/letters/2021-05/newsletter-28-05.pdf" target="_blank">Newsletter 28th May</a></li>
                         <li><a href="/assets/letters/2021-05/newsletter-14-05.pdf" target="_blank">Newsletter 14th May</a></li>
                         <li><a href="/assets/letters/2021-05/yr11-leaver-arrangements.pdf" target="_blank">Year 11 Leaver Arrangements</a></li>
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">April 2021<hr>
                         <li><a href="/assets/letters/2021-04/newsletter-30-04.pdf" target="_blank">Newsletter 30th April</a></li>
@@ -156,8 +166,8 @@
                         <li><a href="/assets/letters/2021-04/end-of-term.pdf" target="_blank">End of Term</a></li>
                         <li><a href="/assets/letters/2021-04/newsletter-1-04.pdf" target="_blank">Newsletter 1st April</a></li>
                     </ul>
+                </li>
                 <li>
-                  <li>
                     <ul class="circle">March 2021<hr>
                         <li><a href="/assets/letters/2021-03/home-testing-update.pdf" target="_blank">COVID-19 Testing Update</a></li>
 						<li><a href="/assets/letters/2021-03/5-general-letter-to-parents.pdf" target="_blank">General Letter to Parents 24th Mar</a></li>
@@ -170,7 +180,7 @@
                         <li><a href="/assets/letters/2021-03/year-11-return-to-school.pdf" target="_blank">Year 11 Return to School</a></li>
                         <li><a href="/assets/letters/2021-03/years-7-10-return-to-school.pdf" target="_blank">Years 7-10 Return to School</a></li>
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">February 2021<hr>
                         <li><a href="/assets/letters/2021-02/return-to-school-march-2021.pdf" target="_blank">Return to School March 2021</a></li>
@@ -182,7 +192,7 @@
 						<li><a href="/assets/letters/2021-02/8-general-letter-to-parents.pdf" target="_blank">General Letter to Parents 8th Feb</a></li>
                         
                     </ul>
-                <li>
+                </li>
                 <li>
                     <ul class="circle">January 2021<hr>
                         <li><a href="/assets/letters/2021-01/newsletter-29-01.pdf" target="_blank">Newsletter 29th January</a></li>
@@ -194,7 +204,7 @@
                         <li><a href="/assets/letters/2021-01/covid-19-testing-for-key-worker-school-students.pdf" target="_blank">COVID-19 Testing for Key Worker Students</a></li>
                         <li><a href="/assets/letters/2021-01/covid-19-testing-student-privacy-statement.pdf" target="_blank">COVID-19 Student Privacy Statement</a></li>
                     </ul>
-                <li>
+                </li>
             </ul>
             <h5 class="subheader text-capitalize text-center"><small>Can't see what you're looking for please ask at <a href="/contact.php">the school reception</a>.</small></h5>
         </div>
