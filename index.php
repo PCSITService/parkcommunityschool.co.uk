@@ -19,7 +19,7 @@
             <br><br>
         </div>
         <div class="medium-7 columns">
-			<p><em>&#8220;<!-- The headteacher’s vision is to create ‘more than just a school’  -->The school lives up to its motto of being ‘much more than just a school’. Pupils benefit from an exceptional range of opportunities.<!--  This is realised through a curriculum which balances academic and vocational qualifications with activities that promote pupils’ social, moral, spiritual and cultural development. Staff are committed to this vision and provide a wide range of opportunities and support for pupils. This combination develops pupils’ well-being as well as promoting their academic achievement and prepares them well for life in modern Britain. -->&#8221; - </em>Ofsted 2022</p>
+			<p><em>&#8220;<!-- The headteacher’s vision is to create ‘more than just a school’.  -->The school lives up to its motto of being ‘much more than just a school’. Pupils benefit from an exceptional range of opportunities.<!--  This is realised through a curriculum which balances academic and vocational qualifications with activities that promote pupils’ social, moral, spiritual and cultural development. Staff are committed to this vision and provide a wide range of opportunities and support for pupils. This combination develops pupils’ well-being as well as promoting their academic achievement and prepares them well for life in modern Britain. -->&#8221; - </em>Ofsted 2022</p>
             
             <div class="small-text-center large-text-right">
                 <a class="expand small button radius success" href="#" data-reveal-id="HeadsWelcome">Headteacher's Welcome</a>
