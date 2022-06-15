@@ -48,17 +48,7 @@
         <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
-
-    <hr>
-     <li>
-        <h4>Cafe Assistant - Southsea</h4>  
-        <p><em>Closing Date: Open</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/cafe-assistant-southsea.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-      
+    
     <hr>      
         <li>
         <h4>Community Skills Instructor / Technology Teacher</h4>  
@@ -68,17 +58,6 @@
         <a href="assets/recruitment/construction-skills-vacancy-2022.pdf" target="_blank">Position Details</a>
         </span>
       </li>
-
-    <hr>
-      <li>
-        <h4>Cafe Assistant - Southsea</h4>  
-        <p><em>Closing Date: Open</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/cafe-assistant-southsea.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-  
       
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
