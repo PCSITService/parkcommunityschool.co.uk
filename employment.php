@@ -92,10 +92,10 @@
   <div class="row">
     <div class="large-12 columns">
       <blockquote>
-        “Staff are very positive about the high-quality support they receive, especially the coaching programme, which enables them to become self-reflective and identify accurately their areas for development.”
+        “Leaders and governors have an ambitious long-term vision for the school and its local community. All of the decisions they make are guided by what is in the best interests of pupils. Staff share in this vision and are proud to work at the school. They feel well supported and appreciate the training they receive.”
         <br><br>
-        “The highly motivated staff fully subscribe to the ethos of the school and are ambitious for their pupils.”
-         - <cite>Ofsted January 2017</cite>
+        “Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face. Pupils particularly appreciate the support they receive from staff in the welfare support and guidance team”
+         - <cite>Ofsted, March 2022</cite>
       </blockquote>
     </div>
   </div>
