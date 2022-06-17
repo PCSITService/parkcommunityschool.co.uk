@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">June 2022<hr>
+                        <li><a href="/assets/letters/2022-06/newsletter-17-06-2022.pdf" target="_blank">Newsletter - 17th June 2022</a></li>
                         <li><a href="/assets/letters/2022-06/y10-tasterdays-17.06.2022.pdf" target="_blank">Year 10 Taster Days</a></li>
                         <li><a href="/assets/letters/2022-06/june-2022-ofsted-reports.pdf" target="_blank">Ofsted Reports 2022</a></li>
                     </ul>
