@@ -39,10 +39,9 @@
         </span>
       </li>-->
 
-     <li>
-        <li>
+      <li>
         <h4>Teaching Assistant</h4>  
-        <p><em>Closing Date: Monday, 20 June 2022</em></p>
+        <p><em>Closing Date: Monday, 1 July 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
@@ -84,6 +83,8 @@
   </div>
   <br><br><br>
 </section>
+
+
 <!-- Jobs -->
 <section class="grey-bg">
   <div class="row">
