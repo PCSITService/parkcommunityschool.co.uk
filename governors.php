@@ -1,4 +1,4 @@
-
+w
 <html class="no-js" lang="en" >
     <head>
 
@@ -49,28 +49,29 @@
             <h3>Our Governors</h3>
             <br>
 
-            <div class="medium-4 columns text-center team-member-container">
-                <a href="#" data-reveal-id="Governor-01">
-                  <img src="images/governors/f-deeks.jpg" alt="The Chair of Governors" class="team-member">
-                <p>Mr F Deeks</p>
-                Governor Details</a>
-                        <div id="Governor-01" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                          <h2 id="modalTitle">Mr F Deeks</h2>
-                          <p class="lead">Appointed: 09.07.2018 <br>Term Expires: 08.07.2022</p>
-                          <p>Category: CO-OPTED</p>
-                          <p>Committee Membership:</p>
-                            <ul class="circle">
-                                <li>Co-Chair of Full Governing Body (FGB).</li>
-                                <li>Member of Admin Committee.</li>
-                                <li>Member of Performance Committee.</li>
-                            </ul>
-                          <p>
+     			<div class="medium-4 columns text-center  team-member-container">
+                      <a href="#" data-reveal-id="Governor-bharwood">
+                        <img src="images/governors/b-harwood.jpg" alt="Governor Profile Image" class="team-member">
+                      <p>Mr B Harwood</p>
+                      Governor Details</a>
+                              <div id="Governor-bharwood" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                                <h2 id="modalTitle">Mr B Harwood</h2>
+                                <p class="lead">Appointed: 11.05.2019 <br>Term Expires: 10.05.2023</p>
+                                <p>Category: Local Authority Govenor</p>
+                                <p>Committee Membership: </p>
+                                  <ul class="circle">
+                                      <li>Co-Chair of Full Governing Body (FGB).</li>
+                                      <li>Member of Performance Committee.</li>
+                                  </ul>
+                               <p>
                             <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
                           </p>
-                            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                        </div>
 
-            </div>
+                              <a class="close-reveal-modal" aria-label="Close">&#215;</a>    
+      			           </div>
+      			</div>
+
+
             <div class="medium-4 columns text-center  team-member-container">
                 <a href="#" data-reveal-id="Governor-02">
                   <img src="images/governors/a-rowsell.jpg" alt="Health and Safety Governor" class="team-member">
@@ -78,13 +79,13 @@
                 Governor Details</a>
                         <div id="Governor-02" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                           <h2 id="modalTitle">Mr A Rowsell</h2>
-                          <p class="lead">Appointed: 09.07.2018 <br>Term Expires: 08.07.2022</p>
+                          <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
                           <p>Category: CO-OPTED</p>
                           <p>Committee Membership:</p>
                             <ul class="circle">
                             	<li>Co-Chair of Full Governing Body (FGB).</li>
                             	<li>Chair of the Administration Committee.</li>
-                                <li>Member of Admin Committee.</li>
+                                <li>Member of Administration Committee.</li>
                             </ul>
                           <p>
                             <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
@@ -214,29 +215,7 @@
 
             </div>
 
-      			<div class="medium-4 columns text-center  team-member-container">
-                      <a href="#" data-reveal-id="Governor-bharwood">
-                        <img src="images/governors/b-harwood.jpg" alt="Governor Profile Image" class="team-member">
-                      <p>Mr B Harwood</p>
-                      Governor Details</a>
-                              <div id="Governor-bharwood" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                <h2 id="modalTitle">Mr B Harwood</h2>
-                                <p class="lead">Appointed: 11.05.2019 <br>Term Expires: 10.05.2023</p>
-                                <p>Category: Local Authority Govenor</p>
-                                <p>Committee Membership: </p>
-                                  <ul class="circle">
-                                      <li>Vice Chair of Governors.</li>
-                                      <li>Member of Performance Committee.</li>
-                                  </ul>
-                               <p>
-                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
-                          </p>
-
-                              <a class="close-reveal-modal" aria-label="Close">&#215;</a>    
-      			           </div>
-      			</div>
-
-            <div class="medium-4 columns text-center  team-member-container">
+             <div class="medium-4 columns text-center  team-member-container">
                       <a href="#" data-reveal-id="Governor-cward">
                         <img src="images/governors/c-ward.jpg" alt="Governor Profile Image" class="team-member">
                       <p>Ms Cathryn Ward</p>
@@ -244,7 +223,7 @@
                               <div id="Governor-cward" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                                 <h2 id="modalTitle">Ms Cathryn Ward</h2>
                                 <p class="lead">Appointed: 24.04.2020 <br>Term Expires: 23.04.2024</p>
-                                <p>Category: Associate</p>
+                                <p>Category: CO-OPTED</p>
                                 <p>Committee Membership: </p>
                                   <ul class="circle">
                                       <li>Member of Performance Committee.</li>
@@ -278,6 +257,26 @@
                        </div>
             </div>
 
+            <div class="medium-4 columns text-center team-member-container">
+                <a href="#" data-reveal-id="Governor-01">
+                  <img src="images/governors/f-deeks.jpg" alt="The Chair of Governors" class="team-member">
+                <p>Mr F Deeks</p>
+                Governor Details</a>
+                        <div id="Governor-01" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                          <h2 id="modalTitle">Mr F Deeks</h2>
+                          <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
+                          <p>Category: Associate</p>
+                          <p>Committee Membership:</p>
+                            <ul class="circle">
+                                <li>Member of Administration Committee.</li>
+                            </ul>
+                          <p>
+                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
+                          </p>
+                            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                        </div>
+            </div>
+            
             
             <div class="medium-4 columns text-center  team-member-container end">
                 <a>

@@ -114,6 +114,7 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
+                    <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
                     <li><a href="/assets/letters/2022-05/transition-2022-letter-may-2022.pdf" target="_blank">Transition Letter May 2022</a></li>
                     <li><a href="/assets/letters/2022-03/transition-2022-letter-march-2022.pdf" target="_blank">Transition Letter March 2022</a></li></li>    
                 </ul>
