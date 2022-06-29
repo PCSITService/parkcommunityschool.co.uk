@@ -222,7 +222,7 @@ w
                       Governor Details</a>
                               <div id="Governor-cward" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                                 <h2 id="modalTitle">Ms Cathryn Ward</h2>
-                                <p class="lead">Appointed: 24.04.2020 <br>Term Expires: 23.04.2024</p>
+                                <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
                                 <p>Category: CO-OPTED</p>
                                 <p>Committee Membership: </p>
                                   <ul class="circle">
