@@ -114,13 +114,14 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                    <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
+                                        <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
                     <li><a href="/assets/letters/2022-05/transition-2022-letter-may-2022.pdf" target="_blank">Transition Letter May 2022</a></li>
                     <li><a href="/assets/letters/2022-03/transition-2022-letter-march-2022.pdf" target="_blank">Transition Letter March 2022</a></li></li>    
                 </ul>
                 <p>Please email <a href="mailto:2022transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
 
                 <a class="expand button radius success" href="https://forms.office.com/r/5SMgXBsH8p" target="_blank">Acceptance Form</a>
+                <a class="expand button radius success" href="https://forms.office.com/Pages/ResponsePage.aspx?id=2W4a34q1NUGg3oPDXQCwSG8tfjMVBL5Io0fe1_DjzhRUMTY5N1RURlNaS1JYSkFWWFRZMERFNUlDNS4u" target="_blank">New Year 7 Summer School Form</a>
 
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
