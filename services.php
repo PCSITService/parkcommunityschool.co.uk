@@ -33,13 +33,14 @@
         <div class="medium-push-2 medium-8 large-push-0 large-4 columns">
           <br>
               <ul class="pricing-table">
-                <li class="title"><img class="fixed-size-100" src="images/logo/insight.png" alt="TASC - Insight"><br>Insight</li>
+                <li class="title"><img class="fixed-size-100" src="images/logo/classcharts.png" alt="ClassCharts"></li>
                 <li class="bullet-item">Homework</li>
                 <li class="bullet-item">Achievements</li>
                 <li class="bullet-item">Messaging</li>
                 <li class="cta-button">
-                  <a class="button radius" href="//insight.pcs.hants.sch.uk:444" target="_blank">Open</a>
-                  <a class="button tiny info radius" href="assets/services/insight_guidance.pdf" target="_blank">Guidance</a>
+                  <a class="button radius" href="https://www.classcharts.com/account/login/share" target="_blank">Open</a>
+                  <a class="button tiny info radius" href="assets/services/Class_Charts_for_parents_guide.pdf" target="_blank">Parents</a>
+                  <a class="button tiny info radius" href="assets/services/Class_Charts_for_pupils_guide.pdf" target="_blank">Pupils</a>
                 </li>
               </ul>
           <br>

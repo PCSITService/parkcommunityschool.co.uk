@@ -415,9 +415,9 @@
                         </li>
 
                         <li>
-                          <a href="//insight.pcs.hants.sch.uk:444/" target="_blank">
-                              <img class="fixed-size-100" src="/images/logo/insight.png" alt="Insight Homework Management">
-                              <p>Insight</p>
+                          <a href="https://www.classcharts.com/account/login/share" target="_blank">
+                              <img class="fixed-size-100" src="images/logo/classcharts.png" alt="ClassCharts">
+                              <p>ClassCharts</p>
                           </a>
                         </li>
 
