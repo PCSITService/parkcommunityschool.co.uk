@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="columns">
                         <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams</a>
-                        <a class="small button radius success" href="https://pcs.hants.sch.uk/assets/letters/2021-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
+                        <a class="small button radius success" href="assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
