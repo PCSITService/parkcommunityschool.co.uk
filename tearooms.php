@@ -25,9 +25,7 @@
         <br>
         <div class="medium-6 columns">
             <br>
-            <p>Welcome to the Tea Rooms, situated in Staunton Park. The Coach House was built in the Nineteenth Century. As a result of Heritage Lottery funding the building and the surrounding park have been beautifully renovated for the benefit of the public.</p>
-
-            <p>We are pleased to work in partnership with Staunton Country Park and Hampshire Countryside Service and have the opportunity to be part of the transformation of Leigh Park Gardens. There is synergy between all partners to provide a great destination for many years to come.</p>
+            <p>Welcome to the Tea Rooms. The Coach House was built in the Nineteenth Century. As a result of Heritage Lottery funding the building and the surrounding park have been beautifully renovated for the benefit of the public.</p>
 
             <a class="button radius" target="_blank" href="//www.google.co.uk/maps/dir//Tea+Rooms+at+the+Coach+House,+Havant+PO9+5HD/@50.8754276,-1.0088072,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4874450c0d6826bb:0xf1afb98058faa293!2m2!1d-0.973788!2d50.8754328">Come Visit Us</a>
             
@@ -58,12 +56,10 @@
     </div>
     <div class="row">
         <div class="columns">
-            <h4>Why is a school managing the Tea Rooms?</h4>
-            <p>When the initial consultations took place to renovate the buildings and grounds of Leigh Park Gardens Park Community School were invited to join the board managing the process. We were able to support and provide information when plans were being generated to ensure use of the park would be engaging for young people and increase their use both socially and educationally.</p>
+            <h4>So, you may be asking why is a school managing the Tea Rooms?</h4>
+            <p>When the initial consultations took place to renovate the buildings and grounds of Leigh Park Gardens Park Community School were invited to join the board managing the process. We were able to support and provide information when plans were being generated to ensure use of the park would be engaging for young people and increase their use both socially and educationally. We have also been able offer job opportunity to former and current students.</p>
 
-            <p>At Park Community School we have a nationally awarded Catering Team led by Head Chef Steven Cross. We provide high quality meals for our students, alongside catering for business conferences, parties, weddings and festivals. We believe managing the Tea Rooms will give us the opportunity to showcase our skills and provide great food to the public. Any profits will support our school and community activities including our food bank and free community meals programme, Munch.</p>
-
-            <p>We are pleased to work in partnership with Staunton Country Park and Hampshire Countryside Service and have the opportunity to be part of the transformation of Leigh Park Gardens. There is synergy between all partners to provide a great destination for many years to come.</p>
+            <p>At Park Community School we have a nationally awarded Catering Team led by Head Chefs Alex Moody and Andy Grant. We provide high quality meals for our students, alongside catering for business conferences, parties, weddings and festivals. We believe managing the Tea Rooms will give us the opportunity to showcase our skills and provide great food to the public. Any profits will support our school and community activities including our food bank and free community meals programme, Munch.</p>
 
         </div>
         <div class="columns">
@@ -74,6 +70,34 @@
               <li><img src="images/tearooms/community_heritage_fund.jpg" alt=""></li>
             </ul>
         </div>
+    </div><br><br>
+</section>
+
+<section>
+    <div class="row">
+        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
+    </div>
+    <div class="row">
+        <div class="medium-6 columns">
+            <h4>Address</h4>
+            <hr>
+                <ul class="no-bullet">
+                    <li>Tea Rooms at The Coach House</li>
+                    <li>c/o Park Community School</li>
+                    <li>143 Middle Park Way</li>
+                    <li>Havant</li>
+                    <li>PO9 4DQ</li>
+                </ul>
+            <h4>Contact Information</h4>
+            <hr>
+            <ul class="no-bullet">
+                <li>Telephone: 02392 489 811</li>
+                <br>
+                <li>Email: <a href="javascript:location='mailto:\x74\x65\x61\x72\x6f\x6f\x6d\x73\x40\x70\x63\x73\x2e\x68\x61\x6e\x74\x73\x2e\x73\x63\x68\x2e\x75\x6b';void 0">Tea Rooms</a></li>
+            </ul>
+
+        </div>
+        <div class="hide-for-small-only medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/tearooms/afternoon_tea.jpg" alt="Tea Rooms - afternoon tea"></div>
     </div><br><br>
 </section>
 
