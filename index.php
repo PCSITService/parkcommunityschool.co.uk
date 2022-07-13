@@ -486,6 +486,12 @@
                         </a></div>
                 </li>
                 <li>
+                    <div class="menu-box"><a href="/waterfront.php">
+                            <img src="images/index/waterfront_logo.png" alt="The Waterfront">
+                            <p>The Waterfront</p>
+                        </a></div>
+                </li>
+                <li>
                     <div class="menu-box"><a href="/pantry.php">
                             <img src="images/index/pantry.png" alt="MUNCH Pantry">
                             <p>MUNCH Pantry</p>

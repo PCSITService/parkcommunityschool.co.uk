@@ -91,7 +91,7 @@
             <h4>Contact Information</h4>
             <hr>
             <ul class="no-bullet">
-                <li>Telephone: 02392 489 811</li>
+                <li>Telephone: 07734227058</li>
                 <br>
                 <li>Email: <a href="javascript:location='mailto:\x74\x65\x61\x72\x6f\x6f\x6d\x73\x40\x70\x63\x73\x2e\x68\x61\x6e\x74\x73\x2e\x73\x63\x68\x2e\x75\x6b';void 0">Tea Rooms</a></li>
             </ul>
