@@ -60,7 +60,45 @@
             </ul>
 
         </div>
-        <div class="hide-for-small-only medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/waterfront/waterfront.jpg" alt="Waterfront"></div>
+
+
+
+		                <div class="homepage-slider">
+		                    <!-- Images carousel -->
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/waterfront.jpg" alt="Waterfront">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/image_1.jpeg" alt="Waterfront">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/image_2.jpeg" alt="Waterfront">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/image_3.jpeg" alt="Waterfront">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/image_4.jpeg" alt="Waterfront">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/waterfront/image_5.jpeg" alt="Waterfront">                     
+                                </div>
+		                    </div>		                    
+		                </div>
+		                
+
+        
     </div><br><br>
 </section>
 
@@ -97,5 +135,20 @@
         <script src="js/vendor/libraries.min.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
         <script src="js/app.min.js"></script>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+            
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.homepage-slider').slick({
+                autoplay: true,
+                dots: true,
+                fade: true
+              });
+            });
+        </script>
     </body>
 </html>
