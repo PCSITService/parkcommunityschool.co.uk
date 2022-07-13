@@ -39,6 +39,7 @@
         </span>
       </li>-->
 
+<!-- 
      <li>
         <h4>Cover Supervisor</h4>  
         <p><em>Closing Date: Tuesday 12th July 2022</em></p>
@@ -56,6 +57,7 @@
         <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
+ -->
       
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
