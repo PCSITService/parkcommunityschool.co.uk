@@ -256,7 +256,6 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
-                        <li><a href="/assets/letters/2022-07/july-2022-end-of-term-letter.pdf" target="_blank">End of Term and Year Letter 2022</a></li>
         	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
                         <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>
                         <li><a href="/assets/letters/2022-06/newsletter-17-06-2022.pdf" target="_blank">Newsletter - 17th June 2022</a></li>
