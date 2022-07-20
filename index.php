@@ -93,20 +93,6 @@
     <div class="row">
         <div class="columns">
             <br>
-
-            <!-- Ofsted Report -->
-<!-- 
-            <div id="ofsted-reports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Ofsted Reports 2022</h2>
-
-                <p>Here are the Ofsted Reports for 2022</p>
-                    <ul>
-                    <li><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank">Ofsted Report 2-3 March 2022</a></li> 
-                    <li><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank">Ofsted Report 5 May 2022</a></li>
-                </ul>
-                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
- -->
             
             <!-- Transition -->
             <div id="transition" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -114,7 +100,8 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                                        <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
+                    <li><a href="/assets/letters/2022-07/transition-2022-letter-july-2022.pdf" target="_blank">Transition Letter July 2022</a></li>
+                    <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
                     <li><a href="/assets/letters/2022-05/transition-2022-letter-may-2022.pdf" target="_blank">Transition Letter May 2022</a></li>
                     <li><a href="/assets/letters/2022-03/transition-2022-letter-march-2022.pdf" target="_blank">Transition Letter March 2022</a></li></li>    
                 </ul>
@@ -269,6 +256,8 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2022-07/july-2022-end-of-term-letter.pdf" target="_blank">End of Term and Year Letter 2022</a></li>
+        	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
                         <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>
                         <li><a href="/assets/letters/2022-06/newsletter-17-06-2022.pdf" target="_blank">Newsletter - 17th June 2022</a></li>
                         <li><a href="/assets/letters/2022-05/newsletter-05-25.pdf" target="_blank">Newsletter - 25th May 2022</a></li>
