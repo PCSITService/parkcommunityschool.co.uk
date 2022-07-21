@@ -109,7 +109,7 @@
 
                 <a class="expand button radius success" href="https://forms.office.com/r/5SMgXBsH8p" target="_blank">Acceptance Form</a>
                 <a class="expand button radius success" href="https://forms.office.com/Pages/ResponsePage.aspx?id=2W4a34q1NUGg3oPDXQCwSG8tfjMVBL5Io0fe1_DjzhRUMTY5N1RURlNaS1JYSkFWWFRZMERFNUlDNS4u" target="_blank">New Year 7 Summer School Form</a>
-                <a class="expand button radius success" href="http://localhost/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park Information Pack</a>
+                <a class="expand button radius success" href="/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park Information Pack</a>
 
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
