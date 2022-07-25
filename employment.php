@@ -39,15 +39,6 @@
         </span>
       </li>-->
 
-<!-- 
-     <li>
-        <h4>Cover Supervisor</h4>  
-        <p><em>Closing Date: Tuesday 12th July 2022</em></p>
-        <span class="subheader">
-        <a href="assets/recruitment/cover-supervisor-september-2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
- -->
 
      <li>
         <h4>Casual Assistant (Community) Weekends</h4>  
