@@ -47,17 +47,17 @@
         <a href="assets/recruitment/cover-supervisor-september-2022.pdf" target="_blank">Position Details</a>
         </span>
       </li>
-
+ -->
 
      <li>
-        <h4>Teaching Assistant</h4>  
-        <p><em>Closing Date: Monday, 1 July 2022</em></p>
+        <h4>Casual Assistant (Community) Weekends</h4>  
+        <p><em>Closing Date: Open</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/teaching-assistant.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/casual-assistant-weekends.pdf" target="_blank">Position Details</a>
         </span>
       </li>
- -->
+
       
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
