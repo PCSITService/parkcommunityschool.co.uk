@@ -24,8 +24,9 @@
 	<div class="row">
 		<div class="columns">
 			<h2>What is Connect 4 Families?</h2>
-			<p>Park Community School and Romsey Community School in partnership successfully bid to Hampshire County Council to receive Holiday Activity Funding 2021. The funding is to provide a programme of free holiday activities and healthy food for disadvantaged children during 2021 Easter holidays.</p>
-			<p>Our plans for 2021 are based on our experience in delivering this programme in 2019 and 2020 for the Department for Education. Our programme provides enriching activities for children and also for the parents through our Family Fun Days. The venues are throughout Hampshire in many different areas and venues.</p>
+			<p>Connect4Families is the creation of Park Community School staff, Susan Parish MBE and Jan Lefley MBE. In 2019 and 2020 they delivered for the Department for Education, as part of a pilot with 8 organisations, a programme of enriching activities developed for children and for parents through our Family Fun Days. As a result of the 9 successful pilots all local authorities are now funded to deliver a three-year programme of free holiday activities for disadvantaged children and families.</p>
+			<p>2022 we are delighted to be funded by Hampshire County Council, to provide 16 days of Family Fun Days and 16 days of Connect4Youth in the summer and 4 days for both at Christmas 2022. The programmes have something for everyone.</p>
+            <p><a href="/assets/connect4summer/FamilyFunDays.jpg" target="_blank">Family Fun Days</a></p>
 			<div class="row">
 				<div class="small-push-2 small-8 medium-push-2 medium-8 large-push-3 large-6 columns">
 					<a href="//connect4.org.uk/" target="_blank"><img src="images/connect4summer/connect4families_logo.png" alt="Connect 4 Families"></a>
@@ -45,7 +46,10 @@
 	<div class="row">
 		<div class="columns">
 			<h2>What is Connect 4 Youth?</h2>
-			<p>2021 will see an expansion of this programme, based on our achievements in 2020. We will be providing activity days for 11-16 year olds. We engage specialists in many fields to provide new experiences and activities specific for this age.</p>
+			<p>Summer 2022 we are offering a wide range of activities for 11-16years including trips out. Please see the programme below:</p>
+			<p><a href="/assets/connect4summer/YouthActivityDays.jpg" target="_blank">Youth Activity Days</a></p>
+			<p>Connect4Families and Connect4Youth Activity Book is produced with lots of helpful information to give out to children and parents:
+			<p><a href="/assets/connect4summer/ActivityBook.pdf" target="_blank">Activity Book</a></p>
 			<div class="row">
 				<div class="small-push-2 small-8 medium-push-2 medium-8 large-push-3 large-6 columns">
 					<a href="//connect4.org.uk/" target="_blank"><img src="images/connect4summer/connect4youth_logo.png" alt="Connect 4 Youth"></a>
