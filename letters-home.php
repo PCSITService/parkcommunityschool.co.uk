@@ -27,6 +27,9 @@
         	<ul class="small-block-grid-1">
         	    <li>
         	        <ul class="circle">July 2022<hr>
+        	            <li><a href="/assets/letters/2022-07/july-2022-end-of-term-letter.pdf" target="_blank">End of Term and Year Letter 2022</a></li>
+        	            <li><a href="/assets/letters/2022-07/transition-2022-letter-july-2022.pdf" target="_blank">Transition Letter July 2022</a></li>
+        	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
                         <li><a href="/assets/letters/2022-07/classcharts-letter-and-instructions-05-07-22.pdf" target="_blank">Classcharts Letter and Instructions</a></li>
                         <li><a href="/assets/letters/2022-07/july-2022-keydatesjuly2022-classcharts-september2022.pdf" target="_blank">Key Dates for July-September and ClassCharts</a></li>
                         <li><a href="/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome To Park Information Pack 2022-2023</a></li>

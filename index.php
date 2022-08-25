@@ -93,20 +93,6 @@
     <div class="row">
         <div class="columns">
             <br>
-
-            <!-- Ofsted Report -->
-<!-- 
-            <div id="ofsted-reports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Ofsted Reports 2022</h2>
-
-                <p>Here are the Ofsted Reports for 2022</p>
-                    <ul>
-                    <li><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank">Ofsted Report 2-3 March 2022</a></li> 
-                    <li><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank">Ofsted Report 5 May 2022</a></li>
-                </ul>
-                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
- -->
             
             <!-- Transition -->
             <div id="transition" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -114,7 +100,8 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                                        <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
+                    <li><a href="/assets/letters/2022-07/transition-2022-letter-july-2022.pdf" target="_blank">Transition Letter July 2022</a></li>
+                    <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li></li>    
                     <li><a href="/assets/letters/2022-05/transition-2022-letter-may-2022.pdf" target="_blank">Transition Letter May 2022</a></li>
                     <li><a href="/assets/letters/2022-03/transition-2022-letter-march-2022.pdf" target="_blank">Transition Letter March 2022</a></li></li>    
                 </ul>
@@ -122,7 +109,7 @@
 
                 <a class="expand button radius success" href="https://forms.office.com/r/5SMgXBsH8p" target="_blank">Acceptance Form</a>
                 <a class="expand button radius success" href="https://forms.office.com/Pages/ResponsePage.aspx?id=2W4a34q1NUGg3oPDXQCwSG8tfjMVBL5Io0fe1_DjzhRUMTY5N1RURlNaS1JYSkFWWFRZMERFNUlDNS4u" target="_blank">New Year 7 Summer School Form</a>
-                <a class="expand button radius success" href="http://localhost/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park Information Pack</a>
+                <a class="expand button radius success" href="/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park Information Pack</a>
 
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -269,6 +256,7 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+        	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
                         <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>
                         <li><a href="/assets/letters/2022-06/newsletter-17-06-2022.pdf" target="_blank">Newsletter - 17th June 2022</a></li>
                         <li><a href="/assets/letters/2022-05/newsletter-05-25.pdf" target="_blank">Newsletter - 25th May 2022</a></li>
@@ -485,6 +473,14 @@
                             <p>Tea Rooms at The Coach House</p>
                         </a></div>
                 </li>
+<!-- 
+                <li>
+                    <div class="menu-box"><a href="/waterfront.php">
+                            <img src="images/index/waterfront_logo.png" alt="The Waterfront">
+                            <p>The Waterfront Cafe</p>
+                        </a></div>
+                </li>
+ -->
                 <li>
                     <div class="menu-box"><a href="/pantry.php">
                             <img src="images/index/pantry.png" alt="MUNCH Pantry">

@@ -91,13 +91,61 @@
             <h4>Contact Information</h4>
             <hr>
             <ul class="no-bullet">
-                <li>Telephone: 02392 489 811</li>
+                <li>Telephone: 07734227058</li>
                 <br>
                 <li>Email: <a href="javascript:location='mailto:\x74\x65\x61\x72\x6f\x6f\x6d\x73\x40\x70\x63\x73\x2e\x68\x61\x6e\x74\x73\x2e\x73\x63\x68\x2e\x75\x6b';void 0">Tea Rooms</a></li>
             </ul>
 
         </div>
-        <div class="hide-for-small-only medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/tearooms/afternoon_tea.jpg" alt="Tea Rooms - afternoon tea"></div>
+        
+        
+		                <div class="homepage-slider">
+		                    <!-- Images carousel -->
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/afternoon_tea.jpg" alt="Tea Rooms - afternoon tea">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/image_1.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/image_2.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/image_3.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/cake.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/coffee.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>		                    
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/coffee_art.jpeg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>		                    
+		                    <div>
+		                        <div class="flex-video widescreen border-radius-5">
+                                    <img src="images/tearooms/flowers.jpg" alt="Tea Rooms">                     
+                                </div>
+		                    </div>		                    
+		                </div>
+		                        
+        
+        
+        
     </div><br><br>
 </section>
 
@@ -109,5 +157,21 @@
         <script src="js/vendor/libraries.min.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
         <script src="js/app.min.js"></script>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+            
+        <script type="text/javascript">
+            $(document).ready(function(){
+              $('.homepage-slider').slick({
+                autoplay: true,
+                dots: true,
+                fade: true
+              });
+            });
+        </script>
+        
     </body>
 </html>
