@@ -26,6 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">August 2022<hr>
+                        <li><a href="/assets/letters/2022-08/y8-11-student-review-day-2-september-2022.pdf" target="_blank">Student Review Day</a></li>
+                    </ul>
+                </li>               
+                <li>
         	        <ul class="circle">July 2022<hr>
         	            <li><a href="/assets/letters/2022-07/july-2022-end-of-term-letter.pdf" target="_blank">End of Term and Year Letter 2022</a></li>
         	            <li><a href="/assets/letters/2022-07/transition-2022-letter-july-2022.pdf" target="_blank">Transition Letter July 2022</a></li>
@@ -35,7 +40,8 @@
                         <li><a href="/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome To Park Information Pack 2022-2023</a></li>
                         <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>
                     </ul>
-                </li>        	    <li>
+                </li>        	    
+                <li>
                     <ul class="circle">June 2022<hr>
                         <li><a href="/assets/letters/2022-06/transition-2022-letter-june-2022.pdf" target="_blank">Transition Letter June 2022</a></li>
                         <li><a href="/assets/letters/2022-06/residential-uop-letter-20-06-2022.pdf" target="_blank">Residential UOP Letter - 20th June 2022</a></li>
