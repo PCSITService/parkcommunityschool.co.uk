@@ -27,7 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">August 2022<hr>
-                        <li><a href="/assets/letters/2022-08/y8-11-student-review-day-2-september-2022.pdf" target="_blank">Student Review Day</a></li>
+                        <li><a href="/assets/letters/2022-08/y8-11-student-review-day-2-september-2022.pdf" target="_blank">Year 8-11 Student Review Day</a></li>
                     </ul>
                 </li>               
                 <li>
