@@ -269,7 +269,7 @@
             <li>
                 <a href="/assets/policies/uniform-policy.pdf" target="_blank">
                     <div class="policy-container">
-                        <p>Uniform Policy 2021-22</p>
+                        <p>Uniform Policy</p>
                     </div>
                 </a>
             </li>
