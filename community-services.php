@@ -129,7 +129,7 @@
     <br>
     <div class="row">
             <div class="column text-center">
-                <a href="assets/community/partyleaflet.pdf" target="_blank" class="button success radius">Party Packages PDF</a>
+                <a href="assets/community/partyleaflet.pdf" target="_blank" class="button success radius">Party Packages</a>
             </div>
     </div>
     <br><br>
