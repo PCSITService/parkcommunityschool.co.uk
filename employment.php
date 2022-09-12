@@ -49,7 +49,14 @@
         </span>
       </li>
 
-      
+      <li>
+        <h4>Teacher of Food Technology</h4>  
+        <p><em>Closing Date: Monday 26th September 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/food-technology-jan-2023.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>
