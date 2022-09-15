@@ -26,6 +26,12 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">September 2022<hr>
+                        <li><a href="/assets/letters/2022-09/Year_7_trips_21_22_Sept_2022.pdf" target="_blank">Year 7 Trips 21/22 September 2022</a></li>
+                        <li><a href="/assets/letters/2022-09/Year_11_Period_6_from_Sept_2022.pdf" target="_blank">Year 11 Period 6 from September 2022</a></li>
+                    </ul>
+                </li>   
+        	    <li>
                     <ul class="circle">August 2022<hr>
                         <li><a href="/assets/letters/2022-08/y8-11-student-review-day-2-september-2022.pdf" target="_blank">Year 8-11 Student Review Day</a></li>
                     </ul>
