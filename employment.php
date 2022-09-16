@@ -59,7 +59,7 @@
       </li>
 
        <li>
-        <h4>Welfare Support and Guidance Manager</h4>  
+        <h4>Welfare Support and Guidance Manager (Maternity Cover)</h4>  
         <p><em>Closing Date: Monday 3rd October 2022</em></p>
 
         <span class="subheader">
