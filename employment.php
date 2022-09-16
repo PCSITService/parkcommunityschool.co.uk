@@ -57,6 +57,24 @@
         <a href="assets/recruitment/food-technology-jan-2023.pdf" target="_blank">Position Details</a>
         </span>
       </li>
+
+       <li>
+        <h4>Welfare Support and Guidance Manager</h4>  
+        <p><em>Closing Date: Monday 3rd October 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/wsg-september-2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
+
+      <li>
+        <h4>Teaching Assistant</h4>  
+        <p><em>Closing Date: Monday 3rd October 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/ta-september-2022.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>
