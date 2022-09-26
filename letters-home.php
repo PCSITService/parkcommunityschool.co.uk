@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">September 2022<hr>
+                        <li><a href="/assets/letters/2022-09/newsletter-26.09.2022.pdf" target="_blank">Newsletter 23.09.2022</a></li>
                         <li><a href="/assets/letters/2022-09/Year_7_trips_21_22_Sept_2022.pdf" target="_blank">Year 7 Trips 21/22 September 2022</a></li>
                         <li><a href="/assets/letters/2022-09/Year_11_Period_6_from_Sept_2022.pdf" target="_blank">Year 11 Period 6 from September 2022</a></li>
                     </ul>
