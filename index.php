@@ -82,14 +82,6 @@
 <section class="page-notification">
   <div class="row">
     <div class="columns">
-        <h6><b>Park Community School welcomes you to our Open Evening on Wednesday 28th September 2022 from 6pm to 8pm</b></h6> 
-    </div>
-  </div>
-</section>
-
-<section class="page-notification">
-  <div class="row">
-    <div class="columns">
         <p>The full version of Welcome to Park can be found <a href="https://vimeo.com/658515057" target="_blank" style="color: #474747; text-decoration: underline;">here</a></p> 
     </div>
   </div>
