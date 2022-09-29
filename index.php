@@ -27,6 +27,7 @@
 
                 <div class="row">
                     <div class="columns">
+                        <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
                         <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 - 7 2022</a>
@@ -101,7 +102,19 @@
     <div class="row">
         <div class="columns">
             <br>
-            
+ 
+             <!-- Alumni -->
+            <div id="alumni" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h2 id="modalTitle">Alumni</h2>
+
+                <p>Calling all Ex Park Students!!</p>
+                <p>If you were once a student at Park, we would love to know what you are up to now. Please complete the short form to share your journey since leaving Park. We aim to create a range of case studies of ex-students to share with our current cohort in order to inspire them and to see how amazing Park students are. Please share with anyone who used to attend Park. Be part of Parks Alumni!</p>
+
+                <a class="expand button radius success" href="https://docs.google.com/forms/d/e/1FAIpQLScSzx5TU8ICwjJnmkJdsny6v-hM4N40v1IgKwqWOX6l3YwlxA/viewform?usp=sf_link" target="_blank">Let Us Know Form</a>
+
+                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            </div>
+                       
             <!-- Transition -->
             <div id="transition" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Year 6 Transition Information</h2>
