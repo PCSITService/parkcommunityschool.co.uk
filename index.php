@@ -30,7 +30,7 @@
                         <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
                         <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
-                        <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 - 7 2022</a>
+<!--                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 - 7 2022</a> -->
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>    -->
                     </div>
@@ -132,14 +132,18 @@
             <div id="exam-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">EXAM Information</h2>
 
-                <p>Here are some useful documents for Year 11 exams in 2022</p>
+                <p>Here are some useful documents for Year 11 exams in 2023</p>
                     <ul>
+<!-- 
                     <li><a href="assets/exam/2022-exam-handbook.pdf" target="_blank">2022 Exam Handbook</a></li>    
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
+ -->
                     <li><a href="assets/exam/mock-timetable.pdf" target="_blank">Mock Exam Timetable</a></li>
+<!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
+ -->
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
