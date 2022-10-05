@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">September 2022<hr>
+                        <li><a href="/assets/letters/2022-09/new-york-2023-initial-letter" target="_blank">Year 11 Trip to New York 2023</a></li>
                         <li><a href="/assets/letters/2022-09/barcelona-6-to-10-march-2023.pdf" target="_blank">Year 10 Trip to Barcelona 6-10 March 2023</a></li>
                         <li><a href="/assets/letters/2022-09/newsletter-23-09-2022.pdf" target="_blank">Newsletter - 23 September 2022</a></li>
                         <li><a href="/assets/letters/2022-09/Year_7_trips_21_22_Sept_2022.pdf" target="_blank">Year 7 Trips 21/22 September 2022</a></li>
