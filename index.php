@@ -66,10 +66,20 @@
                 <p>Over the last decade we have planned and constructed our new buildings. The fantastic facilities support students’ learning and enrich their time in school.</p>
                 <p>We have a wonderful theatre, lecture theatre, restaurant, and outdoor areas, including a floodlit STP (synthetic turf pitch) as well as specialist classrooms for a wide range of subjects. Many areas are used by community groups, other organisations and even for children’s parties outside school time. The Watering Hole restaurant serves award-winning school meals, prepared by our chefs and their catering team, all at affordable prices. Breakfast is available to all students for free each morning, thank you Magic Breakfast. Our classrooms include the latest large touch-screen technology. We have invested heavily in computers, laptops, iPads and software to allow students to use a comprehensive range of electronic devices to support their learning. Our learning bases away from the school site allow for the development of enterprise skills, teaching towards construction qualifications and finding out about plants and growing food on our small holding.</p>
                 <p>I hope that the information on this website gives you some idea of our vision and principles, as well as the facilities, and curriculum that we offer to students. It also includes the details of other activities and opportunities such as our print business, construction skills centre and tearoom. Munch and our pantry are initiatives for the wider community. School should be about finding what you love to do, because each of us is different that doesn’t just happen in the classroom; academic learning alongside other activities and lessons helps us to be well-prepared to take the next steps in life. At Park we are proud to be Much More Than Just a School.</p>
-                <table>
-                <tr><td>Christopher Anders</td><td>Ella Capaldi</td></tr>
-                <tr><td><B>Headteacher</B></td><td><B>Head of School</B></td></tr>
-                </table>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="medium-4 columns text-center  team-member-container">
+                            <img src="images/slt/c-anders.jpg" alt="" class="team-member">
+                            <p>Christopher Anders</p>
+                            <p class="subheader">Headteacher</p>
+                        </div>
+                        <div class="medium-4 small-6 columns text-center  team-member-container">
+                            <img src="images/slt/e-capaldi.jpg" alt="" class="team-member">
+                            <p>Ella Capaldi</p>
+                            <p class="subheader">Head of School</p>
+                        </div>
+                    </div>
+                </div>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
             <!-- /HEADTEACHERS WELCOME -->
