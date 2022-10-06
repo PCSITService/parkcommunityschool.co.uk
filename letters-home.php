@@ -27,8 +27,9 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">September 2022<hr>
+                        <li><a href="/assets/letters/2022-09/year_7_parent_evening_13_october_2022.pdf" target="_blank">Year 7 Parents Evening on Thursday 13 October 4.30-7.30pm</a> - <a href="/assets/letters/2022-09/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
+                        <li><a href="/assets/letters/2022-09/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
                         <li><a href="/assets/letters/2022-09/year_7_parent_evening_13_october_2022.pdf" target="_blank">Year 7 Parents Evening on Thursday 13 October 4.30-7.30pm</a></li>
-                        <li><a href="/assets/letters/2022-09/year_11_parent_evening_13_october_2022.pdf" target="_blank">Year 11 Parents Evening on Thursday 13 October 4.30-7.30pm</a></li>
                         <li><a href="/assets/letters/2022-09/new-york-2023-initial-letter.pdf" target="_blank">Year 11 Trip to New York 2-7 April 2023</a></li>
                         <li><a href="/assets/letters/2022-09/barcelona-6-to-10-march-2023.pdf" target="_blank">Year 10 Trip to Barcelona 6-10 March 2023</a></li>
                         <li><a href="/assets/letters/2022-09/newsletter-23-09-2022.pdf" target="_blank">Newsletter - 23 September 2022</a></li>
