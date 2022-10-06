@@ -50,31 +50,14 @@
       </li>
 
       <li>
-        <h4>Teacher of Food Technology</h4>  
-        <p><em>Closing Date: Monday 26th September 2022</em></p>
+        <h4>Theatre & Media Technician</h4>  
+        <p><em>Closing Date: Friday 14th October 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/food-technology-jan-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/theatre-media-technician-2022.pdf" target="_blank">Position Details</a>
         </span>
       </li>
 
-       <li>
-        <h4>Welfare Support and Guidance Manager (Maternity Cover)</h4>  
-        <p><em>Closing Date: Monday 3rd October 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/wsg-september-2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-
-      <li>
-        <h4>Teaching Assistant</h4>  
-        <p><em>Closing Date: Monday 3rd October 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/ta-september-2022.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
         <!--<br><span class="subheader">Please check back later.</span></ul>-->
           
 	      </ul>

@@ -267,6 +267,13 @@
             </li>
 
             <li>
+                <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p> Suspension and Permanent Exclusion</p>
+                    </div>
+                </a>
+            </li>
+            <li>
                 <a href="/assets/policies/uniform-policy.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Uniform Policy</p>
