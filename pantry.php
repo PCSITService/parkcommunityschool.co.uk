@@ -55,19 +55,10 @@
                     <img src="images/pantry/theguinnesspartnership.png" alt="the guinness partnership">
                 </li>
                 <li>
-                    <img src="images/pantry/foodbankpo9.png" alt="foodbank po9">
-                </li>
-                <li>
-                    <img src="images/pantry/connect4summer.png" alt="connect4summer">
-                </li>
-                <li>
                     <img src="images/pantry/hampshirecountycouncil.png" alt="hampshire county council">
                 </li>
                 <li>
                     <img src="images/pantry/havantboroughcouncil.png" alt="havant borough council">
-                </li>
-                <li>
-                    <img src="images/pantry/theswallow.png" alt="the swallow">
                 </li>
                 <li>
                     <img src="images/pantry/fareshare.png" alt="fareshare">
