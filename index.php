@@ -286,6 +286,7 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2022-10/newsletter-07-10-2022.pdf" target="_blank">Newsletter - 7 October 2022</a></li>  
                         <li><a href="/assets/letters/2022-09/newsletter-23-09-2022.pdf" target="_blank">Newsletter - 23 September 2022</a></li>
         	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
                         <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>

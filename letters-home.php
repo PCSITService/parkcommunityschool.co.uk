@@ -26,6 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">October 2022<hr>
+                        <li><a href="/assets/letters/2022-10/newsletter-07-10-2022.pdf" target="_blank">Newsletter - 7 October 2022</a></li>                
+                    </ul>
+                </li>   
+        	    <li>
                     <ul class="circle">September 2022<hr>
                         <li><a href="/assets/letters/2022-09/year_11_parent_evening_13_october_2022.pdf" target="_blank">Year 11 Parents Evening on Thursday 13 October 4.30-7.30pm</a> - <a href="/assets/letters/2022-09/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
                         <li><a href="/assets/letters/2022-09/mock-timetable.pdf" target="_blank">Year 11 Mock Timetable</a></li>
