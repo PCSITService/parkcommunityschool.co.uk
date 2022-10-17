@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">October 2022<hr>
+                        <li><a href="/assets/letters/2022-10/reminder_end_of_oct_2022_half_term_and_return_31_oct_2022.pdf" target="_blank">Reminder - End of Oct 2022 Half Term and Return 31 Oct 2022</a></li>
                         <li><a href="/assets/letters/2022-10/Havant_Federation_of_Schools_2022_statements.pdf" target="_blank">Havant Federation of Schools 2022 statements</a></li>
                         <li><a href="/assets/letters/2022-10/newsletter-07-10-2022.pdf" target="_blank">Newsletter - 7 October 2022</a></li>                
                     </ul>
