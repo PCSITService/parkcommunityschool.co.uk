@@ -39,19 +39,18 @@
         </span>
       </li>-->
 
-
      <li>
-        <h4>Casual Assistant (Community) Weekends</h4>  
-        <p><em>Closing Date: Open</em></p>
+        <h4>Catering Assistant</h4>  
+        <p><em>Closing Date: Monday 31st October 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/casual-assistant-weekends.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/catering-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
 
       <li>
         <h4>Theatre & Media Technician</h4>  
-        <p><em>Closing Date: Friday 14th October 2022</em></p>
+        <p><em>Closing Date: Monday 31st October 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/theatre-media-technician-2022.pdf" target="_blank">Position Details</a>
