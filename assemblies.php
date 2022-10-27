@@ -45,10 +45,10 @@
                     <h5>Spring 2</h5>
                       <a href="assets/assemblies/2023-spring/body-and-mind-spring2.pdf" target="_blank">Body and Mind</a>
 
-                    <h5>Half Term 5</h5>
+                    <h5>Summer 1</h5>
                       <a href="assets/assemblies/2023-spring/relationships-ht5.pdf" target="_blank">Relationships</a>
 
-                    <h5>Half Term 6</h5>
+                    <h5>Summer 2</h5>
                       <a href="assets/assemblies/2023-spring/global-citizen-ht6.pdf" target="_blank">Being a Global Citizen</a>                    
                 </li>
             </ul>
