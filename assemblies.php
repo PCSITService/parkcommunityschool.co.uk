@@ -32,19 +32,24 @@
 
             <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2">
                 <li>
-                    <h4>2021-2022</h4>
+                    <h4>2022-2023</h4>
                     <h5>Autumn 1</h5>
-                      <a href="assets/assemblies/2021-autumn/body-and-mind.pdf" target="_blank">Body and Mind</a>
+                      <a href="assets/assemblies/2022-autumn/body-and-mind-ht1.pdf" target="_blank">Body & Mind</a>
 
                     <h5>Autumn 2</h5>
-                      <a href="assets/assemblies/2021-autumn/being-a-global-citizen.pdf" target="_blank">Relationships</a>
+                      <a href="assets/assemblies/2022-autumn/relationships-and-respect-ht2.pdf" target="_blank">Relationships & Respect</a>
 
                     <h5>Spring 1</h5>
-                      <a href="assets/assemblies/2022-spring/global-citizen.pdf" target="_blank">Being a Global Citizen</a>
+                      <a href="assets/assemblies/2023-spring/global-citizen-spring1.pdf" target="_blank">Being a Global Citizen</a>
 
                     <h5>Spring 2</h5>
-                      <a href="assets/assemblies/2022-spring/body-mind.pdf" target="_blank">Body and Mind</a>
-                    
+                      <a href="assets/assemblies/2023-spring/body-and-mind-spring2.pdf" target="_blank">Body and Mind</a>
+
+                    <h5>Half Term 5</h5>
+                      <a href="assets/assemblies/2023-spring/relationships-ht5.pdf" target="_blank">Relationships</a>
+
+                    <h5>Half Term 6</h5>
+                      <a href="assets/assemblies/2023-spring/global-citizen-ht6.pdf" target="_blank">Being a Global Citizen</a>                    
                 </li>
             </ul>
 
@@ -54,6 +59,10 @@
                     <a href="#panel1d" role="tab" id="panel1d-heading" aria-controls="panel1d">Assemblies 2022</a>
                     <div id="panel1d" class="content" role="tabpanel" aria-labelledby="panel1d-heading">
                         <ul>
+                            <li><a href="assets/assemblies/2021-autumn/body-and-mind.pdf" target="_blank">Body and Mind</a></li>
+                            <li><a href="assets/assemblies/2021-autumn/being-a-global-citizen.pdf" target="_blank">Relationships</a></li>
+                            <li><a href="assets/assemblies/2022-spring/global-citizen.pdf" target="_blank">Being a Global Citizen</a></li>
+                            <li><a href="assets/assemblies/2022-spring/body-mind.pdf" target="_blank">Body and Mind</a></li>
                             <li><a href="assets/assemblies/2022-spring/diversity.pdf" target="_blank">Diversity</a></li>
                             <li><a href="assets/assemblies/2022-spring/social-media.pdf" target="_blank">Dark Side of Social Media</a></li>
                             <li><a href="assets/assemblies/2022-spring/anti-bullying.pdf" target="_blank">Proud to be Park - Anti-bullying</a></li>
