@@ -27,7 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">October 2022<hr>
-                        <li><a href="/assets/letters/2022-10/miss_butler_passing.pdf" target="_blank">Sad news - Miss Butler's passing</a></li>
+                        <li><a href="/assets/letters/2022-10/27_October_2022-Sad_news.pdf" target="_blank">27 October 2022 - Sad news</a></li>
                         <li><a href="/assets/letters/2022-10/link_up_leigh_park_project.pdf" target="_blank">Link Up Leigh Park Project - Year 11</a></li>
                         <li><a href="/assets/letters/2022-10/changes_to_years_7_9_mcq_homework.pdf" target="_blank">Changes to Years 7-9 MCQ homework</a></li>
                         <li><a href="/assets/letters/2022-10/free_school_meal_price_from_31_october_2022.pdf" target="_blank">Free School Meal price from 31 October 2022</a></li>
