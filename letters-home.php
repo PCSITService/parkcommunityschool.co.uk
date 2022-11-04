@@ -26,6 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">November 2022<hr>
+                        <li><a href="/assets/letters/2022-11/newsletter-04-11-2022.pdf" target="_blank">Newsletter - 4 November 2022</a></li>           
+                    </ul>
+                </li>           	
+        	    <li>
                     <ul class="circle">October 2022<hr>
                         <li><a href="/assets/letters/2022-10/27_October_2022-Sad_news.pdf" target="_blank">27 October 2022 - Sad news</a></li>
                         <li><a href="/assets/letters/2022-10/link_up_leigh_park_project.pdf" target="_blank">Link Up Leigh Park Project - Year 11</a></li>
