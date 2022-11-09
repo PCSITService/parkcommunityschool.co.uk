@@ -40,20 +40,20 @@
       </li>-->
 
       <li>
-        <h4> Administrative Assistant (Finance)</h4>  
-        <p><em>Closing Date: Monday, 7th November 2022</em></p>
+        <h4>Nursery Manager</h4>  
+        <p><em>Closing Date: Friday, 11th November 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/administrative-assistant-finance-team.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/nursery-manager.pdf" target="_blank">Position Details</a>
         </span>
       </li>
       <hr> 
       <li>
-        <h4>Theatre & Media Technician</h4>  
-        <p><em>Closing Date: Monday, 31st October 2022</em></p>
+        <h4> Early Years Assistant (Nursery)</h4>  
+        <p><em>Closing Date: Friday, 11th November 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/theatre-media-technician-2022.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
 
