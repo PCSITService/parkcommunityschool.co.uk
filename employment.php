@@ -41,7 +41,7 @@
 
       <li>
         <h4>Nursery Manager</h4>  
-        <p><em>Closing Date: Friday, 11th November 2022</em></p>
+        <p><em>Closing Date: Friday, 18th November 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/nursery-manager.pdf" target="_blank">Position Details</a>
@@ -50,7 +50,7 @@
       <hr> 
       <li>
         <h4> Early Years Assistant (Nursery)</h4>  
-        <p><em>Closing Date: Friday, 11th November 2022</em></p>
+        <p><em>Closing Date: Friday, 18th November 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
