@@ -39,7 +39,8 @@
         </span>
       </li>-->
 
-      <li>
+  <!-- 
+    <li>
         <h4>Nursery Manager</h4>  
         <p><em>Closing Date: Friday, 18th November 2022</em></p>
 
@@ -56,9 +57,9 @@
         <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
         </span>
       </li>
+ -->
 
-        <!--<br><span class="subheader">Please check back later.</span></ul>-->
-          
+        <br><span class="subheader">Please check back later.</span></ul>          
 	      </ul>
 	      <hr>
 	      <br>
