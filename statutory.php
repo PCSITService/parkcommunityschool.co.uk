@@ -45,7 +45,7 @@
                 <li><a href="/pupil-premium.php">Pupil Premium and Catch-up Funding</a></li>
                 <li><a href="/assets/statutory/send-information-report.pdf" target="_blank">SEND Information Report</a></li>
                 <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>
-                <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy Report</a></li>
+                <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy</a></li>
                 <li><a href="" target="_blank">ECT Induction</a></li>
                 <li><a href="/assets/statutory/financial-benchmarking.pdf" target="_blank">Financial Benchmarking</a></li>
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
