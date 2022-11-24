@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">November 2022<hr>
+                        <li><a href="/assets/letters/2022-11/newsletter-18-11-2022.pdf" target="_blank">Newsletter - 18 November 2022</a></li> 
                         <li><a href="/assets/letters/2022-11/newsletter-04-11-2022.pdf" target="_blank">Newsletter - 4 November 2022</a></li>           
                     </ul>
                 </li>           	
