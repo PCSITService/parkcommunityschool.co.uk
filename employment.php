@@ -39,16 +39,17 @@
         </span>
       </li>-->
 
-  <!-- 
+
     <li>
-        <h4>Nursery Manager</h4>  
-        <p><em>Closing Date: Friday, 18th November 2022</em></p>
+        <h4>Teacher of Maths from September 2023</h4>  
+        <p><em>Closing Date: Friday, 2nd December 2022</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/nursery-manager.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/teacher-of-maths.pdf" target="_blank">Position Details</a>
         </span>
       </li>
       <hr> 
+  <!-- 
       <li>
         <h4> Early Years Assistant (Nursery)</h4>  
         <p><em>Closing Date: Friday, 18th November 2022</em></p>
@@ -59,9 +60,9 @@
       </li>
  -->
 
-        <br><span class="subheader">Please check back later.</span></ul>          
+<!--         <br><span class="subheader">Please check back later.</span></ul>  -->         
 	      </ul>
-	      <hr>
+
 	      <br>
 	      <h5 class="text-center"><small>Information about School Direct visit <br><a href="//www.thesolentscitt.co.uk/" target="_blank">www.theSolentSCITT.co.uk</a></small></h5>
 	      <br>
