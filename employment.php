@@ -39,6 +39,15 @@
         </span>
       </li>-->
 
+    <li>
+        <h4> Early Years Assistant (Nursery)</h4>  
+        <p><em>Closing Date: Tuesday, 13th December 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
 
     <li>
         <h4>Teacher of Maths from September 2023</h4>  
@@ -47,18 +56,8 @@
         <span class="subheader">
         <a href="assets/recruitment/teacher-of-maths.pdf" target="_blank">Position Details</a>
         </span>
-      </li>
-      <hr> 
-  <!-- 
-      <li>
-        <h4> Early Years Assistant (Nursery)</h4>  
-        <p><em>Closing Date: Friday, 18th November 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
- -->
+    </li>
+    <hr> 
 
 <!--         <br><span class="subheader">Please check back later.</span></ul>  -->         
 	      </ul>
