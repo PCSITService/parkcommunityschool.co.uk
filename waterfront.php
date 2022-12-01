@@ -29,6 +29,7 @@
 
             <a class="button radius" target="_blank" href="https://goo.gl/maps/bh7zap53ACAYAUZV6">Come Visit Us</a>
             
+            <p>Note: We had a great summer in Southsea and we are closed for the winter but will be back in April 2023.</p>
         </div>
         <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/waterfront/waterfront_logo.png" alt="The Waterfront"></div>
     </div>
