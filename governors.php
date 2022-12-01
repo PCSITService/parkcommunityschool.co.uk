@@ -206,7 +206,7 @@ w
                                 <li>Member of Performance Committee.</li>
                             </ul>
                          <p>
-                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
+                            <li>Pecuniary Interests - to be advised</li>
                           </p>
 
 
@@ -216,12 +216,12 @@ w
             </div>
 
              <div class="medium-4 columns text-center  team-member-container">
-                      <a href="#" data-reveal-id="Governor-cward">
-                        <img src="images/governors/c-ward.jpg" alt="Governor Profile Image" class="team-member">
-                      <p>Ms Cathryn Ward</p>
+                      <a href="#" data-reveal-id="Governor-cemery">
+                        <img src="images/governors/c-emery.jpg" alt="Governor Profile Image" class="team-member">
+                      <p>Mrs Cathryn Emery</p>
                       Governor Details</a>
-                              <div id="Governor-cward" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                <h2 id="modalTitle">Ms Cathryn Ward</h2>
+                              <div id="Governor-cemery" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                                <h2 id="modalTitle">Mrs Cathryn Emery</h2>
                                 <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
                                 <p>Category: CO-OPTED</p>
                                 <p>Committee Membership: </p>
