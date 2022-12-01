@@ -99,7 +99,7 @@ w
 
             <div class="medium-4 columns text-center  team-member-container">
                 <a href="#" data-reveal-id="Governor-10">
-                  <img src="images/slt/c-anders.jpg" alt="C Anders Governor" class="team-member">
+                  <img src="images/governors/c-anders.jpg" alt="C Anders Governor" class="team-member">
                 <p>Mr C Anders</p>
                 Governor Details</a>
                         <div id="Governor-10" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -193,13 +193,13 @@ w
             </div>
 
             <div class="medium-4 columns text-center  team-member-container">
-                <a href="#" data-reveal-id="Governor-cmay">
-                  <img src="images/governors/c-may.jpg" alt="Governor Profile Image" class="team-member">
-                <p>Mr C May</p>
+                <a href="#" data-reveal-id="Governor-tturnernorgate">
+                  <img src="images/governors/t-turner-norgate.jpg" alt="Governor Profile Image" class="team-member">
+                <p>Mr T Turner-Norgate</p>
                 Governor Details</a>
-                        <div id="Governor-cmay" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                        <div id="Governor-tturnernorgate" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                           <h2 id="modalTitle">Mr C May</h2>
-                          <p class="lead">Appointed: 20.05.2017 <br>Term Expires: 21.05.2025</p>
+                          <p class="lead">Appointed: 17.11.2022 <br>Term Expires: 16.11.2026</p>
                           <p>Category: Staff Member</p>
                           <p>Committee Membership: </p>
                             <ul class="circle">
