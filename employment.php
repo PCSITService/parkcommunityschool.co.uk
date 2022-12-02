@@ -49,15 +49,6 @@
     </li>
     <hr> 
 
-    <li>
-        <h4>Teacher of Maths from September 2023</h4>  
-        <p><em>Closing Date: Friday, 2nd December 2022</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher-of-maths.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr> 
 
 <!--         <br><span class="subheader">Please check back later.</span></ul>  -->         
 	      </ul>
