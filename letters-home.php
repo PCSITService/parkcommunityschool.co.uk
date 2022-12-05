@@ -26,6 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
+                    <ul class="circle">December 2022<hr>
+                        <li><a href="/assets/letters/2022-12/newsletter-02-12-2022.pdf" target="_blank">Newsletter - 2 December 2022</a></li>           
+                    </ul>
+                </li>   
+                <li>
                     <ul class="circle">November 2022<hr>
                         <li><a href="/assets/letters/2022-11/newsletter-18-11-2022.pdf" target="_blank">Newsletter - 18 November 2022</a></li> 
                         <li><a href="/assets/letters/2022-11/newsletter-04-11-2022.pdf" target="_blank">Newsletter - 4 November 2022</a></li>           
