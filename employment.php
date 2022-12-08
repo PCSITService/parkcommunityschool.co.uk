@@ -38,13 +38,43 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-
+    
     <li>
-        <h4> Early Years Assistant (Nursery)</h4>  
+        <h4>Exam Invigilators</h4>  
+        <p><em>Closing Date: Tuesday, 31st January 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/exam-invigilators.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
+    
+    <li>
+        <h4>Early Years Assistant (Nursery)</h4>  
         <p><em>Closing Date: Tuesday, 13th December 2022</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/nursery-assistant.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
+        
+    <li>
+        <h4>Cover Supervisor</h4>  
+        <p><em>Closing Date: Monday, 12th December 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/cover-supervisor.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
+    
+    <li>
+        <h4>Teacher of Technology</h4>  
+        <p><em>Closing Date: Monday, 12th December 2022</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/teacher-of-technology.pdf" target="_blank">Position Details</a>
         </span>
     </li>
     <hr> 
