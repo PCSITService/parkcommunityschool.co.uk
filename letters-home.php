@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">December 2022<hr>
+                        <li><a href="/assets/letters/2022-12/newsletter-16-12-2022.pdf" target="_blank">Newsletter - 16 December 2022</a></li>           
                         <li><a href="/assets/letters/2022-12/end-of-term-letter.pdf" target="_blank">End of Term Letter</a></li>
                         <li><a href="/assets/letters/2022-12/year-7-timetable-changes-january-2023.pdf" target="_blank">Year 7 - Timetable Changes January 2023</a></li>
                         <li><a href="/assets/letters/2022-12/humanities-and-art-showcase.pdf" target="_blank">Year 7 - Humanities and Art Showcase</a></li>
