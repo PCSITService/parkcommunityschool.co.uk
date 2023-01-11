@@ -17,4 +17,4 @@ doc/
 Thumbs.db
 
 # ACME
-/.well-known
+#/.well-known
