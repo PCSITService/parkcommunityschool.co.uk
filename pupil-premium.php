@@ -45,15 +45,15 @@
         </div>
 
         <div class="columns">
-          <p>For 2021/2022 the school has received the following amounts to date:</p>
+          <p>For Academic Year 2021/2022, the school received the following amounts:</p>
               <table>
                 <tr>
                   <td>Pupil Premium</td>
-                  <td>£469,383</td>
+                  <td>£472,391</td>
                 </tr>
                 <tr>
                   <td>Service Children</td>
-                  <td>£3,720</td>
+                  <td>£2,828</td>
                 </tr>
                 <tr>
                   <td>Post Looked After Children</td>
