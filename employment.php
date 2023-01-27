@@ -39,6 +39,16 @@
         </span>
       </li>-->
     
+	<li>
+        <h4>IT Technician (Apprenticeship)</h4>  
+        <p><em>Closing Date: Wedneday, 22nd February 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/it-technician-apprenticeship.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
+	
     <li>
         <h4>Teacher of Design & Technology</h4>  
         <p><em>Closing Date: Tuesday, 31st January 2023</em></p>
