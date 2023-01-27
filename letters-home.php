@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
         	    <li>
                     <ul class="circle">January 2023<hr>
+					    <li><a href="/assets/letters/2023-01/newsletter-27-01-2023.pdf" target="_blank">Newsletter - 27 January 2023</a></li>
                         <li><a href="/assets/letters/2023-01/industrial-action-2023-02-01.pdf" target="_blank">Partial School Closure on 1 February 2023</a></li>
                         <li><a href="/assets/letters/2023-01/year-8-parents-evening-12-01-2023.pdf" target="_blank">Year 8 Parents' Evening - 12/01/2023</a></li>
                         <li><a href="/assets/letters/2023-01/year-10-parents-evening-12-01-2023.pdf" target="_blank">Year 10 Parents' Evening - 12/01/2023</a></li> 
