@@ -38,7 +38,7 @@
           <a href="#" class="button radius" data-reveal-id="careers-gatsby">Gatsby Benchmarks</a>
           <!-- MODAL -->
           <div id="careers-gatsby" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <h2 id="modalTitle">Gatsby Benchmarks</h2>
+            <h2 id="careers-31.01.2023.pdfmodalTitle">Gatsby Benchmarks</h2>
             <p>The Gatsby Benchmarks are now used to define the essentials of good career guidance in schools. The seven Gatsby Benchmarks are explained below. Schools are asked to use a compass tool to assess their progress to achieving the seven Gatsby Benchmarks and I am pleased to say Park Community School achieves very highly in each of the sections.</p>
             <ol>
               <li><strong>A STABLE CAREERS PROGRAMME</strong></li>
@@ -65,7 +65,7 @@
           <!-- /MODAL -->
            <a href="/assets/apprenticeship_parent_pack.pdf" class="button radius" target="_blank">Parent and Carer Apprenticeship Pack</a>
            <a href="assets/curriculum/smsc/overview_ceiag.pdf" class="button radius" target="_blank">Overview of CEIAG per year</a>
-           <a href="assets/curriculum/smsc/ceiag-impact.pdf" class="button radius" target="_blank">Intention, Implementation and Impact</a>
+           <a href="assets/curriculum/smsc/careers-31.01.2023.pdf" class="button radius" target="_blank">Intention, Implementation and Impact</a>
         </div>
         <div class="small-6 small-pull-3 medium-pull-0 medium-4 columns">
           <img src="images/careers/logo.png" alt="">
