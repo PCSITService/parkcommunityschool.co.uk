@@ -38,6 +38,16 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+
+    <li>
+        <h4>Teacher of MFL from Easter or September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 21st February 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/teacher-of-mfl.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr> 
     
 	<li>
         <h4>IT Technician (Apprenticeship)</h4>  
@@ -48,18 +58,6 @@
         </span>
     </li>
     <hr> 
-	
-    <li>
-        <h4>Teacher of Design & Technology</h4>  
-        <p><em>Closing Date: Tuesday, 31st January 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher_of_design_and_technology.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr> 
-    
-
 
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
