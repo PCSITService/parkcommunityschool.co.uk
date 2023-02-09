@@ -80,10 +80,10 @@
 			    </ul>
 			  </li>
 			  <li>
-			    <ul style="line-height: 2;">Forms | <small>DOC Files</small>
-			      <li><a href="assets/recruitment/documentation/equalities-form.odt" target="_blank" download>Equalities Form</a></li>
-			      <li><a href="assets/recruitment/documentation/teaching-application-form.odt" target="_blank" download>Teaching Application Form</a></li>
-			      <li><a href="assets/recruitment/documentation/support-application-form.odt" target="_blank" download>Support Application Form</a></li>
+			    <ul style="line-height: 2;">Forms | <small>DOCX Files</small>
+			      <li><a href="assets/recruitment/documentation/Hampshire-Schools-Equalities-Monitoring-Form-2022.docx" target="_blank" download>Equalities Form</a></li>
+			      <li><a href="assets/recruitment/documentation/teaching-application-form-2021.docx" target="_blank" download>Teaching Application Form</a></li>
+			      <li><a href="assets/recruitment/documentation/support-staff-application-form-2021.docx" target="_blank" download>Support Application Form</a></li>
 			    </ul>
 			  </li>
 			</ul>
