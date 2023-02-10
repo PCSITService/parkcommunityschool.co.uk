@@ -153,7 +153,7 @@
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
-                    <li><a href="assets/exam/mock-timetable.pdf" target="_blank">Mock Exam Timetable</a></li>
+                    <li><a href="assets/exam/summer-2023-exam-timetable.pdf" target="_blank">Summer 2023 Exam Timetable</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
