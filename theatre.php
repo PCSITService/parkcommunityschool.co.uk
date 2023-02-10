@@ -158,7 +158,7 @@
                 <li>2x 1.2Kw Follow Spots</li>
                 <li>2x UV Cannons</li>
                 <li>Mirror Ball with LED spots (RGBW)</li>
-                <li>Zero88 Solution 48/96 desk</li>
+                <li>Chamsys QuickQ 30 Lighting Desk</li>
                 <li>96 Direct patch circuits on the grid and at floor level</li>
                 <li>Extensive colour stock</li>
                 <li>Selection of common GOBOs</li>
@@ -174,7 +174,7 @@
                 <li>Allen & Heath GLD80 digital mixing desk</li>
                 <li>2x Numark MP103 CD players</li>
                 <li>17” iMac with Qlab lite</li>
-                <li>12x Sennheiser EW100 G4 personal radio mics*</li>
+                <li>10x Sennheiser EW100 G4 personal radio mics*</li>
                 <li>4x Sure SM57 hand held radio mics*</li>
                 <li>8x Choir mics (permanently over the stage)</li>
                 <li>Selection of dynamic microphones</li>
