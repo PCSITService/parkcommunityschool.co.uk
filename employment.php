@@ -58,7 +58,27 @@
         </span>
     </li>
     <hr> 
+	
+	<li>
+        <h4>Play Leader for Connect4Families and Connect4Youth Holiday Activity Programme</h4>  
+        <p><em>Closing Date: Friday, 3rd March 2023</em></p>
 
+        <span class="subheader">
+        <a href="assets/recruitment/play-leader-school-holidays-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+
+	<li>
+        <h4>Play Workers for Connect4Families and Connect4Youth Holiday Activity Programme</h4>  
+        <p><em>Closing Date: Friday, 3rd March 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/play-worker-school-holidays-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+	
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
