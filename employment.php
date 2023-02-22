@@ -39,15 +39,6 @@
         </span>
       </li>-->
 
-    <li>
-        <h4>Teacher of MFL from Easter or September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 21st February 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher-of-mfl.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr> 
     
 	<li>
         <h4>IT Technician (Apprenticeship)</h4>  
