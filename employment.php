@@ -40,18 +40,7 @@
       </li>-->
 
     
-	<li>
-        <h4>IT Technician (Apprenticeship)</h4>  
-        <p><em>Closing Date: Wedneday, 22nd February 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/it-technician-apprenticeship.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr> 
-	
-	<li>
-        <h4>Play Leader for Connect4Families and Connect4Youth Holiday Activity Programme</h4>  
+	        <h4>Play Leader for Connect4Families and Connect4Youth Holiday Activity Programme</h4>  
         <p><em>Closing Date: Friday, 3rd March 2023</em></p>
 
         <span class="subheader">
