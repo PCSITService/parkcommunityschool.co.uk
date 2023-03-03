@@ -30,7 +30,7 @@
                         <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
                         <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
-<!--                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 - 7 2022</a> -->
+<!--                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2023</a> -->
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>    -->
                     </div>

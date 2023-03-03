@@ -28,8 +28,8 @@
 					<br>
 					<div class="row small-text-center medium-text-left">
 						<div class="columns">
-							<a class="button radius" href="#payable-trips">Payable Trips</a>
-							<a class="button radius" href="#non-payable-trips">Non-Payable Trips</a>
+							<a class="button radius" href="#payable-trips">Residential Trips</a>
+							<a class="button radius" href="#non-payable-trips">Non-Residential Trips</a>
 							<!-- <a class="button radius" href="#past-trips">Past Trips</a> -->
 							<a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a>
 						</div>
@@ -41,6 +41,11 @@
 					    <div><img src="images/trips/newyork.jpg" alt=""></div>
 					    <div><img src="images/trips/kewgardens.jpg" alt=""></div>
 					    <div><img src="images/trips/tanzania.jpg" alt=""></div>
+					    <div><img src="images/trips/disney1.jpg" alt=""></div>
+					    <div><img src="images/trips/farm1.jpg" alt=""></div>
+					    <div><img src="images/trips/winchester1.jpg" alt=""></div>
+					    <div><img src="images/trips/nyc1.jpg" alt=""></div>
+					    <div><img src="images/trips/nyc2.jpg" alt=""></div>
 					</div>
 
 				</div>
