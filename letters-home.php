@@ -28,8 +28,8 @@
         	    <li>
                    <ul class="circle">March 2023<hr>
                         <li><a href="/assets/letters/2023-03/newsletter-06-03-2023.pdf" target="_blank">Newsletter - 6th March 2023</a></li>            
-       
                     </ul>
+                </li>
                 </li>					
                     <ul class="circle">February 2023<hr>
                         <li><a href="/assets/letters/2023-02/industrial-action-02-03-2023.pdf" target="_blank">Partial School Closure on 2 March 2023</a></li>
