@@ -39,16 +39,16 @@
         </span>
       </li>-->
 
-<!--	<li>
-        <h4>Play Workers for Connect4Families and Connect4Youth Holiday Activity Programme</h4>  
-        <p><em>Closing Date: Friday, 3rd March 2023</em></p>
+	<li>
+        <h4>Apprentice at Park Design and Print</h4>  
+        <p><em>Closing Date: Monday, 17th April 2023</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/play-worker-school-holidays-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/apprenticeship-pdp.pdf" target="_blank">Position Details</a>
         </span>
     </li>
     <hr>
--->	
+	
 	
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
