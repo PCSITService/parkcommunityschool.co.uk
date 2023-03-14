@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="columns">
 
-                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a>
+<!--                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
                         <a class="small button radius warning" href="assets/curriculum/options_booklet.pdf" target="_blank">GCSE Courses (2023-2024)</a>
                         <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>   
                     </div>
