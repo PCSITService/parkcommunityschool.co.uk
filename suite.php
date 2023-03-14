@@ -201,7 +201,7 @@
             <ul class="no-bullet">
                 <li>Telephone: 02392 489 810</li>
                 <br>
-                <li>Email: <a href="javascript:location='mailto:\u0054\u0068\u0065\u0053\u0075\u0069\u0074\u0065\u0040\u0070\u0063\u0073\u002e\u0068\u0061\u006e\u0074\u0073\u002e\u0073\u0063\u0068\u002e\u0075\u006b';void 0">The Suite</a></li>
+                <li>Email: bookings@pcs.hants.sch.uk</li>
             </ul>
 
         </div>
