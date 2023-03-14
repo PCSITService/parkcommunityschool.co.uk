@@ -438,7 +438,7 @@
                         </li>
 
                         <li>
-                          <a href="//https://www.scopay.com/login/" target="_blank">
+                           <a href="https://www.scopay.com/login" target="_blank">
                               <img class="fixed-size-100" src="/images/logo/tucasi.png" alt="SCOPay Online Payments">
                               <p>SCOPay</p>
                           </a>
