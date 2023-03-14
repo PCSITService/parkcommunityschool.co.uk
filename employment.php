@@ -38,7 +38,16 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+	<li>
+        <h4>Teacher of Science - from September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
 
+        <span class="subheader">
+        <a href="assets/recruitment/teacher-of-science.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+    
 	<li>
         <h4>Apprentice at Park Design and Print</h4>  
         <p><em>Closing Date: Monday, 17th April 2023</em></p>
