@@ -165,7 +165,6 @@
             <div id="covid-parent" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Parent - Learning</h2>
                 <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
-                <a class="button radius success" href="//insight.pcs.hants.sch.uk:444">INSIGHT</a>
                 <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
                 <a class="button radius success" href="//pcs-hantssls.eplatform.co/">ePlatform <small>(eBooks)</small></a>
                 
@@ -188,7 +187,7 @@
                 <p>All learning is there ready for students.</p>
                 <p>Teachers will:</p>
                 <ul>
-                    <li>Set work via Insight and Teams each week. Parents can see this using INSIGHT</li>
+                    <li>Set work via Classcharts and Google Classroom. Parents can see this by Google Classroom Guardians and Classcharts</li>
                     <li>Email students via Teams every lesson to support with learning and give feedback</li>
                     <li>Run Live lessons once every week for Years 7, 8 and 9 and every lesson for Years 10 and 11</li>
                     <li>Give feedback on their work via Teams</li>
@@ -209,10 +208,8 @@
 
                 <p>IT Support</p>
                 <ul>
-                	<li><a href="https://insight.pcs.hants.sch.uk:444/" target="_blank">Insight for Parents</a></li>
                 	<li><a href="assets/login-help.pdf">Need help logging in?</a></li>
                     <li><a href="https://vimeo.com/499187398">How to access Teams <small>(Video)</small></a></li>
-                    <li><a href="//vimeo.com/463321464" target="_blank">Accessing INSIGHT</a></li>
                     <li><a href="assets/office_install.pdf" target="_blank">Downloading Microsoft Teams</a></li>
                     <li><a href="assets/letters/2021-01/accessing-online-learning.pdf">Access Office365 using Playstation or Xbox</a></li>
                     <br>
@@ -228,7 +225,6 @@
             <div id="covid-student" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Student - Learning</h2>
                 <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
-                <a class="button radius success" href="//insight.pcs.hants.sch.uk:444">INSIGHT</a>
                 <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
                 <a class="button radius success" href="//pcs-hantssls.eplatform.co/">ePlatform <small>(eBooks)</small></a>
 
@@ -246,7 +242,7 @@
                 <p><strong>During Lockdown</strong></p>
                 <p>All of your learning is there ready for you. Teachers will:</p>
                 <ul>
-                    <li>Set your work via Insight and Teams each week</li>
+                    <li>Set your work via Classcharts and Google Classroom</li>
                     <li>Email you via Teams every lesson to supoprt with your learning and give feedback</li>
                     <li>Run Live lessons once every week for Years 7, 8 and 9 and every lesson for Years 10 and 11</li>
                     <li>Give you feedback on your work via Teams</li>
@@ -259,7 +255,6 @@
                     <br>
                     <li><a href="assets/login-help.pdf">Need help logging in?</a></li>
                     <li><a href="https://vimeo.com/499187398">How to access Teams <small>(Video)</small></a></li>
-                    <li><a href="//vimeo.com/463321464" target="_blank">Accessing INSIGHT</a></li>
                     <li><a href="assets/login-help.pdf" target="_blank">Office365 Help logging in</a></li>
                     <li><a href="assets/office_install.pdf" target="_blank">Downloading Microsoft Teams</a></li>
                     <li><a href="assets/letters/2021-01/accessing-online-learning.pdf">Access Office365 using Playstation or Xbox</a></li>
@@ -443,7 +438,7 @@
                         </li>
 
                         <li>
-                          <a href="//insight.pcs.hants.sch.uk:444/" target="_blank">
+                          <a href="//https://www.scopay.com/login/" target="_blank">
                               <img class="fixed-size-100" src="/images/logo/tucasi.png" alt="SCOPay Online Payments">
                               <p>SCOPay</p>
                           </a>
