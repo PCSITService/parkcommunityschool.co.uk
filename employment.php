@@ -38,6 +38,27 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+
+	<li>
+        <h4>Assistant Headteacher (SENDCo) - from September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/assistant-head-teacher-senco.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+          
+	<li>
+        <h4>Teacher of Design & Technology - from September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/teacher_of_design_and_technology.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+    
 	<li>
         <h4>Teacher of Science - from September 2023</h4>  
         <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
