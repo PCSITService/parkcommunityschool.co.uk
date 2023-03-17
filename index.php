@@ -596,6 +596,7 @@
 <!-- OTHER COMPANIES -->
             <ul class="text-center medium-block-grid-3 small-block-grid-3">
                 <h4>Facilitating Other Organisations</h4>
+<!-- 
                 <li>
                     <div class="menu-box">
                         <a href="/nursery.php">
@@ -604,6 +605,7 @@
                         </a>
                     </div>
                 </li>
+ -->
                 <li>
                     <div class="menu-box">
                         <a href="//theflashonair.co.uk/" target="_blank">
