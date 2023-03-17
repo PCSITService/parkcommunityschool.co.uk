@@ -47,7 +47,7 @@
                 <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>
                 <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy</a></li>
                 <li><a href="" target="_blank">ECT Induction</a></li>
-                <li><a href="/assets/statutory/financial-benchmarking.pdf" target="_blank">Financial Benchmarking</a></li>
+                <li><a href="https://schools-financial-benchmarking.service.gov.uk/school?urn=116473" target="_blank">Financial Benchmarking</a></li>
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
                 <li><a href="/summer-school.php" target="_blank">Summer School</a></li>
 
