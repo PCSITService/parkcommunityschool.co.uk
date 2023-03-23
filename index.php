@@ -501,11 +501,19 @@
                         </a></div>
                 </li>
                 <li>
+                    <div class="menu-box"><a href="/http://havant-plaza-cafe.php">
+                            <img src="images/index/park-at-the-plaza.png" alt="Park at the Plaza">
+                            <p>Tea Rooms at The Coach House</p>
+                        </a></div>
+                </li>
+<!-- 
+                <li>
                     <div class="menu-box"><a href="/waterfront.php">
                             <img src="images/index/waterfront_logo.png" alt="The Waterfront">
                             <p>The Waterfront Café</p>
                         </a></div>
                 </li>
+ -->
                 <li>
                     <div class="menu-box"><a href="/havant-plaza-cafe.php">
                             
