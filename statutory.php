@@ -34,27 +34,20 @@
                 <li><a href="/assets/statutory/complaints_procedure.pdf" target="_blank">Complaints Procedure</a></li>
                 <li><a href="/contact.php">Contact Details</a></li>
                 <li><a href="/curriculum.php">Curriculum</a></li>
+                <li><a href="" target="_blank">ECT Induction</a></li>
                 <li><a href="/assets/statutory/ethos-values.pdf" target="_blank">Ethos and Values</a></li>
                 <li><a href="/assets/statutory/equality-statement.pdf" target="_blank">Equality Statement</a></li>
+                <li><a href="https://schools-financial-benchmarking.service.gov.uk/school?urn=116473" target="_blank">Financial Benchmarking</a></li>
                 <li><a href="/assets/statutory/ks4-results.pdf" target="_blank">Key Stage 4 Results</a></li>
                 <li><a href="/assets/statutory/leaver-destinations.pdf" target="_blank">Leaver Destinations</a></li>
                 <li><a href="/ofsted-reports.php">Ofsted Reports 2022</a></li>
-<!--                 <li><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank">Ofsted Report 2-3 March 2022</a></li> -->
                 <li><a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank">Performance Tables</a></li>
-<!--                 <li><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank">Ofsted Report 5 May 2022</a></li> -->
                 <li><a href="/pupil-premium.php">Pupil Premium and Catch-up Funding</a></li>
-                <li><a href="/assets/statutory/send-information-report.pdf" target="_blank">SEND Information Report</a></li>
-                <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>
-                <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy</a></li>
-                <li><a href="" target="_blank">ECT Induction</a></li>
-                <li><a href="https://schools-financial-benchmarking.service.gov.uk/school?urn=116473" target="_blank">Financial Benchmarking</a></li>
+                <li><a href="/assets/statutory/send-information-report.pdf" target="_blank">SEND Information Report</a></li>                
+                <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy</a></li>        
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
                 <li><a href="/summer-school.php" target="_blank">Summer School</a></li>
-
-
-                
-                
-                
+                <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>          
             </ul>
             <br>
             <h5 class="subheader text-capitalize text-center"><small>Policies are available in downloadable PDF format <br>our <a href="/policies.php">Policies page</a></small></h5>
