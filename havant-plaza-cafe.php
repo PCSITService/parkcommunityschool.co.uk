@@ -27,10 +27,9 @@
             <br>
             <p>We are pleased to work in partnership with Havant Borough Council to re-open The Plaza Café in December 2022. There is synergy between us to provide a great experience for years to come.</p>
             <p>We offer a range of hot and cold drinks, fresh cakes made by chefs at Park Community School, a selection of hot and cold lunches, and afternoon treats. We use a range of local suppliers including Sunday Coffee Roasters, Northney Farm and Tuppeny Barn organic produce.</p>
-            <p>The menu will adapt as we learn customers requirements and as the seasons change.</p>
-            
-            
+            <p>The menu will adapt as we learn customers requirements and as the seasons change.</p>                    
         </div>
+        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/havant-plaza-cafe/park-at-the-plaza.png" alt="Park at the Plaza"></div>
 
     </div>
     <br><br><br>

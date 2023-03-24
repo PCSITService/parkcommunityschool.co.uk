@@ -501,9 +501,9 @@
                         </a></div>
                 </li>
                 <li>
-                    <div class="menu-box"><a href="/http://havant-plaza-cafe.php">
+                    <div class="menu-box"><a href="/havant-plaza-cafe.php">
                             <img src="images/index/park-at-the-plaza.png" alt="Park at the Plaza">
-                            <p>Tea Rooms at The Coach House</p>
+                            <p>The Havant Plaza Café</p>
                         </a></div>
                 </li>
 <!-- 
@@ -514,12 +514,7 @@
                         </a></div>
                 </li>
  -->
-                <li>
-                    <div class="menu-box"><a href="/havant-plaza-cafe.php">
-                            
-                            <p>The Havant Plaza Café</p>
-                        </a></div>
-                </li>
+
                 <li>
                     <div class="menu-box"><a href="/pantry.php">
                             <img src="images/index/pantry.png" alt="MUNCH Pantry">
