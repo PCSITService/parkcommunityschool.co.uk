@@ -40,6 +40,16 @@
       </li>-->
 
 	<li>
+        <h4>Teacher of Maths - from September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/teacher-of-maths.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+    
+    <li>
         <h4>Assistant Headteacher (SENDCo) - from September 2023</h4>  
         <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
 
