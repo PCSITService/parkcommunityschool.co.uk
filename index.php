@@ -698,5 +698,5 @@
 ╚══`.¸.´  `.¸.´  `.¸.´  `.¸.´  `.¸.´  `.¸.´   
 
 
-Website by Steven Smith - https://networkingdream.com
+
 -->
