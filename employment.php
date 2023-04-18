@@ -46,69 +46,7 @@
         <a href="assets/recruitment/2023-03/theatre-media-technician-2023.pdf" target="_blank">Position Details</a>
         </span>
     </li>
-    <hr>    
-
-  <li>
-        <h4>Teacher of MFL - from September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-03/teacher-of-mfl-september2023.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-
-
-	<li>
-        <h4>Teacher of Maths - from September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher-of-maths.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-    
-    <li>
-        <h4>Assistant Headteacher (SENDCo) - from September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/assistant-head-teacher-senco.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-          
-	<li>
-        <h4>Teacher of Design & Technology - from September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher_of_design_and_technology.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-    
-	<li>
-        <h4>Teacher of Science - from September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 18 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/teacher-of-science.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-    
-	<li>
-        <h4>Apprentice at Park Design and Print</h4>  
-        <p><em>Closing Date: Monday, 17th April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/apprenticeship-pdp.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-	
+    <hr>    	
 	
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
