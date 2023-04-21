@@ -25,6 +25,11 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
+                 <li>
+                   <ul class="circle">April 2023<hr>
+                        <li><a href="/assets/letters/2023-04/industrial-action-letter-april-may-2023.pdf" target="_blank">Partial School Closures on 27th April and 2nd May 2023</a></li>            
+                    </ul>
+                </li>
         	    <li>
                    <ul class="circle">March 2023<hr>
                         <li><a href="/assets/letters/2023-03/end-of-term-letter-march-2023.pdf" target="_blank">End of Term Letter - March 2023</a></li>
