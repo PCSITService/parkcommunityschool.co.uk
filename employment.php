@@ -38,6 +38,15 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+    <li>
+        <h4>Theatre & Media Technician</h4>  
+        <p><em>Closing Date: Tuesday, 25 April 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-03/theatre-media-technician-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>      
   <li>
         <h4>WSG Manager</h4>  
         <p><em>Closing Date: Tuesday, 2nd May 2023</em></p>
@@ -46,17 +55,52 @@
         <a href="assets/recruitment/2023-04/wsg-manager-april-2023.pdf" target="_blank">Position Details</a>
         </span>
     </li>
-    <hr>   
+    <hr>
   <li>
-        <h4>Theatre & Media Technician</h4>  
-        <p><em>Closing Date: Tuesday, 25 April 2023</em></p>
+        <h4>Teacher of Maths - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2023-03/theatre-media-technician-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2023-04/teacher-of-maths-april-2023.pdf" target="_blank">Position Details</a>
         </span>
     </li>
-    <hr>    	
-	
+    <hr>
+  <li>
+        <h4>Teacher of Science - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-04/teacher-of-science-april-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+  <li>
+        <h4>Teacher of MFL - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-04/teacher-of-designtechnology-april-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+  <li>
+        <h4>Teacher of Design & Technology - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-04/teacher-of-mfl-april-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
+  <li>
+        <h4>Teaching Assistant</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-04/teaching-assistant-april-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
