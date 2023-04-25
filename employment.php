@@ -37,16 +37,7 @@
         <span class="subheader">
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
-      </li>-->
-    <li>
-        <h4>Theatre & Media Technician</h4>  
-        <p><em>Closing Date: Tuesday, 25 April 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-03/theatre-media-technician-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>      
+      </li>--> 
   <li>
         <h4>WSG Manager</h4>  
         <p><em>Closing Date: Tuesday, 2nd May 2023</em></p>
