@@ -110,6 +110,15 @@
         </span>
     </li>
     <hr>
+  <li>
+        <h4>Catering Assistant</h4>  
+        <p><em>Closing Date: Tuesday, 9th May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-04/catering-assistant-april-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
