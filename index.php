@@ -146,7 +146,7 @@
                 <p>Here are some useful documents for Year 11 exams in 2023</p>
                     <ul>
  
-                    <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022/2023 Exam Handbook</a></li>    
+                    <li><a href="assets/exam/2023-05/2023-exam-handbook.pdf" target="_blank">2023 Exam Handbook</a></li>    
 <!--
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
