@@ -152,6 +152,7 @@
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
                     <li><a href="assets/exam/summer-2023-exam-timetable.pdf" target="_blank">Summer 2023 Exam Timetable</a></li>
+                    <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
