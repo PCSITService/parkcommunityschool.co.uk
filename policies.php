@@ -114,9 +114,9 @@
             </li>
 
             <li>
-                <a href="/assets/statutory/complaints_procedure.pdf" target="_blank">
+                <a href="/assets/policies/2023-05/complaints-policy-and-procedure-april-2023.pdf" target="_blank">
                     <div class="policy-container">
-                        <p>Complaints Procedure</p>
+                        <p>Complaints Policy and Procedure</p>
                     </div>
                 </a>
             </li>
@@ -285,6 +285,13 @@
                 <a href="/assets/policies/volunteering.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Volunteering</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/assets/policies/2023-05/work-experience-march-2023.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Work Experience Policy</p>
                     </div>
                 </a>
             </li>
