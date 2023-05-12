@@ -27,7 +27,8 @@
         	<ul class="small-block-grid-1">
                 <li>
                    <ul class="circle">May 2023<hr>
-                        <li><a href="/assets/letters/2023-05/student-summeruniform-may-2023.pdf" target="_blank">3rd May - Summer Term Uniform</a></li>            
+                        <li><a href="/assets/letters/2023-05/year-11-exams-letter-may-2023.pdf" target="_blank">Year 11 Exams Letter</a></li>
+                        <li><a href="/assets/letters/2023-05/student-summeruniform-may-2023.pdf" target="_blank">3rd May - Summer Term Uniform</a></li>           
                     </ul>
                 </li>
                  <li>
