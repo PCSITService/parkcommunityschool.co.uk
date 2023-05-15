@@ -57,6 +57,15 @@
         </span>
     </li>
     <hr>
+    <li>
+        <h4>Primary Teacher / Learning Support Teacher - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 23rd May 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-05/primary-teacher-learning-support-teacher-may-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    </li>
+    <hr>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
