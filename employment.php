@@ -40,6 +40,30 @@
       </li>--> 
     <hr>
     <li>
+        <h4>Teacher of English and Drama - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-05/english-drama-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    <hr>
+    <li>
+        <h4>Teacher of Maths - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-05/teacher-of-maths-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    <hr>
+    <li>
+        <h4>Teacher of Science - September 2023</h4>  
+        <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-05/teacher-of-science-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    <hr>
+    <li>
         <h4>Play Leader - Connect4Families & Connect4Youth</h4>  
         <p><em>Closing Date: Thursday, 18th May 2023</em></p>
 
