@@ -28,7 +28,7 @@
             <ul class="circle">
                 <li><a href="/assets/timetabling/school-calendar.pdf" target="_blank">Important Dates - <br>School Calendar</a></li>
                 <br>
-                <li><a href="/assets/timetabling/2023-04/shape-of-school-day-2022-2023.pdf" target="_blank">The School Day - <br>Shape of the Day</a></li>
+                <li><a href="/assets/timetabling/2023-05/shape-of-the-day-2022-2023-april-2023.pdf" target="_blank">The School Day - <br>Shape of the Day 2022 - 2023</a></li>
                 
             </ul>
             <h5 class="subheader text-capitalize text-center"><small>Available in downloadable and printable PDF format.</small></h5>
