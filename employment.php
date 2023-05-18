@@ -64,24 +64,6 @@
         </span>
     <hr>
     <li>
-        <h4>Play Leader - Connect4Families & Connect4Youth</h4>  
-        <p><em>Closing Date: Thursday, 18th May 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-05/play-leader-may-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-    <li>
-        <h4>Casual Community Theatre Technician</h4>  
-        <p><em>Closing Date: Thursday, 18th May 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-05/casual-community-theatre-technician-may-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
-    <li>
         <h4>Primary Teacher / Learning Support Teacher - September 2023</h4>  
         <p><em>Closing Date: Tuesday, 23rd May 2023</em></p>
 
