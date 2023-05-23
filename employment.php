@@ -40,38 +40,12 @@
       </li>--> 
     <hr>
     <li>
-        <h4>Teacher of English and Drama - September 2023</h4>  
+<!--       <h4>Teacher of English and Drama - September 2023</h4>  
         <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/2023-05/english-drama-sept-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    <hr>
-    <li>
-        <h4>Teacher of Maths - September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-05/teacher-of-maths-sept-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    <hr>
-    <li>
-        <h4>Teacher of Science - September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 23rd May 20233</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-05/teacher-of-science-sept-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    <hr>
-    <li>
-        <h4>Primary Teacher / Learning Support Teacher - September 2023</h4>  
-        <p><em>Closing Date: Tuesday, 23rd May 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-05/primary-teacher-learning-support-teacher-may-2023.pdf" target="_blank">Position Details</a>
-        </span>
-    </li>
-    <hr>
+        </span> -->
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
