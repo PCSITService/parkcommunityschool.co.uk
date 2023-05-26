@@ -27,6 +27,7 @@
         	<ul class="small-block-grid-1">
                 <li>
                    <ul class="circle">May 2023<hr>
+                        <li><a href="/assets/letters/2023-05/independent-revision-homework-period-6-after-half-term.pdf" target="_blank">Year 10 - Independent revision, homework and Period 6 After half term</a></li>
                         <li><a href="/assets/letters/2023-05/year-11-may-half-term-2023-revision-sessions.pdf" target="_blank">May Half Term Year 11 Revision Sessions</a></li>
                         <li><a href="/assets/letters/2023-05/year-11-exams-letter-may-2023.pdf" target="_blank">Year 11 Exams Letter</a></li>
                         <li><a href="/assets/letters/2023-05/student-summeruniform-may-2023.pdf" target="_blank">3rd May - Summer Term Uniform</a></li>           
