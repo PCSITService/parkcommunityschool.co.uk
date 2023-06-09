@@ -25,7 +25,12 @@
         <br>
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
-                <li>
+                </li>
+                 <li>
+                    <ul class="circle">June 2023<hr>
+                        <li><a href="/assets/letters/2023-06/uniform-reminder-june-2023.pdf" target="_blank">Uniform Reminder - June 2023 </a></li>            
+                    </ul>
+                </li>
                    <ul class="circle">May 2023<hr>
                         <li><a href="/assets/letters/2023-05/free-school-meal-price-from-5-june-2023.pdf" target="_blank">Free School Meals Price Change</a></li>
                         <li><a href="/assets/letters/2023-05/newsletter-26.05.2023.pdf" target="_blank">Newsletter - 26 May 2023</a></li>
