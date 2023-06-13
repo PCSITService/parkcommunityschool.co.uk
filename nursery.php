@@ -9,6 +9,30 @@
 <!-- NAVIGATION -->
 <?php include("includes/topnav.html") ?>
 
+<?php
+function isMobileDevice() {
+    $mobileDevices = array('Android', 'iPhone', 'iPad', 'Windows Phone', 'BlackBerry', 'Mobile');
+    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+
+    foreach ($mobileDevices as $device) {
+        if (stripos($userAgent, $device) !== false) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+if (isMobileDevice()) {
+    // Code to execute for mobile devices
+    echo "This is a mobile device.";
+} else {
+    // Code to execute for non-mobile devices
+    echo "This is not a mobile device.";
+}
+?>
+
+
 <!-- HEADER SECTION -->
 <!DOCTYPE html>
 <html>
