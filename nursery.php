@@ -9,30 +9,6 @@
 <!-- NAVIGATION -->
 <?php include("includes/topnav.html") ?>
 
-<?php
-function isMobileDevice() {
-    $mobileDevices = array('Android', 'iPhone', 'iPad', 'Windows Phone', 'BlackBerry', 'Mobile');
-    $userAgent = $_SERVER['HTTP_USER_AGENT'];
-
-    foreach ($mobileDevices as $device) {
-        if (stripos($userAgent, $device) !== false) {
-            return true;
-        }
-    }
-
-    return false;
-}
-
-if (isMobileDevice()) {
-    // Code to execute for mobile devices
-    echo "This is a mobile device.";
-} else {
-    // Code to execute for non-mobile devices
-    echo "This is not a mobile device.";
-}
-?>
-
-
 <!-- HEADER SECTION -->
 <!DOCTYPE html>
 <html>
@@ -41,6 +17,7 @@ if (isMobileDevice()) {
     <style>
         header {
             display: flex;
+            flex-wrap: wrap;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -56,7 +33,7 @@ if (isMobileDevice()) {
         ?>
     </header>
 <!-- CONTENT -->
-<!--nursery-contents-->
+<!--nursery-contents -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -87,7 +64,7 @@ if (isMobileDevice()) {
         </div>
     </div><br>
 </section>
-
+-->
 <!-- FOOTER -->
 <?php include("includes/footer.html") ?>
 
