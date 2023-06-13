@@ -51,6 +51,11 @@
             <?php
             $imagePath = 'images\nursery\pcn-converted\converted-nurseryinfo-001.jpg';
             echo '<img src="' . $imagePath . '" alt="Image">';
+            ?>
+        </div>
+    <section>
+        <div class="image-container">
+            <?php
              $imagePath = 'images\nursery\pcn-converted\converted-nurseryinfo-002.jpg';
             echo '<img src="' . $imagePath . '" alt="Image">';
             ?>
