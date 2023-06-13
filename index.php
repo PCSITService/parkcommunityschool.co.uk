@@ -602,16 +602,15 @@
 <!-- OTHER COMPANIES -->
             <ul class="text-center medium-block-grid-3 small-block-grid-3">
                 <h4>Facilitating Other Organisations</h4>
-<!-- 
+ 
                 <li>
                     <div class="menu-box">
                         <a href="/nursery.php">
-                            <img src="images/index/nursery-logo.jpg" alt="Springwood Nursery - Much More Than Just a School">
-                            <p>Springwood Park Nursery</p>
+                            <img src="images/index/nursery-logo.jpg" alt="Park Community Nursery - Much More Than Just a School">
+                            <p>Park Community Nursery</p>
                         </a>
                     </div>
                 </li>
- -->
                 <li>
                     <div class="menu-box">
                         <a href="//theflashonair.co.uk/" target="_blank">
