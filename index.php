@@ -45,7 +45,7 @@
                 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams</a>
+                        <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams and Revision</a>
                         <a class="small button radius success" href="assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
@@ -144,7 +144,7 @@
             <div id="exam-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Exam Information</h2>
 
-                <p>Here are some useful documents for Year 11 exams in 2023</p>
+                <p>Here are some useful documents for Year 11 exams and Revision Studies in 2023</p>
                     <ul>
  
                     <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022-2023 Exam Handbook</a></li>    
@@ -154,6 +154,9 @@
  -->
                     <li><a href="assets/exam/summer-2023-exam-timetable.pdf" target="_blank">Summer 2023 Exam Timetable</a></li>
                     <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
+                    <li><a href="assets/revision/2023-06/year-7-revision.pdf" target="_blank">Year 7 Revision</a></li>
+                    <li><a href="assets/revision/2023-06/year-8-revision.pdf" target="_blank">Year 8 Revision</a></li>
+                    <li><a href="assets/revision/2023-06/year-9-revision.pdf" target="_blank">Year 9 Revision</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
