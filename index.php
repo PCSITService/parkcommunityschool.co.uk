@@ -154,6 +154,7 @@
  -->
                     <li><a href="assets/exam/summer-2023-exam-timetable.pdf" target="_blank">Summer 2023 Exam Timetable</a></li>
                     <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
+                    <li><a href="assets/exam/2023-06/year-10-mock-timetable.pdf" target="_blank">Year 10 Mock Exam Timetable</a></li>
                     <li><a href="assets/revision/2023-06/year-7-revision.pdf" target="_blank">Year 7 Revision</a></li>
                     <li><a href="assets/revision/2023-06/year-8-revision.pdf" target="_blank">Year 8 Revision</a></li>
                     <li><a href="assets/revision/2023-06/year-9-revision.pdf" target="_blank">Year 9 Revision</a></li>
