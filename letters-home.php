@@ -28,6 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">June 2023<hr>
+                        <li><a href="/assets/letters/2023-06/ks3-testing-week-wc-26.03.2023.pdf" target="_blank">Year 7 - 9 Tests and Exams</a></li>
                         <li><a href="/assets/letters/2023-06/uniform-reminder-june-2023.pdf" target="_blank">Uniform Reminder - June 2023 </a></li>            
                     </ul>
                 </li>
