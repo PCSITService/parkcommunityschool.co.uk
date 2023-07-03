@@ -28,6 +28,15 @@
                 </li>
                  <li>
                     <ul class="circle">June 2023<hr>
+                        <li><a href="/assets/letters/2023-06/newsletter-30.06.2023.pdf" target="_blank">Newsletter - 30th June 2023</a></li>
+                        <li><a href="/assets/letters/2023-06/industrial-action-letter-july-2023.pdf" target="_blank">Partial School Closures on 5th July and 7th July 2023</a></li>
+                        <li><a href="/assets/letters/2023-06/year-11-leavers-events-29.06.2023.pdf" target="_blank">Year 11 Leavers' Event</a></li>
+                        <li><a href="/assets/letters/2023-06/fresher-week-dates-letter-3.6.2023.pdf" target="_blank">Year 6 Freshers Week amended dates</a></li>
+                        <li><a href="/assets/letters/2023-06/ks3-testing-week-wc-26.03.2023.pdf" target="_blank">Year 7 - 9 Tests and Exams</a></li>
+                        <li><a href="/assets/letters/2023-06/uniform-reminder-june-2023.pdf" target="_blank">Uniform Reminder - June 2023 </a></li>            
+                    </ul>
+                 <li>
+                    <ul class="circle">June 2023<hr>
                         <li><a href="/assets/letters/2023-06/industrial-action-letter-july-2023.pdf" target="_blank">Partial School Closures on 5th July and 7th July 2023</a></li>
                         <li><a href="/assets/letters/2023-06/year-11-leavers-events-29.06.2023.pdf" target="_blank">Year 11 Leavers' Event</a></li>
                         <li><a href="/assets/letters/2023-06/fresher-week-dates-letter-3.6.2023.pdf" target="_blank">Year 6 Freshers Week amended dates</a></li>
