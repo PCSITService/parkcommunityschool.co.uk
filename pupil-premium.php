@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" >
     <head>
 
-        <title>Park Community School | Pupil Premium and Coronavirus Recovery Premium</title>
+        <title>Park Community School | Pupil Premium and Recovery Premium</title>
         <?php include("includes/head.html") ?>
     </head>
 <body class="page-school">
@@ -45,15 +45,15 @@
         </div>
 
         <div class="columns">
-          <p>For Academic Year 2021/2022, the school received the following amounts:</p>
+          <p>For Academic Year 2022/2023, the school received the following amounts:</p>
               <table>
                 <tr>
                   <td>Pupil Premium</td>
-                  <td>£472,391</td>
+                  <td>£502,201</td>
                 </tr>
                 <tr>
                   <td>Service Children</td>
-                  <td>£2,828</td>
+                  <td>£2936</td>
                 </tr>
                 <tr>
                   <td>Post Looked After Children</td>
@@ -232,13 +232,13 @@
 
 			<p>Parent and student feedback demonstrated positive increases regarding confidence and perception of ability alongside willingness to engage in additional learning outside of the classroom.</p>
 
-			<h3>Recovery Premium (2021-2022)</h3>
+			<h3>Recovery Premium (2022-2023)</h3>
 
-            <p>During the academic year 2021/2022, £71,268 will be received as a one-off recovery premium to support education recovery as a result of the COVID pandemic. The school will continue with the interventions put in place using the coronavirus catch-up premium funding.</p>
+            <p>During the academic year 2022/2023, £137,793 to support education recovery as a result of the COVID pandemic. The school will continue with the interventions put in place using the coronavirus catch-up premium funding and this funding will continue for academic year 2023/2024. (£74,723 was received in academic year 2022-2023)</p>
 
-            <h3>School Led Tutoring (2021-2022)</h3>
+            <h3>National Programme (2022-2023)</h3>
 
-            <p>The school has been allocated £59,738 for the academic year 2021/2022 to source tutoring in either small group arrangements or 1 to 1 tuition via the National Tutoring Programme.</p>
+            <p>The school has been allocated £81,648 for the academic year 2022/2023 to source tutoring in either small group arrangements or 1 to 1 tuition via the National Tutoring Programme.</p>
 
     	</div>
     </div>
