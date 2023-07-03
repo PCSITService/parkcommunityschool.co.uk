@@ -13,7 +13,7 @@
 <header class="header-school">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>Pupil Premium and Coronavirus Recovery Premium</h1>
+            <h1>Pupil Premium and Recovery Premium</h1>
             <p class="text-capitalize">How we put the money to good use</p>
         </div>
     </div>
