@@ -28,6 +28,8 @@
                 </li>
                  <li>
                     <ul class="circle">July 2023<hr>
+                        <li><a href="/assets/letters/2023-07/youth-vaping-letter-to-schools-2023-07-18.pdf" target="_blank">Letter from Public Health Hampshire - Dangers of Vaping</a></li>
+                        <li><a href="/assets/letters/2023-07/downloading-sora-ebook-app.pdf" target="_blank">Downloading SORA eBook App</a></li>
                         <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-7.pdf" target="_blank">Park's Summer Reading Challenge - Year 7</a></li>
                         <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-8.pdf" target="_blank">Park's Summer Reading Challenge - Year 8</a></li>
                         <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-9.pdf" target="_blank">Park's Summer Reading Challenge - Year 9</a></li>
