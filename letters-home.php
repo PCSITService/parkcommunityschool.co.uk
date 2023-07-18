@@ -27,6 +27,14 @@
         	<ul class="small-block-grid-1">
                 </li>
                  <li>
+                    <ul class="circle">July 2023<hr>
+                        <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-7.pdf" target="_blank">Park's Summer Reading Challenge - Year 7</a></li>
+                        <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-8.pdf" target="_blank">Park's Summer Reading Challenge - Year 8</a></li>
+                        <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-9.pdf" target="_blank">Park's Summer Reading Challenge - Year 9</a></li>
+                        <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-10.pdf" target="_blank">Park's Summer Reading Challenge - Year 10</a></li>
+                        <li><a href="/assets/letters/2023-07/summer-reading-cannon-challenge-year-11.pdf" target="_blank">Park's Summer Reading Challenge - Year 11</a></li>               
+                    </ul>
+                 <li>
                     <ul class="circle">June 2023<hr>
                         <li><a href="/assets/letters/2023-06/newsletter-30.06.2023.pdf" target="_blank">Newsletter - 30th June 2023</a></li>
                         <li><a href="/assets/letters/2023-06/industrial-action-letter-july-2023.pdf" target="_blank">Partial School Closures on 5th July and 7th July 2023</a></li>
