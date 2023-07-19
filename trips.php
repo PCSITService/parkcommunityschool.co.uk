@@ -23,17 +23,9 @@
 				<br>
 				<div class="medium-7 columns">
 					<h2>Our Trips are Amazing!</h2>
-					<p>All School Trips at Park are planned well in advance, ensuring student safety is at the forefront of our priorities.  Our trips offer the students new experiences and diverse learning opportunities.</p>
-					<p>Our trips can be paid for in advanced online via <a href="//www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or paid for in person.</p>
+					<p>All School Trips at Park are planned well in advance, ensuring student safety is at the forefront of our priorities. Our trips offer the students new experiences and diverse learning opportunities.</p>
+					<p>The easiest way to pay for trips is online at <a href="//www.scopay.com/pcs" target="_blank">SCO Online Payments</a>. Alternatively, payment can be made at reception using card, cash or cheque made payable to Hampshire County Council.</p>
 					<br>
-					<div class="row small-text-center medium-text-left">
-						<div class="columns">
-							<a class="button radius" href="#payable-trips">Residential Trips</a>
-							<a class="button radius" href="#non-payable-trips">Non-Residential Trips</a>
-							<!-- <a class="button radius" href="#past-trips">Past Trips</a> -->
-							<a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a>
-						</div>
-					</div>
 				</div>
 				<div class="medium-5 columns">
 					
