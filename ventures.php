@@ -13,7 +13,7 @@
 <header class="header-misc">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>PC Ventures</h1>
+            <h1>Ventures</h1>
             <p class="text-capitalize">Working together to benefit the community</p>
         </div>
     </div>
