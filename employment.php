@@ -40,6 +40,12 @@
       </li>--> 
     <hr>
     <li>
+      <h4>Nursery Assistant</h4>  
+        <p><em>Closing Date: 27th July 2023 </em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-07/nursery-assistant-july-2023.pdf" target="_blank">Position Details</a>
+        </span>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
