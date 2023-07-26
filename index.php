@@ -494,7 +494,7 @@
             <ul class="text-center medium-block-grid-2 small-block-grid-1">
                 <h4>Going The Extra Mile</h4>
                 <li>
-                    <div class="menu-box"><a href="/connect4summer.php">
+                    <div class="menu-box"><a href="/Connect4Families.php">
                             <img src="images/index/connect4summer.jpg" alt="Connect4Summer">
                             <p>Connect4Families &amp; Connect4Youth</p>
                         </a></div>
