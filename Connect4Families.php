@@ -41,10 +41,12 @@
 		<div class="columns">
 			<h2>What is Connect4Youth?</h2>
 			<p>Summer 2023 we are offering a wide range of activities for 11-16years including trips out. Please see the programme below:</p>
+			<div style="text-align: left;">
+    			<p><a href="/assets/connect4families/2023-07/activities-connect4youth-summer-holidays-2023.pdf" target="_blank">Youth Activity Days 2023</a>
 			<p>Connect4Families and Connect4Youth Activity Book is produced with lots of helpful information to give out to children and parents:
 				<div style="text-align: left;">
-    			<p><a href="/assets/connect4families/2023-07/activities-connect4youth-summer-holidays-2023.pdf" target="_blank">Youth Activity Days 2023</a>
     			<p><a href="/assets/connect4families/2023-07/activities-connect4families-summer-holidays-2023.pdf" target="_blank">Youth Activity Book 2023</a>
+    			<p><a href="/assets/connect4families/2023-07/activity-book-summer-2022.pdf" target="_blank">Youth Activity Book 2022</a>
         		<img src="/assets/connect4families/2023-07/connect4youth-logo.png" alt="Logo" style="float: right; width: 250px; margin-left: 10px; ">
    				</p>
     			<p>Visit the <a href="//connect4.org.uk/" target="_blank">Connect4 website</a> for more information.</p>
