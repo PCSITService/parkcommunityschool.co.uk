@@ -495,8 +495,8 @@
                 <h4>Going The Extra Mile</h4>
                 <li>
                     <div class="menu-box"><a href="/Connect4Families.php">
-                            <img src="images/index/connect4summer.jpg" alt="Connect4Summer">
-                            <p>Connect4Families &amp; Connect4Youth</p>
+                            <img src="assets/connect4families/2023-07/connect4families-logo.png" alt="Connect4Families">
+                            <img src="assets/connect4families/2023-07/connect4youth-logo.png" alt="Connect4Youth">
                         </a></div>
                 </li>
                 <li>
