@@ -614,7 +614,7 @@
                 <li>
                     <div class="menu-box">
                         <a href="/nursery.php">
-                            <img src="images/index/nursery-logo.jpg" alt="Park Community Nursery - Much More Than Just a School">
+                            <img src="images/nursery/pcn-converted/converted-nurserylogo-001.png" alt="Park Community Nursery - Much More Than Just a School">
                             <p>Park Community Nursery</p>
                         </a>
                     </div>
