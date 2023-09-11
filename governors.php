@@ -122,29 +122,6 @@ w
             </div>
 
             <div class="medium-4 columns text-center  team-member-container">
-                <a href="#" data-reveal-id="Governor-11">
-                  <img src="images/governors/j-hughes.jpg" alt="Placeholder Image" class="team-member">
-                <p>Ms J Hughes</p>
-                Governor Details</a>
-                        <div id="Governor-11" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                          <h2 id="modalTitle">Ms J Hughes</h2>
-                          <p class="lead">Appointed: 18.05.2016 <br>Term Expires: 17.05.2024</p>
-                          <p>Category: CO-OPTED</p>
-                          <p>Committee Membership:</p>
-                            <ul class="circle">
-                                <li>Chair of the Performance Committee.</li>
-                            </ul>
-                          <p>
-                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
-                          </p>
-
-
-                          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                        </div>
-
-            </div>
-
-            <div class="medium-4 columns text-center  team-member-container">
                 <a href="#" data-reveal-id="Governor-13">
                   <img src="images/governors/r-cousins.jpg" alt="Placeholder Image" class="team-member">
                 <p>Mr R Cousins</p>
@@ -259,16 +236,16 @@ w
 
             <div class="medium-4 columns text-center team-member-container">
                 <a href="#" data-reveal-id="Governor-01">
-                  <img src="images/governors/f-deeks.jpg" alt="The Chair of Governors" class="team-member">
-                <p>Mr F Deeks</p>
+                  <img src="images/governors/c-miller.jpeg" alt="" class="team-member">
+                <p>Mrs C Miller</p>
                 Governor Details</a>
                         <div id="Governor-01" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                          <h2 id="modalTitle">Mr F Deeks</h2>
-                          <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
-                          <p>Category: Associate</p>
+                          <h2 id="modalTitle">Mrs C Miller</h2>
+                          <p class="lead">Appointed: 05.07.2023 <br>Term Expires: 04.07.2027</p>
+                          <p>Category: Co-Opted</p>
                           <p>Committee Membership:</p>
                             <ul class="circle">
-                                <li>Member of Administration Committee.</li>
+                                <li></li>
                             </ul>
                           <p>
                             <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>

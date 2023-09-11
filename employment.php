@@ -46,6 +46,14 @@
         <span class="subheader">
         <a href="assets/recruitment/2023-09/finance-hr-assitant-sept-2023.pdf" target="_blank">Position Details</a>
         </span>
+    <hr>
+    <li>
+      <h4>Exams Officer and Cover Manager</h4>  
+        <p><em>Closing Date: 18th September 2023 </em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-09/exams-officer-and-cover-manager-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
