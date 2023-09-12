@@ -25,6 +25,22 @@
 			<h2>What is Connect4Families?</h2>
 			<p>Connect4Families is the creation of Park Community School staff, Susan Parish MBE and Jan Lefley MBE. In 2019 and 2020 they delivered for the Department for Education, as part of a pilot with 8 organisations, a programme of enriching activities developed for children and for parents through our Family Fun Days. As a result of the 9 successful pilots all local authorities are now funded to deliver a three-year programme of free holiday activities for disadvantaged children and families.</p>
 			<p>2023 we are delighted to be funded by Hampshire County Council, to provide 16 days of Family Fun Days and 16 days of Connect4Youth in the summer and 4 days for both at Christmas 2022. The programmes have something for everyone.</p>
+			<!DOCTYPE html>
+			<html>
+			<head>
+   				<title></title>
+			</head>
+			<body>
+    			<h1>My Video</h1>
+    			<?php
+    			$videoPath = "assets/connect4families/2023-09/230908-connect4summer2.mp4";
+    			?>
+    			<video width="1000" height="360" controls>
+        			<source src="<?php echo $videoPath; ?>" type="video/mp4">
+        			Your browser does not support the video tag.
+    			</video>
+			</body>
+			</html>
            <div style="text-align: left;">
     			<p><a href="/assets/connect4families/2023-07/family-fun-day-poster.jpg" target="_blank">Family Fun Days 2023</a>
         		<img src="/assets/connect4families/2023-07/connect4families-logo.png" alt="Logo" style="float: right; width: 250px; margin-left: 10px;">
