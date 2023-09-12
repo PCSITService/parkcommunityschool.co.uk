@@ -78,6 +78,14 @@
         <span class="subheader">
         <a href="assets/recruitment/2023-09/indoor-cycle-instructor-2023.pdf" target="_blank">Position Details</a>
         </span>
+    <hr>
+    <li>
+      <h4>Cover Supervisor</h4>  
+        <p><em>Closing Date: 25th September 2023 </em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-09/cover-supervisor-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
 <!--         <br><span class="subheader">Please check back later.</span></ul>      -->
              
 	      </ul>
