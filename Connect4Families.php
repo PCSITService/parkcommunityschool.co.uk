@@ -31,7 +31,7 @@
    				<title></title>
 			</head>
 			<body>
-    			<h1>My Video</h1>
+    			<h1></h1>
     			<?php
     			$videoPath = "assets/connect4families/2023-09/230908-connect4summer2.mp4";
     			?>
