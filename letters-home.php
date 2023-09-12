@@ -27,6 +27,10 @@
         	<ul class="small-block-grid-1">
                 </li>
                  <li>
+                    <ul class="circle">September 2023<hr>
+                        <li><a href="/assets/letters/2023-09/year-7-trips-20-21-sept-2023.pdf" target="_blank">Year 7 Trips - 20th and 21st September 2023</a></li>              
+                    </ul>
+                 <li>
                     <ul class="circle">July 2023<hr>
                         <li><a href="/assets/letters/2023-07/end-of-term-letter-letter-july-2023.pdf" target="_blank">End of Term Letter - July 2023</a></li>
                         <li><a href="/assets/letters/2023-07/youth-vaping-letter-to-schools-2023-07-18.pdf" target="_blank">Letter from Public Health Hampshire - Dangers of Vaping</a></li>
