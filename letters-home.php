@@ -28,7 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">September 2023<hr>
-                        <li><a href="/assets/letters/2023-09/year-10-revision-independant-study-2023-24.pdf" target="_blank">Year 10 Revision and Independant Study 2023-2024</a></li> 
+                        <li><a href="/assets/letters/2023-09/year-10-revision-independent-study-2023-24.pdf" target="_blank">Year 10 Revision and Independant Study 2023-2024</a></li> 
                         <li><a href="/assets/letters/2023-09/year-11-revision-independant-study-2023-24.pdf" target="_blank">Year 11 Revision and Independant Study 2023-2024</a></li> 
                         <li><a href="/assets/letters/2023-09/year-7-trips-20-21-sept-2023.pdf" target="_blank">Year 7 Trips - 20th and 21st September 2023</a></li>              
                     </ul>
