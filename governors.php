@@ -236,7 +236,7 @@ w
 
             <div class="medium-4 columns text-center team-member-container">
                 <a href="#" data-reveal-id="Governor-01">
-                  <img src="images/governors/c-miller.jpeg" alt="" class="team-member">
+                  <img src="images/governors/c-miller.jpg" alt="" class="team-member">
                 <p>Mrs C Miller</p>
                 Governor Details</a>
                         <div id="Governor-01" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
