@@ -24,43 +24,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
     <style>
-        /* Add CSS styles for your banner section here */
-        .banner-section {
-            position: relative;
-            text-align: center;
-            background-color: #333; /* Set the background color of the banner section */
-            color: #fff; /* Set the text color for the banner content */
-        }
-
-        .banner-image {
-            width: 100%; /* Set the banner image to fill the container horizontally */
-            height: auto; /* Maintain the image's aspect ratio */
-        }
-
-        .banner-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <!-- Banner Image Section -->
-    <section class="banner-section">
-        <!-- Banner Image -->
-        <img class="banner-image" src="images/admissions/open-evening-poster.jpg" alt="Banner Image">
-
-        <!-- Banner Content -->
-        <div class="banner-content">
-            <h1></h1>
-            <p></p>
-            <a href="page_url"></a>
+    <section>
+        <div class="image-container">
+            <?php
+            $imagePath = 'images\admissions/open-evening-poster.jpg';
+            echo '<img src="' . $imagePath . '" alt="Image">';
+            ?>
         </div>
-    </section>
-
+    </div><br>
+</section>
 <!-- CONTENT -->
 <section>
     <div class="row">
