@@ -24,7 +24,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your PHP Website</title>
+    <title></title>
     <style>
         /* Add CSS styles for your banner section here */
         .banner-section {
@@ -35,7 +35,7 @@
         }
 
         .banner-image {
-            width: 75%; /* Set the banner image to fill the container horizontally */
+            width: 100%; /* Set the banner image to fill the container horizontally */
             height: auto; /* Maintain the image's aspect ratio */
         }
 

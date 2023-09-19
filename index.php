@@ -100,7 +100,7 @@
         }
 
         .banner-image {
-            width: 75%; /* Set the banner image to fill the container horizontally */
+            width: 100%; /* Set the banner image to fill the container horizontally */
             height: auto; /* Maintain the image's aspect ratio */
         }
 
