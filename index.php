@@ -51,11 +51,6 @@
                         <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
                 </div>
-
-                
-                
-                
-                
             </div>
             <!-- HEADTEACHERS WELCOME -->
             <div id="HeadsWelcome" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -89,6 +84,47 @@
         <div class="small-centered large-1 column text-center"><i class="bounce fa fa-angle-down"></i></div>
     </div>
 </header>
+
+<!-- BannerImage Section -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        /* Add CSS styles for your banner section here */
+        .banner-section {
+            position: relative;
+            text-align: center;
+            background-color: #333; /* Set the background color of the banner section */
+            color: #fff; /* Set the text color for the banner content */
+        }
+
+        .banner-image {
+            width: 75%; /* Set the banner image to fill the container horizontally */
+            height: auto; /* Maintain the image's aspect ratio */
+        }
+
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner Image Section -->
+    <section class="banner-section">
+        <!-- Banner Image -->
+        <img class="banner-image" src="images/admissions/open-evening-poster.jpg" alt="Banner Image">
+
+        <!-- Banner Content -->
+        <div class="banner-content">
+            <h1></h1>
+            <p></p>
+            <a href="page_url"></a>
+        </div>
+    </section>
 
 <!-- NOTIFICATION -->
 <section class="page-notification">
