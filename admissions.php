@@ -11,24 +11,61 @@
 <?php include("includes/topnav.html") ?>
 
 <!-- HEADER SECTION -->
-<header class="header-parent">
+<!--<header class="header-parent">
     <div class="row">
         <div class="medium-8 large-8 columns">
             <h1>Admissions</h1>
             <p class="text-capitalize">Apply for your place at our place</p>
         </div>
     </div>
-</header>
+</header>-->
+
+<!-- BannerImage Section -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your PHP Website</title>
+    <style>
+        /* Add CSS styles for your banner section here */
+        .banner-section {
+            position: relative;
+            text-align: center;
+            background-color: #333; /* Set the background color of the banner section */
+            color: #fff; /* Set the text color for the banner content */
+        }
+
+        .banner-image {
+            width: 75%; /* Set the banner image to fill the container horizontally */
+            height: auto; /* Maintain the image's aspect ratio */
+        }
+
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner Image Section -->
+    <section class="banner-section">
+        <!-- Banner Image -->
+        <img class="banner-image" src="images/admissions/open-evening-poster.jpg" alt="Banner Image">
+
+        <!-- Banner Content -->
+        <div class="banner-content">
+            <h1></h1>
+            <p></p>
+            <a href="page_url"></a>
+        </div>
+    </section>
 
 <!-- CONTENT -->
 <section>
     <div class="row">
         <br>
         <div class="medium-8 columns">
-            <p id="covid-openevening"><strong>COVID-19 Open Evening Changes</strong></p>
-            <p>Due to the restrictions imposed due to COVID-19 we are unable to hold our usual Open Evening this year.</p>
-            <p>We will be producing a virtual version soon and we will be arranging late afternoon tours for small groups later this half term.</p>
-            <p>If you would be interested please mail us at <a href="mailto:tours@pcs.hants.sch.uk">tours@pcs.hants.sch.uk</a>, please identify what day of the week you would prefer and what sort of time would be best and we will try to accommodate you as best we can.</p>
             <hr>
             <h3>Applying for a place at Park Community School</h3>
             <p>If you are interested in applying for a place at Park Community School, you are always welcome to visit us and get a more detailed picture by talking to our students and staff, and by seeing the school in action.
