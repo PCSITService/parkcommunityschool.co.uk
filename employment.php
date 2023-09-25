@@ -37,7 +37,15 @@
         <span class="subheader">
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
-      </li>--> 
+      </li>-->
+    <hr>
+    <li>
+      <h4>Finance Assistant</h4>  
+        <p><em>Closing Date: 2nd October 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-09/finance-assistant-september-2023.pdf" target="_blank">Position Details</a>
+        </span> 
     <hr>
     <li>
       <h4>Teacher of Maths - From January 2024</h4>  
