@@ -48,6 +48,14 @@
         </span>
     <hr>
     <li>
+      <h4>Teaching Assistant</h4>  
+        <p><em>Closing Date: 2nd October 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-09/teaching-assistant-sept-2023.pdf" target="_blank">Position Details</a>
+        </span>
+    <hr>
+    <li>
       <h4>Exams Officer and Cover Manager</h4>  
         <p><em>Closing Date: 10th October 2023</em></p>
 
