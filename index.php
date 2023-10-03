@@ -85,7 +85,7 @@
     </div>
 </header>
 
-<!-- BannerImage Section -->
+<!-- BannerImage Section 
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,7 +106,7 @@
             ?>
         </div>
     </div><br>
-</section>
+</section> -->
 <!-- NOTIFICATION -->
 <section class="page-notification">
   <div class="row">
