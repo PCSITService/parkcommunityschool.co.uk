@@ -54,7 +54,7 @@
         </span>  
 	      </ul>
       <h4>WSG Manager</h4>  
-        <p><em>Closing Date: 16th October </em></p>
+        <p><em>Closing Date: 16th October 2023 </em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/wsg-manager-oct-2023.pdf" target="_blank">Position Details</a>
