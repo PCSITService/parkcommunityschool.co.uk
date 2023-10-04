@@ -57,7 +57,7 @@
         <p><em>Closing Date: 16th October 2023 </em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/wsg-manager-oct-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2023-10/wsg-manager-oct-2023.pdf" target="_blank">Position Details</a>
         </span>
 
 	      <br>
