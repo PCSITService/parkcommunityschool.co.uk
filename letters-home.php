@@ -26,6 +26,15 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
                 </li>
+                <li>
+                    <ul class="circle">October 2023<hr>
+                    <li><a href="/assets/letters/2023-10/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany Federation Statements</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-mobile-phones-oct-2023.pdf" target="_blank">Joint Statement  - Mobile Phones</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-relational-conflict-bullying-oct-2023.pdf" target="_blank">Joint Statement - Relational Conflict & Bullying</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-standards-attendance-oct-2023.pdf" target="_blank">Joint Statement - Standards & Attendance</a></li>
+                    <li><a href="/assets/letters/2023-10/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance Statement</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>             
+                    </ul>
                  <li>
                     <ul class="circle">September 2023<hr>
                         <li><a href="/assets/letters/2023-09/newsletter-22.09.2023.pdf" target="_blank">Newsletter - 22nd September 2023</a></li>
