@@ -38,12 +38,22 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+     <h4>Receptionist / Administrator</h4>  
+        <p><em>Closing Date: 15th October 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-10/receptionist-oct-2023.pdf" target="_blank">Position Details</a>
+        </span>
+      </ul>
+    <hr>
+    <liv>
      <h4>Cafe Assistant</h4>  
         <p><em>Closing Date: Open</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/2023-10/cafe-assistant-casual-2023.pdf" target="_blank">Position Details</a>
         </span>
+      </ul>
     <hr>
     <li>
       <h4>Exams Officer and Cover Manager</h4>  
@@ -52,13 +62,17 @@
         <span class="subheader">
         <a href="assets/recruitment/2023-09/exams-officer-and-cover-manager-sept-2023.pdf" target="_blank">Position Details</a>
         </span>  
-	      </ul>
+	    </ul>
+    <hr>
+    <liv>
       <h4>WSG Manager</h4>  
         <p><em>Closing Date: 16th October 2023 </em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/2023-10/wsg-manager-oct-2023.pdf" target="_blank">Position Details</a>
         </span>
+      </ul>
+    </li>
 
 	      <br>
 	      <h5 class="text-center"><small>Information about School Direct visit <br><a href="//www.thesolentscitt.co.uk/" target="_blank">www.theSolentSCITT.co.uk</a></small></h5>
