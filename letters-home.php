@@ -28,6 +28,7 @@
                 </li>
                 <li>
                     <ul class="circle">October 2023<hr>
+                    <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
                     <li><a href="/assets/letters/2023-10/year11-mock-timetable-2023.pdf" target="_blank">Year 11 Mock Exam Timetable 2023</a></li>
                     <li><a href="/assets/letters/2023-10/year11-parents-evening-oct-2023.pdf" target="_blank">Year 11 Parents Evening - 12th October 2023</a></li>   
                     <li><a href="/assets/letters/2023-10/year7-parents-evening-oct-2023.pdf" target="_blank">Year 7 Parents Evening - 12th October 2023</a></li>    
