@@ -305,6 +305,20 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                    <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
+                    <li><a href="/assets/letters/2023-10/year11-mock-timetable-2023.pdf" target="_blank">Year 11 Mock Exam Timetable 2023</a></li>
+                    <li><a href="/assets/letters/2023-10/year11-parents-evening-oct-2023.pdf" target="_blank">Year 11 Parents Evening - 12th October 2023</a></li>   
+                    <li><a href="/assets/letters/2023-10/year7-parents-evening-oct-2023.pdf" target="_blank">Year 7 Parents Evening - 12th October 2023</a></li>    
+                    <li><a href="/assets/letters/2023-10/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany Federation Statements</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-mobile-phones-oct-2023.pdf" target="_blank">Joint Statement  - Mobile Phones</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-relational-conflict-bullying-oct-2023.pdf" target="_blank">Joint Statement - Relational Conflict & Bullying</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-statement-standards-attendance-oct-2023.pdf" target="_blank">Joint Statement - Standards & Attendance</a></li>
+                    <li><a href="/assets/letters/2023-10/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance Statement</a></li>
+                    <li><a href="/assets/letters/2023-10/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>  
+                        <li><a href="/assets/letters/2023-09/newsletter-22.09.2023.pdf" target="_blank">Newsletter - 22nd September 2023</a></li>
+                        <li><a href="/assets/letters/2023-09/year-10-revision-independent-study-2023-24.pdf" target="_blank">Year 10 Revision and Independant Study 2023-2024</a></li> 
+                        <li><a href="/assets/letters/2023-09/year-11-revision-independant-study-2023-24.pdf" target="_blank">Year 11 Revision and Independant Study 2023-2024</a></li> 
+                        <li><a href="/assets/letters/2023-09/year-7-trips-20-21-sept-2023.pdf" target="_blank">Year 7 Trips - 20th and 21st September 2023</a></li>
                         <li><a href="/assets/letters/2023-06/newsletter-30.06.2023.pdf" target="_blank">Newsletter - 30th June 2023</a></li>
                         <li><a href="/assets/letters/2023-05/newsletter-26.05.2023.pdf" target="_blank">Newsletter - 26 May 2023</a></li>
                         <li><a href="/assets/letters/2023-03/newsletter-06-03-2023.pdf" target="_blank">Newsletter - 6th March 2023</a></li>
