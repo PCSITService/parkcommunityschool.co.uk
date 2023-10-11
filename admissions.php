@@ -21,7 +21,7 @@
 </header>-->
 
 <!-- BannerImage Section -->
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -41,7 +41,7 @@
             ?>
         </div>
     </div><br>
-</section>
+</section>-->
 <!-- CONTENT -->
 <section>
     <div class="row">

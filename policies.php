@@ -301,16 +301,6 @@
 
         <h3>Admissions Policies</h3>
         <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2 policies_list">
-            
-            
-            <li>
-                <a href="/assets/policies/admissions-2022-2023.pdf" target="_blank">
-                    <div class="policy-container">
-                        <p>2022 - 2023</p>
-                    </div>
-                </a>
-            </li>
-            <li>
                 <a href="/assets/policies/admissions-2023-2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>2023 - 2024</p>
