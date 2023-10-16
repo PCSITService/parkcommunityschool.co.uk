@@ -38,11 +38,11 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-     <h4>Receptionist / Administrator</h4>  
-        <p><em>Closing Date: 15th October 2023</em></p>
+     <h4>Teacher of Humanities</h4>  
+        <p><em>Closing Date: 18th October 2023</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2023-10/receptionist-oct-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2023-10/teacher-of-humanities-oct-2023.pdf" target="_blank">Position Details</a>
         </span>
       </ul>
     <hr>
