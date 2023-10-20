@@ -38,11 +38,11 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-     <h4>Teacher of Humanities</h4>  
-        <p><em>Closing Date: 18th October 2023</em></p>
+     <h4>Behaviour Support and Inclusion Assistant</h4>  
+        <p><em>Closing Date: 6th November 2023</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2023-10/teacher-of-humanities-oct-2023.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2023-10/behaviour-support-inclusion-assistant-oct-2023.pdf" target="_blank">Position Details</a>
         </span>
       </ul>
     <hr>
