@@ -28,7 +28,7 @@
                 </li>
                 <li>
                     <ul class="circle">October 2023<hr>
-                    <li><a href="/assets/letters/2023-10/year7-measles-chickenpox-oct2023.pdf" target="_blank">Measles and Chicken Pox</a></li>    
+                    <li><a href="/assets/letters/2023-10/year7-measles-chickenpox-oct2023.pdf" target="_blank">Year 7 - Measles and Chicken Pox</a></li>    
                     <li><a href="/assets/letters/2023-10/year7-rse-lesson-cd-19.10.2023.pdf" target="_blank">Year 7 - Relationship & Sex Education (RSE)</a></li>    
                     <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
                     <li><a href="/assets/letters/2023-10/year11-mock-timetable-2023.pdf" target="_blank">Year 11 Mock Exam Timetable 2023</a></li>
