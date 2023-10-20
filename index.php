@@ -171,9 +171,8 @@
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
-                    <li><a href="assets/exam/summer-2023-exam-timetable.pdf" target="_blank">Summer 2023 Exam Timetable</a></li>
                     <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
-                    <li><a href="assets/exam/2023-06/year-10-mock-timetable.pdf" target="_blank">Year 10 Mock Exam Timetable</a></li>
+                    <li><a href="assets/exam/2023-10/yr11-mock-1-tt-oct-nov-2023.pdf" target="_blank">Year 11 Mock 1 Timetable 2023</a></li>
                     <li><a href="assets/revision/2023-06/year-7-revision.pdf" target="_blank">Year 7 Revision</a></li>
                     <li><a href="assets/revision/2023-06/year-8-revision.pdf" target="_blank">Year 8 Revision</a></li>
                     <li><a href="assets/revision/2023-06/year-9-revision.pdf" target="_blank">Year 9 Revision</a></li>
