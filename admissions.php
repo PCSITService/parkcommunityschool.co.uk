@@ -58,7 +58,7 @@
             <h4>Outside the main admission round</h4>
             <p>If you wish to apply for a place at Park Community School outside of the usual admission round, you can either:</p>
             <div class="small-only-text-center">
-                <a href="//www.hants.gov.uk/admissions" target="_blank" class="button radius">Apply Online</a>
+                <a href="https://www.hants.gov.uk/educationandlearning/admissions" target="_blank" class="button radius">Apply Online</a>
                 <a href="/forms.php" class="button radius">Use the Form</a>
             </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="medium-push-4 medium-8 columns">
             <h4>Admissions Process</h4>
             <p>You can find out more about this process or what to do if you are unhappy with your allocated place, at: <a href="//www3.hants.gov.uk/education/admissions/ad-guidance/main-admissions-round/ed-ad-mainround-process.htm" target="_blank">www.hants.gov.uk</a></p>
-            <p>If you have any questions or would like any help with any of the above, please feel free to contact our admissions team at: <a href="javascript:location='mailto:\u0061\u0064\u006d\u0069\u0073\u0073\u0069\u006f\u006e\u0073\u0040\u0070\u0063\u0073\u002e\u0068\u0061\u006e\u0074\u0073\u002e\u0073\u0063\u0068\u002e\u0075\u006b';void 0"><script type="text/javascript">document.write('\u0061\u0064\u006d\u0069\u0073\u0073\u0069\u006f\u006e\u0073\u0040\u0070\u0063\u0073\u002e\u0068\u0061\u006e\u0074\u0073\u002e\u0073\u0063\u0068\u002e\u0075\u006b')</script></a></p>
+            <p>If you have any questions or would like any help with any of the above, please feel free to contact our admissions team at <a href="mailto:info@pcs.hants.sch.uk">info@pcs.hants.sch.uk</a></p>
 
             <a href="#" data-reveal-id="yr7_procedure" class="button radius">Procedure for students joining school after year 7</a>
 
