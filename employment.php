@@ -54,16 +54,6 @@
         </span>
       </ul>
     <hr>
-    <liv> 
-     <h4>Behaviour Support and Inclusion Assistant</h4>  
-        <p><em>Closing Date: 6th November 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-10/behaviour-support-inclusion-assistant-oct-2023.pdf" target="_blank">Position Details</a>
-        </span>
-      </ul>
-    <hr>
-    <liv>
      <h4>Cafe Assistant</h4>  
         <p><em>Closing Date: Open</em></p>
 
