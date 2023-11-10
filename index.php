@@ -174,8 +174,8 @@
                     <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
                     <li><a href="assets/exam/2023-10/yr11-mock-1-tt-oct-nov-2023.pdf" target="_blank">Year 11 Mock 1 Timetable 2023</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-7-revision-slides.pdf" target="_blank">KA1 Year 7 Revision Slides</a></li>
-                    <li><a href="assets/revision/2023-06/KA1 Year 8 Revision slides.pdf" target="_blank">KA1 Year 8 Revision Slides</a></li>
-                    <li><a href="assets/revision/2023-06/KA1 Year 9 Revision slides.pdf" target="_blank">KA1 Year 9 Revision Slides</a></li>
+                    <li><a href="assets/revision/2023-06/ka1-year-8-revision-slides.pdf" target="_blank">KA1 Year 8 Revision Slides</a></li>
+                    <li><a href="assets/revision/2023-06/ka1-year-9-revision-slides.pdf" target="_blank">KA1 Year 9 Revision Slides</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
