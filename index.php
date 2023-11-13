@@ -304,6 +304,13 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                    <li><a href="/assets/letters/2023-11/year-7-9-testing-week-dec2023.pdf" target="_blank">Year 7 - 9 Testing Week</a></li>  
+                    <li><a href="/assets/letters/2023-11/finding-what-you-love-2023.pdf" target="_blank">Finding What You Love</a></li>    
+                    <li><a href="/assets/letters/2023-11/parent-governor-vacancy-nov23.pdf" target="_blank">Parent Governor Vacancy</a></li>
+                    <li><a href="/assets/letters/2023-11/year10-period6-testing-week-02.11.2023.pdf" target="_blank">Year 10 Period 6 and Testing Week</a></li> 
+                    <li><a href="/assets/letters/2023-10/newsletter-20.10.2023.pdf" target="_blank">Newsletter - 20th October 2023</a></li>    
+                    <li><a href="/assets/letters/2023-10/year7-measles-chickenpox-oct2023.pdf" target="_blank">Year 7 - Measles and Chicken Pox</a></li>    
+                    <li><a href="/assets/letters/2023-10/year7-rse-lesson-cd-19.10.2023.pdf" target="_blank">Year 7 - Relationship & Sex Education (RSE)</a></li>    
                     <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
                     <li><a href="/assets/letters/2023-10/year11-mock-timetable-2023.pdf" target="_blank">Year 11 Mock Exam Timetable 2023</a></li>
                     <li><a href="/assets/letters/2023-10/year11-parents-evening-oct-2023.pdf" target="_blank">Year 11 Parents Evening - 12th October 2023</a></li>   
