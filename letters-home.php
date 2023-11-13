@@ -28,7 +28,7 @@
                 </li>
                 <li>
                     <ul class="circle">November 2023<hr>
-                    <li><a href="/assets/letters/2023-11/year-11-parentsevening-30.11.2023.pdf" target="_blank">Year 11 Parents Evening --- 30.11.2023</a></li>    
+                    <li><a href="/assets/letters/2023-11/year-11-parentsevening-30.11.2023.pdf" target="_blank">Year 11 - Additional Parents Eve 30 11 23 and P6</a></li>    
                     <li><a href="/assets/letters/2023-11/year-7-9-testing-week-dec2023.pdf" target="_blank">Year 7 - 9 Testing Week</a></li>  
                     <li><a href="/assets/letters/2023-11/finding-what-you-love-2023.pdf" target="_blank">Finding What You Love</a></li>    
                     <li><a href="/assets/letters/2023-11/parent-governor-vacancy-nov23.pdf" target="_blank">Parent Governor Vacancy</a></li>
