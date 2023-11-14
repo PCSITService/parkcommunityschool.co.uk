@@ -46,22 +46,6 @@
         </span>
       </ul>
     <hr>
-     <h4>Early Years Assistant</h4>  
-        <p><em>Closing Date: 13th November 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-11/early-years-assistant-nov23.pdf" target="_blank">Position Details</a>
-        </span>
-      </ul>
-    <hr>
-     <h4>Nursury Deputy Manager</h4>  
-        <p><em>Closing Date: 13th November 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-11/nursery-deputy-manager-nov23.pdf" target="_blank">Position Details</a>
-        </span>
-      </ul>
-    <hr>
      <h4>Cafe Assistant</h4>  
         <p><em>Closing Date: Open</em></p>
 
