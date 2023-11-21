@@ -38,14 +38,6 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-     <h4>Degree Apprentice Community</h4>  
-        <p><em>Closing Date: 20th November 2023</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-11/degree-apprentice-community-nov23.pdf" target="_blank">Position Details</a>
-        </span>
-      </ul>
-    <hr>
      <h4>Cafe Assistant</h4>  
         <p><em>Closing Date: Open</em></p>
 
