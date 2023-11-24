@@ -38,14 +38,7 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
-     <h4>Cafe Assistant</h4>  
-        <p><em>Closing Date: Open</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2023-10/cafe-assistant-casual-2023.pdf" target="_blank">Position Details</a>
-        </span>
-      </ul>
-    <hr>
+  
 
 	      <br>
 	      <h5 class="text-center"><small>Information about School Direct visit <br><a href="//www.thesolentscitt.co.uk/" target="_blank">www.theSolentSCITT.co.uk</a></small></h5>
