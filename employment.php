@@ -38,6 +38,14 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+      <li>
+        <h4>Degree Apprentice - Community</h4>  
+        <p><em>Closing Date: 4th December 2023 </em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-11/degree-apprentice-community-nov23.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
   
 
 	      <br>
