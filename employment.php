@@ -46,6 +46,14 @@
         <a href="assets/recruitment/2023-11/degree-apprentice-community-nov23.pdf" target="_blank">Position Details</a>
         </span>
       </li>
+      <li>
+        <h4>Teacher of Maths with TLR2b from January or Easter 2024</h4>  
+        <p><em>Closing Date: 6th December 2023</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2023-11/maths-tlr2b-jan-easter24.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
   
 
 	      <br>
