@@ -28,6 +28,7 @@
                 </li>
                 <li>
                     <ul class="circle">November 2023<hr>
+                    <li><a href="/assets/letters/2023-11/year-11-parents-important-information-evening-30.11.23.pdf" target="_blank">Year 11 - Parents Important Information Evening</a></li>    
                     <li><a href="/assets/letters/2023-11/year-10-work-experience-2024.pdf" target="_blank">Year 10 Work Experience 2024</a></li>
                     <li><a href="/assets/letters/2023-11/year-11-parentsevening-30.11.2023.pdf" target="_blank">Year 11 - Additional Parents Eve 30 11 23 and P6</a></li>    
                     <li><a href="/assets/letters/2023-11/year-7-9-testing-week-dec2023.pdf" target="_blank">Year 7 - 9 Testing Week</a></li>  
