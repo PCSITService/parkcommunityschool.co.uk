@@ -27,6 +27,10 @@
         	<ul class="small-block-grid-1">
                 </li>
                 <li>
+                    <ul class="circle">December 2023<hr>
+                    <li><a href="/assets/letters/2023-12/newsletter-01.12.2023.pdf" target="_blank">Newsletter - 1st December 2023</a></li>                   
+                    </ul>
+                <li>
                     <ul class="circle">November 2023<hr>
                     <li><a href="/assets/letters/2023-11/year-11-parents-important-information-evening-30.11.23.pdf" target="_blank">Year 11 - Parents Important Information Evening</a></li>    
                     <li><a href="/assets/letters/2023-11/year-10-work-experience-2024.pdf" target="_blank">Year 10 Work Experience 2024</a></li>
