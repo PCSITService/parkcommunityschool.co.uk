@@ -304,66 +304,10 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
-                    <li><a href="/assets/letters/2023-11/year-7-9-testing-week-dec2023.pdf" target="_blank">Year 7 - 9 Testing Week</a></li>  
-                    <li><a href="/assets/letters/2023-11/finding-what-you-love-2023.pdf" target="_blank">Finding What You Love</a></li>    
-                    <li><a href="/assets/letters/2023-11/parent-governor-vacancy-nov23.pdf" target="_blank">Parent Governor Vacancy</a></li>
-                    <li><a href="/assets/letters/2023-11/year10-period6-testing-week-02.11.2023.pdf" target="_blank">Year 10 Period 6 and Testing Week</a></li> 
-                    <li><a href="/assets/letters/2023-10/newsletter-20.10.2023.pdf" target="_blank">Newsletter - 20th October 2023</a></li>    
-                    <li><a href="/assets/letters/2023-10/year7-measles-chickenpox-oct2023.pdf" target="_blank">Year 7 - Measles and Chicken Pox</a></li>    
-                    <li><a href="/assets/letters/2023-10/year7-rse-lesson-cd-19.10.2023.pdf" target="_blank">Year 7 - Relationship & Sex Education (RSE)</a></li>    
-                    <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
-                    <li><a href="/assets/letters/2023-10/year11-mock-timetable-2023.pdf" target="_blank">Year 11 Mock Exam Timetable 2023</a></li>
-                    <li><a href="/assets/letters/2023-10/year11-parents-evening-oct-2023.pdf" target="_blank">Year 11 Parents Evening - 12th October 2023</a></li>   
-                    <li><a href="/assets/letters/2023-10/year7-parents-evening-oct-2023.pdf" target="_blank">Year 7 Parents Evening - 12th October 2023</a></li>    
-                    <li><a href="/assets/letters/2023-10/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany Federation Statements</a></li>
-                    <li><a href="/assets/letters/2023-10/joint-statement-mobile-phones-oct-2023.pdf" target="_blank">Joint Statement  - Mobile Phones</a></li>
-                    <li><a href="/assets/letters/2023-10/joint-statement-relational-conflict-bullying-oct-2023.pdf" target="_blank">Joint Statement - Relational Conflict & Bullying</a></li>
-                    <li><a href="/assets/letters/2023-10/joint-statement-standards-attendance-oct-2023.pdf" target="_blank">Joint Statement - Standards & Attendance</a></li>
-                    <li><a href="/assets/letters/2023-10/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance Statement</a></li>
-                    <li><a href="/assets/letters/2023-10/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>  
+                        <li><a href="/assets/letters/2023-12/newsletter-01.12.2023.pdf" target="_blank">Newsletter - 1st December 2023</a></li>
+                        <li><a href="/assets/letters/2023-10/newsletter-20.10.2023.pdf" target="_blank">Newsletter - 20th October 2023</a></li>      
+                        <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
                         <li><a href="/assets/letters/2023-09/newsletter-22.09.2023.pdf" target="_blank">Newsletter - 22nd September 2023</a></li>
-                        <li><a href="/assets/letters/2023-09/year-10-revision-independent-study-2023-24.pdf" target="_blank">Year 10 Revision and Independant Study 2023-2024</a></li> 
-                        <li><a href="/assets/letters/2023-09/year-11-revision-independant-study-2023-24.pdf" target="_blank">Year 11 Revision and Independant Study 2023-2024</a></li> 
-                        <li><a href="/assets/letters/2023-09/year-7-trips-20-21-sept-2023.pdf" target="_blank">Year 7 Trips - 20th and 21st September 2023</a></li>
-                        <li><a href="/assets/letters/2023-06/newsletter-30.06.2023.pdf" target="_blank">Newsletter - 30th June 2023</a></li>
-                        <li><a href="/assets/letters/2023-05/newsletter-26.05.2023.pdf" target="_blank">Newsletter - 26 May 2023</a></li>
-                        <li><a href="/assets/letters/2023-03/newsletter-06-03-2023.pdf" target="_blank">Newsletter - 6th March 2023</a></li>
-					    <li><a href="/assets/letters/2023-01/newsletter-27-01-2023.pdf" target="_blank">Newsletter - 27 January 2023</a></li>
-                        <li><a href="/assets/letters/2022-12/newsletter-16-12-2022.pdf" target="_blank">Newsletter - 16 December 2022</a></li>           
-                        <li><a href="/assets/letters/2022-12/newsletter-02-12-2022.pdf" target="_blank">Newsletter - 2 December 2022</a></li>      
-                        <li><a href="/assets/letters/2022-11/newsletter-18-11-2022.pdf" target="_blank">Newsletter - 18 November 2022</a></li>
-                        <li><a href="/assets/letters/2022-11/newsletter-04-11-2022.pdf" target="_blank">Newsletter - 4 November 2022</a></li>  
-                        <li><a href="/assets/letters/2022-10/newsletter-07-10-2022.pdf" target="_blank">Newsletter - 7 October 2022</a></li>  
-                        <li><a href="/assets/letters/2022-09/newsletter-23-09-2022.pdf" target="_blank">Newsletter - 23 September 2022</a></li>
-        	            <li><a href="/assets/letters/2022-07/newsletter-18-07-2022.pdf" target="_blank">Newsletter - 18th July 2022</a></li>
-                        <li><a href="/assets/letters/2022-07/newsletter-04-07-2022.pdf" target="_blank">Newsletter - 4th July 2022</a></li>
-                        <li><a href="/assets/letters/2022-06/newsletter-17-06-2022.pdf" target="_blank">Newsletter - 17th June 2022</a></li>
-                        <li><a href="/assets/letters/2022-05/newsletter-05-25.pdf" target="_blank">Newsletter - 25th May 2022</a></li>
-                        <li><a href="/assets/letters/2022-05/newsletter-13-05.pdf" target="_blank">Newsletter - 13th May 2022</a></li>
-                        <li><a href="/assets/letters/2022-04/newsletter-01-04.pdf" target="_blank">Newsletter - 1st April 2022</a></li>
-                        <li><a href="/assets/letters/2022-03/newsletter-11-03.pdf" target="_blank">Newsletter - 11th March 2022</a></li>
-                        <li><a href="/assets/letters/2022-02/newsletter-11-02.pdf" target="_blank">Newsletter - 11th February 2022</a></li>
-                        <li><a href="/assets/letters/2022-01/newsletter-28-01.pdf" target="_blank">Newsletter - 28th January 2022</a></li>
-                        <li><a href="/assets/letters/2022-01/newsletter-14-01.pdf" target="_blank">Newsletter - 14th January 2022</a></li>
-                        <li><a href="/assets/letters/2021-12/newsletter-17-12.pdf" target="_blank">Newsletter - 17th December 2021</a></li>
-                        <li><a href="/assets/letters/2021-12/newsletter-06-12.pdf" target="_blank">Newsletter - 6th December 2021</a></li>
-                        <li><a href="/assets/letters/2021-11/newsletter-19-11.pdf" target="_blank">Newsletter - 19th November 2021</a></li>
-                        <li><a href="/assets/letters/2021-11/newsletter-05-11.pdf" target="_blank">Newsletter - 5th November 2021</a></li>
-                        <li><a href="/assets/letters/2021-10/newsletter-01-15.pdf" target="_blank">Newsletter - 15th October 2021</a></li>
-                        <li><a href="/assets/letters/2021-10/newsletter-01-10.pdf" target="_blank">Newsletter - 1st October 2021</a></li>
-                        <li><a href="/assets/letters/2021-09/newsletter-17-09.pdf" target="_blank">Newsletter - 17th September 2021</a></li>
-                        <li><a href="/assets/letters/2021-07/newsletter-2021-07-23.pdf" target="_blank">Newsletter - 23rd July 2021</a></li>
-                        <li><a href="/assets/letters/2021-07/newsletter-2021-07-02.pdf" target="_blank">Newsletter - 2nd July 2021</a></li>
-                        <li><a href="/assets/letters/2021-06/newsletter-18-06.pdf" target="_blank">Newsletter 18th June</a></li>
-                        <li><a href="/assets/letters/2021-05/newsletter-28-05.pdf" target="_blank">Newsletter 28th May</a></li>
-                        <li><a href="/assets/letters/2021-05/newsletter-14-05.pdf" target="_blank">Newsletter 14th May</a></li>
-                        <li><a href="/assets/letters/2021-04/newsletter-30-04.pdf" target="_blank">Newsletter 30th April</a></li>
-                        <li><a href="/assets/letters/2021-04/newsletter-1-04.pdf" target="_blank">Newsletter 1st April</a></li>
-                        <li><a href="/assets/letters/2021-03/newsletter-19-03.pdf" target="_blank">Newsletter 19th March</a></li>
-                        <li><a href="/assets/letters/2021-03/newsletter-5-03.pdf" target="_blank">Newsletter 5th March</a></li>
-                        <li><a href="/assets/letters/2021-02/newsletter-12-02.pdf" target="_blank">Newsletter 12th February</a></li>
-                        <li><a href="/assets/letters/2021-01/newsletter-29-01.pdf" target="_blank">Newsletter 29th January</a></li>
-                        <li><a href="/assets/letters/2021-01/newsletter-15-01.pdf" target="_blank">Newsletter 15th January</a></li>
                     </ul>
                 <li>
             </ul>
