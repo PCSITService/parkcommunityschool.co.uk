@@ -27,6 +27,12 @@
 </div>
 
 <!-- CONTENT -->
+<div class="row">
+                    <div class="columns">
+                        <a class="large-12 button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
+                    </div>
+                </div>
+            </div>
 <!-- PARK POST -->
 <section>
     <div class="row">
@@ -134,7 +140,6 @@
     <?php include("includes/backtotop.html") ?>
 </section>
 
-
 <!-- FOOTER -->
 <?php include("includes/footer.html") ?>
 
@@ -158,3 +163,20 @@
         </script>
     </body>
 </html>
+
+<!-- Newsletters -->
+            <div id="newsletter" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                <h2 id="modalTitle">Newsletters</h2>
+
+                <div class="medium-12 columns">
+            <ul class="small-block-grid-1">
+                <li>
+                    <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2023-12/newsletter-01.12.2023.pdf" target="_blank">Newsletter - 1st December 2023</a></li>
+                        <li><a href="/assets/letters/2023-10/newsletter-20.10.2023.pdf" target="_blank">Newsletter - 20th October 2023</a></li>      
+                        <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
+                        <li><a href="/assets/letters/2023-09/newsletter-22.09.2023.pdf" target="_blank">Newsletter - 22nd September 2023</a></li>
+                    </ul>
+                <li>
+            </ul>
+        </div>
