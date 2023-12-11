@@ -28,6 +28,8 @@
                 </li>
                 <li>
                     <ul class="circle">December 2023<hr>
+                    <li><a href="/assets/letters/2023-12/year-7-group-changes-january-2024.pdf" target="_blank">Year 7 
+                    Group Changes from January 2024</a></li>
                     <li><a href="/assets/letters/2023-12/end-of-term-letter-december.2023.pdf" target="_blank">End of Term Letter - December 2023</a></li>    
                     <li><a href="/assets/letters/2023-12/newsletter-01.12.2023.pdf" target="_blank">Newsletter - 1st December 2023</a></li>                   
                     </ul>
