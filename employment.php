@@ -38,6 +38,15 @@
         <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
         </span>
       </li>-->
+
+      <li>
+        <h4>INClude Co-Leader</h4>  
+        <p><em>8th January 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-01/include-deputy-leader-march-2024.pdf" target="_blank">Position Details</a>
+        </span>
+      </li>
  
 
 	      <br>
