@@ -27,6 +27,12 @@
         	<ul class="small-block-grid-1">
                 </li>
                 <li>
+                    <ul class="circle">January 2024<hr>
+                    <li><a href="/assets/letters/2024-01/year-8-parents-evening-11.01.24.pdf" target="_blank">Year 8 Parents' Evening - 11th January 2024</a></li>
+                    <li><a href="/assets/letters/2024-01/year-10-parents-evening-11.01.24.pdf" target="_blank">Year 10 Parents' Evening - 11th January 2024</a></li>                     
+                    </ul>
+                <li>
+                <li>
                     <ul class="circle">December 2023<hr>
                     <li><a href="/assets/letters/2023-12/newsletter-15.12.2023.pdf" target="_blank">Newsletter - 15th December 2023</a></li>    
                     <li><a href="/assets/letters/2023-12/year-7-group-changes-january-2024.pdf" target="_blank">Year 7 
