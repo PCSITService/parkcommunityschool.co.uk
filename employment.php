@@ -40,11 +40,11 @@
       </li>-->
 
       <li>
-        <h4>INClude Co-Leader</h4>  
-        <p><em>8th January 2024</em></p>
+        <h4>Teaching Assistant</h4>  
+        <p><em>19th January 2024</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2024-01/include-deputy-leader-march-2024.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2024-01/teaching-assistant-january-2024.pdf" target="_blank">Position Details</a>
         </span>
       </li>
  
