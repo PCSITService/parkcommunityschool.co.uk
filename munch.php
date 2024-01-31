@@ -36,7 +36,7 @@
 
         <div class="columns">
             <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday - Friday 12-1pm</small></p>
-            <p>MUNCH is back <strong>every Thursaday tea time, 5-6pm</strong>.</p>
+            <p>MUNCH is back <strong>every Tuesday and Thursday tea time, 4pm-5.30pm</strong>.</p>
             <div class="columns text-center">
                 <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Munch 2022 Flyer</a>
             </div>
@@ -60,7 +60,7 @@
             <br>
             <p>Our vision for MUNCH is to develop a sustainable local social enterprise by establishing a community food shop and café.  This will provide volunteering and employment opportunities, as well as a casual meeting and eating venue to reduce social isolation – watch this space for more details.</p>
             <p>We work in partnership with organisations who have excess food which otherwise would go into landfill .  This helps to fill our MUNCH fridge in the Dickinson Centre.  This is always fully stocked with emergency food for local families who are most in need.</p>
-            <p>We have expanded MUNCH to both Thursday nights and Sunday lunches.  2 course Sunday lunches start monthly from Sunday 25th March and Thursday nights meals start weekly from Thursday March 29th.</p>
+            <p>We have expanded MUNCH to both Thursday nights and Sunday lunches.</p>
             <br><br>
         </div>
     <br><br><br>
@@ -191,6 +191,30 @@
     <div class="row">
         <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
     </div>
+    <div class="row">
+        <div class="small-12 medium-4 columns">
+            <h4>2022-2023</h4>
+            <hr>
+                <ul class="bullet">
+                    <li>6249 Meals </li>
+                    <li>417 Emergency Frozen Meals </li>
+                    <li>Over 140 guests for Christmas Lunch</li>
+                </ul>
+            <hr>
+
+        </div>
+    <div class="row">
+        <div class="small-12 medium-4 columns">
+            <h4>2021-2022</h4>
+            <hr>
+                <ul class="bullet">
+                    <li>January to June- Closed for Covid </li>
+                    <li>July to March – Over 2000 meals </li>
+                    <li>Over 140 guests for Christmas Lunch </li>
+                </ul>
+            <hr>
+
+        </div>
     <div class="row">
         <div class="small-12 medium-4 columns">
             <h4>2020-2021</h4>

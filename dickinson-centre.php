@@ -29,7 +29,7 @@
             <p>We are able to provide catering facilities to meet your needs and there are vending facilities in the café area, which has a bank of computers with free internet access for the general public.</p>
 
         </div>
-        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/dickinsoncentre/dickinson-centre-02.jpg" alt="Dickinson Centre - Free Public Computer and Internet Access"></div>
+        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/dickinsoncentre/dickinson-centre-02.jpg"></div>
     </div>
     <br><br><br>
 </section>

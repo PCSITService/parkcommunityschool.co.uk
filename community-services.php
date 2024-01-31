@@ -183,10 +183,6 @@
     	</div>
     </div>
     <br><br>
-    <div class="row">
-    	<div class="column text-center">
-            <a href="assets/community/advertisingflyer.pdf" target="_blank" class="button success radius">Awards Presentations PDF</a>
-    	</div>
 	</div>
     <br><br>
 </section>

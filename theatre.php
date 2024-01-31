@@ -220,20 +220,16 @@
             <ul>
                 <li>Havant Borough Council</li>
                 <li>Hampshire County Council</li>
-                <li><a href="https://www.hants.gov.uk/educationandlearning/hampshiremusic" target="_blank">Hampshire Music Service</a></li>
-                <li><a href="http://www.brightstarsdanceacademy.co.uk/" target="_blank">Brightstars Dance Company</a></li>
-                <li>Amber Andrews Dance company</li>
-                <li><a href="https://portsmouthmusicfestival.co.uk/" target="_blank">Portsmouth Music Festival</a></li>
-                <li>CHAOS</li>
-                <li>South Downs Stage School</li>
-                <li>South Downs Musical Society</li>
-                <li>Malawi Association of Portsmouth</li>
-                <li><a href="https://www.helenogrady.co.uk/" target="_blank">Helen O’Grady Drama Academy</a></li>
-                <li>Hampshire Constabulary</li>
-                <li><a href="http://www.southernarts.co.uk/" target="_blank">Southern Arts Academy</a></li>
-                <li><a href="https://www.sdstudios.co.uk/" target="_blank">SD Studios</a></li>
-                <li><a href="//www.ldnwrestling.com/" target="_blank">LDN Wrestling</a></li>
-                <li>Leather &amp; Lace</li>
+                <li>Hampshire Music Service</a></li>
+                <li>Brightstars Dance Company</a></li>
+                <li>Portsmouth Music Festival</a></li>
+                <li>Southern Arts Academy</a></li>
+                <li>SD Studios</a></li>
+                <li>TADAA</li>
+                <li>Dynamic Dancee</li>
+                <li>Performers Theatre Company</li>
+                <li>Timestep Dance</li>
+                <li>The Academy of Musical Theatre</li>
             </ul>
         </div>
     </div>
