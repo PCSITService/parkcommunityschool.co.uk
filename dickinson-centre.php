@@ -25,7 +25,7 @@
         <br>
         <div class="medium-6 columns">
             <p>The Dickinson Centre is the perfect venue for meetings, conferences and training sessions, and is able to accommodate one-to-one meetings through to 90 visitors.</p>
-            <p>The rooms are equipped with super-fast WiFi (AC), projection and speakers.</p>
+            <p>The rooms are equipped with super-fast WiFi 6, projection and speakers.</p>
             <p>We are able to provide catering facilities to meet your needs and there are vending facilities in the café area, which has a bank of computers with free internet access for the general public.</p>
 
         </div>
