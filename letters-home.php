@@ -26,9 +26,14 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
                 </li>
+                 <li>
+                    <ul class="circle">February 2024<hr>
+                     <li><a href="/assets/letters/2024-02/student-review-day-09.02.2024.pdf" target="_blank">Student Review Day - 9th February 2024</a></li>                        
+                    </ul>
+                <li>
                 <li>
                     <ul class="circle">January 2024<hr>
-                     <li><a href="/assets/letters/2024-01/newsletter-26.01.2024.pdf" target="_blank">Newsletter - 26th Janury 2024</a></li>    
+                     <li><a href="/assets/letters/2024-01/newsletter-26.01.2024.pdf" target="_blank">Newsletter - 26th January 2024</a></li>    
                     <li><a href="/assets/letters/2024-01/january.2024-vaping.pdf" target="_blank">Vaping - January 2024 </a></li>
                     <li><a href="/assets/letters/2024-01/year-8-parents-evening-11.01.24.pdf" target="_blank">Year 8 Parents' Evening - 11th January 2024</a></li>
                     <li><a href="/assets/letters/2024-01/year-10-parents-evening-11.01.24.pdf" target="_blank">Year 10 Parents' Evening - 11th January 2024</a></li>
