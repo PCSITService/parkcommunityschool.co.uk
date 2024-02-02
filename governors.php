@@ -213,25 +213,11 @@ w
                        </div>
             </div>
 
-            <div class="medium-4 columns text-center  team-member-container">
-                      <a href="#" data-reveal-id="Governor-nmcmullan">
-                        <img src="images/governors/n-mcmullan.jpg" alt="Governor Profile Image" class="team-member">
-                      <p>Mrs N McMullan</p>
-                      Governor Details</a>
-                              <div id="Governor-nmcmullan" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                <h2 id="modalTitle">Mrs N McMullan</h2>
-                                <p class="lead">Appointed: 10.11.2019 <br>Term Expires: 09.11.2023</p>
-                                <p>Category: Parent Governor</p>
-                                <p>Committee Membership:</p>
-                                  <ul class="circle">
-                                      <li>Member of Administration Committee</li>
-                                  </ul>
-                               <p>
-                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
-                          </p>
-
-                              <a class="close-reveal-modal" aria-label="Close">&#215;</a>    
-                       </div>
+            <div class="medium-4 columns text-center  team-member-container end">
+                <a>
+                  <img src="images/governors/person.jpg" alt="Governor Profile Image" class="team-member">
+                <p>Pending</p>
+                Parent Governor</a>
             </div>
 
             <div class="medium-4 columns text-center team-member-container">
