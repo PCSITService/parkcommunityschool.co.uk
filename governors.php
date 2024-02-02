@@ -195,10 +195,10 @@ w
              <div class="medium-4 columns text-center  team-member-container">
                       <a href="#" data-reveal-id="Governor-cemery">
                         <img src="images/governors/c-emery.jpg" alt="Governor Profile Image" class="team-member">
-                      <p>Mrs Cathryn Emery</p>
+                      <p>Mrs C Emery</p>
                       Governor Details</a>
                               <div id="Governor-cemery" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                                <h2 id="modalTitle">Mrs Cathryn Emery</h2>
+                                <h2 id="modalTitle">Mrs C Emery</h2>
                                 <p class="lead">Appointed: 22.06.2022 <br>Term Expires: 21.06.2026</p>
                                 <p>Category: CO-OPTED</p>
                                 <p>Committee Membership: </p>
@@ -213,33 +213,31 @@ w
                        </div>
             </div>
 
-            <div class="medium-4 columns text-center  team-member-container end">
+              <div class="medium-4 columns text-center  team-member-container">
+                      <a href="#" data-reveal-id="Governor-cmiller">
+                        <img src="images/governors/c-miller.400x400 - GIMPExport.jpg" alt="Governor Profile Image" class="team-member">
+                      <p>Mrs C Miller</p>
+                      Governor Details</a>
+                              <div id="Governor-cmiller" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                                <h2 id="modalTitle">Mrs C Miller</h2>
+                                <p class="lead">Appointed: 05.07.2023 <br>Term Expires: 04.07.2027</p>
+                                <p>Category: CO-OPTED</p>
+                                <p>Committee Membership: </p>
+                                  <ul class="circle">
+                                  </ul>
+                               <p>
+                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
+                          </p>
+
+                              <a class="close-reveal-modal" aria-label="Close">&#215;</a>    
+                       </div>
+            </div>
+            <div class="medium-4 columns text-center  team-member-container">
                 <a>
                   <img src="images/governors/person.jpg" alt="Governor Profile Image" class="team-member">
                 <p>Pending</p>
                 Parent Governor</a>
-            </div>
-
-            <div class="medium-4 columns text-center team-member-container">
-                <a href="#" data-reveal-id="Governor-01">
-                  <img src="images/governors/c-miller.jpg" alt="" class="team-member">
-                <p>Mrs C Miller</p>
-                Governor Details</a>
-                        <div id="Governor-01" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                          <h2 id="modalTitle">Mrs C Miller</h2>
-                          <p class="lead">Appointed: 05.07.2023 <br>Term Expires: 04.07.2027</p>
-                          <p>Category: Co-Opted</p>
-                          <p>Committee Membership:</p>
-                            <ul class="circle">
-                                <li></li>
-                            </ul>
-                          <p>
-                            <li><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></li>
-                          </p>
-                            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-                        </div>
-            </div>
-            
+            </div>    
             
             <div class="medium-4 columns text-center  team-member-container end">
                 <a>
