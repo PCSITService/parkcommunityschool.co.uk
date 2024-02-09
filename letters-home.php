@@ -28,6 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">February 2024<hr>
+                     <li><a href="/assets/letters/2024-02/newsletter-09.02.2024.pdf" target="_blank">Newsletter - 9th February 2024</a></li>   
                      <li><a href="/assets/letters/2024-02/student-review-day-09.02.2024.pdf" target="_blank">Student Review Day - 9th February 2024</a></li>                        
                     </ul>
                 <li>
