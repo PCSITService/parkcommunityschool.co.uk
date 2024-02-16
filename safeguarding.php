@@ -39,6 +39,18 @@
                 <p>Mrs S Parish</p>
                 <p>Deputy DSL</p>
             </div>
+
+             <div class="medium-4 columns text-center team-member-container">
+                <img src="images/dsl/t-seaman.jpg" alt="Deputy DSL" class="team-member">
+                <p>Mrs T Seaman</p>
+                <p>Deputy DSL</p>
+            </div>
+
+             <div class="medium-4 columns text-center team-member-container">
+                <img src="images/dsl/e-leach.jpg" alt="Deputy DSL" class="team-member">
+                <p>Mrs E Leach</p>
+                <p>Deputy DSL</p>
+            </div>
     </div>
     <br><br>
 </section>
