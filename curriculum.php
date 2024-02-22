@@ -137,6 +137,7 @@
             <br>
 
             <p><a class="small button radius warning" href="/assets/curriculum/options_booklet.pdf" target="_blank">Booklet - GCSE Courses (2023-2024)</a></p>
+            <p><a class="small button radius warning" href="/assets/curriculum/options_booklet.pdf" target="_blank">Booklet - GCSE Courses (2024-2026)</a></p>
             <br>
 
         </div>
