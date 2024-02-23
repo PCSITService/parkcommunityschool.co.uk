@@ -48,14 +48,6 @@
         </span>
 
       <li>
-        <h4>Senior Admin Officer SIMS and Data</h4>  
-        <p><em>Closing Date: 23rd February 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-02/senior-admin-officer-sims-and-data.pdf" target="_blank">Position Details</a>
-        </span>
-
-      <li>
         <h4>Cafe Assistant - Casual</h4>  
         <p><em></em></p>
 
