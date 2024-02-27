@@ -41,10 +41,10 @@
 
        <li>
         <h4>Nursery Assistant</h4>  
-        <p><em>Closing Date: 27th February 2024</em></p>
+        <p><em>Closing Date: 13th March 2024</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2024-02/history-mat-cover-april-dec-2024.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2024-02/nursery-assistant-april-2024.pdf" target="_blank">Position Details</a>
         </span>
 
       <li>
