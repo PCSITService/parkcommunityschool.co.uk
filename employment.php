@@ -48,14 +48,6 @@
         </span>
 
       <li>
-        <h4>Teacher of History (Maternity Cover)</h4>  
-        <p><em>Closing Date: 26th February 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-02/history-mat-cover-april-dec-2024.pdf" target="_blank">Position Details</a>
-        </span>
-
-      <li>
         <h4>Cafe Assistant - Casual</h4>  
         <p><em></em></p>
 
