@@ -176,6 +176,9 @@
                     <li><a href="assets/revision/2023-06/ka1-year-7-revision-slides.pdf" target="_blank">KA1 Year 7 Revision Slides</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-8-revision-slides.pdf" target="_blank">KA1 Year 8 Revision Slides</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-9-revision-slides.pdf" target="_blank">KA1 Year 9 Revision Slides</a></li>
+                    <li><a href="assets/revision/2024-02/ka2-year-7-revision-slides.pdf" target="_blank">KA2 Year 7 Revision Slides</a></li>
+                    <li><a href="assets/revision/2024-02/ka2-year-8-revision-slides.pdf" target="_blank">KA2 Year 8 Revision Slides</a></li>
+                    <li><a href="assets/revision/2024-02/ka2-year-9-revision-slides.pdf" target="_blank">KA2 Year 9 Revision Slides</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
                     <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
