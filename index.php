@@ -166,13 +166,14 @@
                 <p>Here are some useful documents for Year 11 exams and Revision Studies in 2023</p>
                     <ul>
  
-                    <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022-2023 Exam Handbook</a></li>    
+<!--                <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022-2023 Exam Handbook</a></li>  -->
 <!--
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
-                    <li><a href="assets/exam/2023-05/2023-candidate-exam-handbook.pdf" target="_blank">Summer 2023 Candidate Exam Handbook</a></li>
+                    <li><a href="assets/exam/2024-exam-handbook.pdf" target="_blank">Summer 2024 Candidate Exam Handbook</a></li>
                     <li><a href="assets/exam/2023-10/yr11-mock-1-tt-oct-nov-2023.pdf" target="_blank">Year 11 Mock 1 Timetable 2023</a></li>
+                    <li><a href="assets/exam/yr-11-mock-2-tt-jan-feb-2024.pdf" target="_blank">Year 11 Mock 2 Timetable 2024</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-7-revision-slides.pdf" target="_blank">KA1 Year 7 Revision Slides</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-8-revision-slides.pdf" target="_blank">KA1 Year 8 Revision Slides</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-9-revision-slides.pdf" target="_blank">KA1 Year 9 Revision Slides</a></li>
