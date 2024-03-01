@@ -142,10 +142,8 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                    <li><a href="/assets/letters/2023-07/welcome-to-park.pdf" target="_blank">Welcome To Park</a></li>
-                    <li><a href="/assets/letters/2023-06/fresher-week-dates-letter-3.6.2023.pdf" target="_blank">Year 6 Freshers Week amended dates</a></li>
-                    <li><a href="/assets/letters/2023-03/transition-2023-letter-march-2023.pdf" target="_blank">Transition Letter March 2023</a></li></li>
-                    <li><a href="/assets/letters/2023-05/freshers-week-monday-3-july-friday-7-July.pdf" target="_blank">Fresher Week Monday 3rd July - Friday 7th July 2023</a></li></li>    
+                    <li><a href="/assets/letters/2023-07/welcome-to-park.pdf" target="_blank">Welcome To Park</a></li>  
+                    <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>  
                 </ul>
                 <p>Please email <a href="mailto:2023transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
 
