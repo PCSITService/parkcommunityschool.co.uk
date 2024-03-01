@@ -145,7 +145,7 @@
                     <li><a href="/assets/letters/2023-07/welcome-to-park.pdf" target="_blank">Welcome To Park</a></li>  
                     <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>  
                 </ul>
-                <p>Please email <a href="mailto:2023transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
+                <p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
 
                 <a class="expand button radius success" href="https://forms.office.com/e/0mD8G9wdU7" target="_blank">Acceptance Form</a>
 <!-- 
