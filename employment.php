@@ -40,6 +40,14 @@
       </li>-->
 
        <li>
+        <h4>Nursery Assistant</h4>  
+        <p><em>Closing Date: 3rd May 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-04/nursery-assistant-april-2024.pdf" target="_blank">Position Details</a>
+        </span>
+
+       <li>
         <h4>Site Assistant</h4>  
         <p><em>Closing Date: 17th April 2024</em></p>
 
