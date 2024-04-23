@@ -28,7 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">April 2024<hr>
-                     <li><a href="/assets/letters/2024-03/newsletter-22.04.2024.pdf" target="_blank">Newsletter - 22nd Arpil 2024</a></li>   
+                     <li><a href="/assets/letters/2024-04/newsletter-22.04.2024.pdf" target="_blank">Newsletter - 22nd Arpil 2024</a></li>   
              
                     </ul>
                  <li>
