@@ -40,14 +40,6 @@
       </li>-->
 
       <li>
-        <h4>Sous Chef</h4>  
-        <p><em>Closing Date: 29th April 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-04/sous-chef-april-2024.pdf" target="_blank">Position Details</a>
-        </span>
-
-      <li>
         <h4>Nursery Assistant</h4>  
         <p><em>Closing Date: 3rd May 2024</em></p>
 
