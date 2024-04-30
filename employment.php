@@ -56,7 +56,7 @@
         </span>
 
       <li>
-        <h4>Sous Chef/h4>  
+        <h4>Sous Chef>  
         <p><em>Closing Date: 17th May 2024</em></p>
 
         <span class="subheader">
