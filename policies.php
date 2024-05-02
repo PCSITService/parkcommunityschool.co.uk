@@ -227,6 +227,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/mental-health-emotional-wellbeing-policy.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Mental Health and Emotional Wellbeing</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/policies/studententitlementiag.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Student Entitlement in IAG</p>
