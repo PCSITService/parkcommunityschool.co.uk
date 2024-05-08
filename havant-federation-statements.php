@@ -26,12 +26,12 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
-                        <li><a href="/assets/letters/2023-10/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>
-                        <li><a href="/assets/havant-federation-statements/parent_letter_to_accompany_statements.pdf" target="_blank">Parent letter to accompany statements</a></li> 
-                        <li><a href="/assets/havant-federation-statements/joints_statement_mobile_phones_oct_2022.pdf" target="_blank">Joint Statement Mobile Phones Oct 2022</a></li>   
-                        <li><a href="/assets/havant-federation-statements/joint_statement_relational_conflict_and_bullying oct_2022.pdf" target="_blank">Joint Statement Relational Conflict and Bullying Oct 2022</a></li>           
-                        <li><a href="/assets/havant-federation-statements/joint_statement_standards_and_attendance_oct_2022.pdf" target="_blank">Joint Statement Standards and Attendance Oct 2022</a></li>           
-                        <li><a href="/assets/havant-federation-statements/appendix_to_attendance_statement.pdf" target="_blank">Appendix to Attendance statement</a></li>           
+                        <li><a href="/assets/havant-federation-statements/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>
+                        <li><a href="/assets/havant-federation-statements/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany statements</a></li> 
+                        <li><a href="/assets/havant-federation-statements/joint-statement-mobile-phones-oct-2023.pdf" target="_blank">Joint Statement Mobile Phones Oct 2022</a></li>   
+                        <li><a href="/assets/havant-federation-statements/joint-statement-relational-conflict-bullying-oct-2023.pdf" target="_blank">Joint Statement Relational Conflict and Bullying Oct 2022</a></li>           
+                        <li><a href="/assets/havant-federation-statements/joint-statement-standards-attendance-oct-2023.pdf" target="_blank">Joint Statement Standards and Attendance Oct 2022</a></li>           
+                        <li><a href="/assets/havant-federation-statements/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance statement</a></li>           
                     </ul>
                 </li>           	
 
