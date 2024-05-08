@@ -45,15 +45,7 @@
 
         <span class="subheader">
         <a href="assets/recruitment/2024-05/teacher-of-English-september-2024.pdf" target="_blank">Position Details</a>
-        </span>  
-
-      <li>
-        <h4>Sous Chef</h4>  
-        <p><em>Closing Date: 17th May 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-04/sous-chef-may-2024.pdf" target="_blank">Position Details</a>
-        </span>
+        </span>   
 
       <li>
         <h4>Business Development Administrator</h4>  
@@ -61,7 +53,15 @@
 
         <span class="subheader">
         <a href="assets/recruitment/2024-05/business-development-admin-may-2024.pdf" target="_blank">Position Details</a>
-        </span>  
+        </span> 
+
+      <li>
+        <h4>Sous Chef</h4>  
+        <p><em>Closing Date: 17th May 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-04/sous-chef-may-2024.pdf" target="_blank">Position Details</a>
+        </span> 
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
