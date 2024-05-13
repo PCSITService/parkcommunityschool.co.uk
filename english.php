@@ -42,15 +42,15 @@
 
         <h4>Additional opportunities:</h4>
         <ul>
-            <li>English Ambassadors – students visit local primary schools and read with younger students, explore their love of reading and writing, and take part in debating competitions. This opportunity is continuously developing in response to student voice and we are excited to hear ideas from students about how we can explore our love of English further!</li>
+            <li>English Ambassadors – we have reading and writing ambassadors who get together to celebrate their love of reading and/or writing, discuss texts they have enjoyed and share their own creations</li>
+            <li>Rap Projects – students work with local rap artists to create and perform their own raps to a public audience, using this is a platform to explore ways in which we can manipulate language and use our voices to promote our beliefs.</li>
             <li>Debate Club – students participate in interschool debate competitions across the county and potentially further afield.</li>
-            <li>Journalism – students have the opportunity within lessons and as part of extra-curricular programmes to prepare articles and written pieces to be published in ‘Park Post’.</li>
-            <li>Assembly Performances – students are encouraged to celebrate their work as part of live readings during the school assembly slot as well as using this as a forum to develop their spoken language skills</li>
-            <li>Creative writing competitions</li>
-            <li>Storyteller visits</li>
-            <li>Theatre trips</li>
-            <li>Working with local writers</li>
-            <li>BBC Young Reporter – students have the opportunity to spend a whole day gathering and reporting on current affairs and local events, which are posted via the BBC News website.</li>
+            <li>Journalism – students have the opportunity within lessons and as part of extra-curricular programmes to prepare articles and written pieces to be published in our school newsletter</li>
+            <li>Open Mic Performances – students are encouraged to celebrate their work as part of live readings during school assemblies, amphitheatres and open mic sessions, as well as using this as a forum to develop their spoken language skills.</li>
+            <li> Creative writing competitions.</li>
+            <li>Author visits.</li>
+            <li>Theatre trips.</li>
+            <li>BBC Young Reporter – students have the opportunity to spend a whole day gathering and reporting on current affairs and local events, which are posted via the BBC News website</li>
         </ul>
 
         <h3>Impact</h3>
@@ -83,7 +83,7 @@
         </ul>
         <p>Revision</p>
         <ul>
-            <li><a target="_blank" href="//members.gcsepod.com">GCSE Pod</a></li>
+            <li><a target="_blank" href="//https://pcshantssch.sharepoint.com/sites/English">Student Portal - English</a></li>
             <li><a target="_blank" href="//app.senecalearning.com/login">SENECA</a></li>
             <li><a target="_blank" href="//subscription.echalk.co.uk/login">E-chalk</a></li>
             <li><a target="_blank" href="//www.sparknotes.com">SparkNotes</a></li>
