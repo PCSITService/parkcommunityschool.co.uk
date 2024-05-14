@@ -77,8 +77,8 @@
         <h3>Useful Links</h3>
         <p>Exam Board</p>
         <ul>
-            <li><a target="_blank" href="//www.aqa.org.uk/subjects/english/gcse/english-literature-8702">AQA English Literature GCSE</a></li>
-            <li><a target="_blank" href="//www.aqa.org.uk/subjects/english/gcse/english-language-8700">AQA English Language GCSE</a></li>
+            <li><a target="_blank" href="//https://www.aqa.org.uk/subjects/english/gcse/english-literature-8702">AQA English Literature GCSE</a></li>
+            <li><a target="_blank" href="//https://www.aqa.org.uk/subjects/english/gcse/english-language-8700">AQA English Language GCSE</a></li>
             <li><a target="_blank" href="//www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-9-1-first-language-english-0990/">‘Cambridge iGCSE English Language</a></li>
         </ul>
         <p>Revision</p>
