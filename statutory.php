@@ -47,8 +47,7 @@
                 <li><a href="/assets/statutory/send-policy.pdf" target="_blank">SEND Policy</a></li>        
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
                 <li><a href="/summer-school.php" target="_blank">Summer School</a></li>
-                <li><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank">Suspension and Permanent Exclusion</a></li>
-                <li><a href="/assets/statutory/teacher-assessed-grades-centre-policy.pdf" target="_blank">Teacher Assessed Grades - Centre Policy</a></li>          
+                <li><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank">Suspension and Permanent Exclusion</a></li>      
             </ul>
             <br>
             <h5 class="subheader text-capitalize text-center"><small>Policies are available in downloadable PDF format <br>our <a href="/policies.php">Policies page</a></small></h5>
