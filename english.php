@@ -79,13 +79,11 @@
         <ul>
             <li><a target="_blank" href="//https://www.aqa.org.uk/subjects/english/gcse/english-literature-8702">AQA English Literature GCSE</a></li>
             <li><a target="_blank" href="//https://www.aqa.org.uk/subjects/english/gcse/english-language-8700">AQA English Language GCSE</a></li>
-            <li><a target="_blank" href="//www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-9-1-first-language-english-0990/">‘Cambridge iGCSE English Language</a></li>
         </ul>
         <p>Revision</p>
         <ul>
             <li><a target="_blank" href="//https://pcshantssch.sharepoint.com/sites/English">Student Portal - English</a></li>
             <li><a target="_blank" href="//app.senecalearning.com/login">SENECA</a></li>
-            <li><a target="_blank" href="//subscription.echalk.co.uk/login">E-chalk</a></li>
             <li><a target="_blank" href="//www.sparknotes.com">SparkNotes</a></li>
         </ul>
         <p>Suggested YouTube Revision</p>
