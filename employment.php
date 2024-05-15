@@ -41,19 +41,11 @@
 
       <li>
         <h4>Teacher of English - September 2024</h4>  
-        <p><em>Closing Date: 13th May 2024</em></p>
+        <p><em>Closing Date: 22nd May 2024</em></p>
 
         <span class="subheader">
         <a href="assets/recruitment/2024-05/teacher-of-English-september-2024.pdf" target="_blank">Position Details</a>
         </span>   
-
-      <li>
-        <h4>Business Development Administrator</h4>  
-        <p><em>Closing Date: 13th May 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-05/business-development-admin-may-2024.pdf" target="_blank">Position Details</a>
-        </span> 
 
       <li>
         <h4>Sous Chef</h4>  
