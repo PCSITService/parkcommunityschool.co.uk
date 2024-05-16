@@ -69,37 +69,45 @@
             </div>
             <br>
             <div class="text-center">
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/aqa-gcse-resources.pdf" class="button">AQA GCSE Resources</a>
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/competencies.pdf" class="button">Competencies</a>
-                        <a role="button" target="_blank" href="assets/curriculum/mfl/language-lesson.pdf" class="button">Language Lesson</a> 
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/aqa-gcse-resources.pdf" class="button">AQA GCSE Resources - GCSE 2025</a>
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/ks3-assessment-draft-proforma-mfl.pdf" class="button">KS3 Assessment Criteria</a>
             </div>
+
+            <br>
+            <div class="text-center">
+                        <a role="button" target="_blank" href="assets/curriculum/mfl/pearson-gcse-spanish-specification-2024-issue-1.pdf" class="button">Pearson Edexcel GCSE Resources - GCSE 2026</a>
+            </div>
+
+
 
         <h4>Additional opportunities:</h4>
         <ul>
-            <li>Language Ambassadors (all years).</li>
-            <li>Linguists of the Term (all years).</li>
-            <li>Homework Club (Year 7, 8 and 9).</li>
-            <li>Christmas activities  (all years).</li>
+            <li>Language Ambassadors (all years) with Miss Nuttall in C10 every Monday after school..</li>
+            <li>Christmas activities (all years).</li>
+            <li>Period 6 sessions (GCSE).</li>
+            <li>Italian and Portuguese club (all years) with Miss Torquete in C07 every Thursday after school.</li>
             <li>Reward/Revision college & university trips (all years).</li>
             <li>Period 6 sessions (GCSE).</li>
-            <li>MFL assemblies (whole school).</li>
-            <li>Portsmouth College programme (GCSE).</li>
+            <li>French club (KS4) with Miss Dermy in C06 every Thursday after schoolM.</li>
         </ul>
 
         <h3>Useful Links</h3>
-        <p>Exam Board</p>
+        <p>Exam Board for GCSE 2024 and 2025</p>
         <ul>
-            <li><a target="_blank" href="//www.aqa.org.uk/subjects/languages/gcse/spanish-8698">AQA Spanish GCSE</a></li>
-            <li><a target="_blank" href="assets/curriculum/mfl/aqa-subject-content.pdf">AQA Spanish Subject Content</a></li>
+            <li><a target="_blank" href="https://www.aqa.org.uk/subjects/languages/gcse/spanish-8698">AQA Spanish GCSE</a></li>
+            <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/aqa-subject-content.pdf">AQA Spanish Subject Content</a></li>
+            <li><a target="_blank" href="https://qualifications.pearson.com/en/qualifications/edexcel-gcses/spanish-2024.html">Pearson Edexcel GCSE Spanish (2024) | Pearson qualifications</a></li>
         </ul>
+
+
 
         <p>Revision</p>
         <ul>
-            <li><a target="_blank" href="//www.linguascope.com/">Linguascope (username and password available from teachers)</a></li>
-            <li><a target="_blank" href="//members.gcsepod.com/login?redirect_to=https%3A%2F%2Fmembers.gcsepod.com">GCSE POD</a></li>
+            <li><a target="_blank" href="https://pcshantssch.sharepoint.com/sites/mfl">Student Area - MFL</a></li>
+            <li><a target="_blank" href="https://senecalearning.com/en-GB/">Seneca Learning</a></li>
             <li><a target="_blank" href="//www.memrise.com/">MEMRISE</a></li>
-            <li><a target="_blank" href="assets/curriculum/mfl/pearson-revision.pdf">Pearson Revision Book Sample (full books available to buy from school).</a></li>
-            <li><a target="_blank" href="assets/curriculum/mfl/pearson-workbook.pdf">Pearson Workbook Book Sample (full books available to buy from school).</a></li>
+            <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/pearson-revision.pdf">Pearson Revision Book Sample (full books available to buy from school).</a></li>
+            <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/pearson-workbook.pdf">Pearson Workbook Book Sample (full books available to buy from school).</a></li>
         </ul>
 
         </div>
