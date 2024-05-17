@@ -163,7 +163,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/exams-2022.pdf" target="_blank">
+                <a href="/assets/policies/exams-2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Exams</p>
                     </div>
