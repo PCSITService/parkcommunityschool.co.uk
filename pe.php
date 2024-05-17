@@ -48,6 +48,8 @@
         <h3>Impact</h3>
             <p>All students will study sport at Park and within this they will develop a clear understanding of where to go next with assignments is shared within all lessons (pass criteria to merit and merit to distinction etc). Promoting accountability through strict deadlines and the sharing of each student's assignment completions, grade and actions to achieve projection (or higher). The department develop independence through structured stuck resources and models used within lessons and available to students through a shared platform.</p>
             <p>Through our structured curriculum and precise delivery of theory content examination outcomes have seen superb improvements over recent years with students becoming highly confident in unit content and assignment application.</p>
+            <p>2023 = 98% Pass - distinction* (12 distinction*, 15 distinctions, 51 merits, 60 pass)</em></p>
+            <p>2022 = 92.7% Pass - distinction* (19 distinction*/distinctions, 46 merits, 129 pass)</em></p>
             <p>2021 = 98.7% Pass - distinction* <em>(11 distinction*, 47 distinctions, 68 merits, 60 pass)</em></p>
             <p>2020 = 98.7% Pass - distinction* <em>(4 distinction*, 36 distinctions, 49 merits, 74 pass)</em></p> 
             <p>2019 = 100% Pass – distinction* <em>(66 distinction*, 23 distinctions, 36 merits, 19 pass)<em></p>
@@ -98,7 +100,7 @@
                                 <th class="text-center">Multiple Choice Testing</th>
                               </tr>
                               <tr>
-                                <td>Once a term.</td>
+                                <td>Once a fortnight.</td>
                               </tr>
                               <tr>
                                 <td>Content delivered to all groups through practical - relating to BTEC criteria and link to real world context.</td>
@@ -119,7 +121,7 @@
                 <p>Online exams are completed in BTEC Sport by students to ensure unit achievement this is through developed knowledge from KS3 theory input. Practical assessment is completed through BTEC criteria of Pass / Merit in relation to performance and application of skills within practise and competitive situations.</p>  
                 <p>A tracker is used throughout every lesson for immediate feedback on progress to course / unit completion and to what grade. Students can reflect on current working grade compared to projection and are able to then implement feedback and next step criteria effectively. Further feedback takes place after students have completed units of work at the end of each term/deadline which they are then issued this feedback form and 15 days to implement improvements.</p>  
                 <p>Regular feedback is given in books and on summative assessment forms at the end of units/assignments. It is also seen every lesson through verbal diagnostic conversations with suggested improvements. Books show specific feedback which stretch the level of understanding which is also specific to the attainment criteria for that task. Exemplar assignments are used throughout the course to promote independence and implementation of I do, you do, and we do. This is measured through progress on the class tracker and shown in improved work within portfolios.</p>
-                <p><strong>Year 9-11 examination PE</strong></p>
+                <p><strong>Year 10-11 examination PE</strong></p>
                     <div class="row">
                         <div class="large-6 columns">
                             <table>
@@ -386,7 +388,7 @@
         <h3>BTEC Specifications</h3>
             <p>The link provided to view the specifications for BTEC Sport:</p>
             <div class="text-center">
-                <a href="//qualifications.pearson.com/content/dam/pdf/BTEC-Firsts/Sport/2012/Specification-and-sample-assessments/9781446936368_BTECFIRST_L12_AWARD_SPORT_Iss3.pdf" target="_blank" class="button">Pearson BTEC Sport Specification</a>
+                <a href="/https://qualifications.pearson.com/content/dam/pdf/btec-tec-awards/sport/2022/specification-and-sample-assessments/btec-tech-award-sport-spec.pdf" target="_blank" class="button">Pearson BTEC Sport Specification</a>
             </div>
 
         <h3>Supportive Guides for Revision</h3>
@@ -394,37 +396,37 @@
               <li>
                 <!-- Resource 1 -->
                 <ul class="pricing-table">
-                  <li class="title">First Award Sport Student Book</li>
+                  <li class="title">Tech Award Sport Student Book</li>
                   <li class="description">ISBN: 9781446905555</li>
                   <li class="bullet-item">Covers Units 1–6 has relevant and specific content for the Pearson BTEC Level 1/Level 2 First Award in Sport.</li>
                   <li class="bullet-item">Underpinning knowledge and understanding needed at Level 2.</li>
                   <li class="bullet-item">Activities in each unit.</li>
                   <li class="bullet-item">Grading tips and support.</li>
-                  <li class="cta-button"><a class="button" target="_blank" href="//www.pearsonschoolsandfecolleges.co.uk/FEAndVocational/Sport/BTEC/BTEC-Firsts-Sport-2012/ISBN/StudentResources/BTECFirstAwardSportStudentBook.aspx">Buy Now</a></li>
+                  <li class="cta-button"><a class="button" target="_blank" href="https://www.whsmith.co.uk/products/btec-tech-award-2022-sport-student-book-btec-tech-award-sports-leadership-2nd-edition/paperback/9781292444581.html">Buy Now</a></li>
                 </ul>
               </li>
               <li>
                 <!-- Resource 2 -->
                 <ul class="pricing-table">
-                  <li class="title">First in Sport Revision Guide</li>
+                  <li class="title">Tech Award in Sport Revision Guide</li>
                   <li class="description">ISBN: 9781446906705</li>
                   <li class="bullet-item">The one topic-per-page format provides hassle-free revision.</li>
                   <li class="bullet-item">Written with learners in mind.</li>
                   <li class="bullet-item">Visually engaging pages break the content down into easily-digestible points.</li>
                   <li class="bullet-item">Designed to be used alongside the Workbook.</li>
-                  <li class="cta-button"><a class="button" target="_blank" href="//www.pearsonschoolsandfecolleges.co.uk/FEAndVocational/Sport/BTEC/BTEC-Firsts-Sport-2012/ISBN/RevisionGuidesandWorkbooks/BTECFirstsinSportRevisionGuide.aspx">Buy Now</a></li>
+                  <li class="cta-button"><a class="button" target="_blank" href="https://www.amazon.co.uk/New-BTEC-Tech-Award-Sport/dp/1837740615/ref=asc_df_1837740615/?tag=googshopuk-21&linkCode=df0&hvadid=658844169575&hvpos=&hvnetw=g&hvrand=10697990109558659643&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006773&hvtargid=pla-2194331527100&psc=1&mcid=04c3c2e87a6a38aa85df0055c7308112&th=1&psc=1">Buy Now</a></li>
                 </ul>
               </li>
               <li>
                 <!-- Resource 3 -->
                 <ul class="pricing-table">
-                  <li class="title">First in Sport Revision Workbook</li>
+                  <li class="title">Tech Award in Sport Revision Workbook</li>
                   <li class="description">ISBN: 9781446906712</li>
                   <li class="bullet-item">Hassle-free question practice, covering one topic per page. </li>
                   <li class="bullet-item">Build your confidence with guided practice questions.</li>
                   <li class="bullet-item">Unguided questions and practice tests.</li>
                   <li class="bullet-item">One-to-one page correspondence with the Revision Guide.</li>
-                  <li class="cta-button"><a class="button" target="_blank" href="//www.pearsonschoolsandfecolleges.co.uk/FEAndVocational/Sport/BTEC/BTEC-Firsts-Sport-2012/ISBN/RevisionGuidesandWorkbooks/BTECFirstsinSportWorkbook.aspx">Buy Now</a></li>
+                  <li class="cta-button"><a class="button" target="_blank" href="https://www.amazon.co.uk/Pearson-REVISE-Award-Sport-Revision/dp/129243614X/ref=asc_df_129243614X/?tag=googshopuk-21&linkCode=df0&hvadid=597934749256&hvpos=&hvnetw=g&hvrand=10697990109558659643&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006773&hvtargid=pla-1677113119903&psc=1&mcid=89f73a24a71c3a82931a20bacd5e78d3&th=1&psc=1">Buy Now</a></li>
                 </ul>
               </li>
             </ul>
