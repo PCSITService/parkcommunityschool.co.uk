@@ -88,7 +88,7 @@
             <li>Italian and Portuguese club (all years) with Miss Torquete in C07 every Thursday after school.</li>
             <li>Reward/Revision college & university trips (all years).</li>
             <li>Period 6 sessions (GCSE).</li>
-            <li>French club (KS4) with Miss Dermy in C06 every Thursday after schoolM.</li>
+            <li>French club (KS4) with Miss Dermy in C06 every Thursday after school.</li>
         </ul>
 
         <h3>Useful Links</h3>
@@ -96,10 +96,12 @@
         <ul>
             <li><a target="_blank" href="https://www.aqa.org.uk/subjects/languages/gcse/spanish-8698">AQA Spanish GCSE</a></li>
             <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/aqa-subject-content.pdf">AQA Spanish Subject Content</a></li>
-            <li><a target="_blank" href="https://qualifications.pearson.com/en/qualifications/edexcel-gcses/spanish-2024.html">Pearson Edexcel GCSE Spanish (2024) | Pearson qualifications</a></li>
         </ul>
 
-
+        <p> Exam Board from GCSE 2026</p>
+        <ul>
+            <li><a target="_blank" href="https://qualifications.pearson.com/en/qualifications/edexcel-gcses/spanish-2024.html">Pearson Edexcel GCSE Spanish (2024) | Pearson qualifications</a></li>
+        </ul>
 
         <p>Revision</p>
         <ul>
