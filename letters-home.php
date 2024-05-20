@@ -28,6 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">May 2024<hr>
+                     <li><a href="/assets/letters/2024-05/inspired-learning-study-leave-may-2024.pdf" target="_blank">Inspired Learning Study Leave - May 2024</a></li>    
                      <li><a href="/assets/letters/2024-05/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th May 2024</a></li>   
              
                     </ul>
