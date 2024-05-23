@@ -40,20 +40,12 @@
       </li>-->
 
       <li>
-        <h4>Teacher of Science with PE - September 2024</h4>  
-        <p><em>Closing Date: 22nd May 2024</em></p>
+        <h4>Assistant PA to Headteacher</h4>  
+        <p><em>Closing Date: 10th June 2024</em></p>
 
         <span class="subheader">
-        <a href="assets/recruitment/2024-05/teacher-of-science-with-pe-september-2024.pdf" target="_blank">Position Details</a>
+        <a href="assets/recruitment/2024-05/assistant-pa-to-headteacher.pdf" target="_blank">Position Details</a>
         </span> 
-
-      <li>
-        <h4>Teacher of English - September 2024</h4>  
-        <p><em>Closing Date: 22nd May 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-05/teacher-of-English-september-2024.pdf" target="_blank">Position Details</a>
-        </span>   
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
