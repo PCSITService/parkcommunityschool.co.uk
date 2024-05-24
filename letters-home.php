@@ -28,6 +28,7 @@
                 </li>
                  <li>
                     <ul class="circle">May 2024<hr>
+                     <li><a href="/assets/letters/2024-05/year-8-options-information-event-.05.06.2024.pdf" target="_blank">Year 8 Options Information Event - 5th June 2024</a></li>    
                      <li><a href="/assets/letters/2024-05/special-consideration-summer-exam-series-2024.pdf" target="_blank">Special Consideration - Summer Exam Series</a></li>   
                      <li><a href="/assets/letters/2024-05/year-9-end-of-year-trip-12.07.2024.pdf" target="_blank">Year 9 End of Year Trip - 12th July 2024</a></li>    
                      <li><a href="/assets/letters/2024-05/year-8-end-of-year-trip-25.06.2024.pdf" target="_blank">Year 8 End of Year Trip - 25th June 2024</a></li>    
