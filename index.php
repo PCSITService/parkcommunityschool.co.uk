@@ -501,12 +501,6 @@
                             <p>Tea Rooms at The Coach House</p>
                         </a></div>
                 </li>
-                <li>
-                    <div class="menu-box"><a href="/havant-plaza-cafe.php">
-                            <img src="images/index/park-at-the-plaza.png" alt="Park at the Plaza">
-                            <p>The Havant Plaza Café</p>
-                        </a></div>
-                </li>
 <!-- 
                 <li>
                     <div class="menu-box"><a href="/waterfront.php">
