@@ -28,6 +28,9 @@
                 </li>
                  <li>
                     <ul class="circle">May 2024<hr>
+                     <li><a href="/assets/letters/2024-05/year-9-end-of-year-trip-12.07.2024.pdf" target="_blank">Year 9 End of Year Trip - 12th July 2024</a></li>    
+                     <li><a href="/assets/letters/2024-05/year-8-end-of-year-trip-25.06.2024.pdf" target="_blank">Year 8 End of Year Trip - 25th June 2024</a></li>    
+                     <li><a href="/assets/letters/2024-05/year-7-end-of-year-trip-24.06.2024.pdf" target="_blank">Year 7 End of Year Trip - 24th June 2024</a></li>   
                      <li><a href="/assets/letters/2024-05/inspired-learning-study-leave-may-2024.pdf" target="_blank">Inspired Learning Study Leave - May 2024</a></li>    
                      <li><a href="/assets/letters/2024-05/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th May 2024</a></li>   
              
