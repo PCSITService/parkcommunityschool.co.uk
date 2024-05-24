@@ -91,48 +91,6 @@
         <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
     </div>
     <div class="row">
-        <div class="columns">
-            <h4>Hampshire Education - Community Impact 2020</h4>
-            <div class="row">
-                <div class="columns small-8 small-push-2">
-                    <img src="images/munch/hampshire_education_awards_2020.jpg">
-                </div>
-            </div>
-            <br>
-            <p>This recognised the Munch Community Food programme and Connect4Summer programme which provided free family holiday activities, childcare and meals.</p>
-            <p>New Years Honours 2022 Susan Parish, Business and Community Manager, Park Community School awarded an MBE for services to Education.</p>
-        </div>
-        <br><br>
-    </div>
-    <br><br><br>
-</section>
-
-<section class="grey-bg">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="columns">
-            <h4>Coronavirus Hero Award</h4>
-            <div class="row">
-                <div class="columns small-8 small-push-2">
-                    <img src="images/munch/coronavirus_hero_award.jpg">
-                </div>
-            </div>
-            <br>
-            <p>At Park Community School our team have received recognition of our efforts during the lock downs by providing our Munch Meals from <a href="//uk.linkedin.com/in/alanmakhavant">Alan Mak MP</a>.</p>
-        </div>
-        <br><br>
-    </div>
-    
-    <br><br>
-</section>
-
-<section>
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row">
         <div class="medium-6 columns">
             <h4>Order a MUNCH Money Box</h4>
             <p>If you’re a local business or looking for an easy way to help us then please order one of our MUNCH Money boxes to fill up and raise money to feed local children who qualify for free school meals during the school holidays.  When you have filled it up, please return it to us at school, or please contact us and we’ll collect it. We will post you a receipt and replace it on request.</p>
@@ -283,8 +241,8 @@
     <div class="row">
 
         <div class="columns">
-            <p>At Park on Tuesday we were delighted to welcome Katy Trapani the Community Champion from Asda Havant who kindly presented Susan Parish, Business and Community Manager at Park Community School a  cheque to help support the MUNCH project that is running throughout the holidays. Susan said “I am delighted to accept this on behalf of Park Community School for the MUNCH project, it makes such a difference and ensures that no child or parent will go hungry in Leigh Park”.</p>
-            <p>Katy also kindly brought along crayons, games and drawing pads for the children to enjoy when they come to MUNCH. Thank you so much to the ASDA Foundation.</p>
+          <!--  <p>At Park on Tuesday we were delighted to welcome Katy Trapani the Community Champion from Asda Havant who kindly presented Susan Parish, Business and Community Manager at Park Community School a  cheque to help support the MUNCH project that is running throughout the holidays. Susan said “I am delighted to accept this on behalf of Park Community School for the MUNCH project, it makes such a difference and ensures that no child or parent will go hungry in Leigh Park”.</p>
+            <p>Katy also kindly brought along crayons, games and drawing pads for the children to enjoy when they come to MUNCH. Thank you so much to the ASDA Foundation.</p> -->
         </div>
 
         <div class="medium-6 columns text-center">

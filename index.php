@@ -646,11 +646,11 @@
             <p>Mrs E Capaldi</p>
             <p class="subheader">Head of School</p>
         </div>
-        <div class="medium-4 small-6 columns text-center  team-member-container end">
+ <!--      <div class="medium-4 small-6 columns text-center  team-member-container end">
             <img src="images/slt/s-parish.jpg" alt="" class="team-member">
             <p>Mrs S Parish</p>
             <p class="subheader">Business &amp; Community Manager</p>
-        </div>
+        </div> -->
 
         </div>
 
