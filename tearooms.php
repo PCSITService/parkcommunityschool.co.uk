@@ -59,7 +59,7 @@
             <h4>So, you may be asking why is a school managing the Tea Rooms?</h4>
             <p>When the initial consultations took place to renovate the buildings and grounds of Leigh Park Gardens Park Community School were invited to join the board managing the process. We were able to support and provide information when plans were being generated to ensure use of the park would be engaging for young people and increase their use both socially and educationally. We have also been able offer job opportunity to former and current students.</p>
 
-            <p>At Park Community School we have a nationally awarded Catering Team led by Head Chefs Alex Moody and Andy Grant. We provide high quality meals for our students, alongside catering for business conferences, parties, weddings and festivals. We believe managing the Tea Rooms will give us the opportunity to showcase our skills and provide great food to the public. Any profits will support our school and community activities including our food bank and free community meals programme, Munch.</p>
+            <p>At Park Community School we have a nationally awarded Catering Team led by Executive Chef Steve Cross and Head Chef Alex Moody. We provide high quality meals for our students, alongside catering for business conferences, parties, weddings and festivals. We believe managing the Tea Rooms will give us the opportunity to showcase our skills and provide great food to the public. Any profits will support our school and community activities including our food bank and free community meals programme, Munch.</p>
 
         </div>
         <div class="columns">
