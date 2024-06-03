@@ -170,7 +170,7 @@
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
                     <li><a href="assets/exam/2024-exam-handbook.pdf" target="_blank">Summer 2024 Candidate Exam Handbook</a></li>
-                    <li><a href="assets/exam/2023-10/year-10-june-mock-tt-2024.pdf" target="_blank">Year 10 Mock Timetable 2024</a></li>
+                    <li><a href="assets/exam/year-10-june-mock-tt-2024.pdf" target="_blank">Year 10 Mock Timetable 2024</a></li>
                     <li><a href="assets/exam/2023-10/yr11-mock-1-tt-oct-nov-2023.pdf" target="_blank">Year 11 Mock 1 Timetable 2023</a></li>
                     <li><a href="assets/exam/yr-11-mock-2-tt-jan-feb-2024.pdf" target="_blank">Year 11 Mock 2 Timetable 2024</a></li>
                     <li><a href="assets/revision/2023-06/ka1-year-7-revision-slides.pdf" target="_blank">KA1 Year 7 Revision Slides</a></li>
