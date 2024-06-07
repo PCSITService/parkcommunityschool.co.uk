@@ -45,7 +45,23 @@
 
         <span class="subheader">
         <a href="assets/recruitment/2024-05/assistant-pa-to-headteacher.pdf" target="_blank">Position Details</a>
-        </span> 
+        </span>
+
+      <li>
+        <h4>Teacher of Science (Maternity Cover)</h4>  
+        <p><em>Closing Date: 12th June 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-06/science-maternity-cover-september-2024.pdf" target="_blank">Position Details</a>
+        </span>
+        
+      <li>
+        <h4>Teacher of Spanish</h4>  
+        <p><em>Closing Date: 12th June 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-06/mfl-sept-2024 .pdf" target="_blank">Position Details</a>
+        </span>     
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
