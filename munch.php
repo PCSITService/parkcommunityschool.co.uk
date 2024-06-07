@@ -36,7 +36,7 @@
 
         <div class="columns">
             <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday - Friday 12-1pm</small></p>
-            <p>MUNCH is back <strong>every Tuesday and Thursday tea time, 4pm-5.30pm</strong>.</p>
+            <p>MUNCH is back <strong>every Thursday tea time, 4pm-5.30pm</strong>.</p>
             <div class="columns text-center">
                 <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Munch 2022 Flyer</a>
             </div>
@@ -151,6 +151,16 @@
     </div>
     <div class="row">
         <div class="small-12 medium-4 columns">
+
+            <h4>2023-2024</h4>
+            <hr>
+                <ul class="bullet">
+                    <li>9,788 Meals </li>
+                    <li>895 Emergency Frozen Meals </li>
+                    <li>Over 140 guests for a Christmas Day</li>
+                </ul>
+            <hr>
+
             <h4>2022-2023</h4>
             <hr>
                 <ul class="bullet">

@@ -37,7 +37,7 @@
                PO9 4BU<br>
            </p>
 
-           <p>Munch Community Food Pantry continues to operate in the same way. Opening hours are Monday – Friday 11am – 2.30pm and everyone is welcome.</p>
+           <p>Munch Community Food Pantry continues to operate in the same way. Opening hours are Monday 11am - 1pm, Tuesday 11am - 1pm, Wednesday 5pm - 7pm and Thursday 11am - 1pm.</p>
 
 
             <div class="text-center">
