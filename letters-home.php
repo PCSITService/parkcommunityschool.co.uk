@@ -26,7 +26,16 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
                 </li>
+
+                <li>
+                    
+                    <ul class="circle">June 2024<hr>
+                     <li><a href="/assets/letters/2024-06/year-9-study-hall-masterclass-june-24.pdf" target="_blank">Year 9 Study Hall Masterclass - June 2024</a></li>       
+                     <li><a href="/assets/letters/2024-06/year-10-study-hall-masterclass-june-24.pdf" target="_blank">Year 10 Study Hall Masterclass - June 2024</a></li>    
+             
+                    </ul>
                  <li>
+
                     <ul class="circle">May 2024<hr>
                      <li><a href="/assets/letters/2024-05/year-10-mock-fortnight-12.06.2024.pdf" target="_blank">Year 10 Mock Fortnight - 12th June 2024</a></li>       
                      <li><a href="/assets/letters/2024-05/year-8-options-information-event-.05.06.2024.pdf" target="_blank">Year 8 Options Information Event - 5th June 2024</a></li>    
