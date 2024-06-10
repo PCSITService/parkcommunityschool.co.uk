@@ -40,14 +40,6 @@
       </li>-->
 
       <li>
-        <h4>Assistant PA to Headteacher</h4>  
-        <p><em>Closing Date: 10th June 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-05/assistant-pa-to-headteacher.pdf" target="_blank">Position Details</a>
-        </span>
-
-      <li>
         <h4>Teacher of Science (Maternity Cover)</h4>  
         <p><em>Closing Date: 12th June 2024</em></p>
 
@@ -62,6 +54,14 @@
         <span class="subheader">
         <a href="assets/recruitment/2024-06/mfl-sept-2024.pdf" target="_blank">Position Details</a>
         </span> 
+
+      <li>
+        <h4>Sous Chef </h4>  
+        <p><em>Closing Date: 17th June 2024</em></p>
+
+        <span class="subheader">
+        <a href="assets/recruitment/2024-06/sous-chef-june-2024.pdf" target="_blank">Position Details</a>
+        </span>   
 
       <li>
         <h4>Nursery Assistant (Maternity Cover)</h4>  
