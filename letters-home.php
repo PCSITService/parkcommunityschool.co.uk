@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">June 2024<hr>
+                     <li><a href="/assets/letters/2024-06/year7-9-testing-week-wc-24.06.2024.pdf" target="_blank">Year 7 - 9 Testing Week - 24th June 2024</a></li>   
                      <li><a href="/assets/letters/2024-06/newsletter-17.06.2024.pdf" target="_blank">Newsletter - 17th June 2024</a></li>   
                      <li><a href="/assets/letters/2024-06/hsdc-tasterday-18.06.2024.pdf" target="_blank">HSDC Taster Day - 18th June 2024</a></li>   
                      <li><a href="/assets/letters/2024-06/year-9-study-hall-masterclass-june-24.pdf" target="_blank">Year 9 Study Hall Masterclass - June 2024</a></li>       
