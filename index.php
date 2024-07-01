@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="columns">
                         <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams and Revision</a>
-                        <a class="small button radius success" href="assets/letters/2023-07/welcome-to-park.pdf" target="_blank">Welcome to Park</a>
+                        <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
                     </div>
@@ -142,8 +142,9 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                    <li><a href="/assets/letters/2023-07/welcome-to-park.pdf" target="_blank">Welcome To Park</a></li>  
-                    <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>  
+                    <li><a href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome To Park</a></li>  
+                    <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>
+                    <li><a href="/assets/freshers.week/2024/transition-2024-letter-2-may-2024.pdf" target="_blank">Transition Letter - May 2024</a></li>  
                 </ul>
                 <p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
 
@@ -379,13 +380,16 @@
 		        <br>
 		        <h3>Welcome to Park...</h3>
 		        <div class="text-center">
-		            <div class="medium-offset-1 medium-10 large-offset-0 large-12">
+		            <div class="medium-12 large-12">
 		                <!-- SLIDER -->
 		                <div class="homepage-slider">
 		                    <!-- VIMEO Showcase Video Reel -->
 		                    <div>
-		                        <div class="flex-video widescreen border-radius-5">
-		                            <iframe src="https://player.vimeo.com/video/658514122?h=a473845737&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		                        <div class="flex-video widescreen border-radius-6">
+                                    <p>Park’s goal is ‘Success for all through attainment, resilience and autonomy’. This is achieved by supporting each student to ensure they are given the opportunity to succeed. </p>
+                                    <p>We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly. </p>
+                                    <p>We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
+                                    <p>We describe ourselves as ‘Much more than just a school’ because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support..</p>
                                 </div>
 		                    </div>
 		                    <div>
