@@ -29,6 +29,15 @@
 
                 <li>
                     
+                    <ul class="circle">July 2024<hr>
+                     <li><a href="/assets/letters/2024-07/year-7-power-of-music-concert-12.07.2024.pdf" target="_blank">Year 7 Power of Music Concert - 12th July 2024</a></li>    
+    
+             
+                    </ul>
+                 <li>
+
+                <li>
+                    
                     <ul class="circle">June 2024<hr>
                      <li><a href="/assets/letters/2024-06/year-9-smsc-11.07.2024.pdf" target="_blank">Year 9 SMSC - Thursday 11th July 2024</a></li>    
                      <li><a href="/assets/letters/2024-06/year7-9-testing-week-wc-24.06.2024.pdf" target="_blank">Year 7 - 9 Testing Week - 24th June 2024</a></li>   
