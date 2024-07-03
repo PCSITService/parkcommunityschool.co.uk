@@ -35,18 +35,36 @@
             <p><strong>Lighting Fires</strong> The Performing Arts intention is to ignite the flame of curiosity and passion within in the hearts and minds of the students at park. We thrive to deliver and develop key live skills and to nurture passionate, imaginative, and creative individuals, preparing them for further education and future careers. The performing arts curriculum prepares students to become independent and creative through the delivery of a diverse range of schemes of work which allows students to develop an understanding of different styles and practitioners. Furthermore, the performing arts curriculum promotes a sense of self-worth and encourages a growth in confidence, resilience, and autonomy.</p>
                         
             <h3>Implementation</h3>
-            <p><strong>Releasing Potential</strong> The KS3 curriculum enables students to build up a good repertoire of basic skills that students need to master before they go into KS4. Students learn a range of different choreographic devices and performance skills that build their self-confidence and teamwork skills that are fundamental to their learning. Students have the opportunity to learn different styles of Dance and are encouraged to self-assess and evaluate the work of others. Examples of units are Thriller, Bollywood, Hip hop, Swan Song, Stimulus and Dance with a prop which all include looking at a wide range of dance styles.</p>
-            <p>Once in KS4 students then begin studying for the RSL Level 2 Certificate in Creative and Performing Arts (Dance) which consists of two units; Ensemble and Live Performance.</p>
+            <p><strong>Releasing Potential</strong> The KS3 curriculum enables students to build up a repertoire of basic skills that students need to master before they go into KS4. Students learn a range of different choreographic devices and performance skills that build their self- confidence and teamwork skills that are fundamental to their learning. Students have the opportunity to learn differentstyles of Dance and are encouraged to self-assess and evaluate the work of others. Examples of units are Video games,Nutcracker, Madhatter’s tea party ,Swan Song, Soldiers and Choreography project. All units will equip students withrelevant skills in order to access our KS4 courses. Students will also have the opportunity to achieve an Arts Award withintheir theory lessons.Homework is set every 2 weeks via Multiple Choice Questioning (MCQ)KS3 students have the opportunity to be involved in our Performing Arts ambassador team. This involves working withstudents across our feeder schools as well as supporting our department with shows and extra curricular activities</p>
 
-            <p><strong>Performance</strong> Students look at physical fitness and effectiveness as a performer through safe practice, technique classes, rehearsal, and performance. They are encouraged to work together to create and perform pieces which challenge students and enable them to achieve their full potential.</p>
+            <p>Once in KS4 students then begin studying for the BTEC TECH Award Level 2 in Performing Arts. The course has three
+               components and learners are required to achieve all three in order to pass the course.</p>
 
-            <p><strong>Choreography</strong> Students explore ideas based around a variety of stimuli through creating, improvising, developing, and selecting movements appropriate to a theme or stimulus. Throughout the course they create a group piece of choreography as well as a solo, both of which are based on stimuli from professional dance works.</p>
+            <p><strong>Component 1- ‘Exploring the Performing Arts’</strong> This unit is an internal assessment set by Pearson, marked by the centre and moderated by Pearson. Learners will develop their understanding of the Performing Arts by examining the work of performing arts professionals and the processes used to create performance. Learning outcome A- Investigate how professional performance or production work is created. Learning outcome B- Demonstrate understanding of the skills, techniques, and approaches used by professionals to create performance/production work.</p>
 
-            <p><strong>Analysis</strong> Students develop their evaluative skills through describing and analysing their practical work. They will keep a weekly journal where they will evaluate strengths, areas for improvement and set personal targets.</p>
+            <p><strong>Component 2’ Developing skill and techniques in the Performing arts’</strong> This is a internal assessment set by Pearson, marked by the centre ad moderated by Pearson. Learners will develop their performing arts skills and techniques through the reproduction of acting, dance and musical theatre repertoire as performers or designers.
+
+            Learning outcome A- Use rehearsal or production/design processes
+            Learning outcome B- Apply skills and techniques in Performance or realisation
+            Learning outcome C- Review own development and application of performance or design skills</p>
+
+            <p><strong>Component 3-‘Responding to a brief’</strong> SThis unit is an externally marked unit set by Pearson. Learners will be given the opportunity to work as part of a group to contribute to a workshop performance as either a performer or a designer in response to a brief and stimulus.</p>
 
             <p>Homework is set every 2 weeks via Multiple Choice Questioning (MCQ).</p>
 
-            <h3>Impact</h3><p><strong>Building Dreams</strong>
+            <?php
+            echo '
+            <h3>Impact</h3>
+            <p><strong>Building Dreams</strong></p>
+            <p>There are multiple ways students can Find What They Love within Performing Arts beyond the classroom. For example:</p>
+            <ul>
+             <li>Performing Arts ambassador programme - allowing students to develop their ability to coach and support students within our school and local junior schools in a creative setting.</li>
+            <li>Invitations to attend a variety of after school clubs and activities.</li>
+            <li>Students are invited to support within our school productions as either a performer or production role.</li>
+             <li>Amphitheatre- Students are offered the opportunity to perform live within our bespoke assembly setting.</li>
+            </ul>
+            ';
+            ?>
 
             <div class="text-center">
                     <img src="assets/curriculum/dance/impact.png">
