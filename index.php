@@ -373,59 +373,40 @@
 <!-- CONTENT -->
 <section>
     <div class="row">
-    <br>
-	    <div class="large-8 columns">
-	        <div class="row">
-	        	<div class="large-11 columns">
-		        <br>
-		        <h3>Welcome to Park...</h3>
-		        <div class="text-center">
-		            <div class="medium-12 large-12">
-		                <!-- SLIDER -->
-		                <div class="homepage-slider">
-		                    <!-- VIMEO Showcase Video Reel -->
-		                    <div>
-		                        <div class="flex-video widescreen border-radius-6">
-                                    <p>Park’s goal is ‘Success for all through attainment, resilience and autonomy’. This is achieved by supporting each student to ensure they are given the opportunity to succeed. </p>
-                                    <p>We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly. </p>
-                                    <p>We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
-                                    <p>We describe ourselves as ‘Much more than just a school’ because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support..</p>
+        <div class="large-14 columns">
+            <div class="row">
+                <div class="large-8 columns">
+                    <h3>Welcome to Park...</h3>
+                    <div class="text-center">
+                        <div class="medium-12 large-12">
+                            <!-- SLIDER -->
+                            <div class="homepage-slider">
+                                <!-- VIMEO Showcase Video Reel -->
+                                <div>
+                                    <div class="flex-video widescreen border-radius-6">
+                                        <p>Park’s goal is ‘Success for all through attainment, resilience and autonomy’. This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
+                                        <p>We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly.</p>
+                                        <p>We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
+                                        <p>We describe ourselves as ‘Much more than just a school’ because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
+                                    </div>
                                 </div>
-		                    </div>
-		                    <div>
-		                        <div class="flex-video widescreen border-radius-5">
-		                            <p>Ofsted said in 2022:</p>
-		                            <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
-		                            <p>Pupils are reading regularly in school and for pleasure.</p>
-		                            <p>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
-		                     
+                                <div>
+                                    <div class="flex-video widescreen border-radius-5">
+                                        <p>Ofsted said in 2022:</p>
+                                        <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
+                                        <p>Pupils are reading regularly in school and for pleasure.</p>
+                                        <p>Leaders and governors have an ambitious long-term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
+                                    </div>
                                 </div>
-		                    </div>
-		                    <div>
-		                        <div class="flex-video widescreen border-radius-5">
-		                            <p>Ofsted said in 2022:</p>
-		                            <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
-		                            <p>Pupils are reading regularly in school and for pleasure.</p>
-		                            <p>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
-		                     
-                                </div>
-		                    </div>
-		                    <div>
-		                        <div class="flex-video widescreen border-radius-5">
-		                            <p>Ofsted said in 2022:</p>
-		                            <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
-		                            <p>Pupils are reading regularly in school and for pleasure.</p>
-		                            <p>Leaders and governors have an ambitious long term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
-		                     
-                                </div>
-		                    </div>
-		                    
-		                </div>
-		            </div>
-		        </div>   
-		        <br>
-		        </div>
-	        </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 	        <!-- Shortcut Links -->
             <div class="row">
