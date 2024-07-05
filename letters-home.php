@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">July 2024<hr>
+                     <li><a href="/assets/letters/2024-07/newsletter-05.07.2024.pdf" target="_blank">Newsletter - 5th July 2024</a></li>    
                      <li><a href="/assets/letters/2024-07/year-7-power-of-music-concert-12.07.2024.pdf" target="_blank">Year 7 Power of Music Concert - 12th July 2024</a></li>    
     
              
