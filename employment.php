@@ -40,14 +40,6 @@
       </li>-->
 
       <li>
-        <h4>Receptionist - September 2024</h4>  
-        <p><em>Closing Date: 9th July 2024</em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-07/receptionist-september-2024.pdf" target="_blank">Position Details</a>
-        </span> 
-
-      <li>
         <h4>Cafe Assistant - Casual</h4>  
         <p><em></em></p>
 
