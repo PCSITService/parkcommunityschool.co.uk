@@ -47,12 +47,6 @@
         <a href="assets/recruitment/2024-02/cafe-assistant-casual.pdf" target="_blank">Position Details</a>
         </span>
 
-	      <br>
-	      <h5 class="text-center"><small>Information about School Direct visit <br><a href="//www.thesolentscitt.co.uk/" target="_blank">www.theSolentSCITT.co.uk</a></small></h5>
-	      <br>
-	      <div class="show-for-small-only"><br></div>
-	    </div>
-
 	    <div class="small-12 medium-6 columns">
 			<h4>Documentation</h4>
 			<ul class="medium-block-grid-2">
