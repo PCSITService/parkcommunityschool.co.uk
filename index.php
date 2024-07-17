@@ -142,7 +142,7 @@
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                    <li><a href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome To Park</a></li>  
+                    <li><a href="assets/welcome-to-park-year-7.pdf" target="_blank">Welcome To Park - Year 7</a></li>
                     <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>
                     <li><a href="/assets/freshers.week/2024/transition-2024-letter-2-may-2024.pdf" target="_blank">Transition Letter - May 2024</a></li>  
                 </ul>
