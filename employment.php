@@ -60,6 +60,7 @@
 			    <ul style="line-height: 2;">Information | <small>PDF Files</small>
 			      <li><a href="assets/recruitment/documentation/applicant-information.pdf" target="_blank">Applicant Information</a></li>
 			      <li><a href="assets/recruitment/documentation/staff-dress-code.pdf" target="_blank">Staff Dress Code</a></li>
+            <li><a href="assets/recruitment/documentation/Staff.Dignity.At.Work.Conduct.pdf" target="_blank">Staff Dignity at Work Code of Conduct</a></li>
 			      <li><a href="assets/recruitment/documentation/privacy-statement.pdf" target="_blank">Privacy Statement</a></li>
 			    </ul>
 			  </li>
