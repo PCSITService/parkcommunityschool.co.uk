@@ -46,6 +46,8 @@
         <span class="subheader">
         <a href="assets/recruitment/2024-02/cafe-assistant-casual.pdf" target="_blank">Position Details</a>
         </span>
+      </li>
+	    </div>
 
 	    <div class="small-12 medium-6 columns">
 			<h4>Documentation</h4>
@@ -144,7 +146,6 @@
         <ul class="medium-block-grid-2 large-block-grid-3">
           <li><a href="//www3.hants.gov.uk/hampshirecountycouncil/portal-help/hr/salaryexpensesbenefits.htm#step-2" target="_blank">HCC – Salary and Employee Benefits</a></li>
           <li><a href="//www3.hants.gov.uk/education/educationjobshampshire.htm" target="_blank">Hampshire Jobs in Education</a></li>
-          <li><a href="//www.thesolentscitt.co.uk/" target="_blank">The Solent SCITT</a></li>
         </ul>
 
       </div>
