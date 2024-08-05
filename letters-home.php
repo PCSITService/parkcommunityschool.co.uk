@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">July 2024<hr>
+                     <li><a href="/assets/letters/2024-07/gsce.2024.results.day.year.11.pdf" target="_blank">GSCE Results Day - 22nd August 2024</a></li>   
                      <li><a href="/assets/letters/2024-07/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th July 2024</a></li>    
                      <li><a href="/assets/letters/2024-07/end.of.term.letter.july2024.pdf" target="_blank">End of Term Letter - July 2024</a></li>   
                      <li><a href="/assets/letters/2024-07/free.school.meal.price.increase-sept2024.pdf" target="_blank">Free School Meal Prince Increase - September 2024</a></li>    
