@@ -114,6 +114,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/conflict-of-interests.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Conflict of Interests</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/policies/2023-05/complaints-policy-and-procedure-april-2023.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Complaints Policy and Procedure</p>
@@ -219,6 +227,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/malpractice-exams-assessment.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Malpractice (Exams Assessment)</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/policies/medical-conditions.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Supporting Students with Medical Conditions</p>
@@ -296,6 +312,15 @@
                     </div>
                 </a>
             </li>
+
+            <li>
+                <a href="/assets/policies/word-processor.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Word Processor</p>
+                    </div>
+                </a>
+            </li>
+
             <li>
                 <a href="/assets/policies/2023-05/work-experience-march-2023.pdf" target="_blank">
                     <div class="policy-container">
