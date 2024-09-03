@@ -40,6 +40,20 @@
       </li>-->
 
       <li>
+    <article>
+        <header>
+            <h4>Receptionist</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-09/receptionist.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>
+
+      <li>
         <h4>Cafe Assistant - Casual</h4>  
         <p><em></em></p>
 
