@@ -108,6 +108,50 @@
         </div>
     </div><br>
 </section> -->
+
+<!--BANNER TEXT-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .text-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            line-height: 1.5;
+            background-color: #FFFF00; /* Yellow background */
+            color: #000000; /* Black text */
+            padding: 20px; /* Padding around the text */
+            border-radius: 10px; /* Rounded corners */
+            width: 100%; /* Width of the text container */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        .alert-icon {
+            font-size: 30px; /* Size of the icon */
+            margin-right: 15px; /* Space between the icon and text */
+            color: #000000; /* Color of the icon */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="text-container">
+            <span class="alert-icon">&#9888;</span> <!-- Banner Alert symbol -->
+            <span>
+                Year 6 Open Evening 25 September 2024 6-8pm<br>
+                Prospective parents, carers, and students are welcome to join us for our Open Evening where you will get to meet staff and students, tour the school, experience taster sessions, and hear our vision for all students at Park.
+            </span>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
 <!-- NOTIFICATION -->
 <section class="page-notification">
   <div class="row">
