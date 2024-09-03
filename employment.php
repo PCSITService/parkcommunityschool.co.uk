@@ -39,6 +39,20 @@
         </span>
       </li>-->
 
+            <li>
+    <article>
+        <header>
+            <h4>Nursery Assistant L2 or L3</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-09/nursery-assistant-l2-l3.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>
+
       <li>
     <article>
         <header>
