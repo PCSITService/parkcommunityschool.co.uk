@@ -30,8 +30,9 @@
                 <li>
                     
                     <ul class="circle">September 2024<hr>
+                     <li><a href="/assets/letters/2024-09/attendance-new-guidance-2024.pdf" target="_blank">Attendance - New Guidance 2024</a></li>   
                      <li><a href="/assets/letters/2024-09/year-11-revision-independent-study-2024-25.pdf" target="_blank">Year 11 Revision and Independent Study 2024-25</a></li>  
-             
+
                     </ul>
                  <li>
 
