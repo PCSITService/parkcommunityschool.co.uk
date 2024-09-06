@@ -22,35 +22,55 @@
 <section>
     <div class="row">
         <h3>Designated Safeguarding Leads:</h3>
-            <div class="medium-4 columns text-center team-member-container">
-                <img src="images/dsl/s-bannard.jpg" alt="Lead DSL" class="team-member">
-                <p>Ms S Bannard</p>
-                <p>Lead DSL</p>
-            </div>
 
-            <div class="medium-4 columns text-center team-member-container">
-                <img src="images/dsl/j-bryce.jpg" alt="Deputy DSL" class="team-member">
-                <p>Mr J Bryce</p>
-                <p>Deputy DSL</p>
-            </div>
+        <!-- First row: 4 columns -->
+        <div class="medium-3 columns text-center team-member-container">
+            <img src="images/dsl/SBN.png" alt="Lead DSL" class="team-member">
+            <p>Ms S Bannard</p>
+            <p>Lead DSL</p>
+        </div>
 
-            <div class="medium-4 columns text-center team-member-container">
-                <img src="images/dsl/s-parish.jpg" alt="Deputy DSL" class="team-member">
-                <p>Mrs S Parish</p>
-                <p>Deputy DSL</p>
-            </div>
+        <div class="medium-3 columns text-center team-member-container">
+            <img src="images/dsl/JBY.png" alt="Deputy DSL" class="team-member">
+            <p>Mr J Bryce</p>
+            <p>Deputy DSL</p>
+        </div>
 
-             <div class="medium-4 columns text-center team-member-container">
-                <img src="images/dsl/t-seaman.jpg" alt="Deputy DSL" class="team-member">
-                <p>Mrs T Seaman</p>
-                <p>Deputy DSL</p>
-            </div>
+        <div class="medium-3 columns text-center team-member-container">
+            <img src="images/dsl/ELE.png" alt="Deputy DSL" class="team-member">
+            <p>Mrs E Leach</p>
+            <p>Deputy DSL</p>
+        </div>
 
-             <div class="medium-4 columns text-center team-member-container">
-                <img src="images/dsl/e-leach.jpg" alt="Deputy DSL" class="team-member">
-                <p>Mrs E Leach</p>
-                <p>Deputy DSL</p>
-            </div>
+        <div class="medium-3 columns text-center team-member-container">
+            <img src="images/dsl/TSE.png" alt="Deputy DSL" class="team-member">
+            <p>Mrs T Seaman</p>
+            <p>Deputy DSL</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Second row: 3 columns -->
+        <div class="medium-4 columns text-center team-member-container">
+            <img src="images/dsl/SHO.jpg" alt="Deputy DSL" class="team-member">
+            <p>Mrs Sian Howes</p>
+            <p>Deputy DSL</p>
+        </div>
+
+        <div class="medium-4 columns text-center team-member-container">
+            <img src="images/dsl/JBR.png" alt="Deputy DSL" class="team-member">
+            <p>Mrs Jo-Anne Breedon</p>
+            <p>Deputy DSL</p>
+        </div>
+
+        <div class="medium-4 columns text-center team-member-container">
+            <img src="images/dsl/FFE.png" alt="Deputy DSL" class="team-member">
+            <p>Miss Florence Fearon</p>
+            <p>Community DSL</p>
+        </div>
+    </div>
+</section>
+
     </div>
     <br><br>
 </section>
