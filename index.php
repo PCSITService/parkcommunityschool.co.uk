@@ -86,7 +86,7 @@
     </div>
 </header>
 
-<!--BannerImage Section 
+<!--BannerImage Section
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,7 +102,7 @@
     <section>
         <div class="image-container">
             <?php
-            $imagePath = 'images\admissions/open-evening-poster.jpg';
+            $imagePath = 'images/admissions/open-evening-poster-new.jpg';
             echo '<img src="' . $imagePath . '" alt="Image">';
             ?>
         </div>
@@ -140,7 +140,7 @@
 <body>
     <section>
         <div class="text-container">
-            <span class="alert-icon">&#9888;</span> <!-- Banner Alert symbol -->
+            <span class="alert-icon">&#9888;</span> <Banner Alert symbol
             <span>
                 Year 6 Open Evening 25 September 2024 6-8pm<br>
                 Prospective parents, carers, and students are welcome to join us for our Open Evening where you will get to meet staff and students, tour the school, experience taster sessions, and hear our vision for all students at Park.
@@ -149,6 +149,8 @@
     </section>
 </body>
 </html>
+ 
+
 
 
 
