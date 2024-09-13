@@ -35,7 +35,7 @@
     <div class="row">
 
         <div class="columns">
-            <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday - Friday 12-1pm</small></p>
+            <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday 11am - 1pm, Tuesday 11am - 1pm, Wednesday 5pm - 7pm and Thursday 11am - 1pm</small></p>
             <p>MUNCH is back <strong>every Thursday tea time, 4pm-5.30pm</strong>.</p>
             <div class="columns text-center">
                 <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Munch 2022 Flyer</a>
@@ -102,27 +102,6 @@
         <br><br>
     </div>
     <br>
-</section>
-
-<section class="grey-bg" id="chrunch">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="columns">
-            <h4>BBC Inside Out South</h4>
-            <p>Park Community School's MUNCH project has been featured in BBC's Inside Out South</p>
-            <p>"We meet the Portsmouth head teacher who opens his school throughout the holidays to feed children who might otherwise be missing meals."</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="columns small-8 small-push-2">
-            <div class="flex-video widescreen border-radius-5">
-                <iframe src="https://player.vimeo.com/video/299177101" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    <br><br>
 </section>
 
 <section>
