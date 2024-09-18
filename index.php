@@ -86,7 +86,7 @@
     </div>
 </header>
 
-<!--BannerImage Section
+<BannerImage Section
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,16 +102,16 @@
     <section>
         <div class="image-container">
             <?php
-            $imagePath = 'images/admissions/open-evening-poster-new.jpg';
+            $imagePath = 'images/admissions/taster-day-poster.png';
             echo '<img src="' . $imagePath . '" alt="Image">';
             ?>
         </div>
     </div><br>
-</section> -->
+</section>
 
 <!--BANNER TEXT-->
 
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -148,7 +148,7 @@
         </div>
     </section>
 </body>
-</html>
+</html> -->
  
 
 
