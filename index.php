@@ -219,6 +219,7 @@
  -->
                     <li><a href="assets/exam/2024-exam-handbook.pdf" target="_blank">Summer 2024 Candidate Exam Handbook</a></li>
                     <li><a href="assets/exam/year-10-june-mock-tt-2024.pdf" target="_blank">Year 10 Mock Timetable 2024</a></li>
+                    <li><a href="assets/exam/yr-11-mock-1-tt-oct-nov-2024.pdf" target="_blank">Year 11 Mock 1 Timetable 2024</a></li>
                     <li><a href="assets/exam/september-y11-parent-student-eve.pdf" target="_blank">Year 11 Parent and Student | Parents Evening Information</a></li>
                     <li><a href="assets/revision/year -11-phase-1-revision-24-25.pdf" target="_blank">Year 11 Phase 1 Revision 24-25
                     </a></li>
