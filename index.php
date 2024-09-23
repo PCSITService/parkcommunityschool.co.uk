@@ -217,7 +217,7 @@
                     <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
                     <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
  -->
-                    <li><a href="assets/exam/2024-exam-handbook.pdf" target="_blank">Summer 2024 Candidate Exam Handbook</a></li>
+                    <li><a href="assets/exam/complete-candidate-examinations-book-2024-2025.pdf" target="_blank">Candidate Handbook for examinations during School Year 2024-25</a></li>
                     <li><a href="assets/exam/year-10-june-mock-tt-2024.pdf" target="_blank">Year 10 Mock Timetable 2024</a></li>
                     <li><a href="assets/exam/yr-11-mock-1-tt-oct-nov-2024.pdf" target="_blank">Year 11 Mock 1 Timetable 2024</a></li>
                     <li><a href="assets/exam/september-y11-parent-student-eve.pdf" target="_blank">Year 11 Parent and Student | Parents Evening Information</a></li>
