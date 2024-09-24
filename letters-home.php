@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">September 2024<hr>
+                     <li><a href="/assets/letters/2024-09/newsletter-23.09.2024.pdf" target="_blank">Newsletter - 23rd September 2024</a></li>   
                      <li><a href="/assets/letters/2024-09/additional-year-11-parents-evening-16-09-24.pdf" target="_blank">Year 11 Parents Evening - 16th September 2024</a></li>     
                      <li><a href="/assets/letters/2024-09/attendance-new-guidance-2024.pdf" target="_blank">Attendance - New Guidance 2024</a></li>   
                      <li><a href="/assets/letters/2024-09/year-11-revision-independent-study-2024-25.pdf" target="_blank">Year 11 Revision and Independent Study 2024-25</a></li>  

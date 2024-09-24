@@ -350,6 +350,7 @@
             <ul class="small-block-grid-1">
                 <li>
                     <ul class="circle"><hr>
+                        <li><a href="/assets/letters/2024-09/newsletter-23.09.2024.pdf" target="_blank">Newsletter - 23rd September 2024</a></li>  
                         <li><a href="/assets/letters/2024-07/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th July 2024</a></li>
                         <li><a href="/assets/letters/2024-07/newsletter-05.07.2024.pdf" target="_blank">Newsletter - 5th July 2024</a></li>    
                         <li><a href="/assets/letters/2024-06/newsletter-17.06.2024.pdf" target="_blank">Newsletter - 17th June 2024</a></li>
