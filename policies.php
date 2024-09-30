@@ -349,15 +349,6 @@
                 </a>
             </li>
         </ul>
-        <ul class="small-text-center medium-text-left small-block-grid-1 medium-block-grid-2 policies_list">
-                <a href="/assets/policies/admissions-2023-2024.pdf" target="_blank">
-                    <div class="policy-container">
-                        <p>2023 - 2024</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-
 
         <h5 class="subheader text-capitalize text-center"><small>Policies are available in downloadable PDF format</small></h5>
         <br>
