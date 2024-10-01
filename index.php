@@ -86,7 +86,7 @@
     </div>
 </header>
 
-<BannerImage Section
+<!--<BannerImage Section
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,7 +107,7 @@
             ?>
         </div>
     </div><br>
-</section>
+</section> -->
 
 <!--BANNER TEXT-->
 
@@ -209,7 +209,7 @@
             <div id="exam-information" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Exam Information</h2>
 
-                <p>Here are some useful documents for Year 11 exams and Revision Studies in 2023</p>
+                <p>Here are some useful documents for Year 11 exams and Revision Studies in 2024 - 2025</p>
                     <ul>
  
 <!--                <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022-2023 Exam Handbook</a></li>  -->
@@ -236,13 +236,9 @@
                 <h2 id="modalTitle">Parent - Learning</h2>
                 <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
                 <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
-                <a class="button radius success" href="//pcs-hantssls.eplatform.co/">ePlatform <small>(eBooks)</small></a>
-                
+              
 
                 <p>Your child can use the link above to log on and access all of their learning remotely.</p>
-                <p>They can also log on via Office 365 <a href="https://office.com/">https://office.com/</a> using their school log on and password.</p>
-
-                <p>If they've forgotten their password please email: <a href="mailto:itservices@pcs.hants.sch.uk">ITServices@pcs.hants.sch.uk</a></p>
 
                 <p>They will find:</p>
                 <ul>
@@ -251,56 +247,14 @@
                     <li>All the resources they will need including video clips and live demonstrations</li>
                     <li>Quizzes and application tasks to help them show they know</li>
                 </ul>
-                <p>Students can use this area to revise, access homework and revision and use for remote learning if they are required to work from home</p>
-
-                <p><strong>During Lockdown</strong></p>
-                <p>All learning is there ready for students.</p>
-                <p>Teachers will:</p>
-                <ul>
-                    <li>Set work via Classcharts and Google Classroom. Parents can see this by Google Classroom Guardians and Classcharts</li>
-                    <li>Email students via Teams every lesson to support with learning and give feedback</li>
-                    <li>Run Live lessons once every week for Years 7, 8 and 9 and every lesson for Years 10 and 11</li>
-                    <li>Give feedback on their work via Teams</li>
-                </ul>
-                <p>Additional work and resources can be accessed via:</p>
-                <ul>
-                    <li><a href="//vimeo.com/showcase/7029024" target="_blank">Video Assemblies</a></li>
-                    <li><a href="//vimeo.com/showcase/7145412">Lockdown Learning Revision Videos</a></li>
-                    <br>
-                    <li><a href="assets/reading_together.pdf">Reading Together</a></li>
-                    <li><a href="assets/reading_process.pdf">Reading Process</a></li>
-                    <li><a href="assets/reading_plus_guide.pdf">Reading Plus Guide</a></li>
-                    <br>
-                    <li><a href="//www.thenational.academy/">Oak National Academy</a></li>
-                    <li><a href="//www.bbc.co.uk/teach/live-lessons/">BBC Live Lessons</a></li>
-                    <li><a href="//members.gcsepod.com/login">GCSE Pod - Login</a></li>
-                </ul>
-
-                <p>IT Support</p>
-                <ul>
-                	<li><a href="assets/login-help.pdf">Need help logging in?</a></li>
-                    <li><a href="https://vimeo.com/499187398">How to access Teams <small>(Video)</small></a></li>
-                    <li><a href="assets/office_install.pdf" target="_blank">Downloading Microsoft Teams</a></li>
-                    <li><a href="assets/letters/2021-01/accessing-online-learning.pdf">Access Office365 using Playstation or Xbox</a></li>
-                    <br>
-                    <li><a href="/assets/letters/2020-03/virtual-school.pdf" target="_blank">Hampshire Guide for Parents and Carers - Virtual Learning</a></li>
-                    <li><a href="https://www.scopay.com/pcs" target="_blank">Tucasi online-payments</a></li>
-                </ul>            
-              
-              <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
-
+                <p>Students can use this area to revise, access homework and revision and use for remote learning if they are required to work from home</p>      
 
             <!-- STUDENT HOME LEARNING -->
             <div id="covid-student" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Student - Learning</h2>
                 <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
                 <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
-                <a class="button radius success" href="//pcs-hantssls.eplatform.co/">ePlatform <small>(eBooks)</small></a>
 
-                <p>Use the link above and your school log-on to access learning for all of your subject areas. You can also log on via: Office 365 <a href="https://office.com">https://office.com</a> using your school log on and password.</p>
-
-                <p>If you've forgotten your password, email <a href="mailto:ITServices@pcs.hants.sch.uk">ITServices@pcs.hants.sch.uk</a></p>
                 <ul>
                     <li>An overview of every half term for each subject</li>
                     <li>Lead PowerPoints with videos explaining your learning</li>
