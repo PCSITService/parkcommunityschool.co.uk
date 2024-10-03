@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">September 2024<hr>
+                     <li><a href="/assets/letters/2024-09/year-8-start-of-year-2024.pdf" target="_blank">Year 8 Start of Year 2024</a></li>   
                      <li><a href="/assets/letters/2024-09/year-10-start-of-year-2024.pdf" target="_blank">Year 10 Start of Year 2024</a></li>    
                      <li><a href="/assets/letters/2024-09/year-9-start-of-year-2024.pdf" target="_blank">Year 9 Start of Year 2024</a></li>  
                      <li><a href="/assets/letters/2024-09/year-10-revision-independant-study-2024-2025.pdf" target="_blank">Year 10 Revision and Independant Study 2024 - 2025</a></li>    
