@@ -27,6 +27,14 @@
         	<ul class="small-block-grid-1">
                 </li>
 
+                 <li>
+                    
+                    <ul class="circle">October 2024<hr>
+                     <li><a href="/assets/letters/2024-10/year-10-parents-evening-09.10.24.pdf" target="_blank">Year 10 Parents Evening | Wednesday 9th October 2024</a></li>    
+
+                    </ul>
+                 <li>
+
                 <li>
                     
                     <ul class="circle">September 2024<hr>
