@@ -42,6 +42,34 @@
             <li>
     <article>
         <header>
+            <h4>Print Shop Apprentice</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-10/pdp-apprentice.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>  
+
+            <li>
+    <article>
+        <header>
+            <h4>Senior Leader Primary</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-10/senior-leader-primary.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>            
+
+            <li>
+    <article>
+        <header>
             <h4>Science Teacher (Maternity Cover) - September 2024</h4>  
         </header>
 
