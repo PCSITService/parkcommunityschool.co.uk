@@ -11,7 +11,7 @@
     <header class="header-learning">
       <div class="row">
         <div class="medium-8 large-8 columns">
-          <h1>Careers Education Information Advise and Guidance</h1>
+          <h1>Careers Education Information Advice and Guidance</h1>
           <p class="text-capitalize">GET READY FOR THE FUTURE YOU WANT</p>
         </div>
       </div>
