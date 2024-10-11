@@ -56,7 +56,7 @@ w
                       Governor Details</a>
                               <div id="Governor-bharwood" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                                 <h2 id="modalTitle">Mr B Harwood</h2>
-                                <p class="lead">Appointed: 11.05.2019 <br>Term Expires: 10.05.2023</p>
+                                <p class="lead">Appointed: 11.05.2019 <br>Term Expires: 15.03.2027</p>
                                 <p>Category: Local Authority Govenor</p>
                                 <p>Committee Membership: </p>
                                   <ul class="circle">
@@ -128,7 +128,7 @@ w
                 Governor Details</a>
                         <div id="Governor-13" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                           <h2 id="modalTitle">Mr R Cousins</h2>
-                          <p class="lead">Appointed: 06.07.2016 <br>Term Expires: 28.07.2024</p>
+                          <p class="lead">Appointed: 06.07.2016 <br>Term Expires: 28.07.2028</p>
                           <p>Category: CO-OPTED</p>
                           <p>Committee Membership:</p>
                             <ul class="circle">
