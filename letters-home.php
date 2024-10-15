@@ -30,6 +30,7 @@
                  <li>
                     
                     <ul class="circle">October 2024<hr>
+                    <li><a href="/assets/letters/2024-10/newsletter-14.10.2024.pdf" target="_blank">Newsletter | Monday 14th October 2024</a></li>  
                      <li><a href="/assets/letters/2024-10/science-revision-guide-letter-03-10-24.pdf" target="_blank">Science Revision Guide</a></li>    
                      <li><a href="/assets/letters/2024-10/year-11-parents-evening.pdf" target="_blank">Year 11 Parents Evening | Thursday 17th October 2024</a></li>   
                      <li><a href="/assets/letters/2024-10/year-7-parents-evening.pdf" target="_blank">Year 7 Parents Evening | Thursday 17th October 2024</a></li>
