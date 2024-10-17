@@ -42,7 +42,7 @@
                     <br><br>
                     <a href="/assets/schoolmeals/menu.pdf" target="_blank">
                         <img class="border-grey-radius" src="images/schoolmeals/menu.png" alt="Park Community School Kitchen - The Watering Hole Menu">
-                        <p class="text-center">Sample Menu</p>
+                        <p class="text-center">School Menu</p>
                     </a>
                     <a href="/assets/schoolmeals/educatering.pdf" target="_blank">
                         <img class="border-grey-radius" src="images/schoolmeals/educatering.jpg" alt="Educatering">
