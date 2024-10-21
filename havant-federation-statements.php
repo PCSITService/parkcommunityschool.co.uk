@@ -26,11 +26,11 @@
         <div class="medium-12 columns">
         	<ul class="small-block-grid-1">
         	    <li>
-                        <li><a href="/assets/havant-federation-statements/joint-vaping-smoking-2023.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Vaping and Smoking 2024.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>
                         <li><a href="/assets/havant-federation-statements/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany statements</a></li> 
-                        <li><a href="/assets/havant-federation-statements/joint-statement-mobile-phones-oct-2023.pdf" target="_blank">Joint Statement Mobile Phones Oct 2022</a></li>   
-                        <li><a href="/assets/havant-federation-statements/joint-statement-relational-conflict-bullying-oct-2023.pdf" target="_blank">Joint Statement Relational Conflict and Bullying Oct 2022</a></li>           
-                        <li><a href="/assets/havant-federation-statements/joint-statement-standards-attendance-oct-2023.pdf" target="_blank">Joint Statement Standards and Attendance Oct 2022</a></li>           
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" target="_blank">Joint Statement Mobile Phones</a></li>   
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li>           
+                        <li><a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" target="_blank">Joint Statement Standards and Attendance</a></li>           
                         <li><a href="/assets/havant-federation-statements/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance statement</a></li>           
                     </ul>
                 </li>           	
