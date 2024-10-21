@@ -54,7 +54,7 @@
             <p><strong>‘More Than just a school;’ An expansive curriculum</strong></p>
 
             <div class="text-center">
-                        <img src="assets/curriculum/science/expansive-curriculum-overview.jpg" alt="Expansive Curriculum">
+                        <img src="assets/curriculum/science/SMSC.jpg" alt="Expansive Curriculum">
                     </div>
 
 
@@ -151,7 +151,7 @@
                 </ul>
 
             <h4>SMSC Implementation Map</h4>
-            <p><a href="assets/curriculum/smsc.pdf">Our SMSC curriculum - 2021/22</a>.</p>
+            <p><a href="assets/curriculum/smsc.pdf">Our SMSC curriculum</a></p>
 
             <h4>SMSC Half Termly Planning</h4>
             <p><a href="assets/curriculum/half-termly-planning.pdf">Half Termly Planning Grids</a>.</p>
