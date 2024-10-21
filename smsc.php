@@ -153,9 +153,6 @@
             <h4>SMSC Implementation Map</h4>
             <p><a href="assets/curriculum/smsc.pdf">Our SMSC curriculum</a></p>
 
-            <h4>SMSC Half Termly Planning</h4>
-            <p><a href="assets/curriculum/half-termly-planning.pdf">Half Termly Planning Grids</a>.</p>
-            <p>SMSC explores many issues that are of interest to parents. Helpful sources of support for parents can be found at the following links:</p>
             <ul>
                 <li><a target="_blank" href="//hampshirecamhs.nhs.uk">https://hampshirecamhs.nhs.uk/</a></li>
                 <li><a target="_blank" href="//www.safe4me.co.uk">https://www.safe4me.co.uk/</a></li>
