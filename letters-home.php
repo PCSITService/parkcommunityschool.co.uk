@@ -30,12 +30,11 @@
                  <li>
                     
                     <ul class="circle">October 2024<hr>
-                    <li><a href="/assets/havant-federation-statements/Joint Statement Vaping and Smoking 2024.pdf" target="_blank">Joint Statement - Vaping and Smoking</a></li>
-                    <li><a href="/assets/havant-federation-statements/letter-accompany-federation-statements-2023.pdf" target="_blank">Letter to accompany statements</a></li> 
-                    <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" target="_blank">Joint Statement Mobile Phones</a></li>   
-                    <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li>           
-                    <li><a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" target="_blank">Joint Statement Standards and Attendance</a></li>           
-                    <li><a href="/assets/havant-federation-statements/appendix-to-attendance-statement.pdf" target="_blank">Appendix to Attendance statement</a></li>    
+                    <li><a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" target="_blank">Parent Letter re Federation Joint Statements</a></li>
+                    <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" target="_blank">Joint Statement Mobile Phones</a></li> 
+                    <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li> 
+                    <li><a href="/assets/havant-federation-statements/Joint Statement Standards and Attendance Oct 2024.pdf" target="_blank">Joint Statement Standards and Attendance</a></li> 
+                    <li><a href="/assets/havant-federation-statements/Joint Statement Vaping and Smoking 2024.pdf" target="_blank">Joint Statement Vaping and Smoking</a></li>    
                     <li><a href="/assets/letters/2024-10/year8-rse-sessions-24.10.24.pdf" target="_blank">Year 8 RSE Session | Thursday 24th October 2024</a></li>    
                     <li><a href="/assets/letters/2024-10/year7-rse-sessions-24.10.24.pdf" target="_blank">Year 7 RSE Session | Thursday 24th October 2024</a></li>     
                     <li><a href="/assets/letters/2024-10/newsletter-14.10.2024.pdf" target="_blank">Newsletter | Monday 14th October 2024</a></li>  
