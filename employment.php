@@ -42,6 +42,48 @@
             <li>
     <article>
         <header>
+            <h4>Nursery Assistant - Level 3</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-10/Nursery Assistant - Level 3 - FTC - Oct 2024.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li> 
+
+            <li>
+    <article>
+        <header>
+            <h4>Nursery Assistant - Level 2</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-10/Nursery Assistant - L2 Oct 2024.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>     
+
+            <li>
+    <article>
+        <header>
+            <h4>Exam Invigilator</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-10/Exam Invigilator 2024.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>  
+
+            <li>
+    <article>
+        <header>
             <h4>2ic Maths</h4>  
         </header>
 
