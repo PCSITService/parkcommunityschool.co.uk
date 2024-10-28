@@ -30,6 +30,7 @@
                  <li>
                     
                     <ul class="circle">October 2024<hr>
+                    <li><a href="/assets/letters/2024-10/Year 10 Candidate Exam Handbook 2024-2025" target="_blank">Year 10 Candidate Exam Handbook 2024 - 2025</a></li>    
                     <li><a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" target="_blank">Parent Letter re Federation Joint Statements</a></li>
                     <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" target="_blank">Joint Statement Mobile Phones</a></li> 
                     <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li> 
