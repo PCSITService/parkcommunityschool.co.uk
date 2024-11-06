@@ -42,20 +42,6 @@
             <li>
     <article>
         <header>
-            <h4>Science Teacher - Maternity Cover</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-10/Science (Maternity Cover) - October 2024.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>      
-
-            <li>
-    <article>
-        <header>
             <h4>Nursery Assistant - Level 3</h4>  
         </header>
 
@@ -79,35 +65,7 @@
             </span>
         </footer>
     </article>
-</li>     
-
-            <li>
-    <article>
-        <header>
-            <h4>Exam Invigilator</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-10/Exam Invigilator 2024.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>  
-
-            <li>
-    <article>
-        <header>
-            <h4>Print Shop Apprentice</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-10/pdp-apprentice.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>          
+</li>             
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
