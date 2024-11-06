@@ -47,7 +47,7 @@
 
         <footer>
             <span class="subheader">
-                <a href="assets/recruitment/2024-10/Nursery Assistant - Level 3 - FTC - Oct 2024.pdf" target="_blank">Position Details</a>
+                <a href="assets/recruitment/2024-11/Nursery Assistant - Level 3 - FTC - Nov 2024.pdf" target="_blank">Position Details</a>
             </span>
         </footer>
     </article>
@@ -61,7 +61,7 @@
 
         <footer>
             <span class="subheader">
-                <a href="assets/recruitment/2024-10/Nursery Assistant - L2 Oct 2024.pdf" target="_blank">Position Details</a>
+                <a href="assets/recruitment/2024-11/Nursery Assistant - L2 FTC Nov 2024.pdf" target="_blank">Position Details</a>
             </span>
         </footer>
     </article>
