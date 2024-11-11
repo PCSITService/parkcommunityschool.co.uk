@@ -221,6 +221,7 @@
                     <li><a href="assets/exam/yr-11-mock-1-tt-oct-nov-2024.pdf" target="_blank">Year 11 Mock 1 Timetable 2024</a></li>
                     <li><a href="assets/exam/september-y11-parent-student-eve.pdf" target="_blank">Year 11 Parent and Student | Parents Evening Information</a></li>
                     <li><a href="assets/revision/year -11-phase-1-revision-24-25.pdf" target="_blank">Year 11 Phase 1 Revision 24-25</a></li>
+                    <li><a href="assets/revision/Year 11 Phase 2 Revision booklet 24-25.pdf" target="_blank">Year 11 Phase 2 Revision 24-25</a></li>
                     <li><a href="assets/revision/Revision Guide 2024.pdf" target="_blank">Revision Guide</a></li>
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
