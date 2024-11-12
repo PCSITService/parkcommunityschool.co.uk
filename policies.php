@@ -122,7 +122,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/2023-05/complaints-policy-and-procedure-april-2023.pdf" target="_blank">
+                <a href="/assets/policies/Complaints Policy and Procedure - April 2023.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Complaints Policy and Procedure</p>
                     </div>
