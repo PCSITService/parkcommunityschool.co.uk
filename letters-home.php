@@ -27,6 +27,14 @@
         	<ul class="small-block-grid-1">
                 </li>
 
+                <li>
+                    
+                    <ul class="circle">November 2024<hr>
+                    <li><a href="/assets/letters/2024-11/Sad news - 12 November 2024.pdf" target="_blank">Sad News - 12th November 2024</a></li>    
+
+                    </ul>
+                 <li>
+
                  <li>
                     
                     <ul class="circle">October 2024<hr>
