@@ -31,7 +31,7 @@
                 <li><a href="/assets/policies/behaviour.pdf" target="_blank">Behaviour Policy</a></li>
                 <li><a href="/assets/policies/ceiag.pdf" target="_blank">Careers Education Guidance</a></li>
                 <li><a href="/assets/policies/charging-and-remissions.pdf" target="_blank">Charging and Remissions</a></li>
-                <li><a href="/assets/statutory/complaints_procedure.pdf" target="_blank">Complaints Procedure</a></li>
+                <li><a href="/assets/policies/Complaints Policy and Procedure - April 2023.pdf" target="_blank">Complaints Procedure</a></li>
                 <li><a href="/contact.php">Contact Details</a></li>
                 <li><a href="/curriculum.php">Curriculum</a></li>
                 <li><a href="" target="_blank">ECT Induction</a></li>
