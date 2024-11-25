@@ -30,7 +30,7 @@
                 <li>
                     
                     <ul class="circle">November 2024<hr>
-                    <li><a href="/assets/letters/2024-11/Year 9 end of half term.docx" target="_blank">Year 9 End of Half Term</a></li>     
+                    <li><a href="/assets/letters/2024-11/Year 9 end of half term.pdf" target="_blank">Year 9 End of Half Term</a></li>     
                     <li><a href="/assets/letters/2024-11/Year 10 Testing week 1 18 11 2024.pdf" target="_blank">Year 10 Testing Week 1</a></li>       
                     <li><a href="/assets/letters/2024-11/Sad news - 12 November 2024.pdf" target="_blank">Sad News - 12th November 2024</a></li>    
 
