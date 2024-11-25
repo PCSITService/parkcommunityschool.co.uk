@@ -298,7 +298,7 @@
                 </a>
             </li>
             <li>
-                <a href="/assets/policies/uniform-policy.pdf" target="_blank">
+                <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Uniform Policy</p>
                     </div>
