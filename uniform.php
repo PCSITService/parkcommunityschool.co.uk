@@ -48,7 +48,7 @@
                 <li>Plain black outdoor shoes with sensible heels.</li>
                 <br>
             </ul>
-            <p><small>For more detailed information please view the schools policy <a href="/assets/policies/uniform-policy.pdf" target="_blank">"Uniform Policy"</a>.</small></p>
+            <p><small>For more detailed information please view the schools policy <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank">"Uniform Policy"</a>.</small></p>
         </div>
         <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-7 medium-offset-0 medium-5 columns"><img src="images/uniform/uniform-02.jpg" alt="Happy Students in Uniform"></div>
     </div>
