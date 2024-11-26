@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">November 2024<hr>
+                    <li><a href="/assets/letters/2024-11/Park Newsletter Nov 2024" target="_blank">Newsleteer - 25th November 2024</a></li>    
                     <li><a href="/assets/letters/2024-11/Year 9 end of half term.pdf" target="_blank">Year 9 End of Half Term</a></li>     
                     <li><a href="/assets/letters/2024-11/Year 10 Testing week 1 18 11 2024.pdf" target="_blank">Year 10 Testing Week 1</a></li>       
                     <li><a href="/assets/letters/2024-11/Sad news - 12 November 2024.pdf" target="_blank">Sad News - 12th November 2024</a></li>    
@@ -40,7 +41,7 @@
                  <li>
                     
                     <ul class="circle">October 2024<hr>
-                    <li><a href="/assets/letters/2024-10/Year 10 Candidate Exam Handbook 2024-2025" target="_blank">Year 10 Candidate Exam Handbook 2024 - 2025</a></li>    
+                    <li><a href="/assets/letters/2024-10/Year 10 Candidate Exam Handbook 2024-2025.pdf" target="_blank">Year 10 Candidate Exam Handbook 2024 - 2025</a></li>    
                     <li><a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" target="_blank">Parent Letter re Federation Joint Statements</a></li>
                     <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" target="_blank">Joint Statement Mobile Phones</a></li> 
                     <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li> 
