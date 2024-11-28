@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">November 2024<hr>
+                    <li><a href="/assets/letters/2024-11/Additional Year 11 parents evening 02 12 24.pdf" target="_blank">Additional Year 11 Parents Evening - Monday 2nd December</a></li>    
                     <li><a href="/assets/letters/2024-11/Park Newsletter Nov 2024.pdf" target="_blank">Newsletter - 25th November 2024</a></li>    
                     <li><a href="/assets/letters/2024-11/Year 9 end of half term.pdf" target="_blank">Year 9 End of Half Term</a></li>     
                     <li><a href="/assets/letters/2024-11/Year 10 Testing week 1 18 11 2024.pdf" target="_blank">Year 10 Testing Week 1</a></li>       
