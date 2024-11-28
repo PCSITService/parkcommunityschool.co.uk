@@ -179,6 +179,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>Governor Allowances</p>
+                    </div>
+                </a>
+            </li> 
+
+            <li>
                 <a href="/assets/policies/freedom_of_information.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Freedom of Information</p>
