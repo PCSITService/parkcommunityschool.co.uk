@@ -60,7 +60,7 @@
             <h4>Opening Hours</h4>
             <hr>
                 <ul class="no-bullet">
-                    <li>Monday - Friday: 9am - 4:30pm</li>
+                    <li>Monday - Friday: 9am - 4pm</li>
                     <li>Saturday: Closed</li>
                     <li>Sunday: Closed</li>
                 </ul>
