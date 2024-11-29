@@ -275,7 +275,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/safeguarding-adults.pdf" target="_blank">
+                <a href="/assets/policies/Safeguarding Adults  - November 2023.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Safeguarding Adults</p>
                     </div>
