@@ -42,6 +42,20 @@
             <li>
     <article>
         <header>
+            <h4>Community Assistant</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-11/Community Assistant Job Advert - Nov24.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>       
+
+            <li>
+    <article>
+        <header>
             <h4>Nursery Assistant - Level 3</h4>  
         </header>
 
