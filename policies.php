@@ -179,9 +179,9 @@
             </li>
 
             <li>
-                <a href="/assets/policies/Governors' Allowances - Nov 2024.pdf" target="_blank">
+                <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank">
                     <div class="policy-container">
-                        <p>Governor Allowances</p>
+                        <p>Governors' Allowances</p>
                     </div>
                 </a>
             </li> 
