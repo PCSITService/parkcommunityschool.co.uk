@@ -29,6 +29,15 @@
 
                 <li>
                     
+                    <ul class="circle">December 2024<hr>
+                    <li><a href="/assets/letters/2024-12/Year 8 half term letter - December 2024.pdf" target="_blank">Year 8 Half Term Letter</a></li>    
+                    <li><a href="/assets/letters/2024-12/Year 10 half term review - December 2024.pdf" target="_blank">Year 10 Half Term Letter</a></li>    
+
+                    </ul>
+                 <li>
+
+                <li>
+                    
                     <ul class="circle">November 2024<hr>
                     <li><a href="/assets/letters/2024-11/Additional Year 11 parents evening 02 12 24.pdf" target="_blank">Additional Year 11 Parents Evening - Monday 2nd December</a></li>    
                     <li><a href="/assets/letters/2024-11/Park Newsletter Nov 2024.pdf" target="_blank">Newsletter - 25th November 2024</a></li>    
