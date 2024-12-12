@@ -36,7 +36,7 @@
                 <li><a href="/curriculum.php">Curriculum</a></li>
                 <li><a href="" target="_blank">ECT Induction</a></li>
                 <li><a href="/assets/statutory/ethos-values.pdf" target="_blank">Ethos and Values</a></li>
-                <li><a href="/assets/statutory/Equality statement and objectives 2024-25.pdf" target="_blank">Equality Statement</a></li>
+                <li><a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank">Equality Statement</a></li>
                 <li><a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank">Governors' Allowances
                 <li><a href="https://schools-financial-benchmarking.service.gov.uk/school?urn=116473" target="_blank">Financial Benchmarking</a></li>
                 <li><a href="/assets/statutory/ks4-results.pdf" target="_blank">Key Stage 4 Results</a></li>
@@ -44,8 +44,8 @@
                 <li><a href="/ofsted-reports.php">Ofsted Reports 2022</a></li>
                 <li><a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank">Performance Tables</a></li>
                 <li><a href="/pupil-premium.php">Pupil Premium and Catch-up Funding</a></li>
-                <li><a href="/assets/statutory/send-information-report.pdf" target="_blank">SEND Information Report</a></li>                
-                <li><a href="/assets/statutory/SEND - September 2024.pdf" target="_blank">SEND Policy</a></li>        
+                <li><a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank">SEND Information Report</a></li>                
+                <li><a href="/assets/policies/SEND - September 2024.pdf" target="_blank">SEND Policy</a></li>        
                 <li><a href="/smsc.php" target="_blank">SMSC</a></li>
                 <li><a href="/summer-school.php" target="_blank">Summer School</a></li>
                 <li><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank">Suspension and Permanent Exclusion</a></li>      

@@ -283,7 +283,7 @@
             </li>
 
             <li>
-                <a href="/assets/statutory/SEND - September 2024.pdf" target="_blank">
+                <a href="/assets/policies/SEND - September 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>SEND Policy</p>
                     </div>
@@ -291,7 +291,7 @@
             </li>
 
             <li>
-                <a href="/assets/statutory/send-information-report.pdf" target="_blank">
+                <a href="/assets/polices/send-information-report.pdf" target="_blank">
                     <div class="policy-container">
                         <p>SEND Information Report</p>
                     </div>
