@@ -42,7 +42,7 @@
             </li> -->
 
             <li>
-                <a href="/assets/policies/accessibility.pdf" target="_blank">
+                <a href="/assets/policies/Accessibility - December 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Accessibility</p>
                     </div>
@@ -58,7 +58,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/anti-bullying.pdf" target="_blank">
+                <a href="/assets/policies/Anti Bullying - December 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Anti-Bullying</p>
                     </div>
@@ -163,7 +163,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/equality.pdf" target="_blank">
+                <a href="/assets/policies/Equality and Diversity - December 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Equality & Diversity</p>
                     </div>
@@ -283,7 +283,7 @@
             </li>
 
             <li>
-                <a href="/assets/statutory/send-policy.pdf" target="_blank">
+                <a href="/assets/statutory/SEND - September 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>SEND Policy</p>
                     </div>
