@@ -291,7 +291,7 @@
             </li>
 
             <li>
-                <a href="/assets/polices/SEND Information Report - September 2024.pdf" target="_blank">
+                <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank">
                     <div class="policy-container">
                         <p>SEND Information Report</p>
                     </div>
