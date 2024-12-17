@@ -42,12 +42,12 @@
             <li>
     <article>
         <header>
-            <h4>Community Assistant</h4>  
+            <h4>Head of PE</h4>  
         </header>
 
         <footer>
             <span class="subheader">
-                <a href="assets/recruitment/2024-11/Community Assistant Job Advert - Nov24.pdf" target="_blank">Position Details</a>
+                <a href="assets/recruitment/2024-12/Head of PE from April 2025.pdf" target="_blank">Position Details</a>
             </span>
         </footer>
     </article>
@@ -56,12 +56,12 @@
             <li>
     <article>
         <header>
-            <h4>Nursery Assistant - Level 3</h4>  
+            <h4>Teacher of PE</h4>  
         </header>
 
         <footer>
             <span class="subheader">
-                <a href="assets/recruitment/2024-11/Nursery Assistant - Level 3 - FTC - Nov 2024.pdf" target="_blank">Position Details</a>
+                <a href="assets/recruitment/2024-12/Teacher of PE - 2025.pdf" target="_blank">Position Details</a>
             </span>
         </footer>
     </article>
@@ -70,12 +70,12 @@
             <li>
     <article>
         <header>
-            <h4>Nursery Assistant - Level 2</h4>  
+            <h4>Teaching Assistant</h4>  
         </header>
 
         <footer>
             <span class="subheader">
-                <a href="assets/recruitment/2024-11/Nursery Assistant - L2 FTC Nov 2024.pdf" target="_blank">Position Details</a>
+                <a href="assets/recruitment/2024-12/Teaching Assistant - January 2025.pdf" target="_blank">Position Details</a>
             </span>
         </footer>
     </article>
