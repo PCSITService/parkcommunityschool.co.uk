@@ -30,6 +30,7 @@
                 <li>
                     
                     <ul class="circle">December 2024<hr>
+                    <li><a href="/assets/letters/2024-12/Park Newsletter 20 Dec 2024.pdf" target="_blank">Newsletter - 20th December 2024</a></li>     
                     <li><a href="/assets/letters/2024-12/End Of Term Letter 2024.pdf" target="_blank">End of Term Letter December 2024</a></li>    
                     <li><a href="/assets/letters/2024-12/Year 8 half term letter - December 2024.pdf" target="_blank">Year 8 Half Term Letter</a></li>    
                     <li><a href="/assets/letters/2024-12/Year 10 half term review - December 2024.pdf" target="_blank">Year 10 Half Term Letter</a></li>    
