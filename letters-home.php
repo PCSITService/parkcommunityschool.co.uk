@@ -30,6 +30,7 @@
                   <li>
                     
                     <ul class="circle">January 2025<hr>
+                    <li><a href="/assets/letters/2025-01/KS3 Autumn Term Reports 2024.pdf" target="_blank">KS3 Autumn Term Reports 2024</a></li>     
                     <li><a href="/assets/letters/2025-01/Year 10 - Spring Term 2025.pdf" target="_blank">Year 10 - Spring Term 2025</a></li>      
 
                     </ul>
