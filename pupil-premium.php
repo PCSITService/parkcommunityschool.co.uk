@@ -82,6 +82,7 @@
           <p>In 2020-21 1:1 reading intervention with 38 students improved either reading comprehension or decoding age for all students, with 70% improving both. An average improvement was evidenced of at least double ratio gains.</p>
           <p>In 2022, the gap between students attaining The Basics at 4+ was 14 % (Non-PP 33%).   PP 19%, The gap for Basics at 5+ was 6% (non-PP: 12% PP:6%).</p>
           <p>In 2023, the gap between students attaining The Basics at 4+ was 24% (Non-PP 46%, PP 22%) The gap for Basics at 5+ was 12% (Non-PP 18%, PP: 6%)</p>
+          <p>In 2024, the gap between students attaining The Basics at 4+ was 15% (Non-PP 32%, PP 17%) The gap for Basics at 5+ was 14% (Non-PP 20%, PP: 6%)</p>
           <p>Main barriers to educational achievement faced by eligible students could include:</p>
                 <ul class="circle">
                    <li>Low aspiration</li>
