@@ -35,7 +35,7 @@
           </ol>
 
           <p>
-            <a href="/assets/pupilpremium/pupil_premium_strategy_document.pdf" target="_blank">Pupil Premium Strategy Document</a>
+            <a href="/assets/pupilpremium/Pupil Premium Statement 2024-2027.pdf" target="_blank">Pupil Premium Strategy Document</a>
             </p>
 
           <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced the Education Endowment Foundation. Park Community School participated in the ‘Improving Outcomes for Disadvantaged Learners’ project with Hampshire and Rosendale Research during 2017-18, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
