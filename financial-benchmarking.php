@@ -2,7 +2,7 @@
 <html class="no-js" lang="en" >
     <head>
 
-        <title>Park Community School | Pupil Premium</title>
+        <title>Park Community School | Pupil Premium and Recovery Premium</title>
         <?php include("includes/head.html") ?>
     </head>
 <body class="page-school">
@@ -13,8 +13,7 @@
 <header class="header-school">
     <div class="row">
         <div class="medium-8 large-8 columns">
-            <h1>Pupil Premium</h1>
-            <p class="text-capitalize">How we put the money to good use</p>
+            <h1>Financial Benchmarking</h1>
         </div>
     </div>
 </header>
@@ -38,32 +37,32 @@
             <a href="/assets/pupilpremium/Pupil Premium Statement 2024-2027.pdf" target="_blank">Pupil Premium Strategy Document</a>
             </p>
 
-          <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced the Education Endowment Foundation. Park Community School participated in the ‘Improving Outcomes for Disadvantaged Learners’ project with Hampshire and Rosendale Research, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
+          <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced the Education Endowment Foundation. Park Community School participated in the ‘Improving Outcomes for Disadvantaged Learners’ project with Hampshire and Rosendale Research during 2017-18, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
         </div>
         <div class="small-10 small-centered medium-uncentered medium-5 columns">
           <br><img src="images/pupil-premium/pupil-premium-01.jpg" alt="Park Community School students enjoy school life." />
         </div>
 
         <div class="columns">
-          <p>For Academic Year 2023/2024, the school received the following amounts:</p>
+          <p>For Academic Year 2022/2023, the school received the following amounts:</p>
               <table>
                 <tr>
                   <td>Pupil Premium</td>
-                  <td>£550,655</td>
+                  <td>£502,201</td>
                 </tr>
                 <tr>
                   <td>Service Children</td>
-                  <td>£2218</td>
+                  <td>£2936</td>
                 </tr>
                 <tr>
                   <td>Post Looked After Children</td>
-                  <td>£6569</td>
+                  <td>£0</td>
                 </tr>
               </table>
 
           <p>Grant Allocation:</p>
-          <p>In 2023/2024 the school received £690,407.</p>
-          <p>The school spent £698,00 providing additional support for PP students. The pupil Premium is grant funding and is in addition to the school’s delegated budget. The school chooses to invest additional funding from its delegated budget to support pupil Premium funding.</p>
+          <p>In 2022/2023 the school received £511,903.</p>
+          <p>The school spent £641,567 providing additional support for PP students. The pupil Premium is grant funding and is in addition to the school’s delegated budget. The school chooses to invest additional funding from its delegated budget to support pupil Premium funding.</p>
           <p>The Pupil Premium is allocated by calculating the number of students who are on Free School Meals (FSM) or have had FSM in the last six years. Students who have been in care continuously for more than six months or have a parent in the Armed Services also lead to some additional funding for the school.</p>
         </div>
     </div>
