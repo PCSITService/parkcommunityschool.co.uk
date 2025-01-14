@@ -51,12 +51,25 @@
         .link-section a:hover {
             text-decoration: underline;
         }
+        .image-section {
+            text-align: center;
+            margin: 30px auto;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .image-section h3 {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="link-section">
         <p>You can view the school’s financial data and see how it compares with others by following the link below:</p>
-        <p><a href="https://financial-benchmarking-and-insights-tool.education.gov.uk/school/116473" target="_blank">Goverment Financial Benchmarking and Insights Tool</a></p>
+        <p><a href="https://financial-benchmarking-and-insights-tool.education.gov.uk/school/116473" target="_blank">Government Financial Benchmarking and Insights Tool</a></p>
     </div>
     <h2 style="text-align: center; font-size: 1.0rem;">The number of employees whose pay exceeded £100k, in £10k bandings for FY 23/24 was:</h2>
     <table>
@@ -73,9 +86,14 @@
             </tr>
         </tbody>
     </table>
+    <div class="image-section">
+        <img src="\assets\financial-benchmarking\image.png" alt="Financial Benchmarking">
+        <h3>Financial Benchmarking Insights</h3>
+    </div>
 </body>
 </html>
 
+<!-- CONTENT -->
 
 <!-- FOOTER -->
 <?php include("includes/footer.html") ?>
