@@ -28,6 +28,7 @@
             <img src="images/dsl/SBN.png" alt="Lead DSL" class="team-member">
             <p>Ms S Bannard</p>
             <p>Lead DSL</p>
+            <p>Designated Teacher for LAC</p>
         </div>
 
         <div class="medium-3 columns text-center team-member-container">
