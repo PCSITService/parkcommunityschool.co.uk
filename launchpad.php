@@ -19,6 +19,22 @@
 </header>
 
 <!-- CONTENT -->
+<section>
+    <div class="row">
+        <br>
+        <div class="medium-12 columns">
+            <ul class="small-block-grid-1">
+                </li>
+
+                  <li>
+                        
+                    <li><a href="/assets/launchpad/PressReleaseFINAL23Dec2024.pdf" target="_blank">Press Release Monday 23rd December 2024</a></li>      
+
+                </li>
+        </div>
+    </div><br>
+</section>
+
 
 <!-- FOOTER -->
 <?php include("includes/footer.html") ?>
