@@ -90,7 +90,7 @@
             </li>
 
             <li>
-                <a href="/assets/policies/charging-and-remissions.pdf" target="_blank">
+                <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Charging and Remissions</p>
                     </div>
