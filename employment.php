@@ -42,6 +42,20 @@
            <li>
     <article>
         <header>
+            <h4>Catering Assistant</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2025-01/Catering Assistant - January 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>           
+
+           <li>
+    <article>
+        <header>
             <h4>Administrative Assistant</h4>  
         </header>
 
@@ -53,47 +67,7 @@
     </article>
 </li>     
 
-            <li>
-    <article>
-        <header>
-            <h4>Head of PE</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-12/Head of PE from April 2025.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>       
-
-            <li>
-    <article>
-        <header>
-            <h4>Teacher of PE</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-12/Teacher of PE - 2025.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li> 
-
-            <li>
-    <article>
-        <header>
-            <h4>Teaching Assistant</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2024-12/Teaching Assistant - January 2025.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>             
+    
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
