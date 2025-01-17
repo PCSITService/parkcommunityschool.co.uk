@@ -65,7 +65,35 @@
             </span>
         </footer>
     </article>
-</li>     
+</li>
+
+           <li>
+    <article>
+        <header>
+            <h4>Head of PE</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-12/Head of PE from April 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>  
+
+           <li>
+    <article>
+        <header>
+            <h4>Teacher of PE</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2024-12/Teacher of PE - 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>      
 
     
 
