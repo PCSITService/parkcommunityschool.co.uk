@@ -30,6 +30,7 @@
                   <li>
                     
                     <ul class="circle">January 2025<hr>
+                    <li><a href="/assets/letters/2025-01/Duke of Edinburgh Open Evening 24 01 25.pdf" target="_blank">Duke of Edinburgh Open Evening</a></li>     
                     <li><a href="/assets/letters/2025-01/Bude residential - 13-17 October 2025.pdf" target="_blank">Bude residential - 13-17 October 2025</a></li>    
                     <li><a href="/assets/letters/2025-01/Year 8 - Spring Term 2025.pdf" target="_blank">Year 8 - Spring Term 2025</a></li>     
                     <li><a href="/assets/letters/2025-01/KS3 Autumn Term Reports 2024.pdf" target="_blank">KS3 Autumn Term Reports 2024</a></li>     
