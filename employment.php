@@ -42,6 +42,20 @@
            <li>
     <article>
         <header>
+            <h4>2ic Science</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2025-01/2ic Science - Jan 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>          
+
+           <li>
+    <article>
+        <header>
             <h4>Catering Assistant</h4>  
         </header>
 
