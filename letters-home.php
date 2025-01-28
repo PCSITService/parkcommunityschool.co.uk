@@ -30,6 +30,7 @@
                   <li>
                     
                     <ul class="circle">January 2025<hr>
+                    <li><a href="/assets/letters/2025-01/Park Newsletter 27 January 2025.pdf" target="_blank">Newsletter - 27 January 2025</a></li>    
                     <li><a href="/assets/letters/2025-01/National Apprenticeships Week events - 10  11 February 2025.pdf" target="_blank">National Apprenticeships Week events</a></li>      
                     <li><a href="/assets/letters/2025-01/Duke of Edinburgh Open Evening 24 01 25.pdf" target="_blank">Duke of Edinburgh Open Evening</a></li>     
                     <li><a href="/assets/letters/2025-01/Bude residential - 13-17 October 2025.pdf" target="_blank">Bude residential - 13-17 October 2025</a></li>    
