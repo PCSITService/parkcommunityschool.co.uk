@@ -19,12 +19,13 @@
 </header>
 
 <!-- CONTENT -->
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Benchmarking</title>
+
+    <title>Employee Pay Bands</title>
+    <?php include("includes/head.html") ?>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,12 +33,14 @@
         }
 
         .link-section {
-            margin-bottom: 20px;
+            text-align: center;
+            margin: 20px auto;
         }
 
         .link-section a {
             color: #007BFF;
             text-decoration: none;
+            font-weight: bold;
         }
 
         .link-section a:hover {
@@ -52,19 +55,23 @@
 
         table {
             width: 50%;
-            margin: 20px auto;
             border-collapse: collapse;
+            margin: 20px auto;
         }
 
         table th, table td {
-            padding: 8px 12px;
-            border: 1px solid #ccc;
+            border: 1px solid #ddd;
+            padding: 8px;
             text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
         }
 
         .image-section {
             text-align: center;
-            margin-bottom: 20px;
+            margin: 30px auto;
         }
 
         .image-section img {
@@ -73,12 +80,16 @@
         }
 
         .image-section h3 {
+            margin-top: 15px;
             font-size: 1.2rem;
-            margin-top: 10px;
+            color: #333;
         }
     </style>
+
 </head>
-<body>
+<body class="page-school">
+
+    <!-- CONTENT -->
     <div class="image-section">
         <img src="\assets\financial-benchmarking\image.png" alt="Financial Benchmarking">
         <h3>Financial Benchmarking Insights</h3>
@@ -102,18 +113,13 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- FOOTER -->
+    <?php include("includes/footer.html") ?>
+
+    <script src="js/vendor/libraries.min.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.min.js"></script>
+
 </body>
-</html>
-
-<!-- CONTENT -->
-
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
-
-
-        <!-- End Site Footer -->
-        <script src="js/vendor/libraries.min.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
-        <script src="js/app.min.js"></script>
-    </body>
 </html>
