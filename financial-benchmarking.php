@@ -27,12 +27,21 @@
     <?php include("includes/head.html") ?>
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .link-section {
+        body {
+            font-family: Arial, sans-serif;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .link-section, .image-section {
             text-align: center;
             margin: 20px auto;
         }
@@ -54,7 +63,8 @@
         }
 
         table {
-            width: 50%;
+            width: 100%;
+            max-width: 700px;
             border-collapse: collapse;
             margin: 20px auto;
         }
@@ -69,14 +79,10 @@
             background-color: #f4f4f4;
         }
 
-        .image-section {
-            text-align: center;
-            margin: 30px auto;
-        }
-
         .image-section img {
-            max-width: 100%;
+            width: 100%;
             height: auto;
+            max-width: 700px; /* Ensure it doesn't stretch too wide on large screens */
         }
 
         .image-section h3 {
@@ -84,6 +90,7 @@
             font-size: 1.2rem;
             color: #333;
         }
+
     </style>
 
 </head>
