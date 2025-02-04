@@ -24,54 +24,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Pay Bands</title>
+    <title>Financial Benchmarking</title>
     <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin: 20px auto;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
+
         .link-section {
-            text-align: center;
-            margin: 20px auto;
+            margin-bottom: 20px;
         }
+
         .link-section a {
             color: #007BFF;
             text-decoration: none;
-            font-weight: bold;
         }
+
         .link-section a:hover {
             text-decoration: underline;
         }
+
+        h2 {
+            text-align: center;
+            font-size: 1.0rem;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table th, table td {
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
         .image-section {
             text-align: center;
-            margin: 30px auto;
+            margin-bottom: 20px;
         }
+
         .image-section img {
             max-width: 100%;
             height: auto;
         }
+
         .image-section h3 {
-            margin-top: 15px;
             font-size: 1.2rem;
-            color: #333;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="image-section">
+        <img src="\assets\financial-benchmarking\image.png" alt="Financial Benchmarking">
+        <h3>Financial Benchmarking Insights</h3>
+    </div>
     <div class="link-section">
         <p>You can view the school’s financial data and see how it compares with others by following the link below:</p>
         <p><a href="https://financial-benchmarking-and-insights-tool.education.gov.uk/school/116473" target="_blank">Government Financial Benchmarking and Insights Tool</a></p>
     </div>
-    <h2 style="text-align: center; font-size: 1.0rem;">The number of employees whose pay exceeded £100k, in £10k bandings for FY 23/24 was:</h2>
+    <h2>The number of employees whose pay exceeded £100k, in £10k bandings for FY 23/24 was:</h2>
     <table>
         <thead>
             <tr>
@@ -86,10 +102,6 @@
             </tr>
         </tbody>
     </table>
-    <div class="image-section">
-        <img src="\assets\financial-benchmarking\image.png" alt="Financial Benchmarking">
-        <h3>Financial Benchmarking Insights</h3>
-    </div>
 </body>
 </html>
 
