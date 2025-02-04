@@ -34,7 +34,7 @@
                 <li><a href="assets/forms/consent_form_guests.doc" target="_blank">Educational Visit Information and Consent Form Guests</a></li>
                 <li><a href="assets/forms/consent_form_students.doc" target="_blank">Educational Visit Information and Consent Form Students</a></li>
                 <li><a href="https://www.hants.gov.uk/educationandlearning/freeschoolmeals/juniorsecondary" target="_blank">Free School Meals Application Form</a></li>
-                <li><a href="assets/forms/out-round-application-inc-guidance.docx" target="_blank">Application form for admission to a Hampshire school outside the main admission round</a></li>
+                <li><a href="assets/forms/out-round-application-inc-guidance.doc" target="_blank">Application form for admission to a Hampshire school outside the main admission round</a></li>
                 <li><a href="assets/admissions/pcs_parental_combined_consent_booklet.pdf" target="_blank">Parental Combined Consent Booklet</a></li>
                 <li><a href="assets/forms/medical_consent_form.doc" target="_blank">Medical Form</a></li>
                 <li><a href="https://forms.office.com/r/TFewraG_pe" target="_blank">Consent form for Student COVID Testing</a></li>
@@ -44,7 +44,7 @@
             <h3>How to Request Absence</h3>
             <p>Download and Complete the “1. Leave of Absence” Request form. During your meeting we will complete the “2. Application Form to Request Absence” together but please feel free to download and bring it along with you.</p>
             <ol>
-                <li><a href="assets/forms/application_form_to_request_absence.doc" target="_blank">Application Form to Request Absence</a></li>
+                <li><a href="assets/forms/application_form_to_request_absence.docx" target="_blank">Application Form to Request Absence</a></li>
             </ol>
 
 
