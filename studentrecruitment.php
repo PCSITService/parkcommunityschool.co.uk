@@ -35,7 +35,9 @@
 
             <p>Vacancies available on our Student Recruitment board show how progression can be made through different roles. More roles are added as they become available.</p>
 
-            <p>The law states that children must be 13 years of age to be employed therefore Year 7/8s can only volunteer, they will receive a gift voucher and their work experience will be recognised in any application for positions in Year 9.</p>
+            <p>The law states that children must be 13 years of age to be employed therefore Year 7/8s can only volunteer, they will receive reward points and their work experience will be recognised in any application for positions in Year 9.</p>
+
+            <p>If your application is succesful you will need to complete a work permit form which a parent or carer will need to sign and Hampshire County Council will have to approve before you begin work. This is to make sure that you are only working the number of hours which is allowed for young people of your age. </p>
 
         </div>
     </div>
