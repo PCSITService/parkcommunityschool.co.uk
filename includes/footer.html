@@ -24,13 +24,8 @@
             <a href="/catering.php">
                 <img class="footer-award-logo" src="/images/awards/fair-achiever.png" alt="Fair Achiever">
             </a>
-
-
-
-
         </div>
     </div>
-
 
     <!-- Accreditation Awards Section -->
     <div class="footer-accreditations">
@@ -44,12 +39,8 @@
             <a href="/news.php#communityimpact">
                 <img class="footer-award-logo" src="/images/awards/fairaware-school.png" alt="Fair Aware School">
             </a>
-
-
         </div>
     </div>
-
-
 
     <!-- Social Media Links -->
     <div class="footer-social">
@@ -83,41 +74,16 @@
                 <li><a href="//www.google.co.uk/maps/place/Havant,+Hampshire+PO9+4BU" target="_blank"><i class="fa fa-location-arrow"></i> Middle Park Way</a></li>
                 <li><i class="fa fa-city"></i> Havant</li>
                 <li><i class="fa fa-map-marker"></i> PO94BU</li>
-                <li><i class="fa fa-map-marker"></i> SatNav: PO94DQ</li>
                 <li><i class="fa fa-phone"></i> Tel: 02392489800</li>
                 <li><i class="fa fa-fax"></i> Fax: 02392481012</li>
                 <li><a href="javascript:location='mailto:\u0069\u006e\u0066\u006f\u0040\u0070\u0063\u0073\u002e\u0068\u0061\u006e\u0074\u0073\u002e\u0073\u0063\u0068\u002e\u0075\u006b';void 0"><i class="fa fa-envelope"></i> Email: Reception</a></li>
             </ul>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
     <!-- Privacy Notices -->
     <div class="footer-copyright">
         <p>&#169; Park Community School. <a href="#" data-reveal-id="footer-privacy">Privacy Notices</a></p>
-        <p class="small-text">Website by: <a href="//livingdead1989.github.io/" target="_blank">Steven Smith</a></p>
     </div>
 
     <!-- Privacy Modal -->
@@ -133,3 +99,60 @@
         <a class="close-reveal-modal" aria-label="Close">&#215;</a>
     </div>
 </footer>
+
+<!-- CSS for image resizing and alignment -->
+<style>
+    /* Resize all images to 100px */
+    img {
+        width: 100px;
+        height: auto;
+    }
+
+    /* Ensure images in the award logos are on the same line */
+    .footer-award-logos, .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centers the images */
+    }
+
+    .footer-award-logo {
+        margin-right: 15px; /* Adds spacing between the images */
+        margin-bottom: 10px; /* Adds small gap below each image */
+    }
+
+    /* Align footer text and set text color to white */
+    .footer-awards p, .footer-contact p, .footer-copyright p {
+        text-align: center;
+        color: white;
+        margin-top: 10px; /* Add gap above the text */
+    }
+
+    /* Ensure address and other elements have white text */
+    .footer-contact a, .footer-contact ul, .footer-contact li, .footer-contact i {
+        color: white;
+    }
+
+    /* Privacy modal text should also be white */
+    .reveal-modal {
+        color: white;
+    }
+
+    /* Style the address section to be centered */
+    .footer-contact .address {
+        text-align: center;
+        color: white;
+        padding-bottom: 20px; /* Add spacing between the address and the privacy section */
+        margin-top: 10px; /* Add small gap above the address section */
+    }
+
+    /* Remove bullet points from list */
+    .footer-contact ul {
+        list-style: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+    }
+
+    .footer-contact li {
+        margin: 5px 0; /* Spacing between each list item */
+    }
+</style>

@@ -28,7 +28,6 @@
                 <li class="has-dropdown">
                     <a class="top-nav-school">School</a>
                     <ul class="dropdown dropdown-school">
-                        <li><a href="/time-tabling.php">Calendar & School Day</a></li>
                         <li><a href="/catering.php">Catering</a></li>
                         <li><a href="/contact.php">Contact</a></li>
                         <li><a href="/events.php">Events</a></li>
@@ -50,9 +49,6 @@
                 <li class="has-dropdown">
                     <a class="top-nav-learning">Learning</a>
                     <ul class="dropdown dropdown-learning">
-                        <li><a href="/assemblies.php">Assemblies</a></li>
-                        <li><a href="/assessment.php">Assessment</a></li>
-                        <li><a href="/careers.php">Careers</a></li>
                         <li><a href="/curriculum.php">Curriculum</a></li>
                         <li><a href="assets/curriculum/FWYL - Jan 2025.pdf">Extra-Curricular Clubs</a></li>
                         <li><a href="/reading.php">Reading</a></li>
@@ -65,7 +61,6 @@
                 <li class="has-dropdown">
                     <a class="top-nav-parent">Parent</a>
                     <ul class="dropdown dropdown-parent">
-                        <li><a href="/classcharts.php">ClassCharts</a></li>
                         <li><a href="/admissions.php">Admissions</a></li>
                         <li><a href="/time-tabling.php">Calendar & School Day</a></li>
                         <li><a href="/forms.php">Forms</a></li>
@@ -102,3 +97,59 @@
         </section>
     </nav>
 </div>
+
+<!-- CSS to make the navigation bar bigger -->
+<style>
+    /* Make the navigation bar larger */
+    .top-bar {
+        padding: 20px 40px; /* Increase the padding */
+        font-size: 18px; /* Increase font size */
+        height: 80px; /* Increase height of navbar */
+    }
+
+    .top-bar .title-area {
+        margin-bottom: 0;
+    }
+
+    .top-bar .name h1 {
+        font-size: 28px; /* Increase logo font size */
+    }
+
+    .top-bar .menu-icon a {
+        font-size: 18px; /* Increase menu icon font size */
+    }
+
+    .top-bar-section {
+        font-size: 18px; /* Increase the size of the nav links */
+    }
+
+    /* Dropdown menu adjustments */
+    .top-bar .has-dropdown > a {
+        padding: 10px 20px; /* Increase padding for dropdown */
+    }
+
+    /* For hover effect in dropdown */
+    .dropdown > a:hover {
+        background-color: #333; /* Change hover color */
+    }
+
+    .dropdown-menu {
+        padding: 10px 0;
+        font-size: 16px; /* Larger font size for dropdown */
+    }
+
+    /* For mobile view, adjust to make it larger */
+    @media (max-width: 768px) {
+        .top-bar {
+            padding: 20px 30px;
+        }
+        
+        .top-bar .name h1 {
+            font-size: 26px;
+        }
+
+        .top-bar-section {
+            font-size: 18px;
+        }
+    }
+</style>
