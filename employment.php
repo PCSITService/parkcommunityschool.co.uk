@@ -53,6 +53,35 @@
     </article>
 </li>          
 
+           <li>
+    <article>
+        <header>
+            <h4>Catering Assistant</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2025-01/Catering Assistant - January 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>           
+
+           <li>
+    <article>
+        <header>
+            <h4>Administrative Assistant</h4>  
+        </header>
+
+        <footer>
+            <span class="subheader">
+                <a href="assets/recruitment/2025-01/Admin Assistant (Attendance) - February 2025.pdf" target="_blank">Position Details</a>
+            </span>
+        </footer>
+    </article>
+</li>
+
+
       <li>
         <h4>Cafe Assistant - Casual</h4>  
         <p><em></em></p>
