@@ -342,12 +342,13 @@ footer .social-icons a:hover {
     color: #A3CD42;
 }
 
-/* New rule to reduce image sizes inside the footer */
-footer img {
-    max-width: 30px;  /* Reducing size by 50% */
-    max-height: 30px; /* Reducing size by 50% */
+/* Update to reduce image size */
+footer#site-footer img {
+    max-width: 30px !important;  /* Reducing size by 50% */
+    max-height: 30px !important; /* Reducing size by 50% */
 }
 
+/* Media Query Update */
 @media only screen and (max-width:40em) {
   .event-container .event-wrap {
     -webkit-box-flex: 0;
@@ -380,9 +381,9 @@ footer img {
     margin: 40px 0 0;
   }
 
-  /* Reduce image sizes by 50% in the footer */
-  footer img {
-    max-width: 30px;  /* Reducing size by 50% */
-    max-height: 30px; /* Reducing size by 50% */
+  /* Reducing image sizes by 50% in the footer with higher specificity */
+  footer#site-footer img {
+    max-width: 30px !important;  /* Reducing size by 50% */
+    max-height: 30px !important; /* Reducing size by 50% */
   }
 }
