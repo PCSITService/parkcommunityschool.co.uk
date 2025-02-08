@@ -130,12 +130,12 @@ section.page-notification p {
 
 .brand {
     height: auto;
-    width: 40px !important;
+    width: 40px!important;
     vertical-align: middle;
     display: inline-block;
 }
 
-.top-bar-section .dropdown-school li:not(.has-form):not(.active) > a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-school:not(.button):hover {
+.top-bar-section .dropdown-school li:not(.has-form):not(.active)>a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-school:not(.button):hover {
     background: #A3CD42;
     color: #000;
     -webkit-transition: background .1s ease-in-out, color .1s ease-in-out;
@@ -143,7 +143,7 @@ section.page-notification p {
     transition: background .1s ease-in-out, color .1s ease-in-out;
 }
 
-.top-bar-section .dropdown-learning li:not(.has-form):not(.active) > a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-learning:not(.button):hover {
+.top-bar-section .dropdown-learning li:not(.has-form):not(.active)>a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-learning:not(.button):hover {
     background: #F58220;
     color: #000;
     -webkit-transition: background .1s ease-in-out, color .1s ease-in-out;
@@ -151,7 +151,7 @@ section.page-notification p {
     transition: background .1s ease-in-out, color .1s ease-in-out;
 }
 
-.top-bar-section .dropdown-parent li:not(.has-form):not(.active) > a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-parent:not(.button):hover {
+.top-bar-section .dropdown-parent li:not(.has-form):not(.active)>a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-parent:not(.button):hover {
     background: #5FBCEA;
     color: #000;
     -webkit-transition: background .1s ease-in-out, color .1s ease-in-out;
@@ -159,7 +159,7 @@ section.page-notification p {
     transition: background .1s ease-in-out, color .1s ease-in-out;
 }
 
-.top-bar-section .dropdown-misc li:not(.has-form):not(.active) > a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-misc:not(.button):hover {
+.top-bar-section .dropdown-misc li:not(.has-form):not(.active)>a:not(.button):hover, .top-bar-section li:not(.has-form) a.top-nav-misc:not(.button):hover {
     background: #EE3A80;
     color: #000;
     -webkit-transition: background .1s ease-in-out, color .1s ease-in-out;
@@ -359,4 +359,4 @@ header h1, header h3, header p {
     font-size: .9em;
 }
 
-.team-member-container .team-member:active, .team-member-container .team-member:focus, .
+.team-member-container .team
