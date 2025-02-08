@@ -97,34 +97,6 @@ section.page-notification p {
     top: -45px;
 }
 
-/* Ensuring images within the footer are smaller */
-footer img {
-    max-width: 60px;  /* Set a max width to prevent images from becoming too large */
-    max-height: 60px; /* Set a max height for consistency */
-    width: auto;
-    height: auto;
-    display: inline-block;  /* Ensure images align properly */
-}
-
-/* Specific rule for the logo images in footer */
-footer .hr-logo {
-    background-size: 50%;  /* Resize background images */
-    max-width: 60px; /* Limit the max size of the logo */
-    max-height: 60px; /* Keep the logo consistent in size */
-    width: 60px;
-    height: 60px;
-}
-
-/* Specific adjustments for other elements, like social icons */
-footer .social-icons a {
-    font-size: 1.2em;  /* Ensuring that social icons remain a reasonable size */
-}
-
-footer .social-icons a img {
-    max-width: 30px; /* Limit image size for icons */
-    max-height: 30px; /* Consistent height */
-}
-
 .white-bg {
     background-color: #fff;
     border-radius: 0 0 50% 50%;
@@ -325,47 +297,4 @@ header h1, header h3, header p {
 #twitter-widget-0 iframe {
     width: 100% !important;
     height: auto !important;
-}
-
-#footer-quick-links {
-    padding-top: 30px;
-    padding-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#site-footer h2 {
-    color: #666;
-    font-weight: 300;
-}
-
-#footer-social {
-    text-align: center;
-}
-
-footer {
-    padding: 30px;
-    background-color: #333;
-    color: #fff;
-}
-
-footer .copyright {
-    text-align: center;
-    font-size: 0.9em;
-}
-
-footer .social-icons {
-    margin: 10px 0;
-    text-align: center;
-}
-
-footer .social-icons a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 1.5em;
-    transition: color 0.3s ease;
-}
-
-footer .social-icons a:hover {
-    color: #A3CD42;
 }
