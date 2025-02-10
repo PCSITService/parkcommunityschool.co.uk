@@ -42,36 +42,60 @@
 </section>
 <!-- Jobs -->
 <section>
+    <!-- Row Container: A wrapper for content that organizes columns in a flexible grid layout -->
     <div class="row" data-equalizer data-equalizer-mq="large-up">
+        
+        <!-- Line Break: Adds space between elements to separate sections -->
         <br>
+
+        <!-- Column: Defines a responsive column within the grid. The width adjusts based on screen size -->
         <div class="medium-push-1 medium-10 large-8 large-push-0 columns">
+            
+            <!-- Panel: A styled container that groups related content; 'data-equalizer-watch' adjusts the height dynamically with other elements -->
             <div class="panel" data-equalizer-watch>
+                
+                <!-- Section Title: Heading for this part of the content, introducing the available positions -->
                 <h4>Available Positions</h4>
-                  <p>Please visit the recruitment board outside KD3 to see if a position is available.<p>
-                  <hr>
-                  <p> Student workers will assist with general site upkeep, support with school and community events and offer good customer service.<p>
+                
+                <!-- Paragraph: Provides instructions on where to visit for available positions -->
+                <p>Please visit the recruitment board outside KD3 to see if a position is available.</p>
+                
+                <!-- Horizontal Rule: Visually separates content, used to add a dividing line between sections -->
+                <hr>
+                
+                <!-- Paragraph: Describes the tasks student workers will assist with (site upkeep, events, customer service) -->
+                <p>Student workers will assist with general site upkeep, support with school and community events, and offer good customer service.</p>
 
-                  <p> Specific roles may be available depending on school need, if you have particular interests do speak with community staff.<p>
-               </ul>
-            </div>
-        </div>
+                <!-- Paragraph: Provides additional details about specific roles and encourages communication with community staff for more info -->
+                <p>Specific roles may be available depending on school need; if you have particular interests, do speak with community staff.</p>
+            </div> <!-- End of panel -->
+        </div> <!-- End of columns -->
 
+        <!-- Column for Documentation Section: Aligned to the right of the original content using Flexbox layout -->
         <div class="medium-push-1 medium-10 end large-4 large-pull-0 columns">
+            <!-- Panel for documentation content -->
             <div class="panel" data-equalizer-watch>
+                
+                <!-- Section Title: Heading for the documentation section -->
                 <h4>Documentation</h4>
-                    <ul class="no-bullet">
-                        <li class="subheader">Information</li>
-                    </ul>
-                    <ul class="no-bullet">
-                        <li class="subheader">Forms<br><small>Downloadable Word Documents</small></li>
-                        <li><a href="assets/studentrecruitment/documentation/application-form.docx" target="_blank">Application Form</a></li>
-                    </ul>
-            </div>
-        </div>
+                
+                <!-- Information List: Placeholder for any informational content about documentation -->
+                <ul class="no-bullet">
+                    <li class="subheader">Information</li>
+                </ul>
 
-    </div>
-    <br>
+                <!-- Forms List: Contains downloadable Word document links -->
+                <ul class="no-bullet">
+                    <li class="subheader">Forms<br><small>Downloadable Word Documents</small></li>
+                    <!-- Link to downloadable Application Form -->
+                    <li><a href="assets/studentrecruitment/documentation/application-form.docx" target="_blank">Application Form</a></li>
+                </ul>
+            </div> <!-- End of panel -->
+        </div> <!-- End of documentation column -->
+        
+    </div> <!-- End of row -->
 </section>
+
 <!-- Terms -->
 <section>
     <div class="row">
