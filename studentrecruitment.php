@@ -24,7 +24,7 @@
     <div class="row">
         <div class="large-12 columns">
           <br>
-            <p>At Park we recognise how difficult it is for young people to gain valuable work experience so we have opened our own Recruitment Agency for positions that can be filled by our students.</p>
+            <p>At Park we recognise how difficult it is for young people to gain valuable work experience so we have work experience for students.</p>
 
             <p>Students will go through a recruitment process including:</p>
             <ul class="circle">
@@ -32,8 +32,6 @@
                 <li>Undertaking a group task,</li>
                 <li>Being Interviewed.</li>
             </ul>
-
-            <p>Vacancies available on our Student Recruitment board show how progression can be made through different roles. More roles are added as they become available.</p>
 
             <p>The law states that children must be 13 years of age to be employed therefore Year 7/8s can only volunteer, they will receive reward points and their work experience will be recognised in any application for positions in Year 9.</p>
 
@@ -49,20 +47,11 @@
         <div class="medium-push-1 medium-10 large-8 large-push-0 columns">
             <div class="panel" data-equalizer-watch>
                 <h4>Available Positions</h4>
-                <ul class="no-bullet medium-block-grid-1 large-block-grid-2">
-                  <li>Please visit the recruitment board outside KD3.</li>
+                  <p>Please visit the recruitment board outside KD3 to see if a position is available.<p>
                   <hr>
-                    <li>Trainee community receptionist</li>
-                    <li>Animal carer</li>
-                    <li>Trainee site person</li>
-                    <li>Student printer</li>
-                    <li>Student finisher</li>
-                    <li>Student kitchen assistant</li>
-                    <li>Trainee Journalist upper school</li>
-                    <li>Trainee radio station helper</li>
-                    <li>Junior radio presenter</li>
-                    <li>Trainee Theatre technician</li>
-                    <li>Butterfly broadcasters</li>
+                  <p> Student workers will assist with general site upkeep, support with school and community events and offer good customer service.<p>
+
+                  <p> Specific roles may be available depending on school need, if you have particular interests do speak with community staff.<p>
                </ul>
             </div>
         </div>
