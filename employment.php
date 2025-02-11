@@ -30,16 +30,7 @@
         <hr>
 	      <ul class="no-bullet">
 
-        <!--<li>
-        <h4>Position</h4>  
-        <p><em>Closing Date: </em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/#.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>-->
-
-           <li>
+        <!-- <li>
     <article>
         <header>
             <h4>2ic Science</h4>  
@@ -51,36 +42,8 @@
             </span>
         </footer>
     </article>
-</li>          
-
-           <li>
-    <article>
-        <header>
-            <h4>Catering Assistant</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2025-01/Catering Assistant - January 2025.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
-</li>           
-
-           <li>
-    <article>
-        <header>
-            <h4>Administrative Assistant</h4>  
-        </header>
-
-        <footer>
-            <span class="subheader">
-                <a href="assets/recruitment/2025-01/Admin Assistant (Attendance) - February 2025.pdf" target="_blank">Position Details</a>
-            </span>
-        </footer>
-    </article>
 </li>
-
+      </li>-->
 
       <li>
         <h4>Cafe Assistant - Casual</h4>  
