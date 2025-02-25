@@ -45,16 +45,6 @@
 </li>
       </li>-->
 
-      <li>
-        <h4>Cafe Assistant - Casual</h4>  
-        <p><em></em></p>
-
-        <span class="subheader">
-        <a href="assets/recruitment/2024-10/Cafe Assistant - casual.pdf" target="_blank">Position Details</a>
-        </span>
-      </li>
-	    </div>
-
 	    <div class="small-12 medium-6 columns">
 			<h4>Documentation</h4>
 			<ul class="medium-block-grid-2">
