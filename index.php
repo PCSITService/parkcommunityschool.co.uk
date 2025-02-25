@@ -30,13 +30,12 @@
                         <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
                         <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
 <!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
-                        <!--<a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2024</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2025</a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="columns">
-                       --> 
 
 <!--                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
                         <a class="small button radius warning" href="assets/curriculum/options_booklet.pdf" target="_blank">GCSE Courses 2024-2026</a>
@@ -193,7 +192,7 @@
                     <li><a href="/assets/freshers.week/2024/transition-2024-letter-1-march-2024.pdf" target="_blank">Transition Letter - March 2024</a></li>
                     <li><a href="/assets/freshers.week/2024/transition-2024-letter-2-may-2024.pdf" target="_blank">Transition Letter - May 2024</a></li>  
                 </ul>
-                <p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>
+                <!--<p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>-->
 
                 <a class="expand button radius success" href="https://forms.office.com/e/0mD8G9wdU7" target="_blank">Acceptance Form</a>
 <!-- 
