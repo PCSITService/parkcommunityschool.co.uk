@@ -194,7 +194,7 @@
                 </ul>
                 <!--<p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>-->
 
-                <a class="expand button radius success" href="https://forms.office.com/e/0mD8G9wdU7" target="_blank">Acceptance Form</a>
+                <a class="expand button radius success" href="https://forms.office.com/e/rWrywTPz9p" target="_blank">Acceptance Form</a>
 <!-- 
                 <a class="expand button radius success" href="https://forms.office.com/Pages/ResponsePage.aspx?id=2W4a34q1NUGg3oPDXQCwSG8tfjMVBL5Io0fe1_DjzhRUMTY5N1RURlNaS1JYSkFWWFRZMERFNUlDNS4u" target="_blank">New Year 7 Summer School Form</a>
 
