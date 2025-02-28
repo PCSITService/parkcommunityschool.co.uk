@@ -29,6 +29,9 @@
 
     <h4>PA to Headteacher</h4>
     <p><a href="assets/recruitment/2025-02/Job Ad for PA to Headteacher - February 2025.pdf" style="color: green;">Position Details</a></p>
+
+    <h4>2ic Science</h4>
+    <p><a href="assets/recruitment/2025-02/2ic Science - Jan 2025.pdf" style="color: green;">Position Details</a></p>
   </div>
 
   <!-- Right Column: Documentation (Aligned to Right Edge) -->
