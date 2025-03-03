@@ -1,398 +1,257 @@
 <!-- PAYABLE TRIPS -->
-		<section class="grey-bg" id="payable-trips">
-		    <div class="row">
-		        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-		    </div>
+<section id="payable-trips" class="dark-bg">
+    <div class="row">
+        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
+    </div>
 
-		    <div class="row">
-		        <div class="medium-12 columns">
-		        	<h2>School Trips</h2>
-		        	<hr>
+    <div class="row">
+        <div class="medium-12 columns">
+            <h2 class="white-text">School Trips</h2>
+            <hr class="white-hr">
 
-		        	<!-- Trip Template -->
-					<!-- <div class="row">
-						<div class="columns">
-							<h3>Trip Title</h3>
-						</div>
-						<div class="medium-8 columns">
-							<h4 class="subheader">Summary</h4>
-							<p></p>
+            <!-- Container for dynamically inserted trips -->
+            <div id="trips-container"></div>
 
-							<div class="small-text-center medium-text-left"><a class="button radius " href="#" data-reveal-id="modal-">Instalment Plan</a></div>
+        </div>
+    </div>
+    <?php include("includes/backtotop.html") ?>
+</section>
 
-							<div id="modal-" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-								<h2 id="modalTitle">Payment Instalments</h2>
-								<table width="100%">
-									<thead>
-										<tr>
-											<td>Non-refundable Deposit</td>
-											<td>Due By</td>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>£</td>
-											<td></td>
-										</tr>
-										<tr>
-											<th colspan="2">Instalments</th>
-										</tr>
-										<tr>
-											<td>£</td>
-											<td></td>
-										</tr>
-									</tbody>
-								</table>
-							  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-							</div>
+<script>
+    const trips = [
+        {
+            title: "Krakow, Poland - July 2025",
+            summary: "Humanities Residential Visit: Auschwitz - Birkenau, Poland.",
+            details: {
+                date: "Tuesday 8th July 2025 -- Friday 11th July 2025",
+                lead: "Barney Pycroft",
+                cost: "£579",
+                yearGroup: "All Years"
+            },
+            instalments: [
+                { amount: "£175.00", due: "25th October 2024", status: "closed" },
+                { amount: "£80.00", due: "29th November 2024", status: "closed" },
+                { amount: "£80.00", due: "20th December 2024", status: "closed" },
+                { amount: "£80.00", due: "31st January 2025", status: "closed" },
+                { amount: "£80.00", due: "28th February 2025", status: "open" },
+                { amount: "£84.00", due: "24th March 2025", status: "closed" }
+            ],
+            letters: [
+                { name: "Krakow 2025 - Initial Letter", date: "24.04.2023", link: "/assets/trips/2025/Krakow 2025- initial letter.docx" }
+            ]
+        },
+        {
+            title: "Year 7 End of Year Trip - London",
+            summary: "Students in Year 7 will visit the Natural History Museum and Science Museum in London.",
+            details: {
+                date: "Monday 30th June 2025",
+                lead: "Kieran Pollard",
+                cost: "£10.00",
+                yearGroup: "Year 7"
+            },
+            instalments: [{ amount: "£10.00", due: "", status: "closed" }],
+            letters: [
+                { name: "Year 7 End of Year Trip - Initial Letter", date: "14.02.2025", link: "/assets/trips/2025/Year 7 End Of Year Trip - 30 06 25.pdf" }
+            ]
+        },
+        {
+            title: "Year 8 End of Year Trip - London",
+            summary: "Students in Year 8 will visit the Natural History Museum and Science Museum in London.",
+            details: {
+                date: "Tuesday 1st July 2025",
+                lead: "Henrietta Wilson",
+                cost: "£10.00",
+                yearGroup: "Year 8"
+            },
+            instalments: [{ amount: "£10.00", due: "", status: "closed" }],
+            letters: [
+                { name: "Year 8 End of Year Trip - Initial Letter", date: "14.02.2025", link: "/assets/trips/2025/Year 8 End of Year Trip.pdf" }
+            ]
+        },
+        {
+            title: "Year 9 End of Year Trip - Stonehenge and Salisbury Town Centre",
+            summary: "Students in Year 9 will visit Stonehenge and Salisbury Town Centre",
+            details: {
+                date: "Wednesday 2nd July 2025",
+                lead: "Jon Crowley",
+                cost: "£10.00",
+                yearGroup: "Year 9"
+            },
+            instalments: [{ amount: "£10.00", due: "", status: "closed" }],
+            letters: [
+                { name: "Year 9 End of Year Trip - Initial Letter", date: "14.02.2025", link: "/assets/trips/2025/Year 9 End of Year Trip - 02 07 25 checked.pdf" }
+            ]
+        },
+        {
+            title: "2024 - 2025 Year 7 - Bude Activity Centre Residential",
+            summary: "Students in Year 7 will visit Bude Activity Centre Residential",
+            details: {
+                date: "Monday 13th October 2025 -- Friday 17th October 2025",
+                lead: "Ed Harrison",
+                cost: "£395.00",
+                yearGroup: "Year 7"
+            },
+            instalments: [
+                { amount: "£60.00", due: "6th March 2025", status: "open" },
+                { amount: "£70.00", due: "4th April 2025", status: "open" },
+                { amount: "£70.00", due: "2nd May 2025", status: "open" },
+                { amount: "£70.00", due: "6th June 2025", status: "open" },
+                { amount: "£70.00", due: "4th July 2025", status: "open" },
+                { amount: "£55.00", due: "5th September 2025", status: "open" }
+            ],
+            letters: [
+                { name: "Year 7 Bude Residential - Initial Letter", date: "14.02.2025", link: "/assets/trips/2025/Bude residential - Monday 13th October 2025 to Friday 17th October 2025 - Year 7.docx" }
+            ]
+        },
+        {
+            title: "2024 - 2025 Year 9 - Bude Activity Centre Residential",
+            summary: "Students in Year 9 will visit Bude Activity Centre Residential",
+            details: {
+                date: "Monday 13th October 2025 -- Friday 17th October 2025",
+                lead: "Ed Harrison",
+                cost: "£395.00",
+                yearGroup: "Year 9"
+            },
+            instalments: [
+                { amount: "£60.00", due: "3rd February 2025", status: "closed" },
+                { amount: "£70.00", due: "6th March 2025", status: "open" },
+                { amount: "£70.00", due: "4th April 2025", status: "open" },
+                { amount: "£70.00", due: "2nd May 2025", status: "open" },
+                { amount: "£70.00", due: "6th June 2025", status: "open" },
+                { amount: "£55.00", due: "4th July 2025", status: "open" }
+            ],
+            letters: [
+                { name: "Year 7 Bude Residential - Initial Letter", date: "14.02.2025", link: "/assets/trips/2025/Bude residential - 13-17 October 2025.docx" }
+            ]
+        }
+    ];
 
-						</div>
-						<div class="medium-4 columns small-text-center medium-text-right">
-							<h4 class="subheader">Details</h4>
-							<p>Date: </p>
-							<p>Lead: </p>
-							<p>Cost: £</p>
-							<p>Year: </p>
-						</div>
-						<div class="columns clearfix">
-							<div class="left"><p>Notes: <em></em></p></div>
-							<div class="right"><a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a></div>
-						</div>
-						<hr>
-					</div> -->
-					<!-- End Trip Template -->
+    // Function to render trips dynamically
+    function renderTrips() {
+        let container = document.getElementById("trips-container");
+        if (!container) return; // Prevent errors if element is missing
 
+        container.innerHTML = trips.map((trip, index) => `
+            <div class="row trip-box">
+                <div class="columns">
+                    <h3>${trip.title}</h3>
+                </div>
+                <div class="medium-8 columns">
+                    <h4 class="subheader">Summary</h4>
+                    <p>${trip.summary}</p>
+                    <div class="buttons">
+                        <a class="button radius" href="#" data-reveal-id="modal-${index}-instalments">Instalment Plan</a>
+                        <a class="button radius" href="#" data-reveal-id="modal-${index}-letters">Letters</a>
+                        <a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a>
+                    </div>
 
-                    <div class="row">
-						<div class="columns">
-							<h3>Year 10, Disneyland Paris, France</h3>
-						</div>
-						<div class="medium-8 columns">
-							<h4 class="subheader">Summary</h4>
-							<p>We are pleased to annouce that we are organising a STEM educational trip to Disneyland Paris for Year 10 students in January 2024.
-   
-                            <div class="small-text-center medium-text-left">
-    							<a class="button radius" href="#" data-reveal-id="modal-101">Instalment Plan</a>
-    							<a class="button radius" href="#" data-reveal-id="modal-201">Letters</a>
-    							<a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a>
-							</div>
-                        
+                    <!-- Instalment Modal -->
+                    <div id="modal-${index}-instalments" class="reveal-modal" data-reveal>
+                        <h2>Payment Instalments</h2>
+                        <table width="100%">
+                            <thead>
+                                <tr><td>Amount</td><td>Due By</td><td>Status</td></tr>
+                            </thead>
+                            <tbody>
+                                ${trip.instalments.map(i => `
+                                    <tr>
+                                        <td>${i.amount}</td>
+                                        <td>${i.due || 'N/A'}</td>
+                                        <td class="${i.status === "open" ? "tick-mark" : "cross-mark"}">
+                                            ${i.status === "open" ? "✔" : "✘"}
+                                        </td>
+                                    </tr>
+                                `).join("")}
+                            </tbody>
+                        </table>
+                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                    </div>
 
-							<div id="modal-101" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-								<h2 id="modalTitle">Payment Instalments</h2>
-								<table width="100%">
-									<thead>
-										<tr>
-											<td>Non-refundable Deposit</td>
-											<td>Due By</td>
-											<td>Open or Closed</td>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>£100.00</td>
-											<td>26th May 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.cross-mark {
-    										    color: red;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-											<th colspan="2">Instalments</th>
-											<td style="text-align: centre;">
-										</tr>
-										<tr>
-											<td>£75.00</td>
-											<td>30th June 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.cross-mark {
-    										    color: red;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£75.00</td>
-											<td>21st July 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£75.00</td>
-											<td>29th September 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£75.00</td>
-											<td>31st October 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="tick-mark">&#10004;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>				
-									</tbody>
-								</table>
-							  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-							</div>	
+                    <!-- Letters Modal -->
+                    <div id="modal-${index}-letters" class="reveal-modal" data-reveal>
+                        <h2>Letters</h2>
+                        <table width="100%">
+                            <thead>
+                                <tr><td>Letter Name</td><td>Date</td><td>Action</td></tr>
+                            </thead>
+                            <tbody>
+                                ${trip.letters.map(letter => `
+                                    <tr>
+                                        <td>${letter.name}</td>
+                                        <td>${letter.date}</td>
+                                        <td><a href="${letter.link}" download>Download</a></td>
+                                    </tr>
+                                `).join("")}
+                            </tbody>
+                        </table>
+                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                    </div>
+                </div>
 
-							<div id="modal-201" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-								<h2 id="modalTitle">Letters</h2>
-								<table width="100%">
-									<thead>
-										<tr>
-											<th>Letter Name</th>
-            								<th>Date</th>
-            								<th>Action</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Year 10 Trip to Disneyland Paris - First Letter</td>
-            								<td>24.04.2023</td>
-            								<td><a href="/assets/trips/2023-07/disneyland-paris-2024-1st-letter-24.04.2023.pdf">Download</a></td>	
-            							</tr>	
-									</tbody>
-								</table>
-							  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-							</div>	
-						</div>
-						<div class="medium-4 columns small-text-center medium-text-right">
-							<h4 class="subheader">Details</h4>
-							<p>Date: Tuesday 30th January -- Friday 2nd February 2024</p>
-							<p>Lead: Soo Bannarrd</p>
-							<p>Total Cost: £400</p>
-							<p>Year: 10</p>
-						</div>
-						<div class="columns clearfix">
-						</div>
-						<hr>
-					</div>
+                <div class="medium-4 columns small-text-center medium-text-right">
+                    <h4 class="subheader">Details</h4>
+                    <p><strong>Date:</strong> ${trip.details.date}</p>
+                    <p><strong>Lead:</strong> ${trip.details.lead}</p>
+                    <p><strong>Total Cost:</strong> ${trip.details.cost}</p>
+                    <p><strong>Year Group:</strong> ${trip.details.yearGroup}</p>
+                </div>
+                <div class="columns clearfix"></div>
+                <hr>
+            </div>
+        `).join("");
+    }
 
-					<div class="row">
-						<div class="columns">
-							<h3>Year 11, New York, USA</h3>
-						</div>
-						<div class="medium-8 columns">
-							<h4 class="subheader">Summary</h4>
-							<p>Annual trip to New York City for Year 11 Students</p>
-
-    
-                            <div class="small-text-center medium-text-left">
-    							<a class="button radius" href="#" data-reveal-id="modal-2">Instalment Plan</a>
-    							<a class="button radius" href="#" data-reveal-id="modal-3">Letters</a>
-    							<a class="button radius success" href="//www.scopay.com/pcs" target="_blank">Pay Online</a>
-							</div>
-                        
-
-							<div id="modal-2" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-								<h2 id="modalTitle">Payment Instalments</h2>
-								<table width="100%">
-									<thead>
-										<tr>
-											<td>Non-refundable Deposit</td>
-											<td>Due By</td>
-											<td>Open or Closed</td>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>£250.00 - 1st Deposit</td>
-											<td>30 June 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.cross-mark {
-    										    color: red;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£200.00 - 2nd Deposit</td>
-											<td>21 July 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-											<th colspan="2">Instalments</th>
-											<td style="text-align: centre;">
-										</tr>
-										<tr>
-											<td>£200.00</td>
-											<td>8 September 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£200.00</td>
-											<td>6 October 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="cross-mark">&#10060;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-											<td>£200.00</td>
-											<td>10 November 2023</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="tick-mark">&#10004;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-										    <td>£209.00</td>
-											<td>8 December 2023 - Final payment age 15</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="tick-mark">&#10004;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>
-										<tr>
-										    <td>£294.00</td>
-											<td>8 December 2023 - Final payment age 16</td>
-											<td style="text-align: centre;">
-    											<label>
-       											    <input type="checkbox" style="display: none;">
-      												<span class="tick-mark">&#10004;</span>
-   												</label>
-											</td>
-											<style>
-											.tick-mark {
-    										    color: green;
-    											font-size: 18px;
-											}
-											</style>
-										</tr>		
-									</tbody>
-								</table>
-							  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-							</div>	
-
-							<div id="modal-3" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-								<h2 id="modalTitle">Letters</h2>
-								<table width="100%">
-									<thead>
-										<tr>
-											<th>Letter Name</th>
-            								<th>Date</th>
-            								<th>Action</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>New York 2024 Initial Letter</td>
-            								<td>06.06.2023</td>
-            								<td><a href="/assets/trips/new-york-2024-initial-letter-06-06-2023.docx">Download</a></td>	
-            							</tr>	
-									</tbody>
-								</table>
-							  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-							</div>	
-						</div>
-						<div class="medium-4 columns small-text-center medium-text-right">
-							<h4 class="subheader">Details</h4>
-							<p>Date: Tuesday 2nd April -- Sunday 7th April 2024</p>
-							<p>Lead: Soo Bannard</p>
-							<p>Total Cost: £1,259.00 for 15-year-olds</p>
-							<p>Total Cost: £1,344.00 for 16-years-old</p>
-							<p>Year: 11</p>
-						</div>
-						<div class="columns clearfix">
-						</div>
-						<hr>
-					</div>
+    // Run the function when the page loads
+    document.addEventListener("DOMContentLoaded", renderTrips);
+</script>
 
 
-		        </div>
-		    </div>
-		    <?php include("includes/backtotop.html") ?>
-		</section>
+
+<style>
+    /* Apply white text to all content inside the payable trips section */
+    #payable-trips {
+        color: white;
+    }
+
+    /* Styling for the trips section */
+    .trip-box {
+        padding: 15px;
+        background: none; /* Removed grey background */
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    .buttons a {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .tick-mark {
+        color: green;
+        font-weight: bold;
+    }
+    .cross-mark {
+        color: red;
+        font-weight: bold;
+    }
+
+    /* Section with custom dark background */
+    #payable-trips.dark-bg {
+        background-color: #333333; /* Dark background for the section */
+        padding: 40px 0;
+    }
+
+    #payable-trips h2.white-text {
+        color: white;
+    }
+
+    #payable-trips hr.white-hr {
+        border-color: white;
+    }
+
+    /* Make all text white in the section */
+    #payable-trips .subheader,
+    #payable-trips p,
+    #payable-trips h3,
+    #payable-trips h4 {
+        color: white;
+    }
+</style>

@@ -56,9 +56,9 @@ header h1 {
     line-height: 100%;
 }
 
-/* Grey background styles */
+/* Grey background styles - REMOVED */
 .grey-bg {
-    background-color: #333;
+    background-color: unset; /* Removed grey background */
 }
 
 .grey-bg blockquote,
@@ -212,4 +212,15 @@ section.page-notification p {
 
 .team-member-container p {
     margin-top: 5px;
+}
+
+/* Tick and Cross Mark Styles */
+.cross-mark {
+    color: red;
+    font-size: 18px;
+}
+
+.tick-mark {
+    color: green;
+    font-size: 18px;
 }

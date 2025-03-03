@@ -98,7 +98,7 @@
     </nav>
 </div>
 
-<!-- CSS to make the navigation bar bigger -->
+<!-- CSS to make the navigation bar bigger and resize the logo -->
 <style>
     /* Make the navigation bar larger */
     .top-bar {
@@ -109,10 +109,26 @@
 
     .top-bar .title-area {
         margin-bottom: 0;
+        display: flex;
+        align-items: center; /* Vertically center the logo and title */
+        justify-content: flex-start; /* Align items to the left */
     }
 
     .top-bar .name h1 {
         font-size: 28px; /* Increase logo font size */
+        display: flex;
+        align-items: center; /* Vertically align text and image */
+    }
+
+    .top-bar .name h1 a {
+        display: flex;
+        align-items: center; /* Align logo and text */
+    }
+
+    .top-bar .name h1 .brand {
+        margin-right: 10px; /* Space between logo and text */
+        max-width: 40px; /* Set a max width for the logo */
+        height: auto; /* Maintain aspect ratio of the logo */
     }
 
     .top-bar .menu-icon a {
