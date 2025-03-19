@@ -22,16 +22,21 @@
 <!-- CONTENT -->
 <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
 
-  <!-- Left Column: Vacancies (Aligned with Documentation) -->
-  <div class="left-column" style="flex: 1; padding-right: 20px; text-align: center; margin-top: 50px;">
+<!-- Left Column: Vacancies (Aligned with Documentation) -->
+<div class="left-column" style="flex: 1; padding-right: 20px; text-align: center; margin-top: 50px;">
     <h3>Vacancies</h3>
     <p><i>Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</i></p>
+    <p><i>There are currently no staff vacancies available. Please check back later for future opportunities.</i></p>
+</div>
 
+    
+    <!--
     <h4>PA to Headteacher</h4>
     <p><a href="assets/recruitment/2025-02/Job Ad for PA to Headteacher - February 2025.pdf" style="color: green;">Position Details</a></p>
 
     <h4>2ic Science</h4>
     <p><a href="assets/recruitment/2025-02/2ic Science - Jan 2025.pdf" style="color: green;">Position Details</a></p>
+    -->
   </div>
 
   <!-- Right Column: Documentation (Aligned to Right Edge) -->
@@ -67,51 +72,28 @@
 
 </div>
 
-
-
-<!-- Jobs -->
-<section class="grey-bg">
-  <div class="row">
-    <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <blockquote style="padding-top: 20px; padding-bottom: 20px; margin-top: 20px; margin-bottom: 20px;">
-        “Leaders and governors have an ambitious long-term vision for the school and its local community. All of the decisions they make are guided by what is in the best interests of pupils. Staff share in this vision and are proud to work at the school. They feel well supported and appreciate the training they receive.”
-        <br><br>
-        “Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face. Pupils particularly appreciate the support they receive from staff in the welfare support and guidance team”
-        - <cite>Ofsted, March 2022</cite>
-      </blockquote>
-    </div>
-  </div>
-  <br><br><br>
-</section>
-
-
-
-<section>
+<section style="background-color: #333333; color: #ffffff;">
   <div class="row">
       <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
   </div>
   <div class="row" style="display: flex; align-items: center;">
-    <!-- Image Column with Flexbox -->
-    <div class="small-12 medium-7 columns" style="display: flex; justify-content: center; align-items: center;">
-      <img src="/images/employment/employment-01.jpg" alt="Park Community School - A happy place to be" style="width: 100%; height: auto;">
-    </div>
-    <!-- Text Column with Padding and Margin -->
-    <div class="small-12 medium-5 columns" style="padding-top: 20px; padding-bottom: 20px; margin-top: 20px; margin-bottom: 20px;">
-      <p>Park Community School is committed to equal opportunities for all students and staff, regardless of race, gender, age, physical disability, political, sexual orientation or religious affiliations or marital status, recognising the benefits that a diverse workforce brings to the School.</p>
-      <p>Park Community School and Hampshire County Council are committed to safeguarding and promoting the welfare of children and young people and expect all staff and volunteers to share this commitment. We will ensure that all our recruitment and selection practices reflect this commitment.</p>
-      <p>All successful candidates will be subject to satisfactory references and other relevant pre-employment checks including Disclosure and Barring Services (DBS) and medical clearance.</p>
-      <p>View our Child Protection Policy on our <a href="/policies.php">policies page</a>.</p>
-    </div>
+      <!-- Image Column Positioned to the Left -->
+      <div class="small-12 medium-5 columns" style="display: flex; justify-content: center; align-items: center;">
+          <img src="/images/employment/employment-01.jpg" alt="Park Community School - A happy place to be" style="width: 100%; height: auto;">
+      </div>
+      <!-- Text Column Positioned to the Right -->
+      <div class="small-12 medium-7 columns" style="padding-top: 20px; padding-bottom: 20px; margin-top: 20px; margin-bottom: 20px;">
+          <p>Park Community School is committed to equal opportunities for all students and staff, regardless of race, gender, age, physical disability, political, sexual orientation or religious affiliations or marital status, recognising the benefits that a diverse workforce brings to the School.</p>
+          <p>Park Community School and Hampshire County Council are committed to safeguarding and promoting the welfare of children and young people and expect all staff and volunteers to share this commitment. We will ensure that all our recruitment and selection practices reflect this commitment.</p>
+          <p>All successful candidates will be subject to satisfactory references and other relevant pre-employment checks including Disclosure and Barring Services (DBS) and medical clearance.</p>
+          <p>View our Child Protection Policy on our <a href="/policies.php" style="color: #ffffff; text-decoration: underline;">policies page</a>.</p>
+      </div>
   </div>
   <br><br><br>
 </section>
 
-
 <!-- Terms -->
-<section class="grey-bg">
+<section style="background-color: #333333; color: #ffffff;">
   <div class="row">
       <div class="small-12 large-1 columns text-left hr-logo white-bg"></div>
   </div>
@@ -121,7 +103,7 @@
       <h4>Human Resources Department</h4>
       <p>The HR department is responsible for making sure Park Community School’s workforce are safe, healthy and happy (and in turn, able to help the students achieve the same).</p>
       <p>From recruiting and onboarding new staff members to handling payroll and contractual queries, no two days are ever the same, and project work includes promoting staff wellbeing and spreading awareness of benefits and support schemes available to the workforce.</p>
-      <p>Donna Patterson, HR Manager, is a fully qualified Chartered Member of the CIPD, who stipulate a <a href="//www.cipd.co.uk/binaries/code-of-professional-conduct_july-2015.pdf?utm_medium=email&utm_source=cipd&utm_campaign=mem_renew&utm_term=164452&utm_content=Retention email 1%2C resources%2C mcipd%2C fcipd%2C assoc-7297-17819-20160930110922-Please_download_and_read_the_Code_of_Professional_Conduct" target="_blank">Professional Code of Conduct</a>.</p>
+      <p>Donna Patterson, HR Manager, is a fully qualified Chartered Member of the CIPD, who stipulate a <a href="//www.cipd.co.uk/binaries/code-of-professional-conduct_july-2015.pdf?utm_medium=email&utm_source=cipd&utm_campaign=mem_renew&utm_term=164452&utm_content=Retention email 1%2C resources%2C mcipd%2C fcipd%2C assoc-7297-17819-20160930110922-Please_download_and_read_the_Code_of_Professional_Conduct" target="_blank" style="color: #ffffff; text-decoration: underline;">Professional Code of Conduct</a>.</p>
     </div>
     <!-- Optional Image Column (if you want to add an image) -->
     <div class="small-12 medium-5 large-4 columns" style="display: flex; justify-content: flex-start; align-items: flex-start;">
@@ -130,6 +112,7 @@
   </div>
   <br><br><br>
 </section>
+
 
 <!-- FOOTER -->
 <?php include("includes/footer.html") ?>
