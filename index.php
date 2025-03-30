@@ -421,47 +421,6 @@
     </div>
 </section>
 
-
-	        <!-- Shortcut Links -->
-            <div class="row">
-                <div class="large-11 columns"><br class="show-for-large-up">
-                    <ul class="small-block-grid-2 medium-block-grid-4 text-center">
-
-                        <li>
-                          <a href="//login.microsoftonline.com" target="_blank">
-                              <img class="fixed-size-100" src="images/logo/office365.svg" alt="Microsoft Office 365">
-                              <p>Office 365</p>
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.classcharts.com/account/login/share" target="_blank">
-                              <img class="fixed-size-100" src="images/logo/classcharts.png" alt="ClassCharts">
-                              <p>ClassCharts</p>
-                          </a>
-                        </li>
-
-                        <li>
-                           <a href="https://www.scopay.com/login" target="_blank">
-                              <img class="fixed-size-100" src="/images/logo/tucasi.png" alt="SCOPay Online Payments">
-                              <p>SCOPay</p>
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="//parkc.schoolcloud.co.uk/" target="_blank">
-                              <img class="fixed-size-100" src="/images/logo/schoolcloud-pe.png" alt="Online Parents Evening">
-                              <p>Parents Evening</p>
-                          </a>
-                        </li>
-
-                    </ul>
-                    <br>
-                </div>
-            </div>
-            <!-- /Shortcut Links -->
-	    </div>
-
         <div class="large-4 columns show-for-large-up">
             <div>
                 <br>
