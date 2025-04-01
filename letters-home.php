@@ -63,6 +63,15 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <div class="newsletter-list">
+                <!-- April 2025 -->
+                <div class="newsletter-item">
+                    <h4>April 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-04/Y10 English Literature - revision  masterclasses 2025.pdf" target="_blank">Year 10 - English Literature Masterclass</a></li>
+                        <li><a href="/assets/letters/2025-04/Year 9 end of half term March 2025.pdf" target="_blank">Year 9 - End of Half Term Review</a></li>
+                    </ul>
+                </div>
                 <!-- March 2025 -->
                 <div class="newsletter-item">
                     <h4>March 2025</h4>
