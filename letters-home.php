@@ -68,6 +68,7 @@
                 <div class="newsletter-item">
                     <h4>April 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-04/Park Newsletter 4 April.pdf" target="_blank">Newsletter - 4th April 2025</a></li>
                         <li><a href="/assets/letters/2025-04/Year 11  Easter study sessions 2025.pdf" target="_blank">Year 11 - Easter Study Sessions</a></li>
                         <li><a href="/assets/letters/2025-04/Y10 English Literature - revision  masterclasses 2025.pdf" target="_blank">Year 10 - English Literature Masterclass</a></li>
                         <li><a href="/assets/letters/2025-04/Year 9 end of half term March 2025.pdf" target="_blank">Year 9 - End of Half Term Review</a></li>
