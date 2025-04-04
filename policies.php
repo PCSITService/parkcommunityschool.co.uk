@@ -90,6 +90,14 @@
             </li>
 
             <li>
+                <a href="/assets/policies/cctv.pdf" target="_blank">
+                    <div class="policy-container">
+                        <p>CCTV</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
                 <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank">
                     <div class="policy-container">
                         <p>Charging and Remissions</p>
