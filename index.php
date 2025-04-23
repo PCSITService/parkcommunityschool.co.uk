@@ -40,13 +40,12 @@
 
 <!--                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
                         <a class="small button radius warning" href="assets/curriculum/Options Booklet 2025 PV. V3.pdf" target="_blank">GCSE Courses 2025-2026</a>
-                        <a class="small button radius warning" href="#" data-reveal-id="covid-parent">Parent Learning</a>   
+                        <a class="small button radius" href="#" data-reveal-id="exam-information" style="background-color: #f08a24; border-color: #f08a24; color: #ffffff;">Exam Information</a>
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams and Revision</a>
                         <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank"><i class="fa fa-envelope-open-text"></i> Letters & Newsletters</a>
@@ -223,9 +222,6 @@
                     <li><a href="assets/revision/year -11-phase-1-revision-24-25.pdf" target="_blank">Year 11 Phase 1 Revision 24-25</a></li>
                     <li><a href="assets/revision/Year 11 Phase 2 Revision booklet 24-25.pdf" target="_blank">Year 11 Phase 2 Revision 24-25</a></li>
                     <li><a href="assets/revision/Revision Guide 2024.pdf" target="_blank">Revision Guide</a></li>
-                    <li><a href="assets/revision/KA2 Year 7.pdf" target="_blank">KA2 Year 7</a></li>
-                    <li><a href="assets/revision/KA2 Year 8.pdf" target="_blank">KA2 Year 8</a></li>
-                    <li><a href="assets/revision/KA2 Year 9.pdf" target="_blank">KA2 Year 9</a></li>
 
 <!-- 
                     <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
