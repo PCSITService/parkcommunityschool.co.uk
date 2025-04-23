@@ -48,7 +48,7 @@
                         <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams and Revision</a>
                         <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="small button radius success" href="#" data-reveal-id="newsletter">Newsletters</a>
+                        <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank">Newsletters</a>
                     </div>
                 </div>
             </div>
@@ -299,41 +299,6 @@
 
               <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
-
-            <!-- Newsletters -->
-            <div id="newsletter" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Newsletters</h2>
-
-                <div class="medium-12 columns">
-            <ul class="small-block-grid-1">
-                <li>
-                    <ul class="circle"><hr>
-                        <li><a href="/assets/letters/2025-02/Park Newsletter 17 Feb 1.pdf" target="_blank">Newsletter - 17th February 2025</a></li> 
-                        <li><a href="/assets/letters/2025-01/Park Newsletter 27 January 2025.pdf" target="_blank">Newsletter - 27 January 2025</a></li> 
-                        <li><a href="/assets/letters/2024-12/Park Newsletter 20 Dec 2024.pdf" target="_blank">Newsletter - 20th December 2024</a></li> 
-                        <li><a href="/assets/letters/2024-11/Park Newsletter Nov 2024.pdf" target="_blank">Newsletter - 25th November 2024</a></li>
-                        <li><a href="/assets/letters/2024-10/newsletter-14.10.2024.pdf" target="_blank">Newsletter | Monday 14th October 2024 </a></li> 
-                        <li><a href="/assets/letters/2024-09/newsletter-23.09.2024.pdf" target="_blank">Newsletter - 23rd September 2024</a></li>  
-                        <li><a href="/assets/letters/2024-07/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th July 2024</a></li>
-                        <li><a href="/assets/letters/2024-07/newsletter-05.07.2024.pdf" target="_blank">Newsletter - 5th July 2024</a></li>    
-                        <li><a href="/assets/letters/2024-06/newsletter-17.06.2024.pdf" target="_blank">Newsletter - 17th June 2024</a></li>
-                        <li><a href="/assets/letters/2024-05/newsletter-17.05.2024.pdf" target="_blank">Newsletter - 17th May 2024</a></li>  
-                        <li><a href="/assets/letters/2024-04/newsletter-22.04.2024.pdf" target="_blank">Newsletter - 22nd Arpil 2024</a></li>
-                        <li><a href="/assets/letters/2024-03/newsletter-22.03.2024.pdf" target="_blank">Newsletter - 22nd March 2024</a></li> 
-                        <li><a href="/assets/letters/2024-03/newsletter-04.03.2024.pdf" target="_blank">Newsletter - 4th March 2024</a></li>
-                        <li><a href="/assets/letters/2024-02/newsletter-09.02.2024.pdf" target="_blank">Newsletter - 9th February 2024</a></li>
-                        <li><a href="/assets/letters/2024-01/newsletter-26.01.2024.pdf" target="_blank">Newsletter - 26th January 2024</a></li> 
-                        <li><a href="/assets/letters/2023-12/newsletter-15.12.2023.pdf" target="_blank">Newsletter - 15th December 2023</a></li>
-                        <li><a href="/assets/letters/2023-12/newsletter-01.12.2023.pdf" target="_blank">Newsletter - 1st December 2023</a></li>
-                        <li><a href="/assets/letters/2023-10/newsletter-20.10.2023.pdf" target="_blank">Newsletter - 20th October 2023</a></li>      
-                        <li><a href="/assets/letters/2023-10/newsletter-06.10.2023.pdf" target="_blank">Newsletter - 6th October 2023</a></li>
-                        <li><a href="/assets/letters/2023-09/newsletter-22.09.2023.pdf" target="_blank">Newsletter - 22nd September 2023</a></li>
-                    </ul>
-                <li>
-            </ul>
-            
-        </div>
-
             
             <!-- virtual-sports -->
             <div id="virtual-sports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
