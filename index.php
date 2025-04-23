@@ -229,73 +229,7 @@
  -->
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
-
-
-            <!-- PARENT HOME LEARNING -->
-            <div id="covid-parent" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Parent - Learning</h2>
-                <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
-                <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
-              
-
-                <p>Your child can use the link above to log on and access all of their learning remotely.</p>
-
-                <p>They will find:</p>
-                <ul>
-                    <li>An overview of every half term for each subject</li>
-                    <li>Lead PowerPoints with videos explaining the learning</li>
-                    <li>All the resources they will need including video clips and live demonstrations</li>
-                    <li>Quizzes and application tasks to help them show they know</li>
-                </ul>
-                <p>Students can use this area to revise, access homework and revision and use for remote learning if they are required to work from home</p>      
-
-            <!-- STUDENT HOME LEARNING -->
-            <div id="covid-student" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Student - Learning</h2>
-                <a class="expand button radius success" href="https://pcshantssch.sharepoint.com/sites/students">Student Login</a>
-                <a class="button radius success" href="//members.gcsepod.com/login">GCSEPod</a>
-
-                <ul>
-                    <li>An overview of every half term for each subject</li>
-                    <li>Lead PowerPoints with videos explaining your learning</li>
-                    <li>All the resources you will need including video clips and live demonstrations</li>
-                    <li>Quizzes and application tasks to help you show you know</li>
-                </ul>
-                <p>You can use this area to revise, access homework and revision and use for remote learning if you are required to work from home.</p>
-
-                <p><strong>During Lockdown</strong></p>
-                <p>All of your learning is there ready for you. Teachers will:</p>
-                <ul>
-                    <li>Set your work via Classcharts and Google Classroom</li>
-                    <li>Email you via Teams every lesson to supoprt with your learning and give feedback</li>
-                    <li>Run Live lessons once every week for Years 7, 8 and 9 and every lesson for Years 10 and 11</li>
-                    <li>Give you feedback on your work via Teams</li>
-                </ul>
-                <p>Additional lessons and support can be found at:</p>
-                <ul>
-                	 <li><a href="//www.thenational.academy/">Oak National Academy</a></li>
-                    <li><a href="//www.bbc.co.uk/teach/live-lessons/">BBC Live Lessons</a></li>
-                    <li><a href="//members.gcsepod.com/login">GCSE Pod - Login</a></li>
-                    <br>
-                    <li><a href="assets/login-help.pdf">Need help logging in?</a></li>
-                    <li><a href="https://vimeo.com/499187398">How to access Teams <small>(Video)</small></a></li>
-                    <li><a href="assets/login-help.pdf" target="_blank">Office365 Help logging in</a></li>
-                    <li><a href="assets/office_install.pdf" target="_blank">Downloading Microsoft Teams</a></li>
-                    <li><a href="assets/letters/2021-01/accessing-online-learning.pdf">Access Office365 using Playstation or Xbox</a></li>
-                    <br>
-                    <li><a href="//vimeo.com/showcase/7029024" target="_blank">Video Assemblies</a></li>
-                    <li><a href="assets/reading_plus_top_tips.pptx">Reading Plus Top Tips</a></li>
-                    <li><a href="//vimeo.com/showcase/7145412">Lockdown Learning Revision Videos</a></li>
-
-                    <hr>
-                    <li><a href="#" data-reveal-id="virtual-sports">Virtual Sports Day 2020</a></li>
-                    <li><a href="weekly-challenge.php">Weekly Challenge March-June 2020</a></li>
-                    <li><a href="assets/reading_process.pdf">Reading Process</a></li>
-                </ul>
-
-              <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
+            </div>     
             
             <!-- virtual-sports -->
             <div id="virtual-sports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -551,40 +485,34 @@
         <br>
     </div>
     <br>
-</section>
-<section id="meet-the-team">
+<section id="meet-the-team" style="background-color: #333333; color: #ffffff; text-align: center;">
     <div class="row">
         <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <h3>Leadership Team</h3>
+            <!-- Center the 'Leadership Team' text -->
+            <h3 style="color: #ffffff;">Leadership Team</h3>
             <br>
 
-        <div class="medium-4 columns text-center  team-member-container">
-            <img src="images/slt/c-anders.jpg" alt="" class="team-member">
-            <p>Mr C Anders</p>
-            <p class="subheader">Headteacher</p>
+            <!-- Team Members -->
+            <div class="medium-4 columns text-center team-member-container">
+                <img src="images/slt/c-anders.jpg" alt="" class="team-member">
+                <p>Mr C Anders</p>
+                <p class="subheader" style="color: #ffffff;">Headteacher</p>
+            </div>
+            <div class="medium-4 small-6 columns text-center team-member-container">
+                <img src="images/slt/e-capaldi.jpg" alt="" class="team-member">
+                <p>Mrs E Capaldi</p>
+                <p class="subheader" style="color: #ffffff;">Head of School</p>
+            </div>
         </div>
-        <div class="medium-4 small-6 columns text-center  team-member-container">
-            <img src="images/slt/e-capaldi.jpg" alt="" class="team-member">
-            <p>Mrs E Capaldi</p>
-            <p class="subheader">Head of School</p>
-        </div>
- <!--      <div class="medium-4 small-6 columns text-center  team-member-container end">
-            <img src="images/slt/s-parish.jpg" alt="" class="team-member">
-            <p>Mrs S Parish</p>
-            <p class="subheader">Business &amp; Community Manager</p>
-        </div> -->
-
-        </div>
-
     </div>
     <br><br>
-</section>
 
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
+    <!-- Footer Section Included Here -->
+    <?php include("includes/footer.html"); ?>
+</section>
 
 
 		
