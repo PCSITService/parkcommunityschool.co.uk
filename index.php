@@ -4,6 +4,7 @@
         <title>Park Community School | Much More Than Just A School</title>
         <?php include("includes/head.html") ?>
         <link rel="stylesheet" href="css/bounce.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
 <body class="page-base">
 
@@ -48,7 +49,7 @@
                         <a class="small button radius success" href="#" data-reveal-id="exam-information">Exams and Revision</a>
                         <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank">Newsletters</a>
+                        <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank"><i class="fa fa-envelope-open-text"></i> Letters & Newsletters</a>
                     </div>
                 </div>
             </div>
