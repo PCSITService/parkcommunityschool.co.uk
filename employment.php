@@ -26,14 +26,8 @@
         <p><i>Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</i></p>
         <!--<p><i>There are currently no staff vacancies available. Please check back later for future opportunities.</i></p>-->
 
-        <h4>Site Assistant</h4>
-        <p><a href="assets/recruitment/2025-03/Site Assistant - April 2025.pdf" style="color: green;">Position Details</a></p>
-
-        <h4>Cover Supervisor</h4>
-        <p><a href="assets/recruitment/2025-03/Cover Supervisor - March 2025.pdf" style="color: green;">Position Details</a></p>
-
-        <h4>Nursery Assistant - Level 3</h4>
-        <p><a href="assets/recruitment/2025-03/Nursery Assistant - Level 3 - Permanent.pdf" style="color: green;">Position Details</a></p>
+        <h4>Early Years Assistant</h4>
+        <p><a href="assets/recruitment/2025-04/Early Years Assistant Apr25.pdf" style="color: green;">Position Details</a></p>
     </div>
 
     <!-- Right Column: Documentation (Aligned to Right Edge) -->
