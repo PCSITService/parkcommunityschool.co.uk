@@ -26,6 +26,9 @@
         <p><i>Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</i></p>
         <!--<p><i>There are currently no staff vacancies available. Please check back later for future opportunities.</i></p>-->
 
+        <h4>SEN Assistant</h4>
+        <p><a href="assets/recruitment/2025-04/SEN Assistant - Apr25.pdf" style="color: green;">Position Details</a></p>
+
         <h4>Early Years Assistant</h4>
         <p><a href="assets/recruitment/2025-04/Early Years Assistant Apr25.pdf" style="color: green;">Position Details</a></p>
 
