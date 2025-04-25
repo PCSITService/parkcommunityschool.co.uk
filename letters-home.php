@@ -68,6 +68,7 @@
                 <div class="newsletter-item">
                     <h4>April 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-04/Summer Uniform Letter 06 05 25.pdf" target="_blank">Summer Uniform</a></li>
                         <li><a href="/assets/letters/2025-04/Year 8 Creative Options Parents Information Evening 23 04 25.pdf" target="_blank">Year 8 - Creative Options Parents Information</a></li>
                         <li><a href="/assets/letters/2025-04/Park Newsletter 4 April.pdf" target="_blank">Newsletter - 4th April 2025</a></li>
                         <li><a href="/assets/letters/2025-04/Year 11  Easter study sessions 2025.pdf" target="_blank">Year 11 - Easter Study Sessions</a></li>
