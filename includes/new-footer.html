@@ -1,41 +1,242 @@
-<!-- Font Awesome for icons (include in your layout head if not already) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-YOUR-INTEGRITY-HASH" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Footer Preview</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    .content {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Footer Styles */
+    footer {
+      font-family: 'Arial', sans-serif;
+      color: #ffffff;
+    }
 
-<footer style="background-color: #333333; color: #ffffff; padding: 40px 0;">
+    .footer-main {
+      background-color: #333333; /* Updated from #9c3244 to #333333 */
+      padding: 40px 20px;
+    }
 
-  <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 20px;">
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 30px;
+    }
 
-    <!-- Left: Logo -->
-    <div style="flex: 1; min-width: 220px; margin-bottom: 20px;">
-      <img src="/assets/images/pcs-logo.png" alt="Park Community School Logo" style="max-width: 120px; height: auto;">
-      <p style="margin-top: 10px; font-size: 14px;">&copy; <?php echo date('Y'); ?> Park Community School</p>
-    </div>
+    .footer-logo {
+      text-align: left;
+    }
 
-    <!-- Center: Quick Links -->
-    <div style="flex: 1; min-width: 220px; margin-bottom: 20px; text-align: center;">
-      <h4 style="margin-bottom: 10px; color: #ffffff;">Quick Links</h4>
-      <ul style="list-style: none; padding: 0;">
-        <li><a href="https://pcs.hants.sch.uk/admissions.php" style="color: #ffffff; text-decoration: none;">Admissions</a></li>
-        <li><a href="https://pcs.hants.sch.uk/prospectus.php" style="color: #ffffff; text-decoration: none;">Prospectus</a></li>
-        <li><a href="https://pcs.hants.sch.uk/forms.php" style="color: #ffffff; text-decoration: none;">Forms</a></li>
-        <li><a href="https://pcs.hants.sch.uk/statutory.php" style="color: #ffffff; text-decoration: none;">Statutory Info</a></li>
-      </ul>
-    </div>
+    .footer-logo img {
+      max-width: 120px;
+      margin-bottom: 15px;
+    }
 
-    <!-- Right: Contact -->
-    <div style="flex: 1; min-width: 220px; margin-bottom: 20px;">
-      <h4 style="margin-bottom: 10px; color: #ffffff;">Contact Us</h4>
-      <p style="margin: 0;">
-        <i class="fas fa-phone"></i>
-        <a href="tel:02392489800" style="color: #ffffff; text-decoration: none;"> 02392 489800</a><br><br>
+    .footer-logo p {
+      font-size: 14px;
+      margin: 0;
+    }
 
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:info@pcs.hants.sch.uk" style="color: #ffffff; text-decoration: none;"> info@pcs.hants.sch.uk</a><br><br>
+    .footer-links h3, 
+    .footer-navigate h3, 
+    .footer-contact h3 {
+      color: #ffffff;
+      font-size: 18px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
 
-        <a href="#" style="margin-right: 10px; color: #ffffff;"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" style="color: #ffffff;"><i class="fab fa-instagram"></i></a>
-      </p>
-    </div>
+    .footer-links ul, 
+    .footer-navigate ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
+    .footer-links ul li, 
+    .footer-navigate ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links ul li a, 
+    .footer-navigate ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-links ul li a:hover, 
+    .footer-navigate ul li a:hover {
+      color: #f1f1f1;
+      text-decoration: underline;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .social-icons a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      color: #333333; /* Updated social icon color from #9c3244 to match new background */
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      background-color: #f1f1f1;
+      transform: translateY(-3px);
+    }
+
+    .contact-info p {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      width: 20px;
+    }
+
+    /* Responsive adjustments */
+    /* Center section containing Quick Links and Navigate */
+    .footer-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    
+    /* Right align contact section */
+    .footer-contact {
+      text-align: right;
+    }
+    
+    .social-icons {
+      justify-content: flex-end;
+    }
+    
+    @media (max-width: 992px) {
+      .footer-container {
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .footer-center {
+        grid-column: span 2;
+        margin-top: 30px;
+      }
+      
+      .footer-contact {
+        text-align: left;
+      }
+      
+      .social-icons {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .footer-center {
+        grid-template-columns: 1fr;
+        grid-column: 1;
+      }
+      
+      .footer-logo, .footer-contact {
+        text-align: center;
+      }
+      
+      .social-icons {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Park Community School</h1>
+    <p>Main website content would appear here</p>
   </div>
-</footer>
+  
+  <!-- Footer -->
+  <footer>
+    <!-- Main footer area with dark gray background -->
+    <div class="footer-main">
+      <div class="footer-container">
+        <!-- School logo (Left) -->
+        <div class="footer-logo">
+          <img src="/api/placeholder/120/120" alt="School Logo">
+          <p>&copy; 2025 Park Community School</p>
+        </div>
+        
+        <!-- Center section with Quick Links and Navigate -->
+        <div class="footer-center">
+          <!-- Quick Links section -->
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Arbor Portal</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Ofsted</a></li>
+              <li><a href="#">Outlook</a></li>
+            </ul>
+          </div>
+          
+          <!-- Navigate section -->
+          <div class="footer-navigate">
+            <h3>Navigate</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Use of Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Contact Us section (Right) -->
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> (+44) 02392 489 400</p>
+            <p><i class="fas fa-envelope"></i> info@pcs.hants.sch.uk</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
