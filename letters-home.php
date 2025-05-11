@@ -69,6 +69,7 @@
                     <h4>May 2025</h4>
                     <ul>
                         <li><a href="/assets/letters/2025-05/e scooter letter_ (002).pdf" target="_blank">E-Scooters and the Law</a></li>
+                        <li><a href="/assets/letters/2025-05/Year 11 Period 6 letter May 7.pdf" target="_blank">Year 11 Period 6 letter May 7</a></li>
                     </ul>
                 </div>                
                 <div class="newsletter-list">
