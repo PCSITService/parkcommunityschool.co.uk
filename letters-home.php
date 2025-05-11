@@ -64,6 +64,14 @@
         <div class="medium-12 columns">
             <div class="newsletter-list">
                 <div class="newsletter-list">
+                <!-- May 2025 -->
+                <div class="newsletter-item">
+                    <h4>May 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-05/e scooter letter_ (002).pdf" target="_blank">E-Scooters and the Law</a></li>
+                    </ul>
+                </div>                
+                <div class="newsletter-list">
                 <!-- April 2025 -->
                 <div class="newsletter-item">
                     <h4>April 2025</h4>
