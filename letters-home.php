@@ -68,6 +68,7 @@
                 <div class="newsletter-item">
                     <h4>May 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-05/Year 9 end of half term May 2025.docx" target="_blank">Year 9 end of half term May 2025</a></li>
                         <li><a href="/assets/letters/2025-05/e scooter letter_ (002).pdf" target="_blank">E-Scooters and the Law</a></li>
                         <li><a href="/assets/letters/2025-05/Year 11 Period 6 letter May 7.pdf" target="_blank">Year 11 Period 6 letter May 7</a></li>
                         <li><a href="/assets/letters/2025-05/post card letter letter.docx" target="_blank">Post card letter</a></li>
