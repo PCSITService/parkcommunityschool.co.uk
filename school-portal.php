@@ -658,7 +658,7 @@
     <footer class="footer">
         <div class="container text-center">
             <p>To return to the main website, please <a href="https://pcs.hants.sch.uk" target="_blank">click here</a>.</p>
-            <p class="small text-muted">&copy; <?php echo date('Y'); ?> School Name. All rights reserved.</p>
+            <p class="small text-muted">&copy; <?php echo date('Y'); ?> Park Community School. All rights reserved.</p>
         </div>
     </footer>
 
