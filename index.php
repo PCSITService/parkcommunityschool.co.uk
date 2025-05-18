@@ -1,3 +1,13 @@
+<?php
+// Place this at the very top of your index.php file, before any HTML output
+require_once('includes/rate_limiter.php');
+
+// Create instance of rate limiter
+$rateLimiter = new RateLimiter();
+
+// Check if visitor has exceeded rate limit
+$showCaptcha = $rateLimiter->isLimitExceeded();
+?>
 <!doctype html>
 <html class="no-js" lang="en" >
     <head>
@@ -5,8 +15,20 @@
         <?php include("includes/head.html") ?>
         <link rel="stylesheet" href="css/bounce.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        
+        <?php if ($showCaptcha): ?>
+        <!-- Add Google reCAPTCHA API -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <?php endif; ?>
     </head>
 <body class="page-base">
+
+<?php 
+// Display CAPTCHA overlay if rate limit exceeded
+if ($showCaptcha) {
+    include("includes/captcha_overlay.php");
+}
+?>
 
 <!-- NAVIGATION -->
 <?php include("includes/topnav.html") ?>
