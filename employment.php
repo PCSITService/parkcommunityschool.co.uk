@@ -1,116 +1,419 @@
 <!doctype html>
-<html class="no-js" lang="en" >
+<html class="no-js" lang="en">
     <head>
         <title>Park Community School | You could make a difference</title>
+        <meta name="description" content="Explore current job opportunities and find application documents for positions at Park Community School.">
         <?php include("includes/head.html") ?>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft8bSV7R/+7GdFWxl+9lJ04XGRu+cZGaVQoxIECdiDFZqT5VZdSW+Z0nNQ8d/N0xBNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /* Variables for consistent theming */
+            :root {
+                --primary-color: #a3cd42;
+                --primary-dark: #8da93f;
+                --secondary-color: #333333;
+                --light-bg: #f5f5f5;
+                --border-radius: 8px;
+                --box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+                --transition: all 0.3s ease;
+                --spacing-sm: 10px;
+                --spacing-md: 20px;
+                --spacing-lg: 30px;
+            }
+
+            /* Main container */
+            .employment-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                max-width: 1200px;
+                width: 100%;
+                margin: 50px auto;
+                padding: 0 var(--spacing-md);
+                gap: var(--spacing-lg);
+            }
+
+            /* Column layouts */
+            .vacancies-column, 
+            .docs-column {
+                flex: 1;
+                min-width: 300px;
+            }
+
+            .docs-column {
+                max-width: 50%;
+            }
+
+            /* Section headers */
+            .section-header {
+                position: relative;
+                display: inline-block;
+                margin-bottom: var(--spacing-lg);
+                color: var(--secondary-color);
+                font-size: 1.5rem;
+            }
+            
+            .section-header::after {
+                content: '';
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background-color: var(--primary-color);
+            }
+            
+            /* Vacancy card */
+            .vacancy-card {
+                background-color: white;
+                border-radius: var(--border-radius);
+                padding: var(--spacing-md);
+                margin-bottom: var(--spacing-md);
+                box-shadow: var(--box-shadow);
+                text-align: left;
+                border-left: 4px solid var(--primary-color);
+                transition: var(--transition);
+            }
+            
+            .vacancy-card:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            }
+            
+            .vacancy-card h4 {
+                margin-top: 0;
+                color: var(--secondary-color);
+                font-size: 1.3rem;
+                margin-bottom: var(--spacing-sm);
+            }
+            
+            .vacancy-card p {
+                margin-bottom: var(--spacing-sm);
+                line-height: 1.5;
+            }
+            
+            /* Button styles */
+            .vacancy-link {
+                display: inline-flex;
+                align-items: center;
+                padding: 8px var(--spacing-md);
+                background-color: var(--primary-color);
+                color: white !important;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: 500;
+                transition: var(--transition);
+                margin-top: var(--spacing-sm);
+            }
+            
+            .vacancy-link:hover, 
+            .vacancy-link:focus {
+                background-color: var(--primary-dark);
+                text-decoration: none;
+                color: white !important;
+                transform: translateY(-2px);
+            }
+            
+            .vacancy-link i {
+                margin-right: 8px;
+            }
+            
+            /* Documentation box */
+            .docs-box {
+                background-color: var(--light-bg);
+                padding: var(--spacing-md);
+                border-radius: var(--border-radius);
+                text-align: left;
+                font-size: 14px;
+                line-height: 1.6;
+                border: 1px solid #e0e0e0;
+                box-shadow: var(--box-shadow);
+            }
+            
+            /* Document lists */
+            .docs-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: var(--spacing-md);
+                margin-bottom: var(--spacing-md);
+            }
+            
+            .docs-column-inner {
+                flex: 1;
+                min-width: 220px;
+            }
+            
+            .docs-title {
+                font-weight: 600;
+                margin-bottom: var(--spacing-sm);
+                padding-bottom: 5px;
+                border-bottom: 1px solid #e0e0e0;
+            }
+            
+            .docs-list {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .docs-list li {
+                margin-bottom: 8px;
+            }
+            
+            .docs-list a {
+                color: #0056b3;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                transition: var(--transition);
+            }
+            
+            .docs-list a:hover,
+            .docs-list a:focus {
+                color: var(--primary-color);
+                text-decoration: underline;
+            }
+            
+            .doc-icon {
+                margin-right: 5px;
+                color: var(--primary-color);
+                width: 16px;
+                text-align: center;
+            }
+            
+            .docs-note {
+                margin-top: var(--spacing-md);
+                padding-top: var(--spacing-sm);
+                border-top: 1px solid #e0e0e0;
+                font-size: 0.9rem;
+                color: #555;
+            }
+            
+            /* Equal opportunities section */
+            .equal-opps-section {
+                background-color: var(--secondary-color);
+                color: white;
+                padding: var(--spacing-lg) 0;
+            }
+            
+            .equal-opps-container {
+                display: flex;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 var(--spacing-md);
+                gap: var(--spacing-lg);
+            }
+            
+            .equal-opps-image {
+                flex: 1;
+                min-width: 250px;
+                max-width: 40%;
+            }
+            
+            .equal-opps-image img {
+                width: 100%;
+                height: auto;
+                border-radius: var(--border-radius);
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            }
+            
+            .equal-opps-content {
+                flex: 2;
+                padding: var(--spacing-md);
+            }
+            
+            .equal-opps-content p {
+                margin-bottom: var(--spacing-sm);
+                line-height: 1.6;
+            }
+            
+            .equal-opps-content a {
+                color: var(--primary-color);
+                text-decoration: underline;
+                transition: var(--transition);
+            }
+            
+            .equal-opps-content a:hover,
+            .equal-opps-content a:focus {
+                color: white;
+                text-decoration: none;
+            }
+            
+            /* Utility classes */
+            .text-center {
+                text-align: center;
+            }
+            
+            .text-italic {
+                font-style: italic;
+            }
+            
+            .mb-sm {
+                margin-bottom: var(--spacing-sm);
+            }
+            
+            .mb-md {
+                margin-bottom: var(--spacing-md);
+            }
+            
+            /* Responsive adjustments */
+            @media (max-width: 992px) {
+                .docs-column {
+                    max-width: 45%;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .employment-container {
+                    flex-direction: column;
+                    gap: var(--spacing-lg);
+                }
+                
+                .vacancies-column, 
+                .docs-column {
+                    width: 100%;
+                    max-width: 100%;
+                }
+                
+                .equal-opps-container {
+                    flex-direction: column;
+                }
+                
+                .equal-opps-image {
+                    max-width: 100%;
+                    margin-bottom: var(--spacing-md);
+                }
+            }
+        </style>
     </head>
 <body class="page-school">
-<!-- NAVIGATION -->
-<?php include("includes/topnav.html") ?>
+    <!-- NAVIGATION -->
+    <?php include("includes/topnav.html") ?>
 
-<!-- HEADER SECTION (Updated without Green Banner and Text) -->
-<header class="header-school">
-    <div class="row">
-        <div class="medium-8 large-8 columns">
-            <!-- Removed the 'Employment' heading and small text -->
+    <!-- HEADER SECTION (Empty placeholder) -->
+    <header class="header-school" aria-hidden="true">
+        <div class="row">
+            <div class="medium-8 large-8 columns"></div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- CONTENT -->
-<div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+    <!-- MAIN CONTENT -->
+    <main class="employment-container">
+        <!-- Vacancies Column -->
+        <section class="vacancies-column">
+            <h2 class="section-header">Current Vacancies</h2>
+            
+            <!-- Active vacancy card -->
+            <article class="vacancy-card">
+                <h3>History Teacher</h3>
+                <p><strong>Full-time position starting September 2025</strong></p>
+                <p>We are seeking an enthusiastic and dedicated History Teacher to join our team. The successful candidate will inspire students and contribute to our thriving History department.</p>
+                <a href="assets/recruitment/2025-05/History Teacher - September 2025.pdf" class="vacancy-link" target="_blank" aria-label="Download History Teacher job details">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </article>
+            
+            <!-- Governor vacancies notice -->
+            <p class="text-italic">Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</p>
+            
+            <!-- Uncomment when no vacancies 
+            <p class="text-italic">There are currently no staff vacancies available. Please check back later for future opportunities.</p>
+            -->
+        </section>
 
-    <!-- Left Column: Vacancies (Aligned with Documentation) -->
-    <div class="left-column" style="flex: 1; padding-right: 20px; text-align: center; margin-top: 50px;">
-        <h3>Vacancies</h3>
-        <p><i>Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</i></p>
-        <!--<p><i>There are currently no staff vacancies available. Please check back later for future opportunities.</i></p>-->
+        <!-- Documentation Column -->
+        <section class="docs-column">
+            <h2 class="section-header">Application Documents</h2>
 
-        <h4>History Teacher</h4>
-        <p><a href="assets/recruitment/2025-05/History Teacher - September 2025.pdf" style="color: green;">Position Details</a></p>
-    </div>
+            <div class="docs-box">
+                <div class="docs-grid">
+                    <!-- Information Documents -->
+                    <div class="docs-column-inner">
+                        <h3 class="docs-title">Information <small>PDF Files</small></h3>
+                        <ul class="docs-list">
+                            <li>
+                                <a href="assets/recruitment/documentation/applicant-information.pdf" target="_blank">
+                                    <i class="fas fa-file-pdf doc-icon" aria-hidden="true"></i> Applicant Information
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/recruitment/documentation/staff-dress-code.pdf" target="_blank">
+                                    <i class="fas fa-file-pdf doc-icon" aria-hidden="true"></i> Staff Dress Code
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/recruitment/documentation/Staff.Dignity.At.Work.Conduct.pdf" target="_blank">
+                                    <i class="fas fa-file-pdf doc-icon" aria-hidden="true"></i> Staff Dignity at Work Code of Conduct
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/recruitment/documentation/privacy-statement.pdf" target="_blank">
+                                    <i class="fas fa-file-pdf doc-icon" aria-hidden="true"></i> Privacy Statement
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Application Forms -->
+                    <div class="docs-column-inner">
+                        <h3 class="docs-title">Forms <small>DOCX Files</small></h3>
+                        <ul class="docs-list">
+                            <li>
+                                <a href="assets/recruitment/documentation/Hampshire-Schools-Equalities-Monitoring-Form-2022.docx" target="_blank" download>
+                                    <i class="fas fa-file-word doc-icon" aria-hidden="true"></i> Equalities Form
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/recruitment/documentation/teaching-application-form-2021.docx" target="_blank" download>
+                                    <i class="fas fa-file-word doc-icon" aria-hidden="true"></i> Teaching Application Form
+                                </a>
+                            </li>
+                            <li>
+                                <a href="assets/recruitment/documentation/support-staff-application-form-2021.docx" target="_blank" download>
+                                    <i class="fas fa-file-word doc-icon" aria-hidden="true"></i> Support Application Form
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-    <!-- Right Column: Documentation (Aligned to Right Edge) -->
-    <div class="right-column" style="flex: 1; padding-left: 20px; text-align: center; max-width: 50%; margin-top: 50px;">
-    
-        <!-- Centered Title with Margin to Move Down -->
-        <h4 style="text-align: center; margin-bottom: 15px;">Documentation</h4>
+                <p class="docs-note">
+                    For legal reasons, we cannot accept CVs as a form of application, and therefore ask all applicants to complete our application form and Equal Opportunities Monitoring Form. Completed forms can be sent to 
+                    <a href="mailto:recruitment@pcs.hants.sch.uk">recruitment@pcs.hants.sch.uk</a>.
+                </p>
+            </div>
+        </section>
+    </main>
 
-        <!-- Light Grey Box for Documentation with Dark Outline and Extra Space Below -->
-        <div style="background-color: #f0f0f0; padding: 20px; border-radius: 8px; text-align: left; font-size: 14px; line-height: 1.6; border: 2px solid #333; margin-bottom: 30px;">
-            <ul class="medium-block-grid-2" style="list-style-type: none; padding: 0; margin: 0;">
-                <li>
-                    <ul style="line-height: 2; text-align: left;">Information | <small>PDF Files</small>
-                        <li><a href="assets/recruitment/documentation/applicant-information.pdf" target="_blank">Applicant Information</a></li>
-                        <li><a href="assets/recruitment/documentation/staff-dress-code.pdf" target="_blank">Staff Dress Code</a></li>
-                        <li><a href="assets/recruitment/documentation/Staff.Dignity.At.Work.Conduct.pdf" target="_blank">Staff Dignity at Work Code of Conduct</a></li>
-                        <li><a href="assets/recruitment/documentation/privacy-statement.pdf" target="_blank">Privacy Statement</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul style="line-height: 2; text-align: left;">Forms | <small>DOCX Files</small>
-                        <li><a href="assets/recruitment/documentation/Hampshire-Schools-Equalities-Monitoring-Form-2022.docx" target="_blank" download>Equalities Form</a></li>
-                        <li><a href="assets/recruitment/documentation/teaching-application-form-2021.docx" target="_blank" download>Teaching Application Form</a></li>
-                        <li><a href="assets/recruitment/documentation/support-staff-application-form-2021.docx" target="_blank" download>Support Application Form</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <p style="text-align: left;">For legal reasons, we cannot accept CVs as a form of application, and therefore ask all applicants to complete our application form and Equal Opportunities Monitoring Form. Completed forms can be sent to <a href="mailto:recruitment@pcs.hants.sch.uk">Recruitment</a>.</p>
+    <!-- Equal Opportunities Section -->
+    <section class="equal-opps-section" aria-labelledby="equal-opps-title">
+        <div class="row">
+            <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
         </div>
-    
-    </div>
-
-</div>
-
-<section style="background-color: #333333; color: #ffffff;">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row" style="display: flex; align-items: center;">
-        <!-- Image Column Positioned to the Left -->
-        <div class="small-12 medium-5 columns" style="display: flex; justify-content: center; align-items: center;">
-            <img src="/images/employment/employment-01.jpg" alt="Park Community School - A happy place to be" style="width: 100%; height: auto;">
+        
+        <div class="equal-opps-container">
+            <!-- Image on the left -->
+            <div class="equal-opps-image">
+                <img src="/images/employment/employment-01.jpg" alt="Diverse group of students at Park Community School" loading="lazy">
+            </div>
+            
+            <!-- Content on the right -->
+            <div class="equal-opps-content">
+                <h2 id="equal-opps-title" class="visually-hidden">Equal Opportunities and Safeguarding</h2>
+                <p>Park Community School is committed to equal opportunities for all students and staff, regardless of race, gender, age, physical disability, political, sexual orientation or religious affiliations or marital status, recognising the benefits that a diverse workforce brings to the School.</p>
+                <p>Park Community School and Hampshire County Council are committed to safeguarding and promoting the welfare of children and young people and expect all staff and volunteers to share this commitment. We will ensure that all our recruitment and selection practices reflect this commitment.</p>
+                <p>All successful candidates will be subject to satisfactory references and other relevant pre-employment checks including Disclosure and Barring Services (DBS) and medical clearance.</p>
+                <p>View our Child Protection Policy on our <a href="/policies.php">policies page</a>.</p>
+            </div>
         </div>
-        <!-- Text Column Positioned to the Right -->
-        <div class="small-12 medium-7 columns" style="padding-top: 20px; padding-bottom: 20px; margin-top: 20px; margin-bottom: 20px;">
-            <p>Park Community School is committed to equal opportunities for all students and staff, regardless of race, gender, age, physical disability, political, sexual orientation or religious affiliations or marital status, recognising the benefits that a diverse workforce brings to the School.</p>
-            <p>Park Community School and Hampshire County Council are committed to safeguarding and promoting the welfare of children and young people and expect all staff and volunteers to share this commitment. We will ensure that all our recruitment and selection practices reflect this commitment.</p>
-            <p>All successful candidates will be subject to satisfactory references and other relevant pre-employment checks including Disclosure and Barring Services (DBS) and medical clearance.</p>
-            <p>View our Child Protection Policy on our <a href="/policies.php" style="color: #ffffff; text-decoration: underline;">policies page</a>.</p>
-        </div>
-    </div>
-    <br><br><br>
-</section>
+    </section>
 
-<!-- Terms -->
-<section style="background-color: #333333; color: #ffffff;">
-    <div class="row">
-        <div class="small-12 large-1 columns text-left hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <!-- Left-aligned Content Section -->
-        <div class="small-12 medium-7 large-8 columns" style="padding-top: 20px; padding-bottom: 20px; margin-top: 20px; margin-bottom: 20px; text-align: left;">
-            <h4>Human Resources Department</h4>
-            <p>The HR department is responsible for making sure Park Community School’s workforce are safe, healthy and happy (and in turn, able to help the students achieve the same).</p>
-            <p>From recruiting and onboarding new staff members to handling payroll and contractual queries, no two days are ever the same, and project work includes promoting staff wellbeing and spreading awareness of benefits and support schemes available to the workforce.</p>
-            <p>Donna Patterson, HR Manager, is a fully qualified Chartered Member of the CIPD, who stipulate a <a href="//www.cipd.co.uk/binaries/code-of-professional-conduct_july-2015.pdf?utm_medium=email&utm_source=cipd&utm_campaign=mem_renew&utm_term=164452&utm_content=Retention email 1%2C resources%2C mcipd%2C fcipd%2C assoc-7297-17819-20160930110922-Please_download_and_read_the_Code_of_Professional_Conduct" target="_blank" style="color: #ffffff; text-decoration: underline;">Professional Code of Conduct</a>.</p>
-        </div>
-        <!-- Optional Image Column (if you want to add an image) -->
-        <div class="small-12 medium-5 large-4 columns" style="display: flex; justify-content: flex-start; align-items: flex-start;">
-            <!-- Example: <img src="/path/to/your/image.jpg" alt="HR Department" style="width: 100%; height: auto;"> -->
-        </div>
-    </div>
-    <br><br><br>
-</section>
+    <!-- FOOTER -->
+    <?php include("includes/footer.html") ?>
 
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
-
-
-<!-- End Site Footer -->
-<script src="js/vendor/libraries.min.js"></script>
-<script src="js/vendor/foundation.min.js"></script>
-<script src="js/app.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/vendor/libraries.min.js" defer></script>
+    <script src="js/vendor/foundation.min.js" defer></script>
+    <script src="js/app.min.js" defer></script>
 </body>
 </html>
