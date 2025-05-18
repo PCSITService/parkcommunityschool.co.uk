@@ -370,8 +370,8 @@
         <div class="footer-identity">
           <!-- Container for the two main logos -->
           <div class="main-logos-container">
-            <img class="main-logo" src="/images/park-logo.png" alt="Park Community School Logo">
-            <img class="main-logo" src="/images/parkcommunitynursery-logo.png" alt="Park Community Nursery Logo">
+            <img class="main-logo" src="/images/logo/park-logo.png" alt="Park Community School Logo">
+            <img class="main-logo" src="/images/logo/parkcommunitynursery-logo.png" alt="Park Community Nursery Logo">
           </div>
           <p>&copy; 2025 Park Community School | All rights reserved.</p>
         </div>
@@ -384,42 +384,42 @@
         <!-- Single row of accreditations that spans the entire width -->
         <div class="logo-row">
           <div class="logo-container">
-            <img src="/images/cyber-essentials-logo.png" alt="Cyber Essentials Approved Logo">
+            <img src="/images/logo/cyber-essentials-logo.png" alt="Cyber Essentials Approved Logo">
             <span class="logo-caption">Cyber Essentials</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/ofsted-logo.png" alt="Ofsted Logo">
+            <img src="/images/logo/ofsted-logo.png" alt="Ofsted Logo">
             <span class="logo-caption">Ofsted</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/iso-logo.png" alt="ISO Certification Logo">
+            <img src="/images/logo/iso-logo.png" alt="ISO Certification Logo">
             <span class="logo-caption">ISO 9001</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/investors-in-people-logo.png" alt="Investors in People Logo">
+            <img src="/images/logo/investors-in-people-logo.png" alt="Investors in People Logo">
             <span class="logo-caption">Investors in People</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/partnership-logo-1.png" alt="Partnership Logo 1">
+            <img src="/images/logo/partnership-logo-1.png" alt="Partnership Logo 1">
             <span class="logo-caption">Hampshire County</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/partnership-logo-2.png" alt="Partnership Logo 2">
+            <img src="/images/logo/partnership-logo-2.png" alt="Partnership Logo 2">
             <span class="logo-caption">Arts Council</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/partnership-logo-3.png" alt="Partnership Logo 3">
+            <img src="/images/logo/partnership-logo-3.png" alt="Partnership Logo 3">
             <span class="logo-caption">DfE</span>
           </div>
           
           <div class="logo-container">
-            <img src="/images/partnership-logo-4.png" alt="Partnership Logo 4">
+            <img src="/images/logo/partnership-logo-4.png" alt="Partnership Logo 4">
             <span class="logo-caption">STEM Learning</span>
           </div>
         </div>
