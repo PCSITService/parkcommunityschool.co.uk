@@ -42,25 +42,21 @@ if ($showCaptcha) {
             <br><br>
         </div>
         <div class="medium-7 columns">
-			<p><em>&#8220;<!-- The headteacher’s vision is to create ‘more than just a school’.  -->The school lives up to its motto of being ‘much more than just a school’. Pupils benefit from an exceptional range of opportunities.<!--  This is realised through a curriculum which balances academic and vocational qualifications with activities that promote pupils’ social, moral, spiritual and cultural development. Staff are committed to this vision and provide a wide range of opportunities and support for pupils. This combination develops pupils’ well-being as well as promoting their academic achievement and prepares them well for life in modern Britain. -->&#8221; - </em>Ofsted 2022</p>
+            <p><em>&#8220;The school lives up to its motto of being 'much more than just a school'. Pupils benefit from an exceptional range of opportunities.&#8221; - </em>Ofsted 2022</p>
             
             <div class="small-text-center large-text-right">
                 <a class="expand small button radius success" href="#" data-reveal-id="HeadsWelcome">Headteacher's Welcome</a>
-
 
                 <div class="row">
                     <div class="columns">
                         <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
                         <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
-<!--                         <a class="small button radius warning" href="#" data-reveal-id="ofsted-reports">Ofsted Report 2022</a> -->
                         <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2025</a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="columns">
-
-<!--                        <a class="small button radius warning" href="#" data-reveal-id="covid-student">Remote Learning</a> -->
                         <a class="small button radius warning" href="assets/curriculum/Options Booklet 2025 PV. V3.pdf" target="_blank">GCSE Courses 2025-2026</a>
                         <a class="small button radius" href="#" data-reveal-id="exam-information" style="background-color: #f08a24; border-color: #f08a24; color: #ffffff;">Exam Information</a>
                     </div>
@@ -77,11 +73,10 @@ if ($showCaptcha) {
             <!-- HEADTEACHERS WELCOME -->
             <div id="HeadsWelcome" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Welcome to Park Community School</h2>
-                <!-- <p class="lead">Mr Christopher Anders</p> -->
                 <p>Our school provides an expansive park environment. Through a wide variety of lessons and other opportunities to learn, we encourage our young people to discover what they love. As well as the school site, we have several other facilities to provide a great curriculum and exciting places in which to learn. We think there are a number of important areas of learning while at school and describe these as attainment, resilience and autonomy; exams and qualifications matter in life along with the ability to cope with adversity, getting up when life knocks us down, as well as becoming independent and able to make good choices.</p>
-                <p>Over the last decade we have planned and constructed our new buildings. The fantastic facilities support students’ learning and enrich their time in school.</p>
-                <p>We have a wonderful theatre, lecture theatre, restaurant, and outdoor areas, including a floodlit STP (synthetic turf pitch) as well as specialist classrooms for a wide range of subjects. Many areas are used by community groups, other organisations and even for children’s parties outside school time. The Watering Hole restaurant serves award-winning school meals, prepared by our chefs and their catering team, all at affordable prices. Breakfast is available to all students for free each morning, thank you Magic Breakfast. Our classrooms include the latest large touch-screen technology. We have invested heavily in computers, laptops, iPads and software to allow students to use a comprehensive range of electronic devices to support their learning. Our learning bases away from the school site allow for the development of enterprise skills, teaching towards construction qualifications and finding out about plants and growing food on our small holding.</p>
-                <p>I hope that the information on this website gives you some idea of our vision and principles, as well as the facilities, and curriculum that we offer to students. It also includes the details of other activities and opportunities such as our print business, construction skills centre and tearoom. Munch and our pantry are initiatives for the wider community. School should be about finding what you love to do, because each of us is different that doesn’t just happen in the classroom; academic learning alongside other activities and lessons helps us to be well-prepared to take the next steps in life. At Park we are proud to be Much More Than Just a School.</p>
+                <p>Over the last decade we have planned and constructed our new buildings. The fantastic facilities support students' learning and enrich their time in school.</p>
+                <p>We have a wonderful theatre, lecture theatre, restaurant, and outdoor areas, including a floodlit STP (synthetic turf pitch) as well as specialist classrooms for a wide range of subjects. Many areas are used by community groups, other organisations and even for children's parties outside school time. The Watering Hole restaurant serves award-winning school meals, prepared by our chefs and their catering team, all at affordable prices. Breakfast is available to all students for free each morning, thank you Magic Breakfast. Our classrooms include the latest large touch-screen technology. We have invested heavily in computers, laptops, iPads and software to allow students to use a comprehensive range of electronic devices to support their learning. Our learning bases away from the school site allow for the development of enterprise skills, teaching towards construction qualifications and finding out about plants and growing food on our small holding.</p>
+                <p>I hope that the information on this website gives you some idea of our vision and principles, as well as the facilities, and curriculum that we offer to students. It also includes the details of other activities and opportunities such as our print business, construction skills centre and tearoom. Munch and our pantry are initiatives for the wider community. School should be about finding what you love to do, because each of us is different that doesn't just happen in the classroom; academic learning alongside other activities and lessons helps us to be well-prepared to take the next steps in life. At Park we are proud to be Much More Than Just a School.</p>
                 <div class="row">
                     <div class="large-12 columns">
                         <div class="medium-4 columns text-center  team-member-container">
@@ -107,74 +102,6 @@ if ($showCaptcha) {
     </div>
 </header>
 
-<!--<BannerImage Section
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
-</head>
-<body>
-    <section>
-        <div class="image-container">
-            <?php
-            $imagePath = 'images/admissions/taster-day-poster.png';
-            echo '<img src="' . $imagePath . '" alt="Image">';
-            ?>
-        </div>
-    </div><br>
-</section> -->
-
-<!--BANNER TEXT-->
-
-<!--<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        .text-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            font-size: 20px;
-            line-height: 1.5;
-            background-color: #FFFF00; /* Yellow background */
-            color: #000000; /* Black text */
-            padding: 20px; /* Padding around the text */
-            border-radius: 10px; /* Rounded corners */
-            width: 100%; /* Width of the text container */
-            margin: 0 auto; /* Center the container horizontally */
-        }
-        .alert-icon {
-            font-size: 30px; /* Size of the icon */
-            margin-right: 15px; /* Space between the icon and text */
-            color: #000000; /* Color of the icon */
-        }
-    </style>
-</head>
-<body>
-    <section>
-        <div class="text-container">
-            <span class="alert-icon">&#9888;</span> <Banner Alert symbol
-            <span>
-                Year 6 Open Evening 25 September 2024 6-8pm<br>
-                Prospective parents, carers, and students are welcome to join us for our Open Evening where you will get to meet staff and students, tour the school, experience taster sessions, and hear our vision for all students at Park.
-            </span>
-        </div>
-    </section>
-</body>
-</html> -->
- 
-
-
-
-
 <!-- NOTIFICATION -->
 <section class="page-notification">
   <div class="row">
@@ -184,7 +111,6 @@ if ($showCaptcha) {
   </div>
 </section>
 <!-- END NOTIFICATION -->
-
 
 <!-- BUTTONS -->
 <section>
@@ -210,18 +136,10 @@ if ($showCaptcha) {
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
-                    <!--<li><a href="assets/welcome-to-park-year-7.pdf" target="_blank">Welcome To Park - Year 7</a></li>-->
                     <li><a href="/assets/freshers.week/2025/Transition 2025 - letter 1 - March 2025.pdf" target="_blank">Transition Letter 1 - March 2025</a></li>
-                    <!--<li><a href="/assets/freshers.week/2024/transition-2024-letter-2-may-2024.pdf" target="_blank">Transition Letter - May 2024</a></li>--> 
                 </ul>
-                <!--<p>Please email <a href="mailto:2024transition@pcs.hants.sch.uk?subject=Year 6 Transition" target="_blank">Year 6 Transition</a> if you have any questions.</p>-->
 
                 <a class="expand button radius success" href="https://forms.office.com/e/rWrywTPz9p" target="_blank">Acceptance Form</a>
-<!-- 
-                <a class="expand button radius success" href="https://forms.office.com/Pages/ResponsePage.aspx?id=2W4a34q1NUGg3oPDXQCwSG8tfjMVBL5Io0fe1_DjzhRUMTY5N1RURlNaS1JYSkFWWFRZMERFNUlDNS4u" target="_blank">New Year 7 Summer School Form</a>
-
-                <a class="expand button radius success" href="/assets/letters/2022-07/welcome-to-park.pdf" target="_blank">Welcome to Park Information Pack</a>
- -->
                      
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>
@@ -232,62 +150,15 @@ if ($showCaptcha) {
 
                 <p>Here are some useful documents for Year 11 exams and Revision Studies in 2024 - 2025</p>
                     <ul>
- 
-<!--                <li><a href="assets/exam/gcse-handbook-2022-2023.pdf" target="_blank">2022-2023 Exam Handbook</a></li>  -->
-<!--
-                    <li><a href="assets/exam/parent-information.pdf" target="_blank">Parent Information</a></li>
-                    <li><a href="assets/exam/revision-guide.pdf" target="_blank">Revision Guide</a></li>
- -->
                     <li><a href="assets/exam/complete-candidate-examinations-book-2024-2025.pdf" target="_blank">Candidate Handbook for examinations during School Year 2024-25</a></li>
                     <li><a href="assets/exam/Yr 11 MOCK 1 TT FEB-MAR 2025.pdf" target="_blank">Year 11 Mock 2 Timetable 2025</a></li>
                     <li><a href="assets/exam/september-y11-parent-student-eve.pdf" target="_blank">Year 11 Parent and Student | Parents Evening Information</a></li>
                     <li><a href="assets/revision/year -11-phase-1-revision-24-25.pdf" target="_blank">Year 11 Phase 1 Revision 24-25</a></li>
                     <li><a href="assets/revision/Year 11 Phase 2 Revision booklet 24-25.pdf" target="_blank">Year 11 Phase 2 Revision 24-25</a></li>
                     <li><a href="assets/revision/Revision Guide 2024.pdf" target="_blank">Revision Guide</a></li>
-
-<!-- 
-                    <li><a href="assets/exam/summer-exam-tt.pdf" target="_blank">Summer Exam Timetable</a></li>
-                    <li><a href="assets/exam/yr11-homerun.pdf" target="_blank">Year 11 Homerun</a></li>
- -->
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>     
-            
-            <!-- virtual-sports -->
-            <div id="virtual-sports" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-                <h2 id="modalTitle">Virtual Sports Day</h2>
-            <div class="small-text-center large-text-right">
-                <a class="small button radius" target="_blank" href="//vimeo.com/showcase/7294651">Virtual Sports Day 2020</a>
-            </div>
-                <p>Welcome everyone to the launch of Park Community Schools Sports Fortnight 2020 – 10 days – 12 Challenges!</p>
-                <p>This year our competition will all be done at home, with you emailing in your results which we will collate results. On the email please remember to identify the event, what your result is and the family team you belong to.</p>
-                <p>As usual it will be a ‘battle of the families’ with Austen, Dickins, Brunel and Nelson all competing to be the 2020 Sports Fortnight Champions.</p>
-                <p>The competition has been launched the week after the Youth Sports Trust National School Sports Week, which celebrates the important role of Physical Education and School Sport in enhancing young people’s wellbeing. It is also within our usual Fresher Week and so we have invited year 6 to also take part.</p>
-
-                <h2>What you need to do:</h2>
-                <ul>
-                    <li>First of all watch the introduction video from Mrs Cavanagh and Mrs Bearpark.</li>
-                    <li>You then have 10 days to complete 12 challenges – you can complete these at a time / day to suit you. But 1 or 2 events will go live each day for you to access on the school website, Facebook page and the PE shared area. </li>
-                    <li>So you know what to do – each challenge has a demonstration from one of your PE teachers, SLT staff or Family Leader. They will talk you through the event and give you a score to try to beat.</li>
-                    <li>It does not matter if you don’t beat them. You will get 5 points for each event you take part in and send your honest results in for. 10 points if you do beat the member of staff and then the following points for the result itself. 15 points if you are the best in your year group, 10 points if you are second in your year group and 5 points if you are third in your year group.</li>
-                    <li>All scores will be collated for each Family – and the Family that gets the highest score at the end of the fortnight will be Park Community Schools Virtual Sports Fortnight Champions 2020.</li>
-                    <li>The deadline for ALL scores to be email in to C.Bearpark@pcs.hants.sch.uk or L.Cavanagh@pcs.hants.sch.uk is 3pm Friday 10th July, 2020.</li>
-            <div class="small-text-center large-text-right">
-                <a class="small button radius" target="_blank" href="https://vimeo.com/462988107">Welcome to Park</a>
-            </div>
-                </ul>
-
-                <div class="flex-video widescreen border-radius-5">
-                    <iframe src="https://player.vimeo.com/video/433618806" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
-                <div class="flex-video widescreen border-radius-5">
-                    <iframe src="https://player.vimeo.com/video/433525549" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
-
-                <p><em>Information is added on a regular basis so please check back.</em></p>
-
-              <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-            </div>
 
         </div>
     </div>
@@ -307,10 +178,10 @@ if ($showCaptcha) {
                                 <!-- VIMEO Showcase Video Reel -->
                                 <div>
                                     <div class="flex-video widescreen border-radius-5">
-                                        <p>Park’s goal is ‘Success for all through attainment, resilience and autonomy’. This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
+                                        <p>Park's goal is 'Success for all through attainment, resilience and autonomy'. This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
                                         <p>We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly.</p>
                                         <p>We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
-                                        <p>We describe ourselves as ‘Much more than just a school’ because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
+                                        <p>We describe ourselves as 'Much more than just a school' because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
                                     </div>
                                 </div>
                                 <div>
@@ -342,10 +213,6 @@ if ($showCaptcha) {
         <div class="large-4 columns show-for-large-up">
             <div>
                 <br>
-
-<!--                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ParkSchSocial" data-widget-id="672042040872542208" data-chrome="nofooter noborders">Tweets by @ParkSchSocial</a>
-                <script src="js/twitter.min.js"></script>
--->
             </div>
         <br>
         </div>
@@ -382,15 +249,6 @@ if ($showCaptcha) {
                             <p>Tea Rooms at The Coach House</p>
                         </a></div>
                 </li>
-<!-- 
-                <li>
-                    <div class="menu-box"><a href="/waterfront.php">
-                            <img src="images/index/waterfront_logo.png" alt="The Waterfront">
-                            <p>The Waterfront Café</p>
-                        </a></div>
-                </li>
- -->
-
                 <li>
                     <div class="menu-box"><a href="/pantry.php">
                             <img src="images/index/pantry.png" alt="MUNCH Pantry">
@@ -536,8 +394,6 @@ if ($showCaptcha) {
     <?php include("includes/footer.html"); ?>
 </section>
 
-
-		
         <!-- End Site Footer -->
         <script src="js/vendor/libraries.min.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
@@ -558,13 +414,3 @@ if ($showCaptcha) {
         </script>
     </body>
 </html>
-
-<!-- 
-╔══╗                                         
-╚╗╔╝[ Park Community School    IT Services ] 
-╔╝(¯`v´¯)(¯`v´¯)(¯`v´¯)(¯`v´¯)(¯`v´¯)(¯`v´¯) 
-╚══`.¸.´  `.¸.´  `.¸.´  `.¸.´  `.¸.´  `.¸.´   
-
-
-
--->
