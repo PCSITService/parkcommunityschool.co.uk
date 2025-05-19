@@ -188,57 +188,6 @@
                 color: #555;
             }
             
-            /* Equal opportunities section */
-            .equal-opps-section {
-                background-color: var(--secondary-color);
-                color: white;
-                padding: var(--spacing-lg) 0;
-            }
-            
-            .equal-opps-container {
-                display: flex;
-                align-items: center;
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 0 var(--spacing-md);
-                gap: var(--spacing-lg);
-            }
-            
-            .equal-opps-image {
-                flex: 1;
-                min-width: 250px;
-                max-width: 40%;
-            }
-            
-            .equal-opps-image img {
-                width: 100%;
-                height: auto;
-                border-radius: var(--border-radius);
-                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            }
-            
-            .equal-opps-content {
-                flex: 2;
-                padding: var(--spacing-md);
-            }
-            
-            .equal-opps-content p {
-                margin-bottom: var(--spacing-sm);
-                line-height: 1.6;
-            }
-            
-            .equal-opps-content a {
-                color: var(--primary-color);
-                text-decoration: underline;
-                transition: var(--transition);
-            }
-            
-            .equal-opps-content a:hover,
-            .equal-opps-content a:focus {
-                color: white;
-                text-decoration: none;
-            }
-            
             /* Utility classes */
             .text-center {
                 text-align: center;
@@ -274,15 +223,6 @@
                     width: 100%;
                     max-width: 100%;
                 }
-                
-                .equal-opps-container {
-                    flex-direction: column;
-                }
-                
-                .equal-opps-image {
-                    max-width: 100%;
-                    margin-bottom: var(--spacing-md);
-                }
             }
         </style>
     </head>
@@ -304,14 +244,14 @@
             <h2 class="section-header">Current Vacancies</h2>
             
             <!-- Active vacancy card -->
-            <article class="vacancy-card">
+            <!--<article class="vacancy-card">
                 <h3>History Teacher</h3>
                 <p><strong>Full-time position starting September 2025</strong></p>
                 <p>We are seeking an enthusiastic and dedicated History Teacher to join our team. The successful candidate will inspire students and contribute to our thriving History department.</p>
                 <a href="assets/recruitment/2025-05/History Teacher - September 2025.pdf" class="vacancy-link" target="_blank" aria-label="Download History Teacher job details">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
-            </article>
+            </article>-->
             
             <!-- Governor vacancies notice -->
             <p class="text-italic">Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</p>
@@ -356,7 +296,7 @@
                     
                     <!-- Application Forms -->
                     <div class="docs-column-inner">
-                        <h3 class="docs-title">Forms <small>DOCX Files</small></h3>
+                        <h3 class="docs-title">Forms <small>WORD Files</small></h3>
                         <ul class="docs-list">
                             <li>
                                 <a href="assets/recruitment/documentation/Hampshire-Schools-Equalities-Monitoring-Form-2022.docx" target="_blank" download>
@@ -384,29 +324,6 @@
             </div>
         </section>
     </main>
-
-    <!-- Equal Opportunities Section -->
-    <section class="equal-opps-section" aria-labelledby="equal-opps-title">
-        <div class="row">
-            <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-        </div>
-        
-        <div class="equal-opps-container">
-            <!-- Image on the left -->
-            <div class="equal-opps-image">
-                <img src="/images/employment/employment-01.jpg" alt="Diverse group of students at Park Community School" loading="lazy">
-            </div>
-            
-            <!-- Content on the right -->
-            <div class="equal-opps-content">
-                <h2 id="equal-opps-title" class="visually-hidden">Equal Opportunities and Safeguarding</h2>
-                <p>Park Community School is committed to equal opportunities for all students and staff, regardless of race, gender, age, physical disability, political, sexual orientation or religious affiliations or marital status, recognising the benefits that a diverse workforce brings to the School.</p>
-                <p>Park Community School and Hampshire County Council are committed to safeguarding and promoting the welfare of children and young people and expect all staff and volunteers to share this commitment. We will ensure that all our recruitment and selection practices reflect this commitment.</p>
-                <p>All successful candidates will be subject to satisfactory references and other relevant pre-employment checks including Disclosure and Barring Services (DBS) and medical clearance.</p>
-                <p>View our Child Protection Policy on our <a href="/policies.php">policies page</a>.</p>
-            </div>
-        </div>
-    </section>
 
     <!-- FOOTER -->
     <?php include("includes/footer.html") ?>
