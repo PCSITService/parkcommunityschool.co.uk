@@ -1,3 +1,20 @@
+/* Add Aptos Body font-face declarations */
+@font-face {
+  font-family: 'Aptos Body';
+  src: url('https://c.s-microsoft.com/static/fonts/aptos/AptosBody-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aptos Body';
+  src: url('https://c.s-microsoft.com/static/fonts/aptos/AptosBody-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* General resets */
 *,
 *:before,
@@ -5,14 +22,26 @@
     box-sizing: border-box;
 }
 
+/* Apply Aptos Body to all elements and add smooth rendering */
+html, body {
+    font-family: 'Aptos Body', 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+}
+
+/* Update the existing body * selector to use Aptos Body */
 body * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Aptos Body', 'Open Sans', sans-serif;
 }
 
 a {
     color: #5FBCEA;
 }
-
 a:active,
 a:focus,
 a:hover {
@@ -23,7 +52,6 @@ a:hover {
 .hidden {
     display: none !important;
 }
-
 .hr-logo,
 .menu-box p,
 header {
@@ -34,7 +62,6 @@ header {
 .ie9 img[src*=".svg"] {
     width: 100%;
 }
-
 @media screen and (-ms-high-contrast: active),
 (-ms-high-contrast: none) {
     img[src*=".svg"] {
@@ -42,11 +69,13 @@ header {
     }
 }
 
-/* Styling for headers */
+/* Styling for headers with improved font rendering */
 header h1,
 header h3,
 header p {
     color: #FFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 header h1 {
@@ -56,11 +85,18 @@ header h1 {
     line-height: 100%;
 }
 
+/* Add smooth rendering to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aptos Body', 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
+}
+
 /* Grey background styles - REMOVED */
 .grey-bg {
     background-color: unset; /* Removed grey background */
 }
-
 .grey-bg blockquote,
 .grey-bg h1,
 .grey-bg h2,
@@ -94,7 +130,6 @@ section a.button:hover {
     background-color: #FAFAFA;
     padding: 0 0 32px;
 }
-
 .sidebar [class*=block-grid-] {
     margin-left: 1.1rem;
 }
@@ -122,7 +157,6 @@ section a.button:hover {
 .page-misc a {
     color: #A3CD42;
 }
-
 .page-base a:active,
 .page-school a:active,
 .page-learning a:active,
@@ -130,7 +164,6 @@ section a.button:hover {
 .page-misc a:active {
     color: #728F2E;
 }
-
 .page-school .side-nav li a:not(.button):active,
 .page-learning .side-nav li a:not(.button):active,
 .page-parent .side-nav li a:not(.button):active,
@@ -143,7 +176,6 @@ section.page-notification {
     background-color: #a3cd41;
     text-align: center;
 }
-
 section.page-notification p {
     margin: 0;
     padding: 2px;
@@ -154,20 +186,16 @@ section.page-notification p {
     background-color: #fff;
     border-radius: 0 0 50% 50%;
 }
-
 .header-base,
 .header-school {
     background-color: #A3CD42;
 }
-
 .header-learning {
     background-color: #F58220;
 }
-
 .header-parent {
     background-color: #5FBCEA;
 }
-
 .header-misc {
     background-color: #EE3A80;
 }
@@ -178,12 +206,10 @@ section.page-notification p {
     background-size: cover;
     padding: 30px 20px;
 }
-
 #homepage-hero h1 {
     font-weight: 700;
     text-shadow: 2px 2px 5px #000;
 }
-
 #homepage-hero h3 {
     text-shadow: 2px 2px 2px #000;
 }
@@ -209,7 +235,6 @@ section.page-notification p {
     margin-right: auto;
     margin-bottom: 2px;
 }
-
 .team-member-container p {
     margin-top: 5px;
 }
@@ -219,8 +244,23 @@ section.page-notification p {
     color: red;
     font-size: 18px;
 }
-
 .tick-mark {
     color: green;
     font-size: 18px;
+}
+
+/* Ensure navigation also uses the smooth font rendering */
+.top-bar, 
+.top-bar-section ul li a {
+    font-family: 'Aptos Body', 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Additional font smoothing for dropdown menus */
+.custom-dropdown-menu a {
+    font-family: 'Aptos Body', 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

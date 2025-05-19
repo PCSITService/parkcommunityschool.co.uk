@@ -368,15 +368,15 @@
       flex-direction: column;
       align-items: center;
       padding: 0 15px;
-      min-width: 100px;
-      max-width: 150px;
+      min-width: 132px;
+      max-width: 132px;
       text-align: center;
       flex: 1;
     }
     
     .logo-container img {
-      height: 60px;
-      width: auto;
+      height: 132px;
+      width: 132px;
       object-fit: contain;
       transition: all 0.3s ease;
       filter: brightness(1.1); /* Makes logos slightly brighter */
@@ -478,12 +478,14 @@
       }
       
       .logo-container {
-        min-width: 80px;
+        min-width: 132px;
+        max-width: 132px;
         padding: 0 5px;
       }
       
       .logo-container img {
-        height: 50px;
+        height: 132px;
+        width: 132px;
       }
       
       .cookie-content {
@@ -655,8 +657,12 @@
         <div class="footer-identity">
           <!-- Container for the two main logos -->
           <div class="main-logos-container">
-            <img class="main-logo" src="/images/logo/park-logo.png" alt="Park Community School Logo">
-            <img class="main-logo" src="/images/logo/parkcommunitynursery-logo.png" alt="Park Community Nursery Logo">
+            <a href="https://pcs.hants.sch.uk" target="_blank" rel="noopener noreferrer">
+              <img class="main-logo" src="/images/logo/park-logo.png" alt="Park Community School Logo">
+            </a>
+            <a href="https://nursery.pcs.hants.sch.uk" target="_blank" rel="noopener noreferrer">
+              <img class="main-logo" src="/images/logo/parkcommunitynursery-logo.png" alt="Park Community Nursery Logo">
+            </a>
           </div>
           <p>&copy; 2025 Park Community School | All rights reserved.</p>
         </div>
@@ -669,35 +675,31 @@
         <!-- Single row of accreditations that spans the entire width -->
         <div class="logo-row">
           <div class="logo-container">
-            <img src="/images/logo/cyber-essentials-logo.png" alt="Cyber Essentials Approved Logo">
+            <iframe src="https://registry.blockmarktech.com/certificates/e2f2188a-85ea-47b1-81d4-9d2256957b3b/widget/?tooltip_position=bottom_right&theme=transparent&hover=t" style="border:none;height:132px;width:132px;"></iframe>
           </div>
           
           <div class="logo-container">
-            <img src="/images/logo/munch-logo.png" alt="Munch Logo">
+            <a href="https://fish.hants.gov.uk/kb5/hampshire/directory/service.page?id=om83HRvJ1VI&familychannel=0" target="_blank" rel="noopener noreferrer">
+              <img src="/images/logo/munch-logo.png" alt="Munch Logo">
+            </a>
           </div>
           
           <div class="logo-container">
-            <img src="/images/logo/iso-logo.png" alt="ISO Certification Logo">
+            <a href="https://www.hants.gov.uk/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/logo/hcc-full-colour-reversed.png" alt="Hampshire County Council Logo">
+            </a>
           </div>
           
           <div class="logo-container">
-            <img src="/images/logo/investors-in-people-logo.png" alt="Investors in People Logo">
+            <a href="https://www.hants.gov.uk/socialcareandhealth/childrenandfamilies/connectforcommunities" target="_blank" rel="noopener noreferrer">
+              <img src="/images/logo/connect4families_logo.png" alt="Connect4Families Logo">
+            </a>
           </div>
           
           <div class="logo-container">
-            <img src="/images/logo/partnership-logo-1.png" alt="Hampshire County Logo">
-          </div>
-          
-          <div class="logo-container">
-            <img src="/images/logo/partnership-logo-2.png" alt="Arts Council Logo">
-          </div>
-          
-          <div class="logo-container">
-            <img src="/images/logo/partnership-logo-3.png" alt="DfE Logo">
-          </div>
-          
-          <div class="logo-container">
-            <img src="/images/logo/partnership-logo-4.png" alt="STEM Learning Logo">
+            <a href="https://www.hants.gov.uk/socialcareandhealth/childrenandfamilies/connectforcommunities" target="_blank" rel="noopener noreferrer">
+              <img src="/images/logo/connect4youth_logo.png" alt="Connect4Youth Logo">
+            </a>
           </div>
         </div>
       </div>
