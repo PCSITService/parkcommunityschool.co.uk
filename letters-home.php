@@ -68,6 +68,7 @@
                 <div class="newsletter-item">
                     <h4>May 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-05/HSDC LETTER 2025.pdf" target="_blank">Year 10 Taster Day</a></li>
                         <li><a href="/assets/letters/2025-05/Park Newsletter 16 May.pdf" target="_blank">Newsletter - 16th May 2025</a></li>
                         <li><a href="/assets/letters/2025-05/Year 9 end of half term May 2025.docx" target="_blank">Year 9 end of half term May 2025</a></li>
                         <li><a href="/assets/letters/2025-05/e scooter letter_ (002).pdf" target="_blank">E-Scooters and the Law</a></li>
