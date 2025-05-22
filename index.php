@@ -9,18 +9,926 @@ $rateLimiter = new RateLimiter();
 $showCaptcha = $rateLimiter->isLimitExceeded();
 ?>
 <!doctype html>
-<html class="no-js" lang="en" >
-    <head>
-        <title>Park Community School | Much More Than Just A School</title>
-        <?php include("includes/head.html") ?>
-        <link rel="stylesheet" href="css/bounce.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        
-        <?php if ($showCaptcha): ?>
-        <!-- Add Google reCAPTCHA API -->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <?php endif; ?>
-    </head>
+<html class="no-js" lang="en">
+<head>
+    <title>Park Community School | Much More Than Just A School</title>
+    <?php include("includes/head.html") ?>
+    <link rel="stylesheet" href="css/bounce.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <?php if ($showCaptcha): ?>
+    <!-- Add Google reCAPTCHA API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php endif; ?>
+    
+    <!-- Modern Enhancements -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Modern CSS Variables */
+        :root {
+            --primary-green: #a3cd41;
+            --primary-orange: #f08a24;
+            --dark-bg: #333333;
+            --light-gray: #f8f9fa;
+            --text-dark: #2d3748;
+            --shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-heavy: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        /* Modern Typography */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+
+        /* Enhanced Page Base */
+        .page-base {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            min-height: 100vh;
+        }
+
+        /* Modern Header Styling - Light Blue Theme */
+        #homepage-hero {
+            background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 50%, #0ea5e9 100%);
+            color: white;
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #homepage-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(1px);
+        }
+
+        #homepage-hero .row {
+            position: relative;
+            z-index: 2;
+        }
+
+        #homepage-hero p {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        /* Enhanced Buttons */
+        .button {
+            border-radius: 25px !important;
+            font-weight: 600;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.25rem;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+            min-width: 180px;
+            white-space: nowrap;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .button.expand {
+            min-width: 220px;
+        }
+
+        /* Simple and Reliable Button System */
+        .small-text-center.large-text-right {
+            width: 100%;
+        }
+
+        /* Headteacher's Welcome - Extend more to the left */
+        .small-text-center.large-text-right > .button.expand {
+            width: calc(100% + 0.5rem);
+            margin: 0 0 1rem -0.5rem;
+            display: block;
+            text-align: center;
+        }
+
+        /* Button Rows - Keep buttons together */
+        .small-text-center.large-text-right .row {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+
+        /* Columns contain the buttons */
+        .small-text-center.large-text-right .columns {
+            flex: 1;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Buttons fill their columns */
+        .small-text-center.large-text-right .row .button {
+            width: 100%;
+            margin: 0;
+            padding: 0.75rem 0.5rem;
+            text-align: center;
+            font-size: 0.85rem;
+            line-height: 1.3;
+            font-weight: 600;
+            display: block;
+            box-sizing: border-box;
+            min-height: 3rem;
+        }
+
+        /* Special handling for rightmost buttons to extend further right */
+        .small-text-center.large-text-right .row .columns:last-child {
+            flex: 1.2;
+            margin-right: -0.75rem;
+        }
+
+        .small-text-center.large-text-right .row .columns:last-child .button {
+            width: calc(100% + 0.75rem);
+        }
+
+        /* Specific adjustment for Year 6 -> 7 2025 button (3rd row, last column) */
+        .small-text-center.large-text-right .row:nth-child(3) .columns:last-child {
+            margin-right: -0.3rem;
+        }
+
+        .small-text-center.large-text-right .row:nth-child(3) .columns:last-child .button {
+            width: calc(100% + 0.3rem);
+        }
+
+        /* Specific adjustment for Letters & Newsletters button (4th row, last column) */
+        .small-text-center.large-text-right .row:nth-child(4) .columns:last-child {
+            margin-right: -0.4rem;
+        }
+
+        .small-text-center.large-text-right .row:nth-child(4) .columns:last-child .button {
+            width: calc(100% + 0.4rem);
+        }
+
+        .button.success {
+            background: var(--primary-green);
+            color: white;
+        }
+
+        .button.success:hover {
+            background: #8fb332;
+            color: white;
+        }
+
+        .button.warning {
+            background: var(--primary-orange);
+            color: white;
+        }
+
+        .button.warning:hover {
+            background: #e07520;
+            color: white;
+        }
+
+        .button.ofsted {
+            background-color: var(--primary-green) !important;
+            color: white !important;
+        }
+
+        .button.expand {
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+        }
+
+        /* Enhanced Bounce Animation */
+        .bounce {
+            animation: modernBounce 2s infinite;
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        @keyframes modernBounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-15px);
+            }
+            60% {
+                transform: translateY(-7px);
+            }
+        }
+
+        /* Modern Modal Styling */
+        .reveal-modal {
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-heavy);
+            border: none;
+            backdrop-filter: blur(10px);
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .reveal-modal h2 {
+            color: var(--text-dark);
+            border-bottom: 3px solid var(--primary-green);
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .close-reveal-modal {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #999;
+            transition: var(--transition);
+        }
+
+        .close-reveal-modal:hover {
+            color: #333;
+            transform: scale(1.1);
+        }
+
+        /* Enhanced Notification Bar */
+        .page-notification {
+            background: linear-gradient(90deg, var(--primary-orange), #fb923c);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+        }
+
+        .page-notification a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .page-notification a:hover {
+            text-decoration: none;
+            color: #f7fafc;
+        }
+
+        /* Modern Content Sections */
+        section {
+            padding: 0;
+            background: #333333;
+        }
+
+        /* Specific padding for other sections that need it */
+        .grey-bg {
+            padding: 3rem 0;
+            background: var(--light-gray);
+        }
+
+        #meet-the-team {
+            padding: 3rem 0;
+        }
+
+        /* Comprehensive Slideshow */
+        .comprehensive-slideshow {
+            background: transparent;
+            border-radius: var(--border-radius);
+            box-shadow: none;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Remove any background differences */
+        .slide-nav {
+            background: white;
+            border-bottom: none;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        /* Slide Indicators bottom section */
+        .slide-indicators {
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem;
+            background: white;
+            gap: 0.5rem;
+        }
+
+        /* Slide Content */
+        .slide-content {
+            display: none;
+            padding: 0;
+            min-height: 600px;
+            height: 600px;
+        }
+
+        .slide-content.active {
+            display: block;
+        }
+
+        .slide-inner {
+            padding: 3rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .slide-inner h3 {
+            color: var(--primary-green);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .slide-inner h3::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--primary-orange);
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        .slide-inner p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        /* White text styling for the vision section */
+        .slide-inner .white-text p {
+            color: white !important;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, var(--primary-green), #68d391);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+        }
+
+        .highlight-box h4 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .highlight-box li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            color: white;
+        }
+
+        .highlight-box li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        /* Ofsted Quotes */
+        .ofsted-quote {
+            margin-bottom: 2rem;
+        }
+
+        .ofsted-quote blockquote {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid var(--primary-green);
+            padding: 1.5rem;
+            margin: 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            font-style: italic;
+        }
+
+        .ofsted-quote blockquote p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: white;
+        }
+
+        /* Video Container Large */
+        .video-container-large {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            height: 0;
+            padding-bottom: 45%;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .video-container-large iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-description {
+            text-align: center;
+            font-style: italic;
+            color: white;
+            margin-top: 1rem;
+        }
+
+        /* Feature Boxes */
+        .feature-box {
+            text-align: center;
+            padding: 2rem 1rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-green);
+            margin-bottom: 1rem;
+        }
+
+        .feature-box h4 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .feature-box p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: white;
+        }
+
+        /* Simple Slideshow Styles */
+        .simple-slideshow {
+            position: relative;
+            background: linear-gradient(135deg, #333333 0%, #2d3748 100%);
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .simple-slide {
+            display: none;
+            padding: 3rem;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .simple-slide.active {
+            display: flex;
+        }
+
+        .slide-content-wrapper {
+            width: 100%;
+        }
+
+        .simple-slide h3 {
+            color: var(--primary-green);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .simple-slide h3::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--primary-orange);
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        .values-box {
+            background: linear-gradient(135deg, var(--primary-green), #68d391);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+        }
+
+        .values-box h4 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .values-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .values-box li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            color: white;
+        }
+
+        .values-box li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            height: 0;
+            padding-bottom: 45%;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .quote-box {
+            margin-bottom: 2rem;
+        }
+
+        .quote-box blockquote {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid var(--primary-green);
+            padding: 1.5rem;
+            margin: 0;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            font-style: italic;
+        }
+
+        .quote-box blockquote p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: white;
+        }
+
+        .info-box {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: white;
+        }
+
+        .info-box h4 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .info-box p {
+            color: white;
+            line-height: 1.6;
+        }
+
+        .slide-dots {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 5px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .dot.active, .dot:hover {
+            background-color: var(--primary-green);
+        }
+
+        /* Slide Indicators */
+        .slide-indicators {
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            gap: 0.5rem;
+        }
+
+        .indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #dee2e6;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .indicator.active {
+            background: var(--primary-green);
+        }
+
+        .indicator:hover {
+            background: var(--primary-orange);
+        }
+
+        /* Modern Grid Layout */
+        .grey-bg {
+            background: var(--light-gray);
+            position: relative;
+        }
+
+        .grey-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(163, 205, 65, 0.05) 0%, rgba(79, 209, 199, 0.05) 100%);
+        }
+
+        .grey-bg > .row {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Enhanced Block Grid */
+        .medium-block-grid-2 > li,
+        .medium-block-grid-3 > li,
+        .medium-block-grid-5 > li {
+            margin-bottom: 2rem;
+        }
+
+        /* Modern Menu Boxes */
+        .menu-box {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            transition: var(--transition);
+            box-shadow: var(--shadow-light);
+            border: 2px solid transparent;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .menu-box:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+            border-color: var(--primary-green);
+        }
+
+        .menu-box img {
+            border-radius: 8px;
+            transition: var(--transition);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .menu-box:hover img {
+            transform: scale(1.05);
+        }
+
+        .menu-box p {
+            margin: 1rem 0 0 0;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        /* Section Headers */
+        h3, h4 {
+            color: var(--text-dark);
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        h3::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-green), var(--primary-orange));
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        h4 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #4a5568;
+        }
+
+        /* Enhanced Team Section */
+        #meet-the-team {
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #2d3748 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #meet-the-team::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="rgba(255,255,255,0.05)"><polygon points="1000,100 1000,0 0,100"/></svg>');
+            background-size: cover;
+        }
+
+        #meet-the-team .row {
+            position: relative;
+            z-index: 2;
+        }
+
+        .team-member {
+            border-radius: 50%;
+            border: 4px solid var(--primary-green);
+            transition: var(--transition);
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .team-member:hover {
+            transform: scale(1.1);
+            border-color: var(--primary-orange);
+        }
+
+        .team-member-container {
+            transition: var(--transition);
+        }
+
+        .team-member-container:hover {
+            transform: translateY(-10px);
+        }
+
+        .hr-logo {
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-green), var(--primary-orange));
+            border-radius: 2px;
+            margin: 0 auto 2rem;
+        }
+
+        .hr-logo.white-bg {
+            background: white;
+        }
+
+        .hr-logo.grey-bg {
+            background: linear-gradient(90deg, #e2e8f0, #cbd5e0);
+        }
+
+        /* Responsive Improvements */
+        @media (max-width: 768px) {
+            #homepage-hero {
+                padding: 2rem 0;
+            }
+
+            .small-text-center.large-text-right .row {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.5rem;
+            }
+
+            .small-text-center.large-text-right .columns {
+                flex: none;
+                width: 100%;
+            }
+
+            .small-text-center.large-text-right .row .button {
+                width: 100%;
+                margin: 0;
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            h4 {
+                font-size: 1.5rem;
+            }
+
+            .menu-box {
+                margin-bottom: 1rem;
+            }
+
+            .team-member {
+                width: 120px;
+                height: 120px;
+            }
+
+            .slide-content {
+                min-height: 500px;
+                height: auto;
+            }
+
+            .slide-inner {
+                padding: 2rem;
+            }
+
+            .video-container-large {
+                padding-bottom: 56.25%;
+            }
+        }
+
+        /* Enhanced Video Container */
+        .flex-video iframe {
+            border-radius: 8px;
+        }
+
+        /* Loading Animation */
+        .menu-box img {
+            opacity: 0;
+            animation: fadeInImage 0.6s ease forwards;
+        }
+
+        @keyframes fadeInImage {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Enhanced Focus States */
+        .button:focus,
+        .menu-box:focus,
+        a:focus {
+            outline: 3px solid var(--primary-green);
+            outline-offset: 2px;
+        }
+
+        /* Print Styles */
+        @media print {
+            #homepage-hero {
+                background: white !important;
+                color: black !important;
+            }
+            
+            .button {
+                border: 2px solid var(--primary-green) !important;
+                background: white !important;
+                color: var(--primary-green) !important;
+            }
+        }
+    </style>
+</head>
+
 <body class="page-base">
 
 <?php 
@@ -42,34 +950,46 @@ if ($showCaptcha) {
             <br><br>
         </div>
         <div class="medium-7 columns">
-            <p><em>&#8220;The school lives up to its motto of being 'much more than just a school'. Pupils benefit from an exceptional range of opportunities.&#8221; - </em>Ofsted 2022</p>
-            
             <div class="small-text-center large-text-right">
                 <a class="expand small button radius success" href="#" data-reveal-id="HeadsWelcome">Headteacher's Welcome</a>
 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
-                        <a class="small button radius ofsted" style="background-color:#a3cd41; color:black" href="/ofsted-reports.php">Ofsted Reports 2022</a>
-                        <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2025</a>
+                        <a class="small button radius warning long-text" href="assets/curriculum/Options Booklet 2025 PV. V3.pdf" target="_blank">GCSE Courses 2025-2026</a>
+                    </div>
+                    <div class="columns">
+                        <a class="small button radius" href="#" data-reveal-id="exam-information" style="background-color: #f08a24; border-color: #f08a24; color: #ffffff;">Exam Information</a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius warning" href="assets/curriculum/Options Booklet 2025 PV. V3.pdf" target="_blank">GCSE Courses 2025-2026</a>
-                        <a class="small button radius" href="#" data-reveal-id="exam-information" style="background-color: #f08a24; border-color: #f08a24; color: #ffffff;">Exam Information</a>
+                        <a class="small button radius warning" href="#" data-reveal-id="alumni">Alumni</a>
+                    </div>
+                    <div class="columns">
+                        <a class="small button radius warning" href="/ofsted-reports.php">Ofsted Reports 2022</a>
+                    </div>
+                    <div class="columns">
+                        <a class="small button radius warning" href="#" data-reveal-id="transition">Year 6 -> 7 2025</a>
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="columns">
                         <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
+                    </div>
+                    <div class="columns">
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
+                    </div>
+                    <div class="columns">
                         <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank"><i class="fa fa-envelope-open-text"></i> Letters & Newsletters</a>
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <div class="medium-5 columns">
+        </div>
             <!-- HEADTEACHERS WELCOME -->
             <div id="HeadsWelcome" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
                 <h2 id="modalTitle">Welcome to Park Community School</h2>
@@ -97,20 +1017,9 @@ if ($showCaptcha) {
         </div>
         
     </div>
-    <div class="row bounce-arrow-container">
-        <div class="small-centered large-1 column text-center"><i class="bounce fa fa-angle-down"></i></div>
-    </div>
 </header>
 
-<!-- NOTIFICATION -->
-<section class="page-notification">
-  <div class="row">
-    <div class="columns">
-        <p>The full version of Welcome to Park can be found <a href="https://vimeo.com/658515057" target="_blank" style="color: #474747; text-decoration: underline;">here</a></p> 
-    </div>
-  </div>
-</section>
-<!-- END NOTIFICATION -->
+
 
 <!-- BUTTONS -->
 <section>
@@ -167,54 +1076,121 @@ if ($showCaptcha) {
 <!-- CONTENT -->
 <section>
     <div class="row">
-        <div class="large-14 columns">
-            <div class="row">
-                <div class="large-8 columns">
-                    <h3>Welcome to Park...</h3>
-                    <div class="text-center">
-                        <div class="medium-12 large-12">
-                            <!-- SLIDER -->
-                            <div class="homepage-slider">
-                                <!-- VIMEO Showcase Video Reel -->
-                                <div>
-                                    <div class="flex-video widescreen border-radius-5">
-                                        <p>Park's goal is 'Success for all through attainment, resilience and autonomy'. This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
-                                        <p>We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly.</p>
-                                        <p>We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
-                                        <p>We describe ourselves as 'Much more than just a school' because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="flex-video widescreen border-radius-5">
-                                        <p>Ofsted said in 2022:</p>
-                                        <p>Staff want the very best for all pupils. Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
-                                        <p>Pupils are reading regularly in school and for pleasure.</p>
-                                        <p>Leaders and governors have an ambitious long-term vision for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="flex-video widescreen border-radius-5">
-                                        <!-- Vimeo video "Park Community School - Belonging" -->
-                                        <div style="padding:56.21% 0 0 0;position:relative;">
-                                            <iframe src="https://player.vimeo.com/video/974947783?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Park Community School - Belonging"></iframe>
-                                        </div>
-                                        <script src="https://player.vimeo.com/api/player.js"></script>
-                                    </div> 
+        <div class="large-12 columns">
+            <div class="comprehensive-slideshow">
+                
+                <!-- Slide 1: Our Vision -->
+                <div class="slide-content active">
+                    <div class="slide-inner">
+                        <h3>Our Vision</h3>
+                        <div class="row">
+                            <div class="large-8 columns white-text">
+                                <p style="color: white !important;"><strong>Park's goal is 'Success for all through attainment, resilience and autonomy'.</strong> This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
+                                <p style="color: white !important;">We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly.</p>
+                                <p style="color: white !important;">We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
+                                <p style="color: white !important;">We describe ourselves as <strong>'Much more than just a school'</strong> because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
+                            </div>
+                            <div class="large-4 columns">
+                                <div class="highlight-box">
+                                    <h4>Our Core Values</h4>
+                                    <ul>
+                                        <li><strong>Attainment</strong> - Academic excellence</li>
+                                        <li><strong>Resilience</strong> - Overcoming challenges</li>
+                                        <li><strong>Autonomy</strong> - Independent thinking</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>   
+                    </div>
                 </div>
+                
+                <!-- Slide 2: Welcome to Park Video -->
+                <div class="slide-content">
+                    <div class="slide-inner">
+                        <h3>Welcome to Park</h3>
+                        <div class="video-container-large">
+                            <iframe src="https://player.vimeo.com/video/658515057?badge=0&autopause=0&player_id=0&app_id=58479" 
+                                    frameborder="0" 
+                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                                    title="Welcome to Park">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3: Belonging Video -->
+                <div class="slide-content">
+                    <div class="slide-inner">
+                        <h3>Park Community School - Belonging</h3>
+                        <div class="video-container-large">
+                            <iframe src="https://player.vimeo.com/video/974947783?badge=0&autopause=0&player_id=0&app_id=58479" 
+                                    frameborder="0" 
+                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                                    title="Park Community School - Belonging">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 4: Ofsted 2022 -->
+                <div class="slide-content">
+                    <div class="slide-inner">
+                        <h3>Ofsted 2022 Recognition</h3>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <div class="ofsted-quote">
+                                    <blockquote>
+                                        <p><strong>"Staff want the very best for all pupils."</strong> Staff know individual pupils well and work tirelessly to help them overcome any difficulties they face.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="ofsted-quote">
+                                    <blockquote>
+                                        <p><strong>"Pupils are reading regularly"</strong> in school and for pleasure.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="large-6 columns">
+                                <div class="ofsted-quote">
+                                    <blockquote>
+                                        <p><strong>"Leaders and governors have an ambitious long-term vision"</strong> for the school and its local community. All decisions are guided by what is in the best interest of pupils. Staff share this vision and are proud to work at the school.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 5: Overview -->
+                <div class="slide-content">
+                    <div class="slide-inner">
+                        <h3>Much More Than Just A School</h3>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <div class="feature-box">
+                                    <i class="fas fa-graduation-cap feature-icon"></i>
+                                    <h4>Academic Excellence</h4>
+                                    <p>High expectations and outstanding teaching ensure every student reaches their potential.</p>
+                                </div>
+                            </div>
+                            <div class="large-4 columns">
+                                <div class="feature-box">
+                                    <i class="fas fa-users feature-icon"></i>
+                                    <h4>Community Focus</h4>
+                                    <p>Strong partnerships with families and local organizations enrich our students' experiences.</p>
+                                </div>
+                            </div>
+                            <div class="large-4 columns">
+                                <div class="feature-box">
+                                    <i class="fas fa-star feature-icon"></i>
+                                    <h4>Exceptional Opportunities</h4>
+                                    <p>From theatre to sports, from enterprise to community service - we offer it all.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-    </div>
-</section>
-
-        <div class="large-4 columns show-for-large-up">
-            <div>
-                <br>
-            </div>
-        <br>
         </div>
     </div>
 </section>
@@ -400,16 +1376,168 @@ if ($showCaptcha) {
         <script src="js/app.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="https://player.vimeo.com/api/player.js"></script>
             
         <script type="text/javascript">
+            // Current slide index
+            let currentSlideIndex = 0;
+            const totalSlides = 5;
+            let autoAdvanceInterval;
+            let isVideoPlaying = false;
+            let vimeoPlayers = [];
+
+            // Show specific slide
+            function showSlide(index) {
+                // Pause all videos when changing slides
+                pauseAllVideos();
+                
+                // Hide all slides
+                document.querySelectorAll('.slide-content').forEach(slide => {
+                    slide.classList.remove('active');
+                });
+                
+                // Remove active class from all buttons and indicators
+                document.querySelectorAll('.slide-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                document.querySelectorAll('.indicator').forEach(indicator => {
+                    indicator.classList.remove('active');
+                });
+                
+                // Show current slide
+                document.querySelectorAll('.slide-content')[index].classList.add('active');
+                document.querySelectorAll('.slide-btn')[index].classList.add('active');
+                document.querySelectorAll('.indicator')[index].classList.add('active');
+                
+                currentSlideIndex = index;
+                
+                // Reset video playing state and resume auto-advance
+                isVideoPlaying = false;
+                startAutoAdvance();
+            }
+
+            // Change slide (for arrow navigation)
+            function changeSlide(direction) {
+                currentSlideIndex += direction;
+                
+                // Loop around
+                if (currentSlideIndex >= totalSlides) {
+                    currentSlideIndex = 0;
+                } else if (currentSlideIndex < 0) {
+                    currentSlideIndex = totalSlides - 1;
+                }
+                
+                showSlide(currentSlideIndex);
+            }
+
+            // Start auto-advance
+            function startAutoAdvance() {
+                if (autoAdvanceInterval) {
+                    clearInterval(autoAdvanceInterval);
+                }
+                autoAdvanceInterval = setInterval(function() {
+                    if (!isVideoPlaying) {
+                        changeSlide(1);
+                    }
+                }, 60000); // Changed to 60 seconds (1 minute)
+            }
+
+            // Stop auto-advance
+            function stopAutoAdvance() {
+                if (autoAdvanceInterval) {
+                    clearInterval(autoAdvanceInterval);
+                }
+            }
+
+            // Pause all videos
+            function pauseAllVideos() {
+                vimeoPlayers.forEach(player => {
+                    try {
+                        player.pause();
+                    } catch (error) {
+                        // Ignore errors if player not ready
+                        console.log('Could not pause video:', error);
+                    }
+                });
+            }
+
+            // Initialize Vimeo players and event listeners
+            function initializeVimeoPlayers() {
+                const iframes = document.querySelectorAll('iframe[src*="vimeo.com"]');
+                
+                iframes.forEach((iframe, index) => {
+                    const player = new Vimeo.Player(iframe);
+                    vimeoPlayers.push(player);
+                    
+                    // When video starts playing, pause auto-advance
+                    player.on('play', function() {
+                        isVideoPlaying = true;
+                        stopAutoAdvance();
+                    });
+                    
+                    // When video pauses or ends, resume auto-advance
+                    player.on('pause', function() {
+                        isVideoPlaying = false;
+                        startAutoAdvance();
+                    });
+                    
+                    player.on('ended', function() {
+                        isVideoPlaying = false;
+                        startAutoAdvance();
+                    });
+                });
+            }
+
             $(document).ready(function(){
               $('.homepage-slider').slick({
                 autoplay: true,
                 dots: true,
                 fade: true
               });
+
+              // Enhanced interactions
+              $('.menu-box').hover(
+                function() {
+                  $(this).find('img').css('transform', 'scale(1.05)');
+                },
+                function() {
+                  $(this).find('img').css('transform', 'scale(1)');
+                }
+              );
+
+              // Smooth scroll for anchor links
+              $('a[href^="#"]').on('click', function(event) {
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                  event.preventDefault();
+                  $('html, body').stop().animate({
+                    scrollTop: target.offset().top - 80
+                  }, 800);
+                }
+              });
+
+              // Image lazy loading effect
+              $('.menu-box img').each(function(index) {
+                $(this).delay(index * 100).animate({opacity: 1}, 600);
+              });
+
+              // Enhanced button interactions
+              $('.button').hover(
+                function() {
+                  $(this).css('transform', 'translateY(-3px)');
+                },
+                function() {
+                  $(this).css('transform', 'translateY(0)');
+                }
+              );
+
+              // Initialize Vimeo players after a short delay to ensure they're loaded
+              setTimeout(function() {
+                initializeVimeoPlayers();
+              }, 1000);
+
+              // Start auto-advance slideshow
+              startAutoAdvance();
             });
         </script>
     </body>
