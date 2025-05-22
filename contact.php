@@ -169,9 +169,9 @@
             <div class="contact-card">
                 <h4>Telecoms</h4>
                 <ul class="no-bullet">
-                    <li>Reception</li>
                     <li><strong>Tel:</strong> 02392 489800</li>
                     <li><strong>Fax:</strong> 02392 481012</li>
+                    <li><strong>Email:</strong> <a href="mailto:info@pcs.hants.sch.uk">info@pcs.hants.sch.uk</a></li>
                     <hr>
                     <li>Community</li>
                     <li><strong>Tel:</strong> 02392 489811</li>
