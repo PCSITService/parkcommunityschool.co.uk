@@ -709,10 +709,12 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             box-shadow: var(--shadow-light);
             border: 2px solid transparent;
             height: 100%;
+            min-height: 200px; /* Ensure consistent height */
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
+            justify-content: space-between; /* Distribute content evenly */
         }
 
         .menu-box:hover {
@@ -766,6 +768,15 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             text-align: center;
             margin-bottom: 3rem;
             color: #4a5568;
+        }
+
+        /* UPDATED STYLING FOR GOING THE EXTRA MILE HEADING */
+        .extra-mile-heading {
+            color: #000000 !important; /* Black text */
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-weight: 700;
         }
 
         /* Enhanced Team Section */
@@ -858,6 +869,10 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
 
             h4 {
                 font-size: 1.5rem;
+            }
+
+            .extra-mile-heading {
+                font-size: 2rem;
             }
 
             .menu-box {
@@ -1197,20 +1212,16 @@ if ($showCaptcha) {
 <br>
 <section class="grey-bg">
     <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
         <div class="large-12 columns">
-            <h3>Much More Than Just A School...</h3>
-
             <br>
 <!-- EXTRA MILE -->
             <ul class="text-center medium-block-grid-2 small-block-grid-1">
-                <h4>Going The Extra Mile</h4>
+                <h4 class="extra-mile-heading">Going The Extra Mile</h4>
                 <li>
                     <div class="menu-box"><a href="/Connect4Families.php">
                             <img src="assets/connect4families/2023-07/connect4families-logo.png" alt="Connect4Families">
                             <img src="assets/connect4families/2023-07/connect4youth-logo.png" alt="Connect4Youth">
+                            <p>Connect4</p>
                         </a></div>
                 </li>
                 <li>
@@ -1234,7 +1245,6 @@ if ($showCaptcha) {
             </ul>
 <!-- STUDENT EXTRA -->
             <ul class="text-center medium-block-grid-5 small-block-grid-2">
-                <h4>Giving Our Students Extra</h4>
                 <li>
                     <div class="menu-box"><a href="/race-at-our-place.php">
                             <img src="images/index/cancer_research.jpg" alt="Park Community Race at Our Place - Much More Than Just a School">
@@ -1315,9 +1325,6 @@ if ($showCaptcha) {
     </div>
     <br>
 <section id="meet-the-team" style="background-color: #333333; color: #ffffff; text-align: center;">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
     <div class="row">
         <div class="large-12 columns">
             <!-- Center the 'Leadership Team' text -->
@@ -1593,7 +1600,7 @@ if ($showCaptcha) {
                         changeSlide(1);
                         break;
                     default: return;
-                }
+                    }
                 e.preventDefault();
             });
         </script>
