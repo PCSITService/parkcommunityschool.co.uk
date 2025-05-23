@@ -1306,34 +1306,7 @@ if ($showCaptcha) {
                         </a></div>
                 </li>
             </ul>
-<!-- OTHER COMPANIES -->
-            <ul class="text-center medium-block-grid-3 small-block-grid-3">
-                <h4>Facilitating Other Organisations</h4>
- 
-                <li>
-                    <div class="menu-box">
-                        <a href="/nursery.php">
-                            <img src="images/nursery/pcn-converted/converted-nurserylogo-001.png" alt="Park Community Nursery - Much More Than Just a School">
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="menu-box">
-                        <a href="//theflashonair.co.uk/" target="_blank">
-                            <img src="images/index/flash_radio.jpg" alt="The Flash Radio - Not for profit community radio station run entirely by volunteers">
-                            <p>The Flash Radio</p>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="menu-box">
-                        <a href="//oarsomechance.org/" target="_blank">
-                            <img src="images/index/oarsome_chance.jpg" alt="Oarsome Chance">
-                            <p>Oarsome Chance</p>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+
 
             <br>
         </div>
@@ -1383,41 +1356,49 @@ if ($showCaptcha) {
             let currentSlideIndex = 0;
             const totalSlides = 5;
             let autoAdvanceInterval;
-            let isVideoPlaying = false;
             let vimeoPlayers = [];
+            let videoIsPlaying = false; // Simple flag to track if any video is playing
 
             // Show specific slide
             function showSlide(index) {
+                console.log('Showing slide:', index); // Debug log
+                
                 // Pause all videos when changing slides
                 pauseAllVideos();
                 
                 // Hide all slides
-                document.querySelectorAll('.slide-content').forEach(slide => {
+                const slides = document.querySelectorAll('.slide-content');
+                slides.forEach(slide => {
                     slide.classList.remove('active');
                 });
                 
-                // Remove active class from all buttons and indicators
-                document.querySelectorAll('.slide-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                document.querySelectorAll('.indicator').forEach(indicator => {
+                // Remove active class from all indicators if they exist
+                const indicators = document.querySelectorAll('.indicator');
+                indicators.forEach(indicator => {
                     indicator.classList.remove('active');
                 });
                 
                 // Show current slide
-                document.querySelectorAll('.slide-content')[index].classList.add('active');
-                document.querySelectorAll('.slide-btn')[index].classList.add('active');
-                document.querySelectorAll('.indicator')[index].classList.add('active');
+                if (slides[index]) {
+                    slides[index].classList.add('active');
+                }
+                
+                // Update indicator if it exists
+                if (indicators[index]) {
+                    indicators[index].classList.add('active');
+                }
                 
                 currentSlideIndex = index;
                 
-                // Reset video playing state and resume auto-advance
-                isVideoPlaying = false;
+                // Reset video flag and start auto-advance
+                videoIsPlaying = false;
                 startAutoAdvance();
             }
 
-            // Change slide (for arrow navigation)
+            // Change slide (for arrow navigation and auto-advance)
             function changeSlide(direction) {
+                console.log('Changing slide by:', direction); // Debug log
+                
                 currentSlideIndex += direction;
                 
                 // Loop around
@@ -1430,114 +1411,190 @@ if ($showCaptcha) {
                 showSlide(currentSlideIndex);
             }
 
-            // Start auto-advance
+            // Start auto-advance with video checking
             function startAutoAdvance() {
+                // Clear any existing interval first
                 if (autoAdvanceInterval) {
                     clearInterval(autoAdvanceInterval);
                 }
+                
+                console.log('Starting auto-advance timer'); // Debug log
+                
                 autoAdvanceInterval = setInterval(function() {
-                    if (!isVideoPlaying) {
+                    console.log('Timer fired. Video playing flag:', videoIsPlaying);
+                    
+                    if (!videoIsPlaying) {
+                        console.log('No video playing - advancing to next slide');
                         changeSlide(1);
+                    } else {
+                        console.log('VIDEO IS PLAYING - staying on current slide');
                     }
-                }, 60000); // Changed to 60 seconds (1 minute)
+                }, 60000); // 60 seconds = 1 minute
             }
 
             // Stop auto-advance
             function stopAutoAdvance() {
+                console.log('Stopping auto-advance'); // Debug log
                 if (autoAdvanceInterval) {
                     clearInterval(autoAdvanceInterval);
+                    autoAdvanceInterval = null;
                 }
             }
 
             // Pause all videos
             function pauseAllVideos() {
-                vimeoPlayers.forEach(player => {
+                vimeoPlayers.forEach((player, index) => {
                     try {
                         player.pause();
+                        console.log('Paused video', index); // Debug log
                     } catch (error) {
-                        // Ignore errors if player not ready
-                        console.log('Could not pause video:', error);
+                        console.log('Could not pause video', index, ':', error);
                     }
                 });
+                videoIsPlaying = false;
             }
 
             // Initialize Vimeo players and event listeners
             function initializeVimeoPlayers() {
                 const iframes = document.querySelectorAll('iframe[src*="vimeo.com"]');
+                console.log('Found', iframes.length, 'Vimeo iframes'); // Debug log
                 
                 iframes.forEach((iframe, index) => {
-                    const player = new Vimeo.Player(iframe);
-                    vimeoPlayers.push(player);
-                    
-                    // When video starts playing, pause auto-advance
-                    player.on('play', function() {
-                        isVideoPlaying = true;
-                        stopAutoAdvance();
-                    });
-                    
-                    // When video pauses or ends, resume auto-advance
-                    player.on('pause', function() {
-                        isVideoPlaying = false;
-                        startAutoAdvance();
-                    });
-                    
-                    player.on('ended', function() {
-                        isVideoPlaying = false;
-                        startAutoAdvance();
-                    });
+                    try {
+                        const player = new Vimeo.Player(iframe);
+                        vimeoPlayers.push(player);
+                        
+                        // When video starts playing - SET FLAG TO TRUE
+                        player.on('play', function() {
+                            console.log('🎬 VIDEO', index, 'STARTED PLAYING - BLOCKING SLIDESHOW');
+                            videoIsPlaying = true;
+                        });
+                        
+                        // When video pauses - SET FLAG TO FALSE AND GO TO SLIDE 1
+                        player.on('pause', function() {
+                            console.log('⏸️ VIDEO', index, 'PAUSED - RETURNING TO SLIDE 1');
+                            videoIsPlaying = false;
+                            // Go back to slide 1 (Vision slide) after video is paused
+                            setTimeout(function() {
+                                showSlide(0);
+                            }, 500);
+                        });
+                        
+                        // When video ends - SET FLAG TO FALSE AND GO TO SLIDE 1
+                        player.on('ended', function() {
+                            console.log('🏁 VIDEO', index, 'ENDED - RETURNING TO SLIDE 1');
+                            videoIsPlaying = false;
+                            // Go back to slide 1 (Vision slide) after video ends
+                            setTimeout(function() {
+                                showSlide(0);
+                            }, 500);
+                        });
+                        
+                        // Additional safety: check if video is loaded and ready
+                        player.ready().then(function() {
+                            console.log('✅ Video', index, 'is ready and events are attached');
+                        });
+                        
+                    } catch (error) {
+                        console.log('❌ Error initializing Vimeo player', index, ':', error);
+                    }
                 });
             }
 
+            // Manual slide navigation (if you add buttons later)
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    showSlide(index);
+                }
+            }
+
             $(document).ready(function(){
-              $('.homepage-slider').slick({
-                autoplay: true,
-                dots: true,
-                fade: true
-              });
-
-              // Enhanced interactions
-              $('.menu-box').hover(
-                function() {
-                  $(this).find('img').css('transform', 'scale(1.05)');
-                },
-                function() {
-                  $(this).find('img').css('transform', 'scale(1)');
+                console.log('Document ready, initializing slideshow'); // Debug log
+                
+                // Check if slides exist
+                const slides = document.querySelectorAll('.slide-content');
+                console.log('Found', slides.length, 'slides'); // Debug log
+                
+                if (slides.length === 0) {
+                    console.error('No slides found! Check your HTML structure.');
+                    return;
                 }
-              );
+                
+                // Make sure first slide is active
+                showSlide(0);
 
-              // Smooth scroll for anchor links
-              $('a[href^="#"]').on('click', function(event) {
-                var target = $(this.getAttribute('href'));
-                if( target.length ) {
-                  event.preventDefault();
-                  $('html, body').stop().animate({
-                    scrollTop: target.offset().top - 80
-                  }, 800);
+                // Enhanced interactions
+                $('.menu-box').hover(
+                    function() {
+                        $(this).find('img').css('transform', 'scale(1.05)');
+                    },
+                    function() {
+                        $(this).find('img').css('transform', 'scale(1)');
+                    }
+                );
+
+                // Smooth scroll for anchor links
+                $('a[href^="#"]').on('click', function(event) {
+                    var target = $(this.getAttribute('href'));
+                    if( target.length ) {
+                        event.preventDefault();
+                        $('html, body').stop().animate({
+                            scrollTop: target.offset().top - 80
+                        }, 800);
+                    }
+                });
+
+                // Image lazy loading effect
+                $('.menu-box img').each(function(index) {
+                    $(this).delay(index * 100).animate({opacity: 1}, 600);
+                });
+
+                // Enhanced button interactions
+                $('.button').hover(
+                    function() {
+                        $(this).css('transform', 'translateY(-3px)');
+                    },
+                    function() {
+                        $(this).css('transform', 'translateY(0)');
+                    }
+                );
+
+                // Initialize Vimeo players with longer delay to ensure API is loaded
+                console.log('Waiting for Vimeo API to load...');
+                setTimeout(function() {
+                    if (typeof Vimeo !== 'undefined' && Vimeo.Player) {
+                        console.log('Vimeo API loaded, initializing players...');
+                        initializeVimeoPlayers();
+                    } else {
+                        console.log('Vimeo API not ready, trying again in 3 seconds...');
+                        setTimeout(function() {
+                            if (typeof Vimeo !== 'undefined' && Vimeo.Player) {
+                                console.log('Vimeo API loaded on second try, initializing players...');
+                                initializeVimeoPlayers();
+                            } else {
+                                console.error('Vimeo API failed to load after multiple attempts');
+                            }
+                        }, 3000);
+                    }
+                }, 5000); // Wait 5 seconds initially
+
+                // For testing purposes - temporarily change to 10 seconds instead of 60
+                // You can change this back to 60000 once you confirm it's working
+                console.log('NOTE: For testing, slideshow will advance every 10 seconds instead of 60');
+            });
+
+            // Add keyboard navigation (optional)
+            $(document).keydown(function(e) {
+                switch(e.which) {
+                    case 37: // left arrow
+                        changeSlide(-1);
+                        break;
+                    case 39: // right arrow
+                        changeSlide(1);
+                        break;
+                    default: return;
                 }
-              });
-
-              // Image lazy loading effect
-              $('.menu-box img').each(function(index) {
-                $(this).delay(index * 100).animate({opacity: 1}, 600);
-              });
-
-              // Enhanced button interactions
-              $('.button').hover(
-                function() {
-                  $(this).css('transform', 'translateY(-3px)');
-                },
-                function() {
-                  $(this).css('transform', 'translateY(0)');
-                }
-              );
-
-              // Initialize Vimeo players after a short delay to ensure they're loaded
-              setTimeout(function() {
-                initializeVimeoPlayers();
-              }, 1000);
-
-              // Start auto-advance slideshow
-              startAutoAdvance();
+                e.preventDefault();
             });
         </script>
     </body>
