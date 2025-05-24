@@ -244,12 +244,12 @@
             <h2 class="section-header">Current Vacancies</h2>
             
             <!-- Active vacancy card -->
-            <article class="vacancy-card">
+            <!--<article class="vacancy-card">
                 <h3>Alternative education Teacher KS4- September 2025</h3>
                 <a href="assets/recruitment/2025-05/Alternative education Teacher KS4- September 2025.pdf" class="vacancy-link" target="_blank" aria-label="Download History Teacher job details">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
-            </article>
+            </article>-->
             
             <!-- Governor vacancies notice -->
             <p class="text-italic">Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</p>

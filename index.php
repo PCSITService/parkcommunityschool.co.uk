@@ -928,6 +928,17 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             outline-offset: 2px;
         }
 
+        /* Remove outline from navigation specifically */
+        nav a:focus,
+        .top-bar a:focus,
+        .top-bar-section a:focus,
+        .dropdown a:focus,
+        [class*="nav"] a:focus,
+        .has-dropdown a:focus,
+        .top-bar ul a:focus {
+            outline: none;
+        }
+
         /* Print Styles */
         @media print {
             #homepage-hero {
