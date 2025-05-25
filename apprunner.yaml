@@ -1,10 +1,10 @@
 version: 1.0
 runtime: php81
 build:
-  commands:
-    - echo "Installing dependencies..."
+  commands: |
+    echo "Installing dependencies..."
     # if you use composer, uncomment below:
-    # - composer install
+    # composer install
 start:
   command: php -S 0.0.0.0:8080 -t .
 network:
