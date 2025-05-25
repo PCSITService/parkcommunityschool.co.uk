@@ -5,7 +5,6 @@ build:
     build:
       - echo "Building Park Community School website..."
 run:
-  runtime-version: latest
   command: apache2-foreground
   network:
     port: 80
