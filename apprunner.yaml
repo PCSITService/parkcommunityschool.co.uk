@@ -1,6 +1,0 @@
-version: 1.0
-runtime: php81
-run:
-  command: php -S 0.0.0.0:8080 -t .
-  network:
-    port: 8080
