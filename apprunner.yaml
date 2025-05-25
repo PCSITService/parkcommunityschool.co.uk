@@ -1,0 +1,12 @@
+version: 1.0
+runtime: docker
+build:
+  commands:
+    build:
+      - echo "Building Park Community School website..."
+run:
+  runtime-version: latest
+  command: apache2-foreground
+  network:
+    port: 80
+    env: PORT
