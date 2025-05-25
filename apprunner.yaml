@@ -1,7 +1,11 @@
 version: 1.0
-runtime: php
-run:
-  runtime-version: php8.1
-  command: apache2-foreground
-  network:
-    port: 80
+runtime: php81
+build:
+  commands:
+    - echo "Installing dependencies..."
+    # if you use composer, uncomment below:
+    # - composer install
+start:
+  command: php -S 0.0.0.0:8080 -t .
+network:
+  port: 8080
