@@ -1,11 +1,6 @@
 version: 1.0
 runtime: php81
-build:
-  commands: |
-    echo "Installing dependencies..."
-    # if you use composer, uncomment below:
-    # composer install
-start:
+run:
   command: php -S 0.0.0.0:8080 -t .
-network:
-  port: 8080
+  network:
+    port: 8080
