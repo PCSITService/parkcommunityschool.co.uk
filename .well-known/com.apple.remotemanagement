@@ -1,8 +1,0 @@
-{
-"Servers": [
-{
-"Version":"mdm-byod",
-"BaseURL":"https://pcs.tramscloud.co.uk/servicediscoveryenrollment/v1/userenroll"
-}
-]
-}
