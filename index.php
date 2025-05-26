@@ -1008,7 +1008,7 @@ if ($showCaptcha) {
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                     </div>
                     <div class="columns">
-                        <a class="small button radius success" href="https://pcs.hants.sch.uk/letters-home.php" target="_blank"><i class="fa fa-envelope-open-text"></i> Letters & Newsletters</a>
+                        <a class="small button radius success" href="letters-home.php" target="_blank"><i class="fa fa-envelope-open-text"></i> Letters & Newsletters</a>
                     </div>
                 </div>
             </div>
