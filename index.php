@@ -841,6 +841,13 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             background: linear-gradient(90deg, #e2e8f0, #cbd5e0);
         }
 
+        /* Footer Fix */
+        footer {
+            background-color: #333333 !important;
+            margin: 0;
+            padding: 0;
+        }
+
         /* Responsive Improvements */
         @media (max-width: 768px) {
             #homepage-hero {
@@ -1220,12 +1227,14 @@ if ($showCaptcha) {
         </div>
     </div>
 </section>
+
 <br>
+
 <section class="grey-bg">
     <div class="row">
         <div class="large-12 columns">
             <br>
-<!-- EXTRA MILE -->
+            <!-- EXTRA MILE -->
             <ul class="text-center medium-block-grid-2 small-block-grid-1">
                 <h4 class="extra-mile-heading">Going The Extra Mile</h4>
                 <li>
@@ -1254,7 +1263,8 @@ if ($showCaptcha) {
                         </a></div>
                 </li>
             </ul>
-<!-- STUDENT EXTRA -->
+            
+            <!-- STUDENT EXTRA -->
             <ul class="text-center medium-block-grid-5 small-block-grid-2">
                 <li>
                     <div class="menu-box"><a href="/race-at-our-place.php">
@@ -1287,7 +1297,8 @@ if ($showCaptcha) {
                         </a></div>
                 </li>
             </ul>
-<!-- INHOUSE SERVICES -->
+            
+            <!-- INHOUSE SERVICES -->
             <ul class="text-center medium-block-grid-3 small-block-grid-2">
                 <h4>In-house Services</h4>
                 <li>
@@ -1328,13 +1339,13 @@ if ($showCaptcha) {
                 </li>
             </ul>
 
-
             <br>
         </div>
-
         <br>
     </div>
     <br>
+</section>
+
 <section id="meet-the-team" style="background-color: #333333; color: #ffffff; text-align: center;">
     <div class="row">
         <div class="large-12 columns">
