@@ -668,7 +668,8 @@
     </div>
 </section>
 
-<!-- MODALS -->
+<!-- COMPLETE GOVERNOR MODALS -->
+
 <!-- Mr B Harwood Modal -->
 <div id="bharwood-modern-modal" class="modern-modal">
     <div class="modern-modal-content">
@@ -710,7 +711,227 @@
     </div>
 </div>
 
-<!-- Add similar modals for other governors... -->
+<!-- Mr C Anders Modal -->
+<div id="canders-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('canders')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mr C Anders</h2>
+            <p><strong>Appointed:</strong> 01.09.2017 | <strong>Term Expires:</strong> Ex-Officio</p>
+            <p><strong>Category:</strong> Headteacher</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mr Anders joined Park Community School as Headteacher in September 2017. He brings extensive experience in secondary education and is committed to ensuring every student achieves their potential.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mr R Cousins Modal -->
+<div id="rcousins-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('rcousins')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mr R Cousins</h2>
+            <p><strong>Appointed:</strong> 15.03.2023 | <strong>Term Expires:</strong> 14.03.2027</p>
+            <p><strong>Category:</strong> Co-opted Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mr Cousins brings valuable business and finance experience to the governing body, supporting the school's strategic development and financial oversight.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mrs A Mays Modal -->
+<div id="amays-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('amays')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mrs A Mays</h2>
+            <p><strong>Appointed:</strong> 18.05.2020 | <strong>Term Expires:</strong> 12.08.2029</p>
+            <p><strong>Category:</strong> Co-opted Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mrs Mays has extensive experience in education and brings valuable insights into teaching and learning practices to support the school's continued improvement.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mr M Turner-Norgate Modal -->
+<div id="mturnernorgate-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('mturnernorgate')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mr M Turner-Norgate</h2>
+            <p><strong>Appointed:</strong> 12.10.2021 | <strong>Term Expires:</strong> 11.10.2025</p>
+            <p><strong>Category:</strong> Staff Member</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>As a staff governor, Mr Turner-Norgate provides valuable insight from the teaching perspective, ensuring staff views are represented in governance decisions.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mrs C Emery Modal -->
+<div id="cemery-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('cemery')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mrs C Emery</h2>
+            <p><strong>Appointed:</strong> 25.09.2019 | <strong>Term Expires:</strong> 24.09.2023</p>
+            <p><strong>Category:</strong> Co-opted Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mrs Emery brings professional expertise in community development and stakeholder engagement, supporting the school's community partnerships.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mrs C Miller Modal -->
+<div id="cmiller-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('cmiller')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mrs C Miller</h2>
+            <p><strong>Appointed:</strong> 14.07.2022 | <strong>Term Expires:</strong> 13.07.2026</p>
+            <p><strong>Category:</strong> Co-opted Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mrs Miller has a background in educational leadership and curriculum development, providing expertise in school improvement and student outcomes.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mrs K Denyer Modal -->
+<div id="kdenyer-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('kdenyer')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mrs K Denyer</h2>
+            <p><strong>Appointed:</strong> 03.11.2023 | <strong>Term Expires:</strong> 02.11.2027</p>
+            <p><strong>Category:</strong> Parent Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>As a parent governor, Mrs Denyer represents the views and interests of parents and the wider school community, ensuring their voice is heard in governance decisions.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mr P Fry Modal -->
+<div id="pfry-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('pfry')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mr P Fry</h2>
+            <p><strong>Appointed:</strong> 16.01.2024 | <strong>Term Expires:</strong> 15.01.2028</p>
+            <p><strong>Category:</strong> Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mr Fry brings professional experience in business management and strategic planning, supporting the school's long-term development and sustainability.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mrs E Capaldi Modal -->
+<div id="ecapaldi-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('ecapaldi')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mrs E Capaldi</h2>
+            <p><strong>Appointed:</strong> 01.09.2023 | <strong>Term Expires:</strong> Ex-Officio</p>
+            <p><strong>Category:</strong> Head of School</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+                <li>Member of Performance Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>Mrs Capaldi serves as Head of School and brings extensive educational leadership experience, working closely with the Headteacher to ensure excellent educational outcomes.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Mr W Goldsmith Modal -->
+<div id="wgoldsmith-modern-modal" class="modern-modal">
+    <div class="modern-modal-content">
+        <button class="modern-modal-close" onclick="closeModernModal('wgoldsmith')">&times;</button>
+        <div class="modern-modal-header">
+            <h2 class="modern-modal-title">Mr W Goldsmith</h2>
+            <p><strong>Appointed:</strong> 12.03.2024 | <strong>Term Expires:</strong> 11.03.2026</p>
+            <p><strong>Category:</strong> Associate Governor</p>
+        </div>
+        <div class="modern-modal-body">
+            <h4>Committee Membership:</h4>
+            <ul>
+                <li>Associate Member of Full Governing Body (FGB)</li>
+                <li>Member of Administration Committee</li>
+            </ul>
+            <h4>Background:</h4>
+            <p>As an Associate Governor, Mr Goldsmith provides specialist expertise and support to the governing body, contributing valuable skills and knowledge to governance processes.</p>
+            <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
+        </div>
+    </div>
+</div>
 
 <!-- Vacancies Modal -->
 <div id="vacancies-modern-modal" class="modern-modal">
@@ -721,8 +942,13 @@
             <p>Below are the currently available governor positions.</p>
         </div>
         <div class="modern-modal-body">
-            <p>Please complete the <a href="assets/governors/governor-application-form.doc" target="_blank">Application Form</a> and submit to our Clerk for consideration.</p>
-            <p>Email: <a href="mailto:Clerk@pcs.hants.sch.uk">Clerk@pcs.hants.sch.uk</a></p>
+            <h4>Current Vacancies:</h4>
+            <ul>
+                <li><strong>Parent Governor</strong> - We are seeking a parent or carer of a current student to represent parent views on the governing body.</li>
+            </ul>
+            <p style="margin-top: 2rem;">Please complete the <a href="assets/governors/governor-application-form.doc" target="_blank">Application Form</a> and submit to our Clerk for consideration.</p>
+            <p><strong>Email:</strong> <a href="mailto:Clerk@pcs.hants.sch.uk">Clerk@pcs.hants.sch.uk</a></p>
+            <p style="margin-top: 1rem;"><em>Being a school governor is a rewarding way to contribute to your local community and help shape the future of education for our students.</em></p>
         </div>
     </div>
 </div>
