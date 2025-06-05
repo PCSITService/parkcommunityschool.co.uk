@@ -301,7 +301,8 @@
         </div>
 
         <!-- Non-Statutory Policies Grid -->
-        <div class="policies-grid" id="policiesGrid">
+        <h2 class="section-title">Non Statutory Policies</h2>
+        <div class="policies-grid" id="statutoryGrid">
             <div class="policy-card" data-search="admissions admission enrolment enrollment">
                 <div class="policy-title">Admissions</div>
                 <a href="/assets/policies/admissions-2024-2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
