@@ -241,12 +241,19 @@
             <h2>Statutory</h2>
             <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organized for easy access.</p>
             
-            <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center;">
-                <p style="margin-bottom: 16px; color: #000000;">Please find all policies</p>
-                <a href="/policies.php" class="toggle-button" style="background: #2563eb !important; color: white !important; text-decoration: none !important;">
-                    <span class="toggle-text" style="color: white !important;">View All Policies</span>
-                    <span class="toggle-icon" style="color: white !important;">→</span>
-                </a>
+            <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb; display: flex; justify-content: center; align-items: flex-start; gap: 120px;">
+                <div style="text-align: center;">
+                    <p style="margin-bottom: 16px; color: #000000;">Please find all policies</p>
+                    <a href="/policies.php" class="toggle-button" style="background: #2563eb !important; color: white !important; text-decoration: none !important;">
+                        <span class="toggle-text" style="color: white !important;">View All Policies</span>
+                    </a>
+                </div>
+                <div style="text-align: center;">
+                    <p style="margin-bottom: 16px; color: #000000;">Latest inspection reports</p>
+                    <a href="/ofsted-reports.php" class="toggle-button" style="background: #2563eb !important; color: white !important; text-decoration: none !important;">
+                        <span class="toggle-text" style="color: white !important;">Ofsted Reports</span>
+                    </a>
+                </div>
             </div>
         </div>
 

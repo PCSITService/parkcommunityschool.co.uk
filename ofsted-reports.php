@@ -22,35 +22,28 @@
                 </header>
                 
                 <section class="reports-section">
-                    <details class="dropdown-section">
-                        <summary class="dropdown-header">
-                            <h2>Ofsted Inspection - 2022</h2>
-                            <span class="dropdown-icon">▼</span>
-                        </summary>
-                        <div class="dropdown-content">
-                            <p>Below you can find our most recent Ofsted inspection reports. These documents provide detailed assessments of our school's performance, achievements, and areas for development.</p>
-                            
-                            <div class="reports-grid">
-                                <div class="report-card">
-                                    <div class="report-icon">📄</div>
-                                    <div class="report-content">
-                                        <h3><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 2-3 March 2022</a></h3>
-                                        <p class="report-meta">Inspection Date: 2-3 March 2022 | Format: PDF</p>
-                                        <p class="report-description">Full inspection report covering all aspects of school performance.</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="report-card">
-                                    <div class="report-icon">📄</div>
-                                    <div class="report-content">
-                                        <h3><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 5 May 2022</a></h3>
-                                        <p class="report-meta">Inspection Date: 5 May 2022 | Format: PDF</p>
-                                        <p class="report-description">Follow-up inspection report with updated assessments.</p>
-                                    </div>
-                                </div>
+                    <h2>Ofsted Inspection - 2022</h2>
+                    <p>Below you can find our most recent Ofsted inspection reports. These documents provide detailed assessments of our school's performance, achievements, and areas for development.</p>
+                    
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <div class="report-icon">📄</div>
+                            <div class="report-content">
+                                <h3><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 2-3 March 2022</a></h3>
+                                <p class="report-meta">Inspection Date: 2-3 March 2022 | Format: PDF</p>
+                                <p class="report-description">Full inspection report covering all aspects of school performance.</p>
                             </div>
                         </div>
-                    </details>
+                        
+                        <div class="report-card">
+                            <div class="report-icon">📄</div>
+                            <div class="report-content">
+                                <h3><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 5 May 2022</a></h3>
+                                <p class="report-meta">Inspection Date: 5 May 2022 | Format: PDF</p>
+                                <p class="report-description">Follow-up inspection report with updated assessments.</p>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="external-link-standalone">
                         <div class="report-card external-link">
@@ -103,32 +96,6 @@
             padding: 2rem 0;
         }
         
-        .breadcrumb-nav {
-            margin-bottom: 2rem;
-            display: none;
-        }
-        
-        .breadcrumbs {
-            background: transparent;
-            border: none;
-            margin: 0;
-            padding: 0.5rem 0;
-        }
-        
-        .breadcrumbs li {
-            color: #6c757d;
-            font-size: 0.9rem;
-        }
-        
-        .breadcrumbs a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        
-        .breadcrumbs a:hover {
-            text-decoration: underline;
-        }
-        
         .content-article {
             background: #ffffff;
             border-radius: 12px;
@@ -156,62 +123,6 @@
             margin-bottom: 3rem;
         }
         
-        .dropdown-section {
-            border: 2px solid #e9ecef;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            background: #ffffff;
-            overflow: hidden;
-        }
-        
-        .dropdown-header {
-            background: #f8f9fa;
-            padding: 1.5rem 2rem;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #e9ecef;
-            transition: all 0.3s ease;
-        }
-        
-        .dropdown-header:hover {
-            background: #e9ecef;
-        }
-        
-        .dropdown-header h2 {
-            color: #2c3e50;
-            font-size: 1.5rem;
-            margin: 0;
-            font-weight: 600;
-        }
-        
-        .dropdown-icon {
-            color: #6c757d;
-            font-size: 1.2rem;
-            transition: transform 0.3s ease;
-        }
-        
-        .dropdown-section[open] .dropdown-icon {
-            transform: rotate(180deg);
-        }
-        
-        .dropdown-content {
-            padding: 2rem;
-            border-top: 1px solid #e9ecef;
-        }
-        
-        .dropdown-content p {
-            color: #495057;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-        
-        .external-link-standalone {
-            margin-top: 2rem;
-        }
-        
         .reports-section h2 {
             color: #2c3e50;
             font-size: 1.8rem;
@@ -229,6 +140,10 @@
         .reports-grid {
             display: grid;
             gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .external-link-standalone {
             margin-top: 2rem;
         }
         
@@ -311,52 +226,6 @@
             border-color: #b8daff;
         }
         
-        .info-panel {
-            background: #f8f9fa;
-            border-left: 4px solid #007bff;
-            padding: 2rem;
-            border-radius: 8px;
-            margin-top: 2rem;
-        }
-        
-        .info-panel h3 {
-            color: #2c3e50;
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-        
-        .info-panel p {
-            color: #495057;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-        }
-        
-        .info-links {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-        
-        .btn-link {
-            background: #007bff;
-            color: #ffffff;
-            padding: 0.6rem 1.2rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            border: 2px solid #007bff;
-        }
-        
-        .btn-link:hover {
-            background: #0056b3;
-            border-color: #0056b3;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,123,255,0.3);
-        }
-        
         .sidebar {
             margin-top: 2rem;
         }
@@ -377,32 +246,6 @@
             font-weight: 600;
             border-bottom: 2px solid #e9ecef;
             padding-bottom: 0.5rem;
-        }
-        
-        .sidebar-links {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .sidebar-links li {
-            margin-bottom: 0.8rem;
-        }
-        
-        .sidebar-links a {
-            color: #495057;
-            text-decoration: none;
-            font-size: 0.95rem;
-            padding: 0.5rem 0;
-            display: block;
-            border-bottom: 1px solid transparent;
-            transition: all 0.3s ease;
-        }
-        
-        .sidebar-links a:hover {
-            color: #007bff;
-            border-bottom-color: #007bff;
-            padding-left: 0.5rem;
         }
         
         .fact-item {
@@ -452,14 +295,6 @@
                 align-self: center;
             }
             
-            .info-links {
-                flex-direction: column;
-            }
-            
-            .btn-link {
-                text-align: center;
-            }
-            
             .sidebar {
                 margin-top: 3rem;
             }
@@ -484,10 +319,6 @@
         .content-article,
         .sidebar-widget {
             animation: fadeInUp 0.6s ease-out;
-        }
-        
-        .sidebar-widget:nth-child(2) {
-            animation-delay: 0.2s;
         }
         </style>
     </body>
