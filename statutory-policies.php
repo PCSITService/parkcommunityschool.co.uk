@@ -28,8 +28,6 @@
             padding: 0 20px;
         }
 
-
-
         .intro-text {
             background: white;
             padding: 25px;
@@ -48,16 +46,61 @@
             margin: 0 0 16px 0;
         }
 
+        .toggle-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            background: #2563eb;
+            color: white !important;
+            text-decoration: none;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            gap: 8px;
+        }
 
+        .toggle-button:hover {
+            background: #1d4ed8;
+            color: white !important;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
 
+        .toggle-button:visited {
+            color: white !important;
+        }
 
+        .toggle-button:link {
+            color: white !important;
+        }
 
-        .search-box {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
+        .toggle-button:active {
+            color: white !important;
+        }
+
+        .toggle-button * {
+            color: white !important;
+        }
+
+        .toggle-button .toggle-text {
+            color: white !important;
+        }
+
+        .toggle-button .toggle-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+            color: white !important;
+        }
+
+        .intro-text .toggle-button {
+            color: white !important;
+        }
+
+        .intro-text .toggle-button * {
+            color: white !important;
         }
 
         .search-input {
@@ -179,6 +222,11 @@
             .section-header h1 {
                 font-size: 1.5rem;
             }
+
+            .toggle-button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -192,15 +240,19 @@
         <div class="intro-text">
             <h2>Statutory</h2>
             <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organized for easy access.</p>
-        </div>
-
-
-
-
-
-        <!-- Search Box -->
-        <div class="search-box">
-            <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
+            
+            <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb; text-align: center;">
+                <p style="margin-bottom: 16px; color: #000000;">Please find alternative policies</p>
+                <a href="/policies.php" class="toggle-button" style="background: #2563eb !important; color: white !important; text-decoration: none !important;">
+                    <span class="toggle-text" style="color: white !important;">View All Policies</span>
+                    <span class="toggle-icon" style="color: white !important;">→</span>
+                </a>
+                
+                <!-- Search Box within intro section -->
+                <div style="margin-top: 24px; text-align: left;">
+                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 16px;">
+                </div>
+            </div>
         </div>
 
         <!-- Policies List -->
@@ -326,6 +378,28 @@
     <!-- FOOTER -->
     <?php include("includes/footer.html") ?>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('policySearch');
+            const policyItems = document.querySelectorAll('.policy-item');
+
+            // Search functionality
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                policyItems.forEach(function(item) {
+                    const searchData = item.getAttribute('data-search').toLowerCase();
+                    const title = item.querySelector('.policy-title').textContent.toLowerCase();
+                    
+                    if (searchData.includes(searchTerm) || title.includes(searchTerm)) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>
