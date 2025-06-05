@@ -298,6 +298,111 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             padding: 3rem 0;
         }
 
+        /* Contact Us Section Styling */
+        #contact-section {
+            background: linear-gradient(135deg, var(--primary-green) 0%, #68d391 100%);
+            color: white;
+            padding: 2.5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #contact-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        #contact-section .row {
+            position: relative;
+            z-index: 2;
+        }
+
+        #contact-section h3 {
+            color: white;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+
+        #contact-section h3::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: white;
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        .contact-info {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 1.5rem 2rem;
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            width: 100%;
+        }
+
+        .contact-info h4 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .contact-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-item i {
+            font-size: 1.3rem;
+            color: var(--primary-orange);
+            width: 25px;
+            text-align: center;
+        }
+
+        .contact-item span {
+            color: white;
+            font-size: 1.05rem;
+            line-height: 1.4;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: var(--transition);
+        }
+
+        .contact-item a:hover {
+            color: var(--primary-orange);
+            text-decoration: underline;
+        }
+
         /* Comprehensive Slideshow */
         .comprehensive-slideshow {
             background: transparent;
@@ -330,8 +435,8 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         .slide-content {
             display: none;
             padding: 0;
-            min-height: 600px;
-            height: 600px;
+            min-height: 650px;
+            height: auto;
         }
 
         .slide-content.active {
@@ -339,11 +444,11 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         }
 
         .slide-inner {
-            padding: 3rem;
+            padding: 2rem 3rem;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             box-sizing: border-box;
         }
 
@@ -412,6 +517,36 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             color: #ffd700;
         }
 
+        /* Video Buttons Outside Green Box */
+        .video-buttons {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .video-btn {
+            background: #3498db !important;
+            color: white !important;
+            border: none !important;
+            padding: 0.6rem 1rem !important;
+            font-size: 0.85rem !important;
+            min-width: auto !important;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .video-btn:hover {
+            background: #2980b9 !important;
+            color: white !important;
+            transform: translateY(-1px);
+        }
+
+        .video-btn i {
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+
         /* Ofsted Quotes */
         .ofsted-quote {
             margin-bottom: 2rem;
@@ -432,26 +567,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             color: white;
         }
 
-        /* Video Container Large */
-        .video-container-large {
-            position: relative;
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto 2rem;
-            height: 0;
-            padding-bottom: 45%;
-            border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: var(--shadow-medium);
-        }
-
-        .video-container-large iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
+        /* Video Container Large - REMOVED */
 
         .video-description {
             text-align: center;
@@ -709,7 +825,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             box-shadow: var(--shadow-light);
             border: 2px solid transparent;
             height: 100%;
-            min-height: 200px; /* Ensure consistent height */
+            min-height: 220px; /* Increased from 200px for better alignment */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -728,6 +844,14 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             transition: var(--transition);
             max-width: 100%;
             height: auto;
+        }
+
+        /* Target nursery logo directly by source path */
+        .menu-box img[src*="parkcommunitynursery-logo"] {
+            width: 100% !important;
+            height: 282px !important;
+            object-fit: contain !important;
+            max-width: none !important;
         }
 
         .menu-box:hover img {
@@ -899,9 +1023,20 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             .slide-inner {
                 padding: 2rem;
             }
+        }
 
-            .video-container-large {
-                padding-bottom: 56.25%;
+            #contact-section h3 {
+                font-size: 1.6rem;
+            }
+
+            .contact-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .contact-item {
+                min-width: auto;
+                flex: none;
             }
         }
 
@@ -1117,13 +1252,13 @@ if ($showCaptcha) {
                     <div class="slide-inner">
                         <h3>Our Vision</h3>
                         <div class="row">
-                            <div class="large-8 columns white-text">
+                            <div class="large-7 columns white-text">
                                 <p style="color: white !important;"><strong>Park's goal is 'Success for all through attainment, resilience and autonomy'.</strong> This is achieved by supporting each student to ensure they are given the opportunity to succeed.</p>
                                 <p style="color: white !important;">We are preparing students for their next steps in life and the world of work. This means they must be increasingly independent. We have high expectations and pride ourselves in being disciplined, smart and friendly.</p>
                                 <p style="color: white !important;">We expect mutual respect, hard work, good manners and a positive attitude from all. We are proud of our school and expect everyone to demonstrate this pride through their actions every day.</p>
                                 <p style="color: white !important;">We describe ourselves as <strong>'Much more than just a school'</strong> because we provide opportunities and support that most schools cannot. This ethos continues to drive our actions regarding curriculum and support.</p>
                             </div>
-                            <div class="large-4 columns">
+                            <div class="large-5 columns">
                                 <div class="highlight-box">
                                     <h4>Our Core Values</h4>
                                     <ul>
@@ -1132,40 +1267,27 @@ if ($showCaptcha) {
                                         <li><strong>Autonomy</strong> - Independent thinking</li>
                                     </ul>
                                 </div>
+                                
+                                <!-- Video Buttons Outside Green Box -->
+                                <div class="video-buttons">
+                                    <a href="https://player.vimeo.com/video/658515057" target="_blank" class="button small radius video-btn">
+                                        <i class="fas fa-play"></i> Welcome to Park
+                                    </a>
+                                    <a href="https://player.vimeo.com/video/974947783" target="_blank" class="button small radius video-btn">
+                                        <i class="fas fa-play"></i> Belonging
+                                    </a>
+                                    <a href="https://player.vimeo.com/video/658515057" target="_blank" class="button small radius video-btn">
+                                        <i class="fas fa-play"></i> Our Vision
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Slide 2: Welcome to Park Video -->
-                <div class="slide-content">
-                    <div class="slide-inner">
-                        <h3>Welcome to Park</h3>
-                        <div class="video-container-large">
-                            <iframe src="https://player.vimeo.com/video/658515057?badge=0&autopause=0&player_id=0&app_id=58479" 
-                                    frameborder="0" 
-                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-                                    title="Welcome to Park">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
+
                 
-                <!-- Slide 3: Belonging Video -->
-                <div class="slide-content">
-                    <div class="slide-inner">
-                        <h3>Park Community School - Belonging</h3>
-                        <div class="video-container-large">
-                            <iframe src="https://player.vimeo.com/video/974947783?badge=0&autopause=0&player_id=0&app_id=58479" 
-                                    frameborder="0" 
-                                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-                                    title="Park Community School - Belonging">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Slide 4: Ofsted 2022 -->
+                <!-- Slide 2: Ofsted 2022 -->
                 <div class="slide-content">
                     <div class="slide-inner">
                         <h3>Ofsted 2022 Recognition</h3>
@@ -1193,7 +1315,7 @@ if ($showCaptcha) {
                     </div>
                 </div>
                 
-                <!-- Slide 5: Overview -->
+                <!-- Slide 3: Overview -->
                 <div class="slide-content">
                     <div class="slide-inner">
                         <h3>Much More Than Just A School</h3>
@@ -1257,9 +1379,9 @@ if ($showCaptcha) {
                         </a></div>
                 </li>
                 <li>
-                    <div class="menu-box"><a href="/pantry.php">
-                            <img src="images/index/pantry.png" alt="MUNCH Pantry">
-                            <p>MUNCH Pantry</p>
+                    <div class="menu-box"><a href="/nursery.php">
+                            <img src="images/logo/parkcommunitynursery-logo.png" alt="Park Community Nursery">
+                            <p>Park Community Nursery</p>
                         </a></div>
                 </li>
             </ul>
@@ -1367,7 +1489,39 @@ if ($showCaptcha) {
         </div>
     </div>
     <br><br>
+</section>
 
+<!-- CONTACT US SECTION -->
+<section id="contact-section">
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>Contact Us</h3>
+            
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="contact-info">
+                        <div class="contact-content">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Park Community School, Middle Park Way, Havant, Hampshire, PO9 4BU</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:02392489800">02392 489 800</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@pcs.hants.sch.uk">info@pcs.hants.sch.uk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color: #333333; color: #ffffff;">
     <!-- Footer Section Included Here -->
     <?php include("includes/footer.html"); ?>
 </section>
@@ -1378,22 +1532,16 @@ if ($showCaptcha) {
         <script src="js/app.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src="https://player.vimeo.com/api/player.js"></script>
             
         <script type="text/javascript">
             // Current slide index
             let currentSlideIndex = 0;
-            const totalSlides = 5;
+            const totalSlides = 3;
             let autoAdvanceInterval;
-            let vimeoPlayers = [];
-            let videoIsPlaying = false; // Simple flag to track if any video is playing
 
             // Show specific slide
             function showSlide(index) {
                 console.log('Showing slide:', index); // Debug log
-                
-                // Pause all videos when changing slides
-                pauseAllVideos();
                 
                 // Hide all slides
                 const slides = document.querySelectorAll('.slide-content');
@@ -1419,8 +1567,7 @@ if ($showCaptcha) {
                 
                 currentSlideIndex = index;
                 
-                // Reset video flag and start auto-advance
-                videoIsPlaying = false;
+                // Start auto-advance
                 startAutoAdvance();
             }
 
@@ -1440,7 +1587,7 @@ if ($showCaptcha) {
                 showSlide(currentSlideIndex);
             }
 
-            // Start auto-advance with video checking
+            // Start auto-advance
             function startAutoAdvance() {
                 // Clear any existing interval first
                 if (autoAdvanceInterval) {
@@ -1450,15 +1597,9 @@ if ($showCaptcha) {
                 console.log('Starting auto-advance timer'); // Debug log
                 
                 autoAdvanceInterval = setInterval(function() {
-                    console.log('Timer fired. Video playing flag:', videoIsPlaying);
-                    
-                    if (!videoIsPlaying) {
-                        console.log('No video playing - advancing to next slide');
-                        changeSlide(1);
-                    } else {
-                        console.log('VIDEO IS PLAYING - staying on current slide');
-                    }
-                }, 60000); // 60 seconds = 1 minute
+                    console.log('Timer fired - advancing to next slide');
+                    changeSlide(1);
+                }, 30000); // 30 seconds
             }
 
             // Stop auto-advance
@@ -1470,67 +1611,8 @@ if ($showCaptcha) {
                 }
             }
 
-            // Pause all videos
-            function pauseAllVideos() {
-                vimeoPlayers.forEach((player, index) => {
-                    try {
-                        player.pause();
-                        console.log('Paused video', index); // Debug log
-                    } catch (error) {
-                        console.log('Could not pause video', index, ':', error);
-                    }
-                });
-                videoIsPlaying = false;
-            }
 
-            // Initialize Vimeo players and event listeners
-            function initializeVimeoPlayers() {
-                const iframes = document.querySelectorAll('iframe[src*="vimeo.com"]');
-                console.log('Found', iframes.length, 'Vimeo iframes'); // Debug log
-                
-                iframes.forEach((iframe, index) => {
-                    try {
-                        const player = new Vimeo.Player(iframe);
-                        vimeoPlayers.push(player);
-                        
-                        // When video starts playing - SET FLAG TO TRUE
-                        player.on('play', function() {
-                            console.log('🎬 VIDEO', index, 'STARTED PLAYING - BLOCKING SLIDESHOW');
-                            videoIsPlaying = true;
-                        });
-                        
-                        // When video pauses - SET FLAG TO FALSE AND GO TO SLIDE 1
-                        player.on('pause', function() {
-                            console.log('⏸️ VIDEO', index, 'PAUSED - RETURNING TO SLIDE 1');
-                            videoIsPlaying = false;
-                            // Go back to slide 1 (Vision slide) after video is paused
-                            setTimeout(function() {
-                                showSlide(0);
-                            }, 500);
-                        });
-                        
-                        // When video ends - SET FLAG TO FALSE AND GO TO SLIDE 1
-                        player.on('ended', function() {
-                            console.log('🏁 VIDEO', index, 'ENDED - RETURNING TO SLIDE 1');
-                            videoIsPlaying = false;
-                            // Go back to slide 1 (Vision slide) after video ends
-                            setTimeout(function() {
-                                showSlide(0);
-                            }, 500);
-                        });
-                        
-                        // Additional safety: check if video is loaded and ready
-                        player.ready().then(function() {
-                            console.log('✅ Video', index, 'is ready and events are attached');
-                        });
-                        
-                    } catch (error) {
-                        console.log('❌ Error initializing Vimeo player', index, ':', error);
-                    }
-                });
-            }
 
-            // Manual slide navigation (if you add buttons later)
             function goToSlide(index) {
                 if (index >= 0 && index < totalSlides) {
                     showSlide(index);
@@ -1587,29 +1669,6 @@ if ($showCaptcha) {
                         $(this).css('transform', 'translateY(0)');
                     }
                 );
-
-                // Initialize Vimeo players with longer delay to ensure API is loaded
-                console.log('Waiting for Vimeo API to load...');
-                setTimeout(function() {
-                    if (typeof Vimeo !== 'undefined' && Vimeo.Player) {
-                        console.log('Vimeo API loaded, initializing players...');
-                        initializeVimeoPlayers();
-                    } else {
-                        console.log('Vimeo API not ready, trying again in 3 seconds...');
-                        setTimeout(function() {
-                            if (typeof Vimeo !== 'undefined' && Vimeo.Player) {
-                                console.log('Vimeo API loaded on second try, initializing players...');
-                                initializeVimeoPlayers();
-                            } else {
-                                console.error('Vimeo API failed to load after multiple attempts');
-                            }
-                        }, 3000);
-                    }
-                }, 5000); // Wait 5 seconds initially
-
-                // For testing purposes - temporarily change to 10 seconds instead of 60
-                // You can change this back to 60000 once you confirm it's working
-                console.log('NOTE: For testing, slideshow will advance every 10 seconds instead of 60');
             });
 
             // Add keyboard navigation (optional)
