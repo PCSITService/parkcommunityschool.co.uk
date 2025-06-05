@@ -247,11 +247,6 @@
                     <span class="toggle-text" style="color: white !important;">View All Policies</span>
                     <span class="toggle-icon" style="color: white !important;">→</span>
                 </a>
-                
-                <!-- Search Box within intro section -->
-                <div style="margin-top: 24px; text-align: left;">
-                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information..." style="width: 100%; padding: 12px 16px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 16px;">
-                </div>
             </div>
         </div>
 

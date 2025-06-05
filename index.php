@@ -1379,7 +1379,7 @@ if ($showCaptcha) {
                         </a></div>
                 </li>
                 <li>
-                    <div class="menu-box"><a href="/nursery.php">
+                    <div class="menu-box"><a href="https://nursery.pcs.hants.sch.uk">
                             <img src="images/logo/parkcommunitynursery-logo.png" alt="Park Community Nursery">
                             <p>Park Community Nursery</p>
                         </a></div>
