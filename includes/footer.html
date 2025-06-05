@@ -24,6 +24,12 @@
       <!-- Single row of accreditations that spans the entire width -->
       <div class="logo-row">
         <div class="logo-container">
+          <a href="https://reports.ofsted.gov.uk/provider/23/116473" target="_blank" rel="noopener noreferrer">
+            <img src="/images/logo/Ofsted_Good_GP_White.svg" alt="Ofsted Good Rating">
+          </a>
+        </div>
+        
+        <div class="logo-container">
           <iframe src="https://registry.blockmarktech.com/certificates/e2f2188a-85ea-47b1-81d4-9d2256957b3b/widget/?tooltip_position=bottom_right&theme=transparent&hover=t" style="border:none;height:132px;width:132px;"></iframe>
         </div>
         
@@ -188,16 +194,17 @@
     color: var(--white);
   }
   
-  /* Single row of logos with improved scrolling */
+  /* Single row of logos with improved alignment and spacing */
   .logo-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     margin-bottom: 30px;
+    gap: 15px;
     overflow-x: auto;
-    padding-bottom: 15px;
+    padding: 15px 0;
     scrollbar-width: thin;
     scrollbar-color: rgba(255,255,255,0.3) transparent;
   }
@@ -215,28 +222,33 @@
     border-radius: 6px;
   }
   
-  /* Consistent logo sizing with hover effects */
+  /* Consistent logo sizing with proper alignment */
   .logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 15px;
+    justify-content: center;
+    text-align: center;
     min-width: 132px;
     max-width: 132px;
-    text-align: center;
-    flex: 1;
+    height: 132px;
+    position: relative;
   }
   
-  .logo-container img {
+  .logo-container img,
+  .logo-container iframe {
     height: 132px;
     width: 132px;
     object-fit: contain;
     transition: all 0.3s ease;
-    filter: brightness(1.1); /* Makes logos slightly brighter */
+    filter: brightness(1.1);
+    display: block;
+    margin: 0 auto;
   }
   
-  .logo-container:hover img {
-    transform: scale(1.1);
+  .logo-container:hover img,
+  .logo-container:hover iframe {
+    transform: scale(1.05);
     opacity: 0.9;
   }
   
@@ -378,21 +390,21 @@
     }
     
     .logo-row {
-      justify-content: flex-start;
-      gap: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
     }
     
     .logo-container {
-      min-width: 132px;
-      max-width: 132px;
-      padding: 0 5px;
+      min-width: 110px;
+      max-width: 110px;
+      height: 110px;
     }
     
-    .logo-container img {
-      height: 132px;
-      width: 132px;
+    .logo-container img,
+    .logo-container iframe {
+      height: 110px;
+      width: 110px;
     }
     
     .cookie-content {
@@ -413,6 +425,18 @@
   }
   
   @media (max-width: 480px) {
+    .logo-container {
+      min-width: 90px;
+      max-width: 90px;
+      height: 90px;
+    }
+    
+    .logo-container img,
+    .logo-container iframe {
+      height: 90px;
+      width: 90px;
+    }
+    
     .footer-links {
       display: flex;
       flex-direction: column;
@@ -429,19 +453,22 @@
 <!-- Footer JavaScript -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Cookie consent logic
-    if (!localStorage.getItem('cookieConsent')) {
+    // Cookie consent logic - Using session storage instead of localStorage for demo
+    const cookieConsent = sessionStorage.getItem('cookieConsent');
+    
+    if (!cookieConsent) {
       document.getElementById('cookie-banner').style.display = 'block';
     }
     
     document.getElementById('accept-cookies').addEventListener('click', function() {
-      localStorage.setItem('cookieConsent', 'accepted');
+      sessionStorage.setItem('cookieConsent', 'accepted');
       document.getElementById('cookie-banner').style.display = 'none';
     });
     
     document.getElementById('reject-cookies').addEventListener('click', function() {
-      localStorage.setItem('cookieConsent', 'rejected');
+      sessionStorage.setItem('cookieConsent', 'rejected');
       document.getElementById('cookie-banner').style.display = 'none';
+      // Disable analytics if using Google Analytics
       window['ga-disable-UA-XXXXXXXX-X'] = true;
     });
     
