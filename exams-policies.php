@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Park Community School | Statutory Information</title>
+    <title>Park Community School | All Policies</title>
+    <meta name="description" content="Access Park Community School's statutory and non-statutory policies, including safeguarding, SEND, behavior and more.">
     <?php include("includes/head.html") ?>
     <style>
         * {
@@ -127,6 +128,17 @@
             box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
+        .section-title {
+            color: #000000;
+            margin: 40px 0 20px 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .section-title:first-of-type {
+            margin-top: 0;
+        }
+
         .policies-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -204,49 +216,32 @@
             margin-top: 8px;
         }
 
-        .container .info-section {
-            background: white !important;
-            background-color: white !important;
-            padding: 30px !important;
-            border-radius: 12px !important;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
-            margin-bottom: 40px !important;
-            color: #000000 !important;
-            border: 1px solid #e5e7eb !important;
-        }
-
-        main .info-section {
-            background: white !important;
-            background-color: white !important;
+        .hidden {
+            display: none;
         }
 
         .info-section {
-            background: white !important;
+            background: white;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             margin-bottom: 40px;
             color: #000000;
-            border: 1px solid #e5e7eb;
         }
 
         .info-section h2 {
-            color: #000000 !important;
-            margin-bottom: 16px !important;
+            color: #000000;
+            margin-bottom: 16px;
         }
 
         .info-section a {
-            color: #2563eb !important;
-            text-decoration: none !important;
-            font-weight: 600 !important;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
         }
 
         .info-section a:hover {
-            text-decoration: underline !important;
-        }
-
-        .hidden {
-            display: none;
+            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
@@ -283,18 +278,18 @@
     <main class="container">
         <!-- Introduction -->
         <div class="intro-text">
-            <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organized for easy access.</p>
+            <p>Our school policies help ensure a safe, effective learning environment. All policies are regularly reviewed and updated in line with Department for Education guidelines. Browse our complete collection of statutory and non-statutory policies below.</p>
         </div>
 
         <!-- Policy Navigation -->
         <div class="policy-nav">
             <div class="nav-row top">
-                <a href="/statutory-policies.php" class="nav-button active">Statutory Policies</a>
+                <a href="/statutory-policies.php" class="nav-button">Statutory Policies</a>
                 <a href="/non-statutory-policies.php" class="nav-button">Non-Statutory</a>
-                <a href="/exams-policies.php" class="nav-button">Exams Policies</a>
+                <a href="/exam-policies.php" class="nav-button">Exams Policies</a>
             </div>
             <div class="nav-row">
-                <a href="/policies.php" class="nav-button">All Policies</a>
+                <a href="/policies.php" class="nav-button active">All Policies</a>
             </div>
         </div>
 
@@ -303,8 +298,9 @@
             <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
         </div>
 
-        <!-- Policies Grid -->
-        <div class="policies-grid" id="policiesGrid">
+        <!-- Statutory Policies Section -->
+        <h2 class="section-title">Statutory Information</h2>
+        <div class="policies-grid" id="statutoryGrid">
             <div class="policy-card" data-search="admission arrangements">
                 <div class="policy-title">Admission Arrangements</div>
                 <a href="/admissions.php" class="policy-link">View Details</a>
@@ -416,10 +412,92 @@
             </div>
         </div>
 
+        <!-- Non-Statutory Policies Section -->
+        <h2 class="section-title">Non-Statutory Policies</h2>
+        <div class="policies-grid" id="nonStatutoryGrid">
+            <div class="policy-card" data-search="admissions admission enrolment enrollment">
+                <div class="policy-title">Admissions</div>
+                <a href="/assets/policies/admissions-2024-2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024-2025</div>
+            </div>
+
+            <div class="policy-card" data-search="careers education information advice guidance ceiag">
+                <div class="policy-title">Careers Education, Information, Advice and Guidance</div>
+                <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="cctv surveillance camera security">
+                <div class="policy-title">CCTV</div>
+                <a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="charging remissions fees payments financial">
+                <div class="policy-title">Charging and Remissions</div>
+                <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">January 2025</div>
+            </div>
+
+            <div class="policy-card" data-search="governors allowances governance">
+                <div class="policy-title">Governors' Allowances</div>
+                <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">November 2024</div>
+            </div>
+
+            <div class="policy-card" data-search="homework assignment classwork">
+                <div class="policy-title">Homework</div>
+                <a href="/assets/policies/homework.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="malpractice exams assessment cheating plagiarism">
+                <div class="policy-title">Malpractice (Exams Assessment)</div>
+                <a href="/assets/policies/malpractice.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="mental health emotional wellbeing wellness">
+                <div class="policy-title">Mental Health and Emotional Wellbeing</div>
+                <a href="/assets/policies/mental-health-and-emotional-wellbeing.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="pupil premium disadvantaged funding">
+                <div class="policy-title">Pupil Premium</div>
+                <a href="/assets/policies/pupil-premium.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="risk assessment safety hazard">
+                <div class="policy-title">Risk Assessment</div>
+                <a href="/assets/policies/risk-assessment.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="volunteering volunteer helper">
+                <div class="policy-title">Volunteering</div>
+                <a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="word processor laptop computer exam">
+                <div class="policy-title">Word Processor</div>
+                <a href="/assets/policies/word-processor.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+
+            <div class="policy-card" data-search="work experience placement internship">
+                <div class="policy-title">Work Experience</div>
+                <a href="/assets/policies/work-experience.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <div class="policy-date">2024</div>
+            </div>
+        </div>
+
         <!-- Policy Information -->
-        <div class="info-section" style="background: white !important; background-color: white !important; padding: 30px !important; border-radius: 12px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; margin-bottom: 40px !important; border: 1px solid #e5e7eb !important;">
-            <h2 style="color: #000000 !important; margin-bottom: 16px !important;">Policy Information</h2>
-            <p style="color: #000000 !important;">All our policies are reviewed regularly by the Senior Leadership Team and approved by the Governing Body. If you have any questions about our policies or require an accessible format, please <a href="/contact.php" style="color: #2563eb !important; text-decoration: none !important; font-weight: 600 !important;">contact us</a>.</p>
+        <div class="info-section">
+            <h2>Policy Information</h2>
+            <p>All our policies are reviewed regularly by the Senior Leadership Team and approved by the Governing Body. If you have any questions about our policies or require an accessible format, please <a href="/contact.php">contact us</a>.</p>
         </div>
     </main>
 
@@ -440,6 +518,21 @@
                     card.classList.remove('hidden');
                 } else {
                     card.classList.add('hidden');
+                }
+            });
+
+            // Show/hide section titles based on visible cards
+            const sections = [
+                { title: document.querySelector('.section-title'), grid: document.getElementById('statutoryGrid') },
+                { title: document.querySelectorAll('.section-title')[1], grid: document.getElementById('nonStatutoryGrid') }
+            ];
+
+            sections.forEach(section => {
+                const visibleCards = section.grid.querySelectorAll('.policy-card:not(.hidden)');
+                if (visibleCards.length > 0) {
+                    section.title.style.display = 'block';
+                } else {
+                    section.title.style.display = 'none';
                 }
             });
         });
