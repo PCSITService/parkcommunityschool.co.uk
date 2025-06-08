@@ -289,12 +289,8 @@
         <!-- Policy Navigation -->
         <div class="policy-nav">
             <div class="nav-row top">
-                <a href="/statutory-policies.php" class="nav-button active">Statutory Policies</a>
-                <a href="/non-statutory-policies.php" class="nav-button">Non-Statutory</a>
+                <a href="/policies.php" class="nav-button">Non-Statutory</a>
                 <a href="/exams-policies.php" class="nav-button">Exams Policies</a>
-            </div>
-            <div class="nav-row">
-                <a href="/policies.php" class="nav-button">All Policies</a>
             </div>
         </div>
 

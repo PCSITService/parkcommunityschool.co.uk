@@ -403,12 +403,58 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             text-decoration: underline;
         }
 
+        /* Video Buttons Above Slideshow */
+        .video-buttons-top {
+            margin-bottom: 2rem;
+            padding: 1rem 0;
+        }
+
+        .video-buttons-top .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .video-buttons-top .columns {
+            flex: 1;
+            text-align: center;
+            max-width: 250px;
+        }
+
+        .video-btn-top {
+            background: #3498db !important;
+            color: white !important;
+            border: none !important;
+            padding: 0.75rem 1rem !important;
+            font-size: 0.9rem !important;
+            min-width: auto !important;
+            width: 100% !important;
+            text-align: center;
+            transition: var(--transition);
+            border-radius: 25px !important;
+            font-weight: 600;
+            display: block;
+        }
+
+        .video-btn-top:hover {
+            background: #2980b9 !important;
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .video-btn-top i {
+            margin-right: 0.5rem;
+            font-size: 0.85rem;
+        }
+
         /* Comprehensive Slideshow */
         .comprehensive-slideshow {
             background: transparent;
             border-radius: var(--border-radius);
             box-shadow: none;
-            margin: 2rem 0;
+            margin: 0;
             position: relative;
             overflow: hidden;
         }
@@ -517,34 +563,13 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             color: #ffd700;
         }
 
-        /* Video Buttons Outside Green Box */
+        /* Video Buttons Outside Green Box - REMOVED since we moved them above slideshow */
         .video-buttons {
-            margin-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
+            display: none;
         }
 
         .video-btn {
-            background: #3498db !important;
-            color: white !important;
-            border: none !important;
-            padding: 0.6rem 1rem !important;
-            font-size: 0.85rem !important;
-            min-width: auto !important;
-            text-align: center;
-            transition: var(--transition);
-        }
-
-        .video-btn:hover {
-            background: #2980b9 !important;
-            color: white !important;
-            transform: translateY(-1px);
-        }
-
-        .video-btn i {
-            margin-right: 0.5rem;
-            font-size: 0.8rem;
+            display: none;
         }
 
         /* Ofsted Quotes */
@@ -1023,7 +1048,16 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             .slide-inner {
                 padding: 2rem;
             }
-        }
+
+            .video-buttons-top .row {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .video-buttons-top .columns {
+                max-width: none;
+                width: 100%;
+            }
 
             #contact-section h3 {
                 font-size: 1.6rem;
@@ -1245,6 +1279,28 @@ if ($showCaptcha) {
 <section>
     <div class="row">
         <div class="large-12 columns">
+            
+            <!-- Video Buttons Above Slideshow -->
+            <div class="video-buttons-top">
+                <div class="row">
+                    <div class="columns">
+                        <a href="https://player.vimeo.com/video/658515057" target="_blank" class="video-btn-top">
+                            <i class="fas fa-play"></i> Welcome 2 Park
+                        </a>
+                    </div>
+                    <div class="columns">
+                        <a href="https://player.vimeo.com/video/974947783" target="_blank" class="video-btn-top">
+                            <i class="fas fa-play"></i> Belonging
+                        </a>
+                    </div>
+                    <div class="columns">
+                        <a href="https://player.vimeo.com/video/658515057" target="_blank" class="video-btn-top">
+                            <i class="fas fa-play"></i> Our Vision
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
             <div class="comprehensive-slideshow">
                 
                 <!-- Slide 1: Our Vision -->
@@ -1266,19 +1322,6 @@ if ($showCaptcha) {
                                         <li><strong>Resilience</strong> - Overcoming challenges</li>
                                         <li><strong>Autonomy</strong> - Independent thinking</li>
                                     </ul>
-                                </div>
-                                
-                                <!-- Video Buttons Outside Green Box -->
-                                <div class="video-buttons">
-                                    <a href="https://player.vimeo.com/video/658515057" target="_blank" class="button small radius video-btn">
-                                        <i class="fas fa-play"></i> Welcome to Park
-                                    </a>
-                                    <a href="https://player.vimeo.com/video/974947783" target="_blank" class="button small radius video-btn">
-                                        <i class="fas fa-play"></i> Belonging
-                                    </a>
-                                    <a href="https://player.vimeo.com/video/658515057" target="_blank" class="button small radius video-btn">
-                                        <i class="fas fa-play"></i> Our Vision
-                                    </a>
                                 </div>
                             </div>
                         </div>

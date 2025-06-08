@@ -1,10 +1,9 @@
-<!doctype html>
+</div><!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Park Community School | All Policies</title>
-    <meta name="description" content="Access Park Community School's statutory and non-statutory policies, including safeguarding, SEND, behavior and more.">
+    <title>Park Community School | Statutory Information</title>
     <?php include("includes/head.html") ?>
     <style>
         * {
@@ -26,14 +25,37 @@
             padding: 0 20px;
         }
 
-        .policy-nav {
+        .intro-text {
             background: white;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             margin-top: 40px;
-            border: 1px solid #e5e7eb;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .policy-nav {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-row {
+            display: flex;
+            gap: 12px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .nav-row.top {
+            margin-bottom: 12px;
+        }
+
+        .nav-row .nav-button {
+            flex: 1;
         }
 
         .nav-button {
@@ -46,9 +68,6 @@
             transition: all 0.3s ease;
             border: 2px solid #e5e7eb;
             text-align: center;
-            width: 100%;
-            display: block;
-            margin-bottom: 20px;
         }
 
         .nav-button:link,
@@ -85,6 +104,14 @@
             color: #000000 !important;
         }
 
+        .search-box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
         .search-input {
             width: 100%;
             padding: 12px 16px;
@@ -100,68 +127,52 @@
             box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
-        .section-title {
-            color: #000000;
-            margin: 40px 0 20px 0;
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
-
-        .section-title:first-of-type {
-            margin-top: 0;
-        }
-
         .policies-grid {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
             margin-bottom: 40px;
-            border: 1px solid #e5e7eb;
         }
 
         .policy-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #e5e7eb;
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
-            align-items: center;
-            padding: 12px 0;
-            border-bottom: 1px solid #e5e7eb;
-            background: none;
-            box-shadow: none;
-            border-radius: 0;
-            transition: none;
-        }
-
-        .policy-card:last-child {
-            border-bottom: none;
+            min-height: 140px;
         }
 
         .policy-card:hover {
-            transform: none;
-            box-shadow: none;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
 
         .policy-title {
-            font-size: 1rem;
-            font-weight: 400;
+            font-size: 1.1rem;
+            font-weight: 600;
             color: #000000;
-            margin-bottom: 0;
+            margin-bottom: 16px;
             line-height: 1.4;
-            flex: 1;
+            flex-grow: 1;
         }
 
         .policy-link {
             display: inline-flex;
             align-items: center;
-            padding: 8px 16px;
-            background: #2563eb;
+            padding: 10px 16px;
+            background: #4f83ff;
             color: white !important;
             text-decoration: none;
             border-radius: 6px;
             font-weight: 500;
-            font-size: 0.9rem;
             transition: background-color 0.3s ease;
-            margin-left: 16px;
+            align-self: flex-start;
+            font-size: 0.9rem;
         }
 
         .policy-link:link,
@@ -172,7 +183,7 @@
         }
 
         .policy-link:hover {
-            background: #1d4ed8;
+            background: #3b6bff;
             color: white !important;
         }
 
@@ -192,32 +203,55 @@
             margin-left: 6px;
         }
 
-        .hidden {
-            display: none;
+        .policy-date {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 8px;
+        }
+
+        .container .info-section {
+            background: white !important;
+            background-color: white !important;
+            padding: 30px !important;
+            border-radius: 12px !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+            margin-bottom: 40px !important;
+            color: #000000 !important;
+            border: 1px solid #e5e7eb !important;
+        }
+
+        main .info-section {
+            background: white !important;
+            background-color: white !important;
         }
 
         .info-section {
-            background: white;
+            background: white !important;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             margin-bottom: 40px;
             color: #000000;
+            border: 1px solid #e5e7eb;
         }
 
         .info-section h2 {
-            color: #000000;
-            margin-bottom: 16px;
+            color: #000000 !important;
+            margin-bottom: 16px !important;
         }
 
         .info-section a {
-            color: #2563eb;
-            text-decoration: none;
-            font-weight: 600;
+            color: #2563eb !important;
+            text-decoration: none !important;
+            font-weight: 600 !important;
         }
 
         .info-section a:hover {
-            text-decoration: underline;
+            text-decoration: underline !important;
+        }
+
+        .hidden {
+            display: none;
         }
 
         @media (max-width: 768px) {
@@ -227,21 +261,20 @@
             }
 
             .policy-card {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 8px;
-            }
-
-            .policy-link {
-                margin-left: 0;
-                align-self: flex-end;
+                padding: 20px;
+                min-height: 120px;
             }
 
             .policy-nav {
                 flex-direction: column;
             }
 
+            .nav-row {
+                justify-content: center;
+            }
+
             .nav-button {
+                flex: 1;
                 min-width: 120px;
                 text-align: center;
             }
@@ -254,23 +287,46 @@
 
     <!-- MAIN CONTENT -->
     <main class="container">
-        <!-- Policy Navigation -->
-        <div class="policy-nav">
-            <a href="/statutory-policies.php" class="nav-button">Statutory Policies</a>
+        <!-- Introduction -->
+        <div class="intro-text">
+            <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organized for easy access.</p>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
             <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
         </div>
 
-        <!-- All Policies Section -->
-        <h2 class="section-title">All Policies</h2>
-        <div class="policies-grid" id="allPoliciesGrid">
+        <!-- Policies Grid -->
+        <div class="policies-grid" id="policiesGrid">
+            <div class="policy-card" data-search="accessibility disabled access">
+                <div class="policy-title">Accessibility</div>
+                <a href="/assets/policies/Accessibility - December 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="admission arrangements">
                 <div class="policy-title">Admission Arrangements</div>
                 <a href="/admissions.php" class="policy-link">View Details</a>
             </div>
 
-            <div class="policy-card" data-search="admissions admission enrolment enrollment">
-                <div class="policy-title">Admissions</div>
-                <a href="/assets/policies/admissions-2024-2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            <div class="policy-card" data-search="admissions 2025 2026">
+                <div class="policy-title">Admissions 2025-2026</div>
+                <a href="/assets/policies/admissions-2025-2026.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="administration medicines medical health">
+                <div class="policy-title">Administration of Medicines</div>
+                <a href="/assets/policies/administration-of-medicines.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="anti bullying harassment latest">
+                <div class="policy-title">Anti-Bullying</div>
+                <a href="/assets/policies/Anti Bullying - December 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="attendance school absence">
+                <div class="policy-title">Attendance</div>
+                <a href="/assets/policies/attendance.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="behaviour policy">
@@ -283,11 +339,6 @@
                 <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
-            <div class="policy-card" data-search="careers education information advice guidance ceiag">
-                <div class="policy-title">Careers Education, Information, Advice and Guidance</div>
-                <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
-            </div>
-
             <div class="policy-card" data-search="cctv surveillance camera security">
                 <div class="policy-title">CCTV</div>
                 <a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
@@ -295,17 +346,37 @@
 
             <div class="policy-card" data-search="charging remissions fees">
                 <div class="policy-title">Charging and Remissions</div>
-                <a href="/assets/policies/charging-and-remissions.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
-            </div>
-
-            <div class="policy-card" data-search="charging remissions fees payments financial">
-                <div class="policy-title">Charging and Remissions</div>
                 <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="child protection safeguarding">
+                <div class="policy-title">Child Protection</div>
+                <a href="/assets/policies/child-protection.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="code conduct staff behavior">
+                <div class="policy-title">Code of Conduct</div>
+                <a href="/assets/policies/code_of_conduct.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="complaints procedure">
-                <div class="policy-title">Complaints Procedure</div>
+                <div class="policy-title">Complaints Policy and Procedure</div>
                 <a href="/assets/policies/Complaints Policy and Procedure - April 2023.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="complaints procedure statutory">
+                <div class="policy-title">Complaints Procedure (Statutory)</div>
+                <a href="/assets/statutory/complaints_procedure.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="confidentiality privacy information">
+                <div class="policy-title">Confidentiality</div>
+                <a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="conflict interests ethics">
+                <div class="policy-title">Conflict of Interests</div>
+                <a href="/assets/policies/conflict-of-interests.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="contact details information">
@@ -318,9 +389,24 @@
                 <a href="/curriculum.php" class="policy-link">View Curriculum</a>
             </div>
 
+            <div class="policy-card" data-search="data protection gdpr privacy">
+                <div class="policy-title">Data Protection</div>
+                <a href="/assets/policies/data-protection.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="drugs substance misuse alcohol">
+                <div class="policy-title">Drugs and Substance Misuse</div>
+                <a href="/assets/policies/drugs-substance-misuse.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="ect induction early career teacher">
                 <div class="policy-title">ECT Induction</div>
                 <a href="#" class="policy-link">View Information</a>
+            </div>
+
+            <div class="policy-card" data-search="equality diversity inclusion">
+                <div class="policy-title">Equality and Diversity</div>
+                <a href="/assets/policies/Equality and Diversity - December 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="equality statement objectives">
@@ -328,9 +414,24 @@
                 <a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="equality statement statutory">
+                <div class="policy-title">Equality Statement (Statutory)</div>
+                <a href="/assets/statutory/equality-statement.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="esafety online safety internet">
+                <div class="policy-title">E-Safety</div>
+                <a href="/assets/policies/esafety.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="ethos values school mission">
                 <div class="policy-title">Ethos and Values</div>
                 <a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="exams 2024 assessment">
+                <div class="policy-title">Exams 2024</div>
+                <a href="/assets/policies/exams-2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="financial benchmarking budget">
@@ -338,14 +439,24 @@
                 <a href="/financial-benchmarking.php" class="policy-link">View Benchmarking</a>
             </div>
 
+            <div class="policy-card" data-search="financial benchmarking statutory budget">
+                <div class="policy-title">Financial Benchmarking (Statutory)</div>
+                <a href="/assets/statutory/financial-benchmarking.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="freedom information foi">
+                <div class="policy-title">Freedom of Information</div>
+                <a href="/assets/policies/freedom_of_information.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="governor allowances expenses">
                 <div class="policy-title">Governors' Allowances</div>
                 <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
-            <div class="policy-card" data-search="governors allowances governance">
-                <div class="policy-title">Governors' Allowances</div>
-                <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            <div class="policy-card" data-search="health safety workplace">
+                <div class="policy-title">Health and Safety</div>
+                <a href="/assets/policies/health-and-safety.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="homework assignment classwork">
@@ -365,12 +476,42 @@
 
             <div class="policy-card" data-search="malpractice exams assessment cheating plagiarism">
                 <div class="policy-title">Malpractice (Exams Assessment)</div>
-                <a href="/assets/policies/malpractice.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/malpractice-exams-assessment.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="medical conditions health care">
+                <div class="policy-title">Medical Conditions</div>
+                <a href="/assets/policies/medical-conditions.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="mental health emotional wellbeing wellness">
                 <div class="policy-title">Mental Health and Emotional Wellbeing</div>
-                <a href="/assets/policies/mental-health-and-emotional-wellbeing.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/mental-health-emotional-wellbeing-policy.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="nqt induction newly qualified teacher">
+                <div class="policy-title">NQT Induction</div>
+                <a href="/assets/statutory/nqt_induction.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="ofsted report 2015">
+                <div class="policy-title">Ofsted Report - 2015</div>
+                <a href="/assets/statutory/ofsted-report-2015.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="ofsted report 2017">
+                <div class="policy-title">Ofsted Report - 2017</div>
+                <a href="/assets/statutory/ofsted-report-2017.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="ofsted report march 2022">
+                <div class="policy-title">Ofsted Report - March 2022</div>
+                <a href="/assets/statutory/Ofsted_Repor...rch_2022.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="ofsted report may 2022">
+                <div class="policy-title">Ofsted Report - May 2022</div>
+                <a href="/assets/statutory/Ofsted_Repor...May 2022.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="ofsted reports inspection">
@@ -383,19 +524,49 @@
                 <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link external">View on Gov.uk</a>
             </div>
 
+            <div class="policy-card" data-search="prevention radicalisation extremism prevent">
+                <div class="policy-title">Prevention of Radicalisation and Extremism</div>
+                <a href="/assets/policies/prevention-of-radicalisation-and-extremism.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="privacy notice clients customers">
+                <div class="policy-title">Privacy Notice for Clients</div>
+                <a href="/assets/policies/privacy_notice_for_clients.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="privacy notice employees staff">
+                <div class="policy-title">Privacy Notice for Employees</div>
+                <a href="/assets/policies/privacy_notice_for_employees.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="privacy notice job applicants recruitment">
+                <div class="policy-title">Privacy Notice for Job Applicants</div>
+                <a href="/assets/policies/privacy_notice_for_job_applicants.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="privacy notice parents students pupils">
+                <div class="policy-title">Privacy Notice for Parents and Students</div>
+                <a href="/assets/policies/privacy_notice_for_parents_and_students.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="provider access careers guidance">
+                <div class="policy-title">Provider Access</div>
+                <a href="/assets/policies/provider-access.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="pupil premium funding">
                 <div class="policy-title">Pupil Premium</div>
                 <a href="/pupil-premium.php" class="policy-link">View Information</a>
             </div>
 
-            <div class="policy-card" data-search="pupil premium disadvantaged funding">
-                <div class="policy-title">Pupil Premium</div>
-                <a href="/assets/policies/pupil-premium.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            <div class="policy-card" data-search="safeguarding adults vulnerable">
+                <div class="policy-title">Safeguarding Adults</div>
+                <a href="/assets/policies/Safeguarding Adults - November 2023.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
-            <div class="policy-card" data-search="risk assessment safety hazard">
-                <div class="policy-title">Risk Assessment</div>
-                <a href="/assets/policies/risk-assessment.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            <div class="policy-card" data-search="safeguarding child protection">
+                <div class="policy-title">Safeguarding</div>
+                <a href="/assets/policies/safeguarding.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="send information report special educational needs">
@@ -403,14 +574,34 @@
                 <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="send information report statutory">
+                <div class="policy-title">SEND Information Report (Statutory)</div>
+                <a href="/assets/statutory/send-information-report.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="send policy special educational needs">
                 <div class="policy-title">SEND Policy</div>
                 <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="send policy statutory special educational needs">
+                <div class="policy-title">SEND Policy (Statutory)</div>
+                <a href="/assets/statutory/send-policy.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="sex education relationships">
+                <div class="policy-title">Sex Education</div>
+                <a href="/assets/policies/sex_education.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="smsc spiritual moral social cultural">
                 <div class="policy-title">SMSC (Spiritual, Moral, Social & Cultural)</div>
                 <a href="/smsc.php" class="policy-link">View Information</a>
+            </div>
+
+            <div class="policy-card" data-search="student entitlement rights">
+                <div class="policy-title">Student Entitlement</div>
+                <a href="/assets/policies/studententitlementag.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="summer school">
@@ -423,26 +614,31 @@
                 <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="teacher assessment centre policy">
+                <div class="policy-title">Teacher Assessment Centre Policy</div>
+                <a href="/assets/statutory/teacher-asse...ntre-policy.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="uniform dress code">
+                <div class="policy-title">Uniform 2024-2025</div>
+                <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
             <div class="policy-card" data-search="volunteering volunteer helper">
                 <div class="policy-title">Volunteering</div>
                 <a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
-            <div class="policy-card" data-search="word processor laptop computer exam">
-                <div class="policy-title">Word Processor</div>
-                <a href="/assets/policies/word-processor.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
-            </div>
-
             <div class="policy-card" data-search="work experience placement internship">
                 <div class="policy-title">Work Experience</div>
-                <a href="/assets/policies/work-experience.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/work-experience-march-2023.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
         </div>
 
         <!-- Policy Information -->
-        <div class="info-section">
-            <h2>Policy Information</h2>
-            <p>All our policies are reviewed regularly by the Senior Leadership Team and approved by the Governing Body. If you have any questions about our policies or require an accessible format, please <a href="/contact.php">contact us</a>.</p>
+        <div class="info-section" style="background: white !important; background-color: white !important; padding: 30px !important; border-radius: 12px !important; box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important; margin-bottom: 40px !important; border: 1px solid #e5e7eb !important;">
+            <h2 style="color: #000000 !important; margin-bottom: 16px !important;">Policy Information</h2>
+            <p style="color: #000000 !important;">All our policies are reviewed regularly by the Senior Leadership Team and approved by the Governing Body. If you have any questions about our policies or require an accessible format, please <a href="/contact.php" style="color: #2563eb !important; text-decoration: none !important; font-weight: 600 !important;">contact us</a>.</p>
         </div>
     </main>
 
