@@ -292,7 +292,7 @@
                 <p>We are delighted you're considering Park Community School for your child's education. Our admissions process is designed to be straightforward, transparent, and supportive, guiding you through each step of the journey to becoming part of our vibrant school community.</p>
                 <p>If you are interested in applying for a place at Park Community School, we warmly invite you to visit us. Experience our school in action, speak with our students and staff, and get a firsthand feel for our supportive learning environment.</p>
                 <div class="text-center">
-                    <a href="/policies.php" class="button radius primary">View Admissions Policy</a>
+                    <a href="assets/policies/admissions-2025-2026.pdf" class="button radius primary">View Admissions Policy</a>
                     <a href="/assets/admissions/pcs_parental_combined_consent_booklet.pdf" target="_blank" class="button radius secondary">Parental Consent Booklet</a>
                 </div>
             </div>

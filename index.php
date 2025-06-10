@@ -1285,7 +1285,7 @@ if ($showCaptcha) {
                 <div class="row">
                     <div class="columns">
                         <a href="https://player.vimeo.com/video/658515057" target="_blank" class="video-btn-top">
-                            <i class="fas fa-play"></i> Welcome 2 Park
+                            <i class="fas fa-play"></i> Welcome To Park
                         </a>
                     </div>
                     <div class="columns">
