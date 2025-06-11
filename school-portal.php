@@ -163,7 +163,7 @@
                     </div>
                     <!-- CPOMs -->
                     <div class="col">
-                        <a href="https://www.cpoms.co.uk/" class="text-decoration-none" aria-label="Access CPOMS for Staff">
+                        <a href="https://pcs.cpoms.net/auth/identity?origin=https://pcs.cpoms.net/" class="text-decoration-none" aria-label="Access CPOMS for Staff">
                             <div class="card p-2">
                                 <img src="https://www.cpoms.co.uk/wp-content/uploads/2023/05/CPOMS-Logo_FullColor-Transparent-BG.png" class="card-img-top" alt="CPOMs Logo">
                                 <div class="card-body">
