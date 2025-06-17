@@ -299,8 +299,8 @@
                                     <div class="topic-item">Value for money</div>
                                 </div>
                                 <div class="year-details">
-                                    <h4>Building Strong Foundations</h4>
-                                    <p>Establishing essential skills and knowledge across all subject areas with focus on transition and adaptation.</p>
+                                    <h4>Money Management Basics</h4>
+                                    <p>Establishing fundamental financial skills including saving, spending wisely, understanding payment methods, and basic budgeting principles.</p>
                                 </div>
                             </div>
                         </div>
@@ -319,8 +319,8 @@
                                     <div class="topic-item">Security and Fraud – Money mules</div>
                                 </div>
                                 <div class="year-details">
-                                    <h4>Developing Confidence</h4>
-                                    <p>Building on Year 7 foundations with increased complexity and independent thinking skills.</p>
+                                    <h4>Risk Awareness & Security</h4>
+                                    <p>Understanding financial risks and rewards, learning about investments, and developing awareness of fraud prevention and online security.</p>
                                 </div>
                             </div>
                         </div>
@@ -338,8 +338,8 @@
                                     <div class="topic-item">Borrowing – Mortgages</div>
                                 </div>
                                 <div class="year-details">
-                                    <h4>Preparation & Choice</h4>
-                                    <p>Preparing for GCSE studies while exploring interests and future academic pathways.</p>
+                                    <h4>Borrowing & Advanced Saving</h4>
+                                    <p>Exploring compound interest, understanding debt and borrowing responsibly, and learning about financial products including mortgages.</p>
                                 </div>
                             </div>
                         </div>
@@ -358,8 +358,8 @@
                                     <div class="topic-item">Saving…a plan</div>
                                 </div>
                                 <div class="year-details">
-                                    <h4>Formal Assessment Beginning</h4>
-                                    <p>Starting GCSE courses with focus on exam preparation and future planning.</p>
+                                    <h4>Future Finance & Career Preparation</h4>
+                                    <p>Understanding taxation, payslips, and budgeting processes while exploring future payment methods and post-school financial planning.</p>
                                 </div>
                             </div>
                         </div>
@@ -375,8 +375,8 @@
                                     <div class="topic-item">Scenario based with real case studies in personal finance</div>
                                 </div>
                                 <div class="year-details">
-                                    <h4>Achievement & Transition</h4>
-                                    <p>Completing GCSE studies and preparing for next steps in education or employment.</p>
+                                    <h4>Financial Competence Certification</h4>
+                                    <p>Completing comprehensive financial education through practical, scenario-based learning and achieving formal financial competence qualification.</p>
                                 </div>
                             </div>
                         </div>
