@@ -281,11 +281,7 @@
             <div class="large-12 columns">
                 <div class="content-wrapper">
                     
-                    <!-- Main Header -->
-                    <div class="curriculum-header">
-                        <h1>Curriculum Overview</h1>
-                        <p class="subtitle">Structured learning pathways designed for student success</p>
-                    </div>
+
 
                     <!-- Year Progression -->
                     <div class="year-progression">
@@ -296,9 +292,11 @@
                             </div>
                             <div class="year-content">
                                 <div class="year-topics">
-                                    <div class="topic-item">Foundation Skills Development</div>
-                                    <div class="topic-item">Core Subject Introduction</div>
-                                    <div class="topic-item">Study Skills & Organization</div>
+                                    <div class="topic-item">Saving or savings</div>
+                                    <div class="topic-item">Making the most of your money - Spending</div>
+                                    <div class="topic-item">Making the most of your money - Paying</div>
+                                    <div class="topic-item">Making the most of your money – budgeting</div>
+                                    <div class="topic-item">Value for money</div>
                                 </div>
                                 <div class="year-details">
                                     <h4>Building Strong Foundations</h4>
@@ -313,9 +311,12 @@
                             </div>
                             <div class="year-content">
                                 <div class="year-topics">
-                                    <div class="topic-item">Skill Development & Application</div>
-                                    <div class="topic-item">Critical Thinking Introduction</div>
-                                    <div class="topic-item">Independent Learning Skills</div>
+                                    <div class="topic-item">Risk and Reward – Risk</div>
+                                    <div class="topic-item">Risk and Reward – Investments</div>
+                                    <div class="topic-item">Risk and Reward – Protecting yourself</div>
+                                    <div class="topic-item">Security and Fraud – Fraud</div>
+                                    <div class="topic-item">Security and Fraud – Online</div>
+                                    <div class="topic-item">Security and Fraud – Money mules</div>
                                 </div>
                                 <div class="year-details">
                                     <h4>Developing Confidence</h4>
@@ -330,9 +331,11 @@
                             </div>
                             <div class="year-content">
                                 <div class="year-topics">
-                                    <div class="topic-item">Advanced Concepts & Analysis</div>
-                                    <div class="topic-item">Option Subject Exploration</div>
-                                    <div class="topic-item">Future Pathway Planning</div>
+                                    <div class="topic-item">Saving – Simple and Compound</div>
+                                    <div class="topic-item">Borrowing – Debt</div>
+                                    <div class="topic-item">Borrowing – Informed choices</div>
+                                    <div class="topic-item">Borrowing – Products</div>
+                                    <div class="topic-item">Borrowing – Mortgages</div>
                                 </div>
                                 <div class="year-details">
                                     <h4>Preparation & Choice</h4>
@@ -347,9 +350,12 @@
                             </div>
                             <div class="year-content">
                                 <div class="year-topics">
-                                    <div class="topic-item">GCSE Course Commencement</div>
-                                    <div class="topic-item">Exam Technique Development</div>
-                                    <div class="topic-item">Career Exploration</div>
+                                    <div class="topic-item">Future of ways to pay</div>
+                                    <div class="topic-item">Next steps after school</div>
+                                    <div class="topic-item">Tax – Why do we pay it</div>
+                                    <div class="topic-item">Budgeting – The process</div>
+                                    <div class="topic-item">Understanding payslips</div>
+                                    <div class="topic-item">Saving…a plan</div>
                                 </div>
                                 <div class="year-details">
                                     <h4>Formal Assessment Beginning</h4>
@@ -364,9 +370,9 @@
                             </div>
                             <div class="year-content">
                                 <div class="year-topics">
-                                    <div class="topic-item">GCSE Completion</div>
-                                    <div class="topic-item">Final Exam Preparation</div>
-                                    <div class="topic-item">Post-16 Transition Planning</div>
+                                    <div class="topic-item">My Money matters certificate of financial competence</div>
+                                    <div class="topic-item">6 self-paced sessions and quizzes</div>
+                                    <div class="topic-item">Scenario based with real case studies in personal finance</div>
                                 </div>
                                 <div class="year-details">
                                     <h4>Achievement & Transition</h4>
@@ -377,17 +383,7 @@
 
                     </div>
 
-                    <!-- Qualification Section -->
-                    <div class="qualification-section">
-                        <div class="qualification-badge">
-                            <i class="fas fa-award"></i>
-                            <span>Excellence in Education</span>
-                        </div>
-                        <h3>Comprehensive Learning Experience</h3>
-                        <p class="qualification-details">
-                            Structured curriculum designed to provide students with the knowledge, skills and qualifications needed for future success
-                        </p>
-                    </div>
+
 
                 </div>
             </div>
