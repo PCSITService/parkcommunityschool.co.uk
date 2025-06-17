@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <title>Park Community School | Curriculum</title>
+    <title>Park Community School | Financial Education</title>
     <?php include("includes/head.html") ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
@@ -53,42 +53,6 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
-        }
-
-        /* Main header matching PDF style */
-        .curriculum-header {
-            text-align: center;
-            margin-bottom: 3rem;
-            padding: 3rem 2rem;
-            background: var(--white);
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-subtle);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .curriculum-header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(90deg, var(--park-green), var(--park-blue));
-        }
-
-        .curriculum-header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 1rem;
-            letter-spacing: -0.02em;
-        }
-
-        .curriculum-header .subtitle {
-            font-size: 1.1rem;
-            color: var(--text-medium);
-            font-weight: 400;
         }
 
         /* Year progression layout matching PDF */
@@ -177,35 +141,123 @@
             border-left: 3px solid var(--park-blue);
         }
 
+        .year-details h4 {
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
 
+        .year-details p {
+            color: var(--text-medium);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
 
-        /* Certificate/qualification section */
-        .qualification-section {
+        /* Resources Section */
+        .resources-section {
+            margin: 4rem 0 2rem 0;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-subtle);
+        }
+
+        .resources-section h3 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--text-dark);
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .resources-section h3::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--park-green);
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .resource-card {
             background: var(--white);
             border-radius: var(--border-radius);
-            padding: 2.5rem;
-            margin: 2rem 0;
-            box-shadow: var(--shadow-subtle);
-            border: 1px solid var(--border-light);
+            padding: 1.5rem;
             text-align: center;
+            box-shadow: var(--shadow-subtle);
+            transition: var(--transition);
+            border: 1px solid var(--border-light);
+            position: relative;
+            overflow: hidden;
         }
 
-        .qualification-badge {
+        .resource-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--park-green), var(--park-blue));
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .resource-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .resource-card h4 {
+            color: var(--text-dark);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .resource-card p {
+            color: var(--text-medium);
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        .resource-link {
             display: inline-flex;
             align-items: center;
-            gap: 1rem;
-            background: linear-gradient(135deg, var(--park-blue), var(--park-green));
-            color: var(--white);
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            font-weight: 600;
-            margin-bottom: 1rem;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, var(--park-green), #558B2F);
+            color: var(--white) !important;
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            text-decoration: none !important;
+            font-weight: 500;
+            font-size: 0.8rem;
+            transition: var(--transition);
+            box-shadow: var(--shadow-subtle);
         }
 
-        .qualification-details {
-            color: var(--text-medium);
-            font-style: italic;
-            margin-top: 1rem;
+        .resource-link:hover {
+            background: linear-gradient(135deg, #558B2F, var(--park-green));
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
+            color: var(--white) !important;
+        }
+
+        .resource-link::after {
+            content: '→';
+            font-weight: bold;
         }
 
         /* Responsive design */
@@ -214,13 +266,8 @@
                 padding: 0 1rem;
             }
 
-            .curriculum-header {
-                padding: 2rem 1rem;
-                margin-bottom: 2rem;
-            }
-
-            .curriculum-header h1 {
-                font-size: 2rem;
+            .content-section {
+                padding: 2rem 0;
             }
 
             .year-block {
@@ -237,7 +284,19 @@
                 padding: 1.5rem;
             }
 
+            .resources-section {
+                margin: 2rem 0;
+                padding: 2rem 1rem;
+            }
 
+            .resources-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .resource-card {
+                padding: 1.2rem;
+            }
         }
 
         /* Smooth animations */
@@ -280,8 +339,6 @@
         <div class="row">
             <div class="large-12 columns">
                 <div class="content-wrapper">
-                    
-
 
                     <!-- Year Progression -->
                     <div class="year-progression">
@@ -383,14 +440,59 @@
 
                     </div>
 
+                    <!-- Financial Education Resources Section -->
+                    <div class="resources-section">
+                        <h3>Helpful Financial Education Resources</h3>
+                        
+                        <div class="resources-grid">
+                            <div class="resource-card">
+                                <div class="resource-icon">🏦</div>
+                                <h4>MoneyHelper</h4>
+                                <p>Free, impartial money and pension guidance from the Money and Pensions Service</p>
+                                <a href="https://www.moneyhelper.org.uk/en" target="_blank" class="resource-link">Visit MoneyHelper</a>
+                            </div>
 
+                            <div class="resource-card">
+                                <div class="resource-icon">📚</div>
+                                <h4>Bank of England - Money and Me</h4>
+                                <p>Free 12-lesson teaching resource introducing young people to money and economics</p>
+                                <a href="https://www.bankofengland.co.uk/education/education-resources/money-and-me" target="_blank" class="resource-link">Explore Money and Me</a>
+                            </div>
+
+                            <div class="resource-card">
+                                <div class="resource-icon">🎯</div>
+                                <h4>MyBnk</h4>
+                                <p>Expert-led financial education workshops covering budgeting, banking, borrowing and more</p>
+                                <a href="https://www.mybnk.org/" target="_blank" class="resource-link">Learn with MyBnk</a>
+                            </div>
+
+                            <div class="resource-card">
+                                <div class="resource-icon">⭐</div>
+                                <h4>Young Money (Young Enterprise)</h4>
+                                <p>Resources and training for teaching money management skills to young people</p>
+                                <a href="https://www.young-enterprise.org.uk/teachers-hub/financial-education/" target="_blank" class="resource-link">Access Young Money</a>
+                            </div>
+
+                            <div class="resource-card">
+                                <div class="resource-icon">💡</div>
+                                <h4>Money Saving Expert - Financial Education</h4>
+                                <p>Free financial education resources including guides for children and adults</p>
+                                <a href="https://www.moneysavingexpert.com/family/financial-education/" target="_blank" class="resource-link">Get Money Tips</a>
+                            </div>
+
+                            <div class="resource-card">
+                                <div class="resource-icon">🏛️</div>
+                                <h4>Lloyds Bank Academy</h4>
+                                <p>Financial skills resources for young people aged 3-16+ with Quality Mark accreditation</p>
+                                <a href="https://www.lloydsbankacademy.co.uk/financial-skills.html" target="_blank" class="resource-link">Visit Academy</a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div>
     </section>
-
-
 
     <!-- FOOTER -->
     <?php include("includes/footer.html") ?>
