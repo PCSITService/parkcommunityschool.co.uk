@@ -67,6 +67,7 @@
                 <div class="newsletter-item">
                     <h4>June 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-06/Riders Letter.pdf" target="_blank">Riders Letter - 17th June 2025</a></li>
                         <li><a href="/assets/letters/2025-06/Hoodie Letter 030625.pdf" target="_blank">2025 Leavers Hoodies</a></li>
                         <li><a href="/assets/letters/2025-06/Year 11 after half-term.pdf" target="_blank">Year 11 after half-term</a></li>
                     </ul>  
