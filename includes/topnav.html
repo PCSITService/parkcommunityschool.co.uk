@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
         display: flex;
         align-items: center;
         height: 100%;
-        padding: 0 15px; /* Reduced from 20px to 15px to make more compact */
+        padding: 0 18px; /* Increased for better spacing */
         color: white;
         text-decoration: none;
         font-size: 16px; /* Reduced from 18px to 16px */
@@ -239,6 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
+        white-space: nowrap; /* Prevent text wrapping */
     }
 
     .top-bar-section ul li a:hover {
@@ -253,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     .custom-dropdown > a {
         position: relative;
-        padding-right: 30px !important; /* Reduced from 35px to 30px */
+        padding-right: 32px !important; /* Increased for better spacing */
     }
 
     .custom-dropdown > a:after {

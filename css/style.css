@@ -264,3 +264,231 @@ section.page-notification p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES - Added June 2025
+   ======================================== */
+
+/* Mobile utility classes */
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.mobile-menu-toggle:before {
+    content: "☰ Menu";
+}
+
+/* Mobile styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    
+    /* Show/hide mobile elements */
+    .mobile-only {
+        display: block !important;
+    }
+    
+    .desktop-only {
+        display: none !important;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    /* Header adjustments for mobile */
+    header h1 {
+        font-size: 2em; /* Reduced from 3em */
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #homepage-hero {
+        padding: 20px 15px; /* Reduced padding */
+        background-attachment: scroll; /* Remove fixed for mobile performance */
+    }
+    
+    #homepage-hero h1 {
+        font-size: 1.8em;
+    }
+    
+    #homepage-hero h3 {
+        font-size: 1.2em;
+    }
+    
+    /* Navigation adjustments */
+    .top-bar {
+        background: #333;
+    }
+    
+    .top-bar-section ul {
+        display: none; /* Hidden by default, shown via JS */
+        flex-direction: column;
+        width: 100%;
+        background: #333;
+    }
+    
+    .top-bar-section ul.show {
+        display: flex;
+    }
+    
+    .top-bar-section ul li {
+        width: 100%;
+        border-bottom: 1px solid #555;
+    }
+    
+    .top-bar-section ul li a {
+        display: block;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* Content and layout */
+    .sidebar {
+        margin-top: 20px;
+        padding: 15px;
+    }
+    
+    /* Make team member images smaller on mobile */
+    .team-member-container .team-member {
+        width: 100px;
+        height: 100px;
+    }
+    
+    /* Table responsive */
+    .gridtable {
+        font-size: 14px;
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+    
+    /* Fixed size elements adjustment */
+    .fixed-size-100 {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    
+    /* Twitter widget mobile */
+    #twitter-widget-0 {
+        height: 300px !important;
+    }
+    
+    /* Foundation grid adjustments for mobile */
+    .row {
+        max-width: 100%;
+        margin: 0 15px;
+    }
+    
+    [class*="large-"], 
+    [class*="medium-"], 
+    [class*="small-"] {
+        width: 100%;
+        float: none;
+    }
+    
+    /* Button adjustments */
+    .button, 
+    a.button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    /* Notification bar mobile */
+    section.page-notification {
+        padding: 10px 15px;
+    }
+    
+    section.page-notification p {
+        font-size: 14px;
+    }
+}
+
+/* Tablet styles (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    #homepage-hero h1 {
+        font-size: 2.2em;
+    }
+    
+    .team-member-container .team-member {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Two column layout for tablets */
+    .tablet-two-column {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .tablet-two-column > div {
+        flex: 1;
+    }
+}
+
+/* Large desktop (1024px and up) - keep existing styles */
+@media screen and (min-width: 1024px) {
+    
+    .mobile-menu-toggle {
+        display: none;
+    }
+    
+    .top-bar-section ul {
+        display: flex !important;
+        flex-direction: row;
+    }
+    
+    /* Ensure desktop navigation works properly */
+    .top-bar-section ul li {
+        width: auto;
+        border-bottom: none;
+    }
+}
+
+/* Utility classes for responsive design */
+@media screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+    
+    .text-center-mobile {
+        text-align: center !important;
+    }
+    
+    .margin-bottom-mobile {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
