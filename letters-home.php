@@ -114,6 +114,9 @@
                 <div class="newsletter-item">
                     <h4>February 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-02/Year 9 End of Year Trip - 02 07 25 checked.pdf" target="_blank">Year 9 End of Year Trip - 2nd July 2025</a></li> 
+                        <li><a href="/assets/letters/2025-02/Year 8 End of Year trip.pdf" target="_blank">Year 8 End of Year Trip - 1st July 2025</a></li> 
+                        <li><a href="/assets/letters/2025-02/Year 7 End Of Year Trip - 30 06 25 (1).pdf" target="_blank">Year 7 End of Year Trip - 30th June 2025</a></li> 
                         <li><a href="/assets/letters/2025-02/Park Newsletter 17 Feb 1.pdf" target="_blank">Newsletter - 17th February 2025</a></li>    
                         <li><a href="/assets/letters/2025-02/Half Term Review 140225.pdf" target="_blank">Year 9 Half Term Review - February 2025</a></li>    
                         <li><a href="/assets/letters/2025-02/Student Review Day 14 February 2025.pdf" target="_blank">Student Review Day 14 February 2025</a></li>    
