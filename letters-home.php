@@ -73,7 +73,7 @@
                         <li><a href="/assets/letters/2025-06/Year 11 after half-term.pdf" target="_blank">Year 11 after half-term</a></li>
                     </ul>  
                 </div>
-                <div class="newsletter-list">   
+                
                 <!-- May 2025 -->
                 <div class="newsletter-item">
                     <h4>May 2025</h4>
@@ -85,8 +85,8 @@
                         <li><a href="/assets/letters/2025-05/Year 11 Period 6 letter May 7.pdf" target="_blank">Year 11 Period 6 letter May 7</a></li>
                         <li><a href="/assets/letters/2025-05/Year 11 - Exams & Leavers' Ball.pdf" target="_blank">Year 11 - Exams & Leavers' Ball</a></li>
                     </ul>
-                </div>                
-                <div class="newsletter-list">
+                </div>
+                
                 <!-- April 2025 -->
                 <div class="newsletter-item">
                     <h4>April 2025</h4>
@@ -99,6 +99,7 @@
                         <li><a href="/assets/letters/2025-04/Year 9 end of half term March 2025.pdf" target="_blank">Year 9 - End of Half Term Review</a></li>
                     </ul>
                 </div>
+                
                 <!-- March 2025 -->
                 <div class="newsletter-item">
                     <h4>March 2025</h4>
