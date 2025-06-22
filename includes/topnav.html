@@ -141,6 +141,46 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.remove('open');
         });
     });
+    
+    // Mobile dropdown functionality
+    // Check if we're on mobile
+    function isMobile() {
+        return window.innerWidth <= 768;
+    }
+    
+    // Get all dropdown links
+    const dropdownLinks = document.querySelectorAll('.custom-dropdown > a');
+    
+    dropdownLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            // Only prevent default and toggle on mobile
+            if (isMobile()) {
+                e.preventDefault();
+                
+                const dropdown = this.parentElement;
+                const menu = dropdown.querySelector('.custom-dropdown-menu');
+                
+                // Close all other dropdowns first
+                document.querySelectorAll('.custom-dropdown').forEach(function(otherDropdown) {
+                    if (otherDropdown !== dropdown) {
+                        otherDropdown.classList.remove('open');
+                    }
+                });
+                
+                // Toggle this dropdown
+                dropdown.classList.toggle('open');
+            }
+        });
+    });
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(e) {
+        if (isMobile() && !e.target.closest('.custom-dropdown')) {
+            document.querySelectorAll('.custom-dropdown').forEach(function(dropdown) {
+                dropdown.classList.remove('open');
+            });
+        }
+    });
 });
 </script>
 
@@ -320,14 +360,28 @@ document.addEventListener('DOMContentLoaded', function() {
             max-height: 55px;
         }
         
+        /* Make sure dropdowns work on mobile */
         .custom-dropdown-menu {
-            width: 100%;
-            position: static;
-            display: none;
+            position: static !important;
+            width: 100% !important;
+            box-shadow: none !important;
+            background-color: #444 !important;
+            display: none !important;
         }
         
         .custom-dropdown.open .custom-dropdown-menu {
-            display: block;
+            display: block !important;
+        }
+        
+        .custom-dropdown-menu a {
+            padding: 12px 30px !important;
+            background-color: #444 !important;
+            border-left: 3px solid #A3CD42 !important;
+            font-size: 14px !important;
+        }
+        
+        .custom-dropdown-menu a:hover {
+            background-color: #555 !important;
         }
         
         .top-bar-section ul {

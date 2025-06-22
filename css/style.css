@@ -426,6 +426,132 @@ section.page-notification p {
     }
 }
 
+/* ========================================
+   IMPROVED MOBILE MENU STYLES
+   ======================================== */
+@media (max-width: 768px) {
+    /* Enhanced mobile dropdown styling */
+    .custom-dropdown-menu {
+        position: static !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        background-color: #2a2a2a !important; /* Darker background for better contrast */
+        display: none !important;
+        border-top: 2px solid #A3CD42 !important; /* Top border for visual separation */
+        margin: 0 !important;
+        animation: slideDown 0.3s ease-out;
+    }
+    
+    .custom-dropdown.open .custom-dropdown-menu {
+        display: block !important;
+    }
+    
+    .custom-dropdown-menu a {
+        padding: 16px 25px 16px 40px !important; /* Increased padding for better touch targets */
+        background-color: #2a2a2a !important;
+        border-left: 4px solid #A3CD42 !important; /* Thicker green border */
+        border-bottom: 1px solid #444 !important; /* Subtle separator between items */
+        font-size: 15px !important; /* Slightly larger text */
+        color: #ffffff !important;
+        text-decoration: none !important;
+        display: block !important;
+        position: relative !important;
+        transition: all 0.2s ease !important; /* Smooth hover transition */
+    }
+    
+    .custom-dropdown-menu a:hover,
+    .custom-dropdown-menu a:focus {
+        background-color: #A3CD42 !important; /* Green background on hover */
+        color: #333 !important; /* Dark text on green background */
+        border-left: 4px solid #ffffff !important; /* White border on hover */
+        transform: translateX(4px) !important; /* Slight slide effect */
+    }
+    
+    .custom-dropdown-menu a:last-child {
+        border-bottom: none !important;
+    }
+    
+    /* Add arrow indicator for submenu items */
+    .custom-dropdown-menu a:before {
+        content: "→" !important;
+        margin-right: 8px !important;
+        color: #A3CD42 !important;
+        font-weight: bold !important;
+    }
+    
+    .custom-dropdown-menu a:hover:before {
+        color: #333 !important;
+    }
+    
+    /* Improve main dropdown button styling on mobile */
+    .custom-dropdown > a {
+        position: relative !important;
+        background-color: #333 !important;
+        padding: 18px 20px !important; /* More padding */
+        border-bottom: 1px solid #555 !important;
+        font-size: 16px !important;
+        transition: all 0.2s ease !important;
+    }
+    
+    .custom-dropdown > a:hover {
+        background-color: #444 !important;
+    }
+    
+    /* Enhanced dropdown arrow */
+    .custom-dropdown > a:after {
+        content: "▼" !important;
+        position: absolute !important;
+        right: 20px !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        font-size: 12px !important;
+        color: #A3CD42 !important;
+        transition: transform 0.3s ease !important;
+    }
+    
+    .custom-dropdown.open > a:after {
+        transform: translateY(-50%) rotate(180deg) !important; /* Rotate arrow when open */
+        color: #ffffff !important;
+    }
+    
+    .custom-dropdown.open > a {
+        background-color: #A3CD42 !important;
+        color: #333 !important;
+    }
+    
+    /* Smooth slide animation for dropdowns */
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    /* Improve non-dropdown menu items */
+    .top-bar-section ul li:not(.custom-dropdown) a {
+        padding: 18px 20px !important;
+        border-bottom: 1px solid #555 !important;
+        font-size: 16px !important;
+        transition: all 0.2s ease !important;
+    }
+    
+    .top-bar-section ul li:not(.custom-dropdown) a:hover {
+        background-color: #A3CD42 !important;
+        color: #333 !important;
+        transform: translateX(4px) !important;
+    }
+    
+    /* Add visual feedback for touch */
+    .custom-dropdown > a:active,
+    .custom-dropdown-menu a:active {
+        background-color: #728F2E !important;
+    }
+}
+
 /* Tablet styles (768px to 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     
