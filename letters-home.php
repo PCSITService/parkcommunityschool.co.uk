@@ -67,6 +67,7 @@
                 <div class="newsletter-item">
                     <h4>June 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-06/Year 7 HOY change and thanks.pdf" target="_blank">Year 7 Head of Year Change</a></li>
                         <li><a href="/assets/letters/2025-06/The power of music letter 08 07 25.pdf" target="_blank">The Power of Music Letter - 8th July 2025</a></li>
                         <li><a href="/assets/letters/2025-06/Yr11 Leavers Letter.pdf" target="_blank">Year 11 Leavers Letter</a></li>
                         <li><a href="/assets/letters/2025-06/Riders Letter.pdf" target="_blank">Letter regarding Park Community School and Riders Federation</a></li>
