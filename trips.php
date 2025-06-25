@@ -1,8 +1,10 @@
 <!doctype html>
+<html class="no-js" lang="en" >
 <html class="no-js" lang="en">
 	<head>
 		<title>Park Community School | Trips</title>
 		<?php include("includes/head.html") ?>
+		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 		<style>
@@ -668,15 +670,17 @@
 			<div class="row">
 				<br>
 				<div class="medium-7 columns">
-					<p>At Park Community School, we believe in providing our students with diverse and enriching experiences beyond the classroom. Our carefully planned trips are designed to enhance learning, develop life skills, and create lasting memories.</p>
-					<p>All trips are meticulously organized with student safety as our highest priority. Our experienced staff ensures that each excursion offers meaningful educational value while being enjoyable and accessible.</p>
-					<p>The easiest way to pay for trips is online at <a href="//www.scopay.com/pcs" target="_blank">SCO Online Payments</a>. Alternatively, payment can be made at reception using card, cash or cheque made payable to Hampshire County Council.</p>
+					<h2>Our Trips are Amazing!</h2>
+					<p>All trips at Park are carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
+					<p>Our trips are designed to enhance learning, develop life skills, and create lasting memories for all students.</p>
+					<p>Payment is easy - pay online at <a href="//www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or at reception with card, cash or cheque.</p>
 					
 					<!-- Trip Planning Tools (Quick Access) -->
 					<div style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px;">
-						<a href="#upcoming-trips" class="btn-trip btn-primary"><i class="fas fa-calendar-alt"></i> View Upcoming Trips</a>
-						<a href="#trip-faq" class="btn-trip btn-outline"><i class="fas fa-question-circle"></i> Trip FAQs</a>
-						<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Make a Payment</a>
+						<a href="//www.scopay.com/pcs" target="_blank" style="display: inline-block; background-color: #5cb85c; color: white; text-decoration: none; padding: 15px 35px; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+							<i class="fas fa-credit-card" style="margin-right: 10px;"></i>
+							Make a Payment
+						</a>
 					</div>
 					<br>
 				</div>
@@ -697,562 +701,199 @@
 			</div>
 			<br>
 		</section>
+
 		
-		<!-- INTERACTIVE TRIP SECTION -->
-		<section id="upcoming-trips">
-			<div class="row">
-				<div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-			</div>
-			
-			<div class="row">
-				<div class="large-12 columns">
-					<h2 style="text-align: center; margin-bottom: 30px;">Explore Our Trips</h2>
-					
-					<!-- Trip Category Tabs -->
-					<div class="trip-category-tabs">
-						<div class="trip-tab active" data-target="upcoming-content">Upcoming Trips</div>
-						<div class="trip-tab" data-target="overseas-content">Overseas Trips</div>
-						<div class="trip-tab" data-target="daytrips-content">Day Trips</div>
-						<div class="trip-tab" data-target="past-content">Past Trips</div>
-					</div>
-					
-					<!-- Filter Section with inline styles for precise alignment -->
-					<div class="filter-section">
-						<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; flex-wrap: nowrap;">
-							<div style="display: flex; align-items: center; margin-right: 15px;">
-								<label for="year-filter" style="font-weight: 600; margin-right: 5px; white-space: nowrap; position: relative; top: -4px;">Year Group:</label>
-								<select id="year-filter" style="height: 38px; border: 1px solid #ddd; border-radius: 4px; padding: 0 15px;">
-									<option value="all">All Years</option>
-									<option value="7">Year 7</option>
-									<option value="8">Year 8</option>
-									<option value="9">Year 9</option>
-									<option value="10">Year 10</option>
-									<option value="11">Year 11</option>
-								</select>
-							</div>
-							
-							<div style="display: flex; align-items: center;">
-								<input type="text" placeholder="Search trips..." style="height: 38px; border: 1px solid #ddd; border-radius: 4px; padding: 0 15px; width: 200px; margin-right: 5px;">
-								<button id="search-btn" style="height: 38px; background-color: #a3cd42; color: white; border: none; border-radius: 4px; padding: 0 15px; font-weight: 600; display: flex; align-items: center; justify-content: center; cursor: pointer;">
-									<i class="fas fa-search" style="margin-right: 5px;"></i> Search
-								</button>
-							</div>
-						</div>
-						
-						<!-- View Toggle Buttons -->
-						<div class="view-toggle">
-							<div class="view-toggle-btn active" data-view="list-view"><i class="fas fa-list"></i> List View</div>
-							<div class="view-toggle-btn" data-view="calendar-view"><i class="fas fa-calendar-alt"></i> Calendar View</div>
-						</div>
-					</div>
-					
-					<!-- Tab Content - Upcoming Trips -->
-					<div class="trip-content active" id="upcoming-content">
-						<!-- List View -->
-						<div class="list-view active">
-							<div class="trip-cards-container">
-								<!-- Trip Card 1 -->
-								<div class="trip-card">
-									<div class="trip-badge">Spaces Available</div>
-									<div class="trip-card-img">
-										<a href="images/trips/france.jpg" data-fancybox="france-trip">
-											<img src="images/trips/france.jpg" alt="French Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">French Language Immersion</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> June 15-20, 2025
-										</div>
-										<p class="trip-card-description">A 6-day immersive experience in France for language students to practice their French with native speakers, explore cultural sites, and enjoy authentic cuisine.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£450</div>
-											<div class="trip-year-groups">Years 9-11</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-1"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Trip Card 2 -->
-								<div class="trip-card">
-									<div class="trip-badge">Limited Places</div>
-									<div class="trip-card-img">
-										<a href="images/trips/science-museum.jpg" data-fancybox="science-trip">
-											<img src="images/trips/science-museum.jpg" alt="Science Museum Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">Science Museum Visit</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> April 12, 2025
-										</div>
-										<p class="trip-card-description">A day trip to the Science Museum in London to explore interactive exhibits, attend a special workshop, and enhance classroom learning with hands-on experiences.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£35</div>
-											<div class="trip-year-groups">Years 7-8</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-2"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Trip Card 3 -->
-								<div class="trip-card">
-									<div class="trip-badge">New</div>
-									<div class="trip-card-img">
-										<a href="images/trips/newyork.jpg" data-fancybox="newyork-trip">
-											<img src="images/trips/newyork.jpg" alt="New York Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">New York Arts & Culture</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> July 10-17, 2025
-										</div>
-										<p class="trip-card-description">An incredible opportunity to experience the vibrant arts and culture scene of New York City, including Broadway shows, museum visits, and iconic landmarks.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£1,250</div>
-											<div class="trip-year-groups">Years 10-11</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-3"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Calendar View -->
-						<div class="calendar-view">
-							<div class="calendar-container">
-								<iframe src="https://calendar.google.com/calendar/embed?src=c_classroom12345abcde%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-							</div>
-							<p style="text-align: center; margin-top: 10px; font-style: italic;">Note: Add our school trips calendar to your own Google Calendar to stay updated automatically.</p>
-						</div>
-					</div>
-					
-					<!-- Tab Content - Overseas Trips -->
-					<div class="trip-content" id="overseas-content">
-						<div class="list-view active">
-							<div class="trip-cards-container">
-								<!-- Trip Card 1 (from above) -->
-								<div class="trip-card">
-									<div class="trip-badge">Spaces Available</div>
-									<div class="trip-card-img">
-										<a href="images/trips/france.jpg" data-fancybox="france-trip">
-											<img src="images/trips/france.jpg" alt="French Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">French Language Immersion</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> June 15-20, 2025
-										</div>
-										<p class="trip-card-description">A 6-day immersive experience in France for language students to practice their French with native speakers, explore cultural sites, and enjoy authentic cuisine.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£450</div>
-											<div class="trip-year-groups">Years 9-11</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-1"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Trip Card 3 (from above) -->
-								<div class="trip-card">
-									<div class="trip-badge">New</div>
-									<div class="trip-card-img">
-										<a href="images/trips/newyork.jpg" data-fancybox="newyork-trip">
-											<img src="images/trips/newyork.jpg" alt="New York Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">New York Arts & Culture</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> July 10-17, 2025
-										</div>
-										<p class="trip-card-description">An incredible opportunity to experience the vibrant arts and culture scene of New York City, including Broadway shows, museum visits, and iconic landmarks.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£1,250</div>
-											<div class="trip-year-groups">Years 10-11</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-3"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Additional Overseas Trip -->
-								<div class="trip-card">
-									<div class="trip-badge">Booking Soon</div>
-									<div class="trip-card-img">
-										<a href="images/trips/spain.jpg" data-fancybox="spain-trip">
-											<img src="images/trips/spain.jpg" alt="Spain Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">Spanish Cultural Experience</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> October 5-12, 2025
-										</div>
-										<p class="trip-card-description">Explore the rich cultural heritage of Spain with visits to Barcelona and Madrid. This trip offers language practice, architectural appreciation, and authentic Spanish experiences.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£675</div>
-											<div class="trip-year-groups">Years 8-10</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-4"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="#" class="btn-trip btn-primary"><i class="fas fa-bell"></i> Notify Me</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Calendar View (same framework) -->
-						<div class="calendar-view">
-							<div class="calendar-container">
-								<iframe src="https://calendar.google.com/calendar/embed?src=c_classroom12345abcde%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-							</div>
-							<p style="text-align: center; margin-top: 10px; font-style: italic;">Note: Add our overseas trips calendar to your own Google Calendar to stay updated automatically.</p>
-						</div>
-					</div>
-					
-					<!-- Tab Content - Day Trips -->
-					<div class="trip-content" id="daytrips-content">
-						<div class="list-view active">
-							<div class="trip-cards-container">
-								<!-- Trip Card 2 (from above) -->
-								<div class="trip-card">
-									<div class="trip-badge">Limited Places</div>
-									<div class="trip-card-img">
-										<a href="images/trips/science-museum.jpg" data-fancybox="science-trip">
-											<img src="images/trips/science-museum.jpg" alt="Science Museum Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">Science Museum Visit</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> April 12, 2025
-										</div>
-										<p class="trip-card-description">A day trip to the Science Museum in London to explore interactive exhibits, attend a special workshop, and enhance classroom learning with hands-on experiences.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£35</div>
-											<div class="trip-year-groups">Years 7-8</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-2"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-								
-								<!-- Additional Day Trips -->
-								<div class="trip-card">
-									<div class="trip-badge">Free Trip</div>
-									<div class="trip-card-img">
-										<a href="images/trips/library.jpg" data-fancybox="library-trip">
-											<img src="images/trips/library.jpg" alt="Library Visit">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">Local Library Workshop</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> March 8, 2025
-										</div>
-										<p class="trip-card-description">A visit to our local library for a special author talk and writing workshop. Students will gain insights into the creative writing process and research skills.</p>
-										<div class="trip-details">
-											<div class="trip-cost">Free</div>
-											<div class="trip-year-groups">Year 7</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-5"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="#" class="btn-trip btn-primary"><i class="fas fa-clipboard-check"></i> Permission Form</a>
-										</div>
-									</div>
-								</div>
-								
-								<div class="trip-card">
-									<div class="trip-badge">New</div>
-									<div class="trip-card-img">
-										<a href="images/trips/theatre.jpg" data-fancybox="theatre-trip">
-											<img src="images/trips/theatre.jpg" alt="Theatre Trip">
-										</a>
-									</div>
-									<div class="trip-card-content">
-										<h3 class="trip-card-title">Shakespeare Performance</h3>
-										<div class="trip-card-date">
-											<i class="fas fa-calendar-alt"></i> May 18, 2025
-										</div>
-										<p class="trip-card-description">A trip to see a professional performance of Macbeth at the local theatre. This experience will complement English Literature studies and bring the text to life.</p>
-										<div class="trip-details">
-											<div class="trip-cost">£25</div>
-											<div class="trip-year-groups">Years 9-10</div>
-										</div>
-										<div class="trip-actions">
-											<a href="#" class="btn-trip btn-outline" data-fancybox data-src="#trip-details-6"><i class="fas fa-info-circle"></i> Details</a>
-											<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay"><i class="fas fa-credit-card"></i> Pay Now</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Calendar View (same framework) -->
-						<div class="calendar-view">
-							<div class="calendar-container">
-								<iframe src="https://calendar.google.com/calendar/embed?src=c_classroom12345abcde%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-							</div>
-							<p style="text-align: center; margin-top: 10px; font-style: italic;">Note: Add our day trips calendar to your own Google Calendar to stay updated automatically.</p>
-						</div>
-					</div>
-					
-					<!-- Tab Content - Past Trips -->
-					<div class="trip-content" id="past-content">
-						<!-- Trip Gallery -->
-						<div class="trip-gallery">
-							<div class="gallery-heading">
-								<h2>Memories from Previous Trips</h2>
-							</div>
-							
-							<div class="gallery-container">
-								<div class="gallery-item">
-									<a href="images/trips/farm1.jpg" data-fancybox="gallery">
-										<img src="images/trips/farm1.jpg" alt="Farm Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/nyc1.jpg" data-fancybox="gallery">
-										<img src="images/trips/nyc1.jpg" alt="New York Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/nyc2.jpg" data-fancybox="gallery">
-										<img src="images/trips/nyc2.jpg" alt="New York Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/kewgardens.jpg" data-fancybox="gallery">
-										<img src="images/trips/kewgardens.jpg" alt="Kew Gardens Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/tanzania.jpg" data-fancybox="gallery">
-										<img src="images/trips/tanzania.jpg" alt="Tanzania Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/disney1.jpg" data-fancybox="gallery">
-										<img src="images/trips/disney1.jpg" alt="Disney Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/winchester1.jpg" data-fancybox="gallery">
-										<img src="images/trips/winchester1.jpg" alt="Winchester Trip">
-									</a>
-								</div>
-								<div class="gallery-item">
-									<a href="images/trips/newyork.jpg" data-fancybox="gallery">
-										<img src="images/trips/newyork.jpg" alt="New York Trip">
-									</a>
-								</div>
-							</div>
-							
-							<!-- Testimonials from Past Trips -->
-							<div style="max-width: 800px; margin: 40px auto; padding: 30px; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-								<h3 style="text-align: center; margin-bottom: 30px;">What Our Students Say</h3>
-								
-								<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-									<div style="flex: 1 0 300px; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-										<p style="font-style: italic;">"The French trip was amazing! I got to practice my language skills with real French people and try so many new foods. It's definitely helped my confidence in speaking French."</p>
-										<p style="text-align: right; font-weight: 600;">- Emma, Year 10</p>
-									</div>
-									
-									<div style="flex: 1 0 300px; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-										<p style="font-style: italic;">"The Science Museum trip was so interesting! I loved the interactive exhibits and the planetarium show was incredible. I learned so much more than I would have just from a textbook."</p>
-										<p style="text-align: right; font-weight: 600;">- James, Year 8</p>
-									</div>
-								</div>
-							</div>
-						</div>
+		<!-- Installment Plan Modal -->
+		<div id="installmentModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1000;">
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; border-radius: 12px; max-width: 650px; width: 90%; max-height: 90vh; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: flex; flex-direction: column;">
+				<!-- Header -->
+				<div style="background: linear-gradient(135deg, #4a90a4 0%, #5ba0b5 100%); color: white; padding: 25px 30px; position: relative; flex-shrink: 0;">
+					<h2 id="modalTitle" style="margin: 0; font-size: 1.8rem; font-weight: 500;">Installment Plan</h2>
+					<button onclick="closeInstallmentModal()" style="position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: white; opacity: 0.8; transition: opacity 0.3s;">&times;</button>
+				</div>
+				
+				<!-- Content -->
+				<div style="padding: 30px; overflow-y: auto; flex-grow: 1;">
+					<div id="modalContent">
+						<!-- Content will be populated by JavaScript -->
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		<!-- TRIP PLANNING TOOLS -->
-		<section class="planning-tools">
-			<div class="row">
-				<div class="large-12 columns">
-					<h2 style="text-align: center; margin-bottom: 30px;">Trip Planning Resources</h2>
-					
-					<div style="display: flex; flex-wrap: wrap; text-align: center; gap: 20px; justify-content: center;">
-						<div class="tool-item" style="flex: 1 0 200px; max-width: 300px;">
-							<div class="tool-icon">
-								<i class="fas fa-clipboard-list"></i>
-							</div>
-							<h3 class="tool-title">Packing Checklist</h3>
-							<p class="tool-description">Use our comprehensive packing lists to ensure your child has everything they need for their trip.</p>
-							<a href="#" class="btn-trip btn-outline"><i class="fas fa-download"></i> Download</a>
-						</div>
-						
-						<div class="tool-item" style="flex: 1 0 200px; max-width: 300px;">
-							<div class="tool-icon">
-								<i class="fas fa-passport"></i>
-							</div>
-							<h3 class="tool-title">Travel Documents</h3>
-							<p class="tool-description">Information about required documents for overseas trips, including passport requirements.</p>
-							<a href="#" class="btn-trip btn-outline"><i class="fas fa-info-circle"></i> Learn More</a>
-						</div>
-						
-						<div class="tool-item" style="flex: 1 0 200px; max-width: 300px;">
-							<div class="tool-icon">
-								<i class="fas fa-hand-holding-medical"></i>
-							</div>
-							<h3 class="tool-title">Medical Forms</h3>
-							<p class="tool-description">Download and complete medical information forms for school trips.</p>
-							<a href="#" class="btn-trip btn-outline"><i class="fas fa-download"></i> Download</a>
-						</div>
-						
-						<div class="tool-item" style="flex: 1 0 200px; max-width: 300px;">
-							<div class="tool-icon">
-								<i class="fas fa-credit-card"></i>
-							</div>
-							<h3 class="tool-title">Payment Plans</h3>
-							<p class="tool-description">Information about payment schedules and financial assistance for school trips.</p>
-							<a href="#" class="btn-trip btn-outline"><i class="fas fa-info-circle"></i> Learn More</a>
-						</div>
-					</div>
+				
+				<!-- Footer -->
+				<div style="background-color: #f8f9fa; padding: 25px 30px 30px 30px; text-align: center; border-top: 1px solid #e9ecef; flex-shrink: 0;">
+					<button onclick="closeInstallmentModal()" style="background-color: #4a90a4; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: 500; font-size: 1rem; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Close</button>
+					<a href="http://www.scopay.com/pcs" target="_blank" style="display: inline-block; margin-left: 15px; background-color: #5cb85c; color: white; text-decoration: none; padding: 12px 30px; border-radius: 6px; font-weight: 500; font-size: 1rem; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Pay Online</a>
 				</div>
-			</div>
-		</section>
-		
-		<!-- TRIP FAQ SECTION -->
-		<section id="trip-faq" class="faq-section">
-			<div class="row">
-				<div class="large-12 columns">
-					<h2 style="text-align: center; margin-bottom: 30px;">Frequently Asked Questions</h2>
-					
-					<div class="faq-container">
-						<div class="faq-item">
-							<div class="faq-question">
-								How do I pay for a school trip? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>The easiest way to pay for trips is online at <a href="//www.scopay.com/pcs" target="_blank">SCO Online Payments</a>. Alternatively, payment can be made at reception using card, cash or cheque made payable to Hampshire County Council. For more expensive trips, we often offer payment plans to spread the cost over several months.</p>
-							</div>
-						</div>
-						
-						<div class="faq-item">
-							<div class="faq-question">
-								What happens if my child is ill on the day of a trip? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>If your child is unable to attend a trip due to illness, please contact the school as soon as possible. Depending on the nature of the trip and our insurance policy, you may be eligible for a partial or full refund. Please note that each case is assessed individually.</p>
-							</div>
-						</div>
-						
-						<div class="faq-item">
-							<div class="faq-question">
-								What if my child has special dietary requirements or medical needs? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>We accommodate all dietary requirements and medical needs. When you complete the trip permission form, there is a section to provide details about any special requirements or medical conditions. Our staff will ensure these are catered for during the trip. For more complex medical needs, we may ask for additional information or a meeting to discuss arrangements.</p>
-							</div>
-						</div>
-						
-						<div class="faq-item">
-							<div class="faq-question">
-								Do students need spending money for trips? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>For most trips, we recommend students bring a small amount of spending money for souvenirs or additional snacks. The amount will depend on the duration and nature of the trip. For overseas trips, we provide specific guidance on appropriate amounts and currency information in the pre-trip information pack.</p>
-							</div>
-						</div>
-						
-						<div class="faq-item">
-							<div class="faq-question">
-								What happens if we cannot afford a school trip? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>We believe that financial constraints should not prevent any student from participating in educational trips. If you are experiencing financial difficulties, please contact our Finance Office or your child's Head of Year in confidence. We have various support options available, including payment plans and possible financial assistance for families who qualify.</p>
-							</div>
-						</div>
-						
-						<div class="faq-item">
-							<div class="faq-question">
-								How are students supervised on trips? <i class="fas fa-chevron-down"></i>
-							</div>
-							<div class="faq-answer">
-								<p>All school trips maintain appropriate staff-to-student ratios in line with safety guidelines. For residential trips, staff are on duty 24 hours a day. Our trip leaders are experienced and receive specific training, and all trips undergo a thorough risk assessment process before approval. On overseas trips, we often work with reputable tour operators who provide additional support.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<!-- Hidden trip detail popups for Fancybox -->
-		<div id="trip-details-1" style="display: none; max-width: 800px; padding: 20px;">
-			<h2>French Language Immersion</h2>
-			<p><strong>Dates:</strong> June 15-20, 2025</p>
-			<p><strong>Location:</strong> Paris and Loire Valley, France</p>
-			<p><strong>Cost:</strong> £450</p>
-			<p><strong>Year Groups:</strong> 9-11</p>
-			
-			<h3>Trip Overview</h3>
-			<p>This 6-day immersive experience in France is designed to enhance students' language skills through real-world practice. Students will stay with host families, attend language workshops, and visit cultural and historical sites.</p>
-			
-			<h3>What's Included</h3>
-			<ul>
-				<li>Return travel by coach and ferry</li>
-				<li>Accommodation with host families (2-3 students per family)</li>
-				<li>All meals</li>
-				<li>Language workshops</li>
-				<li>Entrance fees to all attractions</li>
-				<li>Travel insurance</li>
-				<li>Evening activities</li>
-			</ul>
-			
-			<h3>Itinerary Highlights</h3>
-			<ul>
-				<li><strong>Day 1:</strong> Travel to France, meet host families</li>
-				<li><strong>Day 2:</strong> Language workshops and Paris sightseeing</li>
-				<li><strong>Day 3:</strong> Visit to Loire Valley châteaux</li>
-				<li><strong>Day 4:</strong> Local market visit and cooking class</li>
-				<li><strong>Day 5:</strong> Cultural activities and language practice</li>
-				<li><strong>Day 6:</strong> Return journey to UK</li>
-			</ul>
-			
-			<h3>Payment Schedule</h3>
-			<ul>
-				<li><strong>Deposit:</strong> £100 (Due by January 31, 2025)</li>
-				<li><strong>Second payment:</strong> £150 (Due by March 15, 2025)</li>
-				<li><strong>Final payment:</strong> £200 (Due by May 1, 2025)</li>
-			</ul>
-			
-			<h3>Trip Leader Contact</h3>
-			<p>For more information, please contact Ms. Johnson at <a href="mailto:k.johnson@pcs.hants.sch.uk">k.johnson@pcs.hants.sch.uk</a></p>
-			
-			<div style="text-align: center; margin-top: 20px;">
-				<a href="//www.scopay.com/pcs" target="_blank" class="btn-trip btn-pay" style="padding: 10px 20px; text-decoration: none;"><i class="fas fa-credit-card"></i> Make Payment</a>
 			</div>
 		</div>
 		
-		<!-- Additional hidden detail popups would be added here -->
+		<!-- Letters Modal -->
+		<div id="lettersModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); z-index: 1000;">
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; border-radius: 12px; max-width: 650px; width: 90%; max-height: 90vh; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); display: flex; flex-direction: column;">
+				<!-- Header -->
+				<div style="background: linear-gradient(135deg, #4a90a4 0%, #5ba0b5 100%); color: white; padding: 25px 30px; position: relative; flex-shrink: 0;">
+					<h2 id="lettersModalTitle" style="margin: 0; font-size: 1.8rem; font-weight: 500;">Trip Letters</h2>
+					<button onclick="closeLettersModal()" style="position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: white; opacity: 0.8; transition: opacity 0.3s;">&times;</button>
+				</div>
+				
+				<!-- Content -->
+				<div style="padding: 30px; overflow-y: auto; flex-grow: 1;">
+					<div id="lettersModalContent">
+						<!-- Content will be populated by JavaScript -->
+					</div>
+				</div>
+				
+				<!-- Footer -->
+				<div style="background-color: #f8f9fa; padding: 25px 30px 30px 30px; text-align: center; border-top: 1px solid #e9ecef; flex-shrink: 0;">
+					<button onclick="closeLettersModal()" style="background-color: #4a90a4; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: 500; font-size: 1rem; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Close</button>
+				</div>
+			</div>
+		</div>
 		
+
+
+		<!-- SCHOOL TRIPS SECTION -->
+		<section style="background-color: #4a90a4; color: white; padding: 60px 0;">
+			<div class="row">
+				<div class="large-12 columns">
+					<h2 style="text-align: center; color: white; margin-bottom: 50px; font-size: 2.5rem; font-weight: 300;">School Trips</h2>
+					
+					<!-- Trip Card 1 - Year 7 London (June 30) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 7 End of Year Trip - London</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 7 will visit the Natural History Museum and Science Museum in London.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('year7london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('year7london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Monday 30th June 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Kieran Pollard</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 7</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 2 - Year 8 London (July 1) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 8 End of Year Trip - London</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 8 will visit the Natural History Museum and Science Museum in London.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('year8london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('year8london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Tuesday 1st July 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Henrietta Wilson</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 8</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 3 - Year 9 Stonehenge (July 2) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 9 End of Year Trip - Stonehenge and Salisbury Town Centre</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 9 will visit Stonehenge and Salisbury Town Centre.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('year9stonehenge')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('year9stonehenge')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Wednesday 2nd July 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Jon Crowley</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 9</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 4 - Krakow Poland (July 8-11) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Krakow, Poland - July 2025</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Humanities Residential Visit: Auschwitz - Birkenau, Poland.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('krakow')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('krakow')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Tuesday 8th July 2025 - Friday 11th July 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Barney Pycroft</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £579</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> All Years</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 5 - Bude Activity Centre (October 13-17) -->
+					<div style="margin-bottom: 40px;">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">2024 - 2025 Year 7 - Bude Activity Centre Residential</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 7 will visit Bude Activity Centre Residential.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('bude')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('bude')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Monday 13th October 2025 - Friday 17th October 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> TBC</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> TBC</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 7</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
 		<!-- FOOTER -->
 		<?php include("includes/footer.html") ?>
-		
 		<!-- End Site Footer -->
 		<script src="js/vendor/libraries.min.js"></script>
 		<script src="js/vendor/foundation.min.js"></script>
@@ -1324,9 +965,418 @@
 						alert('Search functionality would filter trips based on: "' + searchTerm + '"');
 					}
 				});
-				
-				// Trip notification form functionality removed
 			});
+			
+			// Installment Plan Modal Functions
+			function showInstallmentPlan(tripType) {
+				const modal = document.getElementById('installmentModal');
+				const title = document.getElementById('modalTitle');
+				const content = document.getElementById('modalContent');
+				
+				const installmentPlans = {
+					krakow: {
+						title: 'Krakow, Poland - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £579</h3>
+								</div>
+							</div>
+							
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+										<div>
+											<strong style="color: #2d5a2d; font-size: 1.1rem;">💰 Deposit</strong>
+											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Initial payment to secure place</div>
+										</div>
+										<div style="text-align: right;">
+											<div style="font-size: 1.3rem; font-weight: bold; color: #2d5a2d;">£150</div>
+											<div style="font-size: 0.9rem; color: #666;">Due: Jan 31, 2025</div>
+										</div>
+									</div>
+								</div>
+								
+								<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+										<div>
+											<strong style="color: #856404; font-size: 1.1rem;">💳 Second Payment</strong>
+											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Midway payment</div>
+										</div>
+										<div style="text-align: right;">
+											<div style="font-size: 1.3rem; font-weight: bold; color: #856404;">£200</div>
+											<div style="font-size: 0.9rem; color: #666;">Due: Mar 31, 2025</div>
+										</div>
+									</div>
+								</div>
+								
+								<div style="background: linear-gradient(135deg, #d1ecf1 0%, #e1f3f7 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+										<div>
+											<strong style="color: #2c5f6f; font-size: 1.1rem;">✅ Final Payment</strong>
+											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Complete your booking</div>
+										</div>
+										<div style="text-align: right;">
+											<div style="font-size: 1.3rem; font-weight: bold; color: #2c5f6f;">£229</div>
+											<div style="font-size: 0.9rem; color: #666;">Due: May 31, 2025</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">All payments can be made online through our secure payment portal or at the school reception using card, cash, or cheque.</p>
+							</div>
+						`
+					},
+					year7london: {
+						title: 'Year 7 London Trip - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
+								</div>
+							</div>
+							
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							
+							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<div style="margin-bottom: 15px;">
+									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
+								</div>
+								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
+								<div style="color: #666; font-size: 1rem;">Due by: June 20, 2025</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
+							</div>
+						`
+					},
+					year8london: {
+						title: 'Year 8 London Trip - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
+								</div>
+							</div>
+							
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							
+							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<div style="margin-bottom: 15px;">
+									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
+								</div>
+								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
+								<div style="color: #666; font-size: 1rem;">Due by: June 21, 2025</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
+							</div>
+						`
+					},
+					year9stonehenge: {
+						title: 'Year 9 Stonehenge Trip - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
+								</div>
+							</div>
+							
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							
+							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<div style="margin-bottom: 15px;">
+									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
+								</div>
+								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
+								<div style="color: #666; font-size: 1rem;">Due by: June 22, 2025</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
+							</div>
+						`
+					},
+					bude: {
+						title: 'Bude Activity Centre - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #856404;">Total Cost: TBC</h3>
+								</div>
+							</div>
+							
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
+								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the total cost is confirmed</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're finalizing the details for this residential trip. Full payment information including installment options will be provided closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
+							</div>
+						`
+					}
+				};
+				
+				const plan = installmentPlans[tripType];
+				if (plan) {
+					title.textContent = plan.title;
+					content.innerHTML = plan.content;
+					modal.style.display = 'block';
+				}
+			}
+			
+			function closeInstallmentModal() {
+				document.getElementById('installmentModal').style.display = 'none';
+			}
+			
+			// Letters Modal Functions
+			function showLetters(tripType) {
+				const modal = document.getElementById('lettersModal');
+				const title = document.getElementById('lettersModalTitle');
+				const content = document.getElementById('lettersModalContent');
+				
+				const tripLetters = {
+					krakow: {
+						title: 'Krakow, Poland - Trip Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+							</div>
+							
+							<div style="display: flex; flex-direction: column; gap: 20px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Complete details about the trip itinerary, what to expect, and preparation</p>
+										</div>
+										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for international trip participation</p>
+										</div>
+										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">🏥 Medical Information Form</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Essential health and medical details for trip safety</p>
+										</div>
+										<button style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📑 Packing List</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Comprehensive list of items to pack for the Poland trip</p>
+										</div>
+										<button style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+							</div>
+							
+							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
+								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadlines</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> May 1st, 2025<br><strong>Medical forms due:</strong> May 15th, 2025</p>
+							</div>
+						`
+					},
+					year7london: {
+						title: 'Year 7 London Trip - Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+							</div>
+							
+							<div style="display: flex; flex-direction: column; gap: 20px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about museum visits and London day trip itinerary</p>
+										</div>
+										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the London day trip</p>
+										</div>
+										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+							</div>
+							
+							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
+								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 15th, 2025</p>
+							</div>
+						`
+					},
+					year8london: {
+						title: 'Year 8 London Trip - Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+							</div>
+							
+							<div style="display: flex; flex-direction: column; gap: 20px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about museum visits and London day trip itinerary</p>
+										</div>
+										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the London day trip</p>
+										</div>
+										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+							</div>
+							
+							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
+								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 16th, 2025</p>
+							</div>
+						`
+					},
+					year9stonehenge: {
+						title: 'Year 9 Stonehenge Trip - Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+							</div>
+							
+							<div style="display: flex; flex-direction: column; gap: 20px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about Stonehenge visit and Salisbury town centre exploration</p>
+										</div>
+										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<div>
+											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
+											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the Stonehenge day trip</p>
+										</div>
+										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+									</div>
+								</div>
+							</div>
+							
+							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
+								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 17th, 2025</p>
+							</div>
+						`
+					},
+					bude: {
+						title: 'Bude Activity Centre - Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
+								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this residential trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
+								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
+									<li>Email notifications to parents/guardians</li>
+									<li>Posted on the school website</li>
+									<li>Distributed through your child's form tutor</li>
+									<li>Available in the school office</li>
+								</ul>
+							</div>
+						`
+					}
+				};
+				
+				const letters = tripLetters[tripType];
+				if (letters) {
+					title.textContent = letters.title;
+					content.innerHTML = letters.content;
+					modal.style.display = 'block';
+				}
+			}
+			
+			function closeLettersModal() {
+				document.getElementById('lettersModal').style.display = 'none';
+			}
+			
+			// Close modal when clicking outside of it
+			window.onclick = function(event) {
+				const installmentModal = document.getElementById('installmentModal');
+				const lettersModal = document.getElementById('lettersModal');
+				if (event.target === installmentModal) {
+					closeInstallmentModal();
+				}
+				if (event.target === lettersModal) {
+					closeLettersModal();
+				}
+			}
 		</script>
+		
+		<script type="text/javascript">
+		    $(document).ready(function(){
+		      $('.trip-slider').slick({
+		        autoplay: true,
+		        dots: true,
+		        fade: true
+		      });
+		    });
+		</script>
+
 	</body>
 </html>
