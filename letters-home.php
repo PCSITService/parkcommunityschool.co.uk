@@ -63,6 +63,14 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <!-- July 2025 -->
+                <div class="newsletter-item">
+                    <h4>July 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-07/Riders  Park - Consultee Letter.pdf" target="_blank">Riders  Park - Consultee Letter</a></li>
+                    </ul>
+                </div>
+
                 <!-- June 2025 -->
                 <div class="newsletter-item">
                     <h4>June 2025</h4>
