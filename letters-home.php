@@ -67,7 +67,7 @@
                 <div class="newsletter-item">
                     <h4>July 2025</h4>
                     <ul>
-                        <li><a href="/assets/letters/2025-07/Riders  Park - Consultee Letter.pdf" target="_blank">Riders  Park - Consultee Letter</a></li>
+                        <li><a href="/assets/letters/2025-07/Riders  Park - Consultee Letter.pdf" target="_blank">Consultation letter: Park Community School and Riders Federation</a></li>
                     </ul>
                 </div>
 
