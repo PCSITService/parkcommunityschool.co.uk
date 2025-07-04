@@ -758,85 +758,7 @@
 				<div class="large-12 columns">
 					<h2 style="text-align: center; color: white; margin-bottom: 50px; font-size: 2.5rem; font-weight: 300;">School Trips</h2>
 					
-					<!-- Trip Card 1 - Year 7 London (June 30) -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 7 End of Year Trip - London</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 7 will visit the Natural History Museum and Science Museum in London.</p>
-								</div>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('year7london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('year7london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> Monday 30th June 2025</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Kieran Pollard</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 7</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 2 - Year 8 London (July 1) -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 8 End of Year Trip - London</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 8 will visit the Natural History Museum and Science Museum in London.</p>
-								</div>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('year8london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('year8london')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> Tuesday 1st July 2025</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Henrietta Wilson</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 8</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 3 - Year 9 Stonehenge (July 2) -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Year 9 End of Year Trip - Stonehenge and Salisbury Town Centre</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Students in Year 9 will visit Stonehenge and Salisbury Town Centre.</p>
-								</div>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('year9stonehenge')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('year9stonehenge')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> Wednesday 2nd July 2025</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Jon Crowley</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £10.00</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 9</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 4 - Krakow Poland (July 8-11) -->
+					<!-- Trip Card 1 - Krakow Poland (July 8-11) -->
 					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
@@ -862,8 +784,34 @@
 						</div>
 					</div>
 					
-					<!-- Trip Card 5 - Bude Activity Centre (October 13-17) -->
-					<div style="margin-bottom: 40px;">
+					<!-- Trip Card 2 - Barcelona 2026 (October 13-17, 2025) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Barcelona 2026 - MFL Residential Trip</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Modern Foreign Languages residential trip to Barcelona.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('barcelona')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('barcelona')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Monday 13th October 2025 - Friday 17th October 2025</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Marie Dermy</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £600</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 9's & 10's</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 3 - Bude Activity Centre (October 13-17) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
 								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">2024 - 2025 Year 7 - Bude Activity Centre Residential</h3>
@@ -880,9 +828,87 @@
 								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
 								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
 									<p style="margin: 5px 0;"><strong>Date:</strong> Monday 13th October 2025 - Friday 17th October 2025</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> TBC</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> TBC</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Edd Harrison</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £395</p>
 									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 7</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 4 - Disney 2026 (February 3-6, 2026) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Disney 2026</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Educational and recreational trip to Disney for Year 10 students.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('disney')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('disney')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Tuesday 3rd February 2026 - Friday 6th February 2026</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Soo Bannard & Marie Dermy</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £450</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 10 (From Sept 2025)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 5 - New York 2026 (March 29 - April 2, 2026) -->
+					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">New York 2026</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Educational trip to New York City for Year 11 students.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('newyork')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('newyork')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Sunday 29th March 2026 - Thursday 2nd April 2026</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Soo Bannard</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £1625 (15-year-olds) / £1710 (16-year-olds)</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 11 (From Sept 2025)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Trip Card 6 - Isle of Wight Geology Fieldtrip (July 17, 2026) -->
+					<div style="margin-bottom: 40px;">
+						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
+							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
+								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Isle of Wight Geology Fieldtrip</h3>
+								<div style="margin-bottom: 20px;">
+									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
+									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Geology fieldtrip to the Isle of Wight for Year 10 students.</p>
+								</div>
+								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
+									<button onclick="showInstallmentPlan('isleofwight')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
+									<button onclick="showLetters('isleofwight')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
+								</div>
+							</div>
+							<div style="flex: 1; min-width: 250px;">
+								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
+								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
+									<p style="margin: 5px 0;"><strong>Date:</strong> Thursday 17th July 2026</p>
+									<p style="margin: 5px 0;"><strong>Lead:</strong> Joshua Macefield</p>
+									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £12.50</p>
+									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 10</p>
 								</div>
 							</div>
 						</div>
@@ -1032,78 +1058,28 @@
 							</div>
 						`
 					},
-					year7london: {
-						title: 'Year 7 London Trip - Payment Plan',
+					barcelona: {
+						title: 'Barcelona 2026 - Payment Plan',
 						content: `
 							<div style="text-align: center; margin-bottom: 25px;">
 								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £600</h3>
 								</div>
 							</div>
 							
-							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
+								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
+							</div>
 							
-							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<div style="margin-bottom: 15px;">
-									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
-								</div>
-								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
-								<div style="color: #666; font-size: 1rem;">Due by: June 20, 2025</div>
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're organizing the details for this MFL residential trip. Full payment information including installment options will be provided closer to the trip date.</div>
 							</div>
 							
 							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
-							</div>
-						`
-					},
-					year8london: {
-						title: 'Year 8 London Trip - Payment Plan',
-						content: `
-							<div style="text-align: center; margin-bottom: 25px;">
-								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
-								</div>
-							</div>
-							
-							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
-							
-							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<div style="margin-bottom: 15px;">
-									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
-								</div>
-								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
-								<div style="color: #666; font-size: 1rem;">Due by: June 21, 2025</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
-							</div>
-						`
-					},
-					year9stonehenge: {
-						title: 'Year 9 Stonehenge Trip - Payment Plan',
-						content: `
-							<div style="text-align: center; margin-bottom: 25px;">
-								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £10.00</h3>
-								</div>
-							</div>
-							
-							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
-							
-							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<div style="margin-bottom: 15px;">
-									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
-								</div>
-								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£10.00</div>
-								<div style="color: #666; font-size: 1rem;">Due by: June 22, 2025</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
 							</div>
 						`
 					},
@@ -1112,7 +1088,7 @@
 						content: `
 							<div style="text-align: center; margin-bottom: 25px;">
 								<div style="display: inline-block; background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #ffc107;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #856404;">Total Cost: TBC</h3>
+									<h3 style="margin: 0; font-size: 1.5rem; color: #856404;">Total Cost: £395</h3>
 								</div>
 							</div>
 							
@@ -1129,6 +1105,82 @@
 							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
 								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
 								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
+							</div>
+						`
+					},
+					disney: {
+						title: 'Disney 2026 - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £450</h3>
+								</div>
+							</div>
+							
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
+								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're organizing the details for this Disney trip. Full payment information including installment options will be provided closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
+							</div>
+						`
+					},
+					newyork: {
+						title: 'New York 2026 - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £1625 / £1710</h3>
+									<p style="margin: 5px 0 0 0; font-size: 0.9rem; color: #666;">£1625 for 15-year-olds, £1710 for 16-year-olds</p>
+								</div>
+							</div>
+							
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
+								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're organizing the details for this New York trip. Full payment information including installment options will be provided closer to the trip date. Note: £85 adult supplement applies for those who turn 16 before departure.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
+							</div>
+						`
+					},
+					isleofwight: {
+						title: 'Isle of Wight Geology Fieldtrip - Payment Plan',
+						content: `
+							<div style="text-align: center; margin-bottom: 25px;">
+								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £12.50</h3>
+								</div>
+							</div>
+							
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
+							
+							<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
+								<div style="margin-bottom: 15px;">
+									<strong style="color: #2d5a2d; font-size: 1.2rem;">💰 Full Payment</strong>
+								</div>
+								<div style="font-size: 1.5rem; font-weight: bold; color: #2d5a2d; margin-bottom: 10px;">£12.50</div>
+								<div style="color: #666; font-size: 1rem;">Due by: July 10, 2026</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
+								<p style="margin: 0; color: #666; line-height: 1.5;">Payment can be made online through our secure payment portal or at the school reception.</p>
 							</div>
 						`
 					}
@@ -1209,111 +1261,27 @@
 							</div>
 						`
 					},
-					year7london: {
-						title: 'Year 7 London Trip - Letters & Documents',
+					barcelona: {
+						title: 'Barcelona 2026 - Trip Letters & Documents',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
+								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
 							</div>
 							
-							<div style="display: flex; flex-direction: column; gap: 20px;">
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about museum visits and London day trip itinerary</p>
-										</div>
-										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the London day trip</p>
-										</div>
-										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this MFL residential trip to Barcelona. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
 							</div>
 							
-							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
-								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 15th, 2025</p>
-							</div>
-						`
-					},
-					year8london: {
-						title: 'Year 8 London Trip - Letters & Documents',
-						content: `
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
-							</div>
-							
-							<div style="display: flex; flex-direction: column; gap: 20px;">
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about museum visits and London day trip itinerary</p>
-										</div>
-										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the London day trip</p>
-										</div>
-										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
-							</div>
-							
-							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
-								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 16th, 2025</p>
-							</div>
-						`
-					},
-					year9stonehenge: {
-						title: 'Year 9 Stonehenge Trip - Letters & Documents',
-						content: `
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
-							</div>
-							
-							<div style="display: flex; flex-direction: column; gap: 20px;">
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Details about Stonehenge visit and Salisbury town centre exploration</p>
-										</div>
-										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for the Stonehenge day trip</p>
-										</div>
-										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
-									</div>
-								</div>
-							</div>
-							
-							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
-								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadline</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> June 17th, 2025</p>
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
+								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
+									<li>Email notifications to parents/guardians</li>
+									<li>Posted on the school website</li>
+									<li>Distributed through your child's form tutor</li>
+									<li>Available in the school office</li>
+								</ul>
 							</div>
 						`
 					},
@@ -1328,6 +1296,78 @@
 							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
 								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
 								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this residential trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
+								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
+									<li>Email notifications to parents/guardians</li>
+									<li>Posted on the school website</li>
+									<li>Distributed through your child's form tutor</li>
+									<li>Available in the school office</li>
+								</ul>
+							</div>
+						`
+					},
+					disney: {
+						title: 'Disney 2026 - Trip Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
+								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this Disney trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
+								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
+									<li>Email notifications to parents/guardians</li>
+									<li>Posted on the school website</li>
+									<li>Distributed through your child's form tutor</li>
+									<li>Available in the school office</li>
+								</ul>
+							</div>
+						`
+					},
+					newyork: {
+						title: 'New York 2026 - Trip Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
+								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this New York trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
+							</div>
+							
+							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
+								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
+								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
+									<li>Email notifications to parents/guardians</li>
+									<li>Posted on the school website</li>
+									<li>Distributed through your child's form tutor</li>
+									<li>Available in the school office</li>
+								</ul>
+							</div>
+						`
+					},
+					isleofwight: {
+						title: 'Isle of Wight Geology Fieldtrip - Letters & Documents',
+						content: `
+							<div style="text-align: center; margin-bottom: 30px;">
+								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
+								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+							</div>
+							
+							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this geology fieldtrip. All necessary documents including permission forms and trip information will be distributed closer to the trip date.</div>
 							</div>
 							
 							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
