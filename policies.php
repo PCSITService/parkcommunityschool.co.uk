@@ -408,7 +408,7 @@
             <div class="policy-card" data-search="complaints procedure">
                 <div class="policy-type-label policy">Policy</div>
                 <div class="policy-title">Complaints Policy and Procedure</div>
-                <a href="/assets/policies/Complaints Policy and Procedure - April 2023.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="complaints procedure statutory">
@@ -553,6 +553,12 @@
                 <div class="policy-type-label policy">Policy</div>
                 <div class="policy-title">Mental Health and Emotional Wellbeing</div>
                 <a href="/assets/policies/mental-health-emotional-wellbeing-policy.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+                <div class="policy-card" data-search="Mobile Phones">
+                <div class="policy-type-label policy">Policy</div>
+                <div class="policy-title">Mobile Phones</div>
+                <a href="/assets/policies/mobile-phones.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="nqt induction newly qualified teacher">
@@ -715,6 +721,12 @@
                 <div class="policy-type-label policy">Policy</div>
                 <div class="policy-title">Uniform 2024-2025</div>
                 <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+            <div class="policy-card" data-search="uniform dress code">
+                <div class="policy-type-label policy">Policy</div>
+                <div class="policy-title">Uniform 2025-2026</div>
+                <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="volunteering volunteer helper">
