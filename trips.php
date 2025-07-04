@@ -1206,178 +1206,208 @@
 				
 				const tripLetters = {
 					krakow: {
-						title: 'Krakow, Poland - Trip Letters & Documents',
+						title: 'Krakow, Poland - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
 								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Trip Information & Forms</h3>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="display: flex; flex-direction: column; gap: 20px;">
+							<div style="display: flex; flex-direction: column; gap: 15px;">
 								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
 									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📄 Trip Information Letter</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Complete details about the trip itinerary, what to expect, and preparation</p>
-										</div>
-										<button style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
+										<a href="assets/trips/letters/krakow/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
 								
 								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
 									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📋 Permission Form</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Required consent form for international trip participation</p>
-										</div>
-										<button style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/krakow/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
 								
 								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
 									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">🏥 Medical Information Form</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Essential health and medical details for trip safety</p>
-										</div>
-										<button style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
+										<a href="assets/trips/letters/krakow/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
 								
 								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
 									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<div>
-											<h4 style="margin: 0 0 5px 0; color: #333;">📑 Packing List</h4>
-											<p style="margin: 0; color: #666; font-size: 0.9rem;">Comprehensive list of items to pack for the Poland trip</p>
-										</div>
-										<button style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem;">Download</button>
+										<h4 style="margin: 0; color: #333;">letter4.pdf</h4>
+										<a href="assets/trips/letters/krakow/letter4.pdf" target="_blank" style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
-							</div>
-							
-							<div style="background-color: #e8f5e8; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center;">
-								<h5 style="margin: 0 0 10px 0; color: #2d5a2d;">📧 Important Deadlines</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;"><strong>Permission forms due:</strong> May 1st, 2025<br><strong>Medical forms due:</strong> May 15th, 2025</p>
 							</div>
 						`
 					},
 					barcelona: {
-						title: 'Barcelona 2026 - Trip Letters & Documents',
+						title: 'Barcelona 2026 - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
-								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this MFL residential trip to Barcelona. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
-								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
-									<li>Email notifications to parents/guardians</li>
-									<li>Posted on the school website</li>
-									<li>Distributed through your child's form tutor</li>
-									<li>Available in the school office</li>
-								</ul>
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
+										<a href="assets/trips/letters/barcelona/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/barcelona/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
+										<a href="assets/trips/letters/barcelona/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
 							</div>
 						`
 					},
 					bude: {
-						title: 'Bude Activity Centre - Letters & Documents',
+						title: 'Bude Activity Centre - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
-								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this residential trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
-								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
-									<li>Email notifications to parents/guardians</li>
-									<li>Posted on the school website</li>
-									<li>Distributed through your child's form tutor</li>
-									<li>Available in the school office</li>
-								</ul>
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
+										<a href="assets/trips/letters/bude/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/bude/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
+										<a href="assets/trips/letters/bude/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter4.pdf</h4>
+										<a href="assets/trips/letters/bude/letter4.pdf" target="_blank" style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
 							</div>
 						`
 					},
 					disney: {
-						title: 'Disney 2026 - Trip Letters & Documents',
+						title: 'Disney 2026 - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
-								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this Disney trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
-								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
-									<li>Email notifications to parents/guardians</li>
-									<li>Posted on the school website</li>
-									<li>Distributed through your child's form tutor</li>
-									<li>Available in the school office</li>
-								</ul>
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">Initial Letter</h4>
+										<a href="assets/trips/letters/disney-2026/Disney 2026 - initial letter June 2025.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/disney-2026/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
+										<a href="assets/trips/letters/disney/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
 							</div>
 						`
 					},
 					newyork: {
-						title: 'New York 2026 - Trip Letters & Documents',
+						title: 'New York 2026 - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
-								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this New York trip. All necessary documents including permission forms, packing lists, and trip information will be distributed closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
-								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
-									<li>Email notifications to parents/guardians</li>
-									<li>Posted on the school website</li>
-									<li>Distributed through your child's form tutor</li>
-									<li>Available in the school office</li>
-								</ul>
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">Initial Letter</h4>
+										<a href="assets/trips/letters/newyork-2026/New York 2026 - initial letter (June 2025).pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/newyork/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
+										<a href="assets/trips/letters/newyork/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter4.pdf</h4>
+										<a href="assets/trips/letters/newyork/letter4.pdf" target="_blank" style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
 							</div>
 						`
 					},
 					isleofwight: {
-						title: 'Isle of Wight Geology Fieldtrip - Letters & Documents',
+						title: 'Isle of Wight Geology Fieldtrip - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">📧</div>
-								<h3 style="color: #4a90a4; margin: 0;">Documents Coming Soon</h3>
+								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
+								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
 							</div>
 							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; margin-bottom: 25px;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Trip letters and forms will be available once trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're currently organizing the details for this geology fieldtrip. All necessary documents including permission forms and trip information will be distributed closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📬 How You'll Receive Documents</h5>
-								<ul style="margin: 10px 0; padding-left: 20px; color: #666; line-height: 1.6;">
-									<li>Email notifications to parents/guardians</li>
-									<li>Posted on the school website</li>
-									<li>Distributed through your child's form tutor</li>
-									<li>Available in the school office</li>
-								</ul>
+							<div style="display: flex; flex-direction: column; gap: 15px;">
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
+										<a href="assets/trips/letters/isleofwight/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
+								
+								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
+									<div style="display: flex; justify-content: space-between; align-items: center;">
+										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
+										<a href="assets/trips/letters/isleofwight/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+									</div>
+								</div>
 							</div>
 						`
 					}
