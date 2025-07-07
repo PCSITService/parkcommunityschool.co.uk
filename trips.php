@@ -1397,8 +1397,8 @@
 							<div style="display: flex; flex-direction: column; gap: 15px;">
 								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
 									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
-										<a href="assets/trips/letters/isleofwight/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
+										<h4 style="margin: 0; color: #333;">Initial Letter</h4>
+										<a href="assets/trips/letters/iow-2025/Geology IOW Fieldtrip Parent Letter 17 06 25.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
 								
