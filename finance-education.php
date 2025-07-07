@@ -55,6 +55,48 @@
             padding: 0 2rem;
         }
 
+        /* Introduction Section */
+        .intro-section {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-subtle);
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+            border-left: 4px solid var(--park-green);
+        }
+
+        .intro-content p {
+            color: var(--text-medium);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .intro-list {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .intro-list li {
+            color: var(--text-medium);
+            margin-bottom: 0.4rem;
+            position: relative;
+            line-height: 1.5;
+            font-size: 0.9rem;
+        }
+
+        .intro-list li::marker {
+            color: var(--park-green);
+        }
+
+        .intro-conclusion {
+            font-weight: 500;
+            color: var(--text-dark) !important;
+            font-style: italic;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
         /* Year progression layout matching PDF */
         .year-progression {
             display: flex;
@@ -270,6 +312,11 @@
                 padding: 2rem 0;
             }
 
+            .intro-section {
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
             .year-block {
                 grid-template-columns: 1fr;
             }
@@ -339,6 +386,24 @@
         <div class="row">
             <div class="large-12 columns">
                 <div class="content-wrapper">
+
+                    <!-- Introduction Section -->
+                    <div class="intro-section">
+                        <div class="intro-content">
+                            <p>As part of our <strong>much more than just a school</strong> ethos, we strive to ensure our students are equipped with the skills and knowledge to thrive beyond school. We recognise that financial competence plays a significant role in how happy, safe and successful we can be in life.</p>
+                            
+                            <p>Being financially competent allows our students the freedom as adults to make the good choices for themselves, their families and their community. We want our students to leave Park knowing amongst other things:</p>
+                            
+                            <ul class="intro-list">
+                                <li>the risks and benefits to investing</li>
+                                <li>their tax obligations as members of the economy</li>
+                                <li>the skills and requirements to saving and budgeting successfully</li>
+                                <li>the benefits and risks associated with renting or owning your own home</li>
+                            </ul>
+                            
+                            <p class="intro-conclusion">All in the aim that our students are financially competent members of society, empowered to be the best they can be.</p>
+                        </div>
+                    </div>
 
                     <!-- Year Progression -->
                     <div class="year-progression">
