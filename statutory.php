@@ -318,7 +318,7 @@
 
             <div class="policy-card" data-search="charging remissions fees">
                 <div class="policy-title">Charging and Remissions</div>
-                <a href="/assets/policies/charging-and-remissions.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="complaints procedure">
