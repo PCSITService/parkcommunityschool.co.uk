@@ -414,7 +414,7 @@
             <div class="policy-card" data-search="complaints procedure statutory">
                 <div class="policy-type-label statutory">Statutory</div>
                 <div class="policy-title">Complaints Procedure (Statutory)</div>
-                <a href="/assets/statutory/complaints.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="confidentiality privacy information">
