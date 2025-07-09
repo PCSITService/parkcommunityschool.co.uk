@@ -323,7 +323,7 @@
 
             <div class="policy-card" data-search="complaints procedure">
                 <div class="policy-title">Complaints Procedure</div>
-                <a href="/assets/policies/Complaints Policy and Procedure - April 2023.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="contact details information">
