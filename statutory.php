@@ -326,11 +326,6 @@
                 <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
-            <div class="policy-card" data-search="contact details information">
-                <div class="policy-title">Contact Details</div>
-                <a href="/contact.php" class="policy-link">View Contact Info</a>
-            </div>
-
             <div class="policy-card" data-search="curriculum subjects">
                 <div class="policy-title">Curriculum</div>
                 <a href="/curriculum.php" class="policy-link">View Curriculum</a>
