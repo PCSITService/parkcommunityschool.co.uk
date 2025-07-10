@@ -1178,7 +1178,7 @@ if ($showCaptcha) {
                 
                 <div class="row">
                     <div class="columns">
-                        <a class="small button radius success" href="assets/welcome-to-park-2024.pdf" target="_blank">Welcome to Park</a>
+                        <a class="small button radius success" href="assets/Welcome to Park 2025.pdf" target="_blank">Welcome to Park</a>
                     </div>
                     <div class="columns">
                         <a class="small button radius success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
@@ -1247,7 +1247,9 @@ if ($showCaptcha) {
 
                 <p>Here you will find all the information you need to help with your child's transition from Year 6 to Year 7.</p>
                 <ul>
+                    <li><a href="/assets/Welcome to Park 2025.pdf" target="_blank">Welcome to Park</a></li>
                     <li><a href="/assets/freshers.week/2025/Transition 2025 - letter 1 - March 2025.pdf" target="_blank">Transition Letter 1 - March 2025</a></li>
+                    <li><a href="/assets/freshers.week/2025/Transition 2025 - letter 2 - May 2025.pdf" target="_blank">Transition Letter 2 - May 2025</a></li>
                 </ul>
 
                 <a class="expand button radius success" href="https://forms.office.com/e/rWrywTPz9p" target="_blank">Acceptance Form</a>
