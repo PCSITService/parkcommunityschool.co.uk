@@ -67,7 +67,8 @@
                 <div class="newsletter-item">
                     <h4>July 2025</h4>
                     <ul>
-                        <li><a href="/assets/Welcome to Park 2025.pdf" target="_blank">Welcome to Park Booklet</a></li>
+                        <li><a href="/assets/Welcome to Park 2025 (All Students).pdf" target="_blank">Welcome to Park - All Students Booklet</a></li>
+                        <li><a href="/assets/Welcome to Park 2025 (Year 7).pdf" target="_blank">Welcome to Park - Year 7 Booklet</a></li>
                         <li><a href="/assets/letters/2025-07/Year 9 end of year July 2025.pdf" target="_blank">End of Year Review - Year 9</a></li>
                         <li><a href="/assets/letters/2025-07/Park Newsletter 7 July 2.pdf" target="_blank">Newsletter - 7th July 2025</a></li>
                         <li><a href="/assets/letters/2025-07/DofE Launch - Year 8.pdf" target="_blank">DofE Launch - Year 8</a></li>
