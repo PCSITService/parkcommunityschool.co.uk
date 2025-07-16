@@ -91,6 +91,14 @@
                 line-height: 1.5;
             }
             
+            /* Button container for side-by-side buttons */
+            .button-container {
+                display: flex;
+                gap: var(--spacing-sm);
+                margin-top: var(--spacing-sm);
+                flex-wrap: wrap;
+            }
+            
             /* Button styles */
             .vacancy-link {
                 display: inline-flex;
@@ -102,7 +110,7 @@
                 border-radius: 4px;
                 font-weight: 500;
                 transition: var(--transition);
-                margin-top: var(--spacing-sm);
+                white-space: nowrap;
             }
             
             .vacancy-link:hover, 
@@ -115,6 +123,18 @@
             
             .vacancy-link i {
                 margin-right: 8px;
+            }
+            
+            /* Secondary button style for recruitment pack */
+            .vacancy-link.secondary {
+                background-color: var(--secondary-color);
+                color: white !important;
+            }
+            
+            .vacancy-link.secondary:hover,
+            .vacancy-link.secondary:focus {
+                background-color: #555555;
+                color: white !important;
             }
             
             /* Documentation box */
@@ -223,6 +243,14 @@
                     width: 100%;
                     max-width: 100%;
                 }
+                
+                .button-container {
+                    flex-direction: column;
+                }
+                
+                .vacancy-link {
+                    justify-content: center;
+                }
             }
         </style>
     </head>
@@ -246,9 +274,14 @@
             <!-- Active vacancy card -->
             <article class="vacancy-card">
                 <h3>Leader of Alternative Education Lift Off, Emsworth</h3>
-                <a href="assets/recruitment/2025-07/Lift Off Emsworth (2).pdf" class="vacancy-link" target="_blank" aria-label="Download Horticulture Assistant job details">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
+                <div class="button-container">
+                    <a href="assets/recruitment/2025-07/Lift Off Emsworth (2).pdf" class="vacancy-link" target="_blank" aria-label="Download Horticulture Assistant job details">
+                        <i class="fas fa-download" aria-hidden="true"></i> View Details
+                    </a>
+                    <a href="assets/recruitment/2025-07/Lift Off Emsworth Advert.pdf" class="vacancy-link secondary" target="_blank" aria-label="Download Recruitment Pack">
+                        <i class="fas fa-file-alt" aria-hidden="true"></i> Recruitment Pack
+                    </a>
+                </div>
             </article>
             
             <!-- Governor vacancies notice -->
