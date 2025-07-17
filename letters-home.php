@@ -67,6 +67,7 @@
                 <div class="newsletter-item">
                     <h4>July 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-07/Park Newsletter End of Term Newsletter-compressed.pdf" target="_blank">Newsletter - 17th July 2025</a></li>
                         <li><a href="/assets/letters/2025-07/15 07 25 Support  Resources for Parents - Self-harm Reduction and Suicide Prevention.pdf" target="_blank">Parents - Self-harm Reduction and Suicide Prevention</a></li>
                         <li><a href="/assets/letters/2025-07/End of term letter - July 2025.pdf" target="_blank">End of Term Letter - July 2025</a></li>
                         <li><a href="/assets/Welcome to Park 2025 (All Students).pdf" target="_blank">Welcome to Park - All Students Booklet</a></li>
