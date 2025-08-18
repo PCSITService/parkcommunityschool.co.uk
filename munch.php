@@ -1,264 +1,613 @@
 <!doctype html>
-<html class="no-js" lang="en" >
-    <head>
+<html class="no-js" lang="en">
+<head>
+    <title>Park Community School | MUNCH & Community Pantry</title>
+    <?php include("includes/head.html") ?>
+    <style>
+        /* Enhanced visual styling while maintaining original layout structure */
+        :root {
+            --green: #27ae60;
+            --blue: #3498db;
+            --red: #e74c3c;
+            --purple: #9b59b6;
+            --dark: #2c3e50;
+            --light-gray: #f8f9fa;
+            --text-gray: #555;
+            --shadow: 0 4px 6px rgba(0,0,0,0.1);
+            --shadow-hover: 0 8px 15px rgba(0,0,0,0.15);
+        }
 
-        <title>Park Community School | Munch</title>
-        <?php include("includes/head.html") ?>
-    </head>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        /* Header improvements */
+        header {
+            background: linear-gradient(135deg, var(--dark) 0%, #34495e 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Enhanced info cards */
+        .info-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            transition: all 0.3s ease;
+            border-left: none;
+            overflow: hidden;
+        }
+
+        .info-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 5px;
+            background: var(--accent-color);
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .info-card.green { --accent-color: var(--green); }
+        .info-card.blue { --accent-color: var(--blue); }
+        .info-card.red { --accent-color: var(--red); }
+        .info-card.purple { --accent-color: var(--purple); }
+
+        .info-card h5 {
+            margin: 0 0 0.75rem 0;
+            color: var(--accent-color);
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .info-card p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: var(--text-gray);
+        }
+
+        /* Opening times styling */
+        .opening-times-section {
+            background: var(--light-gray);
+            padding: 3rem 0;
+        }
+
+        .opening-times-section h3 {
+            margin-bottom: 2rem;
+            color: var(--dark);
+            text-align: center;
+        }
+
+        .time-block {
+            display: inline-block;
+            margin: 0.5rem 0.75rem;
+            padding: 1rem 1.5rem;
+            background: white;
+            border-radius: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-size: 0.95rem;
+            transition: transform 0.2s ease;
+        }
+
+        .time-block:hover {
+            transform: translateY(-2px);
+        }
+
+        .time-block .day {
+            font-weight: bold;
+            color: var(--dark);
+        }
+
+        .button.success.radius {
+            background: var(--green);
+            border: none;
+            padding: 0.85rem 2rem;
+            border-radius: 30px;
+            font-weight: 500;
+            text-transform: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(39, 174, 96, 0.3);
+        }
+
+        .button.success.radius:hover {
+            background: #219a52;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+        }
+
+        /* About section improvements */
+        .about-section {
+            padding: 4rem 0;
+        }
+
+        .about-column {
+            padding: 0 1rem;
+            min-height: 500px; /* Ensure consistent height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-column h3 {
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+        }
+
+        .about-column p {
+            color: var(--text-gray);
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            flex-grow: 1; /* Allow text to take available space */
+        }
+
+        .about-column .video-wrapper {
+            margin-top: auto; /* Push video to bottom */
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: box-shadow 0.3s ease;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .video-wrapper:hover {
+            box-shadow: var(--shadow-hover);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        /* Impact section */
+        .impact-section {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 0;
+        }
+
+        .impact-section h3 {
+            color: white;
+            margin-bottom: 3rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .impact-item {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .impact-number {
+            font-size: 3.5rem;
+            margin: 0 0 0.5rem 0;
+            font-weight: 700;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .impact-number.green { color: var(--green); }
+        .impact-number.blue { color: var(--blue); }
+        .impact-number.red { color: var(--red); }
+        .impact-number.purple { color: var(--purple); }
+
+        .impact-item p {
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Testimonial improvements */
+        .testimonial-section {
+            padding: 4rem 0;
+        }
+
+        .testimonial-quote {
+            border: none;
+            font-size: 1.4rem;
+            color: var(--text-gray);
+            font-style: italic;
+            text-align: center;
+            position: relative;
+            padding: 2rem;
+            background: var(--light-gray);
+            border-radius: 15px;
+            margin: 0;
+        }
+
+        .testimonial-quote::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--green);
+            position: absolute;
+            left: 1rem;
+            top: -0.5rem;
+            font-family: serif;
+        }
+
+        .testimonial-cite {
+            display: block;
+            margin-top: 1.5rem;
+            font-size: 1.1rem;
+            color: var(--dark);
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        /* Location section */
+        .location-section {
+            background: var(--light-gray);
+            padding: 4rem 0;
+        }
+
+        .location-info h3 {
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+            font-size: 1.75rem;
+        }
+
+        .location-info h4 {
+            color: var(--dark);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .location-info p {
+            font-size: 1.1rem;
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+
+        .location-info a {
+            color: var(--green);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .location-info a:hover {
+            color: #219a52;
+            text-decoration: underline;
+        }
+
+        /* Help section */
+        .help-section {
+            padding: 4rem 0;
+        }
+
+        .help-item {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .help-item h4 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .help-item p {
+            color: var(--text-gray);
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .button.radius {
+            background: var(--green);
+            border: none;
+            padding: 0.85rem 2rem;
+            border-radius: 30px;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .button.radius:hover {
+            background: #219a52;
+            transform: translateY(-2px);
+            color: white;
+        }
+
+        /* Partners section */
+        .partners-section {
+            background: var(--light-gray);
+            padding: 3rem 0;
+        }
+
+        .partners-section p {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--text-gray);
+            font-size: 1.1rem;
+        }
+
+        .partners-grid {
+            text-align: center;
+        }
+
+        .partners-grid li {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .partners-grid img {
+            max-width: 100%;
+            height: auto;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+            filter: grayscale(20%);
+        }
+
+        .partners-grid img:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+            transform: scale(1.05);
+        }
+
+        /* Responsive improvements */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .time-block {
+                display: block;
+                margin: 0.5rem auto;
+                max-width: 250px;
+            }
+
+            .testimonial-quote {
+                font-size: 1.2rem;
+                padding: 1.5rem;
+            }
+
+            .testimonial-quote::before {
+                font-size: 3rem;
+                left: 0.5rem;
+            }
+
+            .impact-number {
+                font-size: 2.5rem;
+            }
+
+            /* Stack about columns on mobile */
+            .about-section .columns > div[style*="inline-block"] {
+                display: block !important;
+                width: 100% !important;
+                margin: 0 0 2rem 0 !important;
+            }
+
+            .about-column {
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
 <body class="page-misc">
-<!-- NAVIGATION -->
-<?php include("includes/topnav.html") ?>
+    <!-- NAVIGATION -->
+    <?php include("includes/topnav.html") ?>
 
-<!-- HEADER SECTION -->
-<header class="header-misc">
-    <div class="row">
-      <div class="medium-8 large-8 columns">
-            <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/munch/munch_logo.png" alt="MUNCH"></div>
-      </div>
-      <div class="medium-12 columns">
-              <br>
-              <p class="text-capitalize">MUNCH ensures that no child, no matter what school or age need go hungry during the holidays.</p>
-      </div>
-    </div>
-</header>
-
-<!-- Breadcrumb -->
-<div class="row">
-    <ul class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-        <li role="menuitem" class="current"><a>MUNCH</a></li>
-        <li role="menuitem"><a href="/events.php">Events</a></li>
-    </ul>
-</div>
-
-<!-- CONTENT -->
-<section>
-    <div class="row">
-
-        <div class="columns">
-            <p><strong>MUNCH is back for every Holiday!</strong> <small>| Monday 11am - 1pm, Tuesday 11am - 1pm, Wednesday 5pm - 7pm and Thursday 11am - 1pm</small></p>
-            <p>MUNCH is back <strong>every Thursday tea time, 4pm-5.30pm</strong>.</p>
-            <div class="columns text-center">
-                <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Munch 2022 Flyer</a>
-            </div>
-            <br>
-            <hr>
-        </div>
-
-        <br>
-        <div class="medium-12 columns">
-            <p>As a school we were aware of the food poverty that some of our community experience and were concerned our students were going hungry. This was reinforced when our local community told us how the food bank was consistently running out of food. We set up a community group to tackle food poverty in our area and in February 2017 MUNCH was born.</p>
-            <p>We successfully contacted external agencies for funding and MUNCH is now in operation supplying nutritious 2 course meals and activities for children and their families attending any Leigh Park school during the school holidays.   Play equipment is provided, along with learning practitioners, who help our guests learn via play encouraging learning of vital maths and English skills.   Our school nurse is also on hand, on a drop in basis for any concerns parents may have.</p>
-        </div>
+    <!-- HEADER SECTION -->
+    <header>
         <div class="row">
-            <div class="columns small-8 small-push-2">
-                <div class="flex-video widescreen border-radius-5">
-                    <iframe src="https://player.vimeo.com/video/299177359" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div class="medium-12 columns">
+                <h1>MUNCH & Community Pantry</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- QUICK INFO CARDS -->
+    <section style="padding: 3rem 0;">
+        <div class="row">
+            <div class="medium-3 columns">
+                <div class="info-card green">
+                    <h5>Free Meals</h5>
+                    <p>2-course meals during holidays</p>
+                </div>
+            </div>
+            <div class="medium-3 columns">
+                <div class="info-card blue">
+                    <h5>Community Pantry</h5>
+                    <p>£5 weekly subscription</p>
+                </div>
+            </div>
+            <div class="medium-3 columns">
+                <div class="info-card red">
+                    <h5>Emergency Food</h5>
+                    <p>Always stocked fridge</p>
+                </div>
+            </div>
+            <div class="medium-3 columns">
+                <div class="info-card purple">
+                    <h5>Activities</h5>
+                    <p>Learning through play</p>
                 </div>
             </div>
         </div>
-        <div class="medium-12 columns">
-            <br>
-            <p>Our vision for MUNCH is to develop a sustainable local social enterprise by establishing a community food shop and café.  This will provide volunteering and employment opportunities, as well as a casual meeting and eating venue to reduce social isolation – watch this space for more details.</p>
-            <p>We work in partnership with organisations who have excess food which otherwise would go into landfill .  This helps to fill our MUNCH fridge in the Dickinson Centre.  This is always fully stocked with emergency food for local families who are most in need.</p>
-            <p>We have expanded MUNCH to both Thursday nights and Sunday lunches.</p>
-            <br><br>
+    </section>
+
+    <!-- OPENING TIMES -->
+    <section class="opening-times-section">
+        <div class="row">
+            <div class="medium-12 columns text-center">
+                <h3>When We're Open</h3>
+                <div class="time-block">
+                    <span class="day">Monday</span> 11am-1pm
+                </div>
+                <div class="time-block">
+                    <span class="day">Tuesday</span> 11am-1pm
+                </div>
+                <div class="time-block">
+                    <span class="day">Wednesday</span> 5pm-7pm
+                </div>
+                <div class="time-block">
+                    <span class="day">Thursday</span> 11am-1pm & 4pm-5:30pm
+                </div>
+                <div style="margin-top: 2rem;">
+                    <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius" style="margin: 0 0.5rem;">MUNCH Flyer</a>
+                    <a href="assets/pantry/flyer.pdf" class="button success radius" style="margin: 0 0.5rem;">Pantry Info</a>
+                </div>
+            </div>
         </div>
-    <br><br><br>
-</section>
+    </section>
 
-<section class="grey-bg">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="medium-12 columns">
-            <h4>MUNCH Testimonial - PO9</h4>
-            <blockquote>“I like everything about MUNCH, and the fact that they do this for people” from Olivia age 10.</blockquote>
-
-            <blockquote>“It helps me out loads. I have a large family and struggle during holidays. The kids like coming too. Thank you”.</blockquote>
-
-            <blockquote>“A huge help to those on a very limited income. Children also like to come and see any friends. A massive thank you xxx” Love Kath.</blockquote>
-
-            <blockquote>“We love MUNCH! The food is lovely, the games etc. is fantastic for the kids. It’s a great way to get them out of the house and eating a healthy meal. We really enjoy and appreciate it.” Thank you Ms Roberts.</blockquote>
-
+    <!-- ABOUT SECTION -->
+    <section class="about-section">
+        <div class="row">
+            <div class="columns" style="text-align: center;">
+                <div style="display: inline-block; width: 45%; margin-right: 2%; vertical-align: top; text-align: left; min-height: 500px;" class="about-column">
+                    <h3>Fighting Food Poverty Since 2017</h3>
+                    <p>MUNCH provides free nutritious meals and activities for children and families during school holidays. We've expanded to include Thursday tea times and Sunday lunches.</p>
+                    <div class="video-wrapper" style="width: 100%; margin-top: auto;">
+                        <iframe src="https://player.vimeo.com/video/299177359" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div style="display: inline-block; width: 45%; margin-left: 2%; vertical-align: top; text-align: left; min-height: 500px;" class="about-column">
+                    <h3>Community Pantry</h3>
+                    <p>Get more for less with our £5 weekly subscription. Choose the food your family needs from our well-stocked pantry at the Dickinson Centre.</p>
+                    <div class="video-wrapper" style="width: 100%; margin-top: auto;">
+                        <iframe src="https://player.vimeo.com/video/515253878" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <br><br><br>
-</section>
+    </section>
 
-<section>
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row">
-        <div class="medium-6 columns">
-            <h4>Order a MUNCH Money Box</h4>
-            <p>If you’re a local business or looking for an easy way to help us then please order one of our MUNCH Money boxes to fill up and raise money to feed local children who qualify for free school meals during the school holidays.  When you have filled it up, please return it to us at school, or please contact us and we’ll collect it. We will post you a receipt and replace it on request.</p>
-            <p><a href="mailto:munch@pcs.hants.sch.uk">Order your MUNCH money box today!</a></p>
+    <!-- IMPACT NUMBERS -->
+    <section class="impact-section">
+        <div class="row text-center">
+            <h3>Our Impact in 2023-24</h3>
+            <div class="medium-3 columns impact-item">
+                <h2 class="impact-number green">9,788</h2>
+                <p>Meals Served</p>
+            </div>
+            <div class="medium-3 columns impact-item">
+                <h2 class="impact-number blue">895</h2>
+                <p>Emergency Meals</p>
+            </div>
+            <div class="medium-3 columns impact-item">
+                <h2 class="impact-number red">140+</h2>
+                <p>Christmas Guests</p>
+            </div>
+            <div class="medium-3 columns impact-item">
+                <h2 class="impact-number purple">60</h2>
+                <p>Schools Involved</p>
+            </div>
         </div>
-        <div class="medium-6 columns text-center">
-            <img src="images/munch/munch_money_box.jpg">
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial-section">
+        <div class="row">
+            <div class="medium-8 medium-centered columns text-center">
+                <blockquote class="testimonial-quote">
+                    We love MUNCH! The food is lovely, the games are fantastic for the kids. It's a great way to get them out of the house and eating a healthy meal.
+                    <cite class="testimonial-cite">- Ms Roberts</cite>
+                </blockquote>
+            </div>
         </div>
-        <br><br>
-    </div>
-    <br>
-</section>
+    </section>
 
-<section>
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row">
-        <div class="columns">
-            <h4>CHRUNCH 2018 <small>Christmas in a box</small></h4>
-            <p>The MUNCH team at Park Community School working in partnership with the FatFace Foundation, have created CHRUNCH to try and reduce food poverty at Christmas in the Havant area. PO9 Foodbank will be assisting with distribution from the Dickinson Centre at Park Community School.</p>
-
-            <p><strong>This years CHRUNCH has now finished</strong>, the support for this project has been fantatic we wish to thank everyone that made this possible.</p>
-            <p>If you wish to support future projects please contact our <a href="/contact.php">school reception</a>.</p>
+    <!-- LOCATION -->
+    <section class="location-section">
+        <div class="row">
+            <div class="medium-6 columns location-info" style="display: flex; flex-direction: column; justify-content: center;">
+                <div>
+                    <h3>Find Us</h3>
+                    <p><strong>Dickinson Centre</strong><br>
+                    Park Community School<br>
+                    Middle Park Way, Havant PO9 4BU</p>
+                    
+                    <h4>Contact</h4>
+                    <p>Tel: 02392489811<br>
+                    Email: <a href="mailto:munch@pcs.hants.sch.uk">munch@pcs.hants.sch.uk</a></p>
+                </div>
+            </div>
+            <div class="medium-6 columns" style="display: flex; align-items: center;">
+                <div class="video-wrapper" style="width: 100%;">
+                    <iframe src="https://player.vimeo.com/video/482577938" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-        <div class="columns text-center">
-            <a href="assets/munch/chrunch_review_2018.pdf" target="_blank" class="button success radius">CHRUNCH Review</a>
+    </section>
+
+    <!-- HOW TO HELP -->
+    <section class="help-section">
+        <div class="row">
+            <div class="medium-4 columns text-center help-item">
+                <h4>Support MUNCH</h4>
+                <p>Order a money box for your business to help feed local children.</p>
+                <a href="mailto:munch@pcs.hants.sch.uk" class="button radius">Get a Money Box</a>
+            </div>
+            <div class="medium-4 columns text-center help-item">
+                <h4>Join Our Pantry</h4>
+                <p>£5 weekly subscription helps your family budget go further.</p>
+                <a href="assets/pantry/flyer.pdf" class="button radius">Learn More</a>
+            </div>
+            <div class="medium-4 columns text-center help-item">
+                <h4>Need Help?</h4>
+                <p>If you're struggling, we're here to help. No questions asked.</p>
+                <a href="/contact.php" class="button radius">Contact Us</a>
+            </div>
         </div>
-    </div>
-    
-    <br><br>
-</section>
+    </section>
 
-<section class="grey-bg" id="chrunch">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="small-12 medium-4 columns">
-
-            <h4>2023-2024</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>9,788 Meals </li>
-                    <li>895 Emergency Frozen Meals </li>
-                    <li>Over 140 guests for a Christmas Day</li>
+    <!-- PARTNERS -->
+    <section class="partners-section">
+        <div class="row">
+            <div class="columns text-center">
+                <p>Made possible by our partners:</p>
+                <ul class="small-block-grid-2 medium-block-grid-5 partners-grid">
+                    <li><img src="images/pantry/theguinnesspartnership.png" alt="the guinness partnership"></li>
+                    <li><img src="images/pantry/hampshirecountycouncil.png" alt="hampshire county council"></li>
+                    <li><img src="images/pantry/havantboroughcouncil.png" alt="havant borough council"></li>
+                    <li><img src="images/pantry/fareshare.png" alt="fareshare"></li>
+                    <li><img src="images/pantry/c4c.png" alt="connect4communities"></li>
                 </ul>
-            <hr>
-
-            <h4>2022-2023</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>6249 Meals </li>
-                    <li>417 Emergency Frozen Meals </li>
-                    <li>Over 140 guests for Christmas Lunch</li>
-                </ul>
-            <hr>
-
+            </div>
         </div>
-    <div class="row">
-        <div class="small-12 medium-4 columns">
-            <h4>2021-2022</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>January to June- Closed for Covid </li>
-                    <li>July to March – Over 2000 meals </li>
-                    <li>Over 140 guests for Christmas Lunch </li>
-                </ul>
-            <hr>
+    </section>
 
-        </div>
-    <div class="row">
-        <div class="small-12 medium-4 columns">
-            <h4>2020-2021</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>Closed due to COVID-19</li>
-                </ul>
-            <hr>
+    <!-- FOOTER -->
+    <?php include("includes/footer.html") ?>
 
-        </div>
-    	<div class="small-12 medium-4 columns">
-            <h4>2019-2020</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>6,348 meals provided</li>
-                    <li>855 children attended</li>
-                    <li>60 schools involved</li>
-                    <li>140 guests for Christmas Lunch</li>
-                    <li>272 attended Munch-a-cise</li>
-                </ul>
-            <hr>
-
-        </div>
-    	<div class="small-12 medium-4 columns">
-            <h4>2018-2019</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>5,832 meals provided</li>
-                    <li>577 children attended</li>
-                    <li>58 schools involved</li>
-                    <li>158 guests for Christmas Lunch</li>
-                </ul>
-            <hr>
-
-        </div>
-        <div class="small-12 medium-4 columns">
-            <h4>2017-2018</h4>
-            <hr>
-                <ul class="bullet">
-                    <li>2,570 meals provided</li>
-                    <li>1,892 children attended</li>
-                    <li>34 schools involved</li>
-                    <li>60 Average daily attendance</li>
-                    <li>20+ organisations fund the project</li>
-                    <li>4 churches volunteering</li>
-                    <li>120 guests for Christmas Lunch</li>
-                </ul>
-            <hr>
-
-        </div>
-
-        
-
-        <div class="columns text-center">
-            <a href="assets/munch/munch_review_2019.pdf" target="_blank" class="button success radius">Munch Review</a>
-        </div>
-    </div>
-    
-    <br><br>
-</section>
-
-<section>
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row">
-
-        <div class="columns">
-          <!--  <p>At Park on Tuesday we were delighted to welcome Katy Trapani the Community Champion from Asda Havant who kindly presented Susan Parish, Business and Community Manager at Park Community School a  cheque to help support the MUNCH project that is running throughout the holidays. Susan said “I am delighted to accept this on behalf of Park Community School for the MUNCH project, it makes such a difference and ensures that no child or parent will go hungry in Leigh Park”.</p>
-            <p>Katy also kindly brought along crayons, games and drawing pads for the children to enjoy when they come to MUNCH. Thank you so much to the ASDA Foundation.</p> -->
-        </div>
-
-        <div class="medium-6 columns text-center">
-            <img src="images/munch/munch_asda_award.jpg">
-        </div>
-
-        <div class="medium-6 columns text-center">
-            <img src="images/munch/munch_asda_award2.jpg">
-        </div>
-
-        <div class="columns">
-        <br>
-            <p>If anyone is hungry throughout the holidays please do <a href="/contact.php">contact Park Community School</a> for further details.</p>
-        </div>
-        <br><br>
-    </div>
-    
-    <br>
-</section>
-
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
-
-
-        <!-- End Site Footer -->
-        <script src="js/vendor/libraries.min.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
-        <script src="js/app.min.js"></script>
-    </body>
+    <!-- End Site Footer -->
+    <script src="js/vendor/libraries.min.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
 </html>
