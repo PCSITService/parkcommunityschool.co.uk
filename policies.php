@@ -351,6 +351,13 @@
                 <a href="/assets/policies/admissions-2025-2026.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
+            <div class="policy-card" data-search="admissions 2025 2026">
+                <div class="policy-type-label policy">Policy</div>
+                <div class="policy-title">Admissions 2026-2027</div>
+                <a href="/assets/policies/Admissions Policy 2026-2027.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+            </div>
+
+
             <div class="policy-card" data-search="administration medicines medical health">
                 <div class="policy-type-label policy">Policy</div>
                 <div class="policy-title">Administration of Medicines</div>
