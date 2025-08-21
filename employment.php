@@ -278,11 +278,21 @@
                     <a href="assets/recruitment/2025-07/Leader of Alternative Education Lift Off Emsworth.pdf" class="vacancy-link" target="_blank" aria-label="Download Horticulture Assistant job details">
                         <i class="fas fa-download" aria-hidden="true"></i> View Details
                     </a>
-                    <a href="assets/recruitment/2025-07/Lift Off Emsworth Advert.pdf" class="vacancy-link secondary" target="_blank" aria-label="Download Recruitment Pack">
+                    <a href="assets/recruitment/2025-07/Leader of Alternative Education Lift Off Emsworth.pdf" class="vacancy-link secondary" target="_blank" aria-label="Download Recruitment Pack">
                         <i class="fas fa-file-alt" aria-hidden="true"></i> Recruitment Pack
                     </a>
                 </div>
             </article>
+
+            <!-- Active vacancy card -->
+            <article class="vacancy-card">
+                <h3>Teaching Assistant</h3>
+                <div class="button-container">
+                    <a href="assets/recruitment/2025-08/Teaching Assistant - September 2025.pdf" class="vacancy-link" target="_blank" aria-label="Download Horticulture Assistant job details">
+                        <i class="fas fa-download" aria-hidden="true"></i> View Details
+                    </a>
+                </div>
+            </article>            
             
             <!-- Governor vacancies notice -->
             <p class="text-italic">Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</p>
