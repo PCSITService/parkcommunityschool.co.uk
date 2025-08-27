@@ -63,6 +63,13 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <!-- August 2025 -->
+                <div class="newsletter-item">
+                    <h4>August 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-08/Return To School Letter September 2025 including Phone Pouch FAQs.pdf" target="_blank">Return to School - September 2025</a></li>
+                    </ul>
+                </div>
                 <!-- July 2025 -->
                 <div class="newsletter-item">
                     <h4>July 2025</h4>
