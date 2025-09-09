@@ -525,7 +525,7 @@
                 
                 <div class="chef-sidebar">
                     <div class="chef-image">
-                        <img src="images/schoolmeals/schoolmeals-01.jpg" alt="">
+                        <img src="assets/schoolmeals/team25.jpg" alt="">
                     </div>
                     
                     <a href="/assets/schoolmeals/menu.pdf" target="_blank" class="resource-card">
