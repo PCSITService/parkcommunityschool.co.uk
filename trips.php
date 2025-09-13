@@ -687,14 +687,11 @@
 				<div class="medium-5 columns">
 					<div class="trip-slider-container">
 						<div class="trip-slider">
-							<div><img src="images/trips/newyork.jpg" alt="Students visiting New York"></div>
 							<div><img src="images/trips/kewgardens.jpg" alt="School trip to Kew Gardens"></div>
 							<div><img src="images/trips/tanzania.jpg" alt="Educational trip to Tanzania"></div>
 							<div><img src="images/trips/disney1.jpg" alt="Students at Disney"></div>
 							<div><img src="images/trips/farm1.jpg" alt="Learning at the farm"></div>
 							<div><img src="images/trips/winchester1.jpg" alt="Trip to Winchester"></div>
-							<div><img src="images/trips/nyc1.jpg" alt="New York City experience"></div>
-							<div><img src="images/trips/nyc2.jpg" alt="Students in Times Square"></div>
 						</div>
 					</div>
 				</div>
@@ -758,33 +755,7 @@
 				<div class="large-12 columns">
 					<h2 style="text-align: center; color: white; margin-bottom: 50px; font-size: 2.5rem; font-weight: 300;">School Trips</h2>
 					
-					<!-- Trip Card 1 - Krakow Poland (July 8-11) -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Krakow, Poland - July 2025</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Humanities Residential Visit: Auschwitz - Birkenau, Poland.</p>
-								</div>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('krakow')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('krakow')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> Tuesday 8th July 2025 - Friday 11th July 2025</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Barney Pycroft</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £579</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> All Years</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 2 - Barcelona 2026 (October 13-17, 2025) -->
+					<!-- Trip Card 1 - Barcelona 2026 (October 13-17, 2025) -->
 					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
@@ -810,7 +781,7 @@
 						</div>
 					</div>
 					
-					<!-- Trip Card 3 - Bude Activity Centre (October 13-17) -->
+					<!-- Trip Card 2 - Bude Activity Centre (October 13-17) -->
 					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
@@ -836,7 +807,7 @@
 						</div>
 					</div>
 					
-					<!-- Trip Card 4 - Disney 2026 (February 3-6, 2026) -->
+					<!-- Trip Card 3 - Disney 2026 (February 3-6, 2026) -->
 					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
@@ -862,33 +833,7 @@
 						</div>
 					</div>
 					
-					<!-- Trip Card 5 - New York 2026 (March 29 - April 2, 2026) -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">New York 2026</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Educational trip to New York City for Year 11 students.</p>
-								</div>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('newyork')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('newyork')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> Sunday 29th March 2026 - Thursday 2nd April 2026</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Soo Bannard</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £1625 (15-year-olds) / £1710 (16-year-olds)</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 11 (From Sept 2025)</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 6 - Isle of Wight Geology Fieldtrip (July 17, 2026) -->
+					<!-- Trip Card 4 - Isle of Wight Geology Fieldtrip (July 17, 2026) -->
 					<div style="margin-bottom: 40px;">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
@@ -1000,64 +945,6 @@
 				const content = document.getElementById('modalContent');
 				
 				const installmentPlans = {
-					krakow: {
-						title: 'Krakow, Poland - Payment Plan',
-						content: `
-							<div style="text-align: center; margin-bottom: 25px;">
-								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £579</h3>
-								</div>
-							</div>
-							
-							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
-							
-							<div style="display: flex; flex-direction: column; gap: 15px;">
-								<div style="background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-										<div>
-											<strong style="color: #2d5a2d; font-size: 1.1rem;">💰 Deposit</strong>
-											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Initial payment to secure place</div>
-										</div>
-										<div style="text-align: right;">
-											<div style="font-size: 1.3rem; font-weight: bold; color: #2d5a2d;">£150</div>
-											<div style="font-size: 0.9rem; color: #666;">Due: Jan 31, 2025</div>
-										</div>
-									</div>
-								</div>
-								
-								<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-										<div>
-											<strong style="color: #856404; font-size: 1.1rem;">💳 Second Payment</strong>
-											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Midway payment</div>
-										</div>
-										<div style="text-align: right;">
-											<div style="font-size: 1.3rem; font-weight: bold; color: #856404;">£200</div>
-											<div style="font-size: 0.9rem; color: #666;">Due: Mar 31, 2025</div>
-										</div>
-									</div>
-								</div>
-								
-								<div style="background: linear-gradient(135deg, #d1ecf1 0%, #e1f3f7 100%); padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-									<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-										<div>
-											<strong style="color: #2c5f6f; font-size: 1.1rem;">✅ Final Payment</strong>
-											<div style="color: #666; font-size: 0.9rem; margin-top: 2px;">Complete your booking</div>
-										</div>
-										<div style="text-align: right;">
-											<div style="font-size: 1.3rem; font-weight: bold; color: #2c5f6f;">£229</div>
-											<div style="font-size: 0.9rem; color: #666;">Due: May 31, 2025</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">💡 Payment Information</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">All payments can be made online through our secure payment portal or at the school reception using card, cash, or cheque.</p>
-							</div>
-						`
-					},
 					barcelona: {
 						title: 'Barcelona 2026 - Payment Plan',
 						content: `
@@ -1133,32 +1020,6 @@
 							</div>
 						`
 					},
-					newyork: {
-						title: 'New York 2026 - Payment Plan',
-						content: `
-							<div style="text-align: center; margin-bottom: 25px;">
-								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £1625 / £1710</h3>
-									<p style="margin: 5px 0 0 0; font-size: 0.9rem; color: #666;">£1625 for 15-year-olds, £1710 for 16-year-olds</p>
-								</div>
-							</div>
-							
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
-								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
-							</div>
-							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip details are finalized</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're organizing the details for this New York trip. Full payment information including installment options will be provided closer to the trip date. Note: £85 adult supplement applies for those who turn 16 before departure.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
-							</div>
-						`
-					},
 					isleofwight: {
 						title: 'Isle of Wight Geology Fieldtrip - Payment Plan',
 						content: `
@@ -1205,45 +1066,6 @@
 				const content = document.getElementById('lettersModalContent');
 				
 				const tripLetters = {
-					krakow: {
-						title: 'Krakow, Poland - Trip Letters',
-						content: `
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
-							</div>
-							
-							<div style="display: flex; flex-direction: column; gap: 15px;">
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter1.pdf</h4>
-										<a href="assets/trips/letters/krakow/letter1.pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
-										<a href="assets/trips/letters/krakow/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
-										<a href="assets/trips/letters/krakow/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter4.pdf</h4>
-										<a href="assets/trips/letters/krakow/letter4.pdf" target="_blank" style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-							</div>
-						`
-					},
 					barcelona: {
 						title: 'Barcelona 2026 - Trip Letters',
 						content: `
@@ -1342,45 +1164,6 @@
 									<div style="display: flex; justify-content: space-between; align-items: center;">
 										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
 										<a href="assets/trips/letters/disney/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-							</div>
-						`
-					},
-					newyork: {
-						title: 'New York 2026 - Trip Letters',
-						content: `
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
-							</div>
-							
-							<div style="display: flex; flex-direction: column; gap: 15px;">
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">Initial Letter</h4>
-										<a href="assets/trips/letters/newyork-2026/New York 2026 - initial letter (June 2025).pdf" target="_blank" style="background-color: #4a90a4; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #5cb85c;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter2.pdf</h4>
-										<a href="assets/trips/letters/newyork/letter2.pdf" target="_blank" style="background-color: #5cb85c; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ffc107;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter3.pdf</h4>
-										<a href="assets/trips/letters/newyork/letter3.pdf" target="_blank" style="background-color: #ffc107; color: #333; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
-									</div>
-								</div>
-								
-								<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #dc3545;">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-										<h4 style="margin: 0; color: #333;">letter4.pdf</h4>
-										<a href="assets/trips/letters/newyork/letter4.pdf" target="_blank" style="background-color: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; text-decoration: none; display: inline-block;">Download</a>
 									</div>
 								</div>
 							</div>
