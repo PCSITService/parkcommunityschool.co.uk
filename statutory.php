@@ -358,7 +358,7 @@
 
             <div class="policy-card" data-search="key stage 4 results gcse">
                 <div class="policy-title">Key Stage 4 Results</div>
-                <a href="/assets/statutory/ks4-results.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-card" data-search="leaver destinations post-16">
