@@ -1264,11 +1264,7 @@ if ($showCaptcha) {
                 <p>Here are some useful documents for Year 11 exams and Revision Studies in 2024 - 2025</p>
                     <ul>
                     <li><a href="assets/exam/complete-candidate-examinations-book-2024-2025.pdf" target="_blank">Candidate Handbook for examinations during School Year 2024-25</a></li>
-                    <li><a href="assets/exam/Yr 11 MOCK 1 TT FEB-MAR 2025.pdf" target="_blank">Year 11 Mock 2 Timetable 2025</a></li>
-                    <li><a href="assets/exam/september-y11-parent-student-eve.pdf" target="_blank">Year 11 Parent and Student | Parents Evening Information</a></li>
-                    <li><a href="assets/revision/year -11-phase-1-revision-24-25.pdf" target="_blank">Year 11 Phase 1 Revision 24-25</a></li>
-                    <li><a href="assets/revision/Year 11 Phase 2 Revision booklet 24-25.pdf" target="_blank">Year 11 Phase 2 Revision 24-25</a></li>
-                    <li><a href="assets/revision/Revision Guide 2024.pdf" target="_blank">Revision Guide</a></li>
+                    <li><a href="assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank">Year 11 - Autumn Mock Exam Timetable</a></li>
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>     

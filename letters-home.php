@@ -63,6 +63,13 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <!-- October 2025 -->
+                <div class="newsletter-item">
+                    <h4>October 2025</h4>
+                    <ul>
+                        <li><a href="/assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank">Year 11 - Autumn Mock Exam Timetable</a></li>
+                    </ul>
+                </div>
                 <!-- August 2025 -->
                 <div class="newsletter-item">
                     <h4>August 2025</h4>
