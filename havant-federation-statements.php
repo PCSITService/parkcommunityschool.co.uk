@@ -339,7 +339,7 @@
                     <div class="documents-grid">
                         
                         <div class="document-card">
-                            <a href="/assets/havant-federation-statements/Parent letter re Federation Joint Statements - October 2024.pdf" 
+                            <a href="/assets/havant-federation-statements/Parent Letter re Federation Joint Statements Oct 2025.pdf" 
                                target="_blank" 
                                class="document-link">
                                 <div class="document-icon doc-letter">
@@ -347,7 +347,7 @@
                                 </div>
                                 <div class="document-text">
                                     <h3 class="document-title">Parent Letter re Federation Joint Statements</h3>
-                                    <p class="document-meta">October 2024 • PDF Document</p>
+                                    <p class="document-meta">October 2025 • PDF Document</p>
                                 </div>
                                 <div class="download-indicator">
                                     <i class="fas fa-download"></i>
@@ -356,7 +356,7 @@
                         </div>
 
                         <div class="document-card">
-                            <a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2024.pdf" 
+                            <a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2025.pdf" 
                                target="_blank" 
                                class="document-link">
                                 <div class="document-icon doc-mobile">
@@ -364,7 +364,7 @@
                                 </div>
                                 <div class="document-text">
                                     <h3 class="document-title">Joint Statement Mobile Phones</h3>
-                                    <p class="document-meta">October 2024 • Policy Document</p>
+                                    <p class="document-meta">October 2025 • Policy Document</p>
                                 </div>
                                 <div class="download-indicator">
                                     <i class="fas fa-download"></i>
@@ -373,7 +373,7 @@
                         </div>
 
                         <div class="document-card">
-                            <a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2024.pdf" 
+                            <a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2025.pdf" 
                                target="_blank" 
                                class="document-link">
                                 <div class="document-icon doc-conflict">
@@ -381,7 +381,7 @@
                                 </div>
                                 <div class="document-text">
                                     <h3 class="document-title">Joint Statement Relational Conflict and Bullying</h3>
-                                    <p class="document-meta">October 2024 • Guidance Document</p>
+                                    <p class="document-meta">October 2025 • Guidance Document</p>
                                 </div>
                                 <div class="download-indicator">
                                     <i class="fas fa-download"></i>
@@ -390,7 +390,7 @@
                         </div>
 
                         <div class="document-card">
-                            <a href="/assets/havant-federation-statements/Joint Statement Standards and Attendance Oct 2024.pdf" 
+                            <a href="/assets/havant-federation-statements/Joint Statement Standards and Attendance Oct 2025.pdf" 
                                target="_blank" 
                                class="document-link">
                                 <div class="document-icon doc-standards">
@@ -398,7 +398,7 @@
                                 </div>
                                 <div class="document-text">
                                     <h3 class="document-title">Joint Statement Standards and Attendance</h3>
-                                    <p class="document-meta">October 2024 • Policy Document</p>
+                                    <p class="document-meta">October 2025 • Policy Document</p>
                                 </div>
                                 <div class="download-indicator">
                                     <i class="fas fa-download"></i>
@@ -407,7 +407,7 @@
                         </div>
 
                         <div class="document-card">
-                            <a href="/assets/havant-federation-statements/Joint Statement Vaping and Smoking 2024.pdf" 
+                            <a href="/assets/havant-federation-statements/Joint Statement Vaping Smoking and banned substances Oct 2025.pdf" 
                                target="_blank" 
                                class="document-link">
                                 <div class="document-icon doc-vaping">
@@ -415,7 +415,7 @@
                                 </div>
                                 <div class="document-text">
                                     <h3 class="document-title">Joint Statement Vaping and Smoking</h3>
-                                    <p class="document-meta">2024 • Health Policy Document</p>
+                                    <p class="document-meta">2025 • Health Policy Document</p>
                                 </div>
                                 <div class="download-indicator">
                                     <i class="fas fa-download"></i>
