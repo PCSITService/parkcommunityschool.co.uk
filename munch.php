@@ -478,7 +478,7 @@
                     <span class="day">Thursday</span> 11am-1pm & 4pm-5:30pm
                 </div>
                 <div style="margin-top: 2rem;">
-                    <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius" style="margin: 0 0.5rem;">MUNCH Flyer</a>
+                    <a href="assets/munch/MUNCH Sept 25.pdf" target="_blank" class="button success radius" style="margin: 0 0.5rem;">MUNCH Flyer</a>
                     <a href="assets/pantry/flyer.pdf" class="button success radius" style="margin: 0 0.5rem;">Pantry Info</a>
                 </div>
             </div>

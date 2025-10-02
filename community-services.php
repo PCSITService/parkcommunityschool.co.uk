@@ -630,7 +630,7 @@
             <p>Our Community & Services Department provides a comprehensive range of activities and facilities for students and the wider community.</p>
             <p>From intimate gatherings to large celebrations, we're open evenings until 10pm, weekends, and holidays to accommodate your needs.</p>
             <div class="cta-center">
-                <a href="assets/community/price_list.pdf" target="_blank" class="cta-button">
+                <a href="assets/community/Facilities Leaflet.pdf" target="_blank" class="cta-button">
                     <i class="fas fa-download"></i>
                     Download Price List
                 </a>
@@ -741,7 +741,7 @@
         </div>
     </div>
     <div class="cta-center">
-        <a href="assets/community/partyleaflet.pdf" target="_blank" class="cta-button">
+        <a href="assets/community/Party Leaflet Oct 25.pdf" target="_blank" class="cta-button">
             <i class="fas fa-download"></i>
             Party Package Brochure
         </a>
