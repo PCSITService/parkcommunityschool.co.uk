@@ -17,7 +17,6 @@
             --bg-white: #ffffff;
             --shadow: 0 4px 20px rgba(0,0,0,0.1);
             --gradient: linear-gradient(135deg, #3d7c47, #5a9a5a);
-            --food-gradient: linear-gradient(135deg, #ff6b35, #ff8c42);
         }
 
         body {
@@ -178,181 +177,6 @@
             color: white;
         }
 
-        /* Brands Section */
-        .brands-section {
-            background: var(--bg-white);
-            padding: 4rem 0;
-        }
-
-        .section-divider {
-            text-align: center;
-            margin: 3rem 0;
-        }
-
-        .divider-line {
-            width: 60px;
-            height: 4px;
-            background: var(--gradient);
-            margin: 0 auto;
-            border-radius: 2px;
-        }
-
-        .brands-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: center;
-            margin-bottom: 3rem;
-        }
-
-        .brands-content h3 {
-            font-size: clamp(2rem, 4vw, 2.5rem);
-            color: var(--secondary-color);
-            margin-bottom: 2rem;
-            font-weight: 700;
-        }
-
-        .brands-content h3 small {
-            color: var(--text-light);
-            font-weight: 400;
-            font-size: 0.6em;
-        }
-
-        .brand-logo {
-            text-align: center;
-        }
-
-        .brand-logo img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .products-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: start;
-            margin-bottom: 3rem;
-        }
-
-        .product-section h4 {
-            font-size: 1.5rem;
-            color: var(--secondary-color);
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-
-        .product-section ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .product-section ul li {
-            position: relative;
-            padding-left: 2rem;
-            margin-bottom: 0.5rem;
-            color: var(--text-light);
-        }
-
-        .product-section ul li:before {
-            content: '🥓';
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-
-        .farm-link {
-            background: var(--food-gradient);
-            border-radius: 15px;
-            padding: 2rem;
-            text-align: center;
-            color: white;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            display: block;
-        }
-
-        .farm-link:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
-            text-decoration: none;
-            color: white;
-        }
-
-        .farm-link img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-        }
-
-        .suppliers-section {
-            margin-top: 2rem;
-        }
-
-        .suppliers-section h4 {
-            font-size: 1.5rem;
-            color: var(--secondary-color);
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-
-        .suppliers-section ul li {
-            padding-left: 2rem;
-        }
-
-        .suppliers-section ul li:before {
-            content: '🌱';
-        }
-
-        .suppliers-section a {
-            color: var(--secondary-color);
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .suppliers-section a:hover {
-            text-decoration: underline;
-        }
-
-        /* Awards Section */
-        .awards-section {
-            background: var(--bg-light);
-            padding: 4rem 0;
-        }
-
-        .award-card {
-            background: white;
-            border-radius: 15px;
-            padding: 3rem;
-            box-shadow: var(--shadow);
-            text-align: center;
-            margin-bottom: 3rem;
-            border: 1px solid #f0f0f0;
-        }
-
-        .award-card h4 {
-            font-size: 1.8rem;
-            color: var(--primary-color);
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-        }
-
-        .award-card img {
-            max-width: 300px;
-            height: auto;
-            margin: 2rem 0;
-            border-radius: 10px;
-        }
-
-        .award-highlight {
-            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-            border-left: 4px solid var(--success-color);
-        }
-
         /* Services Section */
         .services-section {
             background: var(--gradient);
@@ -416,8 +240,6 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .chef-grid,
-            .brands-grid,
-            .products-grid,
             .services-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
@@ -496,8 +318,6 @@
     <!-- NAVIGATION -->
     <?php include("includes/topnav.html") ?>
     
-
-
     <!-- CHEF SECTION -->
     <section class="chef-section">
         <div class="container">
@@ -538,80 +358,6 @@
                         <p>Educatering - Magazine</p>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BRANDS SECTION -->
-    <section class="brands-section">
-        <div class="container">
-            <div class="section-divider">
-                <div class="divider-line"></div>
-            </div>
-            
-            <div class="brands-grid">
-                <div class="brands-content">
-                    <h3>Cross&Moody | <small>Our Brands</small></h3>
-                    <p>These brand favourites have been developed by our award winning chefs Steven Cross and Alex Moody. All products used are of the best quality and we always try to use local seasonal organic produce.</p>
-                </div>
-                <div class="brand-logo">
-                    <img src="images/schoolmeals/crossandmoody.png" alt="Cross and Moody brand logo">
-                </div>
-            </div>
-
-            <div class="products-grid">
-                <div class="product-section">
-                    <h4>Park Porkies</h4>
-                    <p>Park Community School have developed its own Pork based products which are now used in school and sold to external customers.</p>
-                    <ul>
-                        <li>Pulled Pork</li>
-                        <li>Park Porkies Sausages</li>
-                    </ul>
-                    
-                    <h4>Park Eggs</h4>
-                    <p>We currently have 29 chickens on site whose eggs are available to purchase by staff, students and the public.</p>
-                </div>
-
-                <div>
-                    <a href="/park-farm.php" class="farm-link">
-                        <img src="images/schoolmeals/porky_logo.jpg" alt="Park Farm - Grow and Eat, our Chef uses our own produce">
-                        <p>Visit the Park Farm</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="products-grid">
-                <div class="suppliers-section">
-                    <h4>Local & Organic Food</h4>
-                    <p>From summer 2016 Park Community School kitchens are now using seasonal, local and organic produce.</p>
-                    
-                    <h4>Our Suppliers</h4>
-                    <ul>
-                        <li><a href="//www.tuppennybarn.co.uk/" target="_blank">Tuppenny Barn</a> - Fruit and Vegetables.</li>
-                        <li><a href="//www.treagustbutchers.co.uk/" target="_blank">Treagust Butchers</a> - Meat Products.</li>
-                        <li><a href="//northney.farm/" target="_blank">Northney Farm</a> - Daily Supplier.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="images/schoolmeals/organic-standards.jpg" alt="Park Community School using local and organic produce in their school menu." style="width: 100%; border-radius: 15px;">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- AWARDS SECTION -->
-    <section class="awards-section">
-        <div class="container">
-            <div class="award-card">
-                <h4>Public Sector Catering Awards Winner 2020</h4>
-                <div class="award-highlight">
-                    <p><strong>Education Award</strong> - Park Community School Catering Team</p>
-                    <p><strong>Chef of the Year</strong> - Steven Cross</p>
-                </div>
-                <p>Park Community School are thrilled that we scooped both Education Catering Award and Steven Cross for becoming the Public Sector Chef of the year. It's not every day you win these prestigious awards.</p>
-                <img src="images/schoolmeals/publicsectorcatering-winner2020.jpg" alt="Public Sector Catering Award 2020">
-                <p>Head Chef Steven Cross worked with Tilda throughout October to <a href="//www.tilda.com/professionals/meet-the-chefs/steven-cross-head-chef-park-community-school/">create amazing onepot vegan dishes</a>. Why not check them out at the link attached and create your own one pot dish.</p>
-                <p>Click <a href="https://3lamxj2sv6yp1bq9nd8t12bt-wpengine.netdna-ssl.com/professionals/wp-content/uploads/sites/2/2020/12/TIL19212-TILDA-case-study-pdf-Aw-web.pdf" target="_blank">here</a> for the recipe.</p>
             </div>
         </div>
     </section>
@@ -677,7 +423,7 @@
             }, observerOptions);
 
             // Animate cards
-            const animatedElements = document.querySelectorAll('.resource-card, .award-card, .farm-link');
+            const animatedElements = document.querySelectorAll('.resource-card');
             animatedElements.forEach((el, index) => {
                 el.style.opacity = '0';
                 el.style.transform = 'translateY(30px)';
