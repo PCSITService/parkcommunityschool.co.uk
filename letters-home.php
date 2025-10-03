@@ -67,6 +67,11 @@
                 <div class="newsletter-item">
                     <h4>October 2025</h4>
                     <ul>
+                        <li><a href="/assets/havant-federation-statements/Parent Letter re Federation Joint Statements Oct 2025.pdf" target="_blank">Parent Letter re Federation</a></li>
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2025.pdf" target="_blank">Joint Statement Mobile Phones</a></li>
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Relational Conflict and Bullying Oct 2025.pdf" target="_blank">Joint Statement Relational Conflict and Bullying</a></li>
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Standards and Attendance Oct 2025.pdf" target="_blank">Joint Statement Standards and Attendance</a></li>
+                        <li><a href="/assets/havant-federation-statements/Joint Statement Vaping Smoking and banned substances Oct 2025.pdf" target="_blank">Joint Statement Vaping and Smoking</a></li>
                         <li><a href="/assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank">Year 11 - Autumn Mock Exam Timetable</a></li>
                     </ul>
                 </div>
