@@ -67,6 +67,8 @@
                 <div class="newsletter-item">
                     <h4>October 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-10/2025 Oct Y7 Parents Evening.pdf" target="_blank">Year 7 - Parents Evening</a></li>
+                        <li><a href="/assets/letters/2025-10/2025 Oct Y11 Parents Evening.pdf" target="_blank">Year 11 - Parents Evening</a></li>
                         <li><a href="/assets/letters/2025-10/Park Newsletter 3 Oct.pdf" target="_blank">School Newsletter - Friday 3rd October</a></li>
                         <li><a href="/assets/havant-federation-statements/Parent Letter re Federation Joint Statements Oct 2025.pdf" target="_blank">Parent Letter re Federation</a></li>
                         <li><a href="/assets/havant-federation-statements/Joint Statement Mobile Phones Oct 2025.pdf" target="_blank">Joint Statement Mobile Phones</a></li>
