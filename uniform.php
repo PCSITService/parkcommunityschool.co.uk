@@ -254,7 +254,7 @@
                     <li>Plain black outdoor shoes with sensible heels</li>
                 </ul>
                 <div class="policy-link">
-                    <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank" class="policy-btn">📋 View Uniform Policy</a>
+                    <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-btn">📋 View Uniform Policy</a>
                 </div>
             </div>
         </div>
