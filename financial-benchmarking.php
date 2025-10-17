@@ -9,15 +9,6 @@
 <!-- NAVIGATION -->
 <?php include("includes/topnav.html") ?>
 
-<!-- HEADER SECTION -->
-<header class="header-school">
-    <div class="row">
-        <div class="medium-8 large-8 columns">
-            <h1>Financial Benchmarking</h1>
-        </div>
-    </div>
-</header>
-
 <!-- CONTENT -->
 <!doctype html>
 <html class="no-js" lang="en">
@@ -98,7 +89,7 @@
 
     <!-- CONTENT -->
     <div class="image-section">
-        <img src="\assets\financial-benchmarking\image.png" alt="Financial Benchmarking">
+        <img src="\assets\financial-benchmarking\2024-2025.png" alt="Financial Benchmarking">
         <h3>Financial Benchmarking Insights</h3>
     </div>
     <div class="link-section">
