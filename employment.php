@@ -274,6 +274,15 @@
             <!-- Active vacancy card -->
 
             <article class="vacancy-card">
+                <h3>Teacher of Science</h3>
+                <div class="button-container">
+                    <a href="assets/recruitment/2025-10/Science -Oct 2025.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                        <i class="fas fa-download" aria-hidden="true"></i> View Details
+                    </a>
+                </div>
+            </article>  
+
+            <article class="vacancy-card">
                 <h3>Early Years Assistant - Nursery</h3>
                 <div class="button-container">
                     <a href="assets/recruitment/2025-10/Nursery Assistant -October 2025 -2.pdf" class="vacancy-link" target="_blank" aria-label="Early Years Assistant - Nursery">
