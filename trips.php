@@ -759,10 +759,6 @@
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
 								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Lion King the Musical</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Experience the magic of Disney's Lion King the Musical in London's West End. This unforgettable theatrical experience brings the beloved story to life with stunning visuals, incredible music, and world-class performances.</p>
-								</div>
 								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
 									<button onclick="showInstallmentPlan('lionking')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
 									<button onclick="showLetters('lionking')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
@@ -785,10 +781,6 @@
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
 								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Hercules the Musical</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Join us for an exciting theatrical experience watching Hercules the Musical. This spectacular show combines amazing choreography, powerful vocals, and the timeless story of the legendary hero.</p>
-								</div>
 								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
 									<button onclick="showInstallmentPlan('hercules')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
 									<button onclick="showLetters('hercules')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
@@ -811,10 +803,6 @@
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
 								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Travel and Tourism Trip to Bath</h3>
-								<div style="margin-bottom: 20px;">
-									<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px;">Summary</h4>
-									<p style="color: rgba(255,255,255,0.9); line-height: 1.6;">Explore the historic city of Bath on this educational Travel and Tourism trip. Students will discover UNESCO World Heritage sites, learn about Bath's rich history, and understand the tourism industry in practice.</p>
-								</div>
 								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
 									<button onclick="showInstallmentPlan('bath')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
 									<button onclick="showLetters('bath')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
