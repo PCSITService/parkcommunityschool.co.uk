@@ -142,7 +142,7 @@
         }
 
         .policies-list li {
-            padding: 12px 0;
+            padding: 6px 0;
             border-bottom: 1px solid #e5e7eb;
         }
 
