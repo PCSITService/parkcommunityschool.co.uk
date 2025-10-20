@@ -105,6 +105,42 @@
             font-size: 0.7em;
         }
 
+        .chef-team {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .chef-team h4 {
+            font-size: 1.3rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .chef-team ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .chef-team ul li {
+            padding: 0.5rem 0;
+            color: var(--text-dark);
+            font-size: 1.05rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .chef-team ul li:last-child {
+            border-bottom: none;
+        }
+
+        .chef-team ul li strong {
+            color: var(--primary-color);
+        }
+
         .chef-content p {
             font-size: 1.1rem;
             color: var(--text-light);
@@ -503,7 +539,16 @@
         <div class="container">
             <div class="chef-grid">
                 <div class="chef-content">
-                    <h3>Our Chef <small>- Alex Moody</small></h3>
+                    <h3>Our Chefs</h3>
+                    
+                    <div class="chef-team">
+                        <ul>
+                            <li><strong>Executive Chef</strong> – Steven Cross</li>
+                            <li><strong>Head Chef</strong> – Alex Moody</li>
+                            <li><strong>Sous Chef</strong> – Rebecca Moore</li>
+                        </ul>
+                    </div>
+                    
                     <p>Cooking has always been our Head Chef's passion and from a very young age Alex Moody cooked at home with his parents. After leaving school he studied catering at South Downs College for two years and went on to an apprenticeship at a local hotel. Alex has spent the last seven years at Park working with Steve Cross, LACA School Chef of the Year. Alex won the South East LACA competition in 2021.</p>
                     
                     <p>At Park Community School, Alex and the school's multi-award winning catering team, continue to redefine school food to ensure all our students receive a healthy well-balanced meal during the school day. Alex is developing and nurturing the talents within the catering team, whose members are rightly proud of the good food that has successfully been embedded into the life of the school and its community.</p>
@@ -519,8 +564,6 @@
                     <p>To encourage healthy eating beyond school, the team provides cookery lessons for families, where family members come together, cook a meal, eat some of it with us and have plenty remaining to take home.</p>
                     
                     <p>In 2019, Park Community School was one of nine successful organisations selected by the Department for Education (DfE) to run holiday activities. As part of this, we produced a range of menus for daily meals; this was subsequently used by the DfE as good practice and formed the basis of the recently announced Holiday Activity Programme (HAF) which now runs across every local authority in England.</p>
-
-                    <a class="cta-button" href="#parkcatering">Park Catering Service</a>
                 </div>
                 
                 <div class="chef-sidebar">
@@ -566,17 +609,14 @@
                     <ul>
                         <li>Pulled Pork</li>
                         <li>Park Porkies Sausages</li>
+                        <li>Sausage Roll</li>
                     </ul>
-                    
-                    <h4>Park Eggs</h4>
-                    <p>We currently have 29 chickens on site whose eggs are available to purchase by staff, students and the public.</p>
                 </div>
 
                 <div>
-                    <a href="/park-farm.php" class="farm-link">
+                    <div class="farm-link" style="cursor: default;">
                         <img src="images/schoolmeals/porky_logo.jpg" alt="Park Farm - Grow and Eat, our Chef uses our own produce">
-                        <p>Visit the Park Farm</p>
-                    </a>
+                    </div>
                 </div>
             </div>
             
@@ -588,8 +628,7 @@
                     <h4>Our Suppliers</h4>
                     <ul>
                         <li><a href="//www.tuppennybarn.co.uk/" target="_blank">Tuppenny Barn</a> - Fruit and Vegetables.</li>
-                        <li><a href="//www.treagustbutchers.co.uk/" target="_blank">Treagust Butchers</a> - Meat Products.</li>
-                        <li><a href="//northney.farm/" target="_blank">Northney Farm</a> - Daily Supplier.</li>
+                        <li><a href="https://www.treagustbutchers.co.uk/" target="_blank">Treagust Butchers</a> - Meat Products.</li>
                     </ul>
                 </div>
                 <div>
@@ -612,39 +651,6 @@
                 <img src="images/schoolmeals/publicsectorcatering-winner2020.jpg" alt="Public Sector Catering Award 2020">
                 <p>Head Chef Steven Cross worked with Tilda throughout October to <a href="//www.tilda.com/professionals/meet-the-chefs/steven-cross-head-chef-park-community-school/">create amazing onepot vegan dishes</a>. Why not check them out at the link attached and create your own one pot dish.</p>
                 <p>Click <a href="https://3lamxj2sv6yp1bq9nd8t12bt-wpengine.netdna-ssl.com/professionals/wp-content/uploads/sites/2/2020/12/TIL19212-TILDA-case-study-pdf-Aw-web.pdf" target="_blank">here</a> for the recipe.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CATERING SERVICES SECTION -->
-    <section class="services-section" id="parkcatering">
-        <div class="container">
-            <div class="services-grid">
-                <div class="services-content">
-                    <h3>Park Catering Service</h3>
-                    <p>Our award winning in-house chef led catering team prides itself on producing food that is appealing to a range of audiences, meets statutory guidelines and is sourced in the best way possible. We can provide:</p>
-
-                    <ul class="services-list">
-                        <li>Award winning Chef led catering</li>
-                        <li>Consultancy and support services</li>
-                        <li>Advice on the re-branding of your provision and, if necessary, create this with you</li>
-                        <li>Work with your business manager to set up new suppliers</li>
-                        <li>Contact your local Environmental Health team and set the school up with them</li>
-                        <li>Train all your kitchen colleagues</li>
-                        <li>Work with your chef during the first weeks of service</li>
-                        <li>Provide menu packs</li>
-                        <li>Provide ongoing telephone and support visits throughout the year</li>
-                        <li>Event catering</li>
-                        <li>Function catering</li>
-                    </ul>
-
-                    <div class="contact-info">
-                        <p>If you would like to know more about how we can support you, please contact our Catering team at <script type="text/javascript">document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+':'+'p'+'a'+'r'+'k'+'c'+'a'+'t'+'e'+'r'+'i'+'n'+'g'+'@'+'p'+'c'+'s'+'.'+'h'+'a'+'n'+'t'+'s'+'.'+'s'+'c'+'h'+'.'+'u'+'k'+"'"+'>'+'p'+'a'+'r'+'k'+'c'+'a'+'t'+'e'+'r'+'i'+'n'+'g'+'@'+'p'+'c'+'s'+'.'+'h'+'a'+'n'+'t'+'s'+'.'+'s'+'c'+'h'+'.'+'u'+'k'+'<'+'/'+'a'+'>');</script> or call 02392 489 800</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="images/schoolmeals/catering_logo.png" alt="Park Community School Catering Service Logo" style="width: 100%; max-width: 300px;">
-                </div>
             </div>
         </div>
     </section>

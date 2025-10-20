@@ -17,6 +17,7 @@
             --bg-white: #ffffff;
             --shadow: 0 4px 20px rgba(0,0,0,0.1);
             --gradient: linear-gradient(135deg, #3d7c47, #5a9a5a);
+            --food-gradient: linear-gradient(135deg, #ff6b35, #ff8c42);
         }
 
         body {
@@ -84,11 +85,9 @@
             padding: 4rem 0;
         }
 
-        .chef-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: start;
+        .chef-content {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .chef-content h3 {
@@ -96,12 +95,7 @@
             color: var(--primary-color);
             margin-bottom: 2rem;
             font-weight: 700;
-        }
-
-        .chef-content h3 small {
-            color: var(--text-light);
-            font-weight: 400;
-            font-size: 0.7em;
+            text-align: center;
         }
 
         .chef-content p {
@@ -111,95 +105,10 @@
             line-height: 1.8;
         }
 
-        .chef-sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .chef-image {
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-        }
-
-        .chef-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .resource-card {
-            background: white;
-            border-radius: 15px;
-            padding: 1.5rem;
-            box-shadow: var(--shadow);
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid #f0f0f0;
-        }
-
-        .resource-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-        }
-
-        .resource-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-        }
-
-        .resource-card p {
-            font-weight: 600;
-            color: var(--text-dark);
-            margin: 0;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: var(--success-color);
-            color: white;
-            padding: 1rem 2rem;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            margin: 2rem 0;
-            transition: all 0.3s ease;
-        }
-
-        .cta-button:hover {
-            background: #218838;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
-            text-decoration: none;
-            color: white;
-        }
-
-        /* Services Section */
-        .services-section {
-            background: var(--gradient);
-            color: white;
-            padding: 4rem 0;
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: center;
-        }
-
-        .services-content h3 {
-            font-size: clamp(2rem, 4vw, 2.5rem);
-            margin-bottom: 2rem;
-            font-weight: 700;
-        }
-
         .services-list {
             list-style: none;
             padding-left: 0;
+            margin: 2rem 0;
         }
 
         .services-list li {
@@ -207,7 +116,8 @@
             padding-left: 2rem;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid #e0e0e0;
+            color: var(--text-dark);
         }
 
         .services-list li:before {
@@ -215,20 +125,27 @@
             position: absolute;
             left: 0;
             top: 0;
-            color: var(--warning-color);
+            color: var(--success-color);
             font-weight: bold;
+            font-size: 1.2rem;
         }
 
         .contact-info {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem;
-            border-radius: 10px;
-            margin-top: 2rem;
-            backdrop-filter: blur(10px);
+            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 3rem;
+            text-align: center;
+            border: 1px solid #d4edda;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            margin: 0;
         }
 
         .contact-info a {
-            color: var(--warning-color);
+            color: var(--secondary-color);
             text-decoration: none;
             font-weight: 600;
         }
@@ -237,18 +154,27 @@
             text-decoration: underline;
         }
 
+        /* Brands Section */
+        .brands-section {
+            background: var(--bg-white);
+            padding: 4rem 0;
+        }
+
+        .section-divider {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .divider-line {
+            width: 60px;
+            height: 4px;
+            background: var(--gradient);
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
-            .chef-grid,
-            .services-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .chef-sidebar {
-                order: -1;
-            }
-
             .header-school {
                 padding: 2rem 0;
             }
@@ -276,126 +202,107 @@
             outline: 3px solid var(--accent-color);
             outline-offset: 2px;
         }
-
-        /* Modal styles for existing functionality */
-        .reveal-modal {
-            background: white;
-            border-radius: 15px;
-            padding: 2rem;
-        }
-
-        .reveal-modal h2 {
-            color: var(--primary-color);
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-        }
-
-        /* Back to top button styling */
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            box-shadow: var(--shadow);
-            transition: all 0.3s ease;
-            z-index: 1000;
-        }
-
-        .back-to-top:hover {
-            background: var(--secondary-color);
-            transform: translateY(-3px);
-        }
     </style>
 </head>
 <body class="page-school">
     <!-- NAVIGATION -->
     <?php include("includes/topnav.html") ?>
     
-    <!-- CHEF SECTION -->
-    <section class="chef-section">
-        <div class="container">
-            <div class="chef-grid">
-                <div class="chef-content">
-                    <h3>Our Chef <small>- Alex Moody</small></h3>
-                    <p>Cooking has always been our Head Chef's passion and from a very young age Alex Moody cooked at home with his parents. After leaving school he studied catering at South Downs College for two years and went on to an apprenticeship at a local hotel. Alex has spent the last seven years at Park working with Steve Cross, LACA School Chef of the Year. Alex won the South East LACA competition in 2021.</p>
-                    
-                    <p>At Park Community School, Alex and the school's multi-award winning catering team, continue to redefine school food to ensure all our students receive a healthy well-balanced meal during the school day. Alex is developing and nurturing the talents within the catering team, whose members are rightly proud of the good food that has successfully been embedded into the life of the school and its community.</p>
-                    
-                    <p>Alex and the team introduce the students to cuisines from around the world by, for instance, encouraging them to taste Korean kimchi, Middle Eastern tagines, and Japanese inspired sushi. Three days a week students work in the kitchen alongside our chefs and catering team as part of our Much More Than Just A School curriculum.</p>
-                    
-                    <p>The catering team work closely with the market garden team helping them to grow our own fruit and vegetables which are used within the school kitchens. We have reared over 200 pigs on our small holding; the meat is used in school lunches, meals within the community and at external events. Through the Market Garden they learn about Farm to Fork ethos and all that it entails.</p>
-                    
-                    <p>The catering team played an important role in establishing the Munch Food programme in 2017. Munch provides everyone who comes with a hot two course meal every school holiday and on Thursday evenings. The school also opens on Christmas Day and, in 2021, 140 people across the age-range enjoyed a three course Christmas Lunch, with entertainment and a splendid visit by Father Christmas despite the challenges of Covid.</p>
-                    
-                    <p>To further meet the needs of our community the catering team produce nutritious ready meals which are available for collection seven days a week from the Munch emergency freezer in our Dickinson Centre.</p>
-                    
-                    <p>To encourage healthy eating beyond school, the team provides cookery lessons for families, where family members come together, cook a meal, eat some of it with us and have plenty remaining to take home.</p>
-                    
-                    <p>In 2019, Park Community School was one of nine successful organisations selected by the Department for Education (DfE) to run holiday activities. As part of this, we produced a range of menus for daily meals; this was subsequently used by the DfE as good practice and formed the basis of the recently announced Holiday Activity Programme (HAF) which now runs across every local authority in England.</p>
 
-                    <a class="cta-button" href="#parkcatering">Park Catering Service</a>
-                </div>
-                
-                <div class="chef-sidebar">
-                    <div class="chef-image">
-                        <img src="assets/schoolmeals/team25.jpg" alt="">
-                    </div>
-                    
-                    <a href="/assets/schoolmeals/menu.pdf" target="_blank" class="resource-card">
-                        <img src="images/schoolmeals/menu.png" alt="Park Community School Kitchen - The Watering Hole Menu">
-                        <p>School Menu</p>
-                    </a>
-                    
-                    <a href="/assets/schoolmeals/educatering.pdf" target="_blank" class="resource-card">
-                        <img src="images/schoolmeals/educatering.jpg" alt="Educatering">
-                        <p>Educatering - Magazine</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- CATERING SERVICES SECTION -->
-    <section class="services-section" id="parkcatering">
+    <section class="chef-section">
         <div class="container">
-            <div class="services-grid">
-                <div class="services-content">
-                    <h3>Park Catering Service</h3>
-                    <p>Our award winning in-house chef led catering team prides itself on producing food that is appealing to a range of audiences, meets statutory guidelines and is sourced in the best way possible. We can provide:</p>
+            <div class="chef-content">
+                <h3>Services</h3>
+                <p>Our established award-winning in-house chef led catering team have honed their skills over many years, working throughout all areas of the hospitality and catering industry. The team have in-depth knowledge of restaurant, events and public sector hospitality and catering. The Park Catering Service Team are highly motivated, driven and standard led. We have now worked with a range of audiences, always meeting set standards and ensuring to deliver and work within statutory guidelines.</p>
+                
+                <p><strong>So, how can we help you to go further and develop your service?</strong></p>
+                
+                <ul class="services-list">
+                    <li>Support and Guidance helping you to bring your catering operation in house within all education setting</li>
+                    <li>Commercial Catering support</li>
+                    <li>Award winning chef led catering support</li>
+                    <li>Consultancy and support services</li>
+                    <li>Advice on rebranding of your provision and helping you create your own style</li>
+                    <li>Supplier setup and financial support services</li>
+                    <li>Environmental Health support, ensuring you're working to correct standards</li>
+                    <li>Training catering staff to high modern standards that help your service succeed</li>
+                    <li>Menu Development</li>
+                    <li>Allergen and Intolerance support</li>
+                    <li>Event Catering</li>
+                    <li>Function Catering</li>
+                </ul>
+                
+                <p>We working closely with other schools helping to support their journey and ensure they can always offer the best possible options for their provision.</p>
+            </div>
+        </div>
+    </section>
 
-                    <ul class="services-list">
-                        <li>Award winning Chef led catering</li>
-                        <li>Consultancy and support services</li>
-                        <li>Advice on the re-branding of your provision and, if necessary, create this with you</li>
-                        <li>Work with your business manager to set up new suppliers</li>
-                        <li>Contact your local Environmental Health team and set the school up with them</li>
-                        <li>Train all your kitchen colleagues</li>
-                        <li>Work with your chef during the first weeks of service</li>
-                        <li>Provide menu packs</li>
-                        <li>Provide ongoing telephone and support visits throughout the year</li>
-                        <li>Event catering</li>
-                        <li>Function catering</li>
-                    </ul>
+    <!-- SAMPLE MENUS SECTION -->
+    <section class="brands-section">
+        <div class="container">
+            <div class="section-divider">
+                <div class="divider-line"></div>
+            </div>
+            
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h3 style="font-size: clamp(2rem, 4vw, 2.8rem); color: var(--secondary-color); margin-bottom: 1rem; font-weight: 700;">Sample Menu Packs</h3>
+                <p style="font-size: 1.2rem; color: var(--text-light); max-width: 800px; margin: 0 auto;">Explore our professionally designed menu packs tailored for different educational settings</p>
+            </div>
 
-                    <div class="contact-info">
-                        <p>If you would like to know more about how we can support you, please contact our Catering team at <script type="text/javascript">document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+':'+'p'+'a'+'r'+'k'+'c'+'a'+'t'+'e'+'r'+'i'+'n'+'g'+'@'+'p'+'c'+'s'+'.'+'h'+'a'+'n'+'t'+'s'+'.'+'s'+'c'+'h'+'.'+'u'+'k'+"'"+'>'+'p'+'a'+'r'+'k'+'c'+'a'+'t'+'e'+'r'+'i'+'n'+'g'+'@'+'p'+'c'+'s'+'.'+'h'+'a'+'n'+'t'+'s'+'.'+'s'+'c'+'h'+'.'+'u'+'k'+'<'+'/'+'a'+'>');</script> or call 02392 489 800</p>
-                    </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <!-- Secondary School Menu -->
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 2.5rem; text-align: center; color: white; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🎓</div>
+                    <h4 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: 700;">Secondary School</h4>
+                    <a href="/assets/schoolmeals/menu.pdf" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';">View Menu Pack</a>
                 </div>
-                <div>
-                    <img src="images/schoolmeals/catering_logo.png" alt="Park Community School Catering Service Logo" style="width: 100%; max-width: 300px;">
+
+                <!-- Primary/Junior School Menu -->
+                <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 2.5rem; text-align: center; color: white; box-shadow: 0 10px 30px rgba(240, 147, 251, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">📚</div>
+                    <h4 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: 700;">Primary/Junior School</h4>
+                    <a href="#" style="display: inline-block; background: white; color: #f5576c; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';">View Menu Pack</a>
+                </div>
+
+                <!-- Nursery Menu -->
+                <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 2.5rem; text-align: center; color: white; box-shadow: 0 10px 30px rgba(79, 172, 254, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;">
+                    <div style="font-size: 3.5rem; margin-bottom: 1rem;">🧸</div>
+                    <h4 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: 700;">Nursery</h4>
+                    <a href="#" style="display: inline-block; background: white; color: #4facfe; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';">View Menu Pack</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Note: Additional sections (LACA Awards, Soil Association, Free School Meals, etc.) would continue with similar modern styling -->
+    <!-- LINKED SCHOOLS SECTION -->
+    <section style="background: var(--bg-light); padding: 4rem 0;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h3 style="font-size: clamp(2rem, 4vw, 2.8rem); color: var(--primary-color); margin-bottom: 1rem; font-weight: 700;">Linked Schools</h3>
+                <p style="font-size: 1.2rem; color: var(--text-light); max-width: 800px; margin: 0 auto;">Schools we proudly work with and support</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; max-width: 900px; margin: 0 auto;">
+                <!-- Crookhorn College -->
+                <a href="https://www.crookhorn.hants.sch.uk/" target="_blank" style="background: white; border-radius: 15px; padding: 2.5rem; text-align: center; text-decoration: none; box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 180px;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 35px rgba(0,0,0,0.15)'; this.style.borderColor='#2c5aa0';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.1)'; this.style.borderColor='transparent';">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🏫</div>
+                    <h4 style="font-size: 1.5rem; color: #2c5aa0; margin-bottom: 0.5rem; font-weight: 700;">Crookhorn College</h4>
+                    <p style="color: #666; margin: 0; font-size: 0.95rem;">Secondary School</p>
+                    <div style="margin-top: 1rem; color: #3d7c47; font-weight: 600; font-size: 0.9rem;">Visit Website →</div>
+                </a>
+
+                <!-- Riders Federation -->
+                <a href="https://www.ridersschools.co.uk/" target="_blank" style="background: white; border-radius: 15px; padding: 2.5rem; text-align: center; text-decoration: none; box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 180px;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 12px 35px rgba(0,0,0,0.15)'; this.style.borderColor='#2c5aa0';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.1)'; this.style.borderColor='transparent';">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎒</div>
+                    <h4 style="font-size: 1.5rem; color: #2c5aa0; margin-bottom: 0.5rem; font-weight: 700;">Riders Federation</h4>
+                    <p style="color: #666; margin: 0; font-size: 0.95rem;">Infant & Junior Schools</p>
+                    <div style="margin-top: 1rem; color: #3d7c47; font-weight: 600; font-size: 0.9rem;">Visit Website →</div>
+                </a>
+            </div>
+        </div>
+    </section>
     
     <!-- FOOTER -->
     <?php include("includes/footer.html") ?>
@@ -423,7 +330,7 @@
             }, observerOptions);
 
             // Animate cards
-            const animatedElements = document.querySelectorAll('.resource-card');
+            const animatedElements = document.querySelectorAll('.resource-card, .award-card, .farm-link');
             animatedElements.forEach((el, index) => {
                 el.style.opacity = '0';
                 el.style.transform = 'translateY(30px)';
