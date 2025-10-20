@@ -252,15 +252,12 @@
                 <li>• <a href="/assets/policies/Accessibility - December 2024.pdf" target="_blank" class="policy-link">Accessibility</a></li>
                 <li>• <a href="/assets/policies/administration-of-medicines.pdf" target="_blank" class="policy-link">Administration of Medicines</a></li>
                 <li>• <a href="/admissions.php" class="policy-link">Admission Arrangements</a></li>
-                <li>• <a href="/assets/policies/admissions-2025-2026.pdf" target="_blank" class="policy-link">Admissions 2025-2026</a></li>
                 <li>• <a href="/assets/policies/Admissions Policy 2026-2027.pdf" target="_blank" class="policy-link">Admissions 2026-2027</a></li>
                 <li>• <a href="/assets/policies/Anti Bullying - December 2024.pdf" target="_blank" class="policy-link">Anti-Bullying</a></li>
-                <li>• <a href="/assets/policies/attendance.pdf" target="_blank" class="policy-link">Attendance</a></li>
                 <li>• <a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                 <li>• <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                 <li>• <a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link">CCTV</a></li>
                 <li>• <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
-                <li>• <a href="/assets/policies/child-protection.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                 <li>• <a href="/assets/policies/code_of_conduct.pdf" target="_blank" class="policy-link">Code of Conduct</a></li>
                 <li>• <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Policy and Procedure</a></li>
                 <li>• <a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
@@ -268,7 +265,6 @@
                 <li>• <a href="/curriculum.php" class="policy-link">Curriculum</a></li>
                 <li>• <a href="/assets/policies/data-protection.pdf" target="_blank" class="policy-link">Data Protection</a></li>
                 <li>• <a href="/assets/policies/drugs-substance-misuse.pdf" target="_blank" class="policy-link">Drugs and Substance Misuse</a></li>
-                <li>• <a href="#" class="policy-link">ECT Induction</a></li>
                 <li>• <a href="/assets/policies/Equality and Diversity - December 2024.pdf" target="_blank" class="policy-link">Equality and Diversity</a></li>
                 <li>• <a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
                 <li>• <a href="/assets/policies/esafety.pdf" target="_blank" class="policy-link">E-Safety</a></li>
@@ -286,29 +282,18 @@
                 <li>• <a href="/assets/policies/mental-health-emotional-wellbeing-policy.pdf" target="_blank" class="policy-link">Mental Health and Emotional Wellbeing</a></li>
                 <li>• <a href="/assets/policies/mobile-phones.pdf" target="_blank" class="policy-link">Mobile Phones</a></li>
                 <li>• <a href="/assets/statutory/nqt_induction.pdf" target="_blank" class="policy-link">NQT Induction</a></li>
-                <li>• <a href="/assets/statutory/ofsted-report-2015.pdf" target="_blank" class="policy-link">Ofsted Report - 2015</a></li>
-                <li>• <a href="/assets/statutory/ofsted-report-2017.pdf" target="_blank" class="policy-link">Ofsted Report - 2017</a></li>
-                <li>• <a href="/assets/statutory/Ofsted_Repor...rch_2022.pdf" target="_blank" class="policy-link">Ofsted Report - March 2022</a></li>
-                <li>• <a href="/assets/statutory/Ofsted_Repor...May 2022.pdf" target="_blank" class="policy-link">Ofsted Report - May 2022</a></li>
                 <li>• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                 <li>• <a href="/assets/policies/prevention-of-radicalisation-and-extremism.pdf" target="_blank" class="policy-link">Prevention of Radicalisation and Extremism</a></li>
                 <li>• <a href="/assets/policies/privacy_notice_for_clients.pdf" target="_blank" class="policy-link">Privacy Notice for Clients</a></li>
-                <li>• <a href="/assets/policies/privacy_notice_for_employees.pdf" target="_blank" class="policy-link">Privacy Notice for Employees</a></li>
                 <li>• <a href="/assets/policies/privacy_notice_for_job_applicants.pdf" target="_blank" class="policy-link">Privacy Notice for Job Applicants</a></li>
                 <li>• <a href="/assets/policies/privacy_notice_for_parents_and_students.pdf" target="_blank" class="policy-link">Privacy Notice for Parents and Students</a></li>
                 <li>• <a href="/assets/policies/provider-access.pdf" target="_blank" class="policy-link">Provider Access</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
-                <li>• <a href="/assets/policies/safeguarding.pdf" target="_blank" class="policy-link">Safeguarding</a></li>
-                <li>• <a href="/assets/policies/Safeguarding Adults - November 2023.pdf" target="_blank" class="policy-link">Safeguarding Adults</a></li>
                 <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                 <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/assets/policies/sex_education.pdf" target="_blank" class="policy-link">Sex Education</a></li>
                 <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
-                <li>• <a href="/assets/policies/studententitlementag.pdf" target="_blank" class="policy-link">Student Entitlement</a></li>
                 <li>• <a href="/summer-school.php" class="policy-link">Summer School</a></li>
-                <li>• <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
-                <li>• <a href="/assets/statutory/teacher-asse...ntre-policy.pdf" target="_blank" class="policy-link">Teacher Assessment Centre Policy</a></li>
-                <li>• <a href="/assets/policies/Uniform 2024-2025.pdf" target="_blank" class="policy-link">Uniform 2024-2025</a></li>
                 <li>• <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-link">Uniform 2025-2026</a></li>
                 <li>• <a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link">Volunteering</a></li>
                 <li>• <a href="/assets/policies/work-experience-march-2023.pdf" target="_blank" class="policy-link">Work Experience</a></li>
