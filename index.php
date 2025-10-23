@@ -419,14 +419,14 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         .video-buttons-top .columns {
             flex: 1;
             text-align: center;
-            max-width: 250px;
+            max-width: 280px;
         }
 
         .video-btn-top {
             background: #3498db !important;
             color: white !important;
             border: none !important;
-            padding: 0.75rem 1rem !important;
+            padding: 0.75rem 1.5rem !important;
             font-size: 0.9rem !important;
             min-width: auto !important;
             width: 100% !important;
@@ -435,6 +435,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
             border-radius: 25px !important;
             font-weight: 600;
             display: block;
+            white-space: nowrap !important;
         }
 
         .video-btn-top:hover {
@@ -1299,6 +1300,11 @@ if ($showCaptcha) {
                     <div class="columns">
                         <a href="https://vimeo.com/1096605692" target="_blank" class="video-btn-top">
                             <i class="fas fa-play"></i> Jamie Oliver Award
+                        </a>
+                    </div>
+                    <div class="columns">
+                        <a href="https://vimeo.com/1129965075?share=copy&fl=sv&fe=ci#t=4" target="_blank" class="video-btn-top">
+                            <i class="fas fa-play"></i> ITV News Attendance
                         </a>
                     </div>
                 </div>

@@ -198,9 +198,7 @@
                 
                 <p>Our small holding on a farm is set three miles away from the main school site and is home to a vast array of plant life, animals and insects. This allows all of our students to discover, explore and engage with nature.</p>
                 
-                <p>Students in years 7, 8, 9 and 10 all get the opportunity during our "Much More Than" rotation to experience the farm with our horticulture department and Animal care instructors.</p>
-                
-                <p>At the farm we have 28 rised beds, 2 large industrial poly tunnels, a dozen active bee hives, and animal pens. Visits to our small holding help students to learn about how vital farming is to our country and where our food really comes from.</p>
+                <p>Students in years 7, 8, 9 and 10 all get the opportunity during our "Much More Than" rotation to experience the farm with our horticulture department and Animal care instructors. At the farm we have 28 raised beds, 2 large industrial poly tunnels, a dozen active bee hives, and animal pens. Visits to our small holding help students to learn about how vital farming is to our country and where our food really comes from.</p>
             </div>
         </div>
     </section>
