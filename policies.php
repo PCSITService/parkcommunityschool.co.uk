@@ -258,6 +258,7 @@
                 <li>• <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                 <li>• <a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link">CCTV</a></li>
                 <li>• <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
+                <li>• <a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                 <li>• <a href="/assets/policies/code_of_conduct.pdf" target="_blank" class="policy-link">Code of Conduct</a></li>
                 <li>• <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Policy and Procedure</a></li>
                 <li>• <a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
@@ -289,6 +290,7 @@
                 <li>• <a href="/assets/policies/privacy_notice_for_parents_and_students.pdf" target="_blank" class="policy-link">Privacy Notice for Parents and Students</a></li>
                 <li>• <a href="/assets/policies/provider-access.pdf" target="_blank" class="policy-link">Provider Access</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
+                <li>• <a href="/assets/policies/4.1 Safeguarding September 2025" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
                 <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                 <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/assets/policies/sex_education.pdf" target="_blank" class="policy-link">Sex Education</a></li>

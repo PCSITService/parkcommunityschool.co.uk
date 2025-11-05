@@ -261,6 +261,7 @@
                 <li>• <a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                 <li>• <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                 <li>• <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
+                <li>• <a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                 <li>• <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
                 <li>• <a href="/curriculum.php" class="policy-link">Curriculum</a></li>
                 <li>• <a href="#" class="policy-link">ECT Induction</a></li>
@@ -273,6 +274,7 @@
                 <li>• <a href="/ofsted-reports.php" class="policy-link">Ofsted Reports 2022</a></li>
                 <li>• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
+                <li>• <a href="/assets/policies/4.1 Safeguarding September 2025" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
                 <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                 <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
