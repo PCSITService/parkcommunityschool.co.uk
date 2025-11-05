@@ -274,7 +274,7 @@
                 <li>• <a href="/ofsted-reports.php" class="policy-link">Ofsted Reports 2022</a></li>
                 <li>• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
-                <li>• <a href="/assets/policies/4.1 Safeguarding September 2025" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
+                <li>• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
                 <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                 <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
