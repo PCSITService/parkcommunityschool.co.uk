@@ -63,6 +63,13 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <!-- November 2025 -->
+                <div class="newsletter-item">
+                    <h4>November 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-11/BBC Bitesize Event Oct 25.pdf" target="_blank">BBC Bitesize Careers Tour</a></li>
+                    </ul>
+                </div>
                 <!-- October 2025 -->
                 <div class="newsletter-item">
                     <h4>October 2025</h4>
