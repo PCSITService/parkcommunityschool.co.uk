@@ -338,65 +338,9 @@
             transform: translateX(5px);
         }
 
-        /* Sports awards section */
-        .sports-section {
-            background: var(--light-gray);
-            padding: 5rem 0;
-        }
-
-        .sports-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 2rem;
-            border-radius: var(--border-radius);
-            box-shadow: var(--shadow-md);
-            transition: var(--transition);
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .feature-icon {
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, var(--primary-green), var(--primary-orange));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .feature-icon i {
-            font-size: 1.5rem;
-            color: white;
-        }
-
-        .feature-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-dark);
-            margin-bottom: 1rem;
-        }
-
-        .feature-description {
-            color: var(--text-light);
-            line-height: 1.6;
-        }
-
         /* Wedding section */
         .wedding-section {
-            background: white;
+            background: var(--light-gray);
             padding: 5rem 0;
         }
 
@@ -560,7 +504,6 @@
 
             .intro-grid,
             .facilities-grid,
-            .sports-grid,
             .contact-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
@@ -748,63 +691,6 @@
     </div>
 </section>
 
-<!-- SPORTS AWARDS SECTION -->
-<section class="sports-section">
-    <div class="section-header">
-        <h2 class="section-title">Sports Awards Presentations</h2>
-        <p class="section-subtitle">Professional venue hire for your sporting celebrations</p>
-    </div>
-    <div class="sports-grid">
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-theater-masks"></i>
-            </div>
-            <h3 class="feature-title">Professional Theatre Setup</h3>
-            <p class="feature-description">Full theatre with professional lighting and PA system. Special discounts available for clubs using our facilities regularly!</p>
-        </div>
-
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-clock"></i>
-            </div>
-            <h3 class="feature-title">Flexible Timing</h3>
-            <p class="feature-description">Choose afternoon or evening slots to suit your schedule. We work around your needs to ensure the perfect timing.</p>
-        </div>
-
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-glass-cheers"></i>
-            </div>
-            <h3 class="feature-title">Licensed Bar</h3>
-            <p class="feature-description">Full licensed bar available, or we can provide soft drinks only if preferred. Perfect for post-ceremony celebrations.</p>
-        </div>
-
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-utensils"></i>
-            </div>
-            <h3 class="feature-title">Catering Services</h3>
-            <p class="feature-description">Hot and cold food options available, plus pick and mix sweets. Our award-winning catering team will take care of everything.</p>
-        </div>
-
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-print"></i>
-            </div>
-            <h3 class="feature-title">Printing Services</h3>
-            <p class="feature-description">Professional printing for certificates, programs, banners and more. Complete your event with high-quality materials.</p>
-        </div>
-
-        <div class="feature-card">
-            <div class="feature-icon">
-                <i class="fas fa-concierge-bell"></i>
-            </div>
-            <h3 class="feature-title">Bespoke Services</h3>
-            <p class="feature-description">Need something special? Get in touch! We pride ourselves on accommodating unique requirements for your special event.</p>
-        </div>
-    </div>
-</section>
-
 <!-- WEDDING SECTION -->
 <section class="wedding-section">
     <div class="wedding-content">
@@ -967,7 +853,7 @@ $(document).ready(function(){
             });
         });
 
-        document.querySelectorAll('.feature-card, .package-card').forEach(el => {
+        document.querySelectorAll('.package-card').forEach(el => {
             observer.observe(el);
         });
     }
