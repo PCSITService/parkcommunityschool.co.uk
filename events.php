@@ -246,6 +246,20 @@
             background: linear-gradient(90deg, var(--primary-orange), #fb923c);
         }
 
+        /* Christmas Event Styling */
+        .christmas-event {
+            background: linear-gradient(135deg, #fef2f2, #fee2e2);
+            border-color: #dc2626 !important;
+        }
+
+        .christmas-event::before {
+            background: linear-gradient(90deg, #dc2626, #b91c1c);
+        }
+
+        .christmas-event .date-wrap {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+        }
+
         .sticky-event {
             position: sticky;
             top: 2rem;
@@ -342,9 +356,28 @@
             <div class="medium-12 columns">
                 <div class="event-container">
 
+                    <div class="event-wrap christmas-event">
+                        <div class="date-wrap">
+                            <p class="event-date">25 Dec 2025</p>
+                            <p class="event-time">12:00-2:00pm</p>
+                        </div>
+                        <h2 class="event-title">Christmas Day Celebration</h2>
+                        <p class="event-subheader">Special Christmas Day gathering for the community</p>
+                        <p class="event-description">Join us for a festive Christmas Day celebration! Enjoy a traditional meal, great company, and holiday cheer in a warm and welcoming environment. Everyone is welcome to share in the joy of the season.</p>
+                        <div class="link-wrap">
+                            <a href="assets/events/Christmas Day Invite 2025 Proof.pdf" target="_blank" class="button success radius">View Invitation</a>
+                        </div>
+                        <div class="bottom-wrap">
+                            <div class="location-wrap">
+                                <a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a>
+                            </div>
+                            <div class="cost-wrap">Free</div>
+                        </div>
+                    </div>
+
                     <div class="event-wrap">
-                        <h2 class="event-title">MUNCH Community Program</h2>
-                        <p class="event-subheader">School Holidays 12-1pm • Tuesday 4:00pm-5:30pm • Thursday 4:00pm-5:30pm</p>
+                        <h2 class="event-title">MUNCH Community Programme</h2>
+                        <p class="event-subheader">School Holidays 12-1pm • Thursday 4:00pm-5:30pm</p>
                         <p class="event-description">MUNCH began as a holiday hunger scheme providing children with free meals, but has evolved into much more. We now provide a safe environment for families to meet, combat loneliness, and enjoy fun activities for all ages.</p>
                         <div class="link-wrap">
                             <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Learn More</a>
@@ -367,51 +400,6 @@
                         <p class="event-description">Free breakfast for EVERY student every school day! Choose from hot bagels, cereals, or porridge. Additional options are available for purchase.</p>
                         <div class="link-wrap">
                             <a href="/assets/events/big_breakfast.pdf" target="_blank" class="button success radius">View Flyer</a>
-                        </div>
-                        <div class="bottom-wrap">
-                            <div class="location-wrap">
-                                <a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a>
-                            </div>
-                            <div class="cost-wrap">Free</div>
-                        </div>
-                    </div>
-
-                    <div class="event-wrap">
-                        <h2 class="event-title">MUNCH Cooking Club</h2>
-                        <p class="event-subheader">Fortnightly Saturday Sessions • 10:30am-12:30pm</p>
-                        <p class="event-description">Parents and carers, join us with your children! Our professional chefs will guide you through creating a complete main meal and dessert to take home and enjoy. Please bring containers for your food.</p>
-                        <div class="link-wrap">
-                            <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Join Us</a>
-                        </div>
-                        <div class="bottom-wrap">
-                            <div class="location-wrap">
-                                <a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a>
-                            </div>
-                            <div class="cost-wrap">Free</div>
-                        </div>
-                    </div>
-
-                    <div class="event-wrap">
-                        <h2 class="event-title">Sunday Roast Dinners</h2>
-                        <p class="event-subheader">1st & 3rd Sunday Monthly • 1:00pm-2:00pm</p>
-                        <p class="event-description">Join our community for traditional Sunday roast dinners on the first and third Sunday of every month. A wonderful opportunity to bring families together over a delicious meal.</p>
-                        <div class="link-wrap">
-                            <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Book Now</a>
-                        </div>
-                        <div class="bottom-wrap">
-                            <div class="location-wrap">
-                                <a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a>
-                            </div>
-                            <div class="cost-wrap">Free</div>
-                        </div>
-                    </div>
-
-                    <div class="event-wrap">
-                        <h2 class="event-title">Coffee, Computers & Cake</h2>
-                        <p class="event-subheader">Digital Skills Sessions</p>
-                        <p class="event-description">Small, friendly sessions perfect for learning essential digital skills including email, online shopping, social media, and online banking. All while enjoying delicious coffee and cake in a relaxed environment.</p>
-                        <div class="link-wrap">
-                            <a href="assets/munch/munch_flyer.pdf" target="_blank" class="button success radius">Get Started</a>
                         </div>
                         <div class="bottom-wrap">
                             <div class="location-wrap">
