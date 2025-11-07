@@ -1266,6 +1266,9 @@ if ($showCaptcha) {
                     <ul>
                     <li><a href="assets/exam/complete-candidate-examinations-book-2024-2025.pdf" target="_blank">Candidate Handbook for examinations during School Year 2024-25</a></li>
                     <li><a href="assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank">Year 11 - Autumn Mock Exam Timetable</a></li>
+                    <li><a href="assets/exam/KA1 KS3 Year 7.pdf" target="_blank">KA1 KS3 Year 7</a></li>
+                    <li><a href="assets/exam/KA1 KS3 Year 8.pdf" target="_blank">KA1 KS3 Year 8</a></li>
+                    <li><a href="assets/exam/KA1 KS3 Year 9.pdf" target="_blank">KA1 KS3 Year 9</a></li>
                 </ul>
                 <a class="close-reveal-modal" aria-label="Close">&#215;</a>
             </div>     
