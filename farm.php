@@ -75,6 +75,107 @@
             font-weight: 300;
         }
 
+        /* Slideshow Styles */
+        .slideshow-section {
+            background: var(--bg-white);
+            padding: 4rem 0;
+            overflow: hidden;
+        }
+
+        .slideshow-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        .slide {
+            display: none;
+            position: relative;
+            width: 100%;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0.6; }
+            to { opacity: 1; }
+        }
+
+        /* Navigation Arrows */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--secondary-color);
+            font-size: 24px;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 10;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .prev:hover, .next:hover {
+            background: var(--secondary-color);
+            color: white;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .prev {
+            left: 20px;
+        }
+
+        .next {
+            right: 20px;
+        }
+
+        /* Dot Navigation */
+        .dots-container {
+            text-align: center;
+            padding: 25px 0;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.95), rgba(255,255,255,1));
+            position: relative;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 14px;
+            width: 14px;
+            margin: 0 6px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .dot.active, .dot:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.3);
+            border-color: var(--secondary-color);
+        }
+
         /* Content Sections */
         .content-section {
             padding: 4rem 0;
@@ -162,6 +263,34 @@
             .content-section {
                 padding: 3rem 0;
             }
+
+            .slide img {
+                height: 400px;
+            }
+
+            .prev, .next {
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+
+            .prev {
+                left: 10px;
+            }
+
+            .next {
+                right: 10px;
+            }
+
+            .slideshow-section {
+                padding: 2rem 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .slide img {
+                height: 300px;
+            }
         }
 
         /* Accessibility */
@@ -188,6 +317,54 @@
     <!-- NAVIGATION -->
     <?php include("includes/topnav.html") ?>
     
+    <!-- SLIDESHOW SECTION -->
+    <section class="slideshow-section">
+        <div class="container">
+            <div class="slideshow-container">
+                <!-- Slides -->
+                <div class="slide active">
+                    <img src="/assets/farm/pictures/thumbnail_image0.jpg" alt="Park Community School Farm - View 1">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image1.jpg" alt="Park Community School Farm - View 2">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image2.jpg" alt="Park Community School Farm - View 3">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image3.jpg" alt="Park Community School Farm - View 4">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image4.jpg" alt="Park Community School Farm - View 5">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image5.jpg" alt="Park Community School Farm - View 6">
+                </div>
+                <div class="slide">
+                    <img src="/assets/farm/pictures/thumbnail_image6.jpg" alt="Park Community School Farm - View 7">
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next" onclick="changeSlide(1)" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Dot Navigation -->
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- MAIN CONTENT SECTION -->
     <section class="chef-section">
@@ -210,5 +387,75 @@
     <script src="js/vendor/libraries.min.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/app.min.js"></script>
+    
+    <script>
+        let slideIndex = 1;
+        let slideTimer;
+
+        // Initialize slideshow
+        showSlides(slideIndex);
+        startAutoPlay();
+
+        // Next/previous controls
+        function changeSlide(n) {
+            stopAutoPlay();
+            showSlides(slideIndex += n);
+            startAutoPlay();
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            stopAutoPlay();
+            showSlides(slideIndex = n);
+            startAutoPlay();
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+            
+            slides[slideIndex-1].classList.add("active");
+            dots[slideIndex-1].classList.add("active");
+        }
+
+        // Auto-play functionality
+        function autoPlaySlides() {
+            slideIndex++;
+            showSlides(slideIndex);
+        }
+
+        function startAutoPlay() {
+            slideTimer = setInterval(autoPlaySlides, 5000); // Change image every 5 seconds
+        }
+
+        function stopAutoPlay() {
+            clearInterval(slideTimer);
+        }
+
+        // Pause on hover
+        document.querySelector('.slideshow-container').addEventListener('mouseenter', stopAutoPlay);
+        document.querySelector('.slideshow-container').addEventListener('mouseleave', startAutoPlay);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') {
+                changeSlide(-1);
+            } else if (event.key === 'ArrowRight') {
+                changeSlide(1);
+            }
+        });
+    </script>
 </body>
 </html>

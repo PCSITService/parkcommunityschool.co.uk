@@ -262,8 +262,8 @@
                 <!-- Primary/Junior School Menu -->
                 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; padding: 2.5rem; text-align: center; color: white; box-shadow: 0 10px 30px rgba(240, 147, 251, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;">
                     <div style="font-size: 3.5rem; margin-bottom: 1rem;">📚</div>
-                    <h4 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: 700;">Primary/Junior School</h4>
-                    <a href="#" style="display: inline-block; background: white; color: #f5576c; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';">View Menu Pack</a>
+                    <h4 style="font-size: 1.6rem; margin-bottom: 2rem; font-weight: 700;">Primary / Junior School</h4>
+                    <a href="/assets/schoolmeals/Riders Menu Pack 2025 Proof.pdf" target="_blank" style="display: inline-block; background: white; color: #f5576c; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';">View Menu Pack</a>
                 </div>
 
                 <!-- Nursery Menu -->
