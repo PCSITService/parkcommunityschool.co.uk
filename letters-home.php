@@ -67,6 +67,7 @@
                 <div class="newsletter-item">
                     <h4>November 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-11/Park Riders - Consultee Letter (PN).pdf" target="_blank">Riders Federation - Consultee Letter</a></li>
                         <li><a href="/assets/letters/2025-11/Year 10 Testing week 1 10 11 2025.pdf" target="_blank">Year 10 Testing week</a></li>
                         <li><a href="/assets/letters/2025-11/Work Experience 2026 Letter Nov25.pdf" target="_blank">Work Experience 2026</a></li>
                         <li><a href="/assets/letters/2025-11/BBC Bitesize Event Oct 25.pdf" target="_blank">BBC Bitesize Careers Tour</a></li>
