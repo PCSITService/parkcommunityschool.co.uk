@@ -291,7 +291,7 @@
                 <li>• <a href="/assets/policies/provider-access.pdf" target="_blank" class="policy-link">Provider Access</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
                 <li>• <a href="/assets/policies/Physical Restraint  Use of Reasonable Force - January 2024.pdf" target="_blank" class="policy-link">Physical Restraint & Use of Reasonable Force Policy</a></li>
-                <li>• <a href="/assets/policies/4Safeguarding Adults  - November 2023.pdf" class="policy-link">Safeguarding Adults Policy</a></li>
+                <li>• <a href="/assets/policies/Safeguarding Adults  - November 2023.pdf" class="policy-link">Safeguarding Adults Policy</a></li>
                 <li>• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
                 <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                 <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
