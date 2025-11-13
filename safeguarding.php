@@ -418,58 +418,84 @@
         </div>
     </section>
 
-    <!-- Resources Section -->
-    <section class="resources-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Safeguarding Resources</h2>
-                <p class="section-subtitle">
-                    Access important information and tools to help keep children safe
+<!-- Resources Section -->
+<section class="resources-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Safeguarding Resources</h2>
+            <p class="section-subtitle">
+                Access important information and tools to help keep children safe
+            </p>
+        </div>
+
+        <div class="resources-grid">
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                </div>
+                <h3 class="resource-title">Visitor Information</h3>
+                <p class="resource-description">
+                    Essential safeguarding information for all visitors to our school
                 </p>
+                <a href="assets/safegaurding/visitor.pdf" target="_blank" class="resource-button">
+                    Download Leaflet
+                </a>
             </div>
 
-            <div class="resources-grid">
-                <div class="resource-card">
-                    <div class="resource-icon">
-                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="resource-title">Visitor Information</h3>
-                    <p class="resource-description">
-                        Essential safeguarding information for all visitors to our school
-                    </p>
-                    <a href="assets/safegaurding/visitor.pdf" target="_blank" class="resource-button">
-                        Download Leaflet
-                    </a>
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-book" aria-hidden="true"></i>
                 </div>
+                <h3 class="resource-title">Safeguarding Policy, Procedure and Guidance</h3>
+                <p class="resource-description">
+                    Comprehensive safeguarding policy, procedures and guidance for the school
+                </p>
+                <a href="assets/policies/safeguarding.pdf" target="_blank" class="resource-button">
+                    Download Policy
+                </a>
+            </div>
 
-                <div class="resource-card">
-                    <div class="resource-icon">
-                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="resource-title">Safe4me Platform</h3>
-                    <p class="resource-description">
-                        Online safety resources and guidance for parents and families
-                    </p>
-                    <a href="https://www.safe4me.co.uk/parents/" target="_blank" class="resource-button">
-                        Visit Safe4me
-                    </a>
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-file-contract" aria-hidden="true"></i>
                 </div>
+                <h3 class="resource-title">Safeguarding Adults Policy</h3>
+                <p class="resource-description">
+                    Safeguarding policy for adults within our school community
+                </p>
+                <a href="assets/policies/Safeguarding Adults  - November 2023.pdf" target="_blank" class="resource-button">
+                    Download Policy
+                </a>
+            </div>
 
-                <div class="resource-card">
-                    <div class="resource-icon">
-                        <i class="fas fa-users" aria-hidden="true"></i>
-                    </div>
-                    <h3 class="resource-title">Parent Advice</h3>
-                    <p class="resource-description">
-                        Comprehensive guidance and support for parents on safeguarding matters
-                    </p>
-                    <a href="/parent-advice.php" class="resource-button">
-                        Get Advice
-                    </a>
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-shield-alt" aria-hidden="true"></i>
                 </div>
+                <h3 class="resource-title">Safe4me Platform</h3>
+                <p class="resource-description">
+                    Online safety resources and guidance for parents and families
+                </p>
+                <a href="https://www.safe4me.co.uk/parents/" target="_blank" class="resource-button">
+                    Visit Safe4me
+                </a>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-icon">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                </div>
+                <h3 class="resource-title">Parent Advice</h3>
+                <p class="resource-description">
+                    Comprehensive guidance and support for parents on safeguarding matters
+                </p>
+                <a href="/parent-advice.php" class="resource-button">
+                    Get Advice
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section -->
     <section class="contact-section">
