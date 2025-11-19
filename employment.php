@@ -274,6 +274,15 @@
             <!-- Active vacancy card -->
 
             <article class="vacancy-card">
+                <h3>Senior Chef de Partie</h3>
+                <div class="button-container">
+                    <a href="assets/recruitment/2025-11/Job Advert - Senior Chef De Partie -Nov 2025.pdf" class="vacancy-link" target="_blank" aria-label="Senior Chef de Partie">
+                        <i class="fas fa-download" aria-hidden="true"></i> View Details
+                    </a>
+                </div>
+            </article>
+
+            <article class="vacancy-card">
                 <h3>Teacher of Science</h3>
                 <div class="button-container">
                     <a href="assets/recruitment/2025-10/Science -Oct 2025.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
