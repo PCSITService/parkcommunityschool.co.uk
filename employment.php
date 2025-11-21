@@ -280,16 +280,7 @@
                         <i class="fas fa-download" aria-hidden="true"></i> View Details
                     </a>
                 </div>
-            </article>
-
-            <article class="vacancy-card">
-                <h3>Teacher of Science</h3>
-                <div class="button-container">
-                    <a href="assets/recruitment/2025-10/Science -Oct 2025.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                        <i class="fas fa-download" aria-hidden="true"></i> View Details
-                    </a>
-                </div>
-            </article>            
+            </article>           
             
             <!-- Governor vacancies notice -->
             <p class="text-italic">Governor vacancies are available on the <a href="governors-page.html">Governors page</a>.</p>
