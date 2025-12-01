@@ -718,7 +718,6 @@
 				<!-- Footer -->
 				<div style="background-color: #f8f9fa; padding: 25px 30px 30px 30px; text-align: center; border-top: 1px solid #e9ecef; flex-shrink: 0;">
 					<button onclick="closeInstallmentModal()" style="background-color: #4a90a4; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: 500; font-size: 1rem; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Close</button>
-					<a href="http://www.scopay.com/pcs" target="_blank" style="display: inline-block; margin-left: 15px; background-color: #5cb85c; color: white; text-decoration: none; padding: 12px 30px; border-radius: 6px; font-weight: 500; font-size: 1rem; transition: background-color 0.3s; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">Pay Online</a>
 				</div>
 			</div>
 		</div>
@@ -777,7 +776,7 @@
 					</div>
 					
 					<!-- Trip Card 2 - Hercules the Musical -->
-					<div style="margin-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.2);">
+					<div style="margin-bottom: 40px;">
 						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
 							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
 								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Hercules the Musical</h3>
@@ -789,32 +788,10 @@
 							<div style="flex: 1; min-width: 250px;">
 								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
 								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> TBC</p>
+									<p style="margin: 5px 0;"><strong>Date:</strong> Thursday 8th January 2026</p>
 									<p style="margin: 5px 0;"><strong>Lead:</strong> Jodie Brown</p>
 									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £59</p>
 									<p style="margin: 5px 0;"><strong>Year Group:</strong> Years 7-11</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Trip Card 3 - Travel and Tourism trip to Bath -->
-					<div style="margin-bottom: 40px;">
-						<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; flex-wrap: wrap;">
-							<div style="flex: 2; margin-right: 40px; min-width: 300px;">
-								<h3 style="color: white; font-size: 1.5rem; margin-bottom: 15px; font-weight: 400;">Travel and Tourism Trip to Bath</h3>
-								<div style="display: flex; gap: 15px; flex-wrap: nowrap; justify-content: flex-start; align-items: center;">
-									<button onclick="showInstallmentPlan('bath')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Payment Plan</button>
-									<button onclick="showLetters('bath')" style="background-color: #5cb85c; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: 500; font-size: 1rem; white-space: nowrap; flex-shrink: 0; min-width: 120px; height: 44px; display: flex; align-items: center; justify-content: center;">Letters</button>
-								</div>
-							</div>
-							<div style="flex: 1; min-width: 250px;">
-								<h4 style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px;">Details</h4>
-								<div style="line-height: 1.8; color: rgba(255,255,255,0.9);">
-									<p style="margin: 5px 0;"><strong>Date:</strong> TBC</p>
-									<p style="margin: 5px 0;"><strong>Lead:</strong> Harry Redman</p>
-									<p style="margin: 5px 0;"><strong>Total Cost:</strong> £18</p>
-									<p style="margin: 5px 0;"><strong>Year Group:</strong> Year 10</p>
 								</div>
 							</div>
 						</div>
@@ -940,39 +917,11 @@
 								</div>
 							</div>
 							
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
-								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
-							</div>
+							<h4 style="color: #4a90a4; margin-bottom: 20px; font-size: 1.2rem; text-align: center;">📅 Payment Schedule</h4>
 							
 							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip date is confirmed</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're finalizing the details for this theatre trip. Full payment information including installment options will be provided closer to the trip date.</div>
-							</div>
-							
-							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
-								<h5 style="margin: 0 0 10px 0; color: #4a90a4;">📧 Stay Updated</h5>
-								<p style="margin: 0; color: #666; line-height: 1.5;">More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
-							</div>
-						`
-					},
-					bath: {
-						title: 'Travel and Tourism Trip to Bath - Payment Plan',
-						content: `
-							<div style="text-align: center; margin-bottom: 25px;">
-								<div style="display: inline-block; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 15px 30px; border-radius: 8px; border-left: 4px solid #4a90a4;">
-									<h3 style="margin: 0; font-size: 1.5rem; color: #4a90a4;">Total Cost: £18</h3>
-								</div>
-							</div>
-							
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 4rem; margin-bottom: 15px;">⏰</div>
-								<h4 style="color: #4a90a4; margin: 0 0 15px 0; font-size: 1.3rem;">Payment Plan Coming Soon</h4>
-							</div>
-							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center;">
-								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available once the trip date is confirmed</strong>
-								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're organizing the details for this educational trip. Full payment information will be provided closer to the trip date.</div>
+								<strong style="color: #856404; font-size: 1.1rem;">📋 Payment plan will be available soon</strong>
+								<div style="color: #666; margin-top: 10px; line-height: 1.5;">We're finalizing the details for this theatre trip. Full payment information including installment options will be provided soon.</div>
 							</div>
 							
 							<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 25px; border: 1px solid #e9ecef;">
@@ -1018,20 +967,6 @@
 					},
 					hercules: {
 						title: 'Hercules the Musical - Trip Letters',
-						content: `
-							<div style="text-align: center; margin-bottom: 30px;">
-								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
-								<h3 style="color: #4a90a4; margin: 0;">Available Letters</h3>
-							</div>
-							
-							<div style="background: linear-gradient(135deg, #fff3cd 0%, #fef8e1 100%); padding: 25px; border-radius: 8px; border-left: 4px solid #ffc107; text-align: center;">
-								<strong style="color: #856404; font-size: 1.1rem;">📄 Trip letters will be available soon</strong>
-								<div style="color: #666; margin-top: 10px;">Letters with full trip details will be distributed to students and uploaded here.</div>
-							</div>
-						`
-					},
-					bath: {
-						title: 'Travel and Tourism Trip to Bath - Trip Letters',
 						content: `
 							<div style="text-align: center; margin-bottom: 30px;">
 								<div style="font-size: 3rem; margin-bottom: 15px;">📋</div>
