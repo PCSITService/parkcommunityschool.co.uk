@@ -59,7 +59,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         #homepage-hero p { background: rgba(255, 255, 255, 0.15); padding: 1.5rem; border-radius: var(--border-radius); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); font-size: 1.1rem; line-height: 1.7; margin-bottom: 2rem; }
 
         /* Buttons */
-        .button { border-radius: 25px !important; font-weight: 600; transition: var(--transition); text-decoration: none; display: inline-block; margin: 0.25rem; padding: 0.75rem 1.5rem; border: none; cursor: pointer; text-align: center; box-shadow: var(--shadow-light); min-width: 180px; white-space: nowrap; }
+        .button { border-radius: 25px !important; font-weight: 600; transition: var(--transition); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; margin: 0.25rem; padding: 0.75rem 1.25rem; border: none; cursor: pointer; text-align: center; box-shadow: var(--shadow-light); min-width: 160px; white-space: normal; line-height: 1.3; }
         .button:hover { transform: translateY(-2px); box-shadow: var(--shadow-medium); }
         .button.expand { min-width: 220px; padding: 1rem 2rem; font-size: 1.1rem; }
         .button.success { background: var(--primary-green); color: white; }
@@ -88,6 +88,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
 
         /* Sections */
         section { padding: 0; background: #333333; }
+        section .large-12.columns { background: transparent; }
         .grey-bg { padding: 3rem 0; background: var(--light-gray); position: relative; }
         .grey-bg::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(163, 205, 65, 0.05) 0%, rgba(79, 209, 199, 0.05) 100%); }
         .grey-bg > .row { position: relative; z-index: 2; }
@@ -110,21 +111,24 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         .contact-item a:hover { color: var(--primary-orange); text-decoration: underline; }
 
         /* Video Buttons */
-        .video-buttons-top { margin-bottom: 2rem; padding: 1rem 0; }
-        .video-buttons-top .row { display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; }
-        .video-buttons-top .columns { flex: 1; text-align: center; max-width: 280px; min-width: 150px; }
-        .video-btn-top { background: var(--primary-blue) !important; color: white !important; border: none !important; padding: 0.75rem 1.5rem !important; font-size: 0.9rem !important; width: 100% !important; text-align: center; transition: var(--transition); border-radius: 25px !important; font-weight: 600; display: block; white-space: nowrap !important; }
-        .video-btn-top:hover { background: #2980b9 !important; color: white !important; transform: translateY(-2px); box-shadow: var(--shadow-medium); }
-        .video-btn-top i { margin-right: 0.5rem; font-size: 0.85rem; }
+        .video-buttons-top { margin-bottom: 0; padding: 1.5rem 0; background: var(--dark-bg); }
+        .video-buttons-top .row { display: flex; justify-content: center; align-items: stretch; gap: 0.5rem; flex-wrap: wrap; }
+        .video-buttons-top .columns { flex: 1; text-align: center; max-width: 210px; min-width: 130px; }
+        .video-btn-top { background: var(--primary-blue) !important; color: white !important; border: none !important; padding: 0.6rem 0.5rem !important; font-size: 0.75rem !important; width: 100% !important; text-align: center; transition: var(--transition); border-radius: 25px !important; font-weight: 600; display: flex; align-items: center; justify-content: center; white-space: nowrap !important; min-height: 44px; }
+        .video-btn-top:hover { background: #2980b9 !important; color: white !important; transform: translateY(-2px); box-shadow: var(--shadow-medium); text-decoration: none; }
+        .video-btn-top i { margin-right: 0.35rem; font-size: 0.7rem; flex-shrink: 0; }
 
-        /* Slideshow */
-        .comprehensive-slideshow { background: transparent; border-radius: var(--border-radius); margin: 0; position: relative; overflow: hidden; }
-        .slide-content { display: none; padding: 0; min-height: 650px; height: auto; }
-        .slide-content.active { display: block; }
-        .slide-inner { padding: 2rem 3rem; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; box-sizing: border-box; }
+        /* Slideshow - with Foundation overrides */
+        .comprehensive-slideshow { background: var(--dark-bg) !important; border-radius: var(--border-radius); margin: 2rem 0; position: relative; overflow: hidden; box-shadow: var(--shadow-medium); }
+        .comprehensive-slideshow * { box-sizing: border-box; }
+        .slide-content { display: none !important; padding: 0; min-height: 550px; height: auto; background: var(--dark-bg) !important; }
+        .slide-content.active { display: block !important; }
+        .slide-inner { padding: 2.5rem 3rem; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; box-sizing: border-box; background: var(--dark-bg) !important; }
+        .slide-inner .row { background: transparent !important; }
+        .slide-inner .columns { background: transparent !important; }
         .slide-inner h3 { color: var(--primary-green); font-size: 2.2rem; font-weight: 700; margin-bottom: 2rem; text-align: center; }
         .slide-inner h3::after { content: ''; display: block; width: 60px; height: 3px; background: var(--primary-orange); margin: 1rem auto; border-radius: 2px; }
-        .slide-inner p { font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem; color: var(--text-dark); }
+        .slide-inner p { font-size: 1.1rem; line-height: 1.7; margin-bottom: 1.5rem; color: white; }
         .slide-inner .white-text p { color: white !important; }
 
         /* Highlight Box */
@@ -147,8 +151,8 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         .feature-box p { font-size: 1rem; line-height: 1.6; }
 
         /* Slide Indicators */
-        .slide-indicators { display: flex; justify-content: center; padding: 1.5rem; background: #f8f9fa; gap: 0.5rem; }
-        .indicator { width: 12px; height: 12px; border-radius: 50%; background: #dee2e6; cursor: pointer; transition: var(--transition); }
+        .slide-indicators { display: flex; justify-content: center; padding: 1.5rem; background: var(--dark-bg); gap: 0.5rem; border-radius: 0 0 var(--border-radius) var(--border-radius); }
+        .indicator { width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,0.3); cursor: pointer; transition: var(--transition); border: 2px solid transparent; }
         .indicator.active { background: var(--primary-green); }
         .indicator:hover { background: var(--primary-orange); }
 
@@ -438,9 +442,9 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
     </div>
 </section>
 
-<section>
-    <div class="row">
-        <div class="large-12 columns">
+<section style="background: #333333 !important;">
+    <div class="row" style="background: transparent;">
+        <div class="large-12 columns" style="background: transparent;">
             <div class="video-buttons-top">
                 <div class="row">
                     <div class="columns"><a href="https://vimeo.com/658514122" target="_blank" class="video-btn-top"><i class="fas fa-play"></i> Welcome To Park</a></div>
@@ -519,12 +523,12 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="slide-indicators">
-                <span class="indicator active" onclick="goToSlide(0)"></span>
-                <span class="indicator" onclick="goToSlide(1)"></span>
-                <span class="indicator" onclick="goToSlide(2)"></span>
+                
+                <div class="slide-indicators">
+                    <span class="indicator active" onclick="goToSlide(0)"></span>
+                    <span class="indicator" onclick="goToSlide(1)"></span>
+                    <span class="indicator" onclick="goToSlide(2)"></span>
+                </div>
             </div>
         </div>
     </div>
