@@ -14,9 +14,9 @@
           </a>
           <a href="https://pcs.hants.sch.uk" target="_blank" rel="noopener noreferrer">
             <img class="main-logo" src="/images/logo/Park Design & Print Logo.png" alt="Park Design Print">
+          </a>
           <a href="https://pcs.hants.sch.uk" target="_blank" rel="noopener noreferrer">
             <img class="main-logo" src="/images/logo/PCE-Logo.png" alt="Park Community Enterprise Logo">
-          </a>
           </a>
           <a href="https://pcs.hants.sch.uk" target="_blank" rel="noopener noreferrer">
             <img class="main-logo" src="/images/logo/PCV-Logo.png" alt="Park Community Ventures">
@@ -81,17 +81,19 @@
     </div>
     
     <!-- Social media links -->
-    <div style="text-align: center; margin: 30px 0;">
-      <a href="#" aria-label="Facebook" style="font-size: 1.5rem; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
-      <a href="#" aria-label="Twitter" style="font-size: 1.5rem; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
-      <a href="#" aria-label="Instagram" style="font-size: 1.5rem; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
-      <a href="#" aria-label="LinkedIn" style="font-size: 1.5rem; margin: 0 10px;"><i class="fab fa-linkedin"></i></a>
+    <div class="social-links">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
     
     <!-- Footer links with Terms & Conditions removed -->
     <div class="footer-links">
-      <a href="/privacy-policy.php">Privacy Policy</a> | 
-      <a href="/includes/cookie-policy.php">Cookie Policy</a> | 
+      <a href="/privacy-policy.php">Privacy Policy</a>
+      <span class="divider">|</span>
+      <a href="/includes/cookie-policy.php">Cookie Policy</a>
+      <span class="divider">|</span>
       <a href="/contact.php">Contact Us</a>
     </div>
     
@@ -179,7 +181,7 @@
     max-height: 100px;
     width: auto;
     object-fit: contain;
-    filter: brightness(1.1); /* Makes logos slightly brighter */
+    filter: brightness(1.1);
   }
   
   .footer-identity p {
@@ -212,23 +214,7 @@
     width: 100%;
     margin-bottom: 30px;
     gap: 15px;
-    overflow-x: auto;
     padding: 15px 0;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(255,255,255,0.3) transparent;
-  }
-  
-  .logo-row::-webkit-scrollbar {
-    height: 6px;
-  }
-  
-  .logo-row::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  .logo-row::-webkit-scrollbar-thumb {
-    background-color: rgba(255,255,255,0.3);
-    border-radius: 6px;
   }
   
   /* Consistent logo sizing with proper alignment */
@@ -238,10 +224,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-width: 132px;
-    max-width: 132px;
+    width: 132px;
     height: 132px;
-    position: relative;
+    flex-shrink: 0;
   }
   
   .logo-container img,
@@ -261,6 +246,18 @@
     opacity: 0.9;
   }
   
+  /* Social media links */
+  .social-links {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
   /* Links section with improved spacing */
   .footer-links {
     margin-top: 30px;
@@ -273,6 +270,10 @@
     margin: 0 15px;
     position: relative;
     padding: 5px 0;
+  }
+  
+  .footer-links .divider {
+    color: rgba(255, 255, 255, 0.3);
   }
   
   .footer-links a:after {
@@ -290,21 +291,13 @@
     width: 100%;
   }
   
-  /* Copyright section with improved styling */
-  .footer-copyright {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #aaa;
-    margin-top: 20px;
-  }
-  
   /* Cookie preferences container */
   .cookie-preferences {
     text-align: center;
     margin-top: 20px;
   }
   
-  /* Cookie Banner Styles - Improved */
+  /* Cookie Banner Styles */
   .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -365,12 +358,6 @@
     background-color: #666;
   }
   
-  .cookie-more {
-    color: var(--white);
-    text-decoration: underline;
-    margin-left: 10px;
-  }
-  
   /* Cookie Preferences Button */
   .cookie-pref-btn {
     background: none;
@@ -388,34 +375,87 @@
     color: var(--white);
   }
   
-  /* Mobile responsive improvements for footer */
+  /* ========== MOBILE RESPONSIVE - FIXED ========== */
   @media (max-width: 768px) {
-    .main-logo {
-      max-height: 80px;
+    footer {
+      padding: 40px 0 20px;
     }
     
+    /* Main logos - 2 column grid */
     .main-logos-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
+      justify-items: center;
+      max-width: 280px;
+      margin: 0 auto 25px auto;
     }
     
+    .main-logo {
+      max-height: 70px;
+      max-width: 120px;
+    }
+    
+    /* Accreditations - 2 column grid (NO FLEX) */
     .logo-row {
-      justify-content: center;
-      gap: 10px;
-      padding: 10px;
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 20px 15px !important;
+      justify-items: center !important;
+      max-width: 300px !important;
+      margin: 0 auto 30px auto !important;
+      padding: 0 10px !important;
     }
     
     .logo-container {
-      min-width: 110px;
-      max-width: 110px;
-      height: 110px;
+      width: 100% !important;
+      max-width: 120px !important;
+      height: auto !important;
+      min-height: 100px !important;
     }
     
-    .logo-container img,
+    .logo-container img {
+      width: 100% !important;
+      max-width: 100px !important;
+      height: auto !important;
+      max-height: 80px !important;
+    }
+    
+    /* Cyber Essentials iframe needs more space */
     .logo-container iframe {
-      height: 110px;
-      width: 110px;
+      width: 110px !important;
+      height: 110px !important;
+      max-width: 110px !important;
+      max-height: 110px !important;
     }
     
+    /* Social links */
+    .social-links {
+      margin: 20px 0;
+    }
+    
+    .social-links a {
+      margin: 0 8px;
+    }
+    
+    /* Footer links stack vertically */
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    .footer-links .divider {
+      display: none;
+    }
+    
+    .footer-links a {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    
+    /* Cookie banner */
     .cookie-content {
       flex-direction: column;
       align-items: flex-start;
@@ -426,35 +466,43 @@
       width: 100%;
       justify-content: space-between;
     }
-    
-    .footer-links a {
-      margin: 0 10px;
-      font-size: 0.9rem;
-    }
   }
   
   @media (max-width: 480px) {
+    .main-logos-container {
+      max-width: 240px;
+      gap: 15px;
+    }
+    
+    .main-logo {
+      max-height: 60px;
+      max-width: 100px;
+    }
+    
+    .logo-row {
+      max-width: 260px !important;
+      gap: 15px 10px !important;
+    }
+    
     .logo-container {
-      min-width: 90px;
-      max-width: 90px;
-      height: 90px;
+      max-width: 100px !important;
+      min-height: 90px !important;
     }
     
-    .logo-container img,
+    .logo-container img {
+      max-width: 85px !important;
+      max-height: 70px !important;
+    }
+    
     .logo-container iframe {
-      height: 90px;
-      width: 90px;
+      width: 95px !important;
+      height: 95px !important;
+      max-width: 95px !important;
+      max-height: 95px !important;
     }
     
-    .footer-links {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
-    
-    .footer-links a {
-      margin: 5px 0;
+    .footer-logos-title {
+      font-size: 1.1rem;
     }
   }
 </style>
@@ -462,7 +510,7 @@
 <!-- Footer JavaScript -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Cookie consent logic - Using session storage instead of localStorage for demo
+    // Cookie consent logic
     const cookieConsent = sessionStorage.getItem('cookieConsent');
     
     if (!cookieConsent) {
@@ -477,7 +525,6 @@
     document.getElementById('reject-cookies').addEventListener('click', function() {
       sessionStorage.setItem('cookieConsent', 'rejected');
       document.getElementById('cookie-banner').style.display = 'none';
-      // Disable analytics if using Google Analytics
       window['ga-disable-UA-XXXXXXXX-X'] = true;
     });
     
