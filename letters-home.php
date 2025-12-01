@@ -63,6 +63,13 @@
         <br>
         <div class="medium-12 columns">
             <div class="newsletter-list">
+                <!-- December 2025 -->
+                <div class="newsletter-item">
+                    <h4>December 2025</h4>
+                    <ul>
+                        <li><a href="/assets/letters/2025-12/Park Newsletter 1 Dec.pdf" target="_blank">School Newsletter - Monday 1st December</a></li>
+                    </ul>
+                </div>
                 <!-- November 2025 -->
                 <div class="newsletter-item">
                     <h4>November 2025</h4>
