@@ -275,8 +275,8 @@
                 <li>• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                 <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
                 <li>• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
-                <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
-                <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
+                <li>• <a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
+                <li>• <a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
                 <li>• <a href="/summer-school.php" class="policy-link">Summer School</a></li>
                 <li>• <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
