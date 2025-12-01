@@ -346,12 +346,12 @@
 
             <div class="policy-item" data-search="send information report special educational needs">
                 <div class="policy-title">SEND Information Report</div>
-                <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-item" data-search="send policy special educational needs">
                 <div class="policy-title">SEND Policy</div>
-                <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
+                <a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link pdf">Download PDF</a>
             </div>
 
             <div class="policy-item" data-search="smsc spiritual moral social cultural">

@@ -293,8 +293,8 @@
                 <li>• <a href="/assets/policies/Physical Restraint  Use of Reasonable Force - January 2024.pdf" target="_blank" class="policy-link">Physical Restraint & Use of Reasonable Force Policy</a></li>
                 <li>• <a href="/assets/policies/Safeguarding Adults  - November 2023.pdf" class="policy-link">Safeguarding Adults Policy</a></li>
                 <li>• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
-                <li>• <a href="/assets/policies/SEND Information Report - September 2024.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
-                <li>• <a href="/assets/policies/SEND - September 2024.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
+                <li>• <a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
+                <li>• <a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                 <li>• <a href="/assets/policies/sex_education.pdf" target="_blank" class="policy-link">Sex Education</a></li>
                 <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
                 <li>• <a href="/summer-school.php" class="policy-link">Summer School</a></li>
