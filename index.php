@@ -416,11 +416,11 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
 <!-- VIDEO BUTTONS -->
 <div class="video-buttons-top">
     <div class="row">
-        <div class="columns"><a href="about.php" class="video-btn-top"><i class="fas fa-play-circle"></i> Welcome To Park</a></div>
-        <div class="columns"><a href="about.php#belonging" class="video-btn-top"><i class="fas fa-play-circle"></i> Belonging</a></div>
-        <div class="columns"><a href="about.php#vision" class="video-btn-top"><i class="fas fa-play-circle"></i> Our Vision</a></div>
-        <div class="columns"><a href="jamie-oliver-award.php" class="video-btn-top"><i class="fas fa-play-circle"></i> Jamie Oliver Award</a></div>
-        <div class="columns"><a href="itv-news.php" class="video-btn-top"><i class="fas fa-play-circle"></i> ITV News Attendance</a></div>
+        <div class="columns"><a href="https://vimeo.com/658515057" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Welcome To Park</a></div>
+        <div class="columns"><a href="https://vimeo.com/974947783" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Belonging</a></div>
+        <div class="columns"><a href="https://vimeo.com/658514122" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Our Vision</a></div>
+        <div class="columns"><a href="https://vimeo.com/1096605692" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Jamie Oliver Award</a></div>
+        <div class="columns"><a href="https://vimeo.com/1129965075" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> ITV News Attendance</a></div>
     </div>
 </div>
 
