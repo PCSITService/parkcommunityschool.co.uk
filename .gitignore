@@ -18,3 +18,5 @@ Thumbs.db
 
 # ACME
 #/.well-known
+rate_limit_db.json
+includes/rate_limit_db.json
