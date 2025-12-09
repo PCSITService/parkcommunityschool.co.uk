@@ -127,6 +127,12 @@
             box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
+        .search-results-count {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
         .policies-list {
             background: white;
             padding: 30px;
@@ -148,6 +154,10 @@
 
         .policies-list li:last-child {
             border-bottom: none;
+        }
+
+        .policies-list li.hidden {
+            display: none;
         }
 
         .policy-link {
@@ -201,7 +211,10 @@
             text-decoration: underline !important;
         }
 
-        .hidden {
+        .no-results {
+            padding: 20px;
+            text-align: center;
+            color: #6b7280;
             display: none;
         }
 
@@ -252,35 +265,37 @@
         <!-- Search Box -->
         <div class="search-box">
             <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
+            <div id="searchResultsCount" class="search-results-count"></div>
         </div>
 
         <!-- Policies List -->
         <div class="policies-list">
-            <ul>
-                <li>• <a href="/admissions.php" class="policy-link">Admission Arrangements</a></li>
-                <li>• <a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
-                <li>• <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
-                <li>• <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
-                <li>• <a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
-                <li>• <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
-                <li>• <a href="/curriculum.php" class="policy-link">Curriculum</a></li>
-                <li>• <a href="#" class="policy-link">ECT Induction</a></li>
-                <li>• <a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
-                <li>• <a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>
-                <li>• <a href="/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
-                <li>• <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link">Governors' Allowances</a></li>
-                <li>• <a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link">Key Stage 4 Results</a></li>
-                <li>• <a href="/assets/statutory/leaver-destinations.pdf" target="_blank" class="policy-link">Leaver Destinations</a></li>
-                <li>• <a href="/ofsted-reports.php" class="policy-link">Ofsted Reports 2022</a></li>
-                <li>• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
-                <li>• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
-                <li>• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
-                <li>• <a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
-                <li>• <a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
-                <li>• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
-                <li>• <a href="/summer-school.php" class="policy-link">Summer School</a></li>
-                <li>• <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
+            <ul id="policiesList">
+                <li data-policy="admission arrangements admissions">• <a href="/admissions.php" class="policy-link">Admission Arrangements</a></li>
+                <li data-policy="behaviour policy conduct">• <a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
+                <li data-policy="careers education guidance ceiag">• <a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
+                <li data-policy="charging and remissions fees payments">• <a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
+                <li data-policy="child protection safeguarding">• <a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
+                <li data-policy="complaints procedure">• <a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
+                <li data-policy="curriculum subjects">• <a href="/curriculum.php" class="policy-link">Curriculum</a></li>
+                <li data-policy="ect induction nqt early career teacher">• <a href="#" class="policy-link">ECT Induction</a></li>
+                <li data-policy="equality statement objectives diversity">• <a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
+                <li data-policy="ethos and values">• <a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>
+                <li data-policy="financial benchmarking budget spending">• <a href="/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
+                <li data-policy="governors allowances">• <a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link">Governors' Allowances</a></li>
+                <li data-policy="key stage 4 results ks4 gcse exam results">• <a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link">Key Stage 4 Results</a></li>
+                <li data-policy="leaver destinations">• <a href="/assets/statutory/leaver-destinations.pdf" target="_blank" class="policy-link">Leaver Destinations</a></li>
+                <li data-policy="ofsted reports inspection">• <a href="/ofsted-reports.php" class="policy-link">Ofsted Reports 2022</a></li>
+                <li data-policy="performance tables results">• <a href="//www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
+                <li data-policy="pupil premium disadvantaged funding">• <a href="/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
+                <li data-policy="safeguarding policy procedure guidance child protection">• <a href="/assets/policies/4.1 Safeguarding September 2025.pdf" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
+                <li data-policy="send information report special educational needs disabilities">• <a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
+                <li data-policy="send policy special educational needs disabilities">• <a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
+                <li data-policy="smsc spiritual moral social cultural">• <a href="/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social & Cultural)</a></li>
+                <li data-policy="summer school">• <a href="/summer-school.php" class="policy-link">Summer School</a></li>
+                <li data-policy="suspension and permanent exclusion expelled">• <a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
             </ul>
+            <div id="noResults" class="no-results">No policies found matching your search.</div>
         </div>
 
         <!-- Policy Information -->
@@ -294,7 +309,45 @@
     <?php include("includes/footer.html") ?>
 
     <script>
-        // Search functionality removed as it's no longer needed for bullet list
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('policySearch');
+            const policiesList = document.getElementById('policiesList');
+            const policyItems = policiesList.querySelectorAll('li');
+            const noResults = document.getElementById('noResults');
+            const searchResultsCount = document.getElementById('searchResultsCount');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase().trim();
+                let visibleCount = 0;
+
+                policyItems.forEach(function(item) {
+                    const policyName = item.querySelector('.policy-link').textContent.toLowerCase();
+                    const policyData = item.getAttribute('data-policy').toLowerCase();
+                    
+                    // Check if search term matches either the visible text or the data attribute
+                    if (policyName.includes(searchTerm) || policyData.includes(searchTerm)) {
+                        item.classList.remove('hidden');
+                        visibleCount++;
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+
+                // Show/hide no results message
+                if (visibleCount === 0 && searchTerm !== '') {
+                    noResults.style.display = 'block';
+                } else {
+                    noResults.style.display = 'none';
+                }
+
+                // Update results count
+                if (searchTerm !== '') {
+                    searchResultsCount.textContent = visibleCount + ' of ' + policyItems.length + ' policies found';
+                } else {
+                    searchResultsCount.textContent = '';
+                }
+            });
+        });
     </script>
 </body>
 </html>
