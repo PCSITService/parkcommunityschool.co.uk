@@ -274,7 +274,7 @@
             <!-- Active vacancy card -->
 
             <article class="vacancy-card">
-                <h3>Finance Oficer</h3>
+                <h3>Finance Officer</h3>
                 <div class="button-container">
                     <a href="assets/recruitment/2025-12/Job Advert - Finance Officer - Dec25.pdf" class="vacancy-link" target="_blank" aria-label="Finance Officer">
                         <i class="fas fa-download" aria-hidden="true"></i> View Details
