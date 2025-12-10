@@ -98,10 +98,10 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         /* Video Buttons */
         .video-buttons-top { padding: 1.5rem 0; background: var(--dark); }
         .video-buttons-top .row { display: flex; justify-content: center; align-items: stretch; gap: 0.5rem; flex-wrap: wrap; }
-        .video-buttons-top .columns { flex: 1; text-align: center; max-width: 210px; min-width: 130px; }
-        .video-btn-top { background: var(--blue) !important; color: #fff !important; border: none !important; padding: 0.6rem 0.5rem !important; font-size: 0.75rem !important; width: 100% !important; transition: var(--trans); border-radius: 25px !important; font-weight: 600; display: flex; align-items: center; justify-content: center; white-space: nowrap !important; min-height: 44px; }
+        .video-buttons-top .columns { flex: 1; text-align: center; max-width: 180px; min-width: 120px; }
+        .video-btn-top { background: var(--blue) !important; color: #fff !important; border: none !important; padding: 0.5rem 0.75rem !important; font-size: 0.7rem !important; width: 100% !important; transition: var(--trans); border-radius: 25px !important; font-weight: 600; display: flex; align-items: center; justify-content: center; white-space: normal !important; min-height: 44px; line-height: 1.2; text-align: center; }
         .video-btn-top:hover { background: #2980b9 !important; transform: translateY(-2px); box-shadow: var(--shadow-md); text-decoration: none; }
-        .video-btn-top i { margin-right: 0.35rem; font-size: 0.7rem; }
+        .video-btn-top i { margin-right: 0.35rem; font-size: 0.65rem; flex-shrink: 0; }
 
         /* Slideshow */
         .comprehensive-slideshow { background: var(--dark) !important; border-radius: var(--radius); margin: 2rem 0; position: relative; overflow: hidden; box-shadow: var(--shadow-md); }
@@ -244,8 +244,14 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
 
         /* Tablet */
         @media (min-width: 769px) and (max-width: 1024px) {
-            .video-buttons-top .columns { min-width: 140px; max-width: 200px; }
-            .video-btn-top { font-size: 0.8rem !important; padding: 0.6rem 0.8rem !important; }
+            .video-buttons-top .columns { min-width: 100px; max-width: 160px; }
+            .video-btn-top { font-size: 0.65rem !important; padding: 0.5rem 0.5rem !important; }
+        }
+        
+        /* Large desktop */
+        @media (min-width: 1200px) {
+            .video-buttons-top .columns { max-width: 200px; }
+            .video-btn-top { font-size: 0.75rem !important; padding: 0.6rem 1rem !important; }
         }
 
         /* Touch devices */
@@ -421,6 +427,7 @@ $showCaptcha = $rateLimiter->isLimitExceeded();
         <div class="columns"><a href="https://vimeo.com/658514122" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Our Vision</a></div>
         <div class="columns"><a href="https://vimeo.com/1096605692" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> Jamie Oliver Award</a></div>
         <div class="columns"><a href="https://vimeo.com/1129965075" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> ITV News Attendance</a></div>
+        <div class="columns"><a href="https://vimeo.com/1145302842" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> BBC Social Media</a></div>
     </div>
 </div>
 
