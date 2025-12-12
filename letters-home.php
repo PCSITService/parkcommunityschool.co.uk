@@ -67,6 +67,7 @@
                 <div class="newsletter-item">
                     <h4>December 2025</h4>
                     <ul>
+                        <li><a href="/assets/letters/2025-12/End of Term letter - December 2025.pdf" target="_blank">End of Term letter - December 2025</a></li>
                         <li><a href="/assets/letters/2025-12/Rich challenge 2 letter_.pdf" target="_blank">Year 7 Rich Challenge</a></li>
                         <li><a href="/assets/letters/2025-12/Additional Year 11 parents evening 02 12 24.pdf" target="_blank">Important Year 11 Parent and Carer Meeting</a></li>
                         <li><a href="/assets/letters/2025-12/Park Newsletter 1 Dec.pdf" target="_blank">School Newsletter - Monday 1st December</a></li>
