@@ -96,7 +96,7 @@
         <p>You can view the school’s financial data and see how it compares with others by following the link below:</p>
         <p><a href="https://financial-benchmarking-and-insights-tool.education.gov.uk/school/116473" target="_blank">Government Financial Benchmarking and Insights Tool</a></p>
     </div>
-    <h2>The number of employees whose pay exceeded £100k, in £10k bandings for FY 23/24 was:</h2>
+    <h2>The number of employees whose pay exceeded £100k, in £10k bandings for FY 2024 / 2025 was:</h2>
     <table>
         <thead>
             <tr>
