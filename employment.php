@@ -274,6 +274,15 @@
             <!-- Active vacancy card -->
 
             <article class="vacancy-card">
+                <h3>Attendance Officer</h3>
+                <div class="button-container">
+                    <a href="assets/recruitment/2025-12/Attendance Officer - December 2025.pdf" class="vacancy-link" target="_blank" aria-label="Attendance Officer">
+                        <i class="fas fa-download" aria-hidden="true"></i> View Details
+                    </a>
+                </div>
+            </article>   
+
+            <article class="vacancy-card">
                 <h3>Teaching Assistant</h3>
                 <div class="button-container">
                     <a href="assets/recruitment/2025-12/Teaching Assistant - January 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teaching Assistant">
