@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Grey background styles - REMOVED */
 .grey-bg {
-    background-color: unset; /* Removed grey background */
+    background-color: unset;
 }
 .grey-bg blockquote,
 .grey-bg h1,
@@ -312,14 +312,14 @@ section.page-notification p {
     
     /* Header adjustments for mobile */
     header h1 {
-        font-size: 2em; /* Reduced from 3em */
+        font-size: 2em;
         text-align: center;
         padding: 10px;
     }
     
     #homepage-hero {
-        padding: 20px 15px; /* Reduced padding */
-        background-attachment: scroll; /* Remove fixed for mobile performance */
+        padding: 20px 15px;
+        background-attachment: scroll;
     }
     
     #homepage-hero h1 {
@@ -328,34 +328,6 @@ section.page-notification p {
     
     #homepage-hero h3 {
         font-size: 1.2em;
-    }
-    
-    /* Navigation adjustments */
-    .top-bar {
-        background: #333;
-    }
-    
-    .top-bar-section ul {
-        display: none; /* Hidden by default, shown via JS */
-        flex-direction: column;
-        width: 100%;
-        background: #333;
-    }
-    
-    .top-bar-section ul.show {
-        display: flex;
-    }
-    
-    .top-bar-section ul li {
-        width: 100%;
-        border-bottom: 1px solid #555;
-    }
-    
-    .top-bar-section ul li a {
-        display: block;
-        padding: 15px 20px;
-        color: white;
-        text-decoration: none;
     }
     
     /* Content and layout */
@@ -426,132 +398,6 @@ section.page-notification p {
     }
 }
 
-/* ========================================
-   IMPROVED MOBILE MENU STYLES
-   ======================================== */
-@media (max-width: 768px) {
-    /* Enhanced mobile dropdown styling */
-    .custom-dropdown-menu {
-        position: static !important;
-        width: 100% !important;
-        box-shadow: none !important;
-        background-color: #2a2a2a !important; /* Darker background for better contrast */
-        display: none !important;
-        border-top: 2px solid #A3CD42 !important; /* Top border for visual separation */
-        margin: 0 !important;
-        animation: slideDown 0.3s ease-out;
-    }
-    
-    .custom-dropdown.open .custom-dropdown-menu {
-        display: block !important;
-    }
-    
-    .custom-dropdown-menu a {
-        padding: 16px 25px 16px 40px !important; /* Increased padding for better touch targets */
-        background-color: #2a2a2a !important;
-        border-left: 4px solid #A3CD42 !important; /* Thicker green border */
-        border-bottom: 1px solid #444 !important; /* Subtle separator between items */
-        font-size: 15px !important; /* Slightly larger text */
-        color: #ffffff !important;
-        text-decoration: none !important;
-        display: block !important;
-        position: relative !important;
-        transition: all 0.2s ease !important; /* Smooth hover transition */
-    }
-    
-    .custom-dropdown-menu a:hover,
-    .custom-dropdown-menu a:focus {
-        background-color: #A3CD42 !important; /* Green background on hover */
-        color: #333 !important; /* Dark text on green background */
-        border-left: 4px solid #ffffff !important; /* White border on hover */
-        transform: translateX(4px) !important; /* Slight slide effect */
-    }
-    
-    .custom-dropdown-menu a:last-child {
-        border-bottom: none !important;
-    }
-    
-    /* Add arrow indicator for submenu items */
-    .custom-dropdown-menu a:before {
-        content: "→" !important;
-        margin-right: 8px !important;
-        color: #A3CD42 !important;
-        font-weight: bold !important;
-    }
-    
-    .custom-dropdown-menu a:hover:before {
-        color: #333 !important;
-    }
-    
-    /* Improve main dropdown button styling on mobile */
-    .custom-dropdown > a {
-        position: relative !important;
-        background-color: #333 !important;
-        padding: 18px 20px !important; /* More padding */
-        border-bottom: 1px solid #555 !important;
-        font-size: 16px !important;
-        transition: all 0.2s ease !important;
-    }
-    
-    .custom-dropdown > a:hover {
-        background-color: #444 !important;
-    }
-    
-    /* Enhanced dropdown arrow */
-    .custom-dropdown > a:after {
-        content: "▼" !important;
-        position: absolute !important;
-        right: 20px !important;
-        top: 50% !important;
-        transform: translateY(-50%) !important;
-        font-size: 12px !important;
-        color: #A3CD42 !important;
-        transition: transform 0.3s ease !important;
-    }
-    
-    .custom-dropdown.open > a:after {
-        transform: translateY(-50%) rotate(180deg) !important; /* Rotate arrow when open */
-        color: #ffffff !important;
-    }
-    
-    .custom-dropdown.open > a {
-        background-color: #A3CD42 !important;
-        color: #333 !important;
-    }
-    
-    /* Smooth slide animation for dropdowns */
-    @keyframes slideDown {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    
-    /* Improve non-dropdown menu items */
-    .top-bar-section ul li:not(.custom-dropdown) a {
-        padding: 18px 20px !important;
-        border-bottom: 1px solid #555 !important;
-        font-size: 16px !important;
-        transition: all 0.2s ease !important;
-    }
-    
-    .top-bar-section ul li:not(.custom-dropdown) a:hover {
-        background-color: #A3CD42 !important;
-        color: #333 !important;
-        transform: translateX(4px) !important;
-    }
-    
-    /* Add visual feedback for touch */
-    .custom-dropdown > a:active,
-    .custom-dropdown-menu a:active {
-        background-color: #728F2E !important;
-    }
-}
-
 /* Tablet styles (768px to 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     
@@ -616,5 +462,366 @@ section.page-notification p {
 @media screen and (min-width: 768px) {
     .hide-on-desktop {
         display: none !important;
+    }
+}
+
+/* ========================================
+   FOUNDATION 6 STYLES - Added for upgrade
+   ======================================== */
+
+/* ========== NAVIGATION ========== */
+.title-bar {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bar-left,
+.title-bar-right {
+    flex: 1;
+}
+
+.title-bar-title {
+    flex: 2;
+    text-align: center;
+}
+
+.title-bar-right {
+    text-align: right;
+}
+
+.top-bar {
+    background-color: #333333;
+    padding: 15px 0;
+}
+
+.top-bar ul {
+    background-color: #333333;
+}
+
+.top-bar a {
+    color: #ffffff;
+    padding: 0.7rem 1rem;
+}
+
+.top-bar a:hover {
+    color: #A3CD42;
+}
+
+.top-bar img {
+    height: 60px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.dropdown.menu > li > a {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+}
+
+/* Hide Foundation's default dropdown arrow */
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    display: none;
+}
+
+.dropdown.menu .is-dropdown-submenu {
+    background-color: #333333;
+    border: none;
+}
+
+.dropdown.menu .is-dropdown-submenu a {
+    color: #ffffff;
+    padding: 0.7rem 1rem;
+}
+
+.dropdown.menu .is-dropdown-submenu a:hover {
+    background-color: #444444;
+    color: #A3CD42;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 60px 0 30px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #A3CD42;
+}
+
+/* Main logos in footer */
+.main-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.main-logos-container .main-logo {
+    max-height: 80px;
+    width: auto;
+}
+
+/* Accreditation logos section */
+.footer-logos-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.footer-logos-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Accreditation logo sizing */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-container img {
+    max-height: 80px;
+    max-width: 120px;
+    width: auto;
+    height: auto;
+}
+
+.logo-container iframe {
+    height: 100px;
+    width: 100px;
+}
+
+/* Ofsted logo sizing */
+.logo-container a[href*="ofsted"] img {
+    min-width: 80px;
+    min-height: 80px;
+}
+
+/* Social links */
+.social-links {
+    margin: 30px 0;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    color: #A3CD42;
+}
+
+/* Footer links */
+.footer-links {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-links a {
+    margin: 0 15px;
+}
+
+.footer-links .divider {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Cookie button */
+.cookie-pref-btn {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #cccccc;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cookie-pref-btn:hover {
+    color: #ffffff;
+}
+
+/* Cookie banner */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+.cookie-banner a {
+    color: #A3CD42;
+}
+
+/* ========================================
+   DESKTOP DROPDOWN STYLES (must come first)
+   ======================================== */
+@media screen and (min-width: 640px) {
+    .dropdown.menu .submenu {
+        display: none;
+        position: absolute;
+        background-color: #333333;
+        min-width: 200px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+        top: 100%;
+        left: 0;
+    }
+    
+    .dropdown.menu .has-submenu:hover > .submenu {
+        display: block;
+    }
+    
+    .dropdown.menu .submenu li {
+        list-style: none;
+    }
+    
+    .dropdown.menu .submenu li a {
+        display: block;
+        padding: 0.7rem 1rem;
+        color: #ffffff;
+        white-space: nowrap;
+    }
+    
+    .dropdown.menu .submenu li a:hover {
+        background-color: #444;
+        color: #A3CD42;
+    }
+    
+    .dropdown.menu .has-submenu {
+        position: relative;
+    }
+    
+    /* Desktop arrow - small triangle after text */
+    .dropdown.menu .has-submenu > .parent-link {
+        display: flex;
+        align-items: center;
+    }
+    
+    .dropdown.menu .has-submenu > .parent-link::after {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid #ffffff;
+        margin-left: 8px;
+        position: static;
+        transform: none;
+    }
+    
+    .dropdown.menu .has-submenu:hover > .parent-link::after {
+        border-top-color: #A3CD42;
+    }
+}
+
+/* ========================================
+   CUSTOM MOBILE DROPDOWN MENU STYLES (must come after desktop)
+   ======================================== */
+@media screen and (max-width: 639px) {
+    .dropdown.menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .dropdown.menu > li {
+        width: 100%;
+        list-style: none;
+    }
+    
+    .dropdown.menu > li > a {
+        display: block;
+        padding: 1rem;
+        border-bottom: 1px solid #444;
+        color: #ffffff;
+    }
+    
+    /* Hide submenus by default on mobile */
+    .dropdown.menu .submenu {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #2a2a2a;
+        position: static !important;
+        width: 100% !important;
+    }
+    
+    /* Show submenu when parent has is-open class */
+    .dropdown.menu .has-submenu.is-open > .submenu {
+        display: block;
+    }
+    
+    .dropdown.menu .submenu li {
+        list-style: none;
+    }
+    
+    .dropdown.menu .submenu li a {
+        display: block;
+        padding: 0.8rem 1rem 0.8rem 2rem;
+        color: #ffffff;
+        border-bottom: 1px solid #3a3a3a;
+        border-left: 3px solid #A3CD42;
+    }
+    
+    .dropdown.menu .submenu li a:hover {
+        background-color: #444;
+        color: #A3CD42;
+    }
+    
+    /* Arrow indicator for parent items */
+    .dropdown.menu .has-submenu > .parent-link {
+        position: relative;
+        display: block;
+    }
+    
+    /* Show + symbol on mobile - override desktop styles */
+    .dropdown.menu .has-submenu > .parent-link::after {
+        content: '+' !important;
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        border: none !important;
+        position: absolute !important;
+        right: 1rem !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        font-size: 1.2rem !important;
+        font-weight: bold !important;
+        color: #A3CD42 !important;
+        margin-left: 0 !important;
+    }
+    
+    .dropdown.menu .has-submenu.is-open > .parent-link {
+        background-color: #A3CD42;
+        color: #333333;
+    }
+    
+    .dropdown.menu .has-submenu.is-open > .parent-link::after {
+        content: '-' !important;
+        color: #333333 !important;
     }
 }

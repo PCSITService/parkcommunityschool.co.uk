@@ -1,142 +1,236 @@
-<!doctype html>
-<html class="no-js" lang="en" >
-    <head>
-        
-        <title>Park Community School | Park Community Enterprises</title>
-        <?php include("includes/head.html") ?>
-    </head>
-<body class="page-misc">
-<!-- NAVIGATION -->
-<?php include("includes/topnav.html") ?>
+<?php
+$pageTitle = 'Park Community School | Park Community Enterprises';
+include('partials/header.php');
+?>
+
+<style>
+    .page-header {
+        background-color: #EE3A80;
+        color: white;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+    
+    .page-header h1 {
+        color: white;
+        margin-bottom: 0;
+    }
+    
+    .content-section {
+        padding: 2rem 0 3rem;
+    }
+    
+    .content-section p {
+        line-height: 1.8;
+        margin-bottom: 1rem;
+    }
+    
+    .content-section h3 {
+        color: #EE3A80;
+        margin-bottom: 1rem;
+    }
+    
+    .content-section h4 {
+        color: #EE3A80;
+        margin-bottom: 0.5rem;
+    }
+    
+    .content-section hr {
+        border-color: #e0e0e0;
+        margin: 0.75rem 0 1rem;
+    }
+    
+    .content-section ul {
+        margin-bottom: 1.5rem;
+    }
+    
+    .content-section ul li {
+        margin-bottom: 0.75rem;
+        line-height: 1.7;
+    }
+    
+    .content-section img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .logo-image {
+        box-shadow: none;
+    }
+    
+    .video-embed {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        margin: 1.5rem 0;
+    }
+    
+    .video-embed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grey-section {
+        background-color: #f5f5f5;
+        padding: 3rem 0;
+    }
+    
+    .objectives-box {
+        background: white;
+        border-radius: 8px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    
+    .contact-section {
+        padding: 3rem 0;
+    }
+    
+    .contact-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contact-list li {
+        margin-bottom: 0.25rem;
+    }
+    
+    @media (max-width: 639px) {
+        .content-section img {
+            margin-top: 2rem;
+        }
+    }
+</style>
 
 <!-- HEADER SECTION -->
-<header class="header-misc">
-    <div class="row">
-        <div class="medium-8 large-8 columns">
-            <h1>Park Community Enterprises Ltd</h1>
-            <p class="text-capitalize"></p>
+<header class="page-header">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-8 large-8">
+                <h1>Park Community Enterprises Ltd</h1>
+            </div>
         </div>
     </div>
 </header>
 
-<!-- CONTENT -->
-<section>
-    <div class="row">
-        <br>
-        <div class="medium-8 columns">
-            <p>Park Community Enterprises Limited (PCE) is a not for profit organisation based in Havant, Hampshire.</p>
+<!-- INTRO SECTION -->
+<section class="content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-8">
+                <p>Park Community Enterprises Limited (PCE) is a not-for-profit organisation based in Havant, Hampshire.</p>
 
-            <p>It was incorporated in May 2013 and is operated by three directors, each of whom hold senior roles within Park Community School.</p>
+                <p>It was incorporated in May 2013 and is operated by three directors, each of whom hold senior roles within Park Community School.</p>
 
-            <div class="flex-video widescreen border-radius-5">
-                <iframe src="https://player.vimeo.com/video/299177274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+                <div class="video-embed">
+                    <iframe src="https://player.vimeo.com/video/299177274" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="cell medium-4">
+                <img src="images/enterprises/parkenterprises.svg" alt="Park Community Enterprises Ltd" class="logo-image">
             </div>
         </div>
-        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-4 columns">
-            <img src="images/enterprises/parkenterprises.svg" alt="Park Community Enterprises Ltd">
-        </div>
     </div>
-    <br><br><br>
 </section>
 
-<section class="grey-bg">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="medium-push-4 medium-8 columns">
+<!-- ORGANISATIONAL AIMS -->
+<section class="grey-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-4 medium-order-1 small-order-2">
+                <img src="images/enterprises/enterprises-01.jpg" alt="Park Community School Grounds">
+            </div>
+            <div class="cell medium-8 medium-order-2 small-order-1">
+                <h3>Organisational Aims</h3>
+                <p>The aim of this company is to offer a wide range of opportunities, not offered within the normal school environment, which help students gain confidence, plus work and life skills in a real working environment. We prioritise the safeguarding of students and ensure that their learning is enhanced and meets the requirements of the National Curriculum.</p>
 
-            <h3>Organisational Aims</h3>
-            <p>The aim of this company is to offer a wide range of opportunities, not offered within the normal school environment, which help students gain confidence, plus work and life skills in a real working environment. We prioritise the safeguarding of students and ensure that their  learning is enhanced and meets the requirements of the National Curriculum.</p>
+                <p>In order to offer these opportunities, we have affiliate relationships with other organisations that provide education, skills and training for young people.</p>
 
-            <p>In order to offer these opportunities, we have affiliate relationships with other organisations that provide education, skills and training for young people.</p>
+                <p>It is our intention to create and run many enterprise projects so that we can expose our students to a whole range of different work environments. These provide the opportunity for students to learn a wide variety of skills, including those in the construction and motor industries.</p>
 
-            <p>It is our intention to create and run many enterprise projects so that we can expose our students to a whole range of different work environments. These provide the opportunity for students to learn a wide variety of skills, including those in the construction and motor industries.</p>
-
-            <p>Our financial strategy means that all monies earned are used to further pursue the organisational objectives.</p>
-
+                <p>Our financial strategy means that all monies earned are used to further pursue the organisational objectives.</p>
+            </div>
         </div>
-        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-8 medium-offset-0 medium-4 columns"><img src="images/enterprises/enterprises-01.jpg" alt="Park Community School Grounds"></div>
     </div>
-    <br><br>
 </section>
 
-<section>
-    <div class="row">
-        <br>
-        <div class="medium-6 columns">
-            
-            <h3>Objectives</h3>
-            <ul class="circle">
-                <li>To create realistic and safe working environments away from an educational establishment.</li>
-                <li>To provide a range of training opportunities for students.</li>
-                <li>To provide the facilities and mentoring to enable students to undertake entrepreneurial enterprise projects.</li>
-            </ul>
-
+<!-- OBJECTIVES -->
+<section class="content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-6">
+                <div class="objectives-box">
+                    <h3>Objectives</h3>
+                    <ul>
+                        <li>To create realistic and safe working environments away from an educational establishment.</li>
+                        <li>To provide a range of training opportunities for students.</li>
+                        <li>To provide the facilities and mentoring to enable students to undertake entrepreneurial enterprise projects.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cell medium-6">
+                <img src="images/enterprises/enterprises-02.jpg" alt="Park Enterprises - Real life experiences for our students">
+            </div>
         </div>
-        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-0 medium-offset-0 medium-6 columns"><img src="images/enterprises/enterprises-02.jpg" alt="Park Enterprises - Real life expierences for our Students"></div>
     </div>
-    <br><br><br>
 </section>
 
-<section class="grey-bg">
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo white-bg"></div>
-    </div>
-    <div class="row">
-        <div class="medium-push-4 medium-8 columns">
-        
-            <h3>Keys to success</h3>
-            <ul class="circle">
-                <li>Obtain, equip and furnish facilities suitable to run businesses where students can come and learn useful skills and trades in preparation for successful lives after school.</li>
-                <li>Create businesses that can run from the premises offering new services to the community.</li>
-                <li>Minimum of 180 students a year from a variety of secondary schools to be able to access the premises and learn useful skills and trades in preparation for successful lives after school.</li>
-                <li>To be able to show through measurable data an increase in the educational attainment of students.</li>
-                <li>To increase the capacity of vulnerable students to progress successfully to the next stage of life.</li>
-            </ul>
-
+<!-- KEYS TO SUCCESS -->
+<section class="grey-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-4 medium-order-1 small-order-2">
+                <img src="images/enterprises/enterprises-03.jpg" alt="Park Enterprises - Bringing new opportunities for students and the community">
+            </div>
+            <div class="cell medium-8 medium-order-2 small-order-1">
+                <h3>Keys to Success</h3>
+                <ul>
+                    <li>Obtain, equip and furnish facilities suitable to run businesses where students can come and learn useful skills and trades in preparation for successful lives after school.</li>
+                    <li>Create businesses that can run from the premises offering new services to the community.</li>
+                    <li>Minimum of 180 students a year from a variety of secondary schools to be able to access the premises and learn useful skills and trades in preparation for successful lives after school.</li>
+                    <li>To be able to show through measurable data an increase in the educational attainment of students.</li>
+                    <li>To increase the capacity of vulnerable students to progress successfully to the next stage of life.</li>
+                </ul>
+            </div>
         </div>
-        <div class="small-offset-2 small-pull-2 small-8 small-8 medium-pull-8 medium-offset-0 medium-4 columns"><img src="images/enterprises/enterprises-03.jpg" alt="Park Enterprises - Bringing new opportunities for Students and the Community"></div>
     </div>
-    <br><br>
 </section>
 
-<section>
-    <div class="row">
-        <div class="small-centered large-1 column text-center hr-logo grey-bg"></div>
-    </div>
-    <div class="row">
-        <div class="medium-8 columns">
-            <h4>Address</h4>
-            <hr>
-            <ul class="no-bullet">
-                <li>Park Community Enterprises Limited</li>
-                <li>c/o Park Community School</li>
-                <li>Middle Park Way</li>
-                <li>Havant</li>
-                <li>PO9 4BU</li>
-            </ul>
-            <h4>Contact Information</h4>
-            <hr>
-            <ul class="no-bullet">
-                <li>Telephone: 023 9248 9840</li>
-                <br>
-                <li></li>
-            </ul>
-            
+<!-- CONTACT -->
+<section class="contact-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-8">
+                <h4>Address</h4>
+                <hr>
+                <ul class="contact-list">
+                    <li>Park Community Enterprises Limited</li>
+                    <li>c/o Park Community School</li>
+                    <li>Middle Park Way</li>
+                    <li>Havant</li>
+                    <li>PO9 4BU</li>
+                </ul>
+                
+                <h4>Contact Information</h4>
+                <hr>
+                <ul class="contact-list">
+                    <li><strong>Telephone:</strong> 023 9248 9840</li>
+                </ul>
+            </div>
+            <div class="cell medium-4 show-for-medium">
+                <img src="images/enterprises/enterprises-04.jpg" alt="Park Community School - Range of Technology">
+            </div>
         </div>
-        <div class="hide-for-small-only medium-pull-0 medium-offset-0 medium-4 columns"><img src="images/enterprises/enterprises-04.jpg" alt="Park Community School - Range of Technology"></div>
-    </div><br>
+    </div>
 </section>
-    
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
 
-
-        <!-- End Site Footer -->
-        <script src="js/vendor/libraries.min.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
-        <script src="js/app.min.js"></script>
-    </body>
-</html>
+<?php include('partials/footer.php'); ?>

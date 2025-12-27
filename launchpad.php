@@ -1,48 +1,127 @@
-<!doctype html>
-<html class="no-js" lang="en" >
-    <head>
+<?php
+$pageTitle = 'Park Community School | Launchpad';
+include('partials/header.php');
+?>
 
-        <title>Park Community School | Launchpad</title>
-        <?php include("includes/head.html") ?>
-    </head>
-<body class="page-school">
-<!-- NAVIGATION -->
-<?php include("includes/topnav.html") ?>
+<style>
+    .page-header {
+        background-color: #a3cd42;
+        color: white;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+    
+    .page-header h1 {
+        color: white;
+        margin-bottom: 0;
+    }
+    
+    .content-section {
+        padding: 2rem 0 4rem;
+    }
+    
+    .document-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .document-list li {
+        margin-bottom: 1rem;
+    }
+    
+    .document-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: white;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-left: 4px solid #a3cd42;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.3s ease;
+    }
+    
+    .document-card:hover {
+        transform: translateX(5px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        color: #333;
+    }
+    
+    .document-icon {
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(135deg, #a3cd42, #8fb332);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.25rem;
+        flex-shrink: 0;
+    }
+    
+    .document-info {
+        flex: 1;
+    }
+    
+    .document-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .document-meta {
+        color: #666;
+        font-size: 0.9rem;
+    }
+    
+    .document-arrow {
+        color: #a3cd42;
+        font-size: 1.25rem;
+        transition: transform 0.3s ease;
+    }
+    
+    .document-card:hover .document-arrow {
+        transform: translateX(5px);
+    }
+</style>
 
 <!-- HEADER SECTION -->
-<header class="header-school">
-    <div class="row">
-        <div class="medium-8 large-8 columns">
-            <h1>Launchpad</h1>
+<header class="page-header">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-8 large-8">
+                <h1>Launchpad</h1>
+            </div>
         </div>
     </div>
 </header>
 
 <!-- CONTENT -->
-<section>
-    <div class="row">
-        <br>
-        <div class="medium-12 columns">
-            <ul class="small-block-grid-1">
-                </li>
-
-                  <li>
-                        
-                    <li><a href="/assets/launchpad/PressReleaseFINAL23Dec2024.pdf" target="_blank">Press Release Monday 23rd December 2024</a></li>      
-
-                </li>
+<section class="content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-12">
+                <ul class="document-list">
+                    <li>
+                        <a href="/assets/launchpad/PressReleaseFINAL23Dec2024.pdf" target="_blank" class="document-card">
+                            <div class="document-icon">
+                                📄
+                            </div>
+                            <div class="document-info">
+                                <div class="document-title">Press Release</div>
+                                <div class="document-meta">Monday 23rd December 2024 • PDF Document</div>
+                            </div>
+                            <div class="document-arrow">→</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div><br>
+    </div>
 </section>
 
-
-<!-- FOOTER -->
-<?php include("includes/footer.html") ?>
-
-
-        <!-- End Site Footer -->
-        <script src="js/vendor/libraries.min.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
-        <script src="js/app.min.js"></script>
-    </body>
-</html>
+<?php include('partials/footer.php'); ?>

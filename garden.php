@@ -1,97 +1,201 @@
-<!doctype html>
-<html class="no-js" lang="en" >
-    <head>
+<?php
+$pageTitle = 'Park Community School | Garden';
+include('partials/header.php');
+?>
 
-        <title>Park Community School | Garden</title>
-        <?php include("includes/head.html") ?>
-    </head>
-<body class="page-school">
-<!-- NAVIGATION -->
-<?php include("includes/topnav.html") ?>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+<style>
+    .page-header {
+        background-color: #a3cd42;
+        color: white;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+    
+    .page-header h1 {
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+    
+    .page-header p {
+        color: white;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    
+    .content-section {
+        padding: 2rem 0 3rem;
+    }
+    
+    .content-section h2 {
+        color: #3d7c47;
+        margin-bottom: 1.5rem;
+    }
+    
+    .content-section p {
+        line-height: 1.7;
+        margin-bottom: 1rem;
+    }
+    
+    .content-section img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .grey-section {
+        background-color: #f5f5f5;
+        padding: 3rem 0;
+    }
+    
+    .garden-slider {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .garden-slider img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .garden-slider .slick-dots {
+        bottom: -35px;
+    }
+    
+    .garden-slider .slick-dots li button:before {
+        color: #3d7c47;
+        font-size: 12px;
+    }
+    
+    .garden-slider .slick-dots li.slick-active button:before {
+        color: #a3cd42;
+    }
+    
+    .newsletter-section {
+        padding: 3rem 0;
+    }
+    
+    .newsletter-section h2 {
+        color: #3d7c47;
+        margin-bottom: 1rem;
+    }
+    
+    .newsletter-list {
+        list-style: none;
+        margin: 1.5rem 0 0;
+        padding: 0;
+    }
+    
+    .newsletter-list li {
+        margin-bottom: 0.75rem;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+    
+    .newsletter-list li::before {
+        content: '🌱';
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .newsletter-list a {
+        color: #3d7c47;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .newsletter-list a:hover {
+        color: #a3cd42;
+        text-decoration: underline;
+    }
+    
+    @media (max-width: 639px) {
+        .content-section img,
+        .grey-section img {
+            margin-top: 1.5rem;
+        }
+    }
+</style>
 
 <!-- HEADER SECTION -->
-<header class="header-school">
-    <div class="row">
-        <div class="medium-8 large-8 columns">
-            <h1>Park Garden</h1>
-            <p class="text-capitalize">Cultivation and Enjoyment of Plants</p>
+<header class="page-header">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-8 large-8">
+                <h1>Park Garden</h1>
+                <p>Cultivation and Enjoyment of Plants</p>
+            </div>
         </div>
     </div>
 </header>
 
 <!-- CONTENT -->
-<section>
-	<div class="row">
-		<br>
-		<div class="medium-7 columns">
-			<h2>Horticulture in the Park</h2>
-			<p>Horticulture in Park Community School (PCS) is more than just a simple gardening experience, it is one that develops our students’ interests and understanding of the interconnectedness of people, soils, plants, and animals (large and microscopic); generating a practical awareness of where our food comes from and the resources and processes it takes to produce it; the ways in which horticultural practices impact on the environment, and how good practices sustain and enhance the environment.</p>
-			
-		</div>
-		<div class="medium-5 columns">
-			<div class="garden-slider">
-			    <div><img src="images/garden/garden1.jpg" alt="Horticulture at Park Community School"></div>
-			    <div><img src="images/garden/garden2.jpg" alt="Horticulture at Park Community School"></div>
-			    <div><img src="images/garden/garden3.jpg" alt="Horticulture at Park Community School"></div>
-			  </div>
-		</div>
-	</div>
-	<br><br><br>
+<section class="content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-7">
+                <h2>Horticulture in the Park</h2>
+                <p>Horticulture in Park Community School (PCS) is more than just a simple gardening experience, it is one that develops our students' interests and understanding of the interconnectedness of people, soils, plants, and animals (large and microscopic); generating a practical awareness of where our food comes from and the resources and processes it takes to produce it; the ways in which horticultural practices impact on the environment, and how good practices sustain and enhance the environment.</p>
+            </div>
+            <div class="cell medium-5">
+                <div class="garden-slider">
+                    <div><img src="images/garden/garden1.jpg" alt="Horticulture at Park Community School"></div>
+                    <div><img src="images/garden/garden2.jpg" alt="Horticulture at Park Community School"></div>
+                    <div><img src="images/garden/garden3.jpg" alt="Horticulture at Park Community School"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="grey-bg">
-	<div class="row"><div class="small-centered large-1 column text-center hr-logo white-bg"></div></div>
-		
-	<div class="row">
-		<div class="medium-6 medium-push-6 columns">
-			<p>Learning horticulture in PCS is also designed to open pathways to a wide range of learning and eventual careers opportunities such as ‘Horticultural consultant, turf manager, landscape designer, agribusiness consultant, wine consultant, plant pathologist, orchardist, forestry worker  and florist.. Collectively, leaning horticulture helps our learners gain valuable, transferable skills in science, technology, numeracy and literacy, self-management and independence skills.</p>
-			<p>These skills are not an end in themselves, but through learning each process, our students gain personal satisfaction and an incentive to become life-long learners, eager to learn more.</p>
-		</div>
-		<div class="medium-6 medium-pull-6 columns">
-				<img aria-hidden=true src="images/garden/garden4.jpg" alt="Student Shrubs">
-		</div>
-	</div>
-	<br><br><br>
+<section class="grey-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell medium-6 medium-order-1 small-order-2">
+                <img src="images/garden/garden4.jpg" alt="Student Shrubs">
+            </div>
+            <div class="cell medium-6 medium-order-2 small-order-1">
+                <p>Learning horticulture in PCS is also designed to open pathways to a wide range of learning and eventual careers opportunities such as Horticultural consultant, turf manager, landscape designer, agribusiness consultant, wine consultant, plant pathologist, orchardist, forestry worker and florist. Collectively, learning horticulture helps our learners gain valuable, transferable skills in science, technology, numeracy and literacy, self-management and independence skills.</p>
+                <p>These skills are not an end in themselves, but through learning each process, our students gain personal satisfaction and an incentive to become life-long learners, eager to learn more.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section>
-	<div class="row"><div class="small-centered large-1 column text-center hr-logo grey-bg"></div></div>
-
-	<div class="row">
-		<div class="columns">
-			<h2>Garden Calendar Monthly</h2>
-			<p>What is the monthly newletters..... </p>
-			<ul class="circle">
-				<li><a href="assets/garden/2018-01.pdf" target="_blank">Issue 01 - Beauties for January 2018</a></li>
-				<li><a href="assets/garden/2018-03.pdf" target="_blank">Issue 02 - Mulching in March 2018</a></li>
-				<li><a href="assets/garden/2018-10.pdf" target="_blank">Issue 03 - Gardening Notes: November 2018</a></li>
-			</ul>
-		</div>
-	</div>
-	<br><br><br>
+<section class="newsletter-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h2>Garden Calendar Monthly</h2>
+                <p>Our monthly newsletters keep you up to date with seasonal gardening tips and activities.</p>
+                <ul class="newsletter-list">
+                    <li><a href="assets/garden/2018-01.pdf" target="_blank">Issue 01 - Beauties for January 2018</a></li>
+                    <li><a href="assets/garden/2018-03.pdf" target="_blank">Issue 02 - Mulching in March 2018</a></li>
+                    <li><a href="assets/garden/2018-10.pdf" target="_blank">Issue 03 - Gardening Notes: November 2018</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
+<script type="text/javascript" src="slick/slick.min.js"></script>
 
+<script>
+$(document).ready(function(){
+    $('.garden-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        fade: true,
+        arrows: false,
+        pauseOnHover: true
+    });
+});
+</script>
 
-<!-- FOOTER -->
-		<?php include("includes/footer.html") ?>
-		<!-- End Site Footer -->
-		<script src="js/vendor/libraries.min.js"></script>
-		<script src="js/vendor/foundation.min.js"></script>
-		<script src="js/app.min.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="slick/slick.min.js"></script>
-			
-		<script type="text/javascript">
-		    $(document).ready(function(){
-		      $('.garden-slider').slick({
-		        autoplay: true,
-		        dots: true,
-		        fade: true
-		      });
-		    });
-		</script>
-
-    </body>
-</html>
+<?php include('partials/footer.php'); ?>
