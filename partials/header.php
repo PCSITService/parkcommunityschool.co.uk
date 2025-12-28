@@ -17,10 +17,22 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/accessibility.css">
+    
+    <?php if ($showCaptcha): ?>
+    <!-- reCAPTCHA for rate limiting -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <?php endif; ?>
 </head>
 <body>
 
 <!-- Skip to main content link (accessibility) -->
 <a href="#main-content" class="skip-link">Skip to main content</a>
+
+<?php 
+// Show CAPTCHA overlay if rate limit exceeded
+if ($showCaptcha) {
+    include __DIR__ . '/../includes/captcha_overlay.php';
+}
+?>
 
 <?php include __DIR__ . '/nav.php'; ?>

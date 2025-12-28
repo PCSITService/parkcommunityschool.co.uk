@@ -1,13 +1,9 @@
 <?php
-require_once('includes/rate_limiter.php');
-$rateLimiter = new RateLimiter();
-$showCaptcha = $rateLimiter->isLimitExceeded();
 
 $pageTitle = 'Much More Than Just A School';
 include('partials/header.php');
 ?>
 
-<?php if ($showCaptcha): ?><script src="https://www.google.com/recaptcha/api.js" async defer></script><?php endif; ?>
 <link rel="stylesheet" href="css/bounce.min.css">
 
 <style>
@@ -207,7 +203,6 @@ include('partials/header.php');
     }
 </style>
 
-<?php if ($showCaptcha) { include("includes/captcha_overlay.php"); } ?>
 
 <!-- HERO SECTION -->
 <section id="homepage-hero">
