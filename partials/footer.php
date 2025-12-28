@@ -519,5 +519,6 @@
     });
   });
 </script>
+<?php include __DIR__ . "/accessibility-widget.php"; ?>
 </body>
 </html>
