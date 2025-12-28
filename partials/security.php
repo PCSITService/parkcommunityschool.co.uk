@@ -20,7 +20,7 @@ header('Referrer-Policy: strict-origin-when-cross-origin');
 header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
 
 // Force HTTPS (uncomment if site always uses HTTPS)
-// header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
+header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
 
 // Content Security Policy - controls what resources can load
 $csp = "default-src 'self'; ";
