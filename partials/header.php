@@ -1,3 +1,4 @@
+<?php include __DIR__ . '/security.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,5 +16,4 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation-icon-fonts/d596a3cfb3/foundation-icons.min.css">
 </head>
 <body>
-
 <?php include __DIR__ . '/nav.php'; ?>
