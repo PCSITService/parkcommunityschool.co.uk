@@ -1,0 +1,69 @@
+# Park Community School - Apache Configuration
+
+# ========================================
+# ERROR PAGES
+# ========================================
+ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
+
+# ========================================
+# SECURITY
+# ========================================
+
+# Prevent directory browsing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "(^\.htaccess|\.git|\.env|composer\.(json|lock)|package\.json|rate_limit_db\.json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Block access to includes folder (except what's needed)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^includes/rate_limiter\.php$ - [F,L]
+</IfModule>
+
+# ========================================
+# PERFORMANCE
+# ========================================
+
+# Enable compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+</IfModule>
+
+# ========================================
+# URL HANDLING
+# ========================================
+
+# Force HTTPS (if not handled by Cloudflare/AWS)
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# Remove .php extension (optional - uncomment if wanted)
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{REQUEST_FILENAME} !-d
+#     RewriteCond %{REQUEST_FILENAME}.php -f
+#     RewriteRule ^(.*)$ $1.php [L]
+# </IfModule>
