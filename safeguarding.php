@@ -328,26 +328,26 @@ include('partials/header.php');
 
         <div class="team-grid">
             <div class="team-member-card">
-                <img src="images/dsl/SBN.png" alt="Ms S Bannard" class="team-member-image">
+                <img src="images/dsl/SBN.jpg" alt="Ms S Bannard" class="team-member-image">
                 <h3 class="member-name">Ms S Bannard</h3>
                 <p class="member-role">Lead DSL</p>
                 <p class="member-additional">Designated Teacher for LAC</p>
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/JBY.png" alt="Mr J Bryce" class="team-member-image">
+                <img src="images/dsl/JBY.jpg" alt="Mr J Bryce" class="team-member-image">
                 <h3 class="member-name">Mr J Bryce</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/ELE.png" alt="Mrs E Leach" class="team-member-image">
+                <img src="images/dsl/ELE.jpg" alt="Mrs E Leach" class="team-member-image">
                 <h3 class="member-name">Mrs E Leach</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/TSE.png" alt="Mrs T Seaman" class="team-member-image">
+                <img src="images/dsl/TSE.jpg" alt="Mrs T Seaman" class="team-member-image">
                 <h3 class="member-name">Mrs T Seaman</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
@@ -359,13 +359,13 @@ include('partials/header.php');
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/JBR.png" alt="Mrs Jo-Anne Breedon" class="team-member-image">
+                <img src="images/dsl/JBR.jpg" alt="Mrs Jo-Anne Breedon" class="team-member-image">
                 <h3 class="member-name">Mrs Jo-Anne Breedon</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/FFE.png" alt="Miss Florence Fearon" class="team-member-image">
+                <img src="images/dsl/FFE.jpg" alt="Miss Florence Fearon" class="team-member-image">
                 <h3 class="member-name">Miss Florence Fearon</h3>
                 <p class="member-role">Community DSL</p>
             </div>
@@ -377,7 +377,7 @@ include('partials/header.php');
             </div>
 
             <div class="team-member-card">
-                <img src="images/dsl/RBI.png" alt="Mrs Rachel Bird" class="team-member-image">
+                <img src="images/dsl/RBI.jpg" alt="Mrs Rachel Bird" class="team-member-image">
                 <h3 class="member-name">Mrs Rachel Bird</h3>
                 <p class="member-role">Nursery DSL</p>
             </div>

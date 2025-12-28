@@ -521,5 +521,6 @@
 </script>
 <?php include __DIR__ . "/accessibility-widget.php"; ?>
 <?php include __DIR__ . "/back-to-top.php"; ?>
+<?php include __DIR__ . "/lazy-load.php"; ?>
 </body>
 </html>
