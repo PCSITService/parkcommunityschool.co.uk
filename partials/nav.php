@@ -16,28 +16,14 @@
 
 <style>
 /* Navigation Styles */
-@font-face {
-    font-family: 'Aptos Body';
-    src: url('https://c.s-microsoft.com/static/fonts/aptos/AptosBody-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Aptos Body';
-    src: url('https://c.s-microsoft.com/static/fonts/aptos/AptosBody-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 
 .site-navigation {
     background-color: #333;
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Aptos Body', 'Open Sans', sans-serif;
+    font-family: 'Inter', 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
