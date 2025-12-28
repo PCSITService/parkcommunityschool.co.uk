@@ -4,23 +4,8 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #1E7AB9;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.5rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        text-transform: capitalize;
-    }
     
     .content-section {
         padding: 1rem 0 3rem;
@@ -117,17 +102,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Glossary</h1>
-                <p>A Compilation of Educational Terms</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- CONTENT -->
 <section class="content-section">

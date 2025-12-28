@@ -4,17 +4,7 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #F58220;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 0;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0;
-    }
     
     .breadcrumbs {
         background-color: #f5f5f5;
@@ -267,16 +257,6 @@ include('partials/header.php');
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Reading</h1>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- Breadcrumb -->
 <div class="grid-container">

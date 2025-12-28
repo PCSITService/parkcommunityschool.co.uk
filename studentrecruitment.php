@@ -17,26 +17,8 @@ include('partials/header.php');
     }
 
     /* Header */
-    .page-header {
-        background: var(--gradient);
-        padding: 3rem 0;
-        color: white;
-        text-align: center;
-    }
 
-    .page-header h1 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-        color: white;
-    }
 
-    .page-header p {
-        font-size: 1.1rem;
-        opacity: 0.9;
-        margin: 0;
-        color: white;
-    }
 
     /* Intro Section */
     .intro-section {
@@ -364,25 +346,8 @@ include('partials/header.php');
             grid-template-columns: 1fr;
         }
 
-        .page-header h1 {
-            font-size: 2rem;
-        }
-
-        .process-section,
-        .jobs-section,
-        .final-steps {
-            padding: 3rem 0;
-        }
-    }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <h1>Student Recruitment</h1>
-        <p>Earn While You Learn</p>
-    </div>
-</header>
 
 <!-- INTRO SECTION -->
 <section class="intro-section">

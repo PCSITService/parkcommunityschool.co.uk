@@ -4,17 +4,7 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #F58220;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 0;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.5rem;
-    }
     
     .breadcrumbs {
         background-color: #f5f5f5;
@@ -130,16 +120,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Music</h1>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- Breadcrumb -->
 <div class="grid-container">

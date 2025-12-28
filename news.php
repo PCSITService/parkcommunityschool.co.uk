@@ -37,10 +37,6 @@ include('partials/header.php');
         background: var(--background-light);
     }
 
-    .page-header {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
 
     .main-nav-button {
         background: linear-gradient(135deg, var(--park-green), #8fb332);
@@ -230,12 +226,6 @@ include('partials/header.php');
     .news-item:nth-child(12) { animation-delay: 0.65s; }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="news-header">
-    <div class="grid-container">
-        <h1>News</h1>
-    </div>
-</header>
 
 <!-- CONTENT -->
 <section class="content-section">

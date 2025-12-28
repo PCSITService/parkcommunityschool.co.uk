@@ -4,17 +4,7 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #1E7AB9;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0;
-    }
     
     .content-section {
         padding: 2rem 0 3rem;
@@ -157,16 +147,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header" id="top">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Parent Partnership</h1>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- SURVEY BUTTON -->
 <section class="content-section" style="padding-top: 1rem; padding-bottom: 1rem;">

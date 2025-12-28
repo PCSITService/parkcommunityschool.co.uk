@@ -296,17 +296,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="catering-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Catering Services</h1>
-                <p>Award-winning chef led catering solutions</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- SERVICES SECTION -->
 <section class="services-section">

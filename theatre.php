@@ -4,23 +4,8 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #EE3A80;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.25rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        opacity: 0.9;
-    }
     
     .content-section {
         padding: 2rem 0 3rem;
@@ -207,17 +192,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Park Community Theatre</h1>
-                <p>Theatre, Cinema, Dance and Drama Studios</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- INTRO -->
 <section class="intro-section">

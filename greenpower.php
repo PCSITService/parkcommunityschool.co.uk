@@ -7,23 +7,8 @@ include('partials/header.php');
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 <style>
-    .page-header {
-        background-color: #a3cd42;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 0;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.5rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        text-transform: capitalize;
-    }
     
     .video-section {
         padding: 3rem 0;
@@ -146,17 +131,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Greenpower</h1>
-                <p>Student Built Electric Race Cars</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- VIDEO SECTION -->
 <section class="video-section">

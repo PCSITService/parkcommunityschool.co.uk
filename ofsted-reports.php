@@ -11,19 +11,7 @@ include('partials/header.php');
         padding: 2rem 0;
     }
     
-    .page-header {
-        background-color: #1E7AB9;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-    }
     
     .page-header .lead {
         color: white;
@@ -179,23 +167,6 @@ include('partials/header.php');
             padding: 1.5rem;
         }
         
-        .page-header h1 {
-            font-size: 2rem;
-        }
-        
-        .report-card {
-            flex-direction: column;
-            text-align: center;
-        }
-        
-        .report-icon {
-            align-self: center;
-        }
-        
-        .sidebar-widget {
-            margin-top: 2rem;
-        }
-    }
     
     /* Animation */
     @keyframes fadeInUp {
@@ -215,17 +186,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell">
-                <h1>Ofsted Reports</h1>
-                <p class="lead">Access our latest inspection reports and school performance data</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- CONTENT -->
 <main>

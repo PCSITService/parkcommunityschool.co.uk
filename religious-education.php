@@ -4,23 +4,8 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #F58220;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 0;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.25rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        opacity: 0.9;
-    }
     
     .breadcrumbs {
         background-color: #f5f5f5;
@@ -158,17 +143,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Religious Education</h1>
-                <p>Beliefs &amp; Culture</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- Breadcrumb -->
 <div class="grid-container">

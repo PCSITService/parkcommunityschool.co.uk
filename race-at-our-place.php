@@ -248,13 +248,6 @@ include('partials/header.php');
     .stat-card:nth-child(4) { animation-delay: 0.4s; }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="race-header">
-    <div class="grid-container">
-        <h1>Race at Our Place</h1>
-        <p>Supporting Cancer Research UK</p>
-    </div>
-</header>
 
 <!-- VIDEO CONTENT -->
 <section class="video-section">

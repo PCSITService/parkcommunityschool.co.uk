@@ -444,12 +444,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="munch-header">
-    <div class="grid-container">
-        <h1>MUNCH &amp; Community Pantry</h1>
-    </div>
-</header>
 
 <!-- QUICK INFO CARDS -->
 <section class="info-cards-section">

@@ -4,23 +4,8 @@ include('partials/header.php');
 ?>
 
 <style>
-    .page-header {
-        background-color: #F58220;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.5rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        text-transform: capitalize;
-    }
     
     .content-section {
         padding: 2rem 0;
@@ -276,17 +261,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>Careers Education Information Advice and Guidance</h1>
-                <p>Get Ready For The Future You Want</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- CONTENT -->
 <section class="content-section">

@@ -6,23 +6,8 @@ include('partials/header.php');
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-    .page-header {
-        background-color: #1E7AB9;
-        color: white;
-        padding: 2rem 0;
-        margin-bottom: 2rem;
-    }
     
-    .page-header h1 {
-        color: white;
-        margin-bottom: 0.25rem;
-    }
     
-    .page-header p {
-        color: white;
-        margin-bottom: 0;
-        opacity: 0.9;
-    }
     
     .content-section {
         padding: 2rem 0 3rem;
@@ -350,17 +335,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="page-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8 large-8">
-                <h1>School Trips</h1>
-                <p>Amazing experiences beyond the classroom</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- INTRO SECTION -->
 <section class="content-section intro-section">

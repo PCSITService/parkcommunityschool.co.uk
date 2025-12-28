@@ -462,17 +462,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- HEADER SECTION -->
-<header class="governors-header">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell medium-8">
-                <h1>Governors</h1>
-                <p>Guiding the Future of Park Community School</p>
-            </div>
-        </div>
-    </div>
-</header>
 
 <!-- CONTENT -->
 <section class="modern-section">
