@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Main Pages -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/about.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/admissions.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/contact.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/safeguarding.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- School Section -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/curriculum.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/exams.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/uniform.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/term-dates.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/ofsted-reports.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/governors.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/statutory.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Learning Section -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/reading.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/homework.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/sen.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/careers.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Parent Section -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/letters-home.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/trips.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/catering.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/transport.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Much More Section -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/munch.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/Connect4Families.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/tearooms.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/greenpower.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/marketgarden.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/ventures.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/apex-centre.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/race-at-our-place.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Services -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/design-print.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/dickinson-centre.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/community-services.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/suite.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://pcs.hants.sch.uk/theatre.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Employment -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/employment.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Policies -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/privacy-policy.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Alumni -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/alumni.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Events -->
+    <url>
+        <loc>https://pcs.hants.sch.uk/events.php</loc>
+        <lastmod>2025-12-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
