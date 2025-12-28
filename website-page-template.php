@@ -12,7 +12,6 @@
   <!-- Optional: Foundation or other frameworks -->
   <link rel="stylesheet" href="css/app.min.css">
   <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
   <style>
     /* General styles */

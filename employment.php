@@ -3,7 +3,6 @@ $pageTitle = 'Park Community School | You could make a difference';
 include('partials/header.php');
 ?>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft8bSV7R/+7GdFWxl+9lJ04XGRu+cZGaVQoxIECdiDFZqT5VZdSW+Z0nNQ8d/N0xBNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
     /* Variables for consistent theming */
