@@ -520,5 +520,6 @@
   });
 </script>
 <?php include __DIR__ . "/accessibility-widget.php"; ?>
+<?php include __DIR__ . "/back-to-top.php"; ?>
 </body>
 </html>
