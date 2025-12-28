@@ -188,7 +188,7 @@ include('partials/header.php');
 
 
 <!-- CONTENT -->
-<main>
+<main id="main-content">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell medium-8 large-8">

@@ -462,3 +462,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+<main id="main-content">
