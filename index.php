@@ -45,6 +45,11 @@ include('partials/header.php');
     .modal-content h2 { color: var(--text); border-bottom: 3px solid var(--green); padding-bottom: 1rem; margin-bottom: 1.5rem; }
     .modal-close { position: absolute; top: 1rem; right: 1rem; font-size: 2rem; font-weight: bold; color: #999; cursor: pointer; transition: var(--trans); background: none; border: none; line-height: 1; }
     .modal-close:hover { color: #333; transform: scale(1.1); }
+    
+    /* Modal Links */
+    .modal-link { display: flex; align-items: center; gap: 0.5rem; color: var(--text); text-decoration: none; padding: 0.75rem; background: var(--light); border-radius: 8px; transition: var(--trans); }
+    .modal-link:hover { background: #e2e8f0; transform: translateX(5px); }
+    .modal-link i { color: #dc3545; font-size: 1.2rem; }
 
     /* Sections */
     .grey-bg { padding: 3rem 0; background: var(--light); position: relative; }
@@ -247,7 +252,7 @@ include('partials/header.php');
                     <a class="button expand success" href="#" id="openModal">Headteacher's Welcome</a>
                     <div class="button-row">
                         <a class="button warning" href="curriculum.php">GCSE Courses 2025–2026</a>
-                        <a class="button warning" href="exams.php">Exam Information</a>
+                        <a class="button warning" href="#" id="openExamModal">Exam Information</a>
                     </div>
                     <div class="button-row">
                         <a class="button warning" href="alumni.php">Alumni</a>
@@ -273,6 +278,60 @@ include('partials/header.php');
         <p>At Park Community School, we believe in nurturing the whole student. Our dedicated staff work tirelessly to create an environment where every young person can thrive academically, socially, and emotionally.</p>
         <p>We are proud of our inclusive community where diversity is celebrated, and every student is encouraged to achieve their full potential. Our comprehensive curriculum, combined with extensive extra-curricular opportunities, ensures that students develop the skills and confidence they need for future success.</p>
         <p><strong>Mr C Anders</strong><br>Headteacher</p>
+    </div>
+</div>
+
+<!-- EXAM INFORMATION MODAL -->
+<div class="modal-overlay" id="examModal">
+    <div class="modal-content">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2>Exam Information</h2>
+        
+        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 11 Autumn Mock Timetable
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/academic-year-2025-2026/Phase 1 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Phase 1 Revision Booklet 25-26
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/academic-year-2025-2026/Phase 2 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Phase 2 Revision Booklet 25-26
+                </a>
+            </li>
+        </ul>
+        
+        <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/KA1 KS3 Year 7.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    KA1 KS3 Year 7
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/KA1 KS3 Year 8.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    KA1 KS3 Year 8
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/asset/exam/KA1 KS3 Year 9.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    KA1 KS3 Year 9
+                </a>
+            </li>
+        </ul>
+        
+        <a href="exams.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View All Exam Information</a>
     </div>
 </div>
 
@@ -544,36 +603,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
     startAuto();
 
-    // Modal
-    const openModal = document.getElementById('openModal');
-    const modal = document.getElementById('headteacherModal');
-    const closeModal = modal ? modal.querySelector('.modal-close') : null;
+    // Modals
+    const modals = [
+        { open: 'openModal', modal: 'headteacherModal' },
+        { open: 'openExamModal', modal: 'examModal' }
+    ];
 
-    if (openModal && modal) {
-        openModal.addEventListener('click', function(e) {
-            e.preventDefault();
-            modal.classList.add('active');
-        });
-    }
+    modals.forEach(function(m) {
+        const openBtn = document.getElementById(m.open);
+        const modalEl = document.getElementById(m.modal);
+        const closeBtn = modalEl ? modalEl.querySelector('.modal-close') : null;
 
-    if (closeModal) {
-        closeModal.addEventListener('click', function() {
-            modal.classList.remove('active');
-        });
-    }
+        if (openBtn && modalEl) {
+            openBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                modalEl.classList.add('active');
+            });
+        }
 
-    if (modal) {
-        modal.addEventListener('click', function(e) {
-            if (e.target === modal) {
-                modal.classList.remove('active');
-            }
-        });
-    }
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                modalEl.classList.remove('active');
+            });
+        }
 
-    // Close modal on Escape key
+        if (modalEl) {
+            modalEl.addEventListener('click', function(e) {
+                if (e.target === modalEl) {
+                    modalEl.classList.remove('active');
+                }
+            });
+        }
+    });
+
+    // Close any modal on Escape key
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
-            modal.classList.remove('active');
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.modal-overlay.active').forEach(function(m) {
+                m.classList.remove('active');
+            });
         }
     });
 });
