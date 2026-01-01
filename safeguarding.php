@@ -310,14 +310,6 @@ include('partials/header.php');
     </div>
 </div>
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="grid-container">
-        <h1>Safeguarding</h1>
-        <p class="hero-subtitle">Keeping every child safe is our highest priority at Park Community School</p>
-    </div>
-</section>
-
 <!-- DSL Team Section -->
 <section class="dsl-section">
     <div class="grid-container">

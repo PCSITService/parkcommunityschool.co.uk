@@ -245,13 +245,6 @@ include('partials/header.php');
     }
 </style>
 
-<!-- PAGE TITLE SECTION -->
-<section class="page-title-section">
-    <div class="grid-container">
-        <h1 class="page-title">Havant Federation Statements</h1>
-        <p class="page-subtitle">Important policy documents and joint statements from the Havant Federation</p>
-    </div>
-</section>
 
 <!-- CONTENT -->
 <section class="content-section">
