@@ -290,19 +290,19 @@ include('partials/header.php');
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 11 Autumn Mock Timetable
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/academic-year-2025-2026/Phase 1 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Phase 1 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Phase 1 Revision Booklet 25-26
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/academic-year-2025-2026/Phase 2 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Phase 2 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Phase 2 Revision Booklet 25-26
                 </a>
@@ -312,19 +312,19 @@ include('partials/header.php');
         <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/KA1 KS3 Year 7.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1 KS3 Year 7.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 7
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/KA1 KS3 Year 8.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1 KS3 Year 8.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 8
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/asset/exam/KA1 KS3 Year 9.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1 KS3 Year 9.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 9
                 </a>
