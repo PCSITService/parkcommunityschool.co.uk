@@ -3,11 +3,7 @@ $pageTitle = 'Park Community School | Trips';
 include('partials/header.php');
 ?>
 
-
 <style>
-    
-    
-    
     .content-section {
         padding: 2rem 0 3rem;
     }
@@ -15,40 +11,112 @@ include('partials/header.php');
     .content-section p {
         line-height: 1.8;
         margin-bottom: 1rem;
+        color: #333;
     }
     
     .content-section a {
-        color: #1E7AB9;
+        color: #3498db;
     }
     
     .content-section a:hover {
-        color: #155a8a;
+        color: #2980b9;
     }
     
     .intro-section h2 {
-        color: #1E7AB9;
+        color: #3498db;
         margin-bottom: 1rem;
     }
     
-    /* Gallery Grid */
-    .trip-gallery {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 0.75rem;
-        margin-bottom: 1.5rem;
+    /* Gallery Slideshow */
+    .slideshow-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 100%;
     }
     
-    .trip-gallery img {
+    .trip-slideshow {
+        position: relative;
         width: 100%;
-        height: 120px;
+        max-width: 400px;
+        height: 250px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    
+    .trip-slideshow img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border-radius: 8px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .trip-slideshow img.active {
+        opacity: 1;
+    }
+    
+    .slideshow-controls {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 8px;
+        z-index: 10;
+    }
+    
+    .slideshow-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.5);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 2px solid white;
+    }
+    
+    .slideshow-dot.active {
+        background: #a3cd42;
+    }
+    
+    .slideshow-dot:hover {
+        background: rgba(255,255,255,0.8);
+    }
+    
+    .slideshow-arrows {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+    
+    .slideshow-arrow {
+        background: rgba(0,0,0,0.4);
+        color: white;
+        border: none;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transition: all 0.3s ease;
     }
     
-    .trip-gallery img:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    .slideshow-arrow:hover {
+        background: rgba(0,0,0,0.7);
     }
     
     .payment-button {
@@ -56,7 +124,7 @@ include('partials/header.php');
         align-items: center;
         gap: 0.5rem;
         background-color: #28a745;
-        color: white;
+        color: white !important;
         padding: 1rem 2rem;
         border-radius: 8px;
         text-decoration: none;
@@ -68,13 +136,13 @@ include('partials/header.php');
     
     .payment-button:hover {
         background-color: #218838;
-        color: white;
+        color: white !important;
         transform: translateY(-2px);
     }
     
     /* Trips Section */
     .trips-section {
-        background-color: #1E7AB9;
+        background-color: #3498db;
         color: white;
         padding: 3rem 0;
     }
@@ -84,252 +152,133 @@ include('partials/header.php');
         color: white;
         margin-bottom: 2.5rem;
         font-size: 2rem;
-        font-weight: 400;
+        font-weight: 700;
     }
     
-    .trip-item {
-        margin-bottom: 2.5rem;
-        padding-bottom: 2.5rem;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-    }
-    
-    .trip-item:last-child {
-        margin-bottom: 0;
-        padding-bottom: 0;
-        border-bottom: none;
-    }
-    
-    .trip-content {
+    /* Trip Cards Grid */
+    .trips-grid {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 2rem;
-        align-items: start;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1.5rem;
     }
     
-    .trip-info h3 {
-        color: white;
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        font-weight: 400;
-    }
-    
-    .trip-buttons {
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-    }
-    
-    .trip-btn {
-        background-color: #28a745;
-        color: white;
-        border: none;
-        padding: 0.75rem 1.25rem;
-        border-radius: 4px;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 1rem;
+    .trip-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         transition: all 0.3s ease;
     }
     
-    .trip-btn:hover {
-        background-color: #218838;
+    .trip-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     }
     
-    .trip-details h4 {
-        color: rgba(255,255,255,0.8);
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+    .trip-card-header {
+        background: linear-gradient(135deg, #a3cd42, #8fb332);
+        padding: 1.25rem 1.5rem;
     }
     
-    .trip-details p {
-        margin: 0.35rem 0;
-        color: rgba(255,255,255,0.9);
-        line-height: 1.8;
-    }
-    
-    .trip-details strong {
+    .trip-card-header h3 {
         color: white;
-    }
-    
-    /* Modal */
-    .modal-overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.6);
-        z-index: 1000;
-    }
-    
-    .modal-container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        border-radius: 12px;
-        max-width: 600px;
-        width: 90%;
-        max-height: 90vh;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .modal-header {
-        background: linear-gradient(135deg, #1E7AB9, #2a8fd4);
-        color: white;
-        padding: 1.5rem 2rem;
-        position: relative;
-    }
-    
-    .modal-header h2 {
         margin: 0;
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: white;
+        font-size: 1.35rem;
+        font-weight: 600;
     }
     
-    .modal-close {
-        position: absolute;
-        top: 1rem;
-        right: 1.25rem;
-        background: none;
-        border: none;
-        font-size: 1.75rem;
-        cursor: pointer;
-        color: white;
-        opacity: 0.8;
-        transition: opacity 0.3s;
+    .trip-card-body {
+        padding: 1.5rem;
     }
     
-    .modal-close:hover {
-        opacity: 1;
+    .trip-detail {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0.75rem;
+        color: #333;
     }
     
-    .modal-body {
-        padding: 2rem;
-        overflow-y: auto;
-        flex-grow: 1;
+    .trip-detail:last-child {
+        margin-bottom: 0;
     }
     
-    .modal-footer {
-        background-color: #f8f9fa;
-        padding: 1.5rem 2rem;
-        text-align: center;
+    .trip-detail i {
+        width: 24px;
+        color: #3498db;
+        margin-right: 0.75rem;
+        margin-top: 2px;
+    }
+    
+    .trip-detail strong {
+        color: #333;
+        margin-right: 0.5rem;
+    }
+    
+    .trip-detail span {
+        color: #555;
+    }
+    
+    .trip-card-footer {
+        padding: 1rem 1.5rem;
+        background: #f8f9fa;
         border-top: 1px solid #e9ecef;
     }
     
-    .modal-footer-btn {
-        background-color: #1E7AB9;
-        color: white;
-        border: none;
-        padding: 0.75rem 2rem;
-        border-radius: 6px;
-        cursor: pointer;
+    .trip-cost {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .trip-cost-label {
+        color: #666;
         font-weight: 500;
-        font-size: 1rem;
-        transition: background-color 0.3s;
     }
     
-    .modal-footer-btn:hover {
-        background-color: #155a8a;
-    }
-    
-    .cost-badge {
-        display: inline-block;
-        background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-        padding: 1rem 2rem;
-        border-radius: 8px;
-        border-left: 4px solid #1E7AB9;
-        margin-bottom: 1.5rem;
-    }
-    
-    .cost-badge h3 {
-        margin: 0;
+    .trip-cost-amount {
         font-size: 1.5rem;
-        color: #1E7AB9;
+        font-weight: 700;
+        color: #28a745;
     }
     
-    .payment-info-box {
-        background: linear-gradient(135deg, #e8f5e9, #f1f8f2);
-        padding: 1.5rem;
-        border-radius: 8px;
-        border-left: 4px solid #28a745;
+    /* No trips message */
+    .no-trips {
         text-align: center;
-        margin-bottom: 1.5rem;
+        padding: 3rem;
+        background: rgba(255,255,255,0.1);
+        border-radius: 12px;
     }
     
-    .payment-info-box .amount {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #2d5a2d;
-        margin: 0.5rem 0;
+    .no-trips i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        opacity: 0.7;
     }
     
-    .payment-info-box .due-date {
-        color: #666;
-    }
-    
-    .info-note {
-        background-color: #f8f9fa;
-        padding: 1.25rem;
-        border-radius: 8px;
-        border: 1px solid #e9ecef;
-    }
-    
-    .info-note h5 {
-        margin: 0 0 0.5rem;
-        color: #1E7AB9;
-    }
-    
-    .info-note p {
-        margin: 0;
-        color: #666;
-        line-height: 1.6;
-    }
-    
-    .pending-box {
-        background: linear-gradient(135deg, #fff3cd, #fef8e1);
-        padding: 1.5rem;
-        border-radius: 8px;
-        border-left: 4px solid #ffc107;
-        text-align: center;
-    }
-    
-    .pending-box strong {
-        color: #856404;
+    .no-trips p {
+        color: white;
         font-size: 1.1rem;
-    }
-    
-    .pending-box p {
-        color: #666;
-        margin-top: 0.5rem;
-        line-height: 1.6;
+        margin: 0;
     }
     
     @media (max-width: 768px) {
-        .trip-gallery {
-            grid-template-columns: repeat(3, 1fr);
+        .slideshow-container {
+            margin-top: 1.5rem;
         }
         
-        .trip-content {
+        .trip-slideshow {
+            max-width: 100%;
+            height: 200px;
+        }
+        
+        .trips-grid {
             grid-template-columns: 1fr;
-        }
-        
-        .trip-buttons {
-            margin-bottom: 1.5rem;
         }
     }
     
     @media (max-width: 480px) {
-        .trip-gallery {
-            grid-template-columns: repeat(2, 1fr);
+        .trip-slideshow {
+            height: 180px;
         }
     }
 </style>
@@ -351,12 +300,27 @@ include('partials/header.php');
                 </a>
             </div>
             <div class="cell medium-5">
-                <div class="trip-gallery">
-                    <img src="images/trips/kewgardens.jpg" alt="School trip to Kew Gardens">
-                    <img src="images/trips/tanzania.jpg" alt="Educational trip to Tanzania">
-                    <img src="images/trips/disney1.jpg" alt="Students at Disney">
-                    <img src="images/trips/farm1.jpg" alt="Learning at the farm">
-                    <img src="images/trips/winchester1.jpg" alt="Trip to Winchester">
+                <div class="slideshow-container">
+                    <div class="trip-slideshow">
+                        <img src="images/trips/kewgardens.jpg" alt="School trip to Kew Gardens" class="active">
+                        <img src="images/trips/tanzania.jpg" alt="Educational trip to Tanzania">
+                        <img src="images/trips/disney1.jpg" alt="Students at Disney">
+                        <img src="images/trips/farm1.jpg" alt="Learning at the farm">
+                        <img src="images/trips/winchester1.jpg" alt="Trip to Winchester">
+                        
+                        <div class="slideshow-arrows">
+                            <button class="slideshow-arrow" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+                            <button class="slideshow-arrow" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                        
+                        <div class="slideshow-controls">
+                            <span class="slideshow-dot active" onclick="goToSlide(0)"></span>
+                            <span class="slideshow-dot" onclick="goToSlide(1)"></span>
+                            <span class="slideshow-dot" onclick="goToSlide(2)"></span>
+                            <span class="slideshow-dot" onclick="goToSlide(3)"></span>
+                            <span class="slideshow-dot" onclick="goToSlide(4)"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -367,189 +331,86 @@ include('partials/header.php');
 <section class="trips-section">
     <div class="grid-container">
         <h2>Current Trips</h2>
-        
-        <!-- Trip 1 - Lion King -->
-        <div class="trip-item">
-            <div class="trip-content">
-                <div class="trip-info">
-                    <h3>Lion King the Musical</h3>
-                    <div class="trip-buttons">
-                        <button class="trip-btn" onclick="showModal('lionking-payment')">Payment Plan</button>
-                        <button class="trip-btn" onclick="showModal('lionking-letters')">Letters</button>
-                    </div>
-                </div>
-                <div class="trip-details">
-                    <h4>Details</h4>
-                    <p><strong>Date:</strong> Wednesday 10th December 2025</p>
-                    <p><strong>Lead:</strong> Chelsea Marr</p>
-                    <p><strong>Total Cost:</strong> £43</p>
-                    <p><strong>Year Group:</strong> Year 7 &amp; 8</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Trip 2 - Hercules -->
-        <div class="trip-item">
-            <div class="trip-content">
-                <div class="trip-info">
+            
+            <!-- Trip 1 - Hercules -->
+            <div class="trip-card">
+                <div class="trip-card-header">
                     <h3>Hercules the Musical</h3>
-                    <div class="trip-buttons">
-                        <button class="trip-btn" onclick="showModal('hercules-payment')">Payment Plan</button>
-                        <button class="trip-btn" onclick="showModal('hercules-letters')">Letters</button>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>Thursday 8th January 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>Jodie Brown</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Years 7–11</span>
                     </div>
                 </div>
-                <div class="trip-details">
-                    <h4>Details</h4>
-                    <p><strong>Date:</strong> Thursday 8th January 2026</p>
-                    <p><strong>Lead:</strong> Jodie Brown</p>
-                    <p><strong>Total Cost:</strong> £59</p>
-                    <p><strong>Year Group:</strong> Years 7–11</p>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost</span>
+                        <span class="trip-cost-amount">£59</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Modals -->
-<div id="lionking-payment" class="modal-overlay">
-    <div class="modal-container">
-        <div class="modal-header">
-            <h2>Lion King the Musical – Payment Plan</h2>
-            <button class="modal-close" onclick="closeModal('lionking-payment')">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div style="text-align: center;">
-                <div class="cost-badge">
-                    <h3>Total Cost: £43</h3>
-                </div>
-            </div>
-            
-            <h4 style="color: #1E7AB9; text-align: center; margin-bottom: 1.5rem;">📅 Payment Schedule</h4>
-            
-            <div class="payment-info-box">
-                <strong style="color: #2d5a2d; font-size: 1.1rem;">💰 Full Payment</strong>
-                <div class="amount">£43</div>
-                <div class="due-date">Due by: 3rd December 2025</div>
-            </div>
-            
-            <div class="info-note">
-                <h5>💡 Payment Information</h5>
-                <p>Payment can be made online through our secure payment portal or at the school reception.</p>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="modal-footer-btn" onclick="closeModal('lionking-payment')">Close</button>
-        </div>
-    </div>
-</div>
-
-<div id="lionking-letters" class="modal-overlay">
-    <div class="modal-container">
-        <div class="modal-header">
-            <h2>Lion King the Musical – Trip Letters</h2>
-            <button class="modal-close" onclick="closeModal('lionking-letters')">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div style="text-align: center; margin-bottom: 1.5rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">📋</div>
-                <h3 style="color: #1E7AB9; margin: 0;">Available Letters</h3>
-            </div>
-            
-            <div class="pending-box">
-                <strong>📄 Trip letters will be available soon</strong>
-                <p>Letters with full trip details will be distributed to students and uploaded here.</p>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="modal-footer-btn" onclick="closeModal('lionking-letters')">Close</button>
-        </div>
-    </div>
-</div>
-
-<div id="hercules-payment" class="modal-overlay">
-    <div class="modal-container">
-        <div class="modal-header">
-            <h2>Hercules the Musical – Payment Plan</h2>
-            <button class="modal-close" onclick="closeModal('hercules-payment')">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div style="text-align: center;">
-                <div class="cost-badge">
-                    <h3>Total Cost: £59</h3>
-                </div>
-            </div>
-            
-            <h4 style="color: #1E7AB9; text-align: center; margin-bottom: 1.5rem;">📅 Payment Schedule</h4>
-            
-            <div class="pending-box">
-                <strong>📋 Payment plan will be available soon</strong>
-                <p>We're finalising the details for this theatre trip. Full payment information including instalment options will be provided soon.</p>
-            </div>
-            
-            <div class="info-note" style="margin-top: 1.5rem;">
-                <h5>📧 Stay Updated</h5>
-                <p>More information including pricing and payment schedules will be sent to parents via email and posted on the school website.</p>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="modal-footer-btn" onclick="closeModal('hercules-payment')">Close</button>
-        </div>
-    </div>
-</div>
-
-<div id="hercules-letters" class="modal-overlay">
-    <div class="modal-container">
-        <div class="modal-header">
-            <h2>Hercules the Musical – Trip Letters</h2>
-            <button class="modal-close" onclick="closeModal('hercules-letters')">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div style="text-align: center; margin-bottom: 1.5rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">📋</div>
-                <h3 style="color: #1E7AB9; margin: 0;">Available Letters</h3>
-            </div>
-            
-            <div class="pending-box">
-                <strong>📄 Trip letters will be available soon</strong>
-                <p>Letters with full trip details will be distributed to students and uploaded here.</p>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="modal-footer-btn" onclick="closeModal('hercules-letters')">Close</button>
-        </div>
-    </div>
-</div>
-
 <script>
-function showModal(modalId) {
-    document.getElementById(modalId).style.display = 'block';
-    document.body.style.overflow = 'hidden';
-}
+// Slideshow functionality
+let currentSlide = 0;
+const slides = document.querySelectorAll('.trip-slideshow img');
+const dots = document.querySelectorAll('.slideshow-dot');
+const totalSlides = slides.length;
+let autoSlideTimer;
 
-function closeModal(modalId) {
-    document.getElementById(modalId).style.display = 'none';
-    document.body.style.overflow = '';
-}
-
-// Close modal when clicking outside
-document.querySelectorAll('.modal-overlay').forEach(modal => {
-    modal.addEventListener('click', function(e) {
-        if (e.target === this) {
-            this.style.display = 'none';
-            document.body.style.overflow = '';
-        }
+function showSlide(index) {
+    // Handle wrapping
+    if (index >= totalSlides) currentSlide = 0;
+    else if (index < 0) currentSlide = totalSlides - 1;
+    else currentSlide = index;
+    
+    // Update slides
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === currentSlide);
     });
-});
+    
+    // Update dots
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentSlide);
+    });
+}
 
-// Close modal with Escape key
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        document.querySelectorAll('.modal-overlay').forEach(modal => {
-            modal.style.display = 'none';
-        });
-        document.body.style.overflow = '';
-    }
-});
+function changeSlide(direction) {
+    showSlide(currentSlide + direction);
+    resetAutoSlide();
+}
+
+function goToSlide(index) {
+    showSlide(index);
+    resetAutoSlide();
+}
+
+function autoSlide() {
+    showSlide(currentSlide + 1);
+}
+
+function resetAutoSlide() {
+    clearInterval(autoSlideTimer);
+    autoSlideTimer = setInterval(autoSlide, 4000);
+}
+
+// Start auto-slide
+autoSlideTimer = setInterval(autoSlide, 4000);
 </script>
 
 <?php include('partials/footer.php'); ?>
