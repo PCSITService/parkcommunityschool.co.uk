@@ -1,12 +1,9 @@
 <?php
-$pageTitle = 'Park Community School | Statutory Information';
+$pageTitle = 'Park Community School | Policies';
 include('partials/header.php');
 ?>
 
 <style>
-    
-    
-    
     .content-section {
         padding: 1rem 0 3rem;
     }
@@ -59,14 +56,17 @@ include('partials/header.php');
     }
     
     .policies-list ul {
-        list-style: none;
-        padding: 0;
+        list-style-type: disc !important;
         margin: 0;
+        padding-left: 2rem;
         columns: 2;
         column-gap: 2rem;
     }
     
     .policies-list li {
+        display: list-item !important;
+        list-style-type: disc !important;
+        color: #333;
         padding: 0.5rem 0;
         border-bottom: 1px solid #e5e7eb;
         break-inside: avoid;
@@ -77,18 +77,18 @@ include('partials/header.php');
     }
     
     .policies-list li.hidden {
-        display: none;
+        display: none !important;
     }
     
     .policy-link {
-        color: #a3cd42;
+        color: #333;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.3s ease;
     }
     
     .policy-link:hover {
-        color: #8fb332;
+        color: #a3cd42;
         text-decoration: underline;
     }
     
