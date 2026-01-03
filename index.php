@@ -257,10 +257,10 @@ include('partials/header.php');
                     <div class="button-row">
                         <a class="button warning" href="alumni.php">Alumni</a>
                         <a class="button warning" href="ofsted-reports.php">Ofsted Reports 2022</a>
-                        <a class="button warning" href="admissions.php">Year 6 → 7 2025</a>
+                        <a class="button warning" href="#" id="openTransitionModal">Year 7 Transition</a>
                     </div>
                     <div class="button-row">
-                        <a class="button success" href="about.php">Welcome to Park</a>
+                        <a class="button success" href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank">Welcome to Park</a>
                         <a class="button success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
                         <a class="button success" href="letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
                     </div>
@@ -290,19 +290,19 @@ include('partials/header.php');
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Year 11 Autumn Mock Timetable Final (2) (1).pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Year%2011%20Autumn%20Mock%20Timetable%20Final%20(2)%20(1).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 11 Autumn Mock Timetable
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Phase 1 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Phase%201%20Revision%20booklet%2025-26.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Phase 1 Revision Booklet 25-26
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Phase 2 Revision booklet 25-26.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Phase%202%20Revision%20booklet%2025-26.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Phase 2 Revision Booklet 25-26
                 </a>
@@ -312,26 +312,50 @@ include('partials/header.php');
         <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA1 KS3 Year 7.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1%20KS3%20Year%207.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 7
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA1 KS3 Year 8.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1%20KS3%20Year%208.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 8
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA1 KS3 Year 9.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA1%20KS3%20Year%209.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     KA1 KS3 Year 9
                 </a>
             </li>
         </ul>
+    </div>
+</div>
+
+<!-- YEAR 7 TRANSITION MODAL -->
+<div class="modal-overlay" id="transitionModal">
+    <div class="modal-content">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2>Year 7 Transition</h2>
+        <p style="color: var(--text); margin-bottom: 1.5rem;">Welcome to Park Community School! Below you'll find important information to help you prepare for joining us.</p>
         
-        <a href="exams.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View All Exam Information</a>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Welcome to Park 2025 (All Students)
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/Welcome%20to%20Park%202025%20(Year%207).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Welcome to Park 2025 (Year 7)
+                </a>
+            </li>
+        </ul>
+        
+        <a href="admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Admissions Information</a>
     </div>
 </div>
 
@@ -606,7 +630,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Modals
     const modals = [
         { open: 'openModal', modal: 'headteacherModal' },
-        { open: 'openExamModal', modal: 'examModal' }
+        { open: 'openExamModal', modal: 'examModal' },
+        { open: 'openTransitionModal', modal: 'transitionModal' }
     ];
 
     modals.forEach(function(m) {

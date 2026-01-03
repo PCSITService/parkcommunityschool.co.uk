@@ -270,6 +270,7 @@
                     <li><a href="/news.php">News</a></li>
                     <li><a href="/policies.php">Policies</a></li>
                     <li><a href="/assets/prospectus.pdf" target="_blank">Prospectus</a></li>
+                    <li><a href="/pupil-premium.php">Pupil Premium</a></li>
                     <li><a href="/studentrecruitment.php">Student Recruitment</a></li>
                     <li><a href="/employment.php">Vacancies</a></li>
                 </ul>
