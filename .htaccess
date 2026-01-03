@@ -27,7 +27,14 @@ ErrorDocument 500 /404.php
     
     # Strict Transport Security (HTTPS only) - 1 year
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    
+    # Hide server information
+    Header always unset Server
+    Header always unset X-Powered-By
 </IfModule>
+
+# Hide server signature
+ServerSignature Off
 
 # ========================================
 # SECURITY
