@@ -1,12 +1,13 @@
 /* TEAM */
-Developer: Steven Smith
-Twitter: @LivingDead1989
+Developer: IT Services
 Location: Hampshire, England
 
 /* THANKS */
-Name: Phillip Warren
+Name: IT Services
 
 /* SITE */
-Standards: HTML5, CSS3
-Components: ZURB Foundation, Modernizr, JQuery, PHP5, Font Awesome
-Software: Atom, Sublime Text 3
+Standards: HTML5, CSS3, WCAG 2.1 Accessibility
+Components: ZURB Foundation 6, PHP 8, Font Awesome 6
+Features: Responsive Design, Mobile-First, CSS Custom Properties
+Software: Visual Studio, Sublime Text, Kate, Docker
+Last Updated: 2026
