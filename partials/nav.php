@@ -263,30 +263,30 @@
             <li class="has-dropdown">
                 <a href="javascript:void(0)">School</a>
                 <ul class="nav-dropdown">
-                    <li><a href="/catering.php">Catering</a></li>
-                    <li><a href="/events.php">Events</a></li>
-                    <li><a href="/park-get-into-teaching.php">Get into Teaching</a></li>
-                    <li><a href="/governors.php">Governors</a></li>
-                    <li><a href="/news.php">News</a></li>
-                    <li><a href="/policies.php">Policies</a></li>
+                    <li><a href="/pages/catering.php">Catering</a></li>
+                    <li><a href="/pages/events.php">Events</a></li>
+                    <li><a href="/pages/park-get-into-teaching.php">Get into Teaching</a></li>
+                    <li><a href="/pages/governors.php">Governors</a></li>
+                    <li><a href="/pages/news.php">News</a></li>
+                    <li><a href="/pages/policies.php">Policies</a></li>
                     <li><a href="/assets/prospectus.pdf" target="_blank">Prospectus</a></li>
-                    <li><a href="/pupil-premium.php">Pupil Premium</a></li>
-                    <li><a href="/studentrecruitment.php">Student Recruitment</a></li>
-                    <li><a href="/employment.php">Vacancies</a></li>
+                    <li><a href="/pages/pupil-premium.php">Pupil Premium</a></li>
+                    <li><a href="/pages/studentrecruitment.php">Student Recruitment</a></li>
+                    <li><a href="/pages/employment.php">Vacancies</a></li>
                 </ul>
             </li>
 
             <!-- Safeguarding Link -->
-            <li><a href="/safeguarding.php">Safeguarding</a></li>
+            <li><a href="/pages/safeguarding.php">Safeguarding</a></li>
 
             <!-- Learning Dropdown -->
             <li class="has-dropdown">
                 <a href="javascript:void(0)">Learning</a>
                 <ul class="nav-dropdown">
-                    <li><a href="/curriculum.php">Curriculum</a></li>
+                    <li><a href="/pages/curriculum.php">Curriculum</a></li>
                     <li><a href="/assets/curriculum/FWYL - April 2025.pdf" target="_blank">Extra-Curricular Clubs</a></li>
-                    <li><a href="/finance-education.php">Financial Education</a></li>
-                    <li><a href="/reading.php">Reading</a></li>
+                    <li><a href="/pages/finance-education.php">Financial Education</a></li>
+                    <li><a href="/pages/reading.php">Reading</a></li>
                 </ul>
             </li>
 
@@ -294,14 +294,14 @@
             <li class="has-dropdown">
                 <a href="javascript:void(0)">Parent</a>
                 <ul class="nav-dropdown">
-                    <li><a href="/admissions.php">Admissions</a></li>
-                    <li><a href="/time-tabling.php">Calendar &amp; School Day</a></li>
-                    <li><a href="/havant-federation-statements.php">Federation Statements</a></li>
-                    <li><a href="/forms.php">Forms</a></li>
-                    <li><a href="/letters-home.php">Letters &amp; Newsletters</a></li>
-                    <li><a href="/ofsted-reports.php">Ofsted Reports</a></li>
-                    <li><a href="/trips.php">Trips</a></li>
-                    <li><a href="/uniform.php">Uniform</a></li>
+                    <li><a href="/pages/admissions.php">Admissions</a></li>
+                    <li><a href="/pages/time-tabling.php">Calendar &amp; School Day</a></li>
+                    <li><a href="/pages/havant-federation-statements.php">Federation Statements</a></li>
+                    <li><a href="/pages/forms.php">Forms</a></li>
+                    <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
+                    <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
+                    <li><a href="/pages/trips.php">Trips</a></li>
+                    <li><a href="/pages/uniform.php">Uniform</a></li>
                 </ul>
             </li>
 
@@ -309,25 +309,25 @@
             <li class="has-dropdown">
                 <a href="javascript:void(0)">Much More</a>
                 <ul class="nav-dropdown">
-                    <li><a href="/park-catering-services.php">Catering</a></li>
-                    <li><a href="/community-services.php">Community &amp; Services</a></li>
-                    <li><a href="/Connect4Families.php">Connect4Families</a></li>
-                    <li><a href="/dickinson-centre.php">Dickinson Centre</a></li>
-                    <li><a href="/farm.php">Farm</a></li>
-                    <li><a href="/greenpower.php">Greenpower</a></li>
-                    <li><a href="/garden.php">Horticulture Garden</a></li>
-                    <li><a href="/munch.php">MUNCH</a></li>
+                    <li><a href="/pages/park-catering-services.php">Catering</a></li>
+                    <li><a href="/pages/community-services.php">Community &amp; Services</a></li>
+                    <li><a href="/pages/Connect4Families.php">Connect4Families</a></li>
+                    <li><a href="/pages/dickinson-centre.php">Dickinson Centre</a></li>
+                    <li><a href="/pages/farm.php">Farm</a></li>
+                    <li><a href="/pages/greenpower.php">Greenpower</a></li>
+                    <li><a href="/pages/garden.php">Horticulture Garden</a></li>
+                    <li><a href="/pages/munch.php">MUNCH</a></li>
                     <li><a href="https://nursery.pcs.hants.sch.uk" target="_blank">Nursery</a></li>
-                    <li><a href="/theatre.php">Theatre</a></li>
-                    <li><a href="/ventures.php">Ventures</a></li>
+                    <li><a href="/pages/theatre.php">Theatre</a></li>
+                    <li><a href="/pages/ventures.php">Ventures</a></li>
                 </ul>
             </li>
 
             <!-- Statutory Link -->
-            <li><a href="/statutory.php">Statutory</a></li>
+            <li><a href="/pages/statutory.php">Statutory</a></li>
 
             <!-- School Portal Link -->
-            <li><a href="/school-portal.php">School Portal</a></li>
+            <li><a href="/pages/school-portal.php">School Portal</a></li>
         </ul>
     </div>
 
@@ -349,29 +349,29 @@
             <li>
                 <button class="mobile-dropdown-toggle">School</button>
                 <ul class="mobile-dropdown">
-                    <li><a href="/catering.php">Catering</a></li>
-                    <li><a href="/events.php">Events</a></li>
-                    <li><a href="/park-get-into-teaching.php">Get into Teaching</a></li>
-                    <li><a href="/governors.php">Governors</a></li>
-                    <li><a href="/news.php">News</a></li>
-                    <li><a href="/policies.php">Policies</a></li>
+                    <li><a href="/pages/catering.php">Catering</a></li>
+                    <li><a href="/pages/events.php">Events</a></li>
+                    <li><a href="/pages/park-get-into-teaching.php">Get into Teaching</a></li>
+                    <li><a href="/pages/governors.php">Governors</a></li>
+                    <li><a href="/pages/news.php">News</a></li>
+                    <li><a href="/pages/policies.php">Policies</a></li>
                     <li><a href="/assets/prospectus.pdf" target="_blank">Prospectus</a></li>
-                    <li><a href="/studentrecruitment.php">Student Recruitment</a></li>
-                    <li><a href="/employment.php">Vacancies</a></li>
+                    <li><a href="/pages/studentrecruitment.php">Student Recruitment</a></li>
+                    <li><a href="/pages/employment.php">Vacancies</a></li>
                 </ul>
             </li>
 
             <!-- Safeguarding Link -->
-            <li><a href="/safeguarding.php">Safeguarding</a></li>
+            <li><a href="/pages/safeguarding.php">Safeguarding</a></li>
 
             <!-- Learning Dropdown -->
             <li>
                 <button class="mobile-dropdown-toggle">Learning</button>
                 <ul class="mobile-dropdown">
-                    <li><a href="/curriculum.php">Curriculum</a></li>
+                    <li><a href="/pages/curriculum.php">Curriculum</a></li>
                     <li><a href="/assets/curriculum/FWYL - April 2025.pdf" target="_blank">Extra-Curricular Clubs</a></li>
-                    <li><a href="/finance-education.php">Financial Education</a></li>
-                    <li><a href="/reading.php">Reading</a></li>
+                    <li><a href="/pages/finance-education.php">Financial Education</a></li>
+                    <li><a href="/pages/reading.php">Reading</a></li>
                 </ul>
             </li>
 
@@ -379,14 +379,14 @@
             <li>
                 <button class="mobile-dropdown-toggle">Parent</button>
                 <ul class="mobile-dropdown">
-                    <li><a href="/admissions.php">Admissions</a></li>
-                    <li><a href="/time-tabling.php">Calendar &amp; School Day</a></li>
-                    <li><a href="/havant-federation-statements.php">Federation Statements</a></li>
-                    <li><a href="/forms.php">Forms</a></li>
-                    <li><a href="/letters-home.php">Letters &amp; Newsletters</a></li>
-                    <li><a href="/ofsted-reports.php">Ofsted Reports</a></li>
-                    <li><a href="/trips.php">Trips</a></li>
-                    <li><a href="/uniform.php">Uniform</a></li>
+                    <li><a href="/pages/admissions.php">Admissions</a></li>
+                    <li><a href="/pages/time-tabling.php">Calendar &amp; School Day</a></li>
+                    <li><a href="/pages/havant-federation-statements.php">Federation Statements</a></li>
+                    <li><a href="/pages/forms.php">Forms</a></li>
+                    <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
+                    <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
+                    <li><a href="/pages/trips.php">Trips</a></li>
+                    <li><a href="/pages/uniform.php">Uniform</a></li>
                 </ul>
             </li>
 
@@ -394,25 +394,25 @@
             <li>
                 <button class="mobile-dropdown-toggle">Much More</button>
                 <ul class="mobile-dropdown">
-                    <li><a href="/park-catering-services.php">Catering</a></li>
-                    <li><a href="/community-services.php">Community &amp; Services</a></li>
-                    <li><a href="/Connect4Families.php">Connect4Families</a></li>
-                    <li><a href="/dickinson-centre.php">Dickinson Centre</a></li>
-                    <li><a href="/farm.php">Farm</a></li>
-                    <li><a href="/greenpower.php">Greenpower</a></li>
-                    <li><a href="/garden.php">Horticulture Garden</a></li>
-                    <li><a href="/munch.php">MUNCH</a></li>
+                    <li><a href="/pages/park-catering-services.php">Catering</a></li>
+                    <li><a href="/pages/community-services.php">Community &amp; Services</a></li>
+                    <li><a href="/pages/Connect4Families.php">Connect4Families</a></li>
+                    <li><a href="/pages/dickinson-centre.php">Dickinson Centre</a></li>
+                    <li><a href="/pages/farm.php">Farm</a></li>
+                    <li><a href="/pages/greenpower.php">Greenpower</a></li>
+                    <li><a href="/pages/garden.php">Horticulture Garden</a></li>
+                    <li><a href="/pages/munch.php">MUNCH</a></li>
                     <li><a href="https://nursery.pcs.hants.sch.uk" target="_blank">Nursery</a></li>
-                    <li><a href="/theatre.php">Theatre</a></li>
-                    <li><a href="/ventures.php">Ventures</a></li>
+                    <li><a href="/pages/theatre.php">Theatre</a></li>
+                    <li><a href="/pages/ventures.php">Ventures</a></li>
                 </ul>
             </li>
 
             <!-- Statutory Link -->
-            <li><a href="/statutory.php">Statutory</a></li>
+            <li><a href="/pages/statutory.php">Statutory</a></li>
 
             <!-- School Portal Link -->
-            <li><a href="/school-portal.php">School Portal</a></li>
+            <li><a href="/pages/school-portal.php">School Portal</a></li>
         </ul>
     </div>
 </nav>

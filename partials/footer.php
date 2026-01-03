@@ -90,11 +90,11 @@
     
     <!-- Footer links -->
     <div class="footer-links">
-      <a href="/privacy-policy.php">Privacy Policy</a>
+      <a href="/pages/privacy-policy.php">Privacy Policy</a>
       <span class="divider">|</span>
       <a href="/includes/cookie-policy.php">Cookie Policy</a>
       <span class="divider">|</span>
-      <a href="/contact.php">Contact Us</a>
+      <a href="/pages/contact.php">Contact Us</a>
     </div>
     
     <!-- Cookie Preferences Button -->

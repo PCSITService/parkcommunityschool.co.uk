@@ -9,7 +9,6 @@ ErrorDocument 500 /404.php
 # ========================================
 # SECURITY
 # ========================================
-
 # Prevent directory browsing
 Options -Indexes
 
@@ -26,9 +25,24 @@ Options -Indexes
 </IfModule>
 
 # ========================================
+# REDIRECTS - Old page URLs to /pages/
+# ========================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Redirect old root-level PHP pages to /pages/ folder
+    # Excludes index.php and 404.php which remain in root
+    RewriteCond %{REQUEST_URI} ^/([a-zA-Z0-9_-]+)\.php$ [NC]
+    RewriteCond %{REQUEST_URI} !^/index\.php$ [NC]
+    RewriteCond %{REQUEST_URI} !^/404\.php$ [NC]
+    RewriteCond %{REQUEST_URI} !^/pages/ [NC]
+    RewriteCond %{DOCUMENT_ROOT}/pages/%1.php -f
+    RewriteRule ^(.+)\.php$ /pages/$1.php [R=301,L]
+</IfModule>
+
+# ========================================
 # PERFORMANCE
 # ========================================
-
 # Enable compression
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
@@ -52,7 +66,6 @@ Options -Indexes
 # ========================================
 # URL HANDLING
 # ========================================
-
 # Force HTTPS (if not handled by Cloudflare/AWS)
 # <IfModule mod_rewrite.c>
 #     RewriteEngine On

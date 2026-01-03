@@ -251,18 +251,18 @@ include('partials/header.php');
                 <div class="hero-buttons">
                     <a class="button expand success" href="#" id="openModal">Headteacher's Welcome</a>
                     <div class="button-row">
-                        <a class="button warning" href="curriculum.php">GCSE Courses 2025–2026</a>
+                        <a class="button warning" href="pages/curriculum.php">GCSE Courses 2025–2026</a>
                         <a class="button warning" href="#" id="openExamModal">Exam Information</a>
                     </div>
                     <div class="button-row">
                         <a class="button warning" href="alumni.php">Alumni</a>
-                        <a class="button warning" href="ofsted-reports.php">Ofsted Reports 2022</a>
+                        <a class="button warning" href="pages/ofsted-reports.php">Ofsted Reports 2022</a>
                         <a class="button warning" href="#" id="openTransitionModal">Year 7 Transition</a>
                     </div>
                     <div class="button-row">
                         <a class="button success" href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank">Welcome to Park</a>
                         <a class="button success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
-                        <a class="button success" href="letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
+                        <a class="button success" href="pages/letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@ include('partials/header.php');
             </li>
         </ul>
         
-        <a href="admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Admissions Information</a>
+        <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Admissions Information</a>
     </div>
 </div>
 
@@ -460,16 +460,16 @@ include('partials/header.php');
         <h3 class="section-title">Going The Extra Mile</h3>
         
         <ul class="menu-grid two-col">
-            <li><a href="/Connect4Families.php" class="menu-box">
+            <li><a href="/pages/Connect4Families.php" class="menu-box">
                 <img src="assets/connect4families/2023-07/connect4families-logo.png" alt="Connect4Families">
                 <img src="assets/connect4families/2023-07/connect4youth-logo.png" alt="Connect4Youth">
                 <p>Connect4</p>
             </a></li>
-            <li><a href="/munch.php" class="menu-box">
+            <li><a href="/pages/munch.php" class="menu-box">
                 <img src="images/index/munch.jpg" alt="MUNCH">
                 <p>MUNCH</p>
             </a></li>
-            <li><a href="/tearooms.php" class="menu-box">
+            <li><a href="/pages/tearooms.php" class="menu-box">
                 <img src="images/index/tearooms.jpg" alt="Tea Rooms at The Coach House">
                 <p>Tea Rooms at The Coach House</p>
             </a></li>
@@ -480,23 +480,23 @@ include('partials/header.php');
         </ul>
 
         <ul class="menu-grid five-col">
-            <li><a href="/race-at-our-place.php" class="menu-box">
+            <li><a href="/pages/race-at-our-place.php" class="menu-box">
                 <img src="images/index/cancer_research.jpg" alt="Park Community Race at Our Place">
                 <p>Race at Our Place</p>
             </a></li>
-            <li><a href="/greenpower.php" class="menu-box">
+            <li><a href="/pages/greenpower.php" class="menu-box">
                 <img src="images/index/greenpower.jpg" alt="Park Community Greenpower">
                 <p>Greenpower</p>
             </a></li>
-            <li><a href="/marketgarden.php" class="menu-box">
+            <li><a href="/pages/marketgarden.php" class="menu-box">
                 <img src="images/index/farm.jpg" alt="Park Community Market Garden">
                 <p>Market Garden</p>
             </a></li>
-            <li><a href="/apex-centre.php" class="menu-box">
+            <li><a href="/pages/apex-centre.php" class="menu-box">
                 <img src="images/index/apex.jpg" alt="The Apex Centre">
                 <p>The Apex Centre</p>
             </a></li>
-            <li><a href="/ventures.php" class="menu-box">
+            <li><a href="/pages/ventures.php" class="menu-box">
                 <img src="images/index/charity.jpg" alt="Park Community Ventures">
                 <p>Charity</p>
             </a></li>
@@ -505,23 +505,23 @@ include('partials/header.php');
         <h3 class="section-title">In-house Services</h3>
         
         <ul class="menu-grid three-col">
-            <li><a href="/dickinson-centre.php" class="menu-box">
+            <li><a href="/pages/dickinson-centre.php" class="menu-box">
                 <img src="images/index/dickinson-centre.jpg" alt="Park Community Dickinson Centre">
                 <p>Dickinson Centre</p>
             </a></li>
-            <li><a href="/community-services.php" class="menu-box">
+            <li><a href="/pages/community-services.php" class="menu-box">
                 <img src="images/index/community.jpg" alt="Park Community">
                 <p>Community &amp; Services</p>
             </a></li>
-            <li><a href="/design-print.php" class="menu-box">
+            <li><a href="/pages/design-print.php" class="menu-box">
                 <img src="images/index/unit.jpg" alt="Park Community Enterprises">
                 <p>Park Design &amp; Print</p>
             </a></li>
-            <li><a href="/suite.php" class="menu-box">
+            <li><a href="/pages/suite.php" class="menu-box">
                 <img src="images/index/sontronics.jpg" alt="The Suite">
                 <p>The Suite</p>
             </a></li>
-            <li><a href="/theatre.php" class="menu-box">
+            <li><a href="/pages/theatre.php" class="menu-box">
                 <img src="images/index/theatre.jpg" alt="Theatre Spaces for Hire">
                 <p>Theatre Hire</p>
             </a></li>
