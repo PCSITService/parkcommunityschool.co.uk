@@ -97,6 +97,15 @@ include('../partials/header.php');
 <section class="content-section">
     <div class="grid-container">
         <div class="newsletter-list">
+            <!-- January 2026 -->
+            <div class="newsletter-item">
+                <h4>January 2026</h4>
+                <ul>
+                    <li><a href="/assets/letters/2026-01/Year 10 Parents evening 15.01.26.pdf" target="_blank">Year 10 Parents’ Evening - Thursday 15th January</a></li>
+                    <li><a href="/assets/letters/2026-01/Year 8 Parents evening 15.01.26.pdf" target="_blank">Year 8 Parents’ Evening - Thursday 15th January</a></li>
+                </ul>
+            </div>
+            
             <!-- December 2025 -->
             <div class="newsletter-item">
                 <h4>December 2025</h4>
