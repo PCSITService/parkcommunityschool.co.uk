@@ -212,7 +212,7 @@ include('../partials/header.php');
                     <li>High quality teaching which develops independence</li>
                 </ol>
 
-                <p><a href="/assets/pupilpremium/Pupil Premium Statement 2024-2027.pdf" target="_blank">Pupil Premium Strategy Document</a></p>
+                <p><a href="/assets/pupilpremium/Pupil Premium Statement 2025-2028.pdf" target="_blank">Pupil Premium Strategy Document</a></p>
 
                 <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced by the Education Endowment Foundation. Park Community School participated in the 'Improving Outcomes for Disadvantaged Learners' project with Hampshire and Rosendale Research, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
             </div>
@@ -223,24 +223,24 @@ include('../partials/header.php');
         
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <p>For Academic Year 2023/2024, the school received the following amounts:</p>
+                <p>For Academic Year 2024/2025, the school received the following amounts:</p>
                 <table class="funding-table">
                     <tr>
                         <td>Pupil Premium</td>
-                        <td>£550,655</td>
+                        <td>£580,650</td>
                     </tr>
                     <tr>
                         <td>Service Children</td>
-                        <td>£2,218</td>
+                        <td>£2,040</td>
                     </tr>
                     <tr>
                         <td>Post Looked After Children</td>
-                        <td>£6,569</td>
+                        <td>£5,140</td>
                     </tr>
                 </table>
 
-                <p><strong>Grant Allocation:</strong> In 2023/2024 the school received £690,407.</p>
-                <p>The school spent £698,000 providing additional support for PP students. The Pupil Premium is grant funding and is in addition to the school's delegated budget. The school chooses to invest additional funding from its delegated budget to support Pupil Premium funding.</p>
+                <p><strong>Grant Allocation:</strong> In 2024/2025 the school received £602,087.</p>
+                <p>The school spent £722,824 providing additional support for PP students. The Pupil Premium is grant funding and is in addition to the school's delegated budget. The school chooses to invest additional funding from its delegated budget to support Pupil Premium funding.</p>
                 <p>The Pupil Premium is allocated by calculating the number of students who are on Free School Meals (FSM) or have had FSM in the last six years. Students who have been in care continuously for more than six months or have a parent in the Armed Services also lead to some additional funding for the school.</p>
             </div>
         </div>
