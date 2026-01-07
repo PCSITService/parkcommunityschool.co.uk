@@ -4,8 +4,35 @@ include('../partials/header.php');
 ?>
 
 <style>
-    
-    
+    /* Info Banner */
+    .info-banner {
+        background: #1E7AB9;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .info-text {
+        font-weight: 600;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    .info-text i {
+        margin-right: 0.5rem;
+    }
+
+    .info-text a {
+        color: white;
+        text-decoration: underline;
+        transition: opacity 0.2s ease;
+    }
+
+    .info-text a:hover {
+        opacity: 0.85;
+        color: white;
+    }
     
     .content-section {
         padding: 1rem 0 4rem;
@@ -89,9 +116,22 @@ include('../partials/header.php');
         .newsletter-list {
             grid-template-columns: 1fr;
         }
+        
+        .info-text {
+            font-size: 0.85rem;
+        }
     }
 </style>
 
+<!-- Info Banner -->
+<div class="info-banner">
+    <div class="grid-container">
+        <p class="info-text">
+            <i class="fas fa-laptop" aria-hidden="true"></i>
+            Parent Resource: <a href="https://www.childrenscommissioner.gov.uk/resource/what-i-wish-my-parents-or-carers-knew-a-guide-for-parents-and-carers-on-managing-childrens-digital-lives/" target="_blank">A Guide for Parents and Carers on Managing Children's Digital Lives</a>
+        </p>
+    </div>
+</div>
 
 <!-- CONTENT -->
 <section class="content-section">
@@ -101,8 +141,8 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>January 2026</h4>
                 <ul>
-                    <li><a href="/assets/letters/2026-01/Year 10 Parents evening 15.01.26.pdf" target="_blank">Year 10 Parents’ Evening - Thursday 15th January</a></li>
-                    <li><a href="/assets/letters/2026-01/Year 8 Parents evening 15.01.26.pdf" target="_blank">Year 8 Parents’ Evening - Thursday 15th January</a></li>
+                    <li><a href="/assets/letters/2026-01/Year 10 Parents evening 15.01.26.pdf" target="_blank">Year 10 Parents' Evening - Thursday 15th January</a></li>
+                    <li><a href="/assets/letters/2026-01/Year 8 Parents evening 15.01.26.pdf" target="_blank">Year 8 Parents' Evening - Thursday 15th January</a></li>
                 </ul>
             </div>
             
