@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHM96XC7HV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EHM96XC7HV');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Park Community School'; ?></title>
@@ -24,15 +33,12 @@
     <?php endif; ?>
 </head>
 <body>
-
 <!-- Skip to main content link (accessibility) -->
 <a href="#main-content" class="skip-link">Skip to main content</a>
-
 <?php 
 // Show CAPTCHA overlay if rate limit exceeded
 if ($showCaptcha) {
     include __DIR__ . '/../includes/captcha_overlay.php';
 }
 ?>
-
 <?php include __DIR__ . '/nav.php'; ?>
