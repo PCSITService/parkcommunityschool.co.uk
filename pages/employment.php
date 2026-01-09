@@ -260,6 +260,15 @@ include('../partials/header.php');
     <!-- Vacancies Column -->
     <section class="vacancies-column">
         <h2 class="section-header">Current Vacancies</h2>
+
+        <article class="vacancy-card">
+            <h3>IT Manager</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-01/IT Manager - January 2026.pdf" class="vacancy-link" target="_blank" aria-label="IT Manager">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>  
         
         <article class="vacancy-card">
             <h3>Attendance Officer</h3>
