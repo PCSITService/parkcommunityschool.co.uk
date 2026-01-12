@@ -290,9 +290,9 @@ include('partials/header.php');
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Year%2011%20Autumn%20Mock%20Timetable%20Final%20(2)%20(1).pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2025-2026/Year 11 Spring Mock Timetable Final.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    Year 11 Autumn Mock Timetable
+                    Year 11 Spring Mock Timetable
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
