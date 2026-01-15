@@ -173,7 +173,6 @@ include('../partials/header.php');
                         <li data-policy="confidentiality"><a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
                         <li data-policy="conflict of interests"><a href="/assets/policies/conflict-of-interests.pdf" target="_blank" class="policy-link">Conflict of Interests</a></li>
                         <li data-policy="curriculum"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
-                        <li data-policy="Critical Incident"><a href="/assets/policies/Critical Incident  Disaster Recovery - January 2026.pdf" target="_blank" class="policy-link">Critical Incident</a></li>
                         <li data-policy="Careers Education Info"><a href="/assets/policies/Careers Education Information Advice and Guidance - January 2026.pdf" target="_blank" class="policy-link">Careers Education Info</a></li>
                         <li data-policy="data protection gdpr"><a href="/assets/policies/data-protection.pdf" target="_blank" class="policy-link">Data Protection</a></li>
                         <li data-policy="drugs and substance misuse"><a href="/assets/policies/drugs-substance-misuse.pdf" target="_blank" class="policy-link">Drugs and Substance Misuse</a></li>
