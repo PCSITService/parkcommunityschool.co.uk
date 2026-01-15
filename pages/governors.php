@@ -561,11 +561,11 @@ include('../partials/header.php');
 
             <div class="modern-governor-card" data-governor="cemery">
                 <div class="modern-governor-image">
-                    <img src="/images/governors/c-emery.jpg" alt="Mrs C Emery">
+                    <img src="/images/governors/c-hewitt - 400x400.jpg" alt="Mrs C Hewitt">
                 </div>
                 <div class="modern-governor-info">
-                    <h3 class="modern-governor-name">Mrs C Emery</h3>
-                    <p class="modern-governor-role">Co-opted Governor</p>
+                    <h3 class="modern-governor-name">Mrs C Hewitt</h3>
+                    <p class="modern-governor-role">Parent Governor</p>
                     <span class="modern-view-details">View Details <i class="fas fa-arrow-right"></i></span>
                 </div>
             </div>
@@ -620,7 +620,7 @@ include('../partials/header.php');
                 </div>
                 <div class="modern-governor-info">
                     <h3 class="modern-governor-name">Mr W Goldsmith</h3>
-                    <p class="modern-governor-role">Associate Governor</p>
+                    <p class="modern-governor-role">Co-Opted Governor</p>
                     <span class="modern-view-details">View Details <i class="fas fa-arrow-right"></i></span>
                 </div>
             </div>
@@ -690,7 +690,7 @@ include('../partials/header.php');
                 <div class="role-content">
                     <h3>Meeting Attendance</h3>
                     <p>Records of the governor meetings.</p>
-                    <a href="../assets/governors/governors-attendance.pdf" target="_blank" class="modern-btn primary">Governor Attendance</a>
+                    <a href="../assets/governors/PCS_2024-25 Attendance agreed.pdf" target="_blank" class="modern-btn primary">Governor Attendance</a>
                     <p style="margin-top: 2rem;">For more information about school Governors please visit the <a href="http://www.nga.org.uk/Home.aspx" target="_blank" style="color: #2a5298;">National Governors' Association</a></p>
                 </div>
             </div>
@@ -832,9 +832,9 @@ include('../partials/header.php');
     <div class="modern-modal-content">
         <button class="modern-modal-close">&times;</button>
         <div class="modern-modal-header">
-            <h2 class="modern-modal-title">Mrs C Emery</h2>
-            <p><strong>Appointed:</strong> 25.09.2019 | <strong>Term Expires:</strong> 24.09.2023</p>
-            <p><strong>Category:</strong> Co-opted Governor</p>
+            <h2 class="modern-modal-title">Mrs C Hewitt</h2>
+            <p><strong>Appointed:</strong> 07.07.2025 | <strong>Term Expires:</strong> 06.07.2029</p>
+            <p><strong>Category:</strong> Parent Governor</p>
         </div>
         <div class="modern-modal-body">
             <h4>Committee Membership:</h4>
@@ -843,7 +843,7 @@ include('../partials/header.php');
                 <li>Member of Administration Committee</li>
             </ul>
             <h4>Background:</h4>
-            <p>Mrs Emery brings professional expertise in community development and stakeholder engagement, supporting the school's community partnerships.</p>
+            <p>Mrs Hewitt brings professional expertise in community development and stakeholder engagement, supporting the school's community partnerships.</p>
             <p style="margin-top: 1rem;"><a href="/assets/governors/pecuniary-interests.pdf" target="_blank">Pecuniary Interests</a></p>
         </div>
     </div>
@@ -940,7 +940,7 @@ include('../partials/header.php');
         <div class="modern-modal-header">
             <h2 class="modern-modal-title">Mr W Goldsmith</h2>
             <p><strong>Appointed:</strong> 12.03.2024 | <strong>Term Expires:</strong> 11.03.2026</p>
-            <p><strong>Category:</strong> Associate Governor</p>
+            <p><strong>Category:</strong> Co-Opted Governor</p>
         </div>
         <div class="modern-modal-body">
             <h4>Committee Membership:</h4>
