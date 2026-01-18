@@ -41,10 +41,18 @@ include('partials/header.php');
     /* Modal */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000; align-items: center; justify-content: center; }
     .modal-overlay.active { display: flex; }
-    .modal-content { background: #fff; border-radius: var(--radius); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); max-width: 600px; width: 90%; max-height: 90vh; overflow-y: auto; padding: 2rem; position: relative; }
-    .modal-content h2 { color: var(--text); border-bottom: 3px solid var(--green); padding-bottom: 1rem; margin-bottom: 1.5rem; }
+    .modal-content { background: #fff; border-radius: var(--radius); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); max-width: 1100px; width: 95%; max-height: 90vh; overflow-y: auto; padding: 2rem; position: relative; }
+    .modal-content h2 { color: var(--text); border-bottom: 3px solid var(--green); padding-bottom: 0.5rem; margin-bottom: 0.5rem; font-size: 1.5rem; text-align: center; }
+    .modal-content h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--text); }
+    .modal-content h3::after { display: none; }
+    .modal-content p { font-size: 1rem; line-height: 1.6; margin-bottom: 0.6rem; }
     .modal-close { position: absolute; top: 1rem; right: 1rem; font-size: 2rem; font-weight: bold; color: #999; cursor: pointer; transition: var(--trans); background: none; border: none; line-height: 1; }
     .modal-close:hover { color: #333; transform: scale(1.1); }
+    .modal-team { display: flex; justify-content: center; gap: 3rem; margin-top: 1.5rem; }
+    .modal-team-member { text-align: center; }
+    .modal-team-member img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid var(--green); }
+    .modal-team-member p { margin: 0.5rem 0 0; font-weight: 600; color: var(--text); }
+    .modal-team-member span { color: #666; font-size: 0.85rem; }
     
     /* Modal Links */
     .modal-link { display: flex; align-items: center; gap: 0.5rem; color: var(--text); text-decoration: none; padding: 0.75rem; background: var(--light); border-radius: 8px; transition: var(--trans); }
@@ -275,9 +283,22 @@ include('partials/header.php');
     <div class="modal-content">
         <button class="modal-close" aria-label="Close">&times;</button>
         <h2>Welcome to Park Community School</h2>
-        <p>At Park Community School, we believe in nurturing the whole student. Our dedicated staff work tirelessly to create an environment where every young person can thrive academically, socially, and emotionally.</p>
-        <p>We are proud of our inclusive community where diversity is celebrated, and every student is encouraged to achieve their full potential. Our comprehensive curriculum, combined with extensive extra-curricular opportunities, ensures that students develop the skills and confidence they need for future success.</p>
-        <p><strong>Mr C Anders</strong><br>Headteacher</p>
+        <p>Our school provides an expansive park environment. Through a wide variety of lessons and other opportunities to learn, we encourage our young people to discover what they love. As well as the school site, we have several other facilities to provide a great curriculum and exciting places in which to learn. We think there are a number of important areas of learning while at school and describe these as attainment, resilience and autonomy; exams and qualifications matter in life along with the ability to cope with adversity, getting up when life knocks us down, as well as becoming independent and able to make good choices.</p>
+        <p>Over the last decade we have planned and constructed our new buildings. The fantastic facilities support students' learning and enrich their time in school.</p>
+        <p>We have a wonderful theatre, lecture theatre, restaurant, and outdoor areas, including a floodlit STP (synthetic turf pitch) as well as specialist classrooms for a wide range of subjects. Many areas are used by community groups, other organisations and even for children's parties outside school time. The Watering Hole restaurant serves award-winning school meals, prepared by our chefs and their catering team, all at affordable prices. Breakfast is available to all students for free each morning, thank you Magic Breakfast. Our classrooms include the latest large touch-screen technology. We have invested heavily in computers, laptops, iPads and software to allow students to use a comprehensive range of electronic devices to support their learning. Our learning bases away from the school site allow for the development of enterprise skills, teaching towards construction qualifications and finding out about plants and growing food on our small holding.</p>
+        <p>I hope that the information on this website gives you some idea of our vision and principles, as well as the facilities, and curriculum that we offer to students. It also includes the details of other activities and opportunities such as our print business, construction skills centre and tearoom. Munch and our pantry are initiatives for the wider community. School should be about finding what you love to do, because each of us is different that doesn't just happen in the classroom; academic learning alongside other activities and lessons helps us to be well-prepared to take the next steps in life. At Park we are proud to be Much More Than Just a School.</p>
+        <div class="modal-team">
+            <div class="modal-team-member">
+                <img src="images/slt/c-anders.jpg" alt="Christopher Anders">
+                <p>Christopher Anders</p>
+                <span>Headteacher</span>
+            </div>
+            <div class="modal-team-member">
+                <img src="images/slt/e-capaldi.jpg" alt="Ella Capaldi">
+                <p>Ella Capaldi</p>
+                <span>Head of School</span>
+            </div>
+        </div>
     </div>
 </div>
 

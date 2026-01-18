@@ -347,7 +347,7 @@ include('../partials/header.php');
                         <li>Extra-curricular opportunities</li>
                     </ul>
                     <div class="text-center">
-                        <a href="/assets/moving-up.pdf" target="_blank" class="button radius">Moving Up Guide</a>
+                        <a href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="button radius">Welcome to Park</a>
                     </div>
                 </div>
                 
