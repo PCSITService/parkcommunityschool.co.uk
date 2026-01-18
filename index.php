@@ -41,7 +41,7 @@ include('partials/header.php');
     /* Modal */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000; align-items: center; justify-content: center; }
     .modal-overlay.active { display: flex; }
-    .modal-content { background: #fff; border-radius: var(--radius); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); max-width: 1100px; width: 95%; max-height: 90vh; overflow-y: auto; padding: 2rem; position: relative; }
+    .modal-content { background: #fff; border-radius: var(--radius); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2); max-width: 1300px; width: 95%; max-height: 95vh; overflow-y: auto; padding: 1.5rem; position: relative; }
     .modal-content h2 { color: var(--text); border-bottom: 3px solid var(--green); padding-bottom: 0.5rem; margin-bottom: 0.5rem; font-size: 1.5rem; text-align: center; }
     .modal-content h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--text); }
     .modal-content h3::after { display: none; }
