@@ -145,7 +145,8 @@ include('partials/header.php');
     #meet-the-team .grid-container { position: relative; z-index: 2; }
     #meet-the-team h3 { color: #fff; }
     #meet-the-team h3::after { background: var(--green); }
-    .team-grid { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; }
+    .team-row { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem; }
+    .team-row:last-child { margin-bottom: 0; }
     .team-member-container { text-align: center; transition: var(--trans); }
     .team-member-container:hover { transform: translateY(-10px); }
     .team-member { border-radius: 50%; border: 4px solid var(--green); transition: var(--trans); width: 150px; height: 150px; object-fit: cover; }
@@ -160,6 +161,7 @@ include('partials/header.php');
         .hero-buttons .button.expand { width: 80%; }
         .button-row { flex-wrap: wrap; }
         .button-row .button { flex: 1 1 45%; font-size: 0.75rem; padding: 0.6rem 0.4rem; min-width: 0; }
+        .team-row { gap: 1.5rem; }
 
         .video-buttons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
         .video-buttons-grid a { max-width: none; }
@@ -289,12 +291,12 @@ include('partials/header.php');
         <p>I hope that the information on this website gives you some idea of our vision and principles, as well as the facilities, and curriculum that we offer to students. It also includes the details of other activities and opportunities such as our print business, construction skills centre and tearoom. Munch and our pantry are initiatives for the wider community. School should be about finding what you love to do, because each of us is different that doesn't just happen in the classroom; academic learning alongside other activities and lessons helps us to be well-prepared to take the next steps in life. At Park we are proud to be Much More Than Just a School.</p>
         <div class="modal-team">
             <div class="modal-team-member">
-                <img src="images/slt/c-anders.jpg" alt="Christopher Anders">
+                <img src="images/slt/c-anders.jpg" alt="Christopher Anders" class="team-member" style="object-position: top;">
                 <p>Christopher Anders</p>
                 <span>Headteacher</span>
             </div>
             <div class="modal-team-member">
-                <img src="images/slt/e-capaldi.jpg" alt="Ella Capaldi">
+                <img src="images/slt/e-capaldi.jpg" alt="Ella Capaldi" class="team-member" style="object-position: top;">
                 <p>Ella Capaldi</p>
                 <span>Head of School</span>
             </div>
@@ -558,18 +560,85 @@ include('partials/header.php');
 <section id="meet-the-team">
     <div class="grid-container">
         <h3>Meet The Team</h3>
-        <div class="team-grid">
+        
+        <!-- Row 1: 3 people (Leadership) -->
+        <div class="team-row">
             <div class="team-member-container">
-                <img src="images/slt/c-anders.jpg" alt="Mr C Anders" class="team-member">
+                <img src="images/slt/c-anders.jpg" alt="Mr C Anders" class="team-member" style="object-position: top;">
                 <p>Mr C Anders</p>
                 <p class="role">Headteacher</p>
             </div>
             <div class="team-member-container">
-                <img src="images/slt/e-capaldi.jpg" alt="Mrs E Capaldi" class="team-member">
+                <img src="images/slt/e-capaldi.jpg" alt="Mrs E Capaldi" class="team-member" style="object-position: top;">
                 <p>Mrs E Capaldi</p>
                 <p class="role">Head of School</p>
             </div>
+            <div class="team-member-container">
+                <img src="images/slt/j-bryce.jpg" alt="Mr J Bryce" class="team-member" style="object-position: top;">
+                <p>Mr J Bryce</p>
+                <p class="role">Deputy Head of School</p>
+                
+            </div>
         </div>
+        
+        <!-- Row 2: 5 people -->
+        <div class="team-row">
+            <div class="team-member-container">
+                <img src="images/slt/s-bannard.jpg" alt="Mrs S Bannard" class="team-member" style="object-position: top;">
+                <p>Mrs S Bannard</p>
+                <p class="role">Assistant Headteacher - DSL</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/b-bourton.jpg" alt="Mr B Bourton" class="team-member" style="object-position: top;">
+                <p>Mr B Bourton</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/l-cavanagh.jpg" alt="Mrs L Cavanagh" class="team-member" style="object-position: top;">
+                <p>Mrs L Cavanagh</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/s-cavanagh.jpg" alt="Mr S Cavanagh" class="team-member" style="object-position: top;">
+                <p>Mr S Cavanagh</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/l-conner.jpg" alt="Mrs L Conner" class="team-member" style="object-position: top;">
+                <p>Mrs L Conner</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+        </div>
+        
+        <!-- Row 3: 5 people -->
+        <div class="team-row">
+            <div class="team-member-container">
+                <img src="images/slt/e-harrison.jpg" alt="Mr E Harrison" class="team-member" style="object-position: top;">
+                <p>Mr E Harrison</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/e-leach.jpg" alt="Mrs E Leach" class="team-member" style="object-position: top;">
+                <p>Mrs E Leach</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/f-maskil.jpg" alt="Mrs F Maskill" class="team-member" style="object-position: top;">
+                <p>Mrs F Maskill</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/a-pearce.jpg" alt="Mrs A Pearce" class="team-member" style="object-position: top;">
+                <p>Mrs A Pearce</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/a-rose.jpg" alt="Mr A Rose" class="team-member" style="object-position: top;">
+                <p>Mr A Rose</p>
+                <p class="role">Assistant Headteacher</p>
+            </div>
+        </div>
+        
     </div>
 </section>
 
