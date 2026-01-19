@@ -227,19 +227,18 @@ include('../partials/header.php');
                 <table class="funding-table">
                     <tr>
                         <td>Pupil Premium</td>
-                        <td>£580,650</td>
+                        <td>£602,807</td>
                     </tr>
                     <tr>
                         <td>Service Children</td>
-                        <td>£2,040</td>
+                        <td>£2065</td>
                     </tr>
                     <tr>
                         <td>Post Looked After Children</td>
-                        <td>£5,140</td>
+                        <td>£5190</td>
                     </tr>
                 </table>
 
-                <p><strong>Grant Allocation:</strong> In 2024/2025 the school received £602,087.</p>
                 <p>The school spent £722,824 providing additional support for PP students. The Pupil Premium is grant funding and is in addition to the school's delegated budget. The school chooses to invest additional funding from its delegated budget to support Pupil Premium funding.</p>
                 <p>The Pupil Premium is allocated by calculating the number of students who are on Free School Meals (FSM) or have had FSM in the last six years. Students who have been in care continuously for more than six months or have a parent in the Armed Services also lead to some additional funding for the school.</p>
             </div>
