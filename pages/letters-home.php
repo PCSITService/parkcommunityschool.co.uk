@@ -151,6 +151,7 @@ include('../partials/header.php');
                 <ul>
                     <li><a href="/assets/letters/2026-01/Year 10 Parents evening 15.01.26.pdf" target="_blank">Year 10 Parents' Evening - Thursday 15th January</a></li>
                     <li><a href="/assets/letters/2026-01/Year 8 Parents evening 15.01.26.pdf" target="_blank">Year 8 Parents' Evening - Thursday 15th January</a></li>
+                    <li><a href="/assets/letters/2026-01/Park Newsletter 28 Jan.pdf" target="_blank">Park Newsletter - January 28th</a></li>
                 </ul>
             </div>
             
