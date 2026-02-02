@@ -141,17 +141,17 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>February 2026</h4>
                 <ul>
-                    <li><a href="/assets/letters/2026-02/Jelyll and Hyde Theatre Trip 11 February 2026.pdf" target="_blank">Year 9 Jekyll & Hyde Trip - 11th February</a></li>
                     <li><a href="/assets/letters/2026-02/Macbeth Theatre Trip for Year 9 and 10 10 February 20206 .pdf" target="_blank">Year 10 Macbeth Theatre Trip - 10th February</a></li>
+                    <li><a href="/assets/letters/2026-02/Jelyll and Hyde Theatre Trip 11 February 2026.pdf" target="_blank">Year 9 Jekyll & Hyde Trip - 11th February</a></li>
                 </ul>
             </div>
             <!-- January 2026 -->
             <div class="newsletter-item">
                 <h4>January 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-01/Park Newsletter 28 Jan.pdf" target="_blank">School Newsletter - Friday 28th 2026</a></li>
                     <li><a href="/assets/letters/2026-01/Year 10 Parents evening 15.01.26.pdf" target="_blank">Year 10 Parents' Evening - Thursday 15th January</a></li>
                     <li><a href="/assets/letters/2026-01/Year 8 Parents evening 15.01.26.pdf" target="_blank">Year 8 Parents' Evening - Thursday 15th January</a></li>
-                    <li><a href="/assets/letters/2026-01/Park Newsletter 28 Jan.pdf" target="_blank">School Newsletter - Friday 28th 2026</a></li>
                 </ul>
             </div>
             
@@ -159,7 +159,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>December 2025</h4>
                 <ul>
-                    <li><a href="/assets/letters/2025-12/Park Newsletter 19 Dec.pdf" target="_blank">Newsletter - 19th December 2025</a></li>
+                    <li><a href="/assets/letters/2025-12/Park Newsletter 19 Dec.pdf" target="_blank">School Newsletter - 19th December 2025</a></li>
                     <li><a href="/assets/letters/2025-12/End of Term letter - December 2025.pdf" target="_blank">End of Term Letter - December 2025</a></li>
                     <li><a href="/assets/letters/2025-12/Rich challenge 2 letter_.pdf" target="_blank">Year 7 Rich Challenge</a></li>
                     <li><a href="/assets/letters/2025-12/Additional Year 11 parents evening 02 12 24.pdf" target="_blank">Important Year 11 Parent and Carer Meeting</a></li>
