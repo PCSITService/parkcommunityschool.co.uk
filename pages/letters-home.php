@@ -137,6 +137,13 @@ include('../partials/header.php');
 <section class="content-section">
     <div class="grid-container">
         <div class="newsletter-list">
+            <!-- March 2026 -->
+            <div class="newsletter-item">
+                <h4>March 2026</h4>
+                <ul>
+                    <li><a href="/assets/letters/2026-02/Trip Letter PSC LitFest 2026 - Worlds Largest Reading Lesson.pdf" target="_blank">Year 7 Worlds Largest Reading Lesson - 5th March</a></li>
+                </ul>
+            </div>
             <!-- February 2026 -->
             <div class="newsletter-item">
                 <h4>February 2026</h4>
