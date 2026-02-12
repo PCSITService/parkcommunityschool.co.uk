@@ -38,10 +38,10 @@
           </a>
         </div>
         
-        <div class="logo-container">
+        <!--<div class="logo-container">
           <iframe src="https://registry.blockmarktech.com/certificates/e2f2188a-85ea-47b1-81d4-9d2256957b3b/widget/?tooltip_position=bottom_right&theme=transparent&hover=t" style="border:none;height:132px;width:132px;" title="Cyber Essentials Certificate"></iframe>
-        </div>
-        
+        </div> -->
+          
         <div class="logo-container">
           <a href="https://theflashonair.co.uk/" target="_blank" rel="noopener noreferrer">
             <img src="/images/logo/flash_radio.png" alt="The Flash Radio">
