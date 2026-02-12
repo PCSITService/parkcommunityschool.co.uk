@@ -284,6 +284,7 @@
                 <a href="javascript:void(0)">Learning</a>
                 <ul class="nav-dropdown">
                     <li><a href="/pages/curriculum.php">Curriculum</a></li>
+                    <li><a href="/pages/careers-guidance.php">Careers and Guidance</a></li>
                     <li><a href="/assets/curriculum/FWYL - April 2025.pdf" target="_blank">Extra-Curricular Clubs</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
