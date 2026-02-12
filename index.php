@@ -309,9 +309,20 @@ include('partials/header.php');
     <div class="modal-content">
         <button class="modal-close" aria-label="Close">&times;</button>
         <h2>Exam Information</h2>
-        
+      
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/Year 11 Candidate Handbook for Examinations 25-26  (Oct 25).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 11 Candidate Handbook
+                </a>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/2026 Summer Exam Timetable V6.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    2026 Summer Exam Timetable
+                </a>
+            </li>
             <li style="margin-bottom: 0.75rem;">
                 <a href="/assets/exam/academic-year-2025-2026/Year 11 Spring Mock Timetable Final.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
