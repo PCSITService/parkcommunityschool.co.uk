@@ -85,85 +85,121 @@ include('../partials/header.php');
         font-size: 1.1rem;
     }
     
-    .concepts-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+    .subjects-box {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-top: 4px solid #F58220;
         margin: 1.5rem 0 2rem;
     }
     
-    .concept-card {
+    .subjects-box h4 {
+        color: #F58220;
+        margin: 0 0 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .subjects-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .subjects-list li {
+        background: linear-gradient(135deg, #fff8f0, #fff);
+        border: 1px solid #F58220;
+        border-radius: 8px;
+        padding: 0.6rem 1.25rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #333;
+        margin: 0;
+    }
+    
+    .skills-box {
         background: white;
         border-radius: 12px;
-        padding: 1.5rem;
+        padding: 2rem;
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         border-top: 4px solid #F58220;
-        transition: all 0.3s ease;
+        margin: 1.5rem 0 2rem;
     }
     
-    .concept-card:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.12);
-    }
-    
-    .concept-card h4 {
+    .skills-box h4 {
         color: #F58220;
-        margin: 0 0 0.5rem;
-        font-size: 1.15rem;
+        margin: 0 0 1.25rem;
+        font-size: 1.25rem;
     }
     
-    .concept-card .lead-subjects {
-        font-style: italic;
-        color: #666;
-        font-size: 0.9rem;
-        margin-bottom: 0.75rem;
-    }
-    
-    .concept-card p {
+    .skills-box ul {
         margin: 0;
-        font-size: 0.95rem;
+        padding: 0 0 0 1.25rem;
     }
     
-    .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.25rem;
-        margin: 1.5rem 0;
-    }
-    
-    .skill-card {
-        background: #f8f9fa;
-        border-radius: 8px;
-        padding: 1.25rem;
-        border-left: 4px solid #F58220;
-    }
-    
-    .skill-card h5 {
-        color: #F58220;
-        margin: 0 0 0.5rem;
-        font-size: 1rem;
-        font-weight: 600;
-    }
-    
-    .skill-card p {
-        margin: 0;
-        font-size: 0.9rem;
-        color: #555;
+    .skills-box ul li {
+        margin-bottom: 0.6rem;
         line-height: 1.6;
+        font-size: 0.95rem;
+        color: #555;
     }
     
-    @media (max-width: 1024px) {
-        .skills-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
+    .skills-box ul li strong {
+        color: #333;
+    }
+    
+    .journey-section {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        margin: 1.5rem 0 2rem;
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-top: 4px solid #F58220;
+    }
+    
+    .journey-image {
+        flex: 1 1 55%;
+        min-width: 0;
+    }
+    
+    .journey-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .journey-text {
+        flex: 1 1 40%;
+        min-width: 0;
+    }
+    
+    .journey-text p {
+        font-size: 1rem;
+        line-height: 1.8;
+        color: #333;
+    }
+    
+    .journey-text p:last-child {
+        margin-bottom: 0;
     }
     
     @media (max-width: 768px) {
-        .concepts-grid,
-        .skills-grid {
-            grid-template-columns: 1fr;
+        .journey-section {
+            flex-direction: column;
+        }
+        
+        .journey-image,
+        .journey-text {
+            flex: 1 1 100%;
         }
     }
+    
 </style>
 
 
@@ -183,98 +219,76 @@ include('../partials/header.php');
                 <h3>STAR Curriculum</h3>
                 
                 <div class="intro-box">
-                    <p>Pupils spend 50% of their timetable in STAR.</p>
-                    <p>The STAR curriculum aims to deliver subjects in a connected way to promote the development of:</p>
-                    <ul>
-                        <li>Literacy across all subject areas</li>
-                        <li>High attainment and sustained progression</li>
-                        <li>The transfer of skills across all subjects</li>
-                        <li>Application of learning for real purpose and audience</li>
+                    <p><b>What is STAR?</b></p>
+                    <p>At Park, we want all students to be Great Learners who expect to think hard, engage with learning and find what they love to do.</p>
+                    <p>With this in mind, year 7 students begin life at Park studying the Star Curriculum.</p>
+                    <p>Our innovative approach to Year 7 curriculum design aims to ensure students have a smooth transition to secondary education whilst making excellent progress.</p>
+                    <p>We believe that for students to succeed they need to be:</p>
+
+                    <ul style="padding-left: 15px;">
+                        <li>Great Learners</li>
+                        <li>Independent Thinkers</li>
+                        <li>Effective Communicators</li>
+                        <li>Responsible Citizens</li>
+                        <li>Healthy Individuals</li>
                     </ul>
                 </div>
 
-                <p class="section-label">Main Topics Students Study</p>
-                <p>The curriculum is organised into half-termly concepts, used to drive the content and skills developed and also tied into a final Rich Challenge.</p>
+                <p class="section-label">Main Topics Students Study - How does it work?</p>
+                <p>Students are in 'Star' lessons for approximately 50% of their curriculum time in Year 7. Alongside their Star lessons, students will attend other discrete lessons so that they experience a broad curriculum and the transition to secondary school is scaffolded. The Star Curriculum includes the following:</p>
 
-                <div class="concepts-grid">
-                    <div class="concept-card">
-                        <h4>Explorers</h4>
-                        <p class="lead-subjects">Literacy, ICT, History and MFL lead subjects</p>
-                        <p>Pupils become explorers and investigate how we communicate with each other. Pupils focus on which periods of history have influenced society the most and communicate their learning using ICT software.</p>
-                    </div>
-
-                    <div class="concept-card">
-                        <h4>Identity</h4>
-                        <p class="lead-subjects">Geography, Literacy, Values lead subjects</p>
-                        <p>Pupils look at national, international and global communities focusing on difference and diversity.</p>
-                    </div>
-
-                    <div class="concept-card">
-                        <h4>Enterprise</h4>
-                        <p class="lead-subjects">Numeracy, ICT and Literacy lead subjects</p>
-                        <p>Pupils consider what makes a successful business, focusing on budgeting, marketing and teamwork. Pupils create their own business.</p>
-                    </div>
-
-                    <div class="concept-card">
-                        <h4>Culture and Arts</h4>
-                        <p class="lead-subjects">Literacy, History and Arts lead subjects</p>
-                        <p>Pupils explore their heritage in terms of the arts, looking at monarchy and influential figures such as Shakespeare. Pupils will develop their ability to critically analyse texts.</p>
-                    </div>
-
-                    <div class="concept-card">
-                        <h4>My World</h4>
-                        <p class="lead-subjects">Discrete subjects</p>
-                        <p>Pupils return to discrete subjects where they explore the world in which we live. Science and Us: pupils explore the world of science and ethics and its impact on the modern world.</p>
-                    </div>
+                <div class="subjects-box">
+                    <h4>Subjects Studied in STAR</h4>
+                    <ul class="subjects-list">
+                        <li>English</li>
+                        <li>History</li>
+                        <li>Geography</li>
+                        <li>RE</li>
+                        <li>Horticulture</li>
+                        <li>PE</li>
+                        <li>Drama</li>
+                    </ul>
                 </div>
 
                 <p class="section-label">Main Skills Students Develop</p>
 
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h5>Writing Basics</h5>
-                        <p>Paragraphs, punctuation, vocabulary, spelling, writing for audience and purpose.</p>
-                    </div>
+                <div class="skills-box">
+                    <p>The curriculum is designed to develop students' skills in each of these areas as well as being relevant and aspirational, encouraging depth of thinking and providing opportunities for students to apply their learning regularly to a real-life context.</p>
+                    <p><strong>The curriculum aims to:</strong></p>
+                    <ul>
+                        <li>Secure student progress by getting to know students quickly and embedding high expectations.</li>
+                        <li>Focus on transferable skills by underpinning all learning with Literacy and Oracy.</li>
+                        <li>Engage and challenge learners through enquiry-led learning where deep thinking is expected.</li>
+                        <li>Reduce the challenges which often surround transition.</li>
+                        <li>Expect learning to be applied to a relevant, real-life context so that it is memorable and serves a purpose.</li>
+                    </ul>
+                    <p>Our intention is that all students settle into life at Park quickly, developing positive professional relationships with staff which are built on high expectations and a thorough understanding of students' strengths and areas for development.</p>
+                </div>
 
-                    <div class="skill-card">
-                        <h5>Reading Basics</h5>
-                        <p>Skimming, scanning, selecting, summarising, synthesising, PEE paragraphs, strategies for developing as a successful reader.</p>
-                    </div>
+                <h3>Our Learning Journey</h3>
 
-                    <div class="skill-card">
-                        <h5>Oracy</h5>
-                        <p>Presentation skills, group discussion, speaking for audience and purpose, developing ideas.</p>
+                <div class="journey-section">
+                    <div class="journey-image">
+                        <img src="/images/star/star-learning-journey.jpg" alt="Star Curriculum 2025-2026 Our Learning Journey - showing the termly topics and rich challenges throughout Year 7">
                     </div>
+                    <div class="journey-text">
+                        <p>Each group has one or two Star teachers who deliver these subjects and, in most cases, one of these Star teachers is also the tutor for the group, allowing for strong relationships to be built.</p>
+                        <p>Curriculum design makes links across subject disciplines with lead subjects driving the learning each half term. Learning is enquiry led, driven by big questions that students work towards answering.</p>
+                    </div>
+                </div>
 
-                    <div class="skill-card">
-                        <h5>Numeracy</h5>
-                        <p>Number, scales, calculation, graphs, time, measuring.</p>
-                    </div>
+                <h3>Rich Challenges</h3>
 
-                    <div class="skill-card">
-                        <h5>Analysis</h5>
-                        <p>Identify, describe, explain evidence and justify views.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h5>Evaluation</h5>
-                        <p>Making judgements and supporting with evidence. Exploring strengths and weaknesses.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h5>Research and Enquiry</h5>
-                        <p>Asking questions to drive research, navigating texts, fact and opinion, searching for information in fiction and non-fiction texts.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h5>Leadership</h5>
-                        <p>Take on leadership roles in a range of contexts.</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h5>Production</h5>
-                        <p>Plan, draft and edit a finished piece to a high standard for a range of audiences and purposes.</p>
-                    </div>
+                <div class="skills-box">
+                    <p>Learning is always applied at the end of each unit to a 'Rich Challenge'- a task designed for students to show what they know to a real audience and purpose. Rich Challenges have included:</p>
+                    <ul>
+                        <li>An Oral Histories exhibition for Parents, Carers and members of the Community.</li>
+                        <li>Green in the Grey- making a positive change to an area of the environment.</li>
+                        <li>Pay it Forward- taking over elements of school life to make a positive difference and to show compassion for others.</li>
+                        <li>Election Campaign- creating a Manifesto for Change that is presented, voted on and pitched to School Leaders.</li>
+                        <li>A Year group adaptation of a Shakespeare play.</li>
+                        <li>A Legacy project- designed to pass on their experiences to Year 6 students.</li>
+                    </ul>
                 </div>
             </div>
         </div>
