@@ -78,6 +78,30 @@ include('../partials/header.php');
         margin-bottom: 0;
     }
     
+    .contact-box {
+        background: white;
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-top: 4px solid #F58220;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-box p {
+        margin-bottom: 0;
+        line-height: 1.8;
+    }
+    
+    .contact-box a {
+        color: #F58220;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .contact-box a:hover {
+        text-decoration: underline;
+    }
+    
     .section-label {
         font-weight: 600;
         color: #F58220;
@@ -127,7 +151,7 @@ include('../partials/header.php');
     .unifrog-section {
         display: flex;
         gap: 2rem;
-        align-items: stretch;
+        align-items: flex-start;
         margin: 1.5rem 0 2rem;
         background: white;
         border-radius: 12px;
@@ -136,8 +160,21 @@ include('../partials/header.php');
         border-top: 4px solid #F58220;
     }
     
+    .unifrog-logos {
+        flex: 0 0 220px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        align-items: center;
+    }
+    
+    .unifrog-logos img {
+        max-width: 100%;
+        height: auto;
+    }
+    
     .unifrog-info {
-        flex: 1 1 55%;
+        flex: 1 1 0%;
         min-width: 0;
     }
     
@@ -153,32 +190,19 @@ include('../partials/header.php');
         color: #333;
     }
     
-    .unifrog-info img {
-        max-width: 220px;
-        height: auto;
-        margin-top: 1rem;
-    }
-    
-    .unifrog-image {
-        flex: 1 1 40%;
-        min-width: 0;
-    }
-    
-    .unifrog-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-    
     @media (max-width: 768px) {
         .unifrog-section {
             flex-direction: column;
         }
         
-        .unifrog-info,
-        .unifrog-image {
+        .unifrog-logos {
             flex: 1 1 100%;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        .unifrog-logos img {
+            max-width: 180px;
         }
     }
     
@@ -243,12 +267,12 @@ include('../partials/header.php');
         EDITABLE HOVER COLOURS FOR COLLEGE BUTTONS
         ────────────────────────────────────────────── */
     :root {
-        --college-hover-1: #E63946;
-        --college-hover-2: #457B9D;
-        --college-hover-3: #2A9D8F;
-        --college-hover-4: #E9C46A;
-        --college-hover-5: #F4A261;
-        --college-hover-6: #264653;
+        --college-hover-1: #a5dd22a4;
+        --college-hover-2: #a5dd22a4;
+        --college-hover-3: #a5dd22a4;
+        --college-hover-4: #a5dd22a4;
+        --college-hover-5: #a5dd22a4;
+        --college-hover-6: #a5dd22a4;
     }
     
     .college-card {
@@ -256,6 +280,7 @@ include('../partials/header.php');
         flex-direction: column;
         align-items: center;
         background: #f5f7f8;
+        border: 2px solid transparent;
         border-radius: 12px;
         padding: 1.25rem;
         text-decoration: none;
@@ -303,23 +328,23 @@ include('../partials/header.php');
         transform: scale(1.05);
     }
     
-    .college-card:nth-child(6n+1):hover { background: var(--college-hover-1); }
-    .college-card:nth-child(6n+1):hover .college-card-label { color: #fff; }
+    .college-card:nth-child(6n+1):hover { border: 2px solid var(--college-hover-1); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+1):hover .college-card-label { color: var(--college-hover-1); }
     
-    .college-card:nth-child(6n+2):hover { background: var(--college-hover-2); }
-    .college-card:nth-child(6n+2):hover .college-card-label { color: #fff; }
+    .college-card:nth-child(6n+2):hover { border: 2px solid var(--college-hover-2); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+2):hover .college-card-label { color: var(--college-hover-2); }
     
-    .college-card:nth-child(6n+3):hover { background: var(--college-hover-3); }
-    .college-card:nth-child(6n+3):hover .college-card-label { color: #fff; }
+    .college-card:nth-child(6n+3):hover { border: 2px solid var(--college-hover-3); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+3):hover .college-card-label { color: var(--college-hover-3); }
     
-    .college-card:nth-child(6n+4):hover { background: var(--college-hover-4); }
-    .college-card:nth-child(6n+4):hover .college-card-label { color: #333; }
+    .college-card:nth-child(6n+4):hover { border: 2px solid var(--college-hover-4); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+4):hover .college-card-label { color: var(--college-hover-4); }
     
-    .college-card:nth-child(6n+5):hover { background: var(--college-hover-5); }
-    .college-card:nth-child(6n+5):hover .college-card-label { color: #fff; }
+    .college-card:nth-child(6n+5):hover { border: 2px solid var(--college-hover-5); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+5):hover .college-card-label { color: var(--college-hover-5); }
     
-    .college-card:nth-child(6n+6):hover { background: var(--college-hover-6); }
-    .college-card:nth-child(6n+6):hover .college-card-label { color: #fff; }
+    .college-card:nth-child(6n+6):hover { border: 2px solid var(--college-hover-6); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(6n+6):hover .college-card-label { color: var(--college-hover-6); }
     
     @media (max-width: 480px) {
         .colleges-grid {
@@ -393,20 +418,21 @@ include('../partials/header.php');
         EDITABLE HOVER COLOURS FOR EVENT CARDS
         ────────────────────────────────────────────── */
     :root {
-        --event-hover-1: #E63946;
-        --event-hover-2: #457B9D;
-        --event-hover-3: #2A9D8F;
-        --event-hover-4: #6A4C93;
-        --event-hover-5: #1982C4;
-        --event-hover-6: #FF595E;
-        --event-hover-7: #8AC926;
-        --event-hover-8: #F4A261;
+        --event-hover-1: #a5dd22a4;
+        --event-hover-2: #c92929;
+        --event-hover-3: #1932c0;
+        --event-hover-4: #db9a22;
+        --event-hover-5: #a5dd22a4;
+        --event-hover-6: #a5dd22a4;
+        --event-hover-7: #a5dd22a4;
+        --event-hover-8: #a5dd22a4;
     }
     
     .event-card {
         display: flex;
         flex-direction: column;
         background: #f5f7f8;
+        border: 2px solid transparent;
         border-radius: 12px;
         overflow: hidden;
         text-decoration: none;
@@ -534,7 +560,9 @@ include('../partials/header.php');
                         <li>Students applying to and being accepted onto a wide range of courses from A Levels to apprenticeships and T-Levels.</li>
                         <li>Increased aspirations and enthusiasm when discussing their life after school.</li>
                     </ul>
-                    
+                </div>
+
+                <div class="contact-box">
                     <p><b>For more information please contact:</b><br>
                     SLT Careers Lead: Miss L. Conner <a href="mailto:l.conner@pcs.hants.sch.uk">l.conner@pcs.hants.sch.uk</a><br>
                     Careers Administrator: Mrs C. Swann <a href="mailto:c.swann@pcs.hants.sch.uk">c.swann@pcs.hants.sch.uk</a></p>
@@ -565,16 +593,20 @@ include('../partials/header.php');
                 <h3>Unifrog</h3>
                 
                 <div class="unifrog-section">
-                    <div class="unifrog-info">
-                        <!-- REPLACE WITH UNIFROG INFO FROM ATTACHMENT -->
-                        <h4>Unifrog</h4>
-                        <p><!-- PASTE UNIFROG INFORMATION HERE --></p>
+                    <div class="unifrog-logos">
                         <!-- EDIT: Replace src with Unifrog logo from attachments -->
-                        <img src="\assets\careers-guidance\unifrog-logo.png" alt="Unifrog Logo">
+                        <img src="/assets/careers-guidance/unifrog-logo.png" alt="Unifrog Logo">
+                        <!-- ADD SECOND LOGO BELOW - uncomment and update src -->
+                        <img src="/assets/careers-guidance/unifrog-logo2.png" alt="Unifrog Logo 2">
                     </div>
-                    <div class="unifrog-image">
-                        <!-- EDIT: Replace src with Unifrog image from attachments -->
-                        <img src="\assets\careers-guidanceunifrog-screenshot.jpg" alt="Unifrog Platform">
+                    <div class="unifrog-info">
+                        <h4>Unifrog</h4>
+                        <p>As a school, we use Unifrog which is a univeral destinations platform and community that supports schools in delivering outstanding careers guidance to students.</p>
+                        <p>Unifrog proveides impartial and up-to-date information on the full range of post-6 and post-8 options, all in one place. Unifrog also provides students with the most comprehensive database of apprenticeshups across the country and at all qualification levels.</p>
+                        <p>Once students have explored their interests and compared the full range of pathways avaiable, unifrog provides the writing tools and guidance to help them draft applications including CVs and personalo statements.</p>
+                        <p>Every parent/carer can have their own login to Unifrog platform, where they can access tools and resources to support their childen to make informed decisions about the next steps.</p>
+                        <p>If you would like to create a parent account, please use the link below and the email the school have one record for you to create an account linked to your child.</p>
+                        <p><a href="https://www.unifrog.org/" target="_blank" rel="noopener">Unifrog - The universal destinations platform.</a></p>
                     </div>
                 </div>
 
@@ -595,42 +627,42 @@ include('../partials/header.php');
                         
                         <a href="https://www.hsdc.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/hsdc-logo.png" alt="HSDC">
+                                <!-- <img src="/images/careers/colleges/hsdc-logo.png" alt="HSDC"> -->
                             </div>
                             <span class="college-card-label">HSDC</span>
                         </a>
                         
                         <a href="https://www.fareham.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/fareham-college-logo.png" alt="Fareham College">
+                                <!-- <img src="/images/careers/colleges/fareham-college-logo.png" alt="Fareham College"> -->
                             </div>
                             <span class="college-card-label">Fareham College</span>
                         </a>
                         
                         <a href="https://www.highbury.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/highbury-logo.png" alt="Highbury College">
+                                <!-- <img src="/images/careers/colleges/highbury-logo.png" alt="Highbury College"> -->
                             </div>
                             <span class="college-card-label">Highbury College</span>
                         </a>
                         
                         <a href="https://www.sparsholt.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/sparsholt-logo.png" alt="Sparsholt College">
+                                <!-- <img src="/images/careers/colleges/sparsholt-logo.png" alt="Sparsholt College"> -->
                             </div>
                             <span class="college-card-label">Sparsholt College</span>
                         </a>
                         
                         <a href="https://www.brock.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/brock-logo.png" alt="Brockenhurst College">
+                                <!-- <img src="/images/careers/colleges/brock-logo.png" alt="Brockenhurst College"> -->
                             </div>
                             <span class="college-card-label">Brockenhurst College</span>
                         </a>
                         
                         <a href="https://www.portsmouth-college.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College">
+                                <!-- <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College"> -->
                             </div>
                             <span class="college-card-label">Portsmouth College</span>
                         </a>
@@ -674,56 +706,56 @@ include('../partials/header.php');
                         
                         <a href="/assets/careers-guidance/BBC Careers Roadshow.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/bbc-careers-roadshow.jpg" alt="BBC Careers Roadshow">
+                                <!-- <img src="/images/careers/events/bbc-careers-roadshow.jpg" alt="BBC Careers Roadshow"> -->
                             </div>
                             <div class="event-card-title">BBC Careers Roadshow</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/Year 10 Interview Ready Day.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/year10-interview-ready.jpg" alt="Year 10 Interview Ready">
+                                <!-- <img src="/images/careers/events/year10-interview-ready.jpg" alt="Year 10 Interview Ready"> -->
                             </div>
                             <div class="event-card-title">Year 10 Interview Ready</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/Year 9 Super Careers.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/year9-super-careers.jpg" alt="Year 9 Super Careers">
+                                <!-- <img src="/images/careers/events/year9-super-careers.jpg" alt="Year 9 Super Careers"> -->
                             </div>
                             <div class="event-card-title">Year 9 Super Careers</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/Year 8 Air Ambulance.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/year8-air-ambulance.jpg" alt="Year 8 Air Ambulance">
+                                <!-- <img src="/images/careers/events/year8-air-ambulance.jpg" alt="Year 8 Air Ambulance"> -->
                             </div>
                             <div class="event-card-title">Year 8 Air Ambulance</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/National Apprenticeship 2026.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/national-apprenticeship-week.jpg" alt="National Apprenticeship Week 2026">
+                                <!-- <img src="/images/careers/events/national-apprenticeship-week.jpg" alt="National Apprenticeship Week 2026"> -->
                             </div>
                             <div class="event-card-title">National Apprenticeship Week 2026</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/Speaker for Schools.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/speakers-for-schools.jpg" alt="Speakers for Schools">
+                                <!-- <img src="/images/careers/events/speakers-for-schools.jpg" alt="Speakers for Schools"> -->
                             </div>
                             <div class="event-card-title">Speakers for Schools</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/Where are they now.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/where-are-they-now.jpg" alt="Where Are They Now?">
+                                <!-- <img src="/images/careers/events/where-are-they-now.jpg" alt="Where Are They Now?"> -->
                             </div>
                             <div class="event-card-title">Where Are They Now?</div>
                         </a>
                         
                         <a href="https://forms.gle/pY2i7AmPj3bG41i88" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <img src="/images/careers/events/alumni.jpg" alt="Alumni">
+                                <!-- <img src="/images/careers/events/alumni.jpg" alt="Alumni"> -->
                             </div>
                             <div class="event-card-title">Alumni</div>
                         </a>
