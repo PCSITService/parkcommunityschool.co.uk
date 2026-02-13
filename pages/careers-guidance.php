@@ -450,9 +450,9 @@ include('../partials/header.php');
         --event-bg-8: #a5dd22a4;
         /* Hover colours for event cards */
         --event-hover-1: #a5dd22a4;
-        --event-hover-2: #c92929;
-        --event-hover-3: #1932c0;
-        --event-hover-4: #db9a22;
+        --event-hover-2: #c92929a4;
+        --event-hover-3: #1932c0a4;
+        --event-hover-4: #db9a22a4;
         --event-hover-5: #a5dd22a4;
         --event-hover-6: #a5dd22a4;
         --event-hover-7: #a5dd22a4;
@@ -672,39 +672,46 @@ include('../partials/header.php');
                             <span class="college-card-label">HSDC</span>
                         </a>
                         
-                        <a href="https://www.fareham.ac.uk/" target="_blank" rel="noopener" class="college-card">
+                        <a href="https://www.chichester.ac.uk/study-with-us/apprenticeships/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
                                 <!-- <img src="/images/careers/colleges/fareham-college-logo.png" alt="Fareham College"> -->
                             </div>
-                            <span class="college-card-label">Fareham College</span>
+                            <span class="college-card-label">Chichester College</span>
                         </a>
                         
-                        <a href="https://www.highbury.ac.uk/" target="_blank" rel="noopener" class="college-card">
+                        <a href="https://shcg.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
                                 <!-- <img src="/images/careers/colleges/highbury-logo.png" alt="Highbury College"> -->
                             </div>
-                            <span class="college-card-label">Highbury College</span>
+                            <span class="college-card-label">SHCG</span>
+                        </a>
+                        
+                        <a href="https://www.city-of-portsmouth-college.ac.uk/" target="_blank" rel="noopener" class="college-card">
+                            <div class="college-card-image">
+                                <!-- <img src="/images/careers/colleges/sparsholt-logo.png" alt="Sparsholt College"> -->
+                            </div>
+                            <span class="college-card-label">COPC</span>
+                        </a>
+                        
+                        <a href="https://www.utcportsmouth.org/" target="_blank" rel="noopener" class="college-card">
+                            <div class="college-card-image">
+                                <!-- <img src="/images/careers/colleges/brock-logo.png" alt="Brockenhurst College"> -->
+                            </div>
+                            <span class="college-card-label">UTC</span>
                         </a>
                         
                         <a href="https://www.sparsholt.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <!-- <img src="/images/careers/colleges/sparsholt-logo.png" alt="Sparsholt College"> -->
+                                <!-- <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College"> -->
                             </div>
                             <span class="college-card-label">Sparsholt College</span>
                         </a>
-                        
-                        <a href="https://www.brock.ac.uk/" target="_blank" rel="noopener" class="college-card">
-                            <div class="college-card-image">
-                                <!-- <img src="/images/careers/colleges/brock-logo.png" alt="Brockenhurst College"> -->
-                            </div>
-                            <span class="college-card-label">Brockenhurst College</span>
-                        </a>
-                        
-                        <a href="https://www.portsmouth-college.ac.uk/" target="_blank" rel="noopener" class="college-card">
+
+                        <a href="https://www.oaklandscatholicschool.org/sixth-form/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
                                 <!-- <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College"> -->
                             </div>
-                            <span class="college-card-label">Portsmouth College</span>
+                            <span class="college-card-label">Oaklands sixth Form</span>
                         </a>
                         
                     </div>
