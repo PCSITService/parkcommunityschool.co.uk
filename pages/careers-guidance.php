@@ -110,6 +110,58 @@ include('../partials/header.php');
     }
     
     /* =============================================
+       SPEECH BUBBLE - Callout Box
+       ============================================= */
+    .speech-bubble {
+        position: relative;
+        background: #fff;
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        border-left: 4px solid #F58220;
+        margin: 1.5rem 0 2rem;
+    }
+    
+    .speech-bubble::before {
+        content: '';
+        position: absolute;
+        top: -16px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 16px solid #fff;
+        filter: drop-shadow(0 -2px 2px rgba(0,0,0,0.04));
+    }
+    
+    .speech-bubble h4 {
+        color: #F58220;
+        margin: 0 0 0.75rem;
+        font-size: 1.15rem;
+    }
+    
+    .speech-bubble p {
+        margin-bottom: 0.75rem;
+        line-height: 1.7;
+        color: #333;
+    }
+    
+    .speech-bubble p:last-child {
+        margin-bottom: 0;
+    }
+    
+    .speech-bubble a {
+        color: #F58220;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    .speech-bubble a:hover {
+        text-decoration: underline;
+    }
+    
+    /* =============================================
        ROADMAP + GATSBY BENCHMARKS
        ============================================= */
     .roadmap-box {
@@ -566,11 +618,6 @@ include('../partials/header.php');
             <div class="cell large-12">
                 <h3>Careers and Guidance</h3>
                 
-                <!-- ==========================================
-                     1. CEIAG TEXT (website words - not a link)
-                     TODO: Paste the CEIAG text from L.Conner's
-                     attached document here.
-                     ========================================== -->
                 <div class="intro-box">
                     <p><b>Careers Education, Information, Advice and Guidance – CEIAG</b></p>
                     
@@ -608,16 +655,11 @@ include('../partials/header.php');
                     Careers Administrator: Mrs C. Swann <a href="mailto:c.swann@pcs.hants.sch.uk">c.swann@pcs.hants.sch.uk</a></p>
                 </div>
 
-                <!-- ==========================================
-                     2. CAREERS ROADMAP + GATSBY BENCHMARKS
-                     ========================================== -->
                 <div class="roadmap-box">
                     <div class="roadmap-image">
-                        <!-- EDIT: Save the roadmap as a PNG/JPG and update the filename below -->
                         <img src="/assets/careers-guidance/careers-roadmap.png" alt="Careers Journey Roadmap">
                     </div>
                     <div class="roadmap-action">
-                        <!-- EDIT: Update href to your Gatsby Benchmarks document -->
                         <a href="/assets/careers-guidance/Gatsby Benchmarks.pdf" target="_blank" rel="noopener" class="link-button">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4zm-3 9h4v1.5h-4V13zm0 3h4v1.5h-4V16zm-2-3h1v1.5H8V13zm0 3h1v1.5H8V16z"/></svg>
                             View Gatsby Benchmarks
@@ -625,18 +667,11 @@ include('../partials/header.php');
                     </div>
                 </div>
 
-                <!-- ==========================================
-                     3. UNIFROG SECTION
-                     TODO: Get the Unifrog images and info text
-                     from L.Conner's attachments.
-                     ========================================== -->
                 <h3>Unifrog</h3>
                 
                 <div class="unifrog-section">
                     <div class="unifrog-logos">
-                        <!-- EDIT: Replace src with Unifrog logo from attachments -->
                         <img src="/assets/careers-guidance/unifrog-logo.png" alt="Unifrog Logo">
-                        <!-- ADD SECOND LOGO BELOW - uncomment and update src -->
                         <img src="/assets/careers-guidance/unifrog-logo2.png" alt="Unifrog Logo 2">
                     </div>
                     <div class="unifrog-info">
@@ -650,20 +685,20 @@ include('../partials/header.php');
                     </div>
                 </div>
 
-                <!-- ==========================================
-                     5. LOCAL COLLEGES
-                     TODO: Get the college logo images from
-                     L.Conner's attachments and save to:
-                     /images/careers/colleges/
-                     ========================================== -->
+                <!-- CALLING LOCAL EMPLOYERS - Speech Bubble -->
+                <div class="speech-bubble">
+                    <h4>Calling local employers:</h4>
+                    <p>If you could support with visits, talks or even offer a work experience placement. Please get in touch using the emails above.</p>
+                    <p>For work experience, please use the link to express your interest in offering a placement to our year 10 students.<br>
+                    <a href="https://forms.gle/axyKPvV1m8phuWkA7" target="_blank" rel="noopener">https://forms.gle/axyKPvV1m8phuWkA7</a></p>
+                </div>
+
                 <h3>Local Colleges</h3>
                 
                 <div class="colleges-box">
                     <h4>Explore Local Colleges &amp; Providers</h4>
                     
                     <div class="colleges-grid">
-                        
-                        <!-- EDIT: Update logos and hrefs from the attachment -->
                         
                         <a href="https://www.hsdc.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
@@ -717,39 +752,24 @@ include('../partials/header.php');
                     </div>
                 </div>
 
-                <!-- ==========================================
-                     5b. HAMPSHIRE COLLEGE OPEN EVENTS 25-26
-                     TODO: Get the PDF from L.Conner's
-                     attachments and save to:
-                     /documents/careers/hampshire-open-events-25-26.pdf
-                     ========================================== -->
                 <h3>Hampshire College Open Events</h3>
                 
                 <div class="open-events-box">
                     <div class="open-events-info">
                         <h4>Hampshire College Open Events 25-26</h4>
                     </div>
-                    <!-- EDIT: Update href to the attached PDF -->
                     <a href="/assets/careers-guidance/Hampshire college open events.pdf" target="_blank" rel="noopener" class="link-button">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4zm-3 9h4v1.5h-4V13zm0 3h4v1.5h-4V16zm-2-3h1v1.5H8V13zm0 3h1v1.5H8V16z"/></svg>
                         View Open Events PDF
                     </a>
                 </div>
 
-                <!-- ==========================================
-                     7. RECENT CAREERS EVENTS
-                     TODO: Get the document/file for each event
-                     from L.Conner's attachments and save to:
-                     /documents/careers/events/
-                     ========================================== -->
                 <h3>Recent Careers Events</h3>
                 
                 <div class="events-box">
                     <h4>See What We've Been Up To</h4>
                     
                     <div class="events-grid">
-                        
-                        <!-- EDIT: Update href for each card to the attached documents -->
                         
                         <a href="/assets/careers-guidance/BBC Careers Roadshow.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
