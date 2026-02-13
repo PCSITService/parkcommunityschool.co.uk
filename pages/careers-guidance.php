@@ -264,25 +264,34 @@ include('../partials/header.php');
     }
     
     /*  ──────────────────────────────────────────────
-        EDITABLE HOVER COLOURS FOR COLLEGE BUTTONS
+        EDITABLE COLOURS FOR COLLEGE CARDS
         ────────────────────────────────────────────── */
     :root {
+        /* Background colours for college cards */
+        --college-bg-1: #e8ecef;
+        --college-bg-2: #e8ecef;
+        --college-bg-3: #e8ecef;
+        --college-bg-4: #e8ecef;
+        --college-bg-5: #e8ecef;
+        --college-bg-6: #e8ecef;
+        --college-bg-7: #e8ecef;
+        /* Hover colours for college cards */
         --college-hover-1: #a5dd22a4;
         --college-hover-2: #a5dd22a4;
         --college-hover-3: #a5dd22a4;
         --college-hover-4: #a5dd22a4;
         --college-hover-5: #a5dd22a4;
         --college-hover-6: #a5dd22a4;
+        --college-hover-7: #a5dd22a4;
     }
     
     .college-card {
         display: flex;
         flex-direction: column;
-        align-items: center;
         background: #f5f7f8;
         border: 2px solid transparent;
         border-radius: 12px;
-        padding: 1.25rem;
+        overflow: hidden;
         text-decoration: none;
         color: #333;
         transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -293,14 +302,13 @@ include('../partials/header.php');
     
     .college-card-image {
         width: 100%;
-        aspect-ratio: 1 / 1;
-        border-radius: 10px;
+        aspect-ratio: 4 / 3;
         overflow: hidden;
-        background: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0;
+        border-radius: 8px 8px 0 0;
     }
     
     .college-card-image img {
@@ -312,12 +320,22 @@ include('../partials/header.php');
     }
     
     .college-card-label {
+        padding: 0.75rem 1rem;
         font-weight: 600;
         font-size: 0.95rem;
         text-align: center;
         line-height: 1.3;
         transition: color 0.3s ease;
     }
+    
+    /* Individual card background colours */
+    .college-card:nth-child(7n+1) .college-card-image { background: var(--college-bg-1); }
+    .college-card:nth-child(7n+2) .college-card-image { background: var(--college-bg-2); }
+    .college-card:nth-child(7n+3) .college-card-image { background: var(--college-bg-3); }
+    .college-card:nth-child(7n+4) .college-card-image { background: var(--college-bg-4); }
+    .college-card:nth-child(7n+5) .college-card-image { background: var(--college-bg-5); }
+    .college-card:nth-child(7n+6) .college-card-image { background: var(--college-bg-6); }
+    .college-card:nth-child(7n+7) .college-card-image { background: var(--college-bg-7); }
     
     .college-card:hover {
         transform: translateY(-4px);
@@ -328,23 +346,26 @@ include('../partials/header.php');
         transform: scale(1.05);
     }
     
-    .college-card:nth-child(6n+1):hover { border: 2px solid var(--college-hover-1); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+1):hover .college-card-label { color: var(--college-hover-1); }
+    .college-card:nth-child(7n+1):hover { border: 2px solid var(--college-hover-1); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+1):hover .college-card-label { color: var(--college-hover-1); }
     
-    .college-card:nth-child(6n+2):hover { border: 2px solid var(--college-hover-2); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+2):hover .college-card-label { color: var(--college-hover-2); }
+    .college-card:nth-child(7n+2):hover { border: 2px solid var(--college-hover-2); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+2):hover .college-card-label { color: var(--college-hover-2); }
     
-    .college-card:nth-child(6n+3):hover { border: 2px solid var(--college-hover-3); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+3):hover .college-card-label { color: var(--college-hover-3); }
+    .college-card:nth-child(7n+3):hover { border: 2px solid var(--college-hover-3); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+3):hover .college-card-label { color: var(--college-hover-3); }
     
-    .college-card:nth-child(6n+4):hover { border: 2px solid var(--college-hover-4); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+4):hover .college-card-label { color: var(--college-hover-4); }
+    .college-card:nth-child(7n+4):hover { border: 2px solid var(--college-hover-4); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+4):hover .college-card-label { color: var(--college-hover-4); }
     
-    .college-card:nth-child(6n+5):hover { border: 2px solid var(--college-hover-5); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+5):hover .college-card-label { color: var(--college-hover-5); }
+    .college-card:nth-child(7n+5):hover { border: 2px solid var(--college-hover-5); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+5):hover .college-card-label { color: var(--college-hover-5); }
     
-    .college-card:nth-child(6n+6):hover { border: 2px solid var(--college-hover-6); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .college-card:nth-child(6n+6):hover .college-card-label { color: var(--college-hover-6); }
+    .college-card:nth-child(7n+6):hover { border: 2px solid var(--college-hover-6); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+6):hover .college-card-label { color: var(--college-hover-6); }
+    
+    .college-card:nth-child(7n+7):hover { border: 2px solid var(--college-hover-7); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+    .college-card:nth-child(7n+7):hover .college-card-label { color: var(--college-hover-7); }
     
     @media (max-width: 480px) {
         .colleges-grid {
@@ -415,9 +436,19 @@ include('../partials/header.php');
     }
     
     /*  ──────────────────────────────────────────────
-        EDITABLE HOVER COLOURS FOR EVENT CARDS
+        EDITABLE COLOURS FOR EVENT CARDS
         ────────────────────────────────────────────── */
     :root {
+        /* Background colours for event card image areas */
+        --event-bg-1: #a5dd22a4;
+        --event-bg-2: #c92929a4;
+        --event-bg-3: #1932c0a4;
+        --event-bg-4: #db9a22a4;
+        --event-bg-5: #a5dd22a4;
+        --event-bg-6: #a5dd22a4;
+        --event-bg-7: #a5dd22a4;
+        --event-bg-8: #a5dd22a4;
+        /* Hover colours for event cards */
         --event-hover-1: #a5dd22a4;
         --event-hover-2: #c92929;
         --event-hover-3: #1932c0;
@@ -447,11 +478,20 @@ include('../partials/header.php');
         width: 100%;
         aspect-ratio: 4 / 3;
         overflow: hidden;
-        background: #eee;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    
+    /* Individual event card background colours */
+    .event-card:nth-child(8n+1) .event-card-image { background: var(--event-bg-1); }
+    .event-card:nth-child(8n+2) .event-card-image { background: var(--event-bg-2); }
+    .event-card:nth-child(8n+3) .event-card-image { background: var(--event-bg-3); }
+    .event-card:nth-child(8n+4) .event-card-image { background: var(--event-bg-4); }
+    .event-card:nth-child(8n+5) .event-card-image { background: var(--event-bg-5); }
+    .event-card:nth-child(8n+6) .event-card-image { background: var(--event-bg-6); }
+    .event-card:nth-child(8n+7) .event-card-image { background: var(--event-bg-7); }
+    .event-card:nth-child(8n+8) .event-card-image { background: var(--event-bg-8); }
     
     .event-card-image img {
         width: 100%;
