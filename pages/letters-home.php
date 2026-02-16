@@ -141,13 +141,14 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>March 2026</h4>
                 <ul>
-                    <li><a href="/assets/letters/2026-02/Trip Letter PSC LitFest 2026 - Worlds Largest Reading Lesson.pdf" target="_blank">Year 7 Worlds Largest Reading Lesson - 5th March</a></li>
+                    <li><a href="/assets/letters/2026-03/Trip Letter PSC LitFest 2026 - Worlds Largest Reading Lesson.pdf" target="_blank">Year 7 Worlds Largest Reading Lesson - 5th March</a></li>
                 </ul>
             </div>
             <!-- February 2026 -->
             <div class="newsletter-item">
                 <h4>February 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-02/Final Decision Letter - Park.pdf" target="_blank">Final Decision Riders - 24th February</a></li>
                     <li><a href="/assets/letters/2026-02/Student Review letter.pdf" target="_blank">Student Review Day - 12th February</a></li>
                     <li><a href="/assets/letters/2026-02/Macbeth Theatre Trip for Year 9 and 10 10 February 20206 .pdf" target="_blank">Year 10 Macbeth Theatre Trip - 10th February</a></li>
                     <li><a href="/assets/letters/2026-02/Jelyll and Hyde Theatre Trip 11 February 2026.pdf" target="_blank">Year 9 Jekyll & Hyde Trip - 11th February</a></li>
