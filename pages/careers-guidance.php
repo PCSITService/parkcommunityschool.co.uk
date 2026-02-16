@@ -600,6 +600,127 @@ include('../partials/header.php');
         }
     }
     
+    /* =============================================
+       SPLIT EVENT CARDS (Year 10 & Year 9)
+       ============================================= */
+    .event-card-split {
+        display: flex;
+        flex-direction: column;
+        background: #f5f7f8;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 180px;
+        flex-shrink: 0;
+        gap: 0;
+    }
+    
+    .event-card-split .split-top,
+    .event-card-split .split-bottom {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        cursor: pointer;
+        border: 2px solid transparent;
+    }
+    
+    .event-card-split .split-top {
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .event-card-split .split-bottom {
+        border-radius: 0 0 12px 12px;
+        border-top: 1px solid #e0e0e0;
+    }
+    
+    .event-card-split .split-top .event-card-image {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .event-card-split .split-top .event-card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+    }
+    
+    .event-card-split .split-top .event-card-title,
+    .event-card-split .split-bottom .event-card-title {
+        padding: 0.75rem 1rem;
+        font-weight: 600;
+        font-size: 0.95rem;
+        line-height: 1.4;
+        text-align: center;
+        transition: color 0.3s ease;
+    }
+    
+    .event-card-split .split-bottom .event-card-title {
+        padding: 0.6rem 0.75rem;
+        font-size: 0.85rem;
+    }
+    
+    /* Split card - Red (Year 10) */
+    .event-card-split.split-red .split-top .event-card-image {
+        background: var(--event-bg-2);
+    }
+    
+    .event-card-split.split-red .split-top:hover {
+        border-color: var(--event-hover-2);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .event-card-split.split-red .split-top:hover .event-card-title {
+        color: var(--event-hover-2);
+    }
+    
+    .event-card-split.split-red .split-top:hover .event-card-image img {
+        transform: scale(1.05);
+    }
+    
+    .event-card-split.split-red .split-bottom:hover {
+        border-color: var(--event-hover-2);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        background: #fdf0f0;
+    }
+    
+    .event-card-split.split-red .split-bottom:hover .event-card-title {
+        color: var(--event-hover-2);
+    }
+    
+    /* Split card - Blue (Year 9) */
+    .event-card-split.split-blue .split-top .event-card-image {
+        background: var(--event-bg-3);
+    }
+    
+    .event-card-split.split-blue .split-top:hover {
+        border-color: var(--event-hover-3);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .event-card-split.split-blue .split-top:hover .event-card-title {
+        color: var(--event-hover-3);
+    }
+    
+    .event-card-split.split-blue .split-top:hover .event-card-image img {
+        transform: scale(1.05);
+    }
+    
+    .event-card-split.split-blue .split-bottom:hover {
+        border-color: var(--event-hover-3);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        background: #f0f0fd;
+    }
+    
+    .event-card-split.split-blue .split-bottom:hover .event-card-title {
+        color: var(--event-hover-3);
+    }
+    
 </style>
 
 
@@ -778,19 +899,31 @@ include('../partials/header.php');
                             <div class="event-card-title">BBC Careers Roadshow</div>
                         </a>
                         
-                        <a href="/assets/careers-guidance/Year 10 Interview Ready Day.pdf" class="event-card" target="_blank" rel="noopener">
-                            <div class="event-card-image">
-                                <!-- <img src="/images/careers/events/year10-interview-ready.jpg" alt="Year 10 Interview Ready"> -->
-                            </div>
-                            <div class="event-card-title">Year 10 Interview Ready</div>
-                        </a>
+                        <!-- SPLIT CARD: Year 10 Interview Ready + EBP Feedback -->
+                        <div class="event-card-split split-red">
+                            <a href="/assets/careers-guidance/Year 10 Interview Ready Day.pdf" class="split-top" target="_blank" rel="noopener">
+                                <div class="event-card-image">
+                                    <!-- <img src="/images/careers/events/year10-interview-ready.jpg" alt="Year 10 Interview Ready"> -->
+                                </div>
+                                <div class="event-card-title">Year 10 Interview Ready</div>
+                            </a>
+                            <a href="/assets/careers-guidance/EBP Interview Ready Day.pdf" class="split-bottom" target="_blank" rel="noopener">
+                                <div class="event-card-title">EBP Feedback</div>
+                            </a>
+                        </div>
                         
-                        <a href="/assets/careers-guidance/Year 9 Super Careers.pdf" class="event-card" target="_blank" rel="noopener">
-                            <div class="event-card-image">
-                                <!-- <img src="/images/careers/events/year9-super-careers.jpg" alt="Year 9 Super Careers"> -->
-                            </div>
-                            <div class="event-card-title">Year 9 Super Careers</div>
-                        </a>
+                        <!-- SPLIT CARD: Year 9 Super Careers + EBP Feedback -->
+                        <div class="event-card-split split-blue">
+                            <a href="/assets/careers-guidance/Year 9 Super Careers.pdf" class="split-top" target="_blank" rel="noopener">
+                                <div class="event-card-image">
+                                    <!-- <img src="/images/careers/events/year9-super-careers.jpg" alt="Year 9 Super Careers"> -->
+                                </div>
+                                <div class="event-card-title">Year 9 Super Careers</div>
+                            </a>
+                            <a href="/assets/careers-guidance/EBP Interview Ready Day.pdf" class="split-bottom" target="_blank" rel="noopener">
+                                <div class="event-card-title">EBP Feedback</div>
+                            </a>
+                        </div>
                         
                         <a href="/assets/careers-guidance/Year 8 Air Ambulance.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
