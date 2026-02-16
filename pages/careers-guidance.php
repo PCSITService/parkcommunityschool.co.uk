@@ -907,7 +907,7 @@ include('../partials/header.php');
                                 </div>
                                 <div class="event-card-title">Year 10 Interview Ready</div>
                             </a>
-                            <a href="/assets/careers-guidance/EBP Interview Ready Day.pdf" class="split-bottom" target="_blank" rel="noopener">
+                            <a href="/assets/careers-guidance/Park Community 0602 Interview Ready (IR).pdf" class="split-bottom" target="_blank" rel="noopener">
                                 <div class="event-card-title">EBP Feedback</div>
                             </a>
                         </div>
@@ -920,7 +920,7 @@ include('../partials/header.php');
                                 </div>
                                 <div class="event-card-title">Year 9 Super Careers</div>
                             </a>
-                            <a href="/assets/careers-guidance/EBP Interview Ready Day.pdf" class="split-bottom" target="_blank" rel="noopener">
+                            <a href="/assets/careers-guidance/Park 22102025 Careers Super Day.pdf" class="split-bottom" target="_blank" rel="noopener">
                                 <div class="event-card-title">EBP Feedback</div>
                             </a>
                         </div>
