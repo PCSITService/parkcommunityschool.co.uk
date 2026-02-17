@@ -348,7 +348,7 @@ include('../partials/header.php');
             <!-- Main Content Area -->
             <div class="main-content-area fade-in">
                 <div class="learners-image">
-                    <img src="../assets/curriculum/Great Learners 2026.png" alt="Great Learners at Park Community School">
+                    <img src="../assets/curriculum/great-learners-2026.png" alt="Great Learners at Park Community School">
                 </div>
 
                 <h3>Our Ambitious Curriculum</h3>
