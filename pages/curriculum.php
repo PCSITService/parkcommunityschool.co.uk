@@ -334,6 +334,24 @@ include('../partials/header.php');
             transform: translateY(0);
         }
     }
+
+    .subject-item-full {
+    background: var(--bg-light);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--learning-color);
+    transition: all 0.3s ease;
+    grid-column: 1 / -1;
+}
+
+.subject-item-full:hover {
+    background: #e8f4fd;
+    transform: translateX(5px);
+}
+
+.subject-item-full strong {
+    color: var(--learning-color);
+}
 </style>
 
 <!-- MAIN CONTENT -->
@@ -391,8 +409,7 @@ include('../partials/header.php');
                         </a>
                         <div id="year7" class="year-content">
                             <ul class="subject-list">
-                                <li class="subject-item"><strong>Core Subjects:</strong> English, Maths and Science</li>
-                                <li class="subject-item"><strong>Cultural:</strong> Geography, History, Religious Education, Spanish</li>
+                                <li class="subject-item-full"><strong>Core and Cultural:</strong><br>STAR: English, History, Geography, RE<br>Maths, Science, Spanish</li>
                                 <li class="subject-item"><strong>The Arts:</strong> Art, Dance, Drama, Music</li>
                                 <li class="subject-item"><strong>Physical Education:</strong> PE</li>
                                 <li class="subject-item"><strong>Design and Technology:</strong> Food and Design Technology</li>

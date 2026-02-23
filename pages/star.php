@@ -199,6 +199,71 @@ include('../partials/header.php');
             flex: 1 1 100%;
         }
     }
+
+    .intro-box {
+    background: linear-gradient(135deg, #fff8f0, #fff);
+    border-left: 4px solid #F58220;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.intro-text {
+    flex: 1 1 55%;
+    min-width: 0;
+}
+
+.intro-text p:last-child,
+.intro-text ul:last-child {
+    margin-bottom: 0;
+}
+
+.intro-image {
+    flex: 1 1 40%;
+    min-width: 0;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .intro-box {
+        flex-direction: column;
+    }
+    
+    .intro-text,
+    .intro-image {
+        flex: 1 1 100%;
+    }
+}
+
+.rich-challenges-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.rich-challenges-gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+    .rich-challenges-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
     
 </style>
 
@@ -218,21 +283,27 @@ include('../partials/header.php');
             <div class="cell large-12">
                 <h3>STAR Curriculum</h3>
                 
-                <div class="intro-box">
-                    <p><b>What is STAR?</b></p>
-                    <p>At Park, we want all students to be Great Learners who expect to think hard, engage with learning and find what they love to do.</p>
-                    <p>With this in mind, year 7 students begin life at Park studying the Star Curriculum.</p>
-                    <p>Our innovative approach to Year 7 curriculum design aims to ensure students have a smooth transition to secondary education whilst making excellent progress.</p>
-                    <p>We believe that for students to succeed they need to be:</p>
+<div class="intro-box">
+    <div class="intro-text">
+        <p><b>What is STAR?</b></p>
+        <p>At Park, we want all students to be Great Learners who expect to think hard, engage with learning and find what they love to do.</p>
+        <p>With this in mind, year 7 students begin life at Park studying the Star Curriculum.</p>
+        <p>Our innovative approach to Year 7 curriculum design aims to ensure students have a smooth transition to secondary education whilst making excellent progress.</p>
+        <p>The Star Curriculum is a transdisciplinary approach where students study English, History, Geography and RE in an integrated way, securing skills across disciplines and applying their learning to a real audience and purpose.</p>
+        <p>We believe that for students to succeed they need to be:</p>
 
-                    <ul style="padding-left: 15px;">
-                        <li>Great Learners</li>
-                        <li>Independent Thinkers</li>
-                        <li>Effective Communicators</li>
-                        <li>Responsible Citizens</li>
-                        <li>Healthy Individuals</li>
-                    </ul>
-                </div>
+        <ul style="padding-left: 15px;">
+            <li>Great Learners</li>
+            <li>Independent Thinkers</li>
+            <li>Effective Communicators</li>
+            <li>Responsible Citizens</li>
+            <li>Healthy Individuals</li>
+        </ul>
+    </div>
+    <div class="intro-image">
+        <img src="/images/star/Park Basics-The Star_page.jpg" alt="STAR Curriculum">
+    </div>
+</div>
 
                 <p class="section-label">Main Topics Students Study - How does it work?</p>
                 <p>Students are in 'Star' lessons for approximately 50% of their curriculum time in Year 7. Alongside their Star lessons, students will attend other discrete lessons so that they experience a broad curriculum and the transition to secondary school is scaffolded. The Star Curriculum includes the following:</p>
@@ -281,14 +352,22 @@ include('../partials/header.php');
 
                 <div class="skills-box">
                     <p>Learning is always applied at the end of each unit to a 'Rich Challenge'- a task designed for students to show what they know to a real audience and purpose. Rich Challenges have included:</p>
-                    <ul>
+                        <ul>
                         <li>An Oral Histories exhibition for Parents, Carers and members of the Community.</li>
                         <li>Green in the Grey- making a positive change to an area of the environment.</li>
                         <li>Pay it Forward- taking over elements of school life to make a positive difference and to show compassion for others.</li>
                         <li>Election Campaign- creating a Manifesto for Change that is presented, voted on and pitched to School Leaders.</li>
                         <li>A Year group adaptation of a Shakespeare play.</li>
                         <li>A Legacy project- designed to pass on their experiences to Year 6 students.</li>
-                    </ul>
+                        </ul>
+                    <div class="rich-challenges-gallery">
+                        <img src="/images/star/Picture3.png" alt="Rich Challenge 1">
+                        <img src="/images/star/Picture2.png" alt="Rich Challenge 2">
+                        <img src="/images/star/Picture1.png" alt="Rich Challenge 3">
+                        <img src="/images/star/Picture4.png" alt="Rich Challenge 4">
+                        <img src="/images/star/Picture5.png" alt="Rich Challenge 5">
+                        <img src="/images/star/Picture6.png" alt="Rich Challenge 6">
+                    </div>
                 </div>
             </div>
         </div>
