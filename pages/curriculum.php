@@ -67,12 +67,13 @@ include('../partials/header.php');
         margin-bottom: 3rem;
     }
 
-    .learners-image img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 15px;
-        box-shadow: var(--shadow);
-    }
+.learners-image img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
 
     /* Content Typography */
     .main-content-area h3 {
