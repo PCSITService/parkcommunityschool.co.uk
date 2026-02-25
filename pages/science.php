@@ -212,7 +212,7 @@ include('../partials/header.php');
                 <h3>Intent</h3>
                 <p>In science, we deliver an ambitious and broad curriculum that caters for all learners. During Key Stage 3 in science, we want our students to be curious about the world around them and be confident to ask questions and investigate a range of possibilities.</p>
                 
-                <p>Our curriculum is designed to be sequential, building upon the learning in Key Stage 2 and enabling students to develop the necessary skills when working as a scientist. Vocabulary is very important in science, and we develop the amount of science-specific words learnt by students and ensure these are practised both orally and in written work.</p>
+                <p>Our curriculum is designed to be sequential, building upon the learning in Key Stage 2 and enabling students to develop the necessary skills when working as a scientist. Vocabulary is very important in science, and we develop the number of science-specific words learnt by students and ensure these are practised both orally and in written work.</p>
                 
                 <p>Once at Key Stage 4, we build upon the key skills and knowledge learnt in Key Stage 3 and continue to master these and apply them to a range of ideas and contexts.</p>
 
@@ -221,7 +221,7 @@ include('../partials/header.php');
                 
                 <p>We provide opportunities for students to prepare, practise and perform, enabling them to become great learners.</p>
                 
-                <p>For Key Stage 4, we have a centralised scheme of work designed to ensure the AQA specification is covered from grades 1–9.</p>
+                <p>For Key Stage 4, we have a centralised scheme of work designed to ensure the AQA specification is covered from grades 1–9. All pupils are entered for combined science, unless they opt for triple science. </p>
                 
                 <p>We improve and master the working scientifically skills built upon in Key Stage 3, while covering the required practical elements of the course.</p>
                 
@@ -232,14 +232,14 @@ include('../partials/header.php');
                 <h3>Impact</h3>
                 <p>During Key Stage 3, we want students who are ready for Key Stage 4 with necessary skills and knowledge to build upon and are 'GCSE ready'.</p>
                 
-                <p>Students have high aspirations and enjoyment of science when leaving Key Stage 3 and students can achieve age-related expectations (ARE) or above and are fully prepared for their GCSE.</p>
+                <p>Students have high aspirations and enjoyment of science when leaving Key Stage 3 and we have seen increasing percentages of 5+ and 7+ grades over the past three years.</p>
                 
                 <p>Once in Key Stage 4, our aim is to increase the number of students going on to study a science subject at higher education and to ensure students leave with the ability to question the changing world around them.</p>
 
                 <div class="button-row">
-                    <a href="../assets/curriculum/science/curriculum_map_KS3.pdf" target="_blank" class="button">Curriculum Map KS3</a>
-                    <a href="../assets/curriculum/science/curriculum_map_KS4.pdf" target="_blank" class="button">Curriculum Map KS4</a>
-                    <a href="../assets/curriculum/science/science-handbook.pdf" target="_blank" class="button">Handbook</a>
+                    <a href="../assets/curriculum/science/KS3_Curriculum Route.pdf" target="_blank" class="button">Curriculum Map KS3</a>
+                    <a href="../assets/curriculum/science/KS4_Curriculum Route.pdf" target="_blank" class="button">Curriculum Map KS4</a>
+                    <a href="../assets/curriculum/science/Science Handbook.pdf" target="_blank" class="button">Handbook</a>
                 </div>
 
                 <h3>Subject Content</h3>
