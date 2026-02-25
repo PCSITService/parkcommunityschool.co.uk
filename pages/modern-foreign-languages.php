@@ -208,27 +208,20 @@ include('../partials/header.php');
                     <li>To develop pupils' understanding of themselves, their own language and culture.</li>
                     <li>To promote learning skills pupils will be able to use in other areas of their studies – analysis, logic, memory, reading skills…</li>
                     <li>To support literacy objectives in English.</li>
-                    <li>Develop pupils who:
-                        <ul>
-                            <li>become more confident, showing a greater willingness to persevere.</li>
-                            <li>work independently towards a self-determined goal.</li>
-                            <li>are excited by the opportunity of continuing with a foreign language into KS4 for a recognised, accredited qualification and who strive to achieve higher results.</li>
-                        </ul>
-                    </li>
                 </ul>
                 
                 <h3>Implementation</h3>
                 
                 <div class="button-group text-center">
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/year7-mfl.pdf" class="button">Year 7 Learning Journey</a>  
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/year8-mfl.pdf" class="button">Year 8 Learning Journey</a> 
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/year9-mfl.pdf" class="button">Year 9 Learning Journey</a>  
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/year10-mfl.pdf" class="button">Year 10 Learning Journey</a>                      
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/year11-mfl.pdf" class="button">Year 11 Learning Journey</a>                      
+                    <a role="button" target="_blank" href="../assets/curriculum/mfl/Year7_LearningJourney25.pdf" class="button">Year 7 Learning Journey</a>  
+                    <a role="button" target="_blank" href="../assets/curriculum/mfl/Year8_LearningJourney25.pdf" class="button">Year 8 Learning Journey</a> 
+                    <a role="button" target="_blank" href="../assets/curriculum/mfl/Year9_LearningJourney25.pdf" class="button">Year 9 Learning Journey</a>  
+                    <a role="button" target="_blank" href="../assets/curriculum/mfl/Year10_LearningJourney25.pdf" class="button">Year 10 Learning Journey</a>                      
+                    <a role="button" target="_blank" href="../assets/curriculum/mfl/Year11_LearningJourney25.pdf" class="button">Year 11 Learning Journey</a>                      
                 </div>
                 
                 <div class="button-group text-center">
-                    <a role="button" target="_blank" href="../assets/curriculum/mfl/aqa-gcse-resources.pdf" class="button">AQA GCSE Resources - GCSE 2025</a>
+                    <!-- <a role="button" target="_blank" href="../assets/curriculum/mfl/aqa-gcse-resources.pdf" class="button">AQA GCSE Resources - GCSE 2025</a> -->
                     <a role="button" target="_blank" href="../assets/curriculum/mfl/ks3-assessment-draft-proforma-mfl.pdf" class="button">KS3 Assessment Criteria</a>
                 </div>
 
@@ -239,23 +232,26 @@ include('../partials/header.php');
                 <div class="opportunities-box">
                     <h4>Additional Opportunities</h4>
                     <ul>
-                        <li>Language Ambassadors (all years) with Miss Nuttall in C10 every Monday after school.</li>
+                        <li>Language Ambassadors (all years) in C10 on Monday 3-4pm.</li>
                         <li>Christmas activities (all years).</li>
-                        <li>Period 6 sessions (GCSE).</li>
-                        <li>Italian and Portuguese club (all years) with Miss Torquete in C07 every Thursday after school.</li>
-                        <li>Reward/Revision college &amp; university trips (all years).</li>
-                        <li>French club (KS4) with Miss Dermy in C06 every Thursday after school.</li>
+                        <li>Period 6 booster sessions (KS4)</li>
+                        <li>Languages and careers trips and talks</li>
+                        <li>Visits to local primary schools for language ambassadors</li>
+                        <li>Spanish cinema clubs on the last Thursday of every month (all years)</li>
+                        <li>Cultural activities in lessons, after school and in the local area (all years)</li>
+                        <li>Speaking support in lessons and in booster sessions (KS4)</li>
+                        <li>Barcelona trip (KS4)</li>
                     </ul>
                 </div>
 
                 <div class="links-section">
                     <h3>Useful Links</h3>
                     
-                    <p>Exam Board for GCSE 2024 and 2025</p>
+                   <!-- <p>Exam Board for GCSE 2024 and 2025</p>
                     <ul>
                         <li><a target="_blank" href="https://www.aqa.org.uk/subjects/languages/gcse/spanish-8698">AQA Spanish GCSE</a></li>
                         <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/aqa-subject-content.pdf">AQA Spanish Subject Content</a></li>
-                    </ul>
+                    </ul> -->
 
                     <p>Exam Board from GCSE 2026</p>
                     <ul>
@@ -266,7 +262,8 @@ include('../partials/header.php');
                     <ul>
                         <li><a target="_blank" href="https://pcshantssch.sharepoint.com/sites/mfl">Student Area - MFL</a></li>
                         <li><a target="_blank" href="https://senecalearning.com/en-GB/">Seneca Learning</a></li>
-                        <li><a target="_blank" href="https://www.memrise.com/">Memrise</a></li>
+                        <li><a target="_blank" href="https://community-courses.memrise.com/">Memrise</a></li>
+                        <li><a target="_blank" href="https://www.bbc.co.uk/bitesize/examspecs/zwbhb7h">BBC Bitesize</a></li>
                         <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/pearson-revision.pdf">Pearson Revision Book Sample (full books available to buy from school)</a></li>
                         <li><a target="_blank" href="https://www.pcs.hants.sch.uk/assets/curriculum/mfl/pearson-workbook.pdf">Pearson Workbook Sample (full books available to buy from school)</a></li>
                     </ul>
