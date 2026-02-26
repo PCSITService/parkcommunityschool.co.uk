@@ -267,7 +267,7 @@ include('partials/header.php');
                     <div class="button-row">
                         <a class="button warning" href="https://forms.gle/pY2i7AmPj3bG41i88" target="_blank">Alumni</a>
                         <a class="button warning" href="pages/ofsted-reports.php">Ofsted Reports 2022</a>
-                        <a class="button warning" href="#" id="openTransitionModal">Year 7 Transition</a>
+                        <a class="button warning" href="#" id="openTransitionModal">Year 6 Transition</a>
                     </div>
                     <div class="button-row">
                         <a class="button success" href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank">Welcome to Park</a>
