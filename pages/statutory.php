@@ -204,7 +204,7 @@ include('../partials/header.php');
                         <li data-policy="financial benchmarking budget spending"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
                         <li data-policy="governors allowances"><a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link">Governors' Allowances</a></li>
                         <li data-policy="key stage 4 results ks4 gcse exam results"><a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link">Key Stage 4 Results</a></li>
-                        <li data-policy="leaver destinations"><a href="/assets/statutory/leaver-destinations.pdf" target="_blank" class="policy-link">Leaver Destinations</a></li>
+                        <li data-policy="leaver destinations"><a href="/assets/statutory/Leavers Destination 2025 Website.pdf" target="_blank" class="policy-link">Leaver Destinations</a></li>
                         <li data-policy="ofsted reports inspection"><a href="/pages/ofsted-reports.php" class="policy-link">Ofsted Reports</a></li>
                         <li data-policy="performance tables results"><a href="https://www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                         <li data-policy="pupil premium disadvantaged funding"><a href="/pages/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
