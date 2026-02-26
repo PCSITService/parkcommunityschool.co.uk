@@ -371,18 +371,26 @@ include('partials/header.php');
 <div class="modal-overlay" id="transitionModal">
     <div class="modal-content">
         <button class="modal-close" aria-label="Close">&times;</button>
-        <h2>Year 7 Transition</h2>
+        <h2>Year 6 Transition</h2>
         <p style="color: var(--text); margin-bottom: 1.5rem;">Welcome to Park Community School! Below you'll find important information to help you prepare for joining us.</p>
+
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/transition/Transition 2026 - letter 1 - March 2026.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 6 Transition 2026
+                </a>
+            </li>        
         
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="modal-link">
+                <a href="/assets/transition/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Welcome to Park 2025 (All Students)
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/Welcome%20to%20Park%202025%20(Year%207).pdf" target="_blank" class="modal-link">
+                <a href="/assets/transition/Welcome%20to%20Park%202025%20(Year%207).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Welcome to Park 2025 (Year 7)
                 </a>
