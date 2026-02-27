@@ -196,7 +196,7 @@ include('../partials/header.php');
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                         <li data-policy="charging and remissions fees payments"><a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
                         <li data-policy="child protection safeguarding"><a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
-                        <li data-policy="complaints procedure"><a href="/assets/policies/complaints.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
+                        <li data-policy="complaints procedure"><a href="/assets/policies/Complaints Policy and Procedure - December 2025.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
                         <li data-policy="curriculum subjects"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                         <li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li>
                         <li data-policy="equality statement objectives diversity"><a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
