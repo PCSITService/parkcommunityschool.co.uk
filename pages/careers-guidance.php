@@ -830,6 +830,7 @@ include('../partials/header.php');
                         
                         <a href="https://www.chichester.ac.uk/study-with-us/apprenticeships/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
+                                <b><p>CHICHESTER</p></b>
                                 <!-- <img src="/images/careers/colleges/fareham-college-logo.png" alt="Fareham College"> -->
                             </div>
                             <span class="college-card-label">Chichester College</span>
@@ -851,6 +852,7 @@ include('../partials/header.php');
                         
                         <a href="https://www.utcportsmouth.org/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
+                                <b><p>UTC</p></b>
                                 <!-- <img src="/images/careers/colleges/brock-logo.png" alt="Brockenhurst College"> -->
                             </div>
                             <span class="college-card-label">UTC</span>
@@ -858,6 +860,7 @@ include('../partials/header.php');
                         
                         <a href="https://www.sparsholt.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
+                                <b><p>SPARSHOLTS</p></b>
                                 <!-- <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College"> -->
                             </div>
                             <span class="college-card-label">Sparsholt College</span>
@@ -865,6 +868,7 @@ include('../partials/header.php');
 
                         <a href="https://www.oaklandscatholicschool.org/sixth-form/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
+                                <b><p>OAKLANDS</p></b>
                                 <!-- <img src="/images/careers/colleges/portsmouth-logo.png" alt="Portsmouth College"> -->
                             </div>
                             <span class="college-card-label">Oaklands sixth Form</span>
