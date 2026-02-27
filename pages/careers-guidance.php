@@ -823,7 +823,7 @@ include('../partials/header.php');
                         
                         <a href="https://www.hsdc.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <!-- <img src="/images/careers/colleges/hsdc-logo.png" alt="HSDC"> -->
+                                <img src="/images/careers/HSDC Main Logo.jpg" alt="HSDC Logo">
                             </div>
                             <span class="college-card-label">HSDC</span>
                         </a>
@@ -837,14 +837,14 @@ include('../partials/header.php');
                         
                         <a href="https://shcg.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <!-- <img src="/images/careers/colleges/highbury-logo.png" alt="Highbury College"> -->
+                                <img src="/images/careers/SHCG_Colour.png" alt="SHCG Logo">
                             </div>
                             <span class="college-card-label">SHCG</span>
                         </a>
                         
                         <a href="https://www.city-of-portsmouth-college.ac.uk/" target="_blank" rel="noopener" class="college-card">
                             <div class="college-card-image">
-                                <!-- <img src="/images/careers/colleges/sparsholt-logo.png" alt="Sparsholt College"> -->
+                                <img src="/images/careers/COPC.png" alt="COPC Logo">
                             </div>
                             <span class="college-card-label">COPC</span>
                         </a>
