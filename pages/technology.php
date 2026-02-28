@@ -206,6 +206,33 @@ include('../partials/header.php');
         transform: translateY(-3px);
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
+
+    .phase-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .phase-card {
+        background: #f8f9fa;
+        border-left: 4px solid #F58220;
+        border-radius: 0 8px 8px 0;
+        padding: 1rem 1.25rem;
+    }
+
+    .phase-card strong {
+        display: block;
+        color: #F58220;
+        margin-bottom: 0.4rem;
+        font-size: 0.95rem;
+    }
+
+    .phase-card span {
+        color: #444;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
 </style>
 
 
@@ -265,13 +292,13 @@ include('../partials/header.php');
                         </div>
                     </li>
 
-                    <li class="accordion-item">
+                    <!--<li class="accordion-item">
                         <div class="accordion-header">Year 9 Design and Technology Curriculum</div>
                         <div class="accordion-content">
                             <p>Year 9 Design and Technology students study Design and Technology, Graphics and Hospitality and Catering. This is another skills-based year but where students try to master the skills learnt in Year 7 and 8. This will also be an opportunity to learn new higher-level skills to prepare them for their GCSE years. The main aim of this year is to allow students to have time to practise and really refine their skills to develop their final outcomes and appreciate the need for a quality product.</p>
                             <p>There is a larger emphasis on three areas for DT: Research – Analyse – Respond. This will support their practices in GCSE Art and Design. Students learning construction will learn skills for life as well as preparing them for Level 2 Construction in Multi-trades. Dishes cooked in Catering will be presented to a higher standard to ensure that all health and hygiene rules apply in more complex dishes. This preparation will allow students to succeed in their vocational qualification in Hospitality and Catering.</p>
                         </div>
-                    </li>
+                    </li> -->
 
                     <li class="accordion-item">
                         <div class="accordion-header">GCSE Art and Design: 3D Design Modules</div>
@@ -288,7 +315,7 @@ include('../partials/header.php');
                     </li>
 
                     <li class="accordion-item">
-                        <div class="accordion-header">Year 10/11 – GCSE Art and Design: 3D Design</div>
+                        <div class="accordion-header">GCSE Art and Design: 3D Design</div>
                         <div class="accordion-content">
                             <p><a href="https://www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206" target="_blank">View the AQA examination board specification</a></p>
                             <h4>Areas of Study</h4>
@@ -323,7 +350,7 @@ include('../partials/header.php');
                     </li>
 
                     <li class="accordion-item">
-                        <div class="accordion-header">Year 10/11 – Art and Design: Graphic Communication</div>
+                        <div class="accordion-header">Art and Design: Graphic Communication</div>
                         <div class="accordion-content">
                             <p><a href="https://www.aqa.org.uk/subjects/art-and-design/gcse/art-and-design-8201-8206" target="_blank">View the AQA examination board specification</a></p>
                             <p>In Module 2 and Module 3 students are required to work in one or more areas of graphic communication, such as:</p>
@@ -364,33 +391,38 @@ include('../partials/header.php');
                     </li>
 
                     <li class="accordion-item">
-                        <div class="accordion-header">APEX – Laser Level 2 Certificate in Multi-trades</div>
+                        <div class="accordion-header">City and Guilds Certificate in Construction Skills</div>
                         <div class="accordion-content">
-                            <p>To achieve the LASER Level 2 Certificate for Learning, Employability and Progression, the learner must achieve a minimum of 25 credits. The credits may be taken from any combination of units but a minimum of 20 credits must be at Level 2.</p>
-                            <p>Here at Park Community School we offer this course with specific credits awarded in different construction skills. These skills are delivered at our APEX construction skills centre in Leigh Park, Havant.</p>
-                            <h4>Level 1 Skills:</h4>
-                            <ul>
-                                <li>Introduction to a training course</li>
-                                <li>Health and Safety</li>
-                                <li>Measure Distance Length</li>
-                                <li>Brickwork</li>
-                                <li>Carpentry and Joinery</li>
-                                <li>Carpentry Hand Skills</li>
-                                <li>Painting and Decorating skills</li>
-                                <li>Plastering</li>
-                                <li>Wallpapering</li>
-                            </ul>
-                            <h4>Level 2 Skills:</h4>
-                            <ul>
-                                <li>Health and Safety in construction</li>
-                                <li>Brickwork</li>
-                                <li>Carpentry and Joinery</li>
-                                <li>Carpentry Hand Skills</li>
-                                <li>Timber in Construction</li>
-                                <li>Painting and Decorating skills</li>
-                                <li>Plastering and Wallpapering</li>
-                                <li>Finance</li>
-                            </ul>
+                            <p>This qualification provides the ideal introduction to the construction industry and cover essential skills in the following construction trades: bricklaying, carpentry and joinery, plastering, painting and decorating, construction operations, wall and floor tiling, electrical and plumbing.</p>
+
+                            <h4>Course Phases</h4>
+                            <div class="phase-grid">
+                                <div class="phase-card">
+                                    <strong>Phase 1</strong>
+                                    <span>Generic Units, Bricklaying, Joinery</span>
+                                </div>
+                                <div class="phase-card">
+                                    <strong>Phase 2</strong>
+                                    <span>Wall &amp; Floor Tiling, Construction, Operations, Painting &amp; Decorating</span>
+                                </div>
+                                <div class="phase-card">
+                                    <strong>Phase 3</strong>
+                                    <span>Carpentry</span>
+                                </div>
+                                <div class="phase-card">
+                                    <strong>Phase 4</strong>
+                                    <span>Plastering, Plumbing, Electrical</span>
+                                </div>
+                            </div>
+
+                            <p>This qualification provides a broad introduction to the construction sector, helping students understand how the industry operates, the range of career opportunities available, and the importance of health and safety on site. Learners explore key topics such as construction processes, materials, sustainability, and environmental considerations, alongside an understanding of different trades and job roles within the industry.</p>
+
+                            <p>A strong emphasis is placed on practical skill development. Students gain hands-on experience in areas such as carpentry and joinery, brickwork, painting and decorating, and other core construction techniques. They learn to use tools and equipment safely and accurately, interpret basic construction drawings, measure and mark out materials, and complete practical tasks to industry standards. Safe working practices and risk assessment form a central part of the course.</p>
+
+                            <p>The qualification supports progression to Level 2 or Level 3 vocational courses, apprenticeships, T Levels, or employment within the construction industry. It also develops valuable transferable skills such as problem-solving, precision, teamwork, resilience and time management.</p>
+
+                            <p>Here at Park Community School we offer this course with skills delivered at our APEX construction skills centre in Leigh Park, Havant.</p>
+
                             <p>For more information, please contact Daniel Payne, Head of Design and Technology at <a href="/pages/contact.php">Park Community School</a>.</p>
                         </div>
                     </li>
@@ -423,7 +455,7 @@ include('../partials/header.php');
                 <h3>Technology Department Handbook</h3>
                 <p>Please click the Technology handbook to view department guidance:</p>
                 <div class="handbook-link">
-                    <a href="../assets/curriculum/technology/handbook.pdf" target="_blank">
+                    <a href="../assets/curriculum/technology/DT Department Handbook 2025-2026 UPDATES.pdf" target="_blank">
                         <img alt="Technology Department Handbook" src="../assets/curriculum/technology/handbook.jpg">
                     </a>
                 </div>
