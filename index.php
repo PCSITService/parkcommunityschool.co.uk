@@ -382,7 +382,7 @@ include('partials/header.php');
                 </a>
             </li>        
         
-        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+        <!-- <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
                 <a href="/assets/transition/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
@@ -395,9 +395,10 @@ include('partials/header.php');
                     Welcome to Park 2025 (Year 7)
                 </a>
             </li>
-        </ul>
+        </ul> -->
         
-        <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Admissions Information</a>
+        <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Year 7 Acceptance Form</a>
+        <a href="https://forms.office.com/pages/responsepage.aspx?id=2W4a34q1NUGg3oPDXQCwSMAnMhrhtYVLpy64uSKYhLtUMERFQThLQ1lFR1lWVUNPQ1ZXUUc3U1dWNC4u&route=shorturl" target="_blank" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; margin-left: 0.5rem;">Year 6 Transition Form</a>
     </div>
 </div>
 
