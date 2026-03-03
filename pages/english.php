@@ -197,9 +197,9 @@ include('../partials/header.php');
 
                 <h3>What do students study at Park Community School?</h3>
                 <ul class="year-links">
-                    <li><a href="../assets/curriculum/english/year7.pdf" target="_blank">Year 7</a></li>
-                    <li><a href="../assets/curriculum/english/year8.pdf" target="_blank">Year 8</a></li>
-                    <li><a href="../assets/curriculum/english/year9.pdf" target="_blank">Year 9</a></li>
+                    <li><a target="_blank" href="star.php">Year 7</a></li>
+                    <li><a href="../assets/curriculum/english/Year 8 Big Picture.pdf" target="_blank">Year 8</a></li>
+                    <li><a href="../assets/curriculum/english/Year 9 Big Picture.pdf" target="_blank">Year 9</a></li>
                     <li><a href="../assets/curriculum/english/year10.pdf" target="_blank">Year 10</a></li>
                     <li><a href="../assets/curriculum/english/year11.pdf" target="_blank">Year 11</a></li>
                 </ul>
