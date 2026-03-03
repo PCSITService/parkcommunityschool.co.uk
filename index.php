@@ -397,8 +397,8 @@ include('partials/header.php');
             </li>
         </ul> -->
         
-        <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Year 7 Acceptance Form</a>
-        <a href="https://forms.office.com/pages/responsepage.aspx?id=2W4a34q1NUGg3oPDXQCwSMAnMhrhtYVLpy64uSKYhLtUMERFQThLQ1lFR1lWVUNPQ1ZXUUc3U1dWNC4u&route=shorturl" target="_blank" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; margin-left: 0.5rem;">Year 6 Transition Form</a>
+        <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Year 6 Transition</a>
+        <a href="https://forms.office.com/pages/responsepage.aspx?id=2W4a34q1NUGg3oPDXQCwSMAnMhrhtYVLpy64uSKYhLtUMERFQThLQ1lFR1lWVUNPQ1ZXUUc3U1dWNC4u&route=shorturl" target="_blank" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; margin-left: 0.5rem;">Year 7 Acceptance Form</a>
     </div>
 </div>
 
