@@ -191,8 +191,8 @@ include('../partials/header.php');
                 <p>Students leave Park Community School able to read, write and communicate well.</p>
 
                 <div class="button-group text-center">
-                    <a role="button" target="_blank" href="../assets/curriculum/english/lj-ks3.pdf" class="button">KS3 Learning Journey</a>
-                    <a role="button" target="_blank" href="../assets/curriculum/english/lj-ks4.pdf" class="button">KS4 Learning Journey</a>
+                    <a role="button" target="_blank" href="../assets/curriculum/english/For Books Learning Journey KS3.pdf" class="button">KS3 Learning Journey</a>
+                    <a role="button" target="_blank" href="../assets/curriculum/english/For Books Learning Journey KS4.pdf" class="button">KS4 Learning Journey</a>
                 </div>
 
                 <h3>What do students study at Park Community School?</h3>
