@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>March 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-03/YI Easter.pdf" target="_blank">Easter Poster - 30th March 2026</a></li>
                     <li><a href="/assets/letters/2026-03/Parent Letter Easter.pdf" target="_blank">Easter Letter - 30th March 2026</a></li>
                     <li><a href="/assets/letters/2026-03/Park Literary Festival 2026 Poster (FD).pdf" target="_blank">Park Literary Festival 2nd - 6th March 2026</a></li>
                     <li><a href="/assets/letters/2026-03/Trip Letter PSC LitFest 2026 - Worlds Largest Reading Lesson.pdf" target="_blank">Year 7 Worlds Largest Reading Lesson - 5th March</a></li>
