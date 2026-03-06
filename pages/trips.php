@@ -290,9 +290,10 @@ include('../partials/header.php');
         <div class="grid-x grid-padding-x">
             <div class="cell medium-7">
                 <h2>Our Trips Are Amazing!</h2>
-                <p>All trips at Park are carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
-                <p>Our trips are designed to enhance learning, develop life skills, and create lasting memories for all students.</p>
-                <p>Payment is easy – pay online at <a href="https://www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or at reception with card, cash or cheque.</p>
+                <p>At Park Community School we offer a wide range of trips for students within the local area, our county, country and internationally. School trips are fantastic for transforming theoretical classroom knowledge into tangible, real-world experiences.</p>
+                <p>Trips help to foster personal development, boost confidence, enhance social skills through collaboration, and often provide students with better subject comprehension.</p>
+                <p>Throughout time at Park students will have the opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
+                <p>Payment for current trips is easy – pay online at <a href="https://www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or at reception with card, cash or cheque.</p>
                 
                 <a href="https://www.scopay.com/pcs" target="_blank" class="payment-button">
                     <i class="fas fa-credit-card"></i>
@@ -330,10 +331,10 @@ include('../partials/header.php');
 <!-- SCHOOL TRIPS SECTION -->
 <section class="trips-section">
     <div class="grid-container">
-        <h2>Current Trips</h2>
+        <h2>Current Trips:</h2>
             
             <!-- Trip 1 - Hercules -->
-            <div class="trip-card">
+            <!--<div class="trip-card">
                 <div class="trip-card-header">
                     <h3>Hercules the Musical</h3>
                 </div>
@@ -360,7 +361,7 @@ include('../partials/header.php');
                         <span class="trip-cost-amount">£59</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

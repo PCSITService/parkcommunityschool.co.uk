@@ -285,7 +285,7 @@
                 <ul class="nav-dropdown">
                     <li><a href="/pages/curriculum.php">Curriculum</a></li>
                     <li><a href="/pages/careers-guidance.php">Careers and Guidance</a></li>
-                    <li><a href="/assets/curriculum/FWYL - April 2025.pdf" target="_blank">Extra-Curricular Clubs</a></li>
+                    <li><a href="/assets/curriculum/Finding What You Love - Website Update.pdf" target="_blank">Finding What You Love - Enrichment Opportunities</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
                 </ul>
@@ -303,6 +303,7 @@
                     <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
+                    <li><a href="/assets/curriculum/FWYL - clubs - Website.pdf">Finding What You Love After School Clubs</a></li>
                 </ul>
             </li>
 
