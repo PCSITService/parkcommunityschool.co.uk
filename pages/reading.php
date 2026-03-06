@@ -219,7 +219,7 @@ include('../partials/header.php');
     .resource-button i {
         font-size: 1.1rem;
     }
-    
+
     @media (max-width: 768px) {
         .content-grid {
             grid-template-columns: 1fr;
@@ -278,6 +278,20 @@ include('../partials/header.php');
                     <div class="reading-quote">
                         "Above all, the books are chosen because they are great books which support a love of reading."
                     </div>
+                </div>
+
+                <!-- LITERARY FESTIVAL SECTION -->
+                <div class="button-section">
+                    <h4><i class="fas fa-star"></i> Park Literary Festival 2026</h4>
+                    <a href="/404.php" target="_blank" class="resource-button">
+                        <!-- https://vimeo.com/REPLACE_WITH_VIDEO_LINK -->
+                        <i class="fas fa-play-circle"></i> Watch Festival Video
+                    </a>
+                    <object data="../assets/reading/Park_Literary_Festival_2026_Poster__FD_.pdf" type="application/pdf" width="100%" height="900px" style="border-radius: 8px; margin-top: 1.5rem;">
+                        <a href="../assets/reading/Park Literary Festival 2026 Poster (FD).pdf" target="_blank" class="resource-button">
+                            <i class="fas fa-file-pdf"></i> View Festival Programme
+                        </a>
+                    </object>
                 </div>
 
                 <div class="content-grid">
