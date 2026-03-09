@@ -407,7 +407,7 @@ include('../partials/header.php');
                 <p>All students have the opportunity to study examination sport at Park through either GCSE PE or Level 2 BTEC Sport. Within these courses they develop a clear understanding of anatomy and physiology, psychology and technology with sport. Within vocational studies, students develop the understanding of time management with clear deadlines and precise feedback of where to go next with assignments – this is shared within all lessons (pass criteria to merit, merit to distinction, etc.). We promote accountability through strict deadlines and the sharing of each student's assignment completions, grade and actions to achieve projection (or higher). The department develops independence through structured stuck resources and models used within lessons and available to students through a shared platform. </p>
                 
                 
-                <div class="results-box">
+                <!--<div class="results-box">
                     <h4>Examination Results</h4>
                     <p><strong>2023:</strong> 98% Pass - Distinction* <em>(12 Distinction*, 15 Distinctions, 51 Merits, 60 Pass)</em></p>
                     <p><strong>2022:</strong> 92.7% Pass - Distinction* <em>(19 Distinction*/Distinctions, 46 Merits, 129 Pass)</em></p>
@@ -416,7 +416,7 @@ include('../partials/header.php');
                     <p><strong>2019:</strong> 100% Pass - Distinction* <em>(66 Distinction*, 23 Distinctions, 36 Merits, 19 Pass)</em></p>
                     <p><strong>2018:</strong> 100% Pass - Distinction* <em>(63 Distinction*, 17 Distinctions, 54 Merits, 20 Pass)</em></p>
                     <p><strong>2017:</strong> 98% Pass - Distinction*</p>
-                </div>
+                </div> -->
                 
                 <p>Through our involvement of the students in their own learning, practical and physical improvement and development are evident within core PE. We experience increased participation and enjoyment seen through high levels of engagement in their personally chosen routeway within the subject. Students arrive to lessons with full PE kit and positive attitudes towards the lessons. This is seen through student voice surveys and lesson observations. Our curriculum allows connectedness between practical improvement and secured theory knowledge through deep thinking, high challenge and precise knowledge. Improvement in practical ability is not only seen within their chosen routeway activities but also measured through regular fitness testing throughout the year so students are able to celebrate their individual development at regular intervals.</p>
 
