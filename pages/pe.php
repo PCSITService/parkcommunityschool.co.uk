@@ -398,15 +398,14 @@ include('../partials/header.php');
 
                 <h3>Implementation</h3>
                 <div class="button-row">
-                    <a href="/assets/curriculum/pe/implementation.pdf" target="_blank" class="button">View our Implementation Table</a>
-                    <a href="/assets/curriculum/pe/ks-3-learning-journey.pdf" target="_blank" class="button">Key Stage 3 Learning Journey</a>
-                    <a href="/assets/curriculum/pe/ks-4-learning-journey.pdf" target="_blank" class="button">Key Stage 4 Learning Journey</a>
+                    <!--<a href="/assets/curriculum/pe/implementation.pdf" target="_blank" class="button">View our Implementation Table</a> -->
+                    <a href="/assets/curriculum/pe/KS3 Learning Journey 2025-26.pdf" target="_blank" class="button">Key Stage 3 Learning Journey</a>
+                    <a href="/assets/curriculum/pe/KS4 Learning Journey 2025-26.pdf" target="_blank" class="button">Key Stage 4 Learning Journey</a>
                 </div>
 
                 <h3>Impact</h3>
-                <p>All students will study sport at Park and within this they will develop a clear understanding of where to go next with assignments – this is shared within all lessons (pass criteria to merit, merit to distinction, etc.). We promote accountability through strict deadlines and the sharing of each student's assignment completions, grade and actions to achieve projection (or higher). The department develops independence through structured stuck resources and models used within lessons and available to students through a shared platform.</p>
+                <p>All students have the opportunity to study examination sport at Park through either GCSE PE or Level 2 BTEC Sport. Within these courses they develop a clear understanding of anatomy and physiology, psychology and technology with sport. Within vocational studies, students develop the understanding of time management with clear deadlines and precise feedback of where to go next with assignments – this is shared within all lessons (pass criteria to merit, merit to distinction, etc.). We promote accountability through strict deadlines and the sharing of each student's assignment completions, grade and actions to achieve projection (or higher). The department develops independence through structured stuck resources and models used within lessons and available to students through a shared platform. </p>
                 
-                <p>Through our structured curriculum and precise delivery of theory content, examination outcomes have seen superb improvements over recent years with students becoming highly confident in unit content and assignment application.</p>
                 
                 <div class="results-box">
                     <h4>Examination Results</h4>
@@ -587,10 +586,10 @@ include('../partials/header.php');
                     <li>Off-site opportunities with the department through OAA orienteering and Cross Country.</li>
                 </ul>
 
-                <h3>Extra Curricular Sporting Opportunities</h3>
+                <!--<h3>Extra Curricular Sporting Opportunities</h3>
                 <div class="clubs-image">
                     <img src="../assets/curriculum/pe/pe-after-school-clubs-ht6.jpg" alt="PE After School Clubs">
-                </div>
+                </div> -->
 
                 <h3>After Park PE - What's Next?</h3>
                 <ul class="after-park-grid">
@@ -611,7 +610,7 @@ include('../partials/header.php');
                 <div class="handbook-section">
                     <h3>PE Department Handbook</h3>
                     <p>Please click below to view department guidance:</p>
-                    <a href="../assets/curriculum/pe/handbook.pdf" target="_blank" class="handbook-link">
+                    <a href="../assets/curriculum/pe/Physical Education Handbook 2025-2026.pdf" target="_blank" class="handbook-link">
                         <img alt="PE Handbook" src="../assets/curriculum/pe/handbook.jpg">
                     </a>
                 </div>
@@ -622,6 +621,13 @@ include('../partials/header.php');
                     <a href="https://qualifications.pearson.com/content/dam/pdf/btec-tec-awards/sport/2022/specification-and-sample-assessments/btec-tech-award-sport-spec.pdf" target="_blank" class="button">Pearson BTEC Sport Specification</a>
                 </div>
 
+                <h3>GCSE Specifications</h3>
+                <p>Click below to view the specifications for GCSE Sport:</p>
+                <div class="button-row">
+                    <a href="https://cdn.sanity.io/files/p28bar15/green/9ce46055100bf20ff156b70b5429f3e5d2167fca.pdf?_gl=1*1luuw0u*_gcl_au*MTI1MzA0ODQ3Mi4xNzcyOTkwMTQ2" target="_blank" class="button">AQA GCSE Sport Specification</a>
+                </div>
+
+                
                 <h3>Supportive Guides for Revision</h3>
                 <ul class="revision-resources">
                     <li>
