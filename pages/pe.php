@@ -611,7 +611,7 @@ include('../partials/header.php');
                     <h3>PE Department Handbook</h3>
                     <p>Please click below to view department guidance:</p>
                     <a href="../assets/curriculum/pe/Physical Education Handbook 2025-2026.pdf" target="_blank" class="handbook-link">
-                        <img alt="PE Handbook" src="../assets/curriculum/pe/handbook.jpg">
+                        <img alt="PE Handbook" src="../assets/curriculum/pe/handbookNEW.jpg">
                     </a>
                 </div>
 
