@@ -304,7 +304,7 @@ include('../partials/header.php');
 
                     <div class="image-section">
                         <h4><i class="fas fa-book-open"></i>Reading Canon</h4>
-                        <img src="/images/reading/canon.jpg" alt="Reading Canon - A collection of diverse literature for Park students">
+                        <img src="/images/reading/Display-Reading Canon.jpg" alt="Reading Canon - A collection of diverse literature for Park students">
                     </div>
                 </div>
 
