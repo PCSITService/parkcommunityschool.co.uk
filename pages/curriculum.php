@@ -370,7 +370,7 @@ include('../partials/header.php');
                     <img src="../assets/curriculum/great-learners-2026.png" alt="Great Learners at Park Community School">
                 </div>
 
-                <h3>Our Ambitious Curriculum</h3>
+                <h3>Our Curriculum</h3>
                 <p>At Park we provide a broad curriculum which allows students to find what they love to do. Our curriculum is designed to promote attainment, build resilience and increase autonomy. We are known for our inclusive approach and others describe us as 'much more than just a school'.</p>
 
                 <ul class="curriculum-features">
@@ -392,12 +392,12 @@ include('../partials/header.php');
                 
                 <p>When planning curriculum, subject leaders use the National Curriculum, GCSE syllabi and subject specific research to develop curriculums that match our curriculum vision.</p>
 
-                <div class="text-center">
+                <!--<div class="text-center">
                     <a role="button" target="_blank" href="../assets/curriculum/curriculum.jpg" class="cta-button">
                         <i class="fas fa-eye" aria-hidden="true"></i>
                         Curriculum Intent Review and Delivery
                     </a>
-                </div>
+                </div>-->
 
                 <!-- Year Groups Section -->
                 <div class="year-groups-section">

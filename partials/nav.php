@@ -288,6 +288,7 @@
                     <li><a href="/assets/curriculum/Finding What You Love - Website Update.pdf" target="_blank">Finding What You Love - Enrichment Opportunities</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
+                    <li><a href="/pages/smsc.php">SMSC</a></li>
                 </ul>
             </li>
 

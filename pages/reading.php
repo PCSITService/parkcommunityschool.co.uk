@@ -296,6 +296,7 @@ include('../partials/header.php');
 
                 <div class="content-grid">
                     <div class="content-card">
+                        <h3>Our Reading Cannon</h3>
                         <p>Park's Reading Canon is a set of literature all students should read during their time at Park. Some of the texts will be read in tutor time together, others in English lessons, while most are promoted for independent reading.</p>
                         
                         <p>The canon is revised regularly and incorporates a range of authors and genres designed to focus on breadth, the theme of identity, relationships and our place in society. The choices celebrate diversity, challenge discrimination and promote thinking.</p>

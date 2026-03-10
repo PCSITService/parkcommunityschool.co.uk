@@ -236,15 +236,18 @@ include('../partials/header.php');
                 <h3>Aims</h3>
                 <p>To prepare students positively for life in modern Britain, through the promotion of British values, diversity, equality and tolerance of those with different faiths, beliefs and life choices. We also aim to enable students to develop their self-knowledge, self-esteem and self-confidence while giving them the ability to make good life choices and also encouraging them to accept responsibility for their behaviour, its consequences, and how they can contribute to the wider world. The programme also covers the 65 elements of the statutory RSE curriculum to ensure pupils are fully prepared to positively manage their relationship choices both within and beyond their time in school.</p>
 
+                <h4>SMSC Implementation Map</h4>
+                <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p>
+
                 <h3>Areas of Study</h3>
                 <p>Our approach to SMSC is divided into three main areas of study:</p>
                 
                 <div class="areas-box">
                     <ul>
-                        <li><strong>Body and Mind</strong> – includes wellbeing, health, self-care, mental health, the dangers of drugs and alcohol, and keeping yourself safe</li>
-                        <li><strong>Relationships</strong> – includes sexual and non-sexual relationships, coping with those relationships, consent, coercion, and sexual health</li>
-                        <li><strong>Being a Global Citizen</strong> – careers, British values, cultural awareness, racism, homophobia, and e-safety</li>
-                        <li><strong>Religious Studies</strong> – taught in discrete lessons</li>
+                        <li><a href="../assets/curriculum/smsc/Body and mind Roadmap.pdf" target="_blank"><strong>Body and Mind</strong></a> – includes wellbeing, health, self-care, mental health, the dangers of drugs and alcohol, and keeping yourself safe</li>
+                        <li><a href="../assets/curriculum/smsc/relations roadmap.pdf" target="_blank"><strong>Relationships</strong></a> – includes sexual and non-sexual relationships, coping with those relationships, consent, coercion, and sexual health</li>
+                        <li><a href="../assets/curriculum/smsc/GlobalCitizen roadmap.pdf" target="_blank"><strong>Being a Global Citizen</strong></a> – careers, British values, cultural awareness, racism, homophobia, and e-safety</li>
+                        <li><a href="../assets/curriculum/smsc/Finance Roadmap.pdf" target="_blank"><strong>Religious Studies</strong></a> – taught in discrete lessons</li>
                     </ul>
                 </div>
 
@@ -370,9 +373,6 @@ include('../partials/header.php');
                         <li>Developing resilience to radicalisation and extremism in accordance with the 'Prevent Duty' 2015</li>
                     </ul>
                 </div>
-
-                <h4>SMSC Implementation Map</h4>
-                <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p>
 
                 <div class="useful-links">
                     <p><strong>Useful Links:</strong></p>

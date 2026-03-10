@@ -255,10 +255,6 @@ include('../partials/header.php');
             </div>
             <div class="cell medium-8 medium-order-2 small-order-1">
                 <div class="data-box">
-                    <p><strong>2019:</strong> The gap in achievement between non-PP and PP students in GCSEs was -0.39 for Progress 8 (PP -1.09, non-PP -0.69)</p>
-                    <p><strong>2020:</strong> The gap for Basics at 4+ was 20% (non-PP: 48%, PP: 28%). The gap for Basics at 5+ was 7% (non-PP: 14%, PP: 7%)</p>
-                    <p><strong>2021:</strong> The gap for Basics at 4+ was 3% (non-PP: 58%, PP: 53%). The gap for Basics at 5+ was 18% (non-PP: 30%, PP: 12%)</p>
-                    <p><strong>2020-21:</strong> 1:1 reading intervention with 38 students improved either reading comprehension or decoding age for all students, with 70% improving both. An average improvement was evidenced of at least double ratio gains.</p>
                     <p><strong>2022:</strong> The gap for Basics at 4+ was 14% (non-PP: 33%, PP: 19%). The gap for Basics at 5+ was 6% (non-PP: 12%, PP: 6%)</p>
                     <p><strong>2023:</strong> The gap for Basics at 4+ was 24% (non-PP: 46%, PP: 22%). The gap for Basics at 5+ was 12% (non-PP: 18%, PP: 6%)</p>
                     <p><strong>2024:</strong> The gap for Basics at 4+ was 15% (non-PP: 32%, PP: 17%). The gap for Basics at 5+ was 14% (non-PP: 20%, PP: 6%)</p>
