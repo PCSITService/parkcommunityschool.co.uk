@@ -239,6 +239,10 @@ include('../partials/header.php');
                 <h4>SMSC Implementation Map</h4>
                 <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p>
 
+                <div class="button-row">
+                    <a href="../assets/curriculum/smsc/New overview yeargroup.pdf" class="button" target="_blank">SMSC Overview</a>
+                </div>
+
                 <h3>Areas of Study</h3>
                 <p>Our approach to SMSC is divided into three main areas of study:</p>
                 
