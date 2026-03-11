@@ -271,7 +271,7 @@ include('partials/header.php');
                     </div>
                     <div class="button-row">
                         <a class="button success" href="/assets/Welcome to Park 2025 All Students ).pdf" target="_blank">Welcome to Park</a>
-                        <a class="button success" href="assets/prospectus.pdf" target="_blank">Prospectus</a>
+                        <a class="button success" href="assets/Prospectus 2026.pdf" target="_blank">Prospectus</a>
                         <a class="button success" href="pages/letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
                     </div>
                 </div>
