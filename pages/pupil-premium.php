@@ -263,18 +263,18 @@ include('../partials/header.php');
                 <div class="barriers-box">
                     <p>Main barriers to educational achievement faced by eligible students could include:</p>
                     <ul>
-                        <li>Low aspiration</li>
                         <li>Gaps in learning, including for a significant number of low reading ages that makes accessing texts a significant challenge</li>
                         <li>Reading ages below chronological age</li>
                         <li>Parents who have poor experiences of school, or have not completed further education or in some cases do not value education</li>
                         <li>Large number of siblings</li>
-                        <li>Often in single parent families</li>
                         <li>May have experienced significant trauma in earlier years, e.g. alcohol abuse, domestic violence</li>
                         <li>Lack of trust in, or significant dependence on, outside agencies</li>
                         <li>Inconsistent attendance at school</li>
                         <li>Personal health related and well-being issues</li>
                         <li>Low self-esteem</li>
                         <li>Low exposure to the wider community which impacts negatively on a student's Cultural Capital</li>
+                        <li>Persistent or severe absence form school</li>
+                        <li>Undiagnosed SEND barriers to learning</li>
                     </ul>
                     <p><em>This is not an exhaustive list and by no means applies to all students who may qualify for Pupil Premium.</em></p>
                 </div>
