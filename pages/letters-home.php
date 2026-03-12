@@ -153,6 +153,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>February 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-02/Year 8 Creative Options Parents Information Evening 12.03.26.pdf" target="_blank">Year 8 Parents Information Evening - 27th February</a></li>
                     <li><a href="/assets/letters/2026-02/Uniform Letter .pdf" target="_blank">Uniform Letter - 27th February</a></li>
                     <li><a href="/assets/letters/2026-02/Park Newsletter 25 Feb.pdf" target="_blank">School Newsletter - Wednesday 25th February</a></li>
                     <li><a href="/assets/letters/2026-02/Final Decision Letter - Park.pdf" target="_blank">Final Decision Riders - 24th February</a></li>
