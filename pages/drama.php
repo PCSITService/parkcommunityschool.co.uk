@@ -121,6 +121,69 @@ include('../partials/header.php');
         transform: translateY(-3px);
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
+
+    .component-box {
+        background: #f5f5f5;
+        border-left: 4px solid #F58220;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .component-box h4 {
+        color: #F58220;
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+        font-size: 1.1rem;
+    }
+
+    .component-box ul {
+        margin-bottom: 0;
+        padding-left: 1.25rem;
+    }
+
+    .component-box ul li {
+        margin-bottom: 0.4rem;
+    }
+
+    .component-box ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .careers-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .careers-card {
+        background: #f5f5f5;
+        border-top: 4px solid #F58220;
+        border-radius: 0 0 8px 8px;
+        padding: 1.25rem;
+    }
+
+    .careers-card h4 {
+        color: #F58220;
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+    }
+
+    .careers-card ul {
+        margin-bottom: 0;
+        padding-left: 1.25rem;
+    }
+
+    .careers-card ul li {
+        margin-bottom: 0.4rem;
+        font-size: 0.95rem;
+    }
+
+    .careers-card ul li:last-child {
+        margin-bottom: 0;
+    }
 </style>
 
 
@@ -138,7 +201,10 @@ include('../partials/header.php');
         <div class="grid-x grid-padding-x">
             <div class="cell large-12">
                 <h3>Intent</h3>
-                <p><strong>Lighting Fires</strong> – The Performing Arts intention is to ignite the flame of curiosity and passion within in the hearts and minds of the students at Park. We thrive to deliver and develop key life skills and to nurture passionate, imaginative, and creative individuals, preparing them for further education and future careers. The performing arts curriculum prepares students to become independent and creative through the delivery of a diverse range of schemes of work which allows students to develop an understanding of different styles and practitioners. Furthermore, the performing arts curriculum promotes a sense of self-worth and encourages a growth in confidence, resilience, and autonomy.</p>
+                <p><em>"Creativity takes courage." – Henri Matisse</em></p>
+                <p>The intention of Performing Arts at Park is to spark curiosity and foster a deep passion for creativity within the hearts and minds of our students. We strive to develop key life skills while nurturing imaginative, expressive, and innovative individuals, preparing them for further education and future careers.</p>
+
+                <p>Our curriculum supports students in becoming independent and inventive through a diverse range of schemes of work that encourage exploration of different styles and practitioners. Furthermore, Performing Arts promotes a strong sense of self-worth and supports the growth of confidence, resilience, and autonomy.</p>
 
                 <p>The skills that are learnt by studying Drama are invaluable in later life. For example, being able to speak and present confidently in front of people, and the skill of planning that is required in any production, are useful in many careers. Drama can be a good basis for a career not only in the theatre, but in advertising, the film industry and even in events planning, among many others.</p>
 
@@ -149,7 +215,7 @@ include('../partials/header.php');
                         <li>An appreciation of empathy and sensitivity.</li>
                         <li>An understanding of the benefits of participation in the arts, performance and creativity whilst at Park Community School and throughout their life.</li>
                         <li>An understanding of a range of plays, texts and theatre styles.</li>
-                        <li>An appreciation of skillful and creative performances through improvisation, rehearsal, performance, evaluation, appreciation and assessment.</li>
+                        <li>An appreciation of skilful and creative performances through improvisation, rehearsal, performance, evaluation, appreciation and assessment.</li>
                         <li>An understanding of communication through voice and movement.</li>
                         <li>An appreciation of the ways in which playwrights achieve their effects and communicate their intentions to an audience.</li>
                         <li>An awareness of social, historical and cultural contexts and influences within plays and other style of dramatic presentation.</li>
@@ -169,15 +235,135 @@ include('../partials/header.php');
                 </div>
 
                 <h3>Implementation</h3>
-                <p><strong>Releasing Potential</strong> – In Year 7 students are introduced to the basic conventions of theatre and storytelling, exploring skill of characterisation, using physical and vocal skills. Students will also learn the basics of staging plays they have devised themselves. Students will also begin to explore physical theatre through a horror scheme of work. This unit also includes how to create atmosphere and tension and how to use the lighting desk to create this feeling. In these lessons, students will develop group work and problem-solving abilities alongside dramatic techniques. The emphasis is on mastering the skills required to perform in character, with confidence to a small audience of their peers.</p>
+                <p><strong>Releasing Potential</strong> – In Year 7 students are introduced to the basic conventions of theatre and storytelling, exploring skill of characterisation, using physical and vocal skills. Students will also learn the basics of staging plays they have devised themselves. In these lessons, students will develop group work and problem-solving abilities alongside dramatic techniques. The emphasis is on mastering the skills required to perform in character, with confidence to a small audience of their peers.</p>
                 
-                <p>Once in Year 8, all students explore ways that movement can be used within performance to communicate meaning to an audience. Students learn about genres in theatre and start off with Comedy including Melodrama, Slapstick Comedy and Physical theatre. This scheme aims to develop student's self confidence in moving with control in a range of scenes. This topic also covers the basics of technical directing for stage, learning lines and recreating characters an important part of study at Key Stage 4 whilst looking at script work.</p>
+                <p>Once in Year 8, all students explore ways that movement can be used within performance to communicate meaning to an audience. Students learn about genres in theatre and start off with Murder Mystery and working with professional scripts. This scheme aims to develop student's self confidence in moving with control in a range of scenes. This topic also covers the basics of technical directing for stage, learning lines and recreating characters an important part of study at Key Stage 4 whilst looking at script work.</p>
                 
                 <p>In year 9 students begin to develop the skills autonomously in readiness for RSL Acting. These topics look at different genres in Drama, devising from a set stimulus and learning lines to recreate a well-known script. Students will also take part in performance within school as well as to parents to help prepare them for the performance aspect that is essential when studying RSL Acting.</p>
                 
-                <p>Once in KS4 students then begin studying for the RSL Level 2 Certificate in Creative and Performing Arts (Acting) which consists of two units; Performing Text and Live Performance.</p>
+                <p>Once in KS4 students then begin studying for the BTEC TECH Award Level 2 in Performing Arts. The course has three components and learners are required to achieve all three in order to pass the course.</p>
+
+                <div class="component-box">
+                    <h4>Component 1 – 'Exploring the Performing Arts'</h4>
+                    <p>This unit is an internal assessment set by Pearson, marked by the centre and moderated by Pearson. Learners will develop their understanding of the Performing Arts by examining the work of performing arts professionals and the processes used to create performance.</p>
+                    <ul>
+                        <li><strong>Learning outcome A</strong> – Investigate how professional performance or production work is created.</li>
+                        <li><strong>Learning outcome B</strong> – Demonstrate understanding of the skills, techniques, and approaches used by professionals to create performance/production work.</li>
+                    </ul>
+                </div>
+
+                <div class="component-box">
+                    <h4>Component 2 – 'Developing skills and techniques in the Performing Arts'</h4>
+                    <p>This is an internal assessment set by Pearson, marked by the centre and moderated by Pearson. Learners will develop their performing arts skills and techniques through the reproduction of acting, dance and musical theatre repertoire as performers or designers.</p>
+                    <ul>
+                        <li><strong>Learning outcome A</strong> – Use rehearsal or production/design processes</li>
+                        <li><strong>Learning outcome B</strong> – Apply skills and techniques in Performance or realisation</li>
+                        <li><strong>Learning outcome C</strong> – Review own development and application of performance or design skills</li>
+                    </ul>
+                </div>
+
+                <div class="component-box">
+                    <h4>Component 3 – 'Responding to a brief'</h4>
+                    <p>This unit is an externally marked unit set by Pearson. Learners will be given the opportunity to work as part of a group to contribute to a workshop performance as either a performer or a designer in response to a brief and stimulus.</p>
+                </div>
 
                 <p>Homework is set every 2 weeks via Multiple Choice Questioning (MCQ).</p>
+
+                <h3>Further Studies and Careers</h3>
+
+                <h4 style="color: #F58220; margin-top: 1.5rem; margin-bottom: 0.75rem;">Post-16 Study Options in Drama</h4>
+
+                <div class="aims-box">
+                    <h4>A-Levels (Academic Route)</h4>
+                    <ul>
+                        <li>A-Level Drama &amp; Theatre</li>
+                        <li>Often combined with English, Media Studies, History, Psychology or Music</li>
+                        <li>Includes performance, directing, and written theatre analysis.</li>
+                    </ul>
+                    <p style="margin-top: 1rem; margin-bottom: 0.5rem;"><strong>Leads to university degrees such as:</strong></p>
+                    <ul>
+                        <li>Drama &amp; Theatre Studies</li>
+                        <li>Acting</li>
+                        <li>Directing</li>
+                        <li>Theatre Production</li>
+                        <li>Scriptwriting</li>
+                        <li>Performing Arts</li>
+                    </ul>
+                </div>
+
+                <div class="aims-box">
+                    <h4>Vocational Qualifications (Practical Route)</h4>
+                    <ul>
+                        <li><strong>BTEC Level 3 in Performing Arts (Acting Pathway)</strong> – Practical and coursework-based. Equivalent to A-Levels. Focus on rehearsal, performance, and industry skills.</li>
+                        <li><strong>UAL Level 3 Diploma/Extended Diploma in Performing &amp; Production Arts</strong> – Industry-focused training. Often audition/interview based.</li>
+                        <li><strong>T-Level in Media, Broadcast &amp; Production</strong> – Ideal for technical theatre, lighting, sound, costume, or stage management.</li>
+                    </ul>
+                </div>
+
+                <div class="aims-box">
+                    <h4>Apprenticeships</h4>
+                    <ul>
+                        <li>Creative Venue Technician</li>
+                        <li>Community Arts Assistant</li>
+                        <li>Backstage / Production Assistant</li>
+                        <li>Costume or Props Assistant</li>
+                    </ul>
+                    <p style="margin-top: 1rem; margin-bottom: 0;">Earn while training in theatres or production companies.</p>
+                </div>
+
+                <h4 style="color: #F58220; margin-top: 1.5rem; margin-bottom: 1rem;">Career Pathways in Drama</h4>
+
+                <div class="careers-grid">
+                    <div class="careers-card">
+                        <h4>Acting (Performance Careers)</h4>
+                        <ul>
+                            <li>Stage Actor</li>
+                            <li>TV Actor</li>
+                            <li>Film Actor</li>
+                            <li>Voice Actor</li>
+                            <li>Musical Theatre Performer</li>
+                        </ul>
+                    </div>
+                    <div class="careers-card">
+                        <h4>Film &amp; Television</h4>
+                        <ul>
+                            <li>Screen Actor</li>
+                            <li>Scriptwriter</li>
+                            <li>Director</li>
+                            <li>Casting Director</li>
+                            <li>Producer</li>
+                        </ul>
+                    </div>
+                    <div class="careers-card">
+                        <h4>Theatre Production (Behind the Scenes)</h4>
+                        <ul>
+                            <li>Stage Manager</li>
+                            <li>Lighting Designer</li>
+                            <li>Sound Technician</li>
+                            <li>Costume Designer</li>
+                            <li>Set Designer</li>
+                            <li>Theatre Technician</li>
+                        </ul>
+                    </div>
+                    <div class="careers-card">
+                        <h4>Writing &amp; Creative Roles</h4>
+                        <ul>
+                            <li>Playwright</li>
+                            <li>Screenwriter</li>
+                            <li>Dramaturg</li>
+                            <li>Theatre Critic</li>
+                        </ul>
+                    </div>
+                    <div class="careers-card">
+                        <h4>Teaching &amp; Education</h4>
+                        <ul>
+                            <li>Primary/Secondary Drama Teacher (requires Degree + PGCE)</li>
+                            <li>Workshop Leader</li>
+                            <li>Youth Theatre Director</li>
+                            <li>University Lecturer</li>
+                        </ul>
+                    </div>
+                </div>
 
                 <h3>Impact</h3>
                 <p><strong>Building Dreams</strong></p>
