@@ -898,7 +898,7 @@ include('../partials/header.php');
                         
                         <a href="/assets/careers-guidance/BBC Careers Roadshow.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <!-- <img src="/images/careers/events/bbc-careers-roadshow.jpg" alt="BBC Careers Roadshow"> -->
+                                <img src="/images/careers/BBc careers roadshow.jpg" alt="BBC Careers Roadshow">
                             </div>
                             <div class="event-card-title">BBC Careers Roadshow</div>
                         </a>
@@ -907,7 +907,7 @@ include('../partials/header.php');
                         <div class="event-card-split split-red">
                             <a href="/assets/careers-guidance/Year 10 Interview Ready Day.pdf" class="split-top" target="_blank" rel="noopener">
                                 <div class="event-card-image">
-                                    <!-- <img src="/images/careers/events/year10-interview-ready.jpg" alt="Year 10 Interview Ready"> -->
+                                    <img src="/images/careers/Interview Ready day.jpg" alt="Year 10 Interview Ready">
                                 </div>
                                 <div class="event-card-title">Year 10 Interview Ready</div>
                             </a>
@@ -920,7 +920,7 @@ include('../partials/header.php');
                         <div class="event-card-split split-blue">
                             <a href="/assets/careers-guidance/Year 9 Super Careers.pdf" class="split-top" target="_blank" rel="noopener">
                                 <div class="event-card-image">
-                                    <!-- <img src="/images/careers/events/year9-super-careers.jpg" alt="Year 9 Super Careers"> -->
+                                    <img src="/images/careers/Super careers.jpg" alt="Year 9 Super Careers">
                                 </div>
                                 <div class="event-card-title">Year 9 Super Careers</div>
                             </a>
@@ -931,14 +931,14 @@ include('../partials/header.php');
                         
                         <a href="/assets/careers-guidance/Year 8 Air Ambulance.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <!-- <img src="/images/careers/events/year8-air-ambulance.jpg" alt="Year 8 Air Ambulance"> -->
+                                <img src="/images/careers/Air ambulance.jpg" alt="Year 8 Air Ambulance">
                             </div>
                             <div class="event-card-title">Year 8 Air Ambulance</div>
                         </a>
                         
                         <a href="/assets/careers-guidance/National Apprenticeship 2026.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
-                                <!-- <img src="/images/careers/events/national-apprenticeship-week.jpg" alt="National Apprenticeship Week 2026"> -->
+                                <img src="/images/careers/National apprenticeship week.JPG" alt="National Apprenticeship Week 2026">
                             </div>
                             <div class="event-card-title">National Apprenticeship Week 2026</div>
                         </a>
