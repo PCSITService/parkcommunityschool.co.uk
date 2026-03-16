@@ -283,8 +283,8 @@ include('../partials/header.php');
                 <!-- LITERARY FESTIVAL SECTION -->
                 <div class="button-section">
                     <h4><i class="fas fa-star"></i> Park Literary Festival 2026</h4>
-                    <a href="/404.php" target="_blank" class="resource-button">
-                        <!-- https://vimeo.com/REPLACE_WITH_VIDEO_LINK -->
+                    <a href="https://vimeo.com/1173988138?share=copy&fl=sv&fe=ci" target="_blank" class="resource-button">
+                        <!-- https://vimeo.com/1173988138?share=copy&fl=sv&fe=ci -->
                         <i class="fas fa-play-circle"></i> Watch Festival Video
                     </a>
                     <object data="../assets/reading/Park_Literary_Festival_2026_Poster__FD_.pdf" type="application/pdf" width="100%" height="900px" style="border-radius: 8px; margin-top: 1.5rem;">
