@@ -186,7 +186,7 @@ include('../partials/header.php');
                         <li data-policy="child protection safeguarding"><a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                         <li data-policy="complaints procedure"><a href="/assets/policies/Complaints Policy and Procedure - December 2025.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
                         <li data-policy="curriculum subjects"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
-                        <li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li>
+                       <!--<li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li> -->
                         <li data-policy="equality statement objectives diversity"><a href="/assets/policies/Equality statement and objectives 2025-26.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
                         <!--<li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>--> 
                         <li data-policy="financial benchmarking budget spending"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
