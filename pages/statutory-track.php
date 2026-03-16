@@ -12,6 +12,7 @@ $mail->SMTPSecure = 'tls';
 $mail->Port       = 587;
 $mail->setFrom('itservices@parkcommunityschool.co.uk', 'PCS Website');
 $mail->addAddress('j.dixon@pcs.hants.sch.uk');
+$mail->addAddress('c.anders@pcs.hants.sch.uk');
 $mail->Subject    = 'Statutory Page Visited';
 $mail->Body       = 'Someone has clicked the Statutory link on the Park Community School website.';
 $mail->send();
