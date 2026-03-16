@@ -182,15 +182,17 @@ include('../partials/header.php');
                         <li data-policy="admission arrangements admissions"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
                         <li data-policy="behaviour policy conduct"><a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
+                        <li data-policy="Calendar & School Day"><a href="/pages/time-tabling.php" class="policy-link">Calendar & School Day</a></li>
                         <li data-policy="charging and remissions fees payments"><a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
                         <li data-policy="child protection safeguarding"><a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                         <li data-policy="complaints procedure"><a href="/assets/policies/Complaints Policy and Procedure - December 2025.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
                         <li data-policy="curriculum subjects"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                        <!--<li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li> -->
                         <li data-policy="equality statement objectives diversity"><a href="/assets/policies/Equality statement and objectives 2025-26.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
-                        <!--<li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>--> 
+                        <li data-policy="ethos and values"><a href="/assets/statutory/Ethos and Values (March 2026).pdf" target="_blank" class="policy-link">Ethos and Values</a></li>
                         <li data-policy="financial benchmarking budget spending"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
                         <li data-policy="governors allowances"><a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link">Governors' Allowances</a></li>
+                        <li data-policy="governors information"><a href="/governors.php" target="_blank" class="policy-link">Governors' Information</a></li>
                         <li data-policy="key stage 4 results ks4 gcse exam results"><a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link">Key Stage 4 Results</a></li>
                         <li data-policy="leaver destinations"><a href="/assets/statutory/Leavers Destination 2025 Website.pdf" target="_blank" class="policy-link">Leaver Destinations</a></li>
                         <li data-policy="ofsted reports inspection"><a href="/pages/ofsted-reports.php" class="policy-link">Ofsted Reports</a></li>
@@ -200,8 +202,8 @@ include('../partials/header.php');
                         <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC</a></li>
-                        <!--<li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>-->
                         <li data-policy="suspension and permanent exclusion expelled"><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
+                        <li data-policy="Uniform Information"><a href="/pages/uniform.php" class="policy-link">Uniform Information</a></li>
                     </ul>
                     <div id="noResults" class="no-results">No policies found matching your search.</div>
                 </div>

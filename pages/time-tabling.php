@@ -151,7 +151,7 @@ include('../partials/header.php');
                             <span class="resource-icon">📅</span>
                             <div class="resource-title">
                                 <strong>School Calendar</strong>
-                                <span>Important Dates 2024–2025</span>
+                                <span>Important Dates 2025–2026</span>
                             </div>
                         </a>
                         <a href="/assets/timetabling/school-calendar.pdf" download="School-Calendar-2024-2025.pdf" class="download-button" aria-label="Download School Calendar PDF">
@@ -166,7 +166,7 @@ include('../partials/header.php');
                             <span class="resource-icon">⏰</span>
                             <div class="resource-title">
                                 <strong>The School Day</strong>
-                                <span>Shape of the Day 2024–2025</span>
+                                <span>Shape of the Day 2025–2026</span>
                             </div>
                         </a>
                         <a href="/assets/timetabling/school-day.pdf" download="School-Day-2024-2025.pdf" class="download-button" aria-label="Download School Day PDF">
