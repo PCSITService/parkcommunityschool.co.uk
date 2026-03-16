@@ -176,18 +176,6 @@ include('../partials/header.php');
                     <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organised for easy access.</p>
                 </div>
 
-                <!-- Policy Navigation -->
-                <div class="policy-nav">
-                    <a href="/pages/policies.php" class="nav-button">All Policies</a>
-                    <a href="/exams-policies.php" class="nav-button">Exams Policies</a>
-                </div>
-
-                <!-- Search Box -->
-                <div class="search-box">
-                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
-                    <div id="searchResultsCount" class="search-results-count"></div>
-                </div>
-
                 <!-- Policies List -->
                 <div class="policies-list">
                     <ul id="policiesList">
@@ -200,7 +188,7 @@ include('../partials/header.php');
                         <li data-policy="curriculum subjects"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                         <li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li>
                         <li data-policy="equality statement objectives diversity"><a href="/assets/policies/Equality statement and objectives 2025-26.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
-                        <li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>
+                        <!--<li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>--> 
                         <li data-policy="financial benchmarking budget spending"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
                         <li data-policy="governors allowances"><a href="/assets/policies/Governor Allowances - Nov 2024.pdf" target="_blank" class="policy-link">Governors' Allowances</a></li>
                         <li data-policy="key stage 4 results ks4 gcse exam results"><a href="/assets/statutory/Website KS4 Results 2025 GCSEs.pdf" target="_blank" class="policy-link">Key Stage 4 Results</a></li>
@@ -212,11 +200,24 @@ include('../partials/header.php');
                         <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC</a></li>
-                        <li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>
+                        <!--<li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>-->
                         <li data-policy="suspension and permanent exclusion expelled"><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
                     </ul>
                     <div id="noResults" class="no-results">No policies found matching your search.</div>
                 </div>
+
+                <!-- Policy Navigation -->
+                <div class="policy-nav">
+                    <a href="/pages/policies.php" class="nav-button">All Policies</a>
+                    <a href="/exams-policies.php" class="nav-button">Exams Policies</a>
+                </div>
+
+                <!-- Search Box -->
+                <div class="search-box">
+                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
+                    <div id="searchResultsCount" class="search-results-count"></div>
+                </div>
+
 
                 <!-- Policy Information -->
                 <div class="info-box">

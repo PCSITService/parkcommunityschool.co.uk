@@ -149,12 +149,6 @@ include('../partials/header.php');
                     <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organised for easy access.</p>
                 </div>
 
-                <!-- Search Box -->
-                <div class="search-box">
-                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
-                    <div id="searchResultsCount" class="search-results-count"></div>
-                </div>
-
                 <!-- Policies List -->
                 <div class="policies-list">
                     <ul id="policiesList">
@@ -179,7 +173,7 @@ include('../partials/header.php');
                         <li data-policy="equality and diversity"><a href="/assets/policies/Equality and Diversity - December 2024.pdf" target="_blank" class="policy-link">Equality and Diversity</a></li>
                         <li data-policy="equality statement objectives"><a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
                         <li data-policy="e-safety esafety online safety internet"><a href="/assets/policies/esafety.pdf" target="_blank" class="policy-link">E-Safety</a></li>
-                        <li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>
+                        <!--<li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>-->
                         <li data-policy="exams 2024 examinations"><a href="/assets/policies/exams-2024.pdf" target="_blank" class="policy-link">Exams 2024</a></li>
                         <li data-policy="Evacuation"><a href="/assets/policies/Evacuation - January 2026.pdf" target="_blank" class="policy-link">Evacuation</a></li>
                         <li data-policy="financial benchmarking"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
@@ -209,7 +203,7 @@ include('../partials/header.php');
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="sex education rse relationships"><a href="/assets/policies/Relationship  Sex Education - January 2026.pdf" target="_blank" class="policy-link">Sex Education</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social &amp; Cultural)</a></li>
-                        <li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>
+                        <!--<li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>-->
                         <li data-policy="uniform 2025-2026"><a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-link">Uniform 2025-2026</a></li>
                         <li data-policy="volunteering"><a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link">Volunteering</a></li>
                         <li data-policy="work experience"><a href="/assets/policies/work-experience-march-2023.pdf" target="_blank" class="policy-link">Work Experience</a></li>
@@ -217,6 +211,12 @@ include('../partials/header.php');
                         
                     </ul>
                     <div id="noResults" class="no-results">No policies found matching your search.</div>
+                </div>
+
+                <!-- Search Box -->
+                <div class="search-box">
+                    <input type="text" id="policySearch" class="search-input" placeholder="Search for a specific policy or information...">
+                    <div id="searchResultsCount" class="search-results-count"></div>
                 </div>
 
                 <!-- Policy Information -->
