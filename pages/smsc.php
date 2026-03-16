@@ -290,7 +290,7 @@ include('../partials/header.php');
                 </div>
 
                 <div class="topic-section">
-                    <p><strong>Challenge Days</strong> – Challenge days are whole days off curriculum where students learn and take part in activities that are over and above their normal working day, working on SMSC topics in greater depth. The topics covered include Britishness, tolerance, relationships education, citizenship, making informed choices with regards to alcohol and drugs as well as making good career choices. Challenge days are often supported by outside speakers with specialist knowledge and/or real-life experiences in the fields that they are exploring. The days provide invaluable opportunities for students to work outside of their normal comfort zones, which helps to develop their confidence.</p>
+                    <p><strong>Personal Development Days</strong> – Challenge days are whole days off curriculum where students learn and take part in activities that are over and above their normal working day, working on SMSC topics in greater depth. The topics covered include Britishness, tolerance, relationships education, citizenship, making informed choices with regards to alcohol and drugs as well as making good career choices. Challenge days are often supported by outside speakers with specialist knowledge and/or real-life experiences in the fields that they are exploring. The days provide invaluable opportunities for students to work outside of their normal comfort zones, which helps to develop their confidence.</p>
                 </div>
 
                 <div class="topic-section">
