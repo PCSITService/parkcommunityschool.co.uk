@@ -304,7 +304,7 @@
                     <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
-                    <li><a href="/assets/curriculum/Finding What You Love Offer - Website update.pdf">Finding What You Love After School Clubs</a></li>
+                    <li><a href="fwyl-afterschool-clubs.php">Finding What You Love After School Clubs</a></li>
                 </ul>
             </li>
 
