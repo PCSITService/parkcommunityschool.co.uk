@@ -26,6 +26,84 @@ include('../partials/header.php');
         color: #3498db;
         margin-bottom: 1rem;
     }
+
+    /* India 2026 section */
+    .india-section {
+        padding: 2rem 0 3rem;
+        margin-bottom: 0;
+    }
+
+    .india-section h2 {
+        color: #F58220;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .india-section p {
+        line-height: 1.8;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .india-section strong {
+        color: #333;
+    }
+
+    /* Video embed wrapper */
+    .video-wrapper {
+        margin: 1.25rem 0 1.5rem;
+        background: #f5f5f5;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+
+    .video-wrapper video,
+    .video-wrapper iframe {
+        width: 100%;
+        display: block;
+        border: none;
+        border-radius: 10px;
+    }
+
+    /* 5-photo grid: 3 top, 2 centred bottom */
+    .trips-photo-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        margin: 1.5rem 0;
+    }
+
+    .trips-photo-grid .bottom-row {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        max-width: 66.66%;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .trips-photo-grid img,
+    .trips-photo-grid .bottom-row img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 8px;
+        display: block;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+
+    /* What to expect subheading */
+    .what-to-expect-heading {
+        color: #F58220;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 2rem 0 1rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 2px solid #f0f0f0;
+    }
     
     /* Gallery Slideshow */
     .slideshow-container {
@@ -274,6 +352,15 @@ include('../partials/header.php');
         .trips-grid {
             grid-template-columns: 1fr;
         }
+
+        .trips-photo-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .trips-photo-grid .bottom-row {
+            max-width: 100%;
+            grid-template-columns: 1fr;
+        }
     }
     
     @media (max-width: 480px) {
@@ -288,17 +375,15 @@ include('../partials/header.php');
 <section class="content-section intro-section">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
+            <div class="cell large-12">
+                <h2 class="what-to-expect-heading">What to expect from our amazing trips -</h2>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
             <div class="cell medium-7">
-                <h2>Our Trips Are Amazing!</h2>
                 <p>At Park Community School we offer a wide range of trips for students within the local area, our county, country and internationally. School trips are fantastic for transforming theoretical classroom knowledge into tangible, real-world experiences.</p>
                 <p>Trips help to foster personal development, boost confidence, enhance social skills through collaboration, and often provide students with better subject comprehension.</p>
-                <p>Throughout time at Park students will have the opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
-                <p>Payment for current trips is easy – pay online at <a href="https://www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or at reception with card, cash or cheque.</p>
-                
-                <a href="https://www.scopay.com/pcs" target="_blank" class="payment-button">
-                    <i class="fas fa-credit-card"></i>
-                    Make a Payment
-                </a>
+                <p>Throughout time at Park students will have to opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
             </div>
             <div class="cell medium-5">
                 <div class="slideshow-container">
@@ -325,6 +410,28 @@ include('../partials/header.php');
                 </div>
             </div>
         </div>
+
+        <!-- 5-photo grid matching PDF layout: 3 top, 2 centred bottom -->
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-12">
+                <div class="trips-photo-grid">
+                    <img src="/images/trips/TRIPS1.jpg" alt="School trips">
+                    <img src="/images/trips/TRIPS2.jpg" alt="School trips">
+                    <img src="/images/trips/TRIPS3.jpg" alt="School trips">
+                    <div class="bottom-row">
+                        <img src="/images/trips/TRIPS4.jpg" alt="School trips">
+                        <img src="/images/trips/TRIPS5.jpg" alt="School trips">
+                    </div>
+                </div>
+
+                <p>Payment for current trips is easy – pay online at <a href="https://www.scopay.com/pcs" target="_blank">SCO Online Payments</a> or at reception with card, cash or cheque.</p>
+                
+                <a href="https://www.scopay.com/pcs" target="_blank" class="payment-button">
+                    <i class="fas fa-credit-card"></i>
+                    Make a Payment
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -332,10 +439,13 @@ include('../partials/header.php');
 <section class="trips-section">
     <div class="grid-container">
         <h2>Current Trips:</h2>
-            
-            <!-- Trip 1 - Hercules -->
-            <!--<div class="trip-card">
-                <div class="trip-card-header">
+        <div class="trips-grid">
+            <div class="no-trips">
+                <i class="fas fa-suitcase"></i>
+                <p>Sorry there is currently no trips at the moment</p>
+            </div>
+        </div>
+                <!--<div class="trip-card-header">
                     <h3>Hercules the Musical</h3>
                 </div>
                 <div class="trip-card-body">
@@ -360,8 +470,28 @@ include('../partials/header.php');
                         <span class="trip-cost-label">Total Cost</span>
                         <span class="trip-cost-amount">£59</span>
                     </div>
-                </div>
-            </div> -->
+                </div> -->
+    </div>
+</section>
+
+<!-- INDIA 2026 SECTION -->
+<section class="india-section content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-12">
+
+                <h2>India 2026 -</h2>
+
+                <p>The January 2026 Year 9 and 10 India trip offered 20 students, accompanied by 4 staff, a unique 10-day experience in New Delhi and beyond. This culturally rich visit is designed to build bonds beyond borders, giving students the opportunity to explore iconic landmarks such as the Taj Mahal, visit a variety of temples, and spend time in local villages and family homes. Students were fully immersed in daily life through school visits and lessons, while also experiencing traditional food, customs, and ways of living. The trip provided an unforgettable opportunity to develop global awareness, cultural understanding, and lasting connections while truly living the culture.</p>
+
+                <p><strong>Watch our adventures through this short film -</strong></p>
+
+                <a href="https://vimeo.com/1174842121?share=copy&fl=sv&fe=ci" target="_blank" class="payment-button" style="margin: 0.5rem 0 1.5rem; display: inline-flex;">
+                    <i class="fas fa-play-circle"></i>
+                    India 2026 Film
+                </a>
+
+            </div>
         </div>
     </div>
 </section>
