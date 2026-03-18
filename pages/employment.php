@@ -262,6 +262,15 @@ include('../partials/header.php');
         <h2 class="section-header">Current Vacancies</h2>
 
         <article class="vacancy-card">
+            <h3>Early Years Assistant (Nursery)</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-03/Nursery Assistant (L2 or L3) - March 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
             <h3>EHCP Coordinator</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-03/EHCP Coordinator Mar26.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
