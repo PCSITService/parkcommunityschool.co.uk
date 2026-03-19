@@ -202,22 +202,29 @@ include('../partials/header.php');
     <div class="grid-container">
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell medium-7">
-                <p>At Park Community School we are committed to providing ALL students with a great education; securing strong academic outcomes alongside experiences of the curriculum and the world around us which broaden horizons and encourage a love of learning. We encourage students to discover what they love and therefore invest heavily in developing the quality of teaching and enabling all students to access a broad and balanced curriculum, which includes a wealth of experiences outside of the classroom.</p>
+                <p>At Park Community School We aim to help students find what they love and are committed to providing all students with an education that provides strong academic success alongside experiences of the world and the curriculum which broaden horizons and promote a love of learning. We are ambitious for our students and provide an education that enables them to make considered choices about their future.</p>
                 
-                <p>Our Pupil Premium Strategy is focussed on 4 broad areas:</p>
+                <b><p>We invest heavily in securing:</p></b>
                 <ol>
-                    <li>Behaviour for learning that allows all to succeed</li>
-                    <li>Attendance and parental engagement</li>
-                    <li>All students to be able to read at their chronological age and above</li>
-                    <li>High quality teaching which develops independence</li>
+                    <li>High quality teaching which develops students’ subject expertise and passion for learning</li>
+                    <li>A broad, balanced and innovative curriculum</li>
+                    <li>A culture of reading which develops literacy but also cultural capital</li>
+                    <li>Parental engagement and support</li>
+                    <li>Wider cultural experiences designed to broaden students’ experiences of the world, their ambition, and opportunities</li>
                 </ol>
 
-                <p><a href="/assets/pupilpremium/Pupil Premium Statement 2025-2028[NEW].pdf" target="_blank">Pupil Premium Strategy Document</a></p>
+                <b><p>In order to improve:</p></b>
+                <ol>
+                    <li>Attendance</li>
+                    <li>Attainment and reading ages</li>
+                </ol>
+
+                <p><a href="/assets/pupilpremium/Pupil Premium Statement 2025-2028.pdf" target="_blank">Pupil Premium Strategy Document</a></p>
 
                 <p>Our Pupil Premium strategy is based on a comprehensive understanding of our students, their families and the community. We regularly review its impact using internal and external data and current research produced by the Education Endowment Foundation. Park Community School participated in the 'Improving Outcomes for Disadvantaged Learners' project with Hampshire and Rosendale Research, and took part in the Havant Tackling Disadvantage project in partnership with other local schools and HIAS.</p>
             </div>
             <div class="cell medium-5">
-                <img src="/images/pupil-premium/pupil-premium-01.jpg" alt="Park Community School students enjoy school life">
+                <img src="/images/pupil-premium/reading 2 int.jpg" alt="Park Community School students enjoy school life">
             </div>
         </div>
         
@@ -251,30 +258,26 @@ include('../partials/header.php');
     <div class="grid-container">
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell medium-4 medium-order-1 small-order-2 show-for-medium">
-                <img src="/images/pupil-premium/pupil-premium-02.jpg" alt="Park Community School creativity blooms">
+                <img src="/images/pupil-premium/learning for PP.jpg" alt="Park Community School creativity blooms">
             </div>
             <div class="cell medium-8 medium-order-2 small-order-1">
-                <div class="data-box">
-                    <p><strong>2022:</strong> The gap for Basics at 4+ was 14% (non-PP: 33%, PP: 19%). The gap for Basics at 5+ was 6% (non-PP: 12%, PP: 6%)</p>
-                    <p><strong>2023:</strong> The gap for Basics at 4+ was 24% (non-PP: 46%, PP: 22%). The gap for Basics at 5+ was 12% (non-PP: 18%, PP: 6%)</p>
-                    <p><strong>2024:</strong> The gap for Basics at 4+ was 15% (non-PP: 32%, PP: 17%). The gap for Basics at 5+ was 14% (non-PP: 20%, PP: 6%)</p>
-                </div>
+                <P></p>
                 
                 <div class="barriers-box">
                     <p>Main barriers to educational achievement faced by eligible students could include:</p>
                     <ul>
+                        <li>Attendance, Including occasional absence</li>
                         <li>Gaps in learning, including for a significant number of low reading ages that makes accessing texts a significant challenge</li>
                         <li>Reading ages below chronological age</li>
                         <li>Parents who have poor experiences of school, or have not completed further education or in some cases do not value education</li>
                         <li>Large number of siblings</li>
-                        <li>May have experienced significant trauma in earlier years, e.g. alcohol abuse, domestic violence</li>
+                        <li>May have experienced significant trauma in earlier years</li>
                         <li>Lack of trust in, or significant dependence on, outside agencies</li>
                         <li>Inconsistent attendance at school</li>
                         <li>Personal health related and well-being issues</li>
                         <li>Low self-esteem</li>
-                        <li>Low exposure to the wider community which impacts negatively on a student's Cultural Capital</li>
-                        <li>Persistent or severe absence form school</li>
                         <li>Undiagnosed SEND barriers to learning</li>
+                        <li>Limited access to wider cultural experiences</li>
                     </ul>
                     <p><em>This is not an exhaustive list and by no means applies to all students who may qualify for Pupil Premium.</em></p>
                 </div>
@@ -284,7 +287,7 @@ include('../partials/header.php');
 </section>
 
 <!-- INTERVENTIONS SECTION -->
-<section class="content-section">
+<!--<section class="content-section">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell large-12">
@@ -354,10 +357,10 @@ include('../partials/header.php');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- IMPACT MEASUREMENT SECTION -->
-<section class="grey-section">
+<!--<section class="grey-section">
     <div class="grid-container">
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell medium-7 large-8">
@@ -376,10 +379,10 @@ include('../partials/header.php');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- RECOVERY PREMIUM SECTION -->
-<section class="content-section">
+<!--<section class="content-section">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell">
@@ -408,6 +411,6 @@ include('../partials/header.php');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include('../partials/footer.php'); ?>
