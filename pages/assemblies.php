@@ -133,7 +133,7 @@ include('../partials/header.php');
                     <div class="cell medium-6">
                         <ul class="assembly-grid">
                             <li>
-                                <h4>2022-2023</h4>
+                                <h4>2025-2026</h4>
                                 <h5>Autumn 1</h5>
                                 <a href="../assets/assemblies/2022-autumn/body-and-mind-ht1.pdf" target="_blank">Body & Mind</a>
 
@@ -156,7 +156,7 @@ include('../partials/header.php');
                     </div>
                 </div>
 
-                <ul class="accordion" data-accordion data-allow-all-closed="true">
+                <!--<ul class="accordion" data-accordion data-allow-all-closed="true">
                     <li class="accordion-item" data-accordion-item>
                         <a href="#" class="accordion-title">Assemblies 2022</a>
                         <div class="accordion-content" data-tab-content>
@@ -173,7 +173,7 @@ include('../partials/header.php');
                         </div>
                     </li>
 
-                    <li class="accordion-item" data-accordion-item>
+                    <<li class="accordion-item" data-accordion-item>
                         <a href="#" class="accordion-title">Assemblies 2021</a>
                         <div class="accordion-content" data-tab-content>
                             <p><a href="//vimeo.com/showcase/7029024" target="_blank">Virtual assemblies <small>(Vimeo)</small></a></p>
@@ -226,11 +226,11 @@ include('../partials/header.php');
                                 <li><a href="../assets/assemblies/2017-spring/smsc2.pdf" target="_blank">SMSC-2</a></li>
                             </ul>
                         </div>
-                    </li>
+                    </li> 
                 </ul>
 
                 <p class="help-text"><small>Can't see what you're looking for? Please ask at <a href="/pages/contact.php">the school reception</a>.</small></p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
