@@ -236,11 +236,12 @@ include('../partials/header.php');
                 <h3>Aims</h3>
                 <p>To prepare students positively for life in modern Britain, through the promotion of British values, diversity, equality and tolerance of those with different faiths, beliefs and life choices. We also aim to enable students to develop their self-knowledge, self-esteem and self-confidence while giving them the ability to make good life choices and also encouraging them to accept responsibility for their behaviour, its consequences, and how they can contribute to the wider world. The programme also covers the 65 elements of the statutory RSE curriculum to ensure pupils are fully prepared to positively manage their relationship choices both within and beyond their time in school.</p>
 
-                <h4>SMSC Implementation Map</h4>
-                <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p>
+                <!--<h4>SMSC Implementation Map</h4>
+                <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p> -->
 
                 <div class="button-row">
                     <a href="../assets/curriculum/smsc/New overview yeargroup.pdf" class="button" target="_blank">SMSC Overview</a>
+                    <a href="../assets/curriculum/smsc/SMSC.pdf" class="button" target="_blank">Personal Development Curriculum Journey</a>
                 </div>
 
                 <h3>Areas of Study</h3>
@@ -260,7 +261,7 @@ include('../partials/header.php');
                 <h4>'More Than Just a School' – An Expansive Curriculum</h4>
 
                 <div class="curriculum-image">
-                    <img src="../assets/curriculum/science/SMSC.jpg" alt="Expansive Curriculum">
+                    <img src="../assets/curriculum/smsc/smsc-road.jpg" alt="Expansive Curriculum">
                 </div>
 
                 <div class="topic-section">
@@ -277,14 +278,13 @@ include('../partials/header.php');
                 </div>
 
                 <div class="topic-section">
-                    <p><strong>Mentoring</strong> – Mentors have a specific slot during the Tuesday amphitheatre time where they mentor students on a one-to-one basis. These sessions focus on academic achievement and progress as well as community and extra-curricular involvement. It is an essential part of life at Park as we believe that good solid relationships should be forged between at least one adult and student during their time at school. This means that they always feel safe and supported in the school environment. Mentors also have opportunities to meet for one-to-one sessions with students and their parents at the two Student Review Days held at the start of each academic year and at the mid-point in February.</p>
+                    <p><strong>Tutoring</strong> – Tutors have a specific slot during the Tuesday amphitheatre time where they tutor students on a one-to-one basis. These sessions focus on academic achievement and progress as well as community and extra-curricular involvement. It is an essential part of life at Park as we believe that good solid relationships should be forged between at least one adult and student during their time at school. This means that they always feel safe and supported in the school environment. Tutorss also have opportunities to meet for one-to-one sessions with students and their parents at the two Student Review Days held at the start of each academic year and at the mid-point in February.</p>
                 </div>
 
                 <div class="topic-section">
                     <p><strong>Personal Development</strong> – In these daily lessons students work with their mentors. The sessions are divided into three types:</p>
                     <ol>
-                        <li><strong>Reading</strong> – Monday to Thursday. A programme for each year group will cover the key areas of reading aloud, reading in your head and being read to. Students will explore a range of texts from reading lists designed to develop cultural capital as well as selecting their own reading material from the library. Students will develop their active reading skills through the completion of a reading journal.</li>
-                        <li><strong>Mentor Maths</strong> – a weekly class quiz covering different elements of maths, focussing on practising mathematical fluency.</li>
+                        <li><strong>"/pages/reading.php"</a></strong> – Monday to Thursday. A programme for each year group will cover the key areas of reading aloud, reading in your head and being read to. Students will explore a range of texts from reading lists designed to develop cultural capital as well as selecting their own reading material from the library. Students will develop their active reading skills through the completion of a reading journal.</li>
                         <li><strong>Personal Development (SMSC)</strong> – this is a slightly longer weekly discussion-based session. Here students cover issues related to Britishness and Culture (including Citizenship), Careers and Enterprise, Health and Well-being, and Relationships and Sex Education.</li>
                     </ol>
                 </div>
