@@ -254,6 +254,7 @@ include('../partials/header.php');
                     <div class="text-center">
                         <a href="../assets/policies/admissions-2025-2026.pdf" class="button radius primary">Admission Policy 2025-2026</a>
                         <a href="/assets/policies/Admissions Policy 2026-2027.pdf" class="button radius primary">Admission Policy 2026-2027</a>
+                        <a href="/assets/policies/Admissions Policy 2027-2028.pdf" class="button radius primary">Admission Policy 2027-2028</a>
                         <a href="/assets/admissions/pcs_parental_combined_consent_booklet.pdf" target="_blank" class="button radius secondary">Parental Consent Booklet</a>
                     </div>
                 </div>
