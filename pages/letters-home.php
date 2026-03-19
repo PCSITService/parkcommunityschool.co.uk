@@ -142,6 +142,7 @@ include('../partials/header.php');
                 <h4>March 2026</h4>
                 <ul>
                     <li><a href="/assets/letters/2026-03/Parent Letter Easter Holiday Camp -  Youth Impact.pdf" target="_blank">Easter Letter - 30th March 2026</a></li>
+                    <li><a href="/assets/letters/2026-03/Year 9 Options Evening Letter 26.pdf" target="_blank">Year 9 Options Evening - 19th March</a></li>
                     <li><a href="/assets/letters/2026-03/Mock Exam Evening.pdf" target="_blank">Year 11 Mock Results Evening - 19th March</a></li>
                     <li><a href="/assets/letters/2026-03/Amalgamation Letter to Parents March 2026.pdf" target="_blank">Amalgamation Letter - 13th March</a></li>
                     <li><a href="/assets/letters/2026-03/Additional Year 10 Parents Evening.pdf" target="_blank">Year 10 Parents Evening - 4th March</a></li>
