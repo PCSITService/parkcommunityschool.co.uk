@@ -284,7 +284,7 @@ include('../partials/header.php');
                 <div class="topic-section">
                     <p><strong>Personal Development</strong> – In these daily lessons students work with their mentors. The sessions are divided into three types:</p>
                     <ol>
-                        <li><strong>"/pages/reading.php"</a></strong> – Monday to Thursday. A programme for each year group will cover the key areas of reading aloud, reading in your head and being read to. Students will explore a range of texts from reading lists designed to develop cultural capital as well as selecting their own reading material from the library. Students will develop their active reading skills through the completion of a reading journal.</li>
+                        <li><strong><a href="/pages/reading.php" class="_blank">Reading</a></strong> – Monday to Thursday. A programme for each year group will cover the key areas of reading aloud, reading in your head and being read to. Students will explore a range of texts from reading lists designed to develop cultural capital as well as selecting their own reading material from the library. Students will develop their active reading skills through the completion of a reading journal.</li>
                         <li><strong>Personal Development (SMSC)</strong> – this is a slightly longer weekly discussion-based session. Here students cover issues related to Britishness and Culture (including Citizenship), Careers and Enterprise, Health and Well-being, and Relationships and Sex Education.</li>
                     </ol>
                 </div>
