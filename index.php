@@ -261,7 +261,7 @@ include('partials/header.php');
                 <div class="hero-buttons">
                     <a class="button expand success" href="#" id="openModal">Headteacher's Welcome</a>
                     <div class="button-row">
-                        <a class="button warning" href="pages/curriculum.php">GCSE Courses 2025–2026</a>
+                        <a class="button warning" href="/assets/curriculum/Options Booklet 2025 PV. V3.pdf">GCSE Courses</a>
                         <a class="button warning" href="#" id="openExamModal">Exam Information</a>
                     </div>
                     <div class="button-row">
