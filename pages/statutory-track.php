@@ -17,7 +17,7 @@ if (file_exists('/var/www/html/vendor/autoload.php')) {
     $mail->addAddress('c.anders@pcs.hants.sch.uk');
     $mail->addAddress('e.capaldi@pcs.hants.sch.uk');
     $mail->Subject    = 'Statutory Page Visited';
-    $mail->Body       = 'Someone has clicked the Statutory link on the Park Community School website.';
+    $mail->Body = "Someone has clicked the Statutory link on the Park Community School website.\r\n\r\nVisited: " . date('l jS F Y') . ' at ' . date('g:ia') . '.';
     $mail->send();
 }
 
