@@ -268,10 +268,10 @@ include('../partials/header.php');
                     <p><strong>Assemblies</strong> – At Park Community School we have weekly school, year and House assemblies where students gather together for a common purpose. A wide variety of areas are covered which are closely matched in content to different areas of the curriculum. There are common termly themes throughout the year which are underpinned by specific local, British or worldwide celebration and awareness days. This means that there is coherence to the delivery of SMSC across the school as a community.</p>
                 </div>
 
-                <div class="button-row">
+                <!--<div class="button-row">
                     <a href="/pages/assemblies.php" class="button">Assemblies</a>
                     <a href="/pages/religious-education.php" class="button">RE Curriculum</a>
-                </div>
+                </div> -->
 
                 <div class="topic-section">
                     <p><strong>Butterfly Broadcasts</strong> – This is a broadcast, which lasts around 4 minutes, shown during the week in a Personal Development slot. It covers the local, national and international news of the day. It is an important feature of the week as it allows students to consider current affairs, broadening their knowledge of the world around them.</p>
