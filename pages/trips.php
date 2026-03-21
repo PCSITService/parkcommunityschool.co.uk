@@ -381,9 +381,9 @@ include('../partials/header.php');
         </div>
         <div class="grid-x grid-padding-x">
             <div class="cell medium-7">
-                <p>At Park Community School we offer a wide range of trips for students within the local area, our county, country and internationally. School trips are fantastic for transforming theoretical classroom knowledge into tangible, real-world experiences.</p>
-                <p>Trips help to foster personal development, boost confidence, enhance social skills through collaboration, and often provide students with better subject comprehension.</p>
-                <p>Throughout time at Park students will have to opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. We offer diverse learning experiences beyond the classroom.</p>
+                <p>At Park Community School we offer a wide range of trips for students within the local area, Hampshire, the UK and internationally. School trips are fantastic for transforming theoretical classroom knowledge into tangible, real-world experiences.</p>
+                <p>Our trips enrich learning, offering students memorable experiences that extend far beyond the classroom. Through a range of local, national, and international visits—including both day trips and residential opportunities—students are able to deepen their understanding of the curriculum while developing essential life skills. In addition, our trips help to foster personal development, boost confidence, enhance social skills through collaboration, and often provide students with better subject comprehension.</p>
+                <p>Throughout time at Park students will have to opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. </p>
             </div>
             <div class="cell medium-5">
                 <div class="slideshow-container">
