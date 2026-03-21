@@ -240,7 +240,7 @@ include('../partials/header.php');
                 <p><a href="../assets/curriculum/smsc.pdf" target="_blank">Our SMSC Curriculum</a></p> -->
 
                 <div class="button-row">
-                    <a href="../assets/curriculum/smsc/New overview yeargroup.pdf" class="button" target="_blank">SMSC Overview</a>
+                    <a href="../assets/curriculum/smsc/SMSC Overview 2025 2026 single side .pdf" class="button" target="_blank">SMSC Overview</a>
                     <a href="../assets/curriculum/smsc/SMSC.pdf" class="button" target="_blank">Personal Development Curriculum Journey</a>
                 </div>
 
