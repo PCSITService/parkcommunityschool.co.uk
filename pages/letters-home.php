@@ -145,6 +145,7 @@ include('../partials/header.php');
                     <li><a href="/assets/letters/2026-03/CYE Letter – October 2026.pdf" target="_blank">CYE Letter - 19th March</a></li>
                     <li><a href="/assets/letters/2026-03/Year 9 Options Evening Letter 26.pdf" target="_blank">Year 9 Options Evening - 19th March</a></li>
                     <li><a href="/assets/letters/2026-03/Mock Exam Evening.pdf" target="_blank">Year 11 Mock Results Evening - 19th March</a></li>
+                    <li><a href="/assets/letters/2026-03/Barcelona 2026.pdf" target="_blank">Year 9-10 Barcelona - 17th March</a></li>
                     <li><a href="/assets/letters/2026-03/Amalgamation Letter to Parents March 2026.pdf" target="_blank">Amalgamation Letter - 13th March</a></li>
                     <li><a href="/assets/letters/2026-03/Additional Year 10 Parents Evening.pdf" target="_blank">Year 10 Parents Evening - 4th March</a></li>
                     <li><a href="/assets/letters/2026-03/Park Literary Festival 2026 Poster (FD).pdf" target="_blank">Park Literary Festival 2nd - 6th March 2026</a></li>

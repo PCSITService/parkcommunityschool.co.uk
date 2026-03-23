@@ -306,6 +306,40 @@ include('../partials/header.php');
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 0.75rem;
+    }
+    
+    .trip-letter-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0.75rem 1rem;
+        background: linear-gradient(135deg, #3498db, #2980b9);
+        color: white !important;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: all 0.2s ease;
+        box-shadow: 0 3px 8px rgba(52, 152, 219, 0.4);
+        border-bottom: 3px solid #1f6aa5;
+        box-sizing: border-box;
+        letter-spacing: 0.02em;
+    }
+    
+    .trip-letter-btn:hover {
+        background: linear-gradient(135deg, #2980b9, #1f6aa5);
+        color: white !important;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 12px rgba(52, 152, 219, 0.5);
+    }
+    
+    .trip-letter-btn:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 4px rgba(52, 152, 219, 0.4);
+        border-bottom-width: 1px;
     }
     
     .trip-cost-label {
@@ -440,37 +474,43 @@ include('../partials/header.php');
     <div class="grid-container">
         <h2>Current Trips:</h2>
         <div class="trips-grid">
-            <div class="no-trips">
+            <!--<div class="no-trips">
                 <i class="fas fa-suitcase"></i>
                 <p>Sorry there is currently no trips at the moment</p>
-            </div>
-        </div>
-                <!--<div class="trip-card-header">
-                    <h3>Hercules the Musical</h3>
+            </div>-->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>Barcelona 2026</h3>
                 </div>
                 <div class="trip-card-body">
                     <div class="trip-detail">
                         <i class="fas fa-calendar-alt"></i>
                         <strong>Date:</strong>
-                        <span>Thursday 8th January 2026</span>
+                        <span>5th October 2026</span>
                     </div>
                     <div class="trip-detail">
                         <i class="fas fa-user"></i>
                         <strong>Lead:</strong>
-                        <span>Jodie Brown</span>
+                        <span>Marie Dermy</span>
                     </div>
                     <div class="trip-detail">
                         <i class="fas fa-users"></i>
                         <strong>Year Group:</strong>
-                        <span>Years 7–11</span>
+                        <span>Years 9–10</span>
                     </div>
                 </div>
                 <div class="trip-card-footer">
                     <div class="trip-cost">
                         <span class="trip-cost-label">Total Cost</span>
-                        <span class="trip-cost-amount">£59</span>
+                        <span class="trip-cost-amount">£700</span>
                     </div>
-                </div> -->
+                    <a href="/assets/letters/2026-03/Barcelona 2026.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+            </div><!-- /.trip-card -->
+        </div><!-- /.trips-grid -->
     </div>
 </section>
 
