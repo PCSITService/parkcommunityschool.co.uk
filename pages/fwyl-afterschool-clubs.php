@@ -275,6 +275,13 @@ include('../partials/header.php');
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-HB2.jpg"          alt="Hair and Beauty"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Performance.jpg"  alt="Performance"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Swimming.jpg"     alt="Swimming"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs Page.jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL BB .jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - GFB.jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - bee2.jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL clubs... .jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - bee22.jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs page.. .jpg"     alt="club"></div>
                         </div>
                     </div>
 

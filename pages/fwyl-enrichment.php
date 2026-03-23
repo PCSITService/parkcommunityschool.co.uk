@@ -73,7 +73,6 @@ include('../partials/header.php');
         color: #d96f1a;
     }
 
-
     /* Much More Than – text + float-right images */
     .mmt-item {
         overflow: hidden;
@@ -90,6 +89,21 @@ include('../partials/header.php');
         border-radius: 6px;
         margin: 0 0 0.75rem 1.25rem;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Two images side by side float for mmt-item */
+    .mmt-item .mmt-images {
+        float: right;
+        display: flex;
+        gap: 0.75rem;
+        margin: 0 0 0.75rem 1.25rem;
+    }
+
+    .mmt-item .mmt-images img {
+        float: none;
+        margin: 0;
+        width: 200px;
+        height: 155px;
     }
 
     /* 3-column image grid used for Representing Park & Trips */
@@ -118,6 +132,16 @@ include('../partials/header.php');
             width: 100%;
             height: 180px;
             margin: 0 0 1rem 0;
+        }
+
+        .mmt-item .mmt-images {
+            float: none;
+            flex-direction: column;
+            margin: 0 0 1rem 0;
+        }
+
+        .mmt-item .mmt-images img {
+            width: 100%;
         }
 
         .three-image-grid {
@@ -176,7 +200,10 @@ include('../partials/header.php');
                 </div>
 
                 <div class="mmt-item">
-                    <img src="../images/fwyl-enrichment/Enrichment-kitchen.jpg" alt="Catering in The School Kitchen">
+                    <div class="mmt-images">
+                        <img src="../images/fwyl-enrichment/Enrichment - media.jpg"   alt="Media skills in The Media Suite">
+                        <img src="../images/fwyl-enrichment/Enrichment-kitchen.jpg" alt="Catering in The School Kitchen">
+                    </div>
                     <p><strong>Media skills in The Media Suite:</strong> Students learn about the production skills in the suite and apply the to a simple podcast or recording interview.</p>
                     <p><strong>Catering in The School Kitchen</strong>: Students experienced life in a working kitchen, learning basic food prep skills and contributing to preparing food for our school community.</p>
                 </div>
@@ -197,10 +224,25 @@ include('../partials/header.php');
                 <!-- Representing Park -->
                 <h3>Representing Park –</h3>
 
+                <!-- Row 1: existing ambassador images -->
                 <div class="three-image-grid">
-                    <img src="../images/fwyl-enrichment/Enrichment-Sports- Ambassadors1.jpg" alt="Representing Park">
-                    <img src="../images/fwyl-enrichment/Enrichment-Sports- Ambassadors 2.jpg" alt="Representing Park">
-                    <img src="../images/fwyl-enrichment/Enrichment-PA- Ambassadors.jpg" alt="Representing Park">
+                    <img src="../images/fwyl-enrichment/Enrichment-Sports- Ambassadors1.jpg"  alt="Representing Park – Sports Ambassadors">
+                    <img src="../images/fwyl-enrichment/Enrichment-Sports- Ambassadors 2.jpg" alt="Representing Park – Sports Ambassadors">
+                    <img src="../images/fwyl-enrichment/Enrichment-PA- Ambassadors.jpg"        alt="Representing Park – Performing Arts Ambassadors">
+                </div>
+
+                <!-- Row 2: language ambassadors & dance -->
+                <div class="three-image-grid">
+                    <img src="../images/fwyl-enrichment/Prepresenting Park - lang ambas.jpg" alt="Representing Park – Language Ambassadors">
+                    <img src="../images/fwyl-enrichment/Representing park - Lang.jpg"        alt="Representing Park – Language Ambassador teaching">
+                    <img src="../images/fwyl-enrichment/Representing - dance live.jpg" alt="Representing Park – Dance Live">
+                </div>
+
+                <!-- Row 3: sport representing images -->
+                <div class="three-image-grid">
+                    <img src="../images/fwyl-enrichment/Representing park - BB .jpg"  alt="Representing Park – Basketball">
+                    <img src="../images/fwyl-enrichment/Representing park FB.jpg"  alt="Representing Park – Football">
+                    <img src="../images/fwyl-enrichment/Representing park GFB.jpg" alt="Representing Park – Girls Football">
                 </div>
 
                 <p>Our <strong>ambassador programmes</strong> provide students with meaningful opportunities to take on leadership roles, represent their peers, and contribute positively to the school community. Whether as STEM, Reading, Performing Arts, Language, or Sports Ambassadors, students play an active role in shaping and promoting key areas of school life.</p>
@@ -229,7 +271,7 @@ include('../partials/header.php');
 
                 <div class="three-image-grid">
                     <img src="../images/fwyl-enrichment/Enrichment-Trips1.jpg" alt="School trips">
-                    <img src="../images/fwyl-enrichment/Enrichment-Trip2.jpg" alt="School trips">
+                    <img src="../images/fwyl-enrichment/Enrichment-Trip2.jpg"  alt="School trips">
                     <img src="../images/fwyl-enrichment/Enrichment-Trips3.jpg" alt="School trips">
                 </div>
 

@@ -396,9 +396,11 @@ include('../partials/header.php');
 
                 <p>Students spend time at Park's print shop, working as a team to complete a problem-solving challenge, learning about printing processes and having an introduction to design.</p>
 
-                <div class="two-image-grid">
+                <div class="four-image-grid">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Enterprise1.jpg" alt="Enterprise at Park Design and Print">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Enterprise2.jpg" alt="Enterprise at Park Design and Print">
+                    <img src="../images/fwyl-mmtjas/MMTJAS - daisy.jpg" alt="Enterprise at Park Design and Print">
+                    <img src="../images/fwyl-mmtjas/MMTJAS - PDP .jpg" alt="Enterprise at Park Design and Print">
                 </div>
 
                 <table class="curriculum-table">
@@ -445,10 +447,11 @@ include('../partials/header.php');
 
                 <p>Students will experience of a working catering environment. Application of the 4C's to a real-life catering establishment.</p>
 
-                <div class="three-image-grid">
+                <div class="four-image-grid">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Catering1.jpg" alt="Catering in The School Kitchen">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Catering2.jpg" alt="Catering in The School Kitchen">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Catering3.jpg" alt="Catering in The School Kitchen">
+                    <img src="../images/fwyl-mmtjas/MMTJAS - Catering  .jpg" alt="Catering in The School Kitchen">
                 </div>
 
                 <table class="curriculum-table">
@@ -499,9 +502,11 @@ include('../partials/header.php');
 
                 <p>Students will experience of construction skills and their relevance to real life settings.</p>
 
-                <div class="two-image-grid">
+                <div class="four-image-grid">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Construction1.jpg" alt="Construction skills at The Apex Centre">
                     <img src="../images/fwyl-mmtjas/MMTJAS - Construction2.jpg" alt="Construction skills at The Apex Centre">
+                    <img src="../images/fwyl-mmtjas/MMTJAS construction....jpg" alt="Construction skills at The Apex Centre">
+                    <img src="../images/fwyl-mmtjas/MMTJAS - construction .jpg" alt="Construction skills at The Apex Centre">
                 </div>
 
                 <table class="curriculum-table">
