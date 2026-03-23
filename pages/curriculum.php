@@ -28,31 +28,12 @@ include('../partials/header.php');
     }
 
     .curriculum-layout {
-        display: grid;
-        grid-template-columns: 300px 1fr;
-        gap: 3rem;
-        align-items: start;
+        display: block;
+        max-width: 1100px;
+        margin: 0 auto;
     }
 
-    /* Sidebar */
-    .sidebar {
-        background: white;
-        border-radius: 15px;
-        padding: 2rem;
-        box-shadow: var(--shadow);
-        position: sticky;
-        top: 2rem;
-        border: 1px solid #f0f0f0;
-    }
-
-    .sidebar h4 {
-        color: var(--learning-color);
-        font-weight: 700;
-        margin-bottom: 1.5rem;
-        font-size: 1.3rem;
-    }
-
-    /* Main Content */
+/* Main Content */
     .main-content-area {
         background: white;
         border-radius: 15px;
@@ -67,13 +48,13 @@ include('../partials/header.php');
         margin-bottom: 3rem;
     }
 
-.learners-image img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: var(--shadow);
-}
+    .learners-image img {
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: var(--shadow);
+    }
 
     /* Content Typography */
     .main-content-area h3 {
@@ -150,108 +131,190 @@ include('../partials/header.php');
         color: white;
     }
 
-    .cta-button i {
-        margin-right: 0.5rem;
-    }
-
-    /* Year Group Accordion */
+    /* Year Groups Section */
     .year-groups-section {
         margin: 3rem 0;
     }
 
     .year-groups-title {
         font-size: 1.8rem;
-        color: var(--primary-color);
+        color: #a3cd40;
         margin-bottom: 2rem;
         font-weight: 700;
     }
 
-    .year-accordion {
-        background: white;
-        border-radius: 15px;
-        overflow: hidden;
-        box-shadow: var(--shadow);
-        margin-bottom: 1rem;
+    /* ── KS Block wrapper ── */
+    .ks-block {
+        margin-bottom: 2.5rem;
+        opacity: 0;
+        transform: translateY(18px);
+        animation: fadeInUp 0.5s ease forwards;
+    }
+    .ks-block:nth-child(2) { animation-delay: 0.05s; }
+    .ks-block:nth-child(3) { animation-delay: 0.15s; }
+    .ks-block:nth-child(4) { animation-delay: 0.25s; }
+    .ks-block:nth-child(5) { animation-delay: 0.35s; }
+
+    @keyframes fadeInUp {
+        to { opacity: 1; transform: translateY(0); }
     }
 
-    .year-header {
-        background: var(--learning-gradient);
-        color: white;
-        padding: 1.5rem 2rem;
-        cursor: pointer;
+    /* ── KS block header ── */
+    .ks-block-header {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        transition: all 0.3s ease;
-        text-decoration: none;
+        gap: 12px;
+        margin-bottom: 14px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f0f0f0;
     }
-
-    .year-header:hover {
-        background: linear-gradient(135deg, #2a4d8d, #2980b9);
-        text-decoration: none;
-        color: white;
-    }
-
-    .year-title {
-        font-size: 1.3rem;
-        font-weight: 600;
+    .ks-block-header h5 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #a3cd40;
         margin: 0;
     }
 
-    .year-icon {
-        font-size: 1.2rem;
-        transition: transform 0.3s ease;
+    .ks-tag {
+        background: #a3cd40;
+        color: #050505;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 100px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .ks-tag--green  { background: #a3cd40; }
+    .ks-tag--orange { background: #a3cd40; }
+
+    /* ── Compulsory bar ── */
+    .compulsory-bar {
+        background: #a3cd4014;
+        border: 1px solid #a3cd409b;
+        border-left: 4px solid #a3cd40;
+        border-radius: 0 10px 10px 0;
+        padding: 13px 18px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 5px 8px;
+    }
+    .compulsory-label {
+        font-size: 11px;
+        font-weight: 700;
+        color: #a3cd40;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        white-space: nowrap;
+    }
+    .compulsory-subjects {
+        font-size: 13px;
+        color: #334155;
+        line-height: 1.6;
     }
 
-    .year-content {
-        padding: 2rem;
-        border-top: 1px solid #f0f0f0;
-        display: none;
+    .compulsory-subjects a {
+        color: #334155;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .compulsory-subjects a:hover {
+        color: #a3cd40;
+        text-decoration: underline;
     }
 
-    .year-content.active {
-        display: block;
+    /* ── Options heading ── */
+    .options-heading {
+        font-size: 11px !important;
+        font-weight: 700 !important;
+        color: #94a3b8 !important;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin-bottom: 12px !important;
     }
 
-    .year-header.active .year-icon {
-        transform: rotate(180deg);
-    }
-
+    /* ── Subject list grid ── */
     .subject-list {
         list-style: none;
         padding-left: 0;
         margin: 0;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: 8px;
+    }
+    .subject-list--full {
+        grid-template-columns: 1fr;
     }
 
+    /* ── Subject card — "The Arts" style ── */
     .subject-item {
         background: var(--bg-light);
-        padding: 1rem;
-        border-radius: 10px;
-        border-left: 4px solid var(--learning-color);
-        transition: all 0.3s ease;
+        border: 1px solid #e2e8f0;
+        border-left: 4px solid #a3cd40;
+        border-radius: 0 8px 8px 0;
+        transition: all 0.18s ease;
+        overflow: hidden;
+        position: relative;
     }
-
+    .subject-item::before {
+        content: '';
+        position: absolute;
+        left: 0; top: 0; bottom: 0;
+        width: 0;
+        background: #a3cd40;
+        opacity: 0.05;
+        transition: width 0.2s ease;
+    }
+    .subject-item:hover::before { width: 100%; }
     .subject-item:hover {
-        background: #e8f4fd;
-        transform: translateX(5px);
+        transform: translateY(-2px) translateX(2px);
+        box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+        border-left-width: 6px;
     }
-
-    .subject-item strong {
-        color: var(--learning-color);
-    }
-
-    /* Links within content */
     .subject-item a {
-        color: var(--accent-color);
-        text-decoration: none;
+        display: block;
+        padding: 11px 14px;
+        font-size: 13.5px;
         font-weight: 600;
+        color: #334155;
+        text-decoration: none !important;
+        position: relative;
     }
+    .subject-item a:hover { text-decoration: none !important; color: #7aad10; }
 
-    .subject-item a:hover {
-        text-decoration: underline;
+    /* KS4 accent */
+    .subject-item--ks4  { border-left-color: #a3cd40; }
+    .subject-item--ks4::before { background: #a3cd40; }
+    .subject-item--ks4 a:hover { color: #7aad10; }
+
+    /* Enrichment accent */
+    .subject-item--enrich { border-left-color: #a3cd40; }
+    .subject-item--enrich::before { background: #a3cd40; }
+    .subject-item--enrich a:hover { color: #7aad10; }
+
+    /* Wide item (spans full row) */
+    .subject-item--wide { grid-column: 1 / -1; }
+
+    /* Tagged item (Year 7 only pill) */
+    .subject-item--tagged a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    .subject-tag {
+        font-size: 10px;
+        font-weight: 700;
+        color: #000000;
+        background: #a3cd4077;
+        padding: 2px 8px;
+        border-radius: 100px;
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 
     /* Download Section */
@@ -312,8 +375,13 @@ include('../partials/header.php');
         }
 
         .subject-list {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
         }
+        .subject-item--wide { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 480px) {
+        .subject-list { grid-template-columns: 1fr; }
     }
 
     /* Focus styles */
@@ -328,43 +396,13 @@ include('../partials/header.php');
         transform: translateY(20px);
         animation: fadeInUp 0.6s ease forwards;
     }
-
-    @keyframes fadeInUp {
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .subject-item-full {
-    background: var(--bg-light);
-    padding: 1rem;
-    border-radius: 10px;
-    border-left: 4px solid var(--learning-color);
-    transition: all 0.3s ease;
-    grid-column: 1 / -1;
-}
-
-.subject-item-full:hover {
-    background: #e8f4fd;
-    transform: translateX(5px);
-}
-
-.subject-item-full strong {
-    color: var(--learning-color);
-}
 </style>
 
 <!-- MAIN CONTENT -->
 <section class="main-content">
     <div class="grid-container">
         <div class="curriculum-layout">
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <?php include('../includes/curriculum-subjects.html') ?>
-            </div>
-
-            <!-- Main Content Area -->
+<!-- Main Content Area -->
             <div class="main-content-area fade-in">
                 <div class="learners-image">
                     <img src="../assets/curriculum/great-learners-2026.png" alt="Great Learners at Park Community School">
@@ -392,104 +430,104 @@ include('../partials/header.php');
                 
                 <p>When planning curriculum, subject leaders use the National Curriculum, GCSE syllabi and subject specific research to develop curriculums that match our curriculum vision.</p>
 
-                <!--<div class="text-center">
-                    <a role="button" target="_blank" href="../assets/curriculum/curriculum.jpg" class="cta-button">
-                        <i class="fas fa-eye" aria-hidden="true"></i>
-                        Curriculum Intent Review and Delivery
-                    </a>
-                </div>-->
-
                 <!-- Year Groups Section -->
                 <div class="year-groups-section">
                     <h4 class="year-groups-title">Which subjects do students study?</h4>
 
-                    <div class="year-accordion">
-                        <a href="#year7" class="year-header" data-year="year7">
-                            <h5 class="year-title">Year 7</h5>
-                            <i class="fas fa-chevron-down year-icon" aria-hidden="true"></i>
-                        </a>
-                        <div id="year7" class="year-content">
-                            <ul class="subject-list">
-                                <li class="subject-item-full"><strong>Core and Cultural:</strong><br>STAR: English, History, Geography, RE<br>Maths, Science, Spanish</li>
-                                <li class="subject-item"><strong>The Arts:</strong> Art, Dance, Drama, Music</li>
-                                <li class="subject-item"><strong>Physical Education:</strong> PE</li>
-                                <li class="subject-item"><strong>Design and Technology:</strong> Food and Design Technology</li>
-                                <li class="subject-item"><strong>Much More Than...:</strong> Students visit our small holding, participate in an enterprise project at our print business <a href="design-print.php" target="_blank">(PDP)</a> and develop culinary skills in our school <a href="catering.php" target="_blank">kitchen</a></li>
-                                <li class="subject-item"><strong>Technology:</strong> IT opportunities built across curriculum and through Computer Science</li>
-                                <li class="subject-item"><strong>SMSC:</strong> Including mentoring and personal development</li>
-                            </ul>
+                    <!-- KS3 -->
+                    <div class="ks-block ks3-block">
+                        <div class="ks-block-header">
+                            <span class="ks-tag">KS3</span>
+                            <h5>At Key Stage 3 students study</h5>
                         </div>
+                        <ul class="subject-list">
+                            <li class="subject-item"><a href="/art.php">Art</a></li>
+                            <li class="subject-item"><a href="/english.php">English</a></li>
+                            <li class="subject-item"><a href="/catering.php">Catering</a></li>
+                            <li class="subject-item"><a href="/computer-science.php">Computer Science</a></li>
+                            <li class="subject-item"><a href="/geography.php">Geography</a></li>
+                            <li class="subject-item"><a href="/history.php">History</a></li>
+                            <li class="subject-item"><a href="/horticulture.php">Horticulture</a></li>
+                            <li class="subject-item"><a href="/mathematics.php">Mathematics</a></li>
+                            <li class="subject-item"><a href="/dance.php">Dance</a></li>
+                            <li class="subject-item"><a href="/drama.php">Drama</a></li>
+                            <li class="subject-item"><a href="/music.php">Music</a></li>
+                            <li class="subject-item"><a href="/pe.php">Physical Education</a></li>
+                            <li class="subject-item"><a href="/religious-education.php">Religious Education</a></li>
+                            <li class="subject-item"><a href="/science.php">Science</a></li>
+                            <li class="subject-item"><a href="/modern-foreign-languages.php">Spanish</a></li>
+                            <li class="subject-item subject-item--tagged"><a href="/star.php">STAR <span class="subject-tag">Year 7 only</span></a></li>
+                            <li class="subject-item"><a href="/technology.php">Technology</a></li>
+                        </ul>
                     </div>
 
-                    <div class="year-accordion">
-                        <a href="#year8" class="year-header" data-year="year8">
-                            <h5 class="year-title">Year 8</h5>
-                            <i class="fas fa-chevron-down year-icon" aria-hidden="true"></i>
-                        </a>
-                        <div id="year8" class="year-content">
-                            <ul class="subject-list">
-                                <li class="subject-item"><strong>Core Subjects:</strong> English, Maths and Science</li>
-                                <li class="subject-item"><strong>Cultural:</strong> Geography, History, Religious Education, Spanish, French</li>
-                                <li class="subject-item"><strong>The Arts:</strong> Art, Dance, Drama, Music</li>
-                                <li class="subject-item"><strong>Physical Education:</strong> PE</li>
-                                <li class="subject-item"><strong>Design and Technology:</strong> Food and Design Technology</li>
-                                <li class="subject-item"><strong>Much More Than...:</strong> Students visit our small holding, learn construction skills in our <a href="apex-centre.php" target="_blank">Apex Centre</a> and develop catering skills in our school <a href="catering.php" target="_blank">kitchen</a></li>
-                                <li class="subject-item"><strong>Technology:</strong> IT opportunities built across curriculum and through Computer Science</li>
-                                <li class="subject-item"><strong>SMSC:</strong> Including mentoring and personal development</li>
-                            </ul>
+                    <!-- KS4 -->
+                    <div class="ks-block ks4-block">
+                        <div class="ks-block-header">
+                            <span class="ks-tag ks-tag--green">KS4</span>
+                            <h5>At Key Stage 4 students study</h5>
                         </div>
+
+                        <div class="compulsory-bar">
+                            <span class="compulsory-label">All students:</span>
+                            <span class="compulsory-subjects">
+                                <a href="/english.php">English Language</a>,
+                                <a href="/english.php">English Literature</a>,
+                                <a href="/mathematics.php">Mathematics</a>,
+                                <a href="/science.php">Science</a>,
+                                <a href="/religious-education.php">Religious Education</a>,
+                                <a href="/pe.php">Physical Education</a>,
+                                <a href="/smsc.php">SMSC</a>
+                            </span>
+                        </div>
+
+                        <p class="options-heading">4 options from the following</p>
+
+                        <ul class="subject-list">
+                            <li class="subject-item subject-item--ks4"><a href="/art.php">Art and Design: 3D</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/art.php">Art and Design: Graphics</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/computer-science.php">Computer Science</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/dance.php">Dance</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/drama.php">Drama</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/geography.php">Geography</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/hair-beauty.php">Hair and Beauty</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/health-social-care.php">Health and Social Care</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/history.php">History</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/catering.php">Hospitality and Catering</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/photography.php">Photography</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/psychology.php">Psychology</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/music.php">Music</a></li>
+                           <!-- <li class="subject-item subject-item--ks4"><a href="/performing-arts.php">Musical Theatre</a></li>-->
+                            <li class="subject-item subject-item--ks4"><a href="/modern-foreign-languages.php">Spanish</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/art.php">Textiles</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/travel-tourism.php">Travel and Tourism</a></li>
+                        </ul>
                     </div>
 
-                    <div class="year-accordion">
-                        <a href="#year9" class="year-header" data-year="year9">
-                            <h5 class="year-title">Year 9</h5>
-                            <i class="fas fa-chevron-down year-icon" aria-hidden="true"></i>
-                        </a>
-                        <div id="year9" class="year-content">
-                            <ul class="subject-list">
-                                <li class="subject-item"><strong>Core Subjects:</strong> English, Maths and Science</li>
-                                <li class="subject-item"><strong>Cultural:</strong> Geography, History, Religious Education, Spanish</li>
-                                <li class="subject-item"><strong>The Arts:</strong> Art, Dance, Drama, Music</li>
-                                <li class="subject-item"><strong>Design and Technology:</strong> Food and Design Technology</li>
-                                <li class="subject-item"><strong>Physical Education:</strong> PE</li>
-                                <li class="subject-item"><strong>Much More Than...:</strong> Students visit our small holding, learn construction skills in our <a href="apex-centre.php" target="_blank">Apex Centre</a> and develop catering skills in our school <a href="catering.php" target="_blank">kitchen</a></li>
-                                <li class="subject-item"><strong>Technology:</strong> IT opportunities built across curriculum and through Computer Science</li>
-                                <li class="subject-item"><strong>SMSC:</strong> Including mentoring and personal development</li>
-                            </ul>
+                    <!-- SMSC -->
+                    <div class="ks-block smsc-block">
+                        <div class="ks-block-header">
+                            <span class="ks-tag">SMSC</span>
+                            <h5>Personal Development</h5>
                         </div>
+                        <ul class="subject-list subject-list--full">
+                            <li class="subject-item"><a href="/smsc.php" target="_blank">SMSC</a></li>
+                        </ul>
                     </div>
 
-                    <div class="year-accordion">
-                        <a href="#year10" class="year-header" data-year="year10">
-                            <h5 class="year-title">Year 10</h5>
-                            <i class="fas fa-chevron-down year-icon" aria-hidden="true"></i>
-                        </a>
-                        <div id="year10" class="year-content">
-                            <ul class="subject-list">
-                                <li class="subject-item"><strong>Core:</strong> English Language and English Literature, Maths</li>
-                                <li class="subject-item"><strong>Science:</strong> Combined Science, Triple Science</li>
-                                <li class="subject-item"><strong>Compulsory:</strong> Core PE and Religious Education</li>
-                                <li class="subject-item"><strong>Options:</strong> 3 subjects from: Art, Computer Science, Construction, Dance, Drama, Graphics, Horticulture, Food and Nutrition, Geography, History, Music, Photography, Resistant Materials, RS, Spanish, Statistics</li>
-                                <li class="subject-item"><strong>SMSC:</strong> Including mentoring and personal development</li>
-                            </ul>
+                    <!-- Enrichment -->
+                    <div class="ks-block enrich-block">
+                        <div class="ks-block-header">
+                            <span class="ks-tag ks-tag--orange">Enrichment</span>
+                            <h5>Beyond the Classroom</h5>
                         </div>
+                        <ul class="subject-list subject-list--full">
+                            <li class="subject-item subject-item--enrich"><a href="fwyl-enrichment.php">Finding What You Love — Enrichment Opportunities</a></li>
+                            <li class="subject-item subject-item--enrich"><a href="fwyl-mmtjas.php">Much More Than Just a School Carousel</a></li>
+                            <li class="subject-item subject-item--enrich"><a href="fwyl-afterschool-clubs.php">Finding What You Love — After School Clubs</a></li>
+                        </ul>
                     </div>
 
-                    <div class="year-accordion">
-                        <a href="#year11" class="year-header" data-year="year11">
-                            <h5 class="year-title">Year 11</h5>
-                            <i class="fas fa-chevron-down year-icon" aria-hidden="true"></i>
-                        </a>
-                        <div id="year11" class="year-content">
-                            <ul class="subject-list">
-                                <li class="subject-item"><strong>Core:</strong> English Language and English Literature, Maths</li>
-                                <li class="subject-item"><strong>Science:</strong> Science</li>
-                                <li class="subject-item"><strong>Compulsory:</strong> Core PE and Religious Education</li>
-                                <li class="subject-item"><strong>Options:</strong> 3 subjects from: Art, Dance, Food and Nutrition, Geography, History, Music, Photography, Resistant Materials, Spanish, Psychology, Statistics</li>
-                                <li class="subject-item"><strong>SMSC:</strong> Including mentoring and personal development</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Download Section -->
@@ -505,68 +543,5 @@ include('../partials/header.php');
         </div>
     </div>
 </section>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Year accordion functionality
-        const yearHeaders = document.querySelectorAll('.year-header');
-        
-        yearHeaders.forEach(header => {
-            header.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const yearId = this.getAttribute('data-year');
-                const content = document.getElementById(yearId);
-                
-                // Close all other accordions
-                document.querySelectorAll('.year-content').forEach(otherContent => {
-                    if (otherContent.id !== yearId) {
-                        otherContent.classList.remove('active');
-                    }
-                });
-                
-                document.querySelectorAll('.year-header').forEach(otherHeader => {
-                    if (otherHeader !== this) {
-                        otherHeader.classList.remove('active');
-                    }
-                });
-                
-                // Toggle current accordion
-                content.classList.toggle('active');
-                this.classList.toggle('active');
-            });
-        });
-
-        // Open first year by default
-        const firstHeader = document.querySelector('.year-header');
-        if (firstHeader) {
-            firstHeader.click();
-        }
-
-        // Intersection Observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        // Animate year accordions
-        const yearAccordions = document.querySelectorAll('.year-accordion');
-        yearAccordions.forEach((accordion, index) => {
-            accordion.style.opacity = '0';
-            accordion.style.transform = 'translateY(30px)';
-            accordion.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
-            observer.observe(accordion);
-        });
-    });
-</script>
 
 <?php include('../partials/footer.php'); ?>
