@@ -271,15 +271,6 @@ include('../partials/header.php');
         </article>
 
         <article class="vacancy-card">
-            <h3>EHCP Coordinator</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-03/EHCP Coordinator Mar26.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
             <h3>Primary Teacher / Learning Support Teacher</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-03/Primary Teacher - Learning Support teacher - Mar 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
@@ -287,16 +278,7 @@ include('../partials/header.php');
                 </a>
             </div>
         </article>
-
-        <article class="vacancy-card">
-            <h3>Teacher of Science</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-03/Teacher of Science - March 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-        
+    
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
         
