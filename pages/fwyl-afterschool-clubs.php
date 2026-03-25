@@ -266,15 +266,8 @@ include('../partials/header.php');
 
                     <div class="carousel-track-wrap">
                         <div class="carousel-track" id="carouselTrack">
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Bee-buddies.jpg"  alt="Bee Buddies"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-construction.jpg" alt="Construction"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Farm.jpg"         alt="Farm"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-football.jpg"     alt="Football"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Green-power.jpg"  alt="Green Power"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-HB.jpg"           alt="Hair and Beauty"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-HB2.jpg"          alt="Hair and Beauty"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Performance.jpg"  alt="Performance"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Swimming.jpg"     alt="Swimming"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs Page.jpg"     alt="club"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL BB .jpg"     alt="club"></div>
                             <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - GFB.jpg"     alt="club"></div>
