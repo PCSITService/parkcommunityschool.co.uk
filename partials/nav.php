@@ -285,7 +285,7 @@
                 <ul class="nav-dropdown">
                     <li><a href="/pages/curriculum.php">Curriculum</a></li>
                     <li><a href="/pages/careers-guidance.php">Careers and Guidance</a></li>
-                    <li><a href="fwyl-afterschool-clubs.php" target="_blank">Finding What You Love - After School Clubs</a></li>
+                    <li><a href="fwyl-enrichment.php" target="_blank">Enrichment - Finding What You Love</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
                     <li><a href="/pages/smsc.php">SMSC</a></li>
@@ -304,7 +304,7 @@
                     <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
-                    <li><a href="fwyl-afterschool-clubs.php">Finding What You Love After School Clubs</a></li>
+                    <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love</a></li>
                 </ul>
             </li>
 
@@ -373,7 +373,7 @@
                 <ul class="mobile-dropdown">
                     <li><a href="/pages/curriculum.php">Curriculum</a></li>
                     <li><a href="/pages/careers-guidance.php">Careers and Guidance</a></li>
-                    <li><a href="fwyl-afterschool-clubs.php" target="_blank">Finding What You Love - After School Clubs</a></li>
+                    <li><a href="fwyl-enrichment.php" target="_blank">Enrichment - Finding What You Love</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
                     <li><a href="/pages/smsc.php">SMSC</a></li>

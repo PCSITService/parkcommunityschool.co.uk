@@ -73,37 +73,56 @@ include('../partials/header.php');
         color: #d96f1a;
     }
 
-    /* Much More Than – text + float-right images */
+    /* Click here button in bullet list */
+    .enrichment-btn {
+        display: inline-block;
+        margin-left: 0.6rem;
+        padding: 0.2rem 0.75rem;
+        background-color: #F58220 !important;
+        color: #fff !important;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.6;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+    }
+
+    .enrichment-btn:hover {
+        background-color: #d96f1a !important;
+        color: #fff !important;
+    }
+
+    /* Much More Than – flexbox image + text rows */
     .mmt-item {
-        overflow: hidden;
-        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 1.25rem;
+        margin-bottom: 1.5rem;
     }
 
     .mmt-item img {
-        float: right;
+        flex-shrink: 0;
         width: 220px;
         height: 155px;
         object-fit: contain;
         object-position: center center;
         background: #f5f5f5;
         border-radius: 6px;
-        margin: 0 0 0.75rem 1.25rem;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
-    /* Two images side by side float for mmt-item */
-    .mmt-item .mmt-images {
-        float: right;
-        display: flex;
-        gap: 0.75rem;
-        margin: 0 0 0.75rem 1.25rem;
+    .mmt-text {
+        flex: 1;
+        background: #f9f9f9;
+        border-left: 4px solid #F58220;
+        border-radius: 4px;
+        padding: 0.85rem 1rem;
     }
 
-    .mmt-item .mmt-images img {
-        float: none;
-        margin: 0;
-        width: 200px;
-        height: 155px;
+    .mmt-text p:last-child {
+        margin-bottom: 0;
     }
 
     /* 3-column image grid used for Representing Park & Trips */
@@ -127,21 +146,13 @@ include('../partials/header.php');
 
     /* Responsive */
     @media screen and (max-width: 640px) {
+        .mmt-item {
+            flex-direction: column;
+        }
+
         .mmt-item img {
-            float: none;
             width: 100%;
             height: 180px;
-            margin: 0 0 1rem 0;
-        }
-
-        .mmt-item .mmt-images {
-            float: none;
-            flex-direction: column;
-            margin: 0 0 1rem 0;
-        }
-
-        .mmt-item .mmt-images img {
-            width: 100%;
         }
 
         .three-image-grid {
@@ -176,7 +187,7 @@ include('../partials/header.php');
 
                 <ul>
                     <li>Much More Than Just a School Carousel</li>
-                    <li>Extra-curricular enrichment clubs</li>
+                    <li>Extra-curricular enrichment clubs <a href="fwyl-afterschool-clubs.php" class="enrichment-btn">Click here</a></li>
                     <li>Opportunities to represent Park</li>
                     <li>Student Voice</li>
                     <li>Trips (local, UK and international)</li>
@@ -190,22 +201,31 @@ include('../partials/header.php');
 
                 <div class="mmt-item">
                     <img src="../images/fwyl-enrichment/Enrichment-farm.jpg" alt="Horticulture and animal care at The Farm">
-                    <p><strong>Horticulture and animal care at The Farm</strong> - Students spend time at the small holding, developing teamwork and problem-solving skills. This includes growing new crops maintaining beds and basic animal care.</p>
-                    <p><strong>Enterprise at Park Design and Print:</strong> Students will learn about design and printing processes and apply these to create and produce their own design - exercise books, mugs and much more.</p>
+                    <div class="mmt-text">
+                        <p><strong>Horticulture and animal care at The Farm</strong> - Students spend time at the small holding, developing teamwork and problem-solving skills. This includes growing new crops maintaining beds and basic animal care.</p>
+                        <p><strong>Enterprise at Park Design and Print:</strong> Students will learn about design and printing processes and apply these to create and produce their own design - exercise books, mugs and much more.</p>
+                    </div>
                 </div>
 
                 <div class="mmt-item">
                     <img src="../images/fwyl-enrichment/Enrichment-construction.jpg" alt="Construction skills at The Apex Centre">
-                    <p><strong>Construction skills at The Apex Centre:</strong> Students experience basic construction skills including plastering and some bricklaying. This includes preparation and tidying.</p>
+                    <div class="mmt-text">
+                        <p><strong>Construction skills at The Apex Centre:</strong> Students experience basic construction skills including plastering and some bricklaying. This includes preparation and tidying.</p>
+                    </div>
                 </div>
 
                 <div class="mmt-item">
-                    <div class="mmt-images">
-                        <img src="../images/fwyl-enrichment/Enrichment - media.jpg"   alt="Media skills in The Media Suite">
-                        <img src="../images/fwyl-enrichment/Enrichment-kitchen.jpg" alt="Catering in The School Kitchen">
+                    <img src="../images/fwyl-enrichment/Enrichment - media.jpg" alt="Media skills in The Media Suite">
+                    <div class="mmt-text">
+                        <p><strong>Media skills in The Media Suite:</strong> Students learn about the production skills in the suite and apply the to a simple podcast or recording interview.</p>
                     </div>
-                    <p><strong>Media skills in The Media Suite:</strong> Students learn about the production skills in the suite and apply the to a simple podcast or recording interview.</p>
-                    <p><strong>Catering in The School Kitchen</strong>: Students experienced life in a working kitchen, learning basic food prep skills and contributing to preparing food for our school community.</p>
+                </div>
+
+                <div class="mmt-item">
+                    <img src="../images/fwyl-enrichment/Enrichment-kitchen.jpg" alt="Catering in The School Kitchen">
+                    <div class="mmt-text">
+                        <p><strong>Catering in The School Kitchen</strong>: Students experienced life in a working kitchen, learning basic food prep skills and contributing to preparing food for our school community.</p>
+                    </div>
                 </div>
 
                 <!-- Extra-curricular enrichment clubs -->
