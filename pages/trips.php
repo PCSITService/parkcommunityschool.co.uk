@@ -404,6 +404,28 @@ include('../partials/header.php');
     }
 </style>
 
+<!-- INDIA 2026 SECTION -->
+<section class="india-section content-section">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-12">
+
+                <h2>India 2026 -</h2>
+
+                <p>The January 2026  India trip offered a unique 10-day experience in New Delhi. This was a culturally rich visit is designed to build bonds beyond borders, giving students the opportunity to explore iconic landmarks  whilst being fully immersed in daily life. The trip provided an unforgettable opportunity to develop global awareness, cultural understanding, and lasting connections whilst truly living the culture.</p>
+
+                <p><strong>Watch our adventures through this short film -</strong></p>
+
+                <a href="https://vimeo.com/1174842121?share=copy&fl=sv&fe=ci" target="_blank" class="payment-button" style="margin: 0.5rem 0 1.5rem; display: inline-flex;">
+                    <i class="fas fa-play-circle"></i>
+                    India 2026 Film
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- INTRO SECTION -->
 <section class="content-section intro-section">
@@ -453,8 +475,6 @@ include('../partials/header.php');
                     <img src="/images/trips/TRIPS2.jpg" alt="School trips">
                     <img src="/images/trips/TRIPS3.jpg" alt="School trips">
                     <div class="bottom-row">
-                        <img src="/images/trips/TRIPS4.jpg" alt="School trips">
-                        <img src="/images/trips/TRIPS5.jpg" alt="School trips">
                     </div>
                 </div>
 
@@ -514,27 +534,7 @@ include('../partials/header.php');
     </div>
 </section>
 
-<!-- INDIA 2026 SECTION -->
-<section class="india-section content-section">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell large-12">
 
-                <h2>India 2026 -</h2>
-
-                <p>The January 2026 Year 9 and 10 India trip offered 20 students, accompanied by 4 staff, a unique 10-day experience in New Delhi and beyond. This culturally rich visit is designed to build bonds beyond borders, giving students the opportunity to explore iconic landmarks such as the Taj Mahal, visit a variety of temples, and spend time in local villages and family homes. Students were fully immersed in daily life through school visits and lessons, while also experiencing traditional food, customs, and ways of living. The trip provided an unforgettable opportunity to develop global awareness, cultural understanding, and lasting connections while truly living the culture.</p>
-
-                <p><strong>Watch our adventures through this short film -</strong></p>
-
-                <a href="https://vimeo.com/1174842121?share=copy&fl=sv&fe=ci" target="_blank" class="payment-button" style="margin: 0.5rem 0 1.5rem; display: inline-flex;">
-                    <i class="fas fa-play-circle"></i>
-                    India 2026 Film
-                </a>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 <script>
 // Slideshow functionality
