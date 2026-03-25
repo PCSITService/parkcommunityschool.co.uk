@@ -372,9 +372,11 @@
                 <button class="mobile-dropdown-toggle">Learning</button>
                 <ul class="mobile-dropdown">
                     <li><a href="/pages/curriculum.php">Curriculum</a></li>
-                    <li><a href="/assets/curriculum/FWYL - April 2025.pdf" target="_blank">Extra-Curricular Clubs</a></li>
+                    <li><a href="/pages/careers-guidance.php">Careers and Guidance</a></li>
+                    <li><a href="fwyl-afterschool-clubs.php" target="_blank">Finding What You Love - After School Clubs</a></li>
                     <li><a href="/pages/finance-education.php">Financial Education</a></li>
                     <li><a href="/pages/reading.php">Reading</a></li>
+                    <li><a href="/pages/smsc.php">SMSC</a></li>
                 </ul>
             </li>
 
