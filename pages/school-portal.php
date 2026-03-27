@@ -223,7 +223,7 @@
                 </button>
             </div>
             <div class="collapse" id="studentsSection">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-3">
                     <!-- Classcharts for Students -->
                     <div class="col">
                         <a href="https://www.classcharts.com/student/login" class="text-decoration-none" aria-label="Access Classcharts for Students">
@@ -255,6 +255,18 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" class="card-img-top" alt="Microsoft 365 Logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Microsoft 365</h5>
+                                    <p class="card-text small text-muted">Access email and office applications</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Student Portal -->
+                    <div class="col">
+                        <a href="https://pcshantssch.sharepoint.com/sites/students" class="text-decoration-none" aria-label="Access Student Portal">
+                            <div class="card p-2">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Microsoft_Office_SharePoint_%282019%E2%80%932025%29.svg" class="card-img-top" alt="Microsoft 365 Logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Student Portal</h5>
                                     <p class="card-text small text-muted">Access email and office applications</p>
                                 </div>
                             </div>
