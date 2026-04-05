@@ -152,7 +152,7 @@ include('../partials/header.php');
                 <!-- Policies List -->
                 <div class="policies-list">
                     <ul id="policiesList">
-                        <li data-policy="accessibility"><a href="/assets/policies/Accessibility - December 2024.pdf" target="_blank" class="policy-link">Accessibility</a></li>
+                        <li data-policy="accessibility"><a href="/pages/accessibility-track.php?from=Policy" target="_blank" class="policy-link">Accessibility</a></li>
                         <li data-policy="administration of medicines"><a href="/assets/policies/administration-of-medicines.pdf" target="_blank" class="policy-link">Administration of Medicines</a></li>
                         <li data-policy="admission arrangements"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
                         <li data-policy="admissions 2026-2027"><a href="/assets/policies/Admissions Policy 2026-2027.pdf" target="_blank" class="policy-link">Admissions 2026-2027</a></li>
