@@ -173,12 +173,13 @@ include('../partials/header.php');
             <div class="cell large-12">
                 <!-- Introduction -->
                 <div class="intro-box">
-                    <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find every piece of information we are required to provide as a Community School, organised for easy access.</p>
+                    <p>Every maintained school must publish specific information on its website to comply with The School Information Regulations 2012. Below you'll find the information we are required to provide.</p>
                 </div>
 
                 <!-- Policies List -->
                 <div class="policies-list">
                     <ul id="policiesList">
+                        <li data-policy="accessibility"><a href="/assets/policies/Accessibility - December 2024.pdf" target="_blank" class="policy-link">Accessibility</a></li>
                         <li data-policy="admission arrangements admissions"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
                         <li data-policy="behaviour policy conduct"><a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
