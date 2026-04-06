@@ -157,6 +157,7 @@ include('../partials/header.php');
                         <li data-policy="admission arrangements"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
                         <li data-policy="admissions 2026-2027"><a href="/assets/policies/Admissions Policy 2026-2027.pdf" target="_blank" class="policy-link">Admissions 2026-2027</a></li>
                         <li data-policy="anti-bullying anti bullying"><a href="/assets/policies/Anti Bullying - December 2024.pdf" target="_blank" class="policy-link">Anti-Bullying</a></li>
+                        <li data-policy="attendance 2025"><a href="/assets/policies/4.7 Attendance - October 2025.pdf" target="_blank" class="policy-link">Attendance</a></li>
                         <li data-policy="behaviour policy"><a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                         <li data-policy="cctv"><a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link">CCTV</a></li>
