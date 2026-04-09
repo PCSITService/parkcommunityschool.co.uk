@@ -304,7 +304,7 @@
                     <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
-                    <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love</a></li>
+                    <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
                 </ul>
             </li>
 
@@ -392,6 +392,7 @@
                     <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
+                    <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
                 </ul>
             </li>
 

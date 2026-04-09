@@ -266,15 +266,43 @@ include('../partials/header.php');
 
                     <div class="carousel-track-wrap">
                         <div class="carousel-track" id="carouselTrack">
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-football.jpg"     alt="Football"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-HB2.jpg"          alt="Hair and Beauty"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs Page.jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL BB .jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - GFB.jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - bee2.jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL clubs... .jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - bee22.jpg"     alt="club"></div>
-                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs page.. .jpg"     alt="club"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/art.jpg"alt="art"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Badminton.jpg"alt="badminton"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/bee1.jpg"alt="bee1"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/bee2.jpg"alt="bee2"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/bee3.jpg"alt="bee3"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/bee4.jpg"alt="bee4"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-bee22.jpg"alt="bee5"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-bee2.jpg"alt="bee6"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-Performance.jpg"alt="performance"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL-HB2.jpg"alt="hb"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs page.. .jpg"alt="clubs"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - Clubs Page.jpg"alt="greenpower"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Prepresenting Park - lang ambas.jpg"alt="lang"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/chess.jpg"alt="chess"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/chinese1.jpg"alt="chinese1"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/coffee.jpg"alt="coffee"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/coffee1.jpg"alt="coffee1"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/cooking 2.jpg"alt="cooking2"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/cooking.jpg"alt="cooking1"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/D&D club.jpg"alt="dnd"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Dance 2.jpg"alt="dance2"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Dance.jpg"alt="dance1"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Enrichment op - PA Ambassadors.jpg"alt="PA"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Enrichment op - Sports Ambassadors 2.jpg"alt="SA"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Enrichment op - Sports Ambassadors1.jpg"alt="SA"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/farm.jpg"alt="farm"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL - GFB.jpg"alt="gfc"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL BB .jpg"alt="BB"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/FWYL clubs... .jpg"alt="clubs"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/lifelab.jpg"alt="lifelab"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Manmade.jpg"alt="manmade"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Representing - dance live.jpg"alt="dance"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Representing park - BB .jpg"alt="BB"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Representing park - Lang.jpg"alt="Lang"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Representing park FB.jpg"alt="FB"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/Representing park GFB.jpg"alt="FB"></div>
+                            <div class="carousel-slide"><img src="../images/fwyl-clubs/music.jpg"alt="Muisc"></div>
                         </div>
                     </div>
 
