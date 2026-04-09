@@ -431,7 +431,7 @@ include('partials/header.php');
                             <h4>Why Choose Park?</h4>
                             <ul>
                                 <li>Outstanding pastoral care</li>
-                                <li>Excellent exam results</li>
+                                <li>Broad and Innovative Curriculum</li>
                                 <li>Wide range of extra-curricular activities</li>
                                 <li>Strong community partnerships</li>
                                 <li>Modern facilities</li>
@@ -466,7 +466,7 @@ include('partials/header.php');
             </div>
         </div>
         <!-- Slide 3 -->
-        <div class="slide-content">
+        <!--<div class="slide-content">
             <div class="slide-inner">
                 <h3>Our Core Values</h3>
                 <div class="slide-grid three-col">
@@ -477,8 +477,8 @@ include('partials/header.php');
                     </div>
                     <div class="feature-box">
                         <div class="feature-icon"><i class="fas fa-heart"></i></div>
-                        <h4>Respect</h4>
-                        <p>We treat everyone with dignity and respect, celebrating diversity and promoting inclusion.</p>
+                        <h4>Proud</h4>
+                        <p>We are proud to be apart of our school and community. </p>
                     </div>
                     <div class="feature-box">
                         <div class="feature-icon"><i class="fas fa-users"></i></div>
@@ -487,7 +487,7 @@ include('partials/header.php');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Indicators -->
         <div class="slide-indicators">
             <span class="indicator active" data-slide="0"></span>
