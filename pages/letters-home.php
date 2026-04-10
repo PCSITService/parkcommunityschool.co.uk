@@ -137,6 +137,14 @@ include('../partials/header.php');
 <section class="content-section">
     <div class="grid-container">
         <div class="newsletter-list">
+            <!-- April 2026 -->
+            <div class="newsletter-item">
+                <h4>April 2026</h4>
+                <ul>
+                    <li><a href="/assets/letters/2026-04/Start of term letter April 2026 .pdf" target="_blank">Start of Summer Term letter April 2026</a></li>
+                </ul>
+                </ul>
+            </div>
             <!-- March 2026 -->
             <div class="newsletter-item">
                 <h4>March 2026</h4>
