@@ -175,7 +175,7 @@ include('../partials/header.php');
                         <li data-policy="equality statement objectives"><a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
                         <li data-policy="e-safety esafety online safety internet"><a href="/assets/policies/esafety.pdf" target="_blank" class="policy-link">E-Safety</a></li>
                         <!--<li data-policy="ethos and values"><a href="/assets/statutory/ethos-values.pdf" target="_blank" class="policy-link">Ethos and Values</a></li>-->
-                        <li data-policy="exams 2024 examinations"><a href="/assets/policies/exams-2024.pdf" target="_blank" class="policy-link">Exams 2024</a></li>
+                        <li data-policy="exams 2024 examinations"><a href="/assets/policies/exams-2024.pdf" target="_blank" class="policy-link">Exams</a></li>
                         <li data-policy="Evacuation"><a href="/assets/policies/Evacuation - January 2026.pdf" target="_blank" class="policy-link">Evacuation</a></li>
                         <li data-policy="financial benchmarking"><a href="/pages/financial-benchmarking.php" class="policy-link">Financial Benchmarking</a></li>
                         <li data-policy="freedom of information foi"><a href="/assets/policies/freedom_of_information.pdf" target="_blank" class="policy-link">Freedom of Information</a></li>
