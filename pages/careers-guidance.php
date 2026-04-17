@@ -991,7 +991,7 @@ include('../partials/header.php');
                                 </div>
                                 <div class="event-card-title">Year 10 Mock Interviews</div>
                             </a>
-                            <a href="/assets/careers-guidance/Year 10 Interview Day.pdf" class="split-bottom" target="_blank" rel="noopener">
+                            <a href="/assets/careers-guidance/Park 2703 EI.pdf" class="split-bottom" target="_blank" rel="noopener">
                                 <div class="event-card-title">EBP Feedback</div>
                             </a>
                         </div>
