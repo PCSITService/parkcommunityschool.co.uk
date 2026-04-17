@@ -94,6 +94,52 @@ include('../partials/header.php');
         display: block;
         box-shadow: 0 2px 8px rgba(0,0,0,0.12);
     }
+    /* Rotation bar - continuous scrolling */
+.trips-rotation-bar {
+    overflow: hidden;
+    margin: 1.5rem 0;
+    padding: 0.5rem 0;
+    position: relative;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%);
+            mask-image: linear-gradient(90deg, transparent 0, #000 60px, #000 calc(100% - 60px), transparent 100%);
+}
+
+.trips-rotation-track {
+    display: flex;
+    gap: 0.75rem;
+    width: max-content;
+    animation: trips-scroll 120s linear infinite;
+}
+
+.trips-rotation-bar:hover .trips-rotation-track {
+    animation-play-state: paused;
+}
+
+.trips-rotation-track img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+@keyframes trips-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+    .trips-rotation-track img {
+        width: 220px;
+        height: 160px;
+    }
+    .trips-rotation-track {
+        animation-duration: 90s;
+    }
+}
 
     /* What to expect subheading */
     .what-to-expect-heading {
@@ -468,13 +514,15 @@ include('../partials/header.php');
         </div>
 
         <!-- 5-photo grid matching PDF layout: 3 top, 2 centred bottom -->
-        <div class="grid-x grid-padding-x">
-            <div class="cell large-12">
-                <div class="trips-photo-grid">
-                    <img src="/images/trips/TRIPS1.jpg" alt="School trips">
-                    <img src="/images/trips/TRIPS2.jpg" alt="School trips">
-                    <img src="/images/trips/TRIPS3.jpg" alt="School trips">
-                    <div class="bottom-row">
+<div class="trips-rotation-bar" aria-label="School trips photo gallery">
+                    <div class="trips-rotation-track">
+                        <?php for ($i = 1; $i <= 30; $i++): ?>
+                            <img src="/images/trips/slideshow/TRIPS<?= $i ?>.jpg" alt="School trip photo <?= $i ?>" loading="lazy">
+                        <?php endfor; ?>
+                        <?php /* Duplicate set for seamless infinite scroll */ ?>
+                        <?php for ($i = 1; $i <= 30; $i++): ?>
+                            <img src="/images/trips/slideshow/TRIPS<?= $i ?>.jpg" alt="" aria-hidden="true" loading="lazy">
+                        <?php endfor; ?>
                     </div>
                 </div>
 
