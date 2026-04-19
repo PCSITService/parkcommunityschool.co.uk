@@ -144,6 +144,55 @@ include('../partials/header.php');
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
+    /* Trips – rotating image bar */
+    .trips-rotating-bar {
+        position: relative;
+        overflow: hidden;
+        margin: 1.25rem 0 1.75rem;
+        padding: 0.25rem 0;
+        -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+                mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    }
+
+    .trips-track {
+        display: flex;
+        gap: 0.75rem;
+        width: max-content;
+        animation: trips-scroll 180s linear infinite;
+    }
+
+    .trips-rotating-bar:hover .trips-track {
+        animation-play-state: paused;
+    }
+
+    .trips-track img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center center;
+        background: #f5f5f5;
+        border-radius: 6px;
+        flex-shrink: 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        display: block;
+    }
+
+    @keyframes trips-scroll {
+        from { transform: translateX(0); }
+        to   { transform: translateX(calc(-50% - 0.375rem)); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .trips-track {
+            animation: none;
+        }
+        .trips-rotating-bar {
+            overflow-x: auto;
+            -webkit-mask-image: none;
+                    mask-image: none;
+        }
+    }
+
     /* Responsive */
     @media screen and (max-width: 640px) {
         .mmt-item {
@@ -157,6 +206,15 @@ include('../partials/header.php');
 
         .three-image-grid {
             grid-template-columns: 1fr;
+        }
+
+        .trips-track img {
+            width: 220px;
+            height: 150px;
+        }
+
+        .trips-track {
+            animation-duration: 120s;
         }
     }
 
@@ -289,11 +347,30 @@ include('../partials/header.php');
                 <!-- Trips -->
                 <h3>Trips –</h3>
 
-                <div class="three-image-grid">
-                    <img src="../images/fwyl-enrichment/Enrichment-Trips1.jpg" alt="School trips">
-                    <img src="../images/fwyl-enrichment/Enrichment-Trip2.jpg"  alt="School trips">
-                    <img src="../images/fwyl-enrichment/Enrichment-Trips3.jpg" alt="School trips">
+                <?php
+                    // Auto-discover trip images. Expects files named TRIPS1.jpg through
+                    // TRIPS33.jpg (or similar) in /images/fwyl-enrichment/slideshow/.
+                    // Pattern: TRIPS followed by one or more digits, then .jpg/.jpeg/.png/.webp.
+                    $tripsImgDir = __DIR__ . '/../images/fwyl-enrichment/slideshow/';
+                    $tripsImgUrl = '../images/fwyl-enrichment/slideshow/';
+                    $tripFiles   = glob($tripsImgDir . 'TRIPS[0-9]*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}', GLOB_BRACE) ?: [];
+                    natcasesort($tripFiles);
+                    $tripFiles   = array_values($tripFiles);
+                ?>
+
+                <?php if (!empty($tripFiles)): ?>
+                <div class="trips-rotating-bar" aria-label="School trips photo gallery">
+                    <div class="trips-track">
+                        <?php foreach ($tripFiles as $f): ?>
+                            <img src="<?= htmlspecialchars($tripsImgUrl . basename($f), ENT_QUOTES, 'UTF-8') ?>" alt="School trip" loading="lazy">
+                        <?php endforeach; ?>
+                        <?php /* duplicate the set so the scroll loops seamlessly */ ?>
+                        <?php foreach ($tripFiles as $f): ?>
+                            <img src="<?= htmlspecialchars($tripsImgUrl . basename($f), ENT_QUOTES, 'UTF-8') ?>" alt="" aria-hidden="true" loading="lazy">
+                        <?php endforeach; ?>
+                    </div>
                 </div>
+                <?php endif; ?>
 
                 <p>Educational trips are a powerful way to <strong>enrich learning</strong>, offering students <strong>memorable experiences</strong> that extend far <strong>beyond the classroom</strong>. Through a range of local, national, and international visits—including both day trips and residential opportunities—students are able to deepen their understanding of the curriculum while developing essential life skills.</p>
 
