@@ -235,6 +235,31 @@ include('../partials/header.php');
         <div class="grid-x grid-padding-x">
             <div class="cell large-12">
 
+                <?php
+                    // Auto-discover top slideshow images from /images/fwyl-enrichment/slideshow2/.
+                    // Expects files named TRIPS1.jpg through TRIPS30.jpg (or similar).
+                    // Pattern: TRIPS followed by one or more digits, then .jpg/.jpeg/.png/.webp.
+                    $topSlidesDir = __DIR__ . '/../images/fwyl-enrichment/slideshow2/';
+                    $topSlidesUrl = '../images/fwyl-enrichment/slideshow2/';
+                    $topSlides    = glob($topSlidesDir . 'TRIPS[0-9]*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}', GLOB_BRACE) ?: [];
+                    natcasesort($topSlides);
+                    $topSlides    = array_values($topSlides);
+                ?>
+
+                <?php if (!empty($topSlides)): ?>
+                <div class="trips-rotating-bar" aria-label="Enrichment photo gallery">
+                    <div class="trips-track">
+                        <?php foreach ($topSlides as $f): ?>
+                            <img src="<?= htmlspecialchars($topSlidesUrl . basename($f), ENT_QUOTES, 'UTF-8') ?>" alt="Enrichment activity" loading="lazy">
+                        <?php endforeach; ?>
+                        <?php /* duplicate the set so the scroll loops seamlessly */ ?>
+                        <?php foreach ($topSlides as $f): ?>
+                            <img src="<?= htmlspecialchars($topSlidesUrl . basename($f), ENT_QUOTES, 'UTF-8') ?>" alt="" aria-hidden="true" loading="lazy">
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <?php endif; ?>
+
                 <h3>Finding What You Love – Enrichment Opportunities</h3>
 
                 <p><strong><em>Finding What You Love</em></strong> is the principle we apply to our curriculum and wider opportunities at Park, there are an incredible range of activities on offer.</p>
