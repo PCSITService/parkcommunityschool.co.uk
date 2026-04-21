@@ -594,14 +594,8 @@ include('../partials/header.php');
     }
 
     /* Individual event card background colours */
-    .event-card:nth-child(8n+1) .event-card-image { background: var(--event-bg-1); }
-    .event-card:nth-child(8n+2) .event-card-image { background: var(--event-bg-2); }
-    .event-card:nth-child(8n+3) .event-card-image { background: var(--event-bg-3); }
-    .event-card:nth-child(8n+4) .event-card-image { background: var(--event-bg-4); }
-    .event-card:nth-child(8n+5) .event-card-image { background: var(--event-bg-5); }
-    .event-card:nth-child(8n+6) .event-card-image { background: var(--event-bg-6); }
-    .event-card:nth-child(8n+7) .event-card-image { background: var(--event-bg-7); }
-    .event-card:nth-child(8n+8) .event-card-image { background: var(--event-bg-8); }
+    .event-card .event-card-image { background: var(--event-bg-1); }
+    
 
     .event-card-image img {
         width: 100%;
@@ -619,32 +613,14 @@ include('../partials/header.php');
         transition: color 0.3s ease;
     }
 
-    .event-card:nth-child(8n+1):hover { border: 2px solid var(--event-hover-1); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+1):hover .event-card-title { color: var(--event-hover-1); }
-
-    .event-card:nth-child(8n+2):hover { border: 2px solid var(--event-hover-2); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+2):hover .event-card-title { color: var(--event-hover-2); }
-
-    .event-card:nth-child(8n+3):hover { border: 2px solid var(--event-hover-3); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+3):hover .event-card-title { color: var(--event-hover-3); }
-
-    .event-card:nth-child(8n+4):hover { border: 2px solid var(--event-hover-4); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+4):hover .event-card-title { color: var(--event-hover-4); }
-
-    .event-card:nth-child(8n+5):hover { border: 2px solid var(--event-hover-5); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+5):hover .event-card-title { color: var(--event-hover-5); }
-
-    .event-card:nth-child(8n+6):hover { border: 2px solid var(--event-hover-6); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+6):hover .event-card-title { color: var(--event-hover-6); }
-
-    .event-card:nth-child(8n+7):hover { border: 2px solid var(--event-hover-7); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+7):hover .event-card-title { color: var(--event-hover-7); }
-
-    .event-card:nth-child(8n+8):hover { border: 2px solid var(--event-hover-8); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
-    .event-card:nth-child(8n+8):hover .event-card-title { color: var(--event-hover-8); }
-
     .event-card:hover {
         transform: translateY(-4px);
+        border: 2px solid var(--event-hover-1);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .event-card:hover .event-card-title {
+        color: var(--event-hover-1);
     }
 
     .event-card:hover .event-card-image img {
@@ -1034,6 +1010,13 @@ include('../partials/header.php');
                                 <img src="/images/careers/National apprenticeship week.JPG" alt="National Apprenticeship Week 2026">
                             </div>
                             <div class="event-card-title">National Apprenticeship Week 2026</div>
+                        </a>
+
+                        <a href="/assets/careers-guidance/Year 8 - Enterprise Day Summary for Website.pdf" class="event-card" target="_blank" rel="noopener">
+                            <div class="event-card-image">
+                                <!--<img src="/images/careers/National apprenticeship week.JPG" alt="National Apprenticeship Week 2026">-->
+                            </div>
+                            <div class="event-card-title">Year 8 Enterprise Day</div>
                         </a>
 
                         <a href="/assets/careers-guidance/Speaker for Schools.pdf" class="event-card" target="_blank" rel="noopener">
