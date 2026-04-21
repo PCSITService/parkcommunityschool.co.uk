@@ -212,7 +212,7 @@ include('../partials/header.php');
                 <!-- Policy Navigation -->
                 <div class="policy-nav">
                     <a href="/pages/policies.php" class="nav-button">All Policies</a>
-                    <a href="/exams-policies.php" class="nav-button">Exams Policies</a>
+                    <!--<a href="/exams-policies.php" class="nav-button">Exams Policies</a>-->
                 </div>
 
                 <!-- Search Box -->
