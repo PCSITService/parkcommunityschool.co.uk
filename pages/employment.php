@@ -261,14 +261,59 @@ include('../partials/header.php');
     <section class="vacancies-column">
         <h2 class="section-header">Current Vacancies</h2>
 
-        <!--<article class="vacancy-card">
-            <h3>Early Years Assistant (Nursery)</h3>
+        <article class="vacancy-card">
+            <h3>English & Hums Teacher (YR5 - YR8)</h3>
             <div class="button-container">
-                <a href="../assets/recruitment/2026-03/Nursery Assistant (L2 or L3) - March 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                <a href="../assets/recruitment/2026-04/English and Hums Teacher 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
             </div>
-        </article>-->
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Exams Invigilator</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Exam Invigilator 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Geography Teacher</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Geography Teacher 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Teacher of Science</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Teacher of Science -- April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Teacher of Science with TLR2b</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Teacher of Science with TLR2b- April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Teaching Assistant</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Teaching Assistant - April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
     
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
