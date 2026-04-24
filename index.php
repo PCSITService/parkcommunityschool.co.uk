@@ -312,22 +312,19 @@ include('partials/header.php');
       
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <!-- YEAR 11 EXAM SECTION -->
+
             <li style="margin-bottom: 0.75rem;">
                 <a href="/assets/exam/Year 11 Candidate Handbook for Examinations 25-26  (Oct 25).pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 11 Candidate Handbook
                 </a>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/2026 Summer Exam Timetable V6.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/2026/2026 Summer Exam Timetable Board.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     2026 Summer Exam Timetable
                 </a>
             </li>
-            <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Year 11 Spring Mock Timetable Final.pdf" target="_blank" class="modal-link">
-                    <i class="fas fa-file-pdf"></i>
-                    Year 11 Spring Mock Timetable
-                </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
                 <a href="/assets/exam/academic-year-2025-2026/Phase%201%20Revision%20booklet%2025-26.pdf" target="_blank" class="modal-link">
@@ -341,6 +338,22 @@ include('partials/header.php');
                     Phase 2 Revision Booklet 25-26
                 </a>
             </li>
+            
+        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 7 - 10 - 2025/2026</h4>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <!-- YEAR 7 - 10 EXAM SECTION -->
+
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/2026/Year 10 Summer Exam and Mock Timetable.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 10 Summer Mock Exam Timetable
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/2026/Year 7-9 Summer Assessments Timetable.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 7-9 Summer Assessment Timetable
+                </a>
         </ul>
         
         <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
