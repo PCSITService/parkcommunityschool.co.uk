@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>April 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-04/Years  7-9 GL Assessments week April 26.pdf" target="_blank">Year 7-9 Assessment Week - April 26th</a></li>
                     <li><a href="/assets/letters/2026-04/Start of term letter April 2026 .pdf" target="_blank">Start of Summer Term letter April 2026</a></li>
                 </ul>
                 </ul>
