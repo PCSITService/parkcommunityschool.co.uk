@@ -486,7 +486,9 @@ include('../partials/header.php');
                         <ul class="subject-list">
                             <li class="subject-item subject-item--ks4"><a href="/art.php">Art and Design: 3D</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/art.php">Art and Design: Graphics</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="animal-care.php">Animal Care</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/computer-science.php">Computer Science</a></li>
+                            <li class="subject-item subject-item--ks4"><a href="/construction.php">Construction</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/dance.php">Dance</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/drama.php">Drama</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/geography.php">Geography</a></li>
