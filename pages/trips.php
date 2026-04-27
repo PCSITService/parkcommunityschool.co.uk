@@ -579,7 +579,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
-    
+            </div><!-- /.trip-card -->
 
             <!-- London Museum Trip -->
             <div class="trip-card">
@@ -613,6 +613,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- London Westminster Trip -->
             <div class="trip-card">
@@ -646,6 +647,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- Stonehenge Trip -->
             <div class="trip-card">
@@ -662,7 +664,7 @@ include('../partials/header.php');
                         <i class="fas fa-user"></i>
                         <strong>Lead:</strong>
                         <span>H Wilson</span>
-                </div>
+                    </div>
                     <div class="trip-detail">
                         <i class="fas fa-users"></i>
                         <strong>Year Group:</strong>
@@ -679,6 +681,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- CYE Trip -->
             <div class="trip-card">
@@ -712,6 +715,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- DOFE Trip -->
             <div class="trip-card">
@@ -745,6 +749,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- Bude Trip -->
             <div class="trip-card">
@@ -778,6 +783,7 @@ include('../partials/header.php');
                         Trip Letter
                     </a>
                 </div>
+            </div><!-- /.trip-card -->
 
             <!-- Abbey farm Trip -->
             <div class="trip-card">
