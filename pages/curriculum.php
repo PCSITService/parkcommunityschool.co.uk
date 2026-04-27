@@ -493,6 +493,7 @@ include('../partials/header.php');
                             <li class="subject-item subject-item--ks4"><a href="/hair-beauty.php">Hair and Beauty</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/health-social-care.php">Health and Social Care</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/history.php">History</a></li>
+                            <li class="subject-item"><a href="/horticulture.php">Horticulture</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/catering.php">Hospitality and Catering</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/photography.php">Photography</a></li>
                             <li class="subject-item subject-item--ks4"><a href="/psychology.php">Psychology</a></li>
