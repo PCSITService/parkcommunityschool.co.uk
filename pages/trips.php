@@ -546,6 +546,8 @@ include('../partials/header.php');
                 <i class="fas fa-suitcase"></i>
                 <p>Sorry there is currently no trips at the moment</p>
             </div>-->
+
+            <!--Barcelona Trip-->
             <div class="trip-card">
                 <div class="trip-card-header">
                     <h3>Barcelona 2026</h3>
@@ -576,6 +578,234 @@ include('../partials/header.php');
                         <i class="fas fa-file-alt"></i>
                         Trip Letter
                     </a>
+                </div>
+    
+
+            <!-- London Museum Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>Natural History & Science Museum 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>1st July 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>H Manning</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 7</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£10</span>
+                    </div>
+                    <a href="/assets/trips/2026/Year 7 end of year trip 24 April 2026.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- London Westminster Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>London - Explore Westminster & Big Ben 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>25th June 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>A Pearce</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 8</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£10</span>
+                    </div>
+                    <a href="/assets/trips/2026/Year 8 end of year trip 24 April 2026.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- Stonehenge Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>Stonehenge & Salisbury Town Centre 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>3rd July 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>H Wilson</span>
+                </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 9</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£10</span>
+                    </div>
+                    <a href="/assets/trips/2026/Year 9 end of year trip 24 April 2026.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- CYE Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>CYE Residential 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>8-9th, 12-13th & 19-20th October 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>J Crowley</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 10</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£80</span>
+                    </div>
+                    <a href="/assets/trips/2026/cye LETTER with price (1).pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- DOFE Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>DOFE 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>5th - 7th May 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>M Coats</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 10 - 11 (Invited Students Only)</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£40</span>
+                    </div>
+                    <a href="/assets/trips/2026/MCO - DofE Letter.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- Bude Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>Adventure Bude 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>11-16th October 2026</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong>Lead:</strong>
+                        <span>E Harrison</span>
+                    </div>
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 7</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label">Total Cost:</span>
+                        <span class="trip-cost-amount">£415</span>
+                    </div>
+                    <a href="/assets/trips/2026/Bude 2026 Parent Letter.pdf" target="_blank" class="trip-letter-btn">
+                        <i class="fas fa-file-alt"></i>
+                        Trip Letter
+                    </a>
+                </div>
+
+            <!-- Abbey farm Trip -->
+            <div class="trip-card">
+                <div class="trip-card-header">
+                    <h3>Abbey Farm 2026</h3>
+                </div>
+                <div class="trip-card-body">
+                    <div class="trip-detail">
+                        <i class="fas fa-calendar-alt"></i>
+                        <strong>Date:</strong>
+                        <span>22nd - 26th June 2026</span>
+                    </div>
+                    <!--<div class="trip-detail">
+                        <i class="fas fa-user"></i>
+                        <strong></strong>
+                        <span></span>
+                    </div>-->
+                    <div class="trip-detail">
+                        <i class="fas fa-users"></i>
+                        <strong>Year Group:</strong>
+                        <span>Year 7</span>
+                    </div>
+                </div>
+                <div class="trip-card-footer">
+                    <div class="trip-cost">
+                        <span class="trip-cost-label"></span>
+                        <span class="trip-cost-amount"></span>
+                    </div>
                 </div>
             </div><!-- /.trip-card -->
         </div><!-- /.trips-grid -->
