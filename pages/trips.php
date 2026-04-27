@@ -487,30 +487,6 @@ include('../partials/header.php');
                 <p>Our trips enrich learning, offering students memorable experiences that extend far beyond the classroom. Through a range of local, national, and international visits—including both day trips and residential opportunities—students are able to deepen their understanding of the curriculum while developing essential life skills. In addition, our trips help to foster personal development, boost confidence, enhance social skills through collaboration, and often provide students with better subject comprehension.</p>
                 <p>Throughout time at Park students will have to opportunity to participate in a range of trips within each year group, each trip is carefully planned with student safety as our top priority. </p>
             </div>
-            <div class="cell medium-5">
-                <div class="slideshow-container">
-                    <div class="trip-slideshow">
-                        <img src="/images/trips/kewgardens.jpg" alt="School trip to Kew Gardens" class="active">
-                        <img src="/images/trips/tanzania.jpg" alt="Educational trip to Tanzania">
-                        <img src="/images/trips/disney1.jpg" alt="Students at Disney">
-                        <img src="/images/trips/farm1.jpg" alt="Learning at the farm">
-                        <img src="/images/trips/winchester1.jpg" alt="Trip to Winchester">
-                        
-                        <div class="slideshow-arrows">
-                            <button class="slideshow-arrow" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
-                            <button class="slideshow-arrow" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
-                        </div>
-                        
-                        <div class="slideshow-controls">
-                            <span class="slideshow-dot active" onclick="goToSlide(0)"></span>
-                            <span class="slideshow-dot" onclick="goToSlide(1)"></span>
-                            <span class="slideshow-dot" onclick="goToSlide(2)"></span>
-                            <span class="slideshow-dot" onclick="goToSlide(3)"></span>
-                            <span class="slideshow-dot" onclick="goToSlide(4)"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <!-- 5-photo grid matching PDF layout: 3 top, 2 centred bottom -->
