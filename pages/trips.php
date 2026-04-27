@@ -523,40 +523,6 @@ include('../partials/header.php');
                 <p>Sorry there is currently no trips at the moment</p>
             </div>-->
 
-            <!--Barcelona Trip-->
-            <div class="trip-card">
-                <div class="trip-card-header">
-                    <h3>Barcelona 2026</h3>
-                </div>
-                <div class="trip-card-body">
-                    <div class="trip-detail">
-                        <i class="fas fa-calendar-alt"></i>
-                        <strong>Date:</strong>
-                        <span>5th October 2026</span>
-                    </div>
-                    <div class="trip-detail">
-                        <i class="fas fa-user"></i>
-                        <strong>Lead:</strong>
-                        <span>Marie Dermy</span>
-                    </div>
-                    <div class="trip-detail">
-                        <i class="fas fa-users"></i>
-                        <strong>Year Group:</strong>
-                        <span>Years 9–10</span>
-                    </div>
-                </div>
-                <div class="trip-card-footer">
-                    <div class="trip-cost">
-                        <span class="trip-cost-label">Total Cost</span>
-                        <span class="trip-cost-amount">£700</span>
-                    </div>
-                    <a href="/assets/letters/2026-03/Barcelona 2026.pdf" target="_blank" class="trip-letter-btn">
-                        <i class="fas fa-file-alt"></i>
-                        Trip Letter
-                    </a>
-                </div>
-            </div><!-- /.trip-card -->
-
             <!-- London Museum Trip -->
             <div class="trip-card">
                 <div class="trip-card-header">
