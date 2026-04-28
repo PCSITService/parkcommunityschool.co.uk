@@ -314,6 +314,15 @@ include('../partials/header.php');
                 </a>
             </div>
         </article>
+
+        <article class="vacancy-card">
+            <h3>Café Assistant (Tea Rooms)</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-04/Tea Rooms - April 26.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
     
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
