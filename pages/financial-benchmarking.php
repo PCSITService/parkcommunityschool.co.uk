@@ -118,7 +118,7 @@ include('../partials/header.php');
         </div>
         
         <div class="pay-table-section">
-            <h2>The number of employees whose pay exceeded £100k, in £10k bandings for FY 2024 / 2025 was:</h2>
+            <h2>The number of employees whose gross annual salary exceeded £100,000 in £10,000 bandings for FY 2025/2026 was:</h2>
             <table class="pay-table">
                 <thead>
                     <tr>
@@ -130,6 +130,10 @@ include('../partials/header.php');
                     <tr>
                         <td>1</td>
                         <td>£120,000 to £130,000</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>£100,000 to £110,000</td>
                     </tr>
                 </tbody>
             </table>
