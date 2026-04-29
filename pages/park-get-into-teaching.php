@@ -126,7 +126,7 @@ include('../partials/header.php');
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell medium-8">
-                <p>As a school we are keen to support those interested in a career in teaching, and work with Wildern Partnership SCITT and George Abbott SCITT as our local training providers.</p>
+                <p>As a school we are keen to support those interested in a career in teaching, and work with South Farham SCITT, TeachFirst and multiple universities as our local training providers. These include University of Chichester, Portsmouth, Brighton and Winchester.</p>
                 
                 <p>Our school provides the ideal opportunity to undertake and complete your teacher training. We offer expert in-school support through subject mentorship complemented by a school professional themes programme.</p>
                 
@@ -141,9 +141,9 @@ include('../partials/header.php');
                     </ul>
                 </div>
                 
-                <p>Both Wildern Partnership and George Abbott offer quality cross-phase teacher training. A School Centred Initial Teacher Training (SCITT) programme allows you to learn the craft of teaching in a school with children and experienced teachers, working as part of the team.</p>
+                <p>South Farnham offers quality cross-phase teacher training. A School Centred Initial Teacher Training (SCITT) programme allows you to learn the craft of teaching in a school with children and experienced teachers, working as part of the team. You can complete a SCITT with or without the PGCE qualification. The universities offer the more traditional PGCE routes into teaching, with University of Brighton also offering an apprenticeship pathway.</p>
                 
-                <p>Each trainee teacher is supported in school by an experienced mentor along with access to dedicated teachers. Subject specialists support trainee teachers to develop their subject knowledge. Core curriculum training sessions take place in school, online and at dedicated training centres, depending on which SCITT programme you are part of.</p>
+                <p>Each trainee teacher is supported in school by an experienced mentor along with access to dedicated teachers. Subject specialists support trainee teachers to develop their subject knowledge. Core curriculum training sessions take place in school, online and at dedicated training centres, depending on which SCITT/university programme you are part of.</p>
             </div>
         </div>
         
