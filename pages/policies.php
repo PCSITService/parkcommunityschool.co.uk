@@ -188,7 +188,7 @@ include('../partials/header.php');
                         <li data-policy="medical conditions"><a href="/assets/policies/medical-conditions.pdf" target="_blank" class="policy-link">Medical Conditions</a></li>
                         <li data-policy="mental health emotional wellbeing"><a href="/assets/policies/mental-health-emotional-wellbeing-policy.pdf" target="_blank" class="policy-link">Mental Health and Emotional Wellbeing</a></li>
                         <li data-policy="mobile phones"><a href="/assets/policies/mobile-phones.pdf" target="_blank" class="policy-link">Mobile Phones</a></li>
-                        <li data-policy="nqt induction ect"><a href="/assets/policies/Early Career Teacher - Oct 2024.pdf" target="_blank" class="policy-link">Early Career Teacher</a></li>
+                        <li data-policy="ECT Policy"><a href="/assets/policies/Early Career Teacher - Oct 2024.pdf" target="_blank" class="policy-link">ECT Policy</a></li>
                         <li data-policy="performance tables results"><a href="https://www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                         <li data-policy="physical restraint use of reasonable force"><a href="/assets/policies/Physical Restraint  Use of Reasonable Force - January 2026.pdf" target="_blank" class="policy-link">Physical Restraint &amp; Use of Reasonable Force</a></li>
                         <li data-policy="prevention of radicalisation extremism prevent"><a href="/assets/policies/prevention-of-radicalisation-and-extremism.pdf" target="_blank" class="policy-link">Prevention of Radicalisation and Extremism</a></li>
