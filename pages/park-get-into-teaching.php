@@ -4,8 +4,6 @@ include('../partials/header.php');
 ?>
 
 <style>
-    
-    
     .content-section {
         padding: 2rem 0 4rem;
     }
@@ -17,18 +15,23 @@ include('../partials/header.php');
     
     .scitt-partners {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
         margin: 2rem 0;
+        max-width: 900px;
     }
     
     .scitt-card {
         background: #f8f9fa;
         border-radius: 12px;
-        padding: 2rem;
+        padding: 1.75rem 1.5rem;
         text-align: center;
         border: 2px solid #e0e0e0;
         transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 220px;
     }
     
     .scitt-card:hover {
@@ -56,6 +59,8 @@ include('../partials/header.php');
         font-weight: 600;
         display: inline-block;
         transition: all 0.3s ease;
+        margin-top: auto;
+        align-self: center;
     }
     
     .scitt-card .button:hover {
@@ -112,12 +117,6 @@ include('../partials/header.php');
     .benefits-list ul li {
         margin-bottom: 0.5rem;
     }
-    
-    @media (max-width: 639px) {
-        .scitt-partners {
-            grid-template-columns: 1fr;
-        }
-    }
 </style>
 
 
@@ -148,17 +147,32 @@ include('../partials/header.php');
         </div>
         
         <div class="grid-x grid-padding-x">
-            <div class="cell medium-10">
+            <div class="cell medium-12">
                 <div class="scitt-partners">
                     <div class="scitt-card">
-                        <h4>Wildern Partnership SCITT</h4>
+                        <h4>South Farnham SCITT</h4>
                         <p>Quality cross-phase teacher training based in Hampshire</p>
-                        <a href="https://www.wildernpartnership.co.uk/" target="_blank" class="button">Visit Website</a>
+                        <a href="https://www.ssfscitt.org.uk/" target="_blank" class="button">Visit Website</a>
                     </div>
                     <div class="scitt-card">
-                        <h4>George Abbott SCITT</h4>
-                        <p>Outstanding teacher training provision in Surrey</p>
-                        <a href="https://www.georgeabbott.surrey.sch.uk/scitt" target="_blank" class="button">Visit Website</a>
+                        <h4>University of Portsmouth</h4>
+                        <p>Outstanding teacher training provision in Hampshire</p>
+                        <a href="https://www.port.ac.uk/news-events-and-blogs/blogs/study-and-student-life/studying-a-pgce-at-portsmouth" target="_blank" class="button">Visit Website</a>
+                    </div>
+                    <div class="scitt-card">
+                        <h4>University of Chichester</h4>
+                        <p>Outstanding teacher training provision in Hampshire</p>
+                        <a href="https://www.chi.ac.uk/study/postgraduate/a-career-in-teaching/" target="_blank" class="button">Visit Website</a>
+                    </div>
+                    <div class="scitt-card">
+                        <h4>University of Brighton</h4>
+                        <p>Outstanding teacher training provision in East Sussex</p>
+                        <a href="https://www.brighton.ac.uk/studying-here/subject-areas/education-and-teaching/teaching-undergraduate/index.aspx" target="_blank" class="button">Visit Website</a>
+                    </div>
+                    <div class="scitt-card">
+                        <h4>University of Winchester</h4>
+                        <p>Outstanding teacher training provision in Hampshire</p>
+                        <a href="https://www.winchester.ac.uk/study/subjects/Teaching-Education-and-Childhood-Studies/" target="_blank" class="button">Visit Website</a>
                     </div>
                 </div>
                 
