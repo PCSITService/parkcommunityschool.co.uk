@@ -260,61 +260,7 @@ include('../partials/header.php');
     <!-- Vacancies Column -->
     <section class="vacancies-column">
         <h2 class="section-header">Current Vacancies</h2>
-
-        <article class="vacancy-card">
-            <h3>English & Hums Teacher (YR5 - YR8)</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/English and Hums Teacher 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Exams Invigilator</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/Exam Invigilator 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Geography Teacher</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/Geography Teacher 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Teacher of Science</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/Teacher of Science -- April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Teacher of Science with TLR2b</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/Teacher of Science with TLR2b- April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Teaching Assistant</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-04/Teaching Assistant - April 2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
+        
         <article class="vacancy-card">
             <h3>Café Assistant (Tea Rooms)</h3>
             <div class="button-container">
