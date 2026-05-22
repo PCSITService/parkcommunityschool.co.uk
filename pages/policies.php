@@ -206,6 +206,7 @@ include('../partials/header.php');
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social &amp; Cultural)</a></li>
                         <!--<li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>-->
                         <li data-policy="uniform 2025-2026"><a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-link">Uniform 2025-2026</a></li>
+                        <li data-policy="uniform 2025-2026"><a href="/assets/policies/Uniform 2026-2027 .pdf" target="_blank" class="policy-link">Uniform 2026-2027</a></li>
                         <li data-policy="volunteering"><a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link">Volunteering</a></li>
                         <li data-policy="work experience"><a href="/assets/policies/work-experience-march-2023.pdf" target="_blank" class="policy-link">Work Experience</a></li>
                         
