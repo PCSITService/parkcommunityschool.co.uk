@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>May 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-05/may half term letter .pdf" target="_blank">Year 11 - May Half Term Letter</a></li>
                     <li><a href="/assets/letters/2026-05/Park Newsletter May.pdf" target="_blank">May Letter - 2026</a></li>
                 </ul>
                 </ul>
