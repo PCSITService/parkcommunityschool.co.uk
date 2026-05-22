@@ -181,7 +181,113 @@ include('../partials/header.php');
         transform: translateY(-2px);
         color: #333;
     }
-    
+
+    /* Uniform links section */
+    .uniform-links-section {
+        padding: 4rem 0;
+        background: #f8f9fa;
+    }
+
+    .uniform-links-grid {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .uniform-link-card {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem 2.5rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        flex: 1 1 220px;
+        max-width: 280px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-top: 4px solid #1E7AB9;
+    }
+
+    .uniform-link-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.13);
+        text-decoration: none;
+    }
+
+    .uniform-link-card.green-top {
+        border-top-color: #a3cd42;
+    }
+
+    .uniform-link-card .link-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: #eaf4fb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .uniform-link-card.green-top .link-icon {
+        background: #f3fadf;
+    }
+
+    .uniform-link-card .link-icon svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .uniform-link-card .link-label {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1E7AB9;
+        margin: 0;
+    }
+
+    .uniform-link-card.green-top .link-label {
+        color: #6a9a1a;
+    }
+
+    .uniform-link-card .link-title {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #222;
+        margin: 0;
+        line-height: 1.35;
+    }
+
+    .uniform-link-card .link-cta {
+        margin-top: 0.25rem;
+        background: #1E7AB9;
+        color: white;
+        padding: 0.55rem 1.4rem;
+        border-radius: 30px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        display: inline-block;
+        transition: background 0.2s ease;
+    }
+
+    .uniform-link-card:hover .link-cta {
+        background: #155a8a;
+    }
+
+    .uniform-link-card.green-top .link-cta {
+        background: #a3cd42;
+        color: #333;
+    }
+
+    .uniform-link-card.green-top:hover .link-cta {
+        background: #8fb332;
+    }
+
     @media screen and (max-width: 768px) {
         .principle-card,
         .uniform-card,
@@ -192,76 +298,64 @@ include('../partials/header.php');
         .image-container {
             margin-bottom: 1.5rem;
         }
+
+        .uniform-link-card {
+            max-width: 100%;
+        }
     }
 </style>
 
 
-<!-- PRINCIPLE SECTION -->
-<section class="content-section">
+<section class="uniform-links-section">
     <div class="grid-container">
-        <div class="grid-x grid-padding-x align-middle">
-            <div class="cell medium-7">
-                <div class="principle-card">
-                    <h3>The Principle of Uniform</h3>
-                    <p>Students should take pride in their uniform, care in their appearance, and look smart at all times.</p>
-                    <p>School is a place of work and preparation for working life. The school uniform and appearance rules support good behaviour and discipline across the school.</p>
-                    <p>We wish to encourage some choice, however we do avoid extremes or competition in fashion.</p>
-                </div>
-            </div>
-            <div class="cell medium-5">
-                <div class="image-container">
-                    <img src="/images/uniform/uniform-01.jpg" alt="Students in Park Community School uniform">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        <div class="uniform-links-grid">
 
-<!-- REQUIREMENTS SECTION -->
-<section class="grey-section">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x align-middle">
-            <div class="cell medium-5 medium-order-1 small-order-2">
-                <div class="image-container">
-                    <img src="/images/uniform/uniform-02.jpg" alt="Happy students in uniform">
+            <!-- Policy Sept 2025 -->
+            <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="uniform-link-card">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#1E7AB9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
                 </div>
-            </div>
-            <div class="cell medium-7 medium-order-2 small-order-1">
-                <div class="uniform-card">
-                    <h4>Required Uniform Items</h4>
-                    <ul class="uniform-list">
-                        <li>Park black blazer (compulsory)</li>
-                        <li>White shirt with collar capable of taking a tie</li>
-                        <li>School tie and House pin</li>
-                        <li>Black formal trousers or black box-pleat skirt</li>
-                        <li>Plain black outdoor shoes with sensible heels</li>
-                    </ul>
-                    <div class="policy-link">
-                        <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-btn">View Uniform Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                <p class="link-label">Policy Document</p>
+                <p class="link-title">Uniform Policy<br>September 2025</p>
+                <span class="link-cta">View PDF</span>
+            </a>
 
-<!-- PURCHASING SECTION -->
-<section class="content-section">
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x align-middle">
-            <div class="cell medium-7">
-                <div class="purchasing-card">
-                    <h4>Purchase Your Uniform</h4>
-                    <p>Park Community School partners with Skoolkit to bring all of our uniform to one place and reduce costs.</p>
-                    <p>Visit their website where you can purchase all of your uniform requirements and even collect in-store.</p>
-                    <a href="https://www.skoolkit.co.uk/" target="_blank" class="purchase-btn">Shop Uniform Now</a>
+            <!-- Policy Sept 2026 -->
+            <a href="/assets/policies/Uniform 2026-2027 .pdf" target="_blank" class="uniform-link-card">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#1E7AB9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
                 </div>
-            </div>
-            <div class="cell medium-5">
-                <div class="image-container">
-                    <img src="/images/uniform/uniform-03.jpg" alt="Uniform suitable for all year round">
+                <p class="link-label">Policy Document</p>
+                <p class="link-title">Uniform Policy<br>September 2026</p>
+                <span class="link-cta">View PDF</span>
+            </a>
+
+            <!-- Skoolkit -->
+            <a href="https://www.skoolkit.co.uk/" target="_blank" class="uniform-link-card green-top">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#a3cd42" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"/>
+                        <circle cx="20" cy="21" r="1"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
                 </div>
-            </div>
+                <p class="link-label">Purchase Uniform</p>
+                <p class="link-title">Shop on<br>Skoolkit</p>
+                <span class="link-cta">Visit Skoolkit</span>
+            </a>
+
         </div>
     </div>
 </section>
