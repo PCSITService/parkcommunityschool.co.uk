@@ -259,7 +259,7 @@ include('../partials/header.php');
                         <td>STEM ambassadors at Wisley<br>Year 10 Travel and Tourism at Southampton Port</td>
                     </tr>
                     <tr class="section-header">
-                        <td colspan="2">Half Term</td>
+                        <td colspan="2">Half Term – Monday 25 – Friday 29 May</td>
                     </tr>
                     <tr>
                         <td>Monday 25 – Friday 29 May</td>
@@ -271,10 +271,14 @@ include('../partials/header.php');
                     </tr>
                     <tr>
                         <td>Monday 8 June – Friday 19 June</td>
-                        <td>Year 10 Mocks<br>Year 10 Work Experience Fortnight</td>
+                        <td>Year 10 Mocks</td>
                     </tr>
                     <tr>
-                        <td>Monday 21 June – Friday 26 June</td>
+                        <td>Monday 22 June – Friday 3 July</td>
+                        <td>Year 10 Work Experience Fortnight</td>
+                    </tr>
+                    <tr>
+                        <td>Monday 22 June – Friday 26 June</td>
                         <td>Year 7, 8, 9 Testing week and annual reading tests<br>Abbey Farm residential</td>
                     </tr>
                     <tr>
