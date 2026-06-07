@@ -372,19 +372,19 @@ include('../partials/header.php');
                                 <td colspan="6">Monday</td>
                             </tr>
                             <tr>
-                                <td>Girls Football Academy</td>
+                                <td>Fitness Club</td>
                                 <td>PE</td>
                                 <td>15.00 – 16.00</td>
-                                <td>STP</td>
+                                <td>KFS</td>
                                 <td>All years</td>
-                                <td>ABW/TMO</td>
+                                <td>ABW</td>
                             </tr>
                             <tr>
-                                <td>Boys Football Academy</td>
+                                <td>Sports Ambassador Training</td>
                                 <td>PE</td>
-                                <td>15.00 – 16.00</td>
-                                <td>STP</td>
-                                <td>All years</td>
+                                <td>15.00 - 16.00</td>
+                                <td>KSH</td>
+                                <td>Years 7-10</td>
                                 <td>KPO</td>
                             </tr>
                             <tr>
@@ -425,7 +425,7 @@ include('../partials/header.php');
                                 <td>14.45-15.45</td>
                                 <td>Hub</td>
                                 <td>Years 7-9</td>
-                                <td>SRO/SEND</td>
+                                <td>MHA/SEND</td>
                             </tr>
                             <tr>
                                 <td>KS3 Handwriting Club</td>
@@ -433,15 +433,31 @@ include('../partials/header.php');
                                 <td>14.45-15.45</td>
                                 <td>Hub</td>
                                 <td>Years 7-9</td>
-                                <td>SRO/SEND</td>
+                                <td>MHA/SEND</td>
                             </tr>
                             <tr>
-                                <td>Bookbusters Book Club</td>
+                                <td>Book busters Book Club</td>
                                 <td>Library</td>
                                 <td>15.00-16.00</td>
                                 <td>KDC</td>
                                 <td>All years</td>
                                 <td>AMH</td>
+                            </tr>
+                            <tr>
+                                <td>Show rehearsals</td>
+                                <td>PA</td>
+                                <td>15.00-16.00</td>
+                                <td>KTH</td>
+                                <td>All years</td>
+                                <td>PA team</td>
+                            </tr>
+                            <tr>
+                                <td>Band session</td>
+                                <td>PA</td>
+                                <td>15.00-16.00</td>
+                                <td>DR</td>
+                                <td>Band</td>
+                                <td>JAC</td>
                             </tr>
 
                             <!-- Tuesday -->
@@ -492,6 +508,30 @@ include('../partials/header.php');
                             <!-- Wednesday -->
                             <tr class="day-header">
                                 <td colspan="6">Wednesday</td>
+                            </tr>
+                            <tr>
+                                <td>Girls Football Academy</td>
+                                <td>PE</td>
+                                <td>15,00 – 16.00</td>
+                                <td>STP</td>
+                                <td>All years</td>
+                                <td>ABW/TMO</td>
+                            </tr>
+                            <tr>
+                                <td>Boys Football Academy</td>
+                                <td>PE</td>
+                                <td>15.00 – 16.00</td>
+                                <td>STP</td>
+                                <td>All years</td>
+                                <td>KPO</td>
+                            </tr>
+                            <tr>
+                                <td>Afro Vibe Club</td>
+                                <td>PA</td>
+                                <td>15.00-16.00</td>
+                                <td>KDS</td>
+                                <td>Year 7 - 9</td>
+                                <td>ODI</td>
                             </tr>
                             <tr>
                                 <td>Butterfly Broadcast Production</td>
@@ -566,31 +606,15 @@ include('../partials/header.php');
                                 <td>FPE</td>
                             </tr>
                             <tr>
-                                <td>Badminton</td>
-                                <td>PE</td>
-                                <td>15.00 – 16.00</td>
-                                <td>KSH</td>
-                                <td>All years</td>
-                                <td>ABW</td>
-                            </tr>
-                            <tr>
-                                <td>Fitness Club</td>
-                                <td>PE</td>
-                                <td>15.00 – 16.00</td>
-                                <td>KFS</td>
-                                <td>All years</td>
-                                <td>LCV</td>
-                            </tr>
-                            <tr>
                                 <td>Dance Live Rehearsals</td>
                                 <td>PA</td>
-                                <td>15.00 – 16.00</td>
+                                <td>15.00 – 14.00</td>
                                 <td>KTH</td>
                                 <td>All years</td>
-                                <td>LCH</td>
+                                <td>LCH/CMR</td>
                             </tr>
                             <tr>
-                                <td>Girls Running Club</td>
+                                <td>French Club</td>
                                 <td>MFL</td>
                                 <td>15.00 – 16.00</td>
                                 <td>C07</td>
@@ -651,10 +675,10 @@ include('../partials/header.php');
                                 <td>BFO</td>
                             </tr>
                             <tr>
-                                <td>Fitness Club</td>
+                                <td>Rounders/Cricket Club</td>
                                 <td>PE</td>
                                 <td>15.00 – 16.00</td>
-                                <td>KFS</td>
+                                <td>OS</td>
                                 <td>All years</td>
                                 <td>KPO</td>
                             </tr>
@@ -672,7 +696,7 @@ include('../partials/header.php');
                                 <td>15.00 – 16.00</td>
                                 <td>KO3</td>
                                 <td>All years</td>
-                                <td>LWI/JAC</td>
+                                <td>LWI</td>
                             </tr>
                             <tr>
                                 <td>KS3 Dance Club</td>
@@ -680,7 +704,15 @@ include('../partials/header.php');
                                 <td>15.00 – 16.00</td>
                                 <td>KTH</td>
                                 <td>Years 7 – 9</td>
-                                <td>KPR/JCM</td>
+                                <td>KPR</td>
+                            </tr>
+                            <tr>
+                                <td>Music/guitar club</td>
+                                <td>PA</td>
+                                <td>15.00 – 16.00</td>
+                                <td>KO2</td>
+                                <td>All years</td>
+                                <td>JAC</td>
                             </tr>
 
                             <!-- Friday -->
@@ -699,7 +731,7 @@ include('../partials/header.php');
                                 <td>Musical Theatre</td>
                                 <td>PA</td>
                                 <td>15.00 – 16.00</td>
-                                <td>KTH</td>
+                                <td>KDS</td>
                                 <td>All years</td>
                                 <td>JBW</td>
                             </tr>
