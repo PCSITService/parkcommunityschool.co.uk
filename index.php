@@ -359,21 +359,21 @@ include('partials/header.php');
         <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA2 Year 7.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA3 Year 7.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    KA2 KS3 Year 7
+                    KA3 KS3 Year 7
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA2 Year 8.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA3 Year 8.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    KA2 KS3 Year 8
+                    KA3 KS3 Year 8
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/KA2 Year 9.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/KA3 Year 9.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    KA2 KS3 Year 9
+                    KA3 KS3 Year 9
                 </a>
             </li>
         </ul>
