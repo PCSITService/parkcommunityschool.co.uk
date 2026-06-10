@@ -262,6 +262,24 @@ include('../partials/header.php');
         <h2 class="section-header">Current Vacancies</h2>
 
         <article class="vacancy-card">
+            <h3>School Matron (Medical Officer)</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-06/Job Advert - School Matron - June 2026.pdf" class="vacancy-link" target="_blank" aria-label="medical Job Advert PDF">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
+            <h3>Teacher of Geography – Part-Time</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-06/Geography Teacher - Part Time - Sep2026.pdf" class="vacancy-link" target="_blank" aria-label="Geography Teacher Job Advert PDF">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+        
+        <article class="vacancy-card">
             <h3>Key Stage 2 Teacher - Maternity Cover</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-06/Autumn Term Maternity Cover Teacher - KS2 - Sep. 2026 2.6.26.pdf" class="vacancy-link" target="_blank" aria-label="KS2 Teacher Job Advert PDF">
