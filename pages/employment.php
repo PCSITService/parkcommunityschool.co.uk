@@ -297,15 +297,6 @@ include('../partials/header.php');
                 </a>
             </div>
         </article>
-
-        <article class="vacancy-card">
-            <h3>Afternoon Receptionist / Administrator</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-06/Job Advert - Receptionist - Jun26.pdf" class="vacancy-link" target="_blank" aria-label="Receptionist Job Advert PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
     
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
