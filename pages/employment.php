@@ -278,25 +278,6 @@ include('../partials/header.php');
                 </a>
             </div>
         </article>
-        
-        <article class="vacancy-card">
-            <h3>Key Stage 2 Teacher - Maternity Cover</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-06/Autumn Term Maternity Cover Teacher - KS2 - Sep. 2026 2.6.26.pdf" class="vacancy-link" target="_blank" aria-label="KS2 Teacher Job Advert PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-
-        <article class="vacancy-card">
-            <h3>Teacher of Science Years 5 to 8</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-06/Science Teacher for Years 5-8 Teacher 2026.pdf" class="vacancy-link" target="_blank" aria-label="Science Teacher Job Advert PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
     
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
