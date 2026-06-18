@@ -319,7 +319,7 @@ include('../partials/header.php');
                     </tr>
                     <tr>
                         <td>Wednesday 22 July</td>
-                        <td>Last day of term</td>
+                        <td>Last day of term - Students dismissed at 1pm</td>
                     </tr>
                 </tbody>
             </table>
