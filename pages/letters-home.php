@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>June 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-06/Changes to FSM eligibility from 1.9.26 letter.pdf" target="_blank">Changes to FSM eligibility - 17th June</a></li>
                     <li><a href="/assets/letters/2026-06/Year 8 Attendance Letter.pdf" target="_blank">Years 8 Attendance - 15th June</a></li>
                     <li><a href="/assets/letters/2026-06/Years  7-9 testing week June.pdf" target="_blank">Years 7-9 testing week - 22nd June</a></li>
                     <li><a href="/assets/letters/2026-06/HSDC Taster 17th June.pdf" target="_blank">Year 10 - HSDC Taster 17th June</a></li>
