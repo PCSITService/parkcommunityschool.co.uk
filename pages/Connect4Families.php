@@ -177,6 +177,19 @@ include('../partials/header.php');
         box-shadow: var(--shadow-light);
     }
 
+    /* Banner Display */
+    .banner-display {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .banner-display img {
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-light);
+    }
+
     /* Enhanced Buttons */
     .button {
         background: linear-gradient(135deg, var(--primary-green), #68d391);
@@ -201,6 +214,33 @@ include('../partials/header.php');
         box-shadow: var(--shadow-medium);
         color: white;
         text-decoration: none;
+    }
+
+    /* Ambitions List */
+    .ambitions-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0;
+    }
+
+    .ambitions-list li {
+        padding: 0.5rem 0 0.5rem 2rem;
+        position: relative;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-dark);
+    }
+
+    .ambitions-list li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background: var(--primary-green);
+        border-radius: 50%;
     }
 
     /* Contact Section */
@@ -344,9 +384,26 @@ include('../partials/header.php');
         <div class="content-wrapper">
             <div class="content-card">
                 <h2>What is Connect4Families?</h2>
-                <p>Connect4Families is the creation of Park Community School staff, Susan Parish MBE and Jan Lefley MBE. In 2019 and 2020 they delivered for the Department for Education, as part of a pilot with 8 organisations, a programme of enriching activities developed for children and for parents through our Family Fun Days. As a result of the 9 successful pilots all local authorities are now funded to deliver a three-year programme of free holiday activities for disadvantaged children and families.</p>
-                <p>2023 we are delighted to be funded by Hampshire County Council, to provide 16 days of Family Fun Days and 16 days of Connect4Youth in the summer and 4 days for both at Christmas 2023. The programmes have something for everyone.</p>
-                
+
+                <div class="banner-display">
+                    <img src="/assets/connect4families/2026-06/Banner.png" alt="Connect4Families Banner">
+                </div>
+
+                <p>Connect4Families and Connect4Youth are free school holiday activities funded by the Holiday Activities and Food Programme (HAF).</p>
+                <p>Since 2019, we have provided fun free and engaging activities to families and teenagers who receive benefit related free school meals across the Leigh Park and Havant area in the Easter, Summer and Christmas holidays. Every family fun day event includes crafts, sports, cooking and a specialist to really engage children and enable them to develop their creativity and motor skills.</p>
+                <p>We are pleased to be able to support families throughout the school holidays as we understand that for some people these are some of the toughest times of the year. We believe that all families deserve to have quality family time without stretching their budget throughout the school holidays.</p>
+                <p>In line with Park Community Schools ethos of "finding what you love", teens aged between 11-16 are also given an opportunity to independently explore various exciting activities, develop their skills and increase their confidence.</p>
+                <p>As well as activities we also provide free healthy and nutritious meals to everyone who attends the Connect4Families programme with delicious menus developed by our award-winning catering team.</p>
+
+                <h3>Our ambitions:</h3>
+                <ul class="ambitions-list">
+                    <li>Provide engaging and fun activities for both families and teens.</li>
+                    <li>Be able to support some of the most vulnerable members of our community throughout the school holidays.</li>
+                    <li>We aim to support healthy lifestyles and well-being across Hampshire.</li>
+                    <li>To be a place where the local community can feel safe and supported.</li>
+                </ul>
+
+                <!-- ARCHIVED - video removed from display but kept for reference
                 <div class="video-container">
                     <?php $videoPath = "assets/connect4families/2023-09/230908-connect4summer2.mp4"; ?>
                     <video controls>
@@ -354,7 +411,9 @@ include('../partials/header.php');
                         Your browser does not support the video tag.
                     </video>
                 </div>
+                -->
 
+                <!-- ARCHIVED - old resource links kept for reference
                 <div class="resource-grid">
                     <div class="resource-card">
                         <a href="/assets/connect4families/2023-07/family-fun-day-poster.jpg" target="_blank" class="resource-link">
@@ -369,9 +428,41 @@ include('../partials/header.php');
                         </a>
                     </div>
                 </div>
+                -->
 
                 <div class="logo-display">
-                    <img src="/assets/connect4families/2023-07/connect4families-logo.png" alt="Connect4Families Logo">
+                    <img src="/assets/connect4families/2026-06/Connect4Fam.png" alt="Connect4Families Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHAT IS THE HAF PROGRAMME -->
+<section class="content-section alt-bg">
+    <div class="grid-container">
+        <div class="content-wrapper">
+            <div class="section-divider">
+                <div class="divider-line"></div>
+            </div>
+
+            <div class="content-card">
+                <h2>What is the HAF Programme?</h2>
+                <p>The Holiday Activities and Food (HAF) Programme is funded by the Department for Education to provide free engaging activities and nutritious meals to children from reception to year 11 (inclusive) during the school holidays who would normally receive benefit-related free school meal (FSM). Hampshire County Council delivers Hampshire HAF through the connect4communities programme to all school-aged in receipt of benefits-related FSM who live, or go to school, in areas of Hampshire serviced by Hampshire County Council (this excludes the unitary authorities of Portsmouth and Southampton).</p>
+
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <a href="https://www.hants.gov.uk/socialcareandhealth/childrenandfamilies/connectforcommunities/holidayactivities/haf-information" target="_blank" class="resource-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            connect4communities Programme
+                        </a>
+                    </div>
+                    <div class="resource-card">
+                        <a href="https://eequ.org/connect4familiesandyouth" target="_blank" class="resource-link">
+                            <i class="fas fa-calendar-check"></i>
+                            Book Now
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -379,17 +470,18 @@ include('../partials/header.php');
 </section>
 
 <!-- WHAT IS CONNECT4YOUTH -->
-<section class="content-section alt-bg">
+<section class="content-section">
     <div class="grid-container">
         <div class="content-wrapper">
             <div class="section-divider">
                 <div class="divider-line"></div>
             </div>
-            
+
             <div class="content-card">
                 <h2>What is Connect4Youth?</h2>
-                <p>Summer 2023 we are offering a wide range of activities for 11-16 years including trips out. Please see the programme below:</p>
-                
+                <p>In line with Park Community Schools ethos of "finding what you love", teens aged between 11-16 are also given an opportunity to independently explore various exciting activities, develop their skills and increase their confidence.</p>
+
+                <!-- ARCHIVED - old youth resource links kept for reference
                 <div class="resource-grid">
                     <div class="resource-card">
                         <a href="/assets/connect4families/2023-07/activities-connect4youth-summer-holidays-2023.pdf" target="_blank" class="resource-link">
@@ -416,34 +508,33 @@ include('../partials/header.php');
                         </a>
                     </div>
                 </div>
+                -->
 
                 <div class="logo-display">
-                    <img src="/assets/connect4families/2023-07/connect4youth-logo.png" alt="Connect4Youth Logo">
+                    <img src="/assets/connect4families/2026-06/Connect4Youth.png" alt="Connect4Youth Logo">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CONNECT4 REVIEWS -->
+<!-- ARCHIVED - Connect4 Reviews section kept for reference
 <section class="content-section">
     <div class="grid-container">
         <div class="content-wrapper">
             <div class="section-divider">
                 <div class="divider-line"></div>
             </div>
-            
+
             <div class="content-card">
                 <h2>Connect4 Reviews</h2>
-                
-                <!-- Connect4Christmas 2021 -->
+
                 <h3>Connect4Christmas 2021</h3>
                 <p>Please take the time to view our Connect4Christmas Activity Book</p>
                 <div class="text-center" style="margin-bottom: 3rem;">
                     <a href="/assets/connect4summer/connect-christmas.pdf" target="_blank" class="button">Activity Book</a>
                 </div>
 
-                <!-- Connect4Summer 2021 Review -->
                 <h3>Connect4Summer 2021 - Review</h3>
                 <p>Connect4Summer has been successful for its third year, and we are extremely proud of the joy and happiness we have managed to bring to families while helping with mental health issues raised by COVID-19.</p>
                 <p>We have been able to bring a 20-day programme to venues around Hampshire, Portsmouth, Southampton and Isle of Wight while maintaining government guidelines.</p>
@@ -452,28 +543,26 @@ include('../partials/header.php');
                     <a href="/assets/connect4summer/connect4summer2021_review.pdf" target="_blank" class="button">View the Full Review</a>
                 </div>
 
-                <!-- Connect4Summer 2020 Review -->
                 <h3>Connect4Summer 2020 - Review</h3>
                 <p>Connect4Summer has been successful for its second year, and we are extremely proud of the joy and happiness we have managed to bring to families while helping with mental health issues raised by COVID-19.</p>
                 <p>We have been able to bring a 20-day programme to venues around Hampshire, Portsmouth, Southampton and Isle of Wight while maintaining government guidelines.</p>
                 <p>Please take the time to view our Connect4Summer 2020 review, and we'd like to thank all the 420+ employed to make this fantastic event possible once again.</p>
-                
+
                 <div class="video-embed">
                     <iframe src="https://player.vimeo.com/video/451756772" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
-                
+
                 <div class="text-center" style="margin-bottom: 3rem;">
                     <a href="/assets/connect4summer/connect4summer2020_review.pdf" target="_blank" class="button">View the Full Review</a>
                 </div>
 
-                <!-- Connect4Summer 2019 Review -->
                 <h3>Connect4Summer 2019 - Review</h3>
                 <p>We are really proud of what we have achieved, 17 organisations have provided free daily child care and 21 organisations have provided free family fun days for 20 days and the feedback from parents has been tremendous.</p>
-                
+
                 <div class="video-embed">
                     <iframe src="https://player.vimeo.com/video/368249167" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
-                
+
                 <div class="text-center">
                     <a href="/assets/connect4summer/connect4summer2019_review.pdf" target="_blank" class="button">View the Full Review</a>
                 </div>
@@ -481,6 +570,7 @@ include('../partials/header.php');
         </div>
     </div>
 </section>
+-->
 
 <!-- CONTACT SECTION -->
 <section class="contact-section">
@@ -488,11 +578,12 @@ include('../partials/header.php');
         <div class="content-wrapper">
             <div class="contact-card">
                 <h2>Contact</h2>
-                <p>Please visit our website at: <a href="//connect4.org.uk/">Connect4.org.uk</a></p>
+                <p>Please visit our website at: <a href="https://eequ.org/connect4familiesandyouth" target="_blank">eequ.org/connect4familiesandyouth</a></p>
                 <p>For further details please contact:</p>
                 <ul class="contact-list">
                     <li><i class="fas fa-envelope"></i> Email: <a href="mailto:admin@connect4.org.uk">admin@connect4.org.uk</a></li>
                     <li><i class="fas fa-phone"></i> Tel: 02392 489 811</li>
+                    <li><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/Connect4Families/" target="_blank">facebook.com/Connect4Families/</a></li>
                 </ul>
             </div>
         </div>
@@ -505,12 +596,12 @@ include('../partials/header.php');
     document.addEventListener('DOMContentLoaded', function() {
         // Smooth hover effects for content cards
         const contentCards = document.querySelectorAll('.content-card, .resource-card');
-        
+
         contentCards.forEach(card => {
             card.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-8px) scale(1.02)';
             });
-            
+
             card.addEventListener('mouseleave', function() {
                 this.style.transform = 'translateY(0) scale(1)';
             });
