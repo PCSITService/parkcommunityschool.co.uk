@@ -328,7 +328,22 @@ include('../partials/header.php');
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell medium-6">
                 <p>Access the latest school calendar and daily schedule information. These resources contain the most up-to-date timetables and relevant academic information for the current school year.</p>
-                
+
+                <div class="resource-card">
+                    <div class="resource-content">
+                        <a href="/assets/timetabling/Calendar 2026-2027.pdf" target="_blank" class="resource-link">
+                            <span class="resource-icon">📅</span>
+                            <div class="resource-title">
+                                <strong>School Calendar</strong>
+                                <span>Important Dates 2026–2027</span>
+                            </div>
+                        </a>
+                        <a href="/assets/timetabling/school-calendar.pdf" download="Calendar 2026-2027.pdf" class="download-button" aria-label="Download School Calendar PDF">
+                            <i class="fas fa-download" aria-hidden="true"></i> Download
+                        </a>
+                    </div>
+                </div>             
+
                 <div class="resource-card">
                     <div class="resource-content">
                         <a href="/assets/timetabling/school-calendar.pdf" target="_blank" class="resource-link">
