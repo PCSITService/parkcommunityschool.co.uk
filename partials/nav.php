@@ -327,7 +327,8 @@
             </li>
 
             <!-- Statutory Link -->
-            <li><a href="/pages/statutory-track.php">Statutory</a></li>
+             <li><a href="/pages/statutory.php">Statutory</a></li>
+            <!--<li><a href="/pages/statutory-track.php">Statutory</a></li> Tracker-->
 
             <!-- School Portal Link -->
             <li><a href="/pages/school-portal.php">School Portal</a></li>
@@ -415,7 +416,8 @@
             </li>
 
             <!-- Statutory Link -->
-            <li><a href="/pages/statutory-track.php">Statutory</a></li>
+             <li><a href="/pages/statutory.php">Statutory</a></li>
+            <!--<li><a href="/pages/statutory-track.php">Statutory</a></li> Tracker-->
 
             <!-- School Portal Link -->
             <li><a href="/pages/school-portal.php">School Portal</a></li>
