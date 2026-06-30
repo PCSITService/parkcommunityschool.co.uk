@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>June 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-06/Senior Leadership Roles at Park 2026.pdf" target="_blank">Senior Leadership Role Changes at Park 2026</a></li>
                     <li><a href="/assets/letters/2026-06/Letter to parents.pdf" target="_blank">Ofsted Inspection - 23-24th June</a></li>
                     <li><a href="/assets/letters/2026-06/Head of Year 9.pdf" target="_blank">Head of Year 9 - 17th June</a></li>
                     <li><a href="/assets/letters/2026-06/Changes to FSM eligibility from 1.9.26 letter.pdf" target="_blank">Changes to FSM eligibility - 17th June</a></li>
