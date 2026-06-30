@@ -266,7 +266,7 @@ include('../partials/header.php');
                         <div class="process-step">
                             <div class="process-step-content">
                                 <h4>Visit Us</h4>
-                                <p>Arrange a tour to see our school in action and speak with students and staff.</p>
+                                <p>At one of our Open Evenings from 6-8:30pm on the 23rd September</p>
                             </div>
                         </div>
                         <div class="process-step">
