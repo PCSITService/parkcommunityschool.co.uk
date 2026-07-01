@@ -320,9 +320,9 @@ include('partials/header.php');
                     Year 11 Candidate Handbook
                 </a>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/2026/2026 Summer Exam Timetable Board.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/2026/Summer 2027 Draft Exam Timetable.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    2026 Summer Exam Timetable
+                    2027 Summer Exam Timetable
                 </a>
             </li>
             </li>
