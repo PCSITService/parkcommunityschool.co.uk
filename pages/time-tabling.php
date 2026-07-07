@@ -331,7 +331,7 @@ include('../partials/header.php');
 
                 <div class="resource-card">
                     <div class="resource-content">
-                        <a href="/assets/timetabling/Calendar 2026-2027.pdf" target="_blank" class="resource-link">
+                        <a href="/assets/timetabling/Calendar_2026-2027.pdf" target="_blank" class="resource-link">
                             <span class="resource-icon">📅</span>
                             <div class="resource-title">
                                 <strong>School Calendar</strong>
