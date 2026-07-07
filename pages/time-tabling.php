@@ -338,7 +338,7 @@ include('../partials/header.php');
                                 <span>Important Dates 2026–2027</span>
                             </div>
                         </a>
-                        <a href="/assets/timetabling/school-calendar.pdf" download="Calendar 2026-2027.pdf" class="download-button" aria-label="Download School Calendar PDF">
+                        <a href="/assets/timetabling/Calendar_2026-2027.pdf" download="Calendar 2026-2027.pdf" class="download-button" aria-label="Download School Calendar PDF">
                             <i class="fas fa-download" aria-hidden="true"></i> Download
                         </a>
                     </div>
