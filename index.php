@@ -270,7 +270,7 @@ include('partials/header.php');
                         <a class="button warning" href="#" id="openTransitionModal">Year 6 Transition</a>
                     </div>
                     <div class="button-row">
-                        <a class="button success" href="/assets/Welcome to Park 2025 All Students ).pdf" target="_blank">Welcome to Park</a>
+                        <a class="button success" href="/assets/welcome_to_park_2026.pdf" target="_blank">Welcome to Park</a>
                         <a class="button success" href="assets/Prospectus 2026.pdf" target="_blank">Prospectus</a>
                         <a class="button success" href="pages/letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
                     </div>
@@ -397,22 +397,7 @@ include('partials/header.php');
                     <i class="fas fa-file-pdf"></i>
                     Welcome to Park 2026 - Year 7
                 </a>
-            </li>        
-        
-        <!-- <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
-            <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/transition/Welcome%20to%20Park%202025%20(All%20Students).pdf" target="_blank" class="modal-link">
-                    <i class="fas fa-file-pdf"></i>
-                    Welcome to Park 2025 (All Students)
-                </a>
             </li>
-            <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/transition/Welcome%20to%20Park%202025%20(Year%207).pdf" target="_blank" class="modal-link">
-                    <i class="fas fa-file-pdf"></i>
-                    Welcome to Park 2025 (Year 7)
-                </a>
-            </li>
-        </ul> -->
         
         <a href="pages/admissions.php" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600;">View Year 6 Transition</a>
         <a href="https://forms.office.com/pages/responsepage.aspx?id=2W4a34q1NUGg3oPDXQCwSMAnMhrhtYVLpy64uSKYhLtUMERFQThLQ1lFR1lWVUNPQ1ZXUUc3U1dWNC4u&route=shorturl" target="_blank" style="background: var(--green); color: #fff; display: inline-block; padding: 0.75rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: 600; margin-left: 0.5rem;">Year 7 Acceptance Form</a>
