@@ -231,7 +231,7 @@
                                 <img src="https://www.classcharts.com/img/logo.png" class="card-img-top" alt="Classcharts Logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Classcharts</h5>
-                                    <p class="card-text small text-muted">Check behavior points and homework</p>
+                                    <p class="card-text small text-muted">Check behavior points and homework - <a href="/assets/classcharts/class_charts_for_pupils_guide.pdf" target="_blank">Guide</a></p>
                                 </div>
                             </div>
                         </a>
@@ -294,7 +294,7 @@
                                 <img src="https://www.classcharts.com/img/logo.png" class="card-img-top" alt="Classcharts Logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Classcharts</h5>
-                                    <p class="card-text small text-muted">Monitor your child's behavior and homework</p>
+                                    <p class="card-text small text-muted">Monitor your child's behavior and homework - <a href="/assets/classcharts/class_charts_for_pupils_guide.pdf" target="_blank">Guide</a></p>
                                 </div>
                             </div>
                         </a>
