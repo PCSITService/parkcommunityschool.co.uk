@@ -231,10 +231,11 @@
                                 <img src="https://www.classcharts.com/img/logo.png" class="card-img-top" alt="Classcharts Logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Classcharts</h5>
-                                    <p class="card-text small text-muted">Check behavior points and homework - <a href="/assets/classcharts/class_charts_for_pupils_guide.pdf" target="_blank">Guide</a></p>
+                                    <p class="card-text small text-muted">Check behavior points and homework</p>
                                 </div>
                             </div>
                         </a>
+                        <a href="/assets/classcharts/class_charts_for_pupils_guide.pdf" target="_blank">Pupil Guide</a>
                     </div>
                     <!-- Google Classroom -->
                     <div class="col">
@@ -294,10 +295,11 @@
                                 <img src="https://www.classcharts.com/img/logo.png" class="card-img-top" alt="Classcharts Logo">
                                 <div class="card-body">
                                     <h5 class="card-title">Classcharts</h5>
-                                    <p class="card-text small text-muted">Monitor your child's behavior and homework - <a href="/assets/classcharts/class_charts_for_pupils_guide.pdf" target="_blank">Guide</a></p>
+                                    <p class="card-text small text-muted">Monitor your child's behavior and homework</p>
                                 </div>
                             </div>
                         </a>
+                        <a href="/assets/classcharts/class_charts_for_parents_guide.pdf" target="_blank">Parents Guide</a>
                     </div>
                     <!-- Tucasi for Parents -->
                     <div class="col">
