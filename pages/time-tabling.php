@@ -326,23 +326,8 @@ include('../partials/header.php');
         </div>
 
         <div class="grid-x grid-padding-x align-middle">
-            <div class="cell medium-6">
+            <div class="cell medium-12">
                 <p>Access the latest school calendar and daily schedule information. These resources contain the most up-to-date timetables and relevant academic information for the current school year.</p>
-
-                <div class="resource-card">
-                    <div class="resource-content">
-                        <a href="/assets/timetabling/Calendar_2026-2027.pdf" target="_blank" class="resource-link">
-                            <span class="resource-icon">📅</span>
-                            <div class="resource-title">
-                                <strong>School Calendar</strong>
-                                <span>Important Dates 2026–2027</span>
-                            </div>
-                        </a>
-                        <a href="/assets/timetabling/Calendar_2026-2027.pdf" download="Calendar 2026-2027.pdf" class="download-button" aria-label="Download School Calendar PDF">
-                            <i class="fas fa-download" aria-hidden="true"></i> Download
-                        </a>
-                    </div>
-                </div>             
 
                 <div class="resource-card">
                     <div class="resource-content">
@@ -350,7 +335,7 @@ include('../partials/header.php');
                             <span class="resource-icon">📅</span>
                             <div class="resource-title">
                                 <strong>School Calendar</strong>
-                                <span>Important Dates 2025–2026</span>
+                                <span>Important Dates 2026-27</span>
                             </div>
                         </a>
                         <a href="/assets/timetabling/school-calendar.pdf" download="School-Calendar-2024-2025.pdf" class="download-button" aria-label="Download School Calendar PDF">
@@ -376,12 +361,6 @@ include('../partials/header.php');
                 
                 <div class="info-note">
                     <p><strong>Note:</strong> These documents are updated at the start of each academic year. Please ensure you have the latest version for accurate information.</p>
-                </div>
-            </div>
-            
-            <div class="cell medium-6 show-for-medium">
-                <div class="img-container">
-                    <img src="/images/timetabling/timetabling-01.jpg" alt="Park Community School students in the classroom">
                 </div>
             </div>
         </div>
