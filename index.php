@@ -672,15 +672,20 @@ include('partials/header.php');
             <div class="contact-content">
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Park Community School, Middle Park Way, Havant, Hampshire, PO9 4BU</span>
+                    <span>Park Community School - Secondary Campus, Middle Park Way, Havant, Hampshire, PO9 4BU</span>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:02392489800">02392 489 800</a>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Park Community School - Primary Campus, Kingsclere Avenue, Havant, Hampshire, PO9 4RY</span>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:info@pcs.hants.sch.uk">info@pcs.hants.sch.uk</a>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:02392489800">02392 489 800</a>
+                        <hr>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@pcs.hants.sch.uk">info@pcs.hants.sch.uk</a>
+                    </div>
                 </div>
             </div>
         </div>
