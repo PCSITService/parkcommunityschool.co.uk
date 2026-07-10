@@ -380,7 +380,7 @@ include('partials/header.php');
     </div>
 </div>
 
-<!-- YEAR 7 TRANSITION MODAL -->
+<!-- YEAR 6 TRANSITION MODAL -->
 <div class="modal-overlay" id="transitionModal">
     <div class="modal-content">
         <button class="modal-close" aria-label="Close">&times;</button>
@@ -392,6 +392,10 @@ include('partials/header.php');
                 <a href="/assets/transition/Transition 2026 - letter 1 - March 2026.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 6 Transition 2026
+                </a>
+                <a href="/assets/transition/welcome_to_park_2026_yr7.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Welcome to Park 2026 - Year 7
                 </a>
             </li>        
         
