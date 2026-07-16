@@ -241,7 +241,7 @@ include('../partials/header.php');
 
                 <div class="button-row">
                     <a href="../assets/curriculum/smsc/smsc_overview.pdf" class="button" target="_blank">SMSC Overview</a>
-                    <a href="../assets/curriculum/smsc/SMSC.pdf" class="button" target="_blank">Personal Development Curriculum Journey</a>
+                    <a href="../assets/curriculum/smsc/smsc_learning_journey.pdf" class="button" target="_blank">Learning Journey</a>
                 </div>
 
                 <h3>Areas of Study</h3>
@@ -249,10 +249,10 @@ include('../partials/header.php');
                 
                 <div class="areas-box">
                     <ul>
-                        <li><a href="../assets/curriculum/smsc/Body and mind Roadmap.pdf" target="_blank"><strong>Body and Mind</strong></a> – includes wellbeing, health, self-care, mental health, the dangers of drugs and alcohol, and keeping yourself safe</li>
-                        <li><a href="../assets/curriculum/smsc/relations roadmap.pdf" target="_blank"><strong>Relationships</strong></a> – includes sexual and non-sexual relationships, coping with those relationships, consent, coercion, and sexual health</li>
-                        <li><a href="../assets/curriculum/smsc/GlobalCitizen roadmap.pdf" target="_blank"><strong>Being a Global Citizen</strong></a> – careers, British values, cultural awareness, racism, homophobia, and e-safety</li>
-                        <li><a href="../assets/curriculum/smsc/Finance Roadmap.pdf" target="_blank"><strong>Religious Studies</strong></a> – taught in discrete lessons</li>
+                        <li><a href="../assets/curriculum/smsc/smsc_body_and_mind_roadmap.pdf" target="_blank"><strong>Body and Mind</strong></a> – includes wellbeing, health, self-care, mental health, the dangers of drugs and alcohol, and keeping yourself safe</li>
+                        <li><a href="../assets/curriculum/smsc/smsc_relations_roadmap.pdf" target="_blank"><strong>Relationships</strong></a> – includes sexual and non-sexual relationships, coping with those relationships, consent, coercion, and sexual health</li>
+                        <li><a href="../assets/curriculum/smsc/smsc_global_citizen_roadmap.pdf" target="_blank"><strong>Being a Global Citizen</strong></a> – careers, British values, cultural awareness, racism, homophobia, and e-safety</li>
+                        <li><a href="../assets/curriculum/smsc/smsc_finance_roadmap.pdf" target="_blank"><strong>Religious Studies</strong></a> – taught in discrete lessons</li>
                     </ul>
                 </div>
 
@@ -261,7 +261,7 @@ include('../partials/header.php');
                 <h4>'More Than Just a School' – An Expansive Curriculum</h4>
 
                 <div class="curriculum-image">
-                    <img src="../assets/curriculum/smsc/smsc-road.jpg" alt="Expansive Curriculum">
+                    <img src="../assets/curriculum/smsc/smsc_road.jpg" alt="Expansive Curriculum">
                 </div>
 
                 <div class="topic-section">
