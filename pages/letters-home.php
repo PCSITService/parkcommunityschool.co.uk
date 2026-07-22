@@ -141,6 +141,7 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>July 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-07/SMSC update letter 2026.pdf" target="_blank">SMSC Updates - 14th July</a></li>
                     <li><a href="/assets/letters/2026-07/The_power_of_music_letter.pdf" target="_blank">The Power of Music</a></li>
                     <li><a href="/assets/letters/2026-07/July_2026_Newsletter.pdf" target="_blank">July 2026 Newsletter</a></li>
                     <li><a href="/assets/letters/2026-07/end_of_year_letter_july_2026.pdf" target="_blank">End of Year Letter</a></li>
