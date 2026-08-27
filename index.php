@@ -271,6 +271,9 @@ include('partials/header.php');
                     </div>
                     <div class="button-row">
                         <a class="button success" href="/assets/welcome_to_park_2026.pdf" target="_blank">Welcome to Park</a>
+                        <a class="button success" href="/assets/Welcome to Park Primary.pdf" target="_blank">Welcome to Primary</a>
+                    </div>
+                    <div class="button-row">
                         <a class="button success" href="assets/Prospectus 2026.pdf" target="_blank">Prospectus</a>
                         <a class="button success" href="pages/letters-home.php"><i class="fas fa-envelope"></i> Letters &amp; Newsletters</a>
                     </div>
@@ -467,34 +470,10 @@ include('partials/header.php');
                 </div>
             </div>
         </div>
-        <!-- Slide 3 -->
-        <!--<div class="slide-content">
-            <div class="slide-inner">
-                <h3>Our Core Values</h3>
-                <div class="slide-grid three-col">
-                    <div class="feature-box">
-                        <div class="feature-icon"><i class="fas fa-star"></i></div>
-                        <h4>Excellence</h4>
-                        <p>We strive for excellence in everything we do, encouraging all students to reach their full potential.</p>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon"><i class="fas fa-heart"></i></div>
-                        <h4>Proud</h4>
-                        <p>We are proud to be apart of our school and community. </p>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon"><i class="fas fa-users"></i></div>
-                        <h4>Community</h4>
-                        <p>We are proud of our strong community spirit, working together to support each other's success.</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <!-- Indicators -->
         <div class="slide-indicators">
             <span class="indicator active" data-slide="0"></span>
             <span class="indicator" data-slide="1"></span>
-            <span class="indicator" data-slide="2"></span>
         </div>
     </div>
 </section>
@@ -697,7 +676,7 @@ include('partials/header.php');
 <script>
 // Slideshow
 let currentSlide = 0;
-const totalSlides = 3;
+const totalSlides = 2;
 let autoTimer;
 
 function showSlide(n) {
