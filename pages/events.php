@@ -72,7 +72,8 @@ include('../partials/header.php');
         border-radius: 8px;
         text-align: center;
         box-shadow: var(--shadow-light);
-        min-width: 100px;
+        min-width: 110px;
+        white-space: nowrap;
     }
 
     .event-date {
@@ -95,7 +96,7 @@ include('../partials/header.php');
         font-weight: 700;
         color: var(--text-dark);
         margin-bottom: 0.75rem;
-        padding-right: 120px;
+        padding-right: 140px;
     }
 
     .event-subheader {
@@ -288,7 +289,7 @@ include('../partials/header.php');
 
             <div class="event-wrap christmas-event">
                 <div class="date-wrap">
-                    <p class="event-date">25 Dec 2025</p>
+                    <p class="event-date">25 Dec 2026</p>
                     <p class="event-time">12:00-2:00pm</p>
                 </div>
                 <h2 class="event-title">Christmas Day Celebration</h2>
@@ -330,6 +331,21 @@ include('../partials/header.php');
                 <p class="event-description">Free breakfast for EVERY student every school day! Choose from hot bagels, cereals, or porridge. Additional options are available for purchase.</p>
                 <div class="link-wrap">
                     <a href="/assets/events/big_breakfast.pdf" target="_blank" class="event-button">View Flyer</a>
+                </div>
+                <div class="bottom-wrap">
+                    <div class="location-wrap">
+                        <a href="https://www.google.com/maps/place/Park+Community+School/@50.8727033,-0.986906,14z/data=!4m5!3m4!1s0x487444917f5df9f1:0x1e05d50144e0a88a!8m2!3d50.87005!4d-1.001233" target="_blank">Park Community School</a>
+                    </div>
+                    <div class="cost-wrap">Free</div>
+                </div>
+            </div>
+
+            <div class="event-wrap">
+                <h2 class="event-title">Connect4Families and Connect4Youth</h2>
+                <p class="event-subheader">Free school holiday activities for families and young people</p>
+                <p class="event-description">Connect4Families and Connect4Youth are free school holiday activities funded by the Holiday Activities and Food Programme (HAF). To see what's on visit-</p>
+                <div class="link-wrap">
+                    <a href="https://eequ.org/connect4familiesandyouth" target="_blank" class="event-button">See What's On</a>
                 </div>
                 <div class="bottom-wrap">
                     <div class="location-wrap">
