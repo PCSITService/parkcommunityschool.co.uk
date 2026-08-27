@@ -159,18 +159,18 @@ include('../partials/header.php');
                         <li data-policy="admissions 2026-2027"><a href="/assets/policies/Admissions Policy 2026-2027.pdf" target="_blank" class="policy-link">Admissions 2026-2027</a></li>
                         <li data-policy="anti-bullying anti bullying"><a href="/assets/policies/Anti Bullying - December 2024.pdf" target="_blank" class="policy-link">Anti-Bullying</a></li>
                         <li data-policy="attendance 2025"><a href="/assets/policies/4.7 Attendance - October 2025.pdf" target="_blank" class="policy-link">Attendance</a></li>
-                        <li data-policy="behaviour policy"><a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
+                        <li data-policy="behaviour policy"><a href="/assets/policies/Behaviour Policy - June 2026.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                         <li data-policy="cctv"><a href="/assets/policies/cctv.pdf" target="_blank" class="policy-link">CCTV</a></li>
                         <li data-policy="charging and remissions"><a href="/assets/policies/Charging and Remissions - January 2026.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
-                        <li data-policy="child protection safeguarding"><a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
+                        <li data-policy="child protection safeguarding"><a href="/assets/policies/Child Protection - September 2026.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                         <li data-policy="code of conduct"><a href="/assets/policies/code_of_conduct.pdf" target="_blank" class="policy-link">Code of Conduct</a></li>
-                        <li data-policy="complaints policy procedure"><a href="/assets/policies/Complaints Policy and Procedure - December 2025.pdf" target="_blank" class="policy-link">Complaints Policy &amp; Procedure</a></li>
+                        <li data-policy="complaints policy procedure"><a href="/assets/policies/Complaints Policy and Procedure - July 2026.pdf" target="_blank" class="policy-link">Complaints Policy &amp; Procedure</a></li>
                         <li data-policy="confidentiality"><a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
                         <li data-policy="conflict of interests"><a href="/assets/policies/conflict-of-interests.pdf" target="_blank" class="policy-link">Conflict of Interests</a></li>
                         <li data-policy="curriculum"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                         <li data-policy="Careers Education Info"><a href="/assets/policies/Careers Education Information Advice and Guidance - 2026.pdf" target="_blank" class="policy-link">Careers Education Info</a></li>
-                        <li data-policy="data protection gdpr"><a href="/assets/policies/data-protection.pdf" target="_blank" class="policy-link">Data Protection</a></li>
+                        <li data-policy="data protection gdpr"><a href="/assets/policies/Data Protection - July 2026.pdf" target="_blank" class="policy-link">Data Protection</a></li>
                         <li data-policy="drugs and substance misuse"><a href="/assets/policies/drugs-substance-misuse.pdf" target="_blank" class="policy-link">Drugs and Substance Misuse</a></li>
                         <li data-policy="equality and diversity"><a href="/assets/policies/Equality and Diversity - December 2024.pdf" target="_blank" class="policy-link">Equality and Diversity</a></li>
                         <li data-policy="equality statement objectives"><a href="/assets/policies/Equality statement and objectives 2024-25.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
@@ -200,14 +200,14 @@ include('../partials/header.php');
                         <li data-policy="pupil premium"><a href="/pages/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
                         <li data-policy="religious education collective worship re"><a href="/assets/policies/Religious Education and Collective Worship - December 2025.pdf" target="_blank" class="policy-link">Religious Education and Collective Worship</a></li>
                         <li data-policy="safeguarding adults policy"><a href="/assets/policies/Safeguarding Adults  - November 2023.pdf" target="_blank" class="policy-link">Safeguarding Adults Policy</a></li>
-                        <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/4.1 Safeguarding September 2025.pdf" target="_blank" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
+                        <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/Safeguarding September 2026.pdf" target="_blank" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
                         <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="sex education rse relationships"><a href="/assets/policies/Relationship  Sex Education - January 2026.pdf" target="_blank" class="policy-link">Sex Education</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social &amp; Cultural)</a></li>
                         <!--<li data-policy="summer school"><a href="/pages/summer-school.php" class="policy-link">Summer School</a></li>-->
                         <li data-policy="uniform 2025-2026"><a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="policy-link">Uniform 2025-2026</a></li>
-                        <li data-policy="uniform 2025-2026"><a href="/assets/policies/Uniform 2026-2027 .pdf" target="_blank" class="policy-link">Uniform 2026-2027</a></li>
+                        <li data-policy="uniform 2026-2027"><a href="/assets/policies/Uniform 2026-2027.pdf" target="_blank" class="policy-link">Uniform 2026-2027</a></li>
                         <li data-policy="volunteering"><a href="/assets/policies/volunteering.pdf" target="_blank" class="policy-link">Volunteering</a></li>
                         <li data-policy="work experience"><a href="/assets/policies/work-experience-march-2023.pdf" target="_blank" class="policy-link">Work Experience</a></li>
                         

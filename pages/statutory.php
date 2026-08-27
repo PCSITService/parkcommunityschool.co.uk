@@ -182,12 +182,12 @@ include('../partials/header.php');
                         <li data-policy="accessibility"><a href="/assets/policies/accessibility.pdf" target="_blank" class="policy-link">Accessibility</a></li>
                         <!--<li data-policy="accessibility"><a href="/pages/accessibility-track.php?from=Policy" target="_blank" class="policy-link">Accessibility</a></li> Tracker -->
                         <li data-policy="admission arrangements admissions"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
-                        <li data-policy="behaviour policy conduct"><a href="/assets/policies/behaviour.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
+                        <li data-policy="behaviour policy conduct"><a href="/assets/policies/Behaviour Policy - June 2026.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                         <li data-policy="Calendar & School Day"><a href="/pages/time-tabling.php" class="policy-link">Calendar & School Day</a></li>
                         <li data-policy="charging and remissions fees payments"><a href="/assets/policies/Charging and Remissions - January 2025.pdf" target="_blank" class="policy-link">Charging and Remissions</a></li>
-                        <li data-policy="child protection safeguarding"><a href="/assets/policies/4.2 Child Protection - September 2025.pdf" target="_blank" class="policy-link">Child Protection</a></li>
-                        <li data-policy="complaints procedure"><a href="/assets/policies/Complaints Policy and Procedure - December 2025.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
+                        <li data-policy="child protection safeguarding"><a href="/assets/policies/Child Protection - September 2026.pdf" target="_blank" class="policy-link">Child Protection</a></li>
+                        <li data-policy="complaints procedure"><a href="/assets/policies/Complaints Policy and Procedure - July 2026.pdf" target="_blank" class="policy-link">Complaints Procedure</a></li>
                         <li data-policy="curriculum subjects"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                        <!--<li data-policy="ect induction nqt early career teacher"><a href="/assets/policies/ect-induction.pdf" target="_blank" class="policy-link">ECT Induction</a></li> -->
                         <li data-policy="equality statement objectives diversity"><a href="/assets/policies/Equality statement and objectives 2025-26.pdf" target="_blank" class="policy-link">Equality Statement</a></li>
@@ -200,11 +200,11 @@ include('../partials/header.php');
                         <li data-policy="ofsted reports inspection"><a href="/pages/ofsted-reports.php" class="policy-link">Ofsted Reports</a></li>
                         <li data-policy="performance tables results"><a href="https://www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                         <li data-policy="pupil premium disadvantaged funding"><a href="/pages/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
-                        <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/4.1 Safeguarding September 2025.pdf" target="_blank" class="policy-link">Safeguarding Policy</a></li>
+                        <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/Safeguarding September 2026.pdf" target="_blank" class="policy-link">Safeguarding Policy</a></li>
                         <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC</a></li>
-                        <li data-policy="suspension and permanent exclusion expelled"><a href="/assets/policies/suspension_and_permanent_exclusion.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
+                        <li data-policy="suspension and permanent exclusion expelled"><a href="/assets/policies/Suspension and Permanent Exclusion  - June 2026.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
                         <li data-policy="Uniform Information"><a href="/pages/uniform.php" class="policy-link">Uniform Information</a></li>
                     </ul>
                     <div id="noResults" class="no-results">No policies found matching your search.</div>
