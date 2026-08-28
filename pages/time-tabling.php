@@ -209,122 +209,6 @@ include('../partials/header.php');
 <!-- CONTENT -->
 <section class="content-section">
     <div class="grid-container">
-
-        <div class="dates-table-wrapper">
-            <table class="dates-table">
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Event</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="section-header">
-                        <td colspan="2">Summer Term Dates to Remember</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday 11 April – Monday 20 April</td>
-                        <td>Park on tour in China. International study in Shanghai, China</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 13 April</td>
-                        <td>1st day of the Summer term</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 13 April – Thursday 23 April</td>
-                        <td>Park on tour in India #2. International study at SKV girls' school, Gwalior, India</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday 14 April</td>
-                        <td>Year 7 Rich Challenge: Making a meaningful change</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday 15 April</td>
-                        <td>Year 8 and 9 Option Choices deadline</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday 22 April</td>
-                        <td>Dance Live Finals</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 4 May – Friday 8 May</td>
-                        <td>GL Progress testing Years 7, 8, 9</td>
-                    </tr>
-                    <tr>
-                        <td>Friday 1 May</td>
-                        <td>GCSE external examinations begin</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday 21 May</td>
-                        <td>STEM ambassadors at Wisley<br>Year 10 Travel and Tourism at Southampton Port</td>
-                    </tr>
-                    <tr class="section-header">
-                        <td colspan="2">Half Term – Monday 25 – Friday 29 May</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 25 – Friday 29 May</td>
-                        <td>GCSE masterclass run throughout the half term. Please see separate programme for details</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 1 June</td>
-                        <td>15 x French students begin their 3 week immersion at Park</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 8 June – Friday 19 June</td>
-                        <td>Year 10 Mocks</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 22 June – Friday 3 July</td>
-                        <td>Year 10 Work Experience Fortnight</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 22 June – Friday 26 June</td>
-                        <td>Year 7, 8, 9 Testing week and annual reading tests<br>Abbey Farm residential</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday 25 June</td>
-                        <td>Year 8 at Tate Modern and walking tour of London<br>Year 11 Leavers' Assembly and Leavers' Ball</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday 30 June</td>
-                        <td>Year 7 trip to Natural History Museum and London tour</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 29 June – Friday 3 July</td>
-                        <td>Freshers Week: Year 6 at Park all week<br>SKV India exchange – we welcome 45 girls from India for the week</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday 1 July</td>
-                        <td>Year 6 Parent and Carer Transition evening and BBQ</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday 2 July</td>
-                        <td>Festival of Sport</td>
-                    </tr>
-                    <tr>
-                        <td>Friday 3 July</td>
-                        <td>Year 9 trip to Stone Henge</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 6 July</td>
-                        <td>22 Students from Liangfeng Middle School, China buddied with Year 8 for the week</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday 9 July</td>
-                        <td>Year 7, 8, 9, 10 Awards Evening</td>
-                    </tr>
-                    <tr>
-                        <td>Monday 20 July</td>
-                        <td>End of year reports go home</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday 22 July</td>
-                        <td>Last day of term - Students dismissed at 1pm</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
         <div class="grid-x grid-padding-x align-middle">
             <div class="cell medium-12">
                 <p>Access the latest school calendar and daily schedule information. These resources contain the most up-to-date timetables and relevant academic information for the current school year.</p>
@@ -363,6 +247,29 @@ include('../partials/header.php');
                     <p><strong>Note:</strong> These documents are updated at the start of each academic year. Please ensure you have the latest version for accurate information.</p>
                 </div>
             </div>
+        </div>
+        <div class="dates-table-wrapper">
+            <table class="dates-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="section-header">
+                        <td colspan="2">Dates to Remember</td>
+                    </tr>
+                    <tr>
+                        <td>1st September</td>
+                        <td>Bank Holiday - School Closed to Students</td>
+                    </tr>
+                    <tr>
+                        <td>2nd September</td>
+                        <td>Student Review Day for Years 8 to 10</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
