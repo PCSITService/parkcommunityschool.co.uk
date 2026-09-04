@@ -194,28 +194,18 @@ include('../partials/header.php');
             <div class="cell medium-8 large-8">
                 <article class="content-article">
                     <section class="reports-section">
-                        <h2>Ofsted Inspection - 2022</h2>
+                        <h2>Ofsted Inspection - 2026</h2>
                         <p>Below you can find our most recent Ofsted inspection reports. These documents provide detailed assessments of our school's performance, achievements, and areas for development.</p>
                         
                         <div class="reports-grid">
                             <div class="report-card">
                                 <div class="report-icon">📄</div>
                                 <div class="report-content">
-                                    <h3><a href="/assets/statutory/Ofsted_Report_2_3 March_2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 2-3 March 2022</a></h3>
-                                    <p class="report-meta">Inspection Date: 2-3 March 2022 | Format: PDF</p>
+                                    <h3><a href="/assets/statutory/ofsted-report-2026.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 26th June 2026</a></h3>
+                                    <p class="report-meta">Inspection Date: 26th June 2026 | Format: PDF</p>
                                     <p class="report-description">Full inspection report covering all aspects of school performance.</p>
                                 </div>
                             </div>
-                            
-                            <div class="report-card">
-                                <div class="report-icon">📄</div>
-                                <div class="report-content">
-                                    <h3><a href="/assets/statutory/Ofsted_Report_5_May 2022.pdf" target="_blank" rel="noopener noreferrer">Ofsted Report 5 May 2022</a></h3>
-                                    <p class="report-meta">Inspection Date: 5 May 2022 | Format: PDF</p>
-                                    <p class="report-description">Follow-up inspection report with updated assessments.</p>
-                                </div>
-                            </div>
-                        </div>
                         
                         <div class="external-link-standalone">
                             <div class="report-card external-link">
@@ -241,7 +231,7 @@ include('../partials/header.php');
                         </div>
                         <div class="fact-item">
                             <strong>Last Inspection:</strong>
-                            <span>May 2022</span>
+                            <span>June 2026</span>
                         </div>
                         <div class="fact-item">
                             <strong>School Type:</strong>
