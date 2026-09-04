@@ -453,18 +453,18 @@ include('partials/header.php');
                 <div class="slide-grid">
                     <div>
                         <div class="ofsted-quote">
-                            <blockquote><p>"Leaders have high expectations for what pupils can achieve. Staff share these expectations."</p></blockquote>
+                            <blockquote><p>"Park Community School lives up to its motto of being much more than just a school. Pupils enjoy extensive opportunities to find what they love."</p></blockquote>
                         </div>
                         <div class="ofsted-quote">
-                            <blockquote><p>"Pupils are happy and safe at school. They are polite and respectful to each other and to adults."</p></blockquote>
+                            <blockquote><p>"Pupils benefit enormously from a well-designed personal development programme that prepares them for the demands of adult life."</p></blockquote>
                         </div>
                     </div>
                     <div>
                         <div class="ofsted-quote">
-                            <blockquote><p>"The curriculum is broad and ambitious. It is designed to give pupils the knowledge they need."</p></blockquote>
+                            <blockquote><p>"Enrichment plays a central role in every pupil’s ‘more than school’ curriculum. Pupils gain practical experiences that help them apply their learning, such as working in the school kitchen and learning to cook alongside catering staff ."</p></blockquote>
                         </div>
                         <div class="ofsted-quote">
-                            <blockquote><p>"Pupils benefit from an extensive range of extra-curricular activities and enrichment opportunities."</p></blockquote>
+                            <blockquote><p>"The school’s curriculum is broad and ambitious. It reflects pupils’ needs and future aspirations, and it emphasises essential life skills."</p></blockquote>
                         </div>
                     </div>
                 </div>
