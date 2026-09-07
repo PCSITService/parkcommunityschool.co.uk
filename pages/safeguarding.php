@@ -319,17 +319,17 @@ include('../partials/header.php');
         </div>
 
         <div class="team-grid">
-            <div class="team-member-card">
+            <!--<div class="team-member-card">
                 <img src="/images/dsl/SBN.jpg" alt="Ms S Bannard" class="team-member-image">
                 <h3 class="member-name">Ms S Bannard</h3>
                 <p class="member-role">Lead DSL</p>
                 <p class="member-additional">Designated Teacher for LAC</p>
-            </div>
+            </div> -->
 
             <div class="team-member-card">
                 <img src="/images/dsl/JBY.jpg" alt="Mr J Bryce" class="team-member-image">
                 <h3 class="member-name">Mr J Bryce</h3>
-                <p class="member-role">Deputy DSL</p>
+                <p class="member-role">Lead DSL</p>
             </div>
 
             <div class="team-member-card">
