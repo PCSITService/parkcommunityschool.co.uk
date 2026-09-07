@@ -578,20 +578,23 @@ include('partials/header.php');
                 <img src="images/slt/j-bryce.jpg" alt="Mr J Bryce" class="team-member" style="object-position: top;">
                 <p>Mr J Bryce</p>
                 <p class="role">Deputy Head of School</p>
-                
-            </div>
-        </div>
-        
-        <!-- Row 2: 5 people -->
-        <div class="team-row">
-            <div class="team-member-container">
-                <img src="images/slt/s-bannard.jpg" alt="Mrs S Bannard" class="team-member" style="object-position: top;">
-                <p>Mrs S Bannard</p>
-                <p class="role">Assistant Headteacher - DSL</p>
             </div>
             <div class="team-member-container">
                 <img src="images/slt/b-bourton.jpg" alt="Mr B Bourton" class="team-member" style="object-position: top;">
                 <p>Mr B Bourton</p>
+                <p class="role">Co-Head Primary Campus</p>
+            </div>
+            <div class="team-member-container">
+                <img src="images/slt/e-leach.jpg" alt="Mrs E Leach" class="team-member" style="object-position: top;">
+                <p>Mrs E Leach</p>
+                <p class="role">Co-Head Primary Campus</p>
+            </div>
+        
+        <!-- Row 2: 5 people -->
+        <div class="team-row">
+            <div class="team-member-container">
+                <img src="images/slt/Harrison, Clare.jpg" alt="Mrs C Harrison" class="team-member" style="object-position: top;">
+                <p>Mrs C Harrison</p>
                 <p class="role">Assistant Headteacher</p>
             </div>
             <div class="team-member-container">
@@ -616,11 +619,6 @@ include('partials/header.php');
             <div class="team-member-container">
                 <img src="images/slt/e-harrison.jpg" alt="Mr E Harrison" class="team-member" style="object-position: top;">
                 <p>Mr E Harrison</p>
-                <p class="role">Assistant Headteacher</p>
-            </div>
-            <div class="team-member-container">
-                <img src="images/slt/e-leach.jpg" alt="Mrs E Leach" class="team-member" style="object-position: top;">
-                <p>Mrs E Leach</p>
                 <p class="role">Assistant Headteacher</p>
             </div>
             <div class="team-member-container">
