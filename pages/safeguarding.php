@@ -121,6 +121,7 @@ include('../partials/header.php');
         height: 100px;
         border-radius: 50%;
         object-fit: cover;
+        object-position: center 20%; 
         margin: 0 auto 1.25rem;
         border: 4px solid var(--bg-light);
         display: block;
@@ -327,49 +328,49 @@ include('../partials/header.php');
             </div> -->
 
             <div class="team-member-card">
-                <img src="/images/dsl/JBY.jpg" alt="Mr J Bryce" class="team-member-image">
+                <img src="/images/dsl/Bryce, Jamie.jpg" alt="Mr J Bryce" class="team-member-image">
                 <h3 class="member-name">Mr J Bryce</h3>
                 <p class="member-role">Lead DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/ELE.jpg" alt="Mrs E Leach" class="team-member-image">
+                <img src="/images/dsl/Leach, Erika.jpg" alt="Mrs E Leach" class="team-member-image">
                 <h3 class="member-name">Mrs E Leach</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/TSE.jpg" alt="Mrs T Seaman" class="team-member-image">
+                <img src="/images/dsl/Seaman, Tammy.jpg" alt="Mrs T Seaman" class="team-member-image">
                 <h3 class="member-name">Mrs T Seaman</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/SHO.jpg" alt="Mrs Sian Howes" class="team-member-image">
+                <img src="/images/dsl/Howes, Sian.jpg" alt="Mrs Sian Howes" class="team-member-image">
                 <h3 class="member-name">Mrs Sian Howes</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/JBR.jpg" alt="Mrs Jo-Anne Breedon" class="team-member-image">
+                <img src="/images/dsl/Breedon, Jo-Anne.jpg" alt="Mrs Jo-Anne Breedon" class="team-member-image">
                 <h3 class="member-name">Mrs Jo-Anne Breedon</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/FFE.jpg" alt="Miss Florence Fearon" class="team-member-image">
+                <img src="/images/dsl/Fearon, Flo.jpg" alt="Miss Florence Fearon" class="team-member-image">
                 <h3 class="member-name">Miss Florence Fearon</h3>
                 <p class="member-role">Community DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/FMA.jpg" alt="Mrs Fiona Maskill" class="team-member-image">
+                <img src="/images/dsl/Maskil, Fiona.jpg" alt="Mrs Fiona Maskill" class="team-member-image">
                 <h3 class="member-name">Mrs Fiona Maskill</h3>
                 <p class="member-role">Deputy DSL</p>
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/RBI.jpg" alt="Mrs Rachel Bird" class="team-member-image">
+                <img src="/images/dsl/Bird, Rachel.jpg" alt="Mrs Rachel Bird" class="team-member-image">
                 <h3 class="member-name">Mrs Rachel Bird</h3>
                 <p class="member-role">Nursery DSL</p>
             </div>
