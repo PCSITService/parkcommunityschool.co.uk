@@ -336,25 +336,7 @@ include('../partials/header.php');
             <div class="team-member-card">
                 <img src="/images/dsl/Leach, Erika.jpg" alt="Mrs E Leach" class="team-member-image">
                 <h3 class="member-name">Mrs E Leach</h3>
-                <p class="member-role">Deputy DSL</p>
-            </div>
-
-            <div class="team-member-card">
-                <img src="/images/dsl/Seaman, Tammy.jpg" alt="Mrs T Seaman" class="team-member-image">
-                <h3 class="member-name">Mrs T Seaman</h3>
-                <p class="member-role">Deputy DSL</p>
-            </div>
-
-            <div class="team-member-card">
-                <img src="/images/dsl/Howes, Sian.jpg" alt="Mrs Sian Howes" class="team-member-image">
-                <h3 class="member-name">Mrs Sian Howes</h3>
-                <p class="member-role">Deputy DSL</p>
-            </div>
-
-            <div class="team-member-card">
-                <img src="/images/dsl/Breedon, Jo-Anne.jpg" alt="Mrs Jo-Anne Breedon" class="team-member-image">
-                <h3 class="member-name">Mrs Jo-Anne Breedon</h3>
-                <p class="member-role">Deputy DSL</p>
+                <p class="member-role">Primary - Lead DSL</p>
             </div>
 
             <div class="team-member-card">
@@ -364,16 +346,53 @@ include('../partials/header.php');
             </div>
 
             <div class="team-member-card">
-                <img src="/images/dsl/Maskil, Fiona.jpg" alt="Mrs Fiona Maskill" class="team-member-image">
-                <h3 class="member-name">Mrs Fiona Maskill</h3>
-                <p class="member-role">Deputy DSL</p>
-            </div>
-
-            <div class="team-member-card">
                 <img src="/images/dsl/Bird, Rachel.jpg" alt="Mrs Rachel Bird" class="team-member-image">
                 <h3 class="member-name">Mrs Rachel Bird</h3>
                 <p class="member-role">Nursery DSL</p>
             </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/Seaman, Tammy.jpg" alt="Mrs T Seaman" class="team-member-image">
+                <h3 class="member-name">Mrs T Seaman</h3>
+                <p class="member-role">Secondary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/Howes, Sian.jpg" alt="Mrs Sian Howes" class="team-member-image">
+                <h3 class="member-name">Mrs Sian Howes</h3>
+                <p class="member-role">Secondary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/Breedon, Jo-Anne.jpg" alt="Mrs Jo-Anne Breedon" class="team-member-image">
+                <h3 class="member-name">Mrs Jo-Anne Breedon</h3>
+                <p class="member-role">Secondary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/Maskil, Fiona.jpg" alt="Mrs Fiona Maskill" class="team-member-image">
+                <h3 class="member-name">Mrs Fiona Maskill</h3>
+                <p class="member-role">Primary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/[SIMS] Moore, Amelia.jpg" alt="Miss Amelia Moore" class="team-member-image">
+                <h3 class="member-name">Miss Amelia Moore</h3>
+                <p class="member-role">Primary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/[SIMS] Lewis, Paula.jpg" alt="Mrs Paula Lewis" class="team-member-image">
+                <h3 class="member-name">Mrs Paula Lewis</h3>
+                <p class="member-role">Primary - Deputy DSL</p>
+            </div>
+
+            <div class="team-member-card">
+                <img src="/images/dsl/[SIMS] Pagdin, Karen.jpg" alt="Mrs Karen Pagdin" class="team-member-image">
+                <h3 class="member-name">Mrs Karen Pagdin</h3>
+                <p class="member-role">Primary - Deputy DSL</p>
+            </div>
+
         </div>
     </div>
 </section>
@@ -393,7 +412,7 @@ include('../partials/header.php');
                 </div>
                 <h3 class="resource-title">Visitor Information</h3>
                 <p class="resource-description">Essential safeguarding information for all visitors to our school</p>
-                <a href="../assets/safeguarding/visitor.pdf" target="_blank" class="resource-button">Download Leaflet</a>
+                <a href="../assets/safegaurding/visitor.pdf" target="_blank" class="resource-button">Download Leaflet</a>
             </div>
 
             <div class="resource-card">
@@ -402,7 +421,7 @@ include('../partials/header.php');
                 </div>
                 <h3 class="resource-title">Safeguarding Policy</h3>
                 <p class="resource-description">Comprehensive safeguarding policy, procedures and guidance for the school</p>
-                <a href="../assets/policies/safeguarding.pdf" target="_blank" class="resource-button">Download Policy</a>
+                <a href="../assets/policies/Safeguarding September 2026.pdf" target="_blank" class="resource-button">Download Policy</a>
             </div>
 
             <div class="resource-card">
