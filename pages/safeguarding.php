@@ -412,7 +412,7 @@ include('../partials/header.php');
                 </div>
                 <h3 class="resource-title">Visitor Information</h3>
                 <p class="resource-description">Essential safeguarding information for all visitors to our school</p>
-                <a href="../assets/safegaurding/visitor.pdf" target="_blank" class="resource-button">Download Leaflet</a>
+                <a href="../assets/safegaurding/Safeguarding Leaflet Visitor Sept 26 Proof PV.pdf" target="_blank" class="resource-button">Download Leaflet</a>
             </div>
 
             <div class="resource-card">
