@@ -266,7 +266,7 @@ include('partials/header.php');
                     </div>
                     <div class="button-row">
                         <a class="button warning" href="https://forms.gle/pY2i7AmPj3bG41i88" target="_blank">Alumni</a>
-                        <a class="button warning" href="pages/ofsted-reports.php">Ofsted Reports 2026</a>
+                        <a class="button warning" href="pages/ofsted-reports.php">Ofsted Report 2026</a>
                         <a class="button warning" href="#" id="openTransitionModal">Year 6 Transition</a>
                     </div>
                     <div class="button-row">
@@ -582,12 +582,12 @@ include('partials/header.php');
             <div class="team-member-container">
                 <img src="images/slt/b-bourton.jpg" alt="Mr B Bourton" class="team-member" style="object-position: top;">
                 <p>Mr B Bourton</p>
-                <p class="role">Co-Head Primary Campus</p>
+                <p class="role">Co-Primary Campus Leader</p>
             </div>
             <div class="team-member-container">
                 <img src="images/slt/e-leach.jpg" alt="Mrs E Leach" class="team-member" style="object-position: top;">
                 <p>Mrs E Leach</p>
-                <p class="role">Co-Head Primary Campus</p>
+                <p class="role">Co-Primary Campus Leader</p>
             </div>
         
         <!-- Row 2: 5 people -->

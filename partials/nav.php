@@ -301,7 +301,7 @@
                     <li><a href="/pages/havant-federation-statements.php">Federation Statements</a></li>
                     <li><a href="/pages/forms.php">Forms</a></li>
                     <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
-                    <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
+                    <li><a href="/pages/ofsted-reports.php">Ofsted Report</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
                     <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
@@ -390,7 +390,7 @@
                     <li><a href="/pages/havant-federation-statements.php">Federation Statements</a></li>
                     <li><a href="/pages/forms.php">Forms</a></li>
                     <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
-                    <li><a href="/pages/ofsted-reports.php">Ofsted Reports</a></li>
+                    <li><a href="/pages/ofsted-reports.php">Ofsted Report</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
                     <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
