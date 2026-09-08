@@ -141,6 +141,8 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>September 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-09/Year 11 Revision and Independent Study Sept26.pdf" target="_blank">7th September - Year 11 Revision and Independent Study</a></li>
+                    <li><a href="/assets/letters/2026-09/Year 10 Revision and Independent Study Sept26NEW.pdf" target="_blank">7th September - Year 10 Revision and Independent Study</a></li>
                     <li><a href="/assets/letters/2026-09/Ofsted Report Letter to Parents and Carers.pdf" target="_blank">4th September - Ofsted Report Letter</a></li>
                     <li><a href="/assets/letters/2026-09/Year 7 trips 16  17 Sept 2026.pdf" target="_blank">Year 7 trip 16-17 September 2026</a></li>
                 </ul>
