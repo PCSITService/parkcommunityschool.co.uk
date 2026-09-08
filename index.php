@@ -216,6 +216,11 @@ include('partials/header.php');
         #homepage-hero { background: #fff !important; color: #000 !important; }
         .video-buttons-top, .comprehensive-slideshow { display: none; }
     }
+
+/* Promo Banner */
+.promo-banner { background: var(--dark); padding: 0 0 1rem; text-align: center; }
+.promo-banner img { max-width: 1200px; width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px; }
+
 </style>
 
 
@@ -418,6 +423,11 @@ include('partials/header.php');
         <a href="https://vimeo.com/1145302842" target="_blank" class="video-btn-top"><i class="fas fa-play-circle"></i> BBC Social Media</a>
     </div>
 </div>
+
+<!-- PROMO BANNER -->
+<section class="promo-banner">
+    <img src="images/index/Open Evening Banner 2026.jpgU" alt="Open Evening Banner">
+</section>
 
 <!-- SLIDESHOW -->
 <section style="background: #333 !important; padding: 2rem 0;">
