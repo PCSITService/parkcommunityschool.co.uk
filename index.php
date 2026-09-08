@@ -584,10 +584,13 @@ include('partials/header.php');
                 <p>Mrs E Capaldi</p>
                 <p class="role">Head of School</p>
             </div>
-            <div class="team-member-container">
+
+
+        <div class="team-row">
+                        <div class="team-member-container">
                 <img src="images/slt/j-bryce.jpg" alt="Mr J Bryce" class="team-member" style="object-position: top;">
                 <p>Mr J Bryce</p>
-                <p class="role">Deputy Head of School</p>
+                <p class="role">Deputy Head of School - DSL</p>
             </div>
             <div class="team-member-container">
                 <img src="images/slt/b-bourton.jpg" alt="Mr B Bourton" class="team-member" style="object-position: top;">
