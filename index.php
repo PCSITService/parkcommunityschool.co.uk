@@ -572,7 +572,7 @@ include('partials/header.php');
     <div class="grid-container">
         <h3>Meet The Team</h3>
         
-        <!-- Row 1: 3 people (Leadership) -->
+        <!-- Row 1: 2 people (Leadership) -->
         <div class="team-row">
             <div class="team-member-container">
                 <img src="images/slt/c-anders.jpg" alt="Mr C Anders" class="team-member" style="object-position: top;">
@@ -585,9 +585,9 @@ include('partials/header.php');
                 <p class="role">Head of School</p>
             </div>
 
-
+        <!-- Row 2: 3 people (Leadership) -->
         <div class="team-row">
-                        <div class="team-member-container">
+            <div class="team-member-container">
                 <img src="images/slt/j-bryce.jpg" alt="Mr J Bryce" class="team-member" style="object-position: top;">
                 <p>Mr J Bryce</p>
                 <p class="role">Deputy Head of School - DSL</p>
@@ -603,7 +603,7 @@ include('partials/header.php');
                 <p class="role">Co-Primary Campus Leader</p>
             </div>
         
-        <!-- Row 2: 5 people -->
+        <!-- Row 3: 4 people (SLT)-->
         <div class="team-row">
             <div class="team-member-container">
                 <img src="images/slt/Harrison, Clare.jpg" alt="Mrs C Harrison" class="team-member" style="object-position: top;">
@@ -627,7 +627,7 @@ include('partials/header.php');
             </div>
         </div>
         
-        <!-- Row 3: 5 people -->
+        <!-- Row 4: 4 people (SLT) -->
         <div class="team-row">
             <div class="team-member-container">
                 <img src="images/slt/e-harrison.jpg" alt="Mr E Harrison" class="team-member" style="object-position: top;">
