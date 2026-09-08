@@ -282,14 +282,14 @@ include('../partials/header.php');
             </div>
             
             <!-- August 2025 -->
-            <div class="newsletter-item">
+            <!--<div class="newsletter-item">
                 <h4>August 2025</h4>
                 <ul>
                     <li><a href="/assets/letters/2025-08/Final version Return to school letter September 2025 with Phone Puch FAQa.pdf" target="_blank">Return to School - September 2025</a></li>
                 </ul>
             </div>
             
-            <!-- July 2025 -->
+             July 2025 
             <div class="newsletter-item">
                 <h4>July 2025</h4>
                 <ul>
@@ -305,7 +305,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- June 2025 -->
+             June 2025 
             <div class="newsletter-item">
                 <h4>June 2025</h4>
                 <ul>
@@ -318,7 +318,7 @@ include('../partials/header.php');
                 </ul>  
             </div>
             
-            <!-- May 2025 -->
+             May 2025 
             <div class="newsletter-item">
                 <h4>May 2025</h4>
                 <ul>
@@ -331,7 +331,7 @@ include('../partials/header.php');
                 </ul>
             </div>
             
-            <!-- April 2025 -->
+             April 2025 
             <div class="newsletter-item">
                 <h4>April 2025</h4>
                 <ul>
@@ -344,7 +344,7 @@ include('../partials/header.php');
                 </ul>
             </div>
             
-            <!-- March 2025 -->
+             March 2025 
             <div class="newsletter-item">
                 <h4>March 2025</h4>
                 <ul>
@@ -355,7 +355,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- February 2025 -->
+            <-- February 2025 --
             <div class="newsletter-item">
                 <h4>February 2025</h4>
                 <ul>
@@ -368,7 +368,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- January 2025 -->
+            <-- January 2025 --
             <div class="newsletter-item">
                 <h4>January 2025</h4>
                 <ul>
@@ -382,7 +382,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- December 2024 -->
+            <-- December 2024 --
             <div class="newsletter-item">
                 <h4>December 2024</h4>
                 <ul>
@@ -393,7 +393,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- November 2024 -->
+            <-- November 2024 --
             <div class="newsletter-item">
                 <h4>November 2024</h4>
                 <ul>
@@ -404,7 +404,7 @@ include('../partials/header.php');
                 </ul>
             </div>
 
-            <!-- October 2024 -->
+            <- October 2024 --
             <div class="newsletter-item">
                 <h4>October 2024</h4>
                 <ul>
@@ -422,7 +422,7 @@ include('../partials/header.php');
                     <li><a href="/assets/letters/2024-10/year-7-parents-evening.pdf" target="_blank">Year 7 Parents Evening | Thursday 17th October 2024</a></li>
                     <li><a href="/assets/letters/2024-10/year-10-parents-evening-09.10.24.pdf" target="_blank">Year 10 Parents Evening | Wednesday 9th October 2024</a></li>   
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
