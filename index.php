@@ -330,9 +330,9 @@ include('partials/header.php');
             </li>
             </li>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/academic-year-2025-2026/Phase%201%20Revision%20booklet%2025-26.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/academic-year-2026-2027/Phase 1 Booklet 26-27.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
-                    Phase 1 Revision Booklet 25-26
+                    Phase 1 Revision Booklet 26-27
                 </a>
             </li>
             <li style="margin-bottom: 0.75rem;">
