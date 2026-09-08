@@ -426,7 +426,7 @@ include('partials/header.php');
 
 <!-- PROMO BANNER -->
 <section class="promo-banner">
-    <img src="images/index/Open Evening Banner 2026.jpgU" alt="Open Evening Banner">
+    <img src="images/index/Open Evening Banner 2026.jpg" alt="Open Evening Banner">
 </section>
 
 <!-- SLIDESHOW -->
