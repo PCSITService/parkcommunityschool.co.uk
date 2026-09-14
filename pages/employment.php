@@ -262,6 +262,15 @@ include('../partials/header.php');
         <h2 class="section-header">Current Vacancies</h2>
 
         <article class="vacancy-card">
+            <h3>Primary Teacher</h3>
+            <div class="button-container">
+                <a href="../assets/recruitment/2026-09/Primary Teacher - Sept 26.pdf" class="vacancy-link" target="_blank" aria-label="Maternity Cover Teacher - KS2 PDF">
+                    <i class="fas fa-download" aria-hidden="true"></i> View Details
+                </a>
+            </div>
+        </article>
+
+        <article class="vacancy-card">
             <h3>School Matron (Medical Officer)</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-09/Job Advert - School Matron - September 2026.pdf" class="vacancy-link" target="_blank" aria-label="Maternity Cover Teacher - KS2 PDF">
