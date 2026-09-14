@@ -137,10 +137,19 @@ include('../partials/header.php');
 <section class="content-section">
     <div class="grid-container">
         <div class="newsletter-list">
+            <!-- OCTOBER 2026 -->
+            <div class="newsletter-item">
+                <h4>October 2026</h4>
+                <ul>
+                    <li><a href="/assets/letters/2026-10/Flu Vaccine - Letter to Parents.pdf" target="_blank">15th October - Flu Vaccine Letter</a></li>
+                </ul>
+            </div>
             <!-- SEPTEMBER 2026 -->
             <div class="newsletter-item">
                 <h4>September 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-09/GCSE Ready - Parent Evening.pdf" target="_blank">11th September - GCSE Ready Parent Evening</a></li>
+                    <li><a href="/assets/letters/2026-09/Y5 Swimming lessons Autumn 26.pdf" target="_blank">10th September - Y5 Swimming Lessons</a></li>
                     <li><a href="/assets/letters/2026-09/Year 11 Revision and Independent Study Sept26.pdf" target="_blank">7th September - Year 11 Revision and Independent Study</a></li>
                     <li><a href="/assets/letters/2026-09/Year 10 Revision and Independent Study Sept26NEW.pdf" target="_blank">7th September - Year 10 Revision and Independent Study</a></li>
                     <li><a href="/assets/letters/2026-09/Ofsted Report Letter to Parents and Carers.pdf" target="_blank">4th September - Ofsted Report Letter</a></li>
