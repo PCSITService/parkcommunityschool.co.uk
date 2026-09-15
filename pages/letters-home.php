@@ -148,6 +148,9 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>September 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-09/Taster Day Letter Thurs 17 09 26 - Trosnant Barncroft Front Lawn.pdf" target="_blank">17th September - Taster Day</a></li>
+                    <li><a href="/assets/letters/2026-09/Taster Day Letter Wed 16 09 25 - Warren Park Sharps Copse Park Primary.pdf" target="_blank">16th September - Taster Day</a></li>
+                    <li><a href="/assets/letters/2026-09/Park Year 6 Letter.pdf" target="_blank">16th September - Year 6 Taster Day</a></li>
                     <li><a href="/assets/letters/2026-09/GCSE Ready - Parent Evening.pdf" target="_blank">11th September - GCSE Ready Parent Evening</a></li>
                     <li><a href="/assets/letters/2026-09/Y5 Swimming lessons Autumn 26.pdf" target="_blank">10th September - Y5 Swimming Lessons</a></li>
                     <li><a href="/assets/letters/2026-09/Year 11 Revision and Independent Study Sept26.pdf" target="_blank">7th September - Year 11 Revision and Independent Study</a></li>
