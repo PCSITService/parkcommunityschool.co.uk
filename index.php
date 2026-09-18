@@ -318,7 +318,7 @@ include('partials/header.php');
         <button class="modal-close" aria-label="Close">&times;</button>
         <h2>Exam Information</h2>
       
-        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2025/2026</h4>
+        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 11 - 2026/2027</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
             <!-- YEAR 11 EXAM SECTION -->
 
@@ -328,7 +328,13 @@ include('partials/header.php');
                     Year 11 Candidate Handbook
                 </a>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/2026/Summer 2027 Draft Exam Timetable.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/2026/Year 11 Autumn Mock Timetable Final.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    2027 Autumn Mock Exam Timetable
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/2026/Summer 2027 Provisional Exam Timetable for Students.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     2027 Summer Exam Timetable
                 </a>
@@ -347,11 +353,13 @@ include('partials/header.php');
                 </a>
             </li>
             
-        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 7 - 10 - 2025/2026</h4>
+        <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 7 - 10 - 2026/2027</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+
+        <p></p> <!-- SPACER DELETE LATER -->
             <!-- YEAR 7 - 10 EXAM SECTION -->
 
-            <li style="margin-bottom: 0.75rem;">
+            <!--<li style="margin-bottom: 0.75rem;">
                 <a href="/assets/exam/2026/Year 10 Summer Exam and Mock Timetable.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 10 Summer Mock Exam Timetable
@@ -362,7 +370,7 @@ include('partials/header.php');
                     <i class="fas fa-file-pdf"></i>
                     Year 7-9 Summer Assessment Timetable
                 </a>
-        </ul>
+        </ul> -->
         
         <h4 style="color: var(--orange); margin-bottom: 1rem;">KS3 Knowledge Assessments</h4>
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
