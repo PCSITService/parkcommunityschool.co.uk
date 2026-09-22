@@ -310,24 +310,8 @@ include('../partials/header.php');
     <div class="grid-container">
         <div class="uniform-links-grid">
 
-            <!-- Policy Sept 2025 -->
-            <a href="/assets/policies/Uniform 2025-2026.pdf" target="_blank" class="uniform-link-card">
-                <div class="link-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#1E7AB9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                        <polyline points="14 2 14 8 20 8"/>
-                        <line x1="16" y1="13" x2="8" y2="13"/>
-                        <line x1="16" y1="17" x2="8" y2="17"/>
-                        <polyline points="10 9 9 9 8 9"/>
-                    </svg>
-                </div>
-                <p class="link-label">Policy Document</p>
-                <p class="link-title">Uniform Policy<br>September 2025</p>
-                <span class="link-cta">View PDF</span>
-            </a>
-
             <!-- Policy Sept 2026 -->
-            <a href="/assets/policies/Uniform 2026-2027 .pdf" target="_blank" class="uniform-link-card">
+            <a href="/assets/policies/Uniform 2026-2027.pdf" target="_blank" class="uniform-link-card">
                 <div class="link-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="#1E7AB9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
