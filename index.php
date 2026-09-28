@@ -433,9 +433,9 @@ include('partials/header.php');
 </div>
 
 <!-- PROMO BANNER -->
-<section class="promo-banner">
+<!--<section class="promo-banner">
     <img src="images/index/Open Evening Banner 2026.jpg" alt="Open Evening Banner">
-</section>
+</section> -->
 
 <!-- SLIDESHOW -->
 <section style="background: #333 !important; padding: 2rem 0;">
