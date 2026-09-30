@@ -149,6 +149,7 @@ include('../partials/header.php');
                 <h4>September 2026</h4>
                 <ul>
                     <li><a href="/assets/letters/2026-09/Year 7 Transfer Arrangement.pdf" target="_blank">Year 7 Transfer Arrangement Letter</a></li>
+                    <li><a href="/assets/letters/2026-09/GCSE Ready Parent Evening Letter.pdf" target="_blank">28th September - GCSE Ready Parent Evening Letter</a></li>
                     <li><a href="/assets/letters/2026-09/China Pre- Information Evening Year 9.10 trip to China in March 2027.pdf" target="_blank">22nd September - China Pre-Information Letter</a></li>
                     <li><a href="/assets/letters/2026-09/Taster Day Letter Thurs 17 09 26 - Trosnant Barncroft Front Lawn.pdf" target="_blank">17th September - Taster Day</a></li>
                     <li><a href="/assets/letters/2026-09/Taster Day Letter Wed 16 09 25 - Warren Park Sharps Copse Park Primary.pdf" target="_blank">16th September - Taster Day</a></li>
