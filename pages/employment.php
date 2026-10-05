@@ -278,16 +278,7 @@ include('../partials/header.php');
                 </a>
             </div>
         </article>
-
-        <article class="vacancy-card">
-            <h3>Early Years Assistant (Baby Room)</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-09/Early Years Assistant  (Baby Room) - September 2026.pdf" class="vacancy-link" target="_blank" aria-label="Early Years Assistant  (Baby Room) - September 2026 PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
+        
         <article class="vacancy-card">
             <h3>Geography Teacher</h3>
             <div class="button-container">
