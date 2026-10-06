@@ -150,6 +150,7 @@ include('../partials/header.php');
                 <h4>September 2026</h4>
                 <ul>
                     <li><a href="/assets/letters/2026-09/Year 7 Transfer Arrangement.pdf" target="_blank">Year 7 Transfer Arrangement Letter</a></li>
+                    <li><a href="/assets/letters/2026-09/Year 10 residential letter CYE.pdf" target="_blank">30th September - Year 10 Residential Letter</a></li>
                     <li><a href="/assets/letters/2026-09/Year 9 Ready Parents Evening.pdf" target="_blank">30th September - Year 9 Ready Parents Evening</a></li>
                     <li><a href="/assets/letters/2026-09/China Pre- Information Evening Year 9.10 trip to China in March 2027.pdf" target="_blank">22nd September - China Pre-Information Letter</a></li>
                     <li><a href="/assets/letters/2026-09/Taster Day Letter Thurs 17 09 26 - Trosnant Barncroft Front Lawn.pdf" target="_blank">17th September - Taster Day</a></li>
