@@ -142,6 +142,7 @@ include('../partials/header.php');
                 <h4>October 2026</h4>
                 <ul>
                     <li><a href="/assets/letters/2026-10/Flu Vaccine - Letter to Parents.pdf" target="_blank">15th October - Flu Vaccine Letter</a></li>
+                    <li><a href="/assets/letters/2026-10/Y7 PE kit letter - 2026.pdf" target="_blank">5th October - Year 7 PE Kit Letter</a></li>
                     <li><a href="/assets/letters/2026-10/GCSE Ready Parent Evening Letter.pdf" target="_blank">5th October - GCSE Ready Parent Evening Letter</a></li>
                 </ul>
             </div>
