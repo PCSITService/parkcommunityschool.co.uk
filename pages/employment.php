@@ -271,27 +271,9 @@ include('../partials/header.php');
         </article>
         
         <article class="vacancy-card">
-            <h3>Teaching Assistant - Seccondary Campus</h3>
+            <h3>Teaching Assistant - Secondary Campus</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-09/Teaching Assistant Sep26 Secondary Campus.pdf" class="vacancy-link" target="_blank" aria-label="Teaching Assistant Sep26 Secondary Campus PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-        
-        <article class="vacancy-card">
-            <h3>Geography Teacher</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-09/Geography Teacher Sept 2026.pdf" class="vacancy-link" target="_blank" aria-label="Geography Teacher - Sept 2026 PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Science Teacher</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-09/Teacher of Science - Sept2026.pdf" class="vacancy-link" target="_blank" aria-label="Teacher of Science - Sept 2026 PDF">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
             </div>
