@@ -141,7 +141,12 @@ include('../partials/header.php');
             <div class="newsletter-item">
                 <h4>October 2026</h4>
                 <ul>
+                    <li><a href="/assets/letters/2026-10/Park Newsletter Oct 26.pdf" target="_blank">October School News Letter</a></li>
                     <li><a href="/assets/letters/2026-10/Flu Vaccine - Letter to Parents.pdf" target="_blank">15th October - Flu Vaccine Letter</a></li>
+                    <li><a href="/assets/letters/2026-10/Cool Milk Letter to Parents - 08.10.2026.pdf" target="_blank">8th October - Cool Milk Letter</a></li>
+                    <li><a href="/assets/letters/2026-10/Oct Primary Parents Evening.pdf" target="_blank">8th October - Primary Parents Evening</a></li>
+                    <li><a href="/assets/letters/2026-10/Oct Y11 Parents Evening.pdf" target="_blank">8th October - Y11 Parents Evening</a></li>
+                    <li><a href="/assets/letters/2026-10/Oct Y7 Parents Evening.pdf" target="_blank">8th October - Y7 Parents Evening</a></li>
                     <li><a href="/assets/letters/2026-10/Y7 PE kit letter - 2026.pdf" target="_blank">5th October - Year 7 PE Kit Letter</a></li>
                     <li><a href="/assets/letters/2026-10/GCSE Ready Parent Evening Letter.pdf" target="_blank">5th October - GCSE Ready Parent Evening Letter</a></li>
                 </ul>

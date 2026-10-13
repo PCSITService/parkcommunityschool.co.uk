@@ -182,6 +182,7 @@ include('../partials/header.php');
                         <li data-policy="accessibility"><a href="/assets/policies/accessibility.pdf" target="_blank" class="policy-link">Accessibility</a></li>
                         <!--<li data-policy="accessibility"><a href="/pages/accessibility-track.php?from=Policy" target="_blank" class="policy-link">Accessibility</a></li> Tracker -->
                         <li data-policy="admission arrangements admissions"><a href="/pages/admissions.php" class="policy-link">Admission Arrangements</a></li>
+                        <li data-policy="allergy safety"><a href="/assets/policies/Allergy Safety Policy - September 2026.pdf" target="_blank" class="policy-link">Allergy Safety</a></li>
                         <li data-policy="behaviour policy conduct"><a href="/assets/policies/Behaviour Policy - June 2026.pdf" target="_blank" class="policy-link">Behaviour Policy</a></li>
                         <li data-policy="careers education guidance ceiag"><a href="/assets/policies/ceiag.pdf" target="_blank" class="policy-link">Careers Education Guidance</a></li>
                         <li data-policy="Calendar & School Day"><a href="/pages/time-tabling.php" class="policy-link">Calendar & School Day</a></li>

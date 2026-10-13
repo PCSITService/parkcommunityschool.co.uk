@@ -578,7 +578,7 @@ include('../partials/header.php');
                     <div class="trip-detail">
                         <i class="fas fa-users"></i>
                         <strong>Year Group:</strong>
-                        <span>Year 10</span>
+                        <span>Year 10 - 11</span>
                     </div>
                 </div>
                 <div class="trip-card-footer">
@@ -612,7 +612,7 @@ include('../partials/header.php');
                     <div class="trip-detail">
                         <i class="fas fa-users"></i>
                         <strong>Year Group:</strong>
-                        <span>Year 7</span>
+                        <span>Year 8</span>
                     </div>
                 </div>
                 <div class="trip-card-footer">

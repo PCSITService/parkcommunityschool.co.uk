@@ -260,20 +260,11 @@ include('../partials/header.php');
     <!-- Vacancies Column -->
     <section class="vacancies-column">
         <h2 class="section-header">Current Vacancies</h2>
-
-        <article class="vacancy-card">
-            <h3>Learning Support Assistant - Primary Campus</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-09/Primary LSA  Job Advert - Sep26.pdf" class="vacancy-link" target="_blank" aria-label="Primary LSA  Job Advert - Sep26 PDF">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
         
         <article class="vacancy-card">
-            <h3>Teaching Assistant - Secondary Campus</h3>
+            <h3>Geography Teacher</h3>
             <div class="button-container">
-                <a href="../assets/recruitment/2026-09/Teaching Assistant Sep26 Secondary Campus.pdf" class="vacancy-link" target="_blank" aria-label="Teaching Assistant Sep26 Secondary Campus PDF">
+                <a href="../assets/recruitment/2026-10/Geography Teacher.pdf" class="vacancy-link" target="_blank" aria-label="Geography Teacher - View Details">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
             </div>
