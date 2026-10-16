@@ -833,6 +833,7 @@ include('../partials/header.php');
                 <div class="contact-box">
                     <p><b>For more information please contact:</b><br>
                     SLT Careers Lead: Miss L. Conner <a href="mailto:l.conner@pcs.hants.sch.uk">l.conner@pcs.hants.sch.uk</a><br>
+                    Careers Leader: Miss K. Jervis <a href="mailto:k.jervis@pcs.hants.sch.uk">k.jervis@pcs.hants.sch.uk</a><br>
                     Careers Administrator: Mrs C. Swann <a href="mailto:c.swann@pcs.hants.sch.uk">c.swann@pcs.hants.sch.uk</a></p>
                 </div>
 
@@ -937,9 +938,9 @@ include('../partials/header.php');
 
                 <div class="open-events-box">
                     <div class="open-events-info">
-                        <h4>Hampshire College Open Events 25-26</h4>
+                        <h4>Hampshire College Open Events 26-27</h4>
                     </div>
-                    <a href="/assets/careers-guidance/Hampshire college open events.pdf" target="_blank" rel="noopener" class="link-button">
+                    <a href="/assets/careers-guidance/College open events (South Hampshire) 2026 -2027.pdf" target="_blank" rel="noopener" class="link-button">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 2l5 5h-5V4zm-3 9h4v1.5h-4V13zm0 3h4v1.5h-4V16zm-2-3h1v1.5H8V13zm0 3h1v1.5H8V16z"/></svg>
                         View Open Events PDF
                     </a>
@@ -1004,6 +1005,19 @@ include('../partials/header.php');
                             </div>
                             <div class="event-card-title">Year 8 Air Ambulance</div>
                         </a>
+                
+                        <!-- SPLIT CARD: Year 7 Who Dunnit + EBP Feedback -->
+                        <div class="event-card-split split-blue">
+                            <a href="/assets/careers-guidance/Year 7 Who Dunnit Summary.pdf" class="split-top" target="_blank" rel="noopener">
+                                <div class="event-card-image">
+                                    <img src="/images/careers/IMG_0426.jpeg" alt="Year 7 Who Dunnit">
+                                </div>
+                                <div class="event-card-title">Year 7 Who Dunnit</div>
+                            </a>
+                            <a href="/assets/careers-guidance/Park 100726 Who Dunit!.pdf" class="split-bottom" target="_blank" rel="noopener">
+                                <div class="event-card-title">EBP Feedback</div>
+                            </a>
+                        </div>
 
                         <a href="/assets/careers-guidance/National Apprenticeship 2026.pdf" class="event-card" target="_blank" rel="noopener">
                             <div class="event-card-image">
