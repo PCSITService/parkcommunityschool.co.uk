@@ -328,7 +328,7 @@ include('partials/header.php');
                     Year 11 Candidate Handbook
                 </a>
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/2026/Year 11 Autumn Mock Timetable Final.pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/2026/Year 11 Autumn Mock Timetable Final V2 15.10.26.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     2027 Autumn Mock Exam Timetable
                 </a>
