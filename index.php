@@ -221,8 +221,15 @@ include('partials/header.php');
 .promo-banner { background: var(--dark); padding: 0 0 1rem; text-align: center; }
 .promo-banner img { max-width: 1200px; width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px; }
 
+/* Open Event Button */
+.open-event-wrap { background: var(--dark); padding: 0.5rem 1rem 1.5rem; text-align: center; }
+.open-event-btn { display: flex; align-items: center; justify-content: center; gap: 0.75rem; max-width: 1000px; width: 100%; margin: 0 auto; padding: 0.9rem 1.5rem; background: #a3cd41; color: #fff; font-size: 1.2rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; border-radius: 50px; border: 3px solid #fff; box-shadow: var(--shadow); transition: var(--trans); }
+.open-event-btn:hover { background: #8fb332; color: #fff; }
+.open-event-btn:focus { outline: 3px solid var(--orange); outline-offset: 3px; }
+.open-event-btn i { font-size: 1.4rem; }
+.open-event-btn small { display: block; font-size: 0.8rem; font-weight: 600; text-transform: none; letter-spacing: 0; opacity: 0.95; }
+@media (max-width: 768px) { .open-event-btn { font-size: 1rem; padding: 0.8rem 1rem; } .open-event-btn i { font-size: 1.2rem; } }
 </style>
-
 
 <!-- HERO SECTION -->
 <section id="homepage-hero">
@@ -436,6 +443,15 @@ include('partials/header.php');
 <!--<section class="promo-banner">
     <img src="images/index/Open Evening Banner 2026.jpg" alt="Open Evening Banner">
 </section> -->
+
+<!-- OPEN EVENT BUTTON -->
+<div class="open-event-wrap">
+    <a href="/assets/Park Primary Advert A4 Proof 7.pdf" target="_blank" class="open-event-btn">
+        <i class="fas fa-calendar-star fa-calendar-alt"></i>
+        <span>Park Primary Open Event!<small>Click here for full details (PDF)</small></span>
+        <i class="fas fa-file-pdf"></i>
+    </a>
+</div>
 
 <!-- SLIDESHOW -->
 <section style="background: #333 !important; padding: 2rem 0;">
