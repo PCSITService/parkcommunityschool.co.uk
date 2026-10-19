@@ -143,6 +143,7 @@ include('../partials/header.php');
                 <ul>
                     <li><a href="/assets/letters/2026-10/Park Newsletter Oct 26.pdf" target="_blank">October School News Letter</a></li>
                     <li><a href="/assets/letters/2026-10/Year 7 Mindsets UOP trip.pdf" target="_blank">19th October - Year 7 Mindsets Trip</a></li>
+                    <li><a href="/assets/letters/2026-10/Relationship  Sex Education Lesson - Year 7.pdf" target="_blank">16th October - Y7 Relationship & Sex Education Lesson</a></li>
                     <li><a href="/assets/letters/2026-10/Pride in Place.pdf" target="_blank">15th October - Pride in Place</a></li>
                     <li><a href="/assets/letters/2026-10/Flu Vaccine - Letter to Parents.pdf" target="_blank">15th October - Flu Vaccine Letter</a></li>
                     <li><a href="/assets/letters/2026-10/Cool Milk Letter to Parents - 08.10.2026.pdf" target="_blank">8th October - Cool Milk Letter</a></li>
