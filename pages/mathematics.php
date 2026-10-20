@@ -222,7 +222,7 @@ include('../partials/header.php');
                 
                 <p><strong>Years 7-9:</strong> Our Key Stage 3 curriculum is designed to equip students with the mathematical knowledge and skill to successfully embark on their GCSE course in Year 10. It covers the full mathematical spectrum of Number, Ratio, Algebra, Geometry, Statistics and Probability required for their GCSE. We help the students achieve mastery in the use of this knowledge by emphasising the importance of using mathematical reasoning when solving problems in many different contexts.</p>
                 
-                <p><strong>Years 10-11:</strong> Our Key Stage 4 curriculum continues to build towards GCSE Mathematics. The syllabus we follow is AQA for students studying foundation level and Edexcel for students studying higher level.</p>
+                <p><strong>Years 10-11:</strong> Our Key Stage 4 curriculum continues to build towards GCSE Mathematics. The syllabus we follow is OCR for students studying foundation level and Edexcel for students studying higher level.</p>
                 
                 <p>We also offer GCSE Statistics as an additional GCSE qualification to those pupils who wish to pursue it.</p>
 
@@ -254,12 +254,12 @@ include('../partials/header.php');
                 <div class="exam-info">
                     <p><strong>Examination Structure:</strong> The final qualification consists of three written examination papers:</p>
                     <ul>
-                        <li>Paper 1 is a non-calculator assessment. A calculator is allowed for Paper 2 and Paper 3.</li>
+                        <li>One paper is non-calculator with the remaining two papers being calculator based.</li>
                         <li>Each paper is 1 hour and 30 minutes long.</li>
                     </ul>
                 </div>
 
-                <p><strong>Note:</strong> The GCSE syllabus is far more demanding than in previous years. To help you understand some of the changes to mathematics please see the <a href="https://qualifications.pearson.com/en/home.html" target="_blank">Edexcel website</a>, <a href="https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300" target="_blank">AQA website</a> and '<a href="https://qualifications.pearson.com/content/dam/pdf/GCSE/mathematics/2015/misc/T772%20GCSE%20Maths%20Guide%20(web%20-%20final).pdf" target="_blank">The Guide to Edexcel GCSE Mathematics (9-1)</a>'.</p>
+                <p><strong>Note:</strong> The GCSE syllabus is far more demanding than in previous years. To help you understand some of the changes to mathematics please see the <a href="https://qualifications.pearson.com/en/home.html" target="_blank">Edexcel website</a>, <a href="https://www.ocr.org.uk/qualifications/gcse/mathematics-j560-from-2015/" target="_blank">OCR website</a> and '<a href="https://qualifications.pearson.com/content/dam/pdf/GCSE/mathematics/2015/misc/T772%20GCSE%20Maths%20Guide%20(web%20-%20final).pdf" target="_blank">The Guide to Edexcel GCSE Mathematics (9-1)</a>'.</p>
             </div>
         </div>
     </div>
