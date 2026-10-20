@@ -434,6 +434,21 @@ include('../partials/header.php');
                 <div class="year-groups-section">
                     <h4 class="year-groups-title">Which subjects do students study?</h4>
 
+                    <!-- KS2 -->
+                    <div class="ks-block ks1-block">
+                        <div class="ks-block-header">
+                            <span class="ks-tag">KS1 & KS2</span>
+                            <h5>At Key Stage 1 & 2 students study</h5>
+                        </div>
+                        <ul class="subject-list">
+                            <li class="subject-item"><a href="../assets/curriculum/KS1&2/ks1_Computing_Roadmap.pdf" target="_blank">Computing</a></li>
+                            <li class="subject-item"><a href="../assets/curriculum/KS1&2/ks1_Geography_Roadmap.pdf" target="_blank">Geography</a></li>
+                            <li class="subject-item"><a href="../assets/curriculum/KS1&2/ks1_History_Roadmap.pdf" target="_blank">History</a></li>
+                            <li class="subject-item"><a href="../assets/curriculum/KS1&2/ks1_Science_Roadmap.pdf" target="_blank">Science</a></li>
+                            <li class="subject-item"><a href="../assets/curriculum/KS1&2/ks1_Spanish_Roadmap.pdf" target="_blank">Spanish</a></li>
+                        </ul>
+                    </div>
+
                     <!-- KS3 -->
                     <div class="ks-block ks3-block">
                         <div class="ks-block-header">
