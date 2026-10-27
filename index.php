@@ -361,6 +361,14 @@ include('partials/header.php');
             </li>
             
         <h4 style="color: var(--green); margin-top: 1.5rem; margin-bottom: 1rem;">Year 7 - 10 - 2026/2027</h4>
+
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/2026/Year 10 Autumn Mock Timetable.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Year 10 Autumn Mock Exam Timetable
+                </a>
+            </li>
+
         <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
 
         <p></p> <!-- SPACER DELETE LATER -->
