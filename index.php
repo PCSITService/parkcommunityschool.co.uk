@@ -454,13 +454,13 @@ include('partials/header.php');
 </section> -->
 
 <!-- OPEN EVENT BUTTON -->
-<div class="open-event-wrap">
+<!--<div class="open-event-wrap">
     <a href="/assets/Park Primary Advert A4 Proof 7.pdf" target="_blank" class="open-event-btn">
         <i class="fas fa-calendar-star fa-calendar-alt"></i>
         <span>Park Primary Open Event!<small>Click here for full details (PDF)</small></span>
         <i class="fas fa-file-pdf"></i>
     </a>
-</div>
+</div>-->
 
 <!-- SLIDESHOW -->
 <section style="background: #333 !important; padding: 2rem 0;">
