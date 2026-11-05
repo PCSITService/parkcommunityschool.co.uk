@@ -143,6 +143,7 @@ include('../partials/header.php');
                 <ul>
                     <li><a href="/assets/letters/2026-11/Children In Need 2026 Letter.pdf" target="_blank">13th November - Children In Need</a></li>
                     <li><a href="/assets/letters/2026-11/School facilities.pdf" target="_blank">4th November - School Facilities</a></li>
+                    <li><a href="/assets/letters/2026-11/Attend Introductory letter .pdf" target="_blank">4th November - Attend Introductory</a></li>
                 </ul>
             </div>
 
