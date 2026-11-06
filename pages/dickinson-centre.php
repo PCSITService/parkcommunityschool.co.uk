@@ -280,7 +280,7 @@ include('../partials/header.php');
             <p>These facilities are available for use at all times.</p>
             <p>The rooms are competitively priced.</p>
             <div class="button-center">
-                <a href="../assets/community/Facilities Leaflet - 06.11.2025.pdf" target="_blank" class="cta-button">Facilities Price List</a>
+                <a href="../assets/community/Facilities Leaflet.pdf" target="_blank" class="cta-button">Facilities Price List</a>
             </div>
         </div>
     </div>

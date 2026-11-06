@@ -579,7 +579,7 @@ include('../partials/header.php');
             </div>
         </div>
         <div class="cta-center">
-            <a href="../assets/community/Party Leaflet Oct 25.pdf" target="_blank" class="cta-button">
+            <a href="../assets/community/Party Leaflet October 26.pdf" target="_blank" class="cta-button">
                 <i class="fas fa-download"></i>
                 Party Package Brochure
             </a>
