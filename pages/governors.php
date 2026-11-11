@@ -690,7 +690,7 @@ include('../partials/header.php');
                 <div class="role-content">
                     <h3>Meeting Attendance</h3>
                     <p>Records of the governor meetings.</p>
-                    <a href="../assets/governors/PCS_2024-25 Attendance agreed.pdf" target="_blank" class="modern-btn primary">Governor Attendance</a>
+                    <a href="../assets/governors/PCS_2025-26 Attendance .pdf" target="_blank" class="modern-btn primary">Governor Attendance</a>
                     <p style="margin-top: 2rem;">For more information about school Governors please visit the <a href="http://www.nga.org.uk/Home.aspx" target="_blank" style="color: #2a5298;">National Governors' Association</a></p>
                 </div>
             </div>
