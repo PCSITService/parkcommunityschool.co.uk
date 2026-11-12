@@ -305,6 +305,7 @@
                     <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
                     <li><a href="/pages/ofsted-reports.php">Ofsted Report</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
+                    <li><a href="https://www.connecttosupporthampshire.org.uk/family-information-and-services-hub-fish/">SEND and Hampshire Local Offer</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
                     <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
                 </ul>
@@ -394,6 +395,7 @@
                     <li><a href="/pages/letters-home.php">Letters &amp; Newsletters</a></li>
                     <li><a href="/pages/ofsted-reports.php">Ofsted Report</a></li>
                     <li><a href="/pages/trips.php">Trips</a></li>
+                    <li><a href="https://www.connecttosupporthampshire.org.uk/family-information-and-services-hub-fish/">SEND and Hampshire Local Offer</a></li>
                     <li><a href="/pages/uniform.php">Uniform</a></li>
                     <li><a href="fwyl-afterschool-clubs.php">Enrichment - Finding What You Love Clubs</a></li>
                 </ul>
