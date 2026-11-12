@@ -262,18 +262,9 @@ include('../partials/header.php');
         <h2 class="section-header">Current Vacancies</h2>
 
         <article class="vacancy-card">
-            <h3>Head Chef</h3>
+            <h3>Apprentice Early Years Assistant</h3>
             <div class="button-container">
-                <a href="../assets/recruitment/2026-10/Job Advert - Head Chef - Oct26.pdf" class="vacancy-link" target="_blank" aria-label="Head Chef - View Details">
-                    <i class="fas fa-download" aria-hidden="true"></i> View Details
-                </a>
-            </div>
-        </article>
-
-        <article class="vacancy-card">
-            <h3>Geography Teacher</h3>
-            <div class="button-container">
-                <a href="../assets/recruitment/2026-10/Geography Teacher.pdf" class="vacancy-link" target="_blank" aria-label="Geography Teacher - View Details">
+                <a href="../assets/recruitment/2026-11/Apprentice Early Years Assistant - Nov26.pdf" class="vacancy-link" target="_blank" aria-label="Early Years Assistant - View Details">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
             </div>
