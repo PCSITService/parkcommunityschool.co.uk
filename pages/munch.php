@@ -328,7 +328,7 @@ include('../partials/header.php');
 
     .help-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Change to "(3, 1fr)" if you require the 3rd column again */
         gap: 2rem;
     }
 
@@ -452,7 +452,7 @@ include('../partials/header.php');
             <div class="cell medium-3">
                 <div class="info-card green">
                     <h5>Free Meals</h5>
-                    <p>2-course meals during holidays</p>
+                    <p>2-course meals during holidays and Thursday evenings during term time</p>
                 </div>
             </div>
             <div class="cell medium-3">
@@ -464,13 +464,11 @@ include('../partials/header.php');
             <div class="cell medium-3">
                 <div class="info-card red">
                     <h5>Emergency Food</h5>
-                    <p>Always stocked fridge</p>
                 </div>
             </div>
             <div class="cell medium-3">
                 <div class="info-card purple">
                     <h5>Activities</h5>
-                    <p>Learning through play</p>
                 </div>
             </div>
         </div>
@@ -480,7 +478,7 @@ include('../partials/header.php');
 <!-- OPENING TIMES -->
 <section class="opening-times-section">
     <div class="grid-container">
-        <h3>When We're Open</h3>
+        <h3>When is the pantry open?</h3>
         <div class="time-blocks">
             <div class="time-block">
                 <span class="day">Monday</span> 11am-1pm
@@ -492,12 +490,11 @@ include('../partials/header.php');
                 <span class="day">Wednesday</span> 5pm-7pm
             </div>
             <div class="time-block">
-                <span class="day">Thursday</span> 11am-1pm &amp; 4pm-5:30pm
+                <span class="day">Thursday</span> 11am-1pm
             </div>
         </div>
         <div class="button-row text-center">
-            <a href="../assets/munch/MUNCH Sept 25.pdf" target="_blank" class="munch-button">MUNCH Flyer</a>
-            <a href="../assets/pantry/flyer.pdf" target="_blank" class="munch-button">Pantry Info</a>
+            <a href="../assets/munch/MUNCH Leaflet Sept 26.pdf" target="_blank" class="munch-button">MUNCH Flyer</a>
         </div>
     </div>
 </section>
@@ -508,14 +505,14 @@ include('../partials/header.php');
         <div class="about-grid">
             <div class="about-column">
                 <h3>Fighting Food Poverty Since 2017</h3>
-                <p>MUNCH provides free nutritious meals and activities for children and families during school holidays. We've expanded to include Thursday tea times and Sunday lunches.</p>
+                <p>MUNCH provides free nutritious meals and activities for children and families during school holidays. We've expanded to include Thursday tea times during term time.</p>
                 <div class="video-wrapper">
                     <iframe src="https://player.vimeo.com/video/299177359" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="about-column">
                 <h3>Community Pantry</h3>
-                <p>Get more for less with our £5 weekly subscription. Choose the food your family needs from our well-stocked pantry at the Dickinson Centre.</p>
+                <p>Get more for less with our £5 weekly subscription. Choose the food your household needs from our well-stocked pantry at the Dickinson Centre.</p>
                 <div class="video-wrapper">
                     <iframe src="https://player.vimeo.com/video/515253878" allowfullscreen></iframe>
                 </div>
@@ -527,23 +524,23 @@ include('../partials/header.php');
 <!-- IMPACT NUMBERS -->
 <section class="impact-section">
     <div class="grid-container">
-        <h3>Our Impact in 2023-24</h3>
+        <h3>Our Impact in 2025-26</h3>
         <div class="impact-grid">
             <div class="impact-item">
-                <h2 class="impact-number green">9,788</h2>
+                <h2 class="impact-number green">3190</h2>
                 <p>Meals Served</p>
             </div>
             <div class="impact-item">
-                <h2 class="impact-number blue">895</h2>
+                <h2 class="impact-number blue">555</h2>
                 <p>Emergency Meals</p>
             </div>
             <div class="impact-item">
-                <h2 class="impact-number red">140+</h2>
+                <h2 class="impact-number red">97+</h2>
                 <p>Christmas Guests</p>
             </div>
             <div class="impact-item">
-                <h2 class="impact-number purple">60</h2>
-                <p>Schools Involved</p>
+                <h2 class="impact-number purple">3400</h2>
+                <p>Pantry Visists</p>
             </div>
         </div>
     </div>
@@ -588,15 +585,15 @@ include('../partials/header.php');
 <section class="help-section">
     <div class="grid-container">
         <div class="help-grid">
-            <div class="help-item">
+            <!--<div class="help-item">
                 <h4>Support MUNCH</h4>
                 <p>Order a money box for your business to help feed local children.</p>
                 <a href="mailto:munch@pcs.hants.sch.uk" class="munch-button">Get a Money Box</a>
-            </div>
+            </div>-->
             <div class="help-item">
                 <h4>Join Our Pantry</h4>
                 <p>£5 weekly subscription helps your family budget go further.</p>
-                <a href="../assets/pantry/flyer.pdf" target="_blank" class="munch-button">Learn More</a>
+                <!--<a href="../assets/pantry/flyer.pdf" target="_blank" class="munch-button">Learn More</a>-->
             </div>
             <div class="help-item">
                 <h4>Need Help?</h4>
