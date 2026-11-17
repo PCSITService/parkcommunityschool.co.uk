@@ -49,7 +49,7 @@ include('../partials/header.php');
     }
 
     .learners-image img {
-        max-width: 600px;
+        max-width: 500px;
         width: 100%;
         height: auto;
         border-radius: 15px;
