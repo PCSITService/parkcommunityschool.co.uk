@@ -407,6 +407,70 @@ include('partials/header.php');
                     KA3 KS3 Year 9
                 </a>
             </li>
+
+        <h4 style="color: var(--orange); margin-top: 1.5rem; margin-bottom: 1rem;">JCQ Information for Pupils and Parents</h4>
+        <ul style="list-style: none; padding: 0; margin: 0 0 1.5rem;">
+            <!-- JCQ INFORMATION -->
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC1 - Written_Examinations_2026_FINAL.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 1 – For written examinations 2026-2027
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC2 - AI and Asessments-2026.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 2 - AI (Artificial Intelligence and Assessments)
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC3 - NE_Assessments_2026_FINAL.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 3 – non examination assessments 2026-2027
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC4 - JCQ-Social-Media-Infographic-v6.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 4 – Using Social Media 2025
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC5 On-Screen_Examinations_2026_FINAL.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 5 – For on-screen tests 2026-2027
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/IfC6 - Coursework_Assessments_2026_FINAL.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Information for candidates 6 – Coursework 2026-2027
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/AI and assessments -A quick guide for students (JCQ).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    AI and Assessment – A quick guide for students
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/On your exam day (JCQ-Preparing-to-sit-your-exams-26-27).pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    On your exam day (JCQ Preparing to sit your exams 26-27)
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/Unauthorised-Items-poster from Sept 26.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Unauthorised items poster from Sept 26
+                </a>
+            </li>
+            <li style="margin-bottom: 0.75rem;">
+                <a href="/assets/exam/JCQ Info/Warning to Candidate Poster from Sept 26.pdf" target="_blank" class="modal-link">
+                    <i class="fas fa-file-pdf"></i>
+                    Warning to candidates Poster from Sept 2026
+                </a>
+            </li>
         </ul>
     </div>
 </div>
