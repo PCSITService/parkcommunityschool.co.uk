@@ -330,7 +330,7 @@ include('partials/header.php');
             <!-- YEAR 11 EXAM SECTION -->
 
             <li style="margin-bottom: 0.75rem;">
-                <a href="/assets/exam/Year 11 Candidate Handbook for Examinations 25-26  (Oct 25).pdf" target="_blank" class="modal-link">
+                <a href="/assets/exam/Year 11 Candidate Examinations Book 2026-27.pdf" target="_blank" class="modal-link">
                     <i class="fas fa-file-pdf"></i>
                     Year 11 Candidate Handbook
                 </a>
