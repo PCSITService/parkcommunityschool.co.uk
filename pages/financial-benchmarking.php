@@ -108,7 +108,7 @@ include('../partials/header.php');
 <section class="benchmarking-section">
     <div class="grid-container">
         <div class="image-section">
-            <img src="../assets/financial-benchmarking/2024-2025.png" alt="Financial Benchmarking 2024-2025">
+            <img src="../assets/financial-benchmarking/Financhal Benchmark 2026.png" alt="Financial Benchmarking 2025-2026">
             <h3>Financial Benchmarking Insights</h3>
         </div>
         
