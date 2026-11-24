@@ -261,20 +261,20 @@ include('../partials/header.php');
     <section class="vacancies-column">
         <h2 class="section-header">Current Vacancies</h2>
 
-        <article class="vacancy-card">
+        <!--<article class="vacancy-card">
             <h3>Apprentice Early Years Assistant</h3>
             <div class="button-container">
                 <a href="../assets/recruitment/2026-11/Apprentice Early Years Assistant - Nov26.pdf" class="vacancy-link" target="_blank" aria-label="Early Years Assistant - View Details">
                     <i class="fas fa-download" aria-hidden="true"></i> View Details
                 </a>
             </div>
-        </article>
+        </article>-->
     
         <!-- Governor vacancies notice -->
         <p class="text-italic">Governor vacancies are available on the <a href="governors-page.php">Governors page</a>.</p>
         
         <!-- Uncomment when no vacancies -->
-        <!--<p class="text-italic">There are currently no staff vacancies available. Please check back later for future opportunities.</p>-->
+        <p class="text-italic">There are currently no staff vacancies available. Please check back later for future opportunities.</p>
         
     </section>
 
