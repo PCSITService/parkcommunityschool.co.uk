@@ -167,7 +167,7 @@ include('../partials/header.php');
                         <li data-policy="child protection safeguarding"><a href="/assets/policies/Child Protection - September 2026.pdf" target="_blank" class="policy-link">Child Protection</a></li>
                         <li data-policy="code of conduct"><a href="/assets/policies/code_of_conduct.pdf" target="_blank" class="policy-link">Code of Conduct</a></li>
                         <li data-policy="complaints policy procedure"><a href="/assets/policies/Complaints Policy and Procedure - July 2026.pdf" target="_blank" class="policy-link">Complaints Policy &amp; Procedure</a></li>
-                        <li data-policy="confidentiality"><a href="/assets/policies/confidentiality.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
+                        <li data-policy="confidentiality"><a href="/assets/policies/Confidentiality - November 2026.pdf" target="_blank" class="policy-link">Confidentiality</a></li>
                         <li data-policy="conflict of interests"><a href="/assets/policies/conflict-of-interests.pdf" target="_blank" class="policy-link">Conflict of Interests</a></li>
                         <li data-policy="curriculum"><a href="/pages/curriculum.php" class="policy-link">Curriculum</a></li>
                         <li data-policy="Careers Education Info"><a href="/assets/policies/Careers Education Information Advice and Guidance - 2026.pdf" target="_blank" class="policy-link">Careers Education Info</a></li>
@@ -201,9 +201,9 @@ include('../partials/header.php');
                         <li data-policy="provider access"><a href="/assets/policies/Provider Access -January 2026.pdf" target="_blank" class="policy-link">Provider Access</a></li>
                         <li data-policy="pupil premium"><a href="/pages/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
                         <li data-policy="religious education collective worship re"><a href="/assets/policies/Religious Education and Collective Worship - December 2025.pdf" target="_blank" class="policy-link">Religious Education and Collective Worship</a></li>
-                        <li data-policy="safeguarding adults policy"><a href="/assets/policies/Safeguarding Adults  - November 2023.pdf" target="_blank" class="policy-link">Safeguarding Adults Policy</a></li>
+                        <li data-policy="safeguarding adults policy"><a href="/assets/policies/Safeguarding Adults  - November 2026.pdf" target="_blank" class="policy-link">Safeguarding Adults Policy</a></li>
                         <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/Safeguarding September 2026.pdf" target="_blank" class="policy-link">Safeguarding Policy, Procedure and Guidance</a></li>
-                        <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
+                        <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - Nov 26.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="sex education rse relationships"><a href="/assets/policies/Relationship  Sex Education - January 2026.pdf" target="_blank" class="policy-link">Sex Education</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC (Spiritual, Moral, Social &amp; Cultural)</a></li>

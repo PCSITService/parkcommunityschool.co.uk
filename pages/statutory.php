@@ -202,7 +202,7 @@ include('../partials/header.php');
                         <li data-policy="performance tables results"><a href="https://www.education.gov.uk/cgi-bin/schools/performance/school.pl?urn=116473" target="_blank" class="policy-link">Performance Tables</a></li>
                         <li data-policy="pupil premium disadvantaged funding"><a href="/pages/pupil-premium.php" class="policy-link">Pupil Premium</a></li>
                         <li data-policy="safeguarding policy procedure guidance child protection"><a href="/assets/policies/Safeguarding September 2026.pdf" target="_blank" class="policy-link">Safeguarding Policy</a></li>
-                        <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - September 2025.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
+                        <li data-policy="send information report special educational needs disabilities"><a href="/assets/policies/SEND Information Report - Nov 26.pdf" target="_blank" class="policy-link">SEND Information Report</a></li>
                         <li data-policy="send policy special educational needs disabilities"><a href="/assets/policies/SEND - September 2025.pdf" target="_blank" class="policy-link">SEND Policy</a></li>
                         <li data-policy="smsc spiritual moral social cultural"><a href="/pages/smsc.php" class="policy-link">SMSC</a></li>
                         <li data-policy="suspension and permanent exclusion expelled"><a href="/assets/policies/Suspension and Permanent Exclusion  - June 2026.pdf" target="_blank" class="policy-link">Suspension and Permanent Exclusion</a></li>
